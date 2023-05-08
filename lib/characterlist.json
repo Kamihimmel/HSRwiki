@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "ENname": "Herta",
+            "CNname": "黑塔",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/herta.webp",
+            "etype": "ice",
+            "wtype": "erudition",
+            "rarity": "4"
+        },
+        {
+            "ENname": "Kafka",
+            "CNname": "卡夫卡",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/kafka.webp",
+            "etype": "lightning",
+            "wtype": "nihility",
+            "rarity": "5"
+        }
+    ]
+}
