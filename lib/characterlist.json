@@ -3,6 +3,7 @@
         {
             "ENname": "Herta",
             "CNname": "黑塔",
+            "JAname": "ヘルタ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/herta.webp",
             "etype": "ice",
             "wtype": "erudition",
@@ -11,14 +12,25 @@
         {
             "ENname": "Kafka",
             "CNname": "卡芙卡",
+            "JAname": "黑塔",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/kafka.webp",
             "etype": "lightning",
             "wtype": "nihility",
             "rarity": "5"
         },
         {
+            "ENname": "Yan Qing",
+            "CNname": "彦卿",
+            "JAname": "彦卿",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/yanqing.webp",
+            "etype": "ice",
+            "wtype": "thehunt",
+            "rarity": "5"
+        },
+        {
             "ENname": "Himeko",
             "CNname": "姬子",
+            "JAname": "姫子",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/himeko.webp",
             "etype": "fire",
             "wtype": "erudition",
@@ -27,6 +39,7 @@
         {
             "ENname": "Welt",
             "CNname": "瓦尔特",
+            "JAname": "ヴェルト",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/welt.webp",
             "etype": "imaginary",
             "wtype": "nihility",
@@ -35,6 +48,7 @@
         {
             "ENname": "Silver Wolf",
             "CNname": "银狼",
+            "JAname": "銀狼",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/silverwolf.webp",
             "etype": "quantum",
             "wtype": "nihility",
@@ -43,6 +57,7 @@
         {
             "ENname": "Bronya",
             "CNname": "布洛妮娅",
+            "JAname": "ブローニャ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/bronya.webp",
             "etype": "wind",
             "wtype": "harmony",
@@ -51,6 +66,7 @@
         {
             "ENname": "Seele",
             "CNname": "希儿",
+            "JAname": "ゼーレ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/seele.webp",
             "etype": "quantum",
             "wtype": "thehunt",
@@ -59,6 +75,7 @@
         {
             "ENname": "Gepard",
             "CNname": "杰帕德",
+            "JAname": "ジェパード",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/gepard.webp",
             "etype": "quantum",
             "wtype": "thehunt",
@@ -67,6 +84,7 @@
         {
             "ENname": "Clara",
             "CNname": "克拉拉",
+            "JAname": "クラーラ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/clara.webp",
             "etype": "physical",
             "wtype": "destruction",
@@ -74,7 +92,8 @@
         },
         {
             "ENname": "Luocha",
-            "CNname": "罗刹",
+            "CNname": "羅刹",
+            "JAname": "クラーラ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/luocha.webp",
             "etype": "imaginary",
             "wtype": "abundance",
@@ -83,6 +102,7 @@
         {
             "ENname": "Jing Yuan",
             "CNname": "景元",
+            "JAname": "景元",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/jingyuan.webp",
             "etype": "lightning",
             "wtype": "erudition",
@@ -91,6 +111,7 @@
         {
             "ENname": "Bailu",
             "CNname": "白露",
+            "JAname": "白露",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/bailu.webp",
             "etype": "lightning",
             "wtype": "abundance",
@@ -99,6 +120,7 @@
         {
             "ENname": "Trailblazer",
             "CNname": "开拓者",
+            "JAname": "開拓者",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/mc.webp",
             "etype": "physical",
             "wtype": "destruction",
@@ -107,6 +129,7 @@
         {
             "ENname": "Trailblazer",
             "CNname": "开拓者",
+            "JAname": "開拓者",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/mcf.webp",
             "etype": "fire",
             "wtype": "preservation",
@@ -115,6 +138,7 @@
         {
             "ENname": "March 7th",
             "CNname": "三月七",
+            "JAname": "三月なのか",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/march7th.webp",
             "etype": "ice",
             "wtype": "preservation",
@@ -123,6 +147,7 @@
         {
             "ENname": "Dan Heng",
             "CNname": "丹恒",
+            "JAname": "丹恒",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/danheng.webp",
             "etype": "wind",
             "wtype": "thehunt",
@@ -139,6 +164,7 @@
         {
             "ENname": "Arlan",
             "CNname": "阿兰",
+            "JAname": "アーラン",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/arlan.webp",
             "etype": "lightning",
             "wtype": "destruction",
@@ -147,6 +173,7 @@
         {
             "ENname": "Asta",
             "CNname": "艾丝妲",
+            "JAname": "アスター",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/asta.webp",
             "etype": "fire",
             "wtype": "harmony",
@@ -155,6 +182,7 @@
         {
             "ENname": "Serval",
             "CNname": "希露瓦",
+            "JAname": "セーバル",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/serval.webp",
             "etype": "lightning",
             "wtype": "erudition",
@@ -163,6 +191,7 @@
         {
             "ENname": "Natasha",
             "CNname": "娜塔莎",
+            "JAname": "ナターシャ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/natasha.webp",
             "etype": "physical",
             "wtype": "abundance",
@@ -171,6 +200,7 @@
         {
             "ENname": "Tingyun",
             "CNname": "停云",
+            "JAname": "停雲",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/tingyun.webp",
             "etype": "lightning",
             "wtype": "harmony",
@@ -179,6 +209,7 @@
         {
             "ENname": "Pela",
             "CNname": "佩拉",
+            "JAname": "ペラ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/pela.webp",
             "etype": "ice",
             "wtype": "nihility",
@@ -187,6 +218,7 @@
         {
             "ENname": "Sampo",
             "CNname": "桑博",
+            "JAname": "サンポ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sampo.webp",
             "etype": "wind",
             "wtype": "nihility",
@@ -195,6 +227,7 @@
         {
             "ENname": "Hook",
             "CNname": "虎克",
+            "JAname": "フック",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/hook.webp",
             "etype": "fire",
             "wtype": "destruction",
@@ -203,6 +236,7 @@
         {
             "ENname": "Qingque",
             "CNname": "青雀",
+            "JAname": "青雀",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/qingque.webp",
             "etype": "quantum",
             "wtype": "erudition",
@@ -211,6 +245,7 @@
         {
             "ENname": "Sushang",
             "CNname": "素裳",
+            "JAname": "素裳",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sushang.webp",
             "etype": "physical",
             "wtype": "thehunt",
