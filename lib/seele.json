@@ -1,0 +1,30 @@
+{
+    "ENname": "Seele",
+    "CNname": "希儿",
+    "JAname": "ゼーレ",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/seele.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/seelelarge.webp",
+    "etype": "quantum",
+    "wtype": "thehunt",
+    "rarity": "5",
+    "data": [
+        {
+            "ENname": "Qingque",
+            "CNname": "青雀",
+            "JAname": "青雀",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/qingque.webp",
+            "etype": "quantum",
+            "wtype": "erudition",
+            "rarity": "4"
+        },
+        {
+            "ENname": "Sushang",
+            "CNname": "素裳",
+            "JAname": "素裳",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sushang.webp",
+            "etype": "physical",
+            "wtype": "thehunt",
+            "rarity": "4"
+        }
+    ]
+}

@@ -7,7 +7,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/herta.webp",
             "etype": "ice",
             "wtype": "erudition",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Kafka",
@@ -16,7 +17,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/kafka.webp",
             "etype": "lightning",
             "wtype": "nihility",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Yan Qing",
@@ -25,7 +27,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/yanqing.webp",
             "etype": "ice",
             "wtype": "thehunt",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Himeko",
@@ -34,7 +37,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/himeko.webp",
             "etype": "fire",
             "wtype": "erudition",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Welt",
@@ -43,7 +47,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/welt.webp",
             "etype": "imaginary",
             "wtype": "nihility",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Silver Wolf",
@@ -52,7 +57,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/silverwolf.webp",
             "etype": "quantum",
             "wtype": "nihility",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Bronya",
@@ -61,7 +67,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/bronya.webp",
             "etype": "wind",
             "wtype": "harmony",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Seele",
@@ -70,7 +77,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/seele.webp",
             "etype": "quantum",
             "wtype": "thehunt",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Gepard",
@@ -79,7 +87,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/gepard.webp",
             "etype": "quantum",
             "wtype": "thehunt",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Clara",
@@ -88,7 +97,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/clara.webp",
             "etype": "physical",
             "wtype": "destruction",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Luocha",
@@ -97,7 +107,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/luocha.webp",
             "etype": "imaginary",
             "wtype": "abundance",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Jing Yuan",
@@ -106,7 +117,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/jingyuan.webp",
             "etype": "lightning",
             "wtype": "erudition",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Bailu",
@@ -115,7 +127,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/bailu.webp",
             "etype": "lightning",
             "wtype": "abundance",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Trailblazer",
@@ -124,7 +137,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/mc.webp",
             "etype": "physical",
             "wtype": "destruction",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Trailblazer",
@@ -133,7 +147,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/mcf.webp",
             "etype": "fire",
             "wtype": "preservation",
-            "rarity": "5"
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "March 7th",
@@ -142,7 +157,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/march7th.webp",
             "etype": "ice",
             "wtype": "preservation",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Dan Heng",
@@ -151,7 +167,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/danheng.webp",
             "etype": "wind",
             "wtype": "thehunt",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Arlan",
@@ -160,7 +177,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/arlan.webp",
             "etype": "lightning",
             "wtype": "destruction",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Asta",
@@ -169,7 +187,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/asta.webp",
             "etype": "fire",
             "wtype": "harmony",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Serval",
@@ -178,7 +197,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/serval.webp",
             "etype": "lightning",
             "wtype": "erudition",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Natasha",
@@ -187,7 +207,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/natasha.webp",
             "etype": "physical",
             "wtype": "abundance",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Tingyun",
@@ -196,7 +217,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/tingyun.webp",
             "etype": "lightning",
             "wtype": "harmony",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Pela",
@@ -205,7 +227,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/pela.webp",
             "etype": "ice",
             "wtype": "nihility",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Sampo",
@@ -214,7 +237,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sampo.webp",
             "etype": "wind",
             "wtype": "nihility",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Hook",
@@ -223,7 +247,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/hook.webp",
             "etype": "fire",
             "wtype": "destruction",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Qingque",
@@ -232,7 +257,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/qingque.webp",
             "etype": "quantum",
             "wtype": "erudition",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
             "ENname": "Sushang",
@@ -241,7 +267,8 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sushang.webp",
             "etype": "physical",
             "wtype": "thehunt",
-            "rarity": "4"
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         }
     ]
 }
