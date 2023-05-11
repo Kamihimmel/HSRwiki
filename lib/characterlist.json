@@ -85,8 +85,8 @@
             "CNname": "杰帕德",
             "JAname": "ジェパード",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/gepard.webp",
-            "etype": "quantum",
-            "wtype": "thehunt",
+            "etype": "icd",
+            "wtype": "preservation",
             "rarity": "5",
             "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
