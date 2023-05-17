@@ -9,6 +9,7 @@
     "rarity": "5",
     "dtaunt": 75,
     "dspeed": 115,
+    "maxenergy": 115,
     "leveldata": [
         {
             "level": "1",
@@ -95,24 +96,214 @@
             "def": 363
         }
     ],
-    "data": [
+    "skilldata": [
         {
-            "ENname": "Qingque",
-            "CNname": "青雀",
-            "JAname": "青雀",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/qingque.webp",
-            "etype": "quantum",
-            "wtype": "erudition",
-            "rarity": "4"
+            "ENname": "Thwack",
+            "CNname": "强袭",
+            "JAname": "強襲",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seelena.webp",
+            "DescriptionEN": "Deals Quantum DMG equal to [1]% of Seele's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于希儿[1]%攻击力的量子属性伤害。",
+            "DescriptionJP": "指定した敵単体にゼーレの攻撃力[1]%分の量子属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
         },
         {
-            "ENname": "Sushang",
-            "CNname": "素裳",
-            "JAname": "素裳",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sushang.webp",
-            "etype": "physical",
-            "wtype": "thehunt",
-            "rarity": "4"
+            "ENname": "Sheathed Blade",
+            "CNname": "归刃",
+            "JAname": "還刃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeleskill.webp",
+            "DescriptionEN": "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to [1]% of Seele's ATK to a single enemy.",
+            "DescriptionCN": "使希儿的速度提高25%，并对指定敌方单体造成等同于希儿[1]%攻击力的量子属性伤害，速度提高效果持续2回合。",
+            "DescriptionJP": "ゼーレの速度+25%、2ターン継続。指定した敵単体にゼーレの攻撃力[1]%分の量子属性ダメージを与える。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 110,
+                    "2": 121,
+                    "3": 132,
+                    "4": 143,
+                    "5": 154,
+                    "6": 165,
+                    "7": 178.75,
+                    "8": 192.5,
+                    "9": 206.25,
+                    "10": 220,
+                    "11": 231,
+                    "12": 242,
+                    "13": 253,
+                    "14": 264,
+                    "15": 275
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "skillatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Butterfly Flurry",
+            "CNname": "乱蝶",
+            "JAname": "乱れ蝶",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeleult.webp",
+            "DescriptionEN": "Seele enters the buffed state and deals Quantum DMG equal to [1]% of her ATK to a single enemy.",
+            "DescriptionCN": "立即进入增幅状态，并对指定敌方单体造成等同于希儿[1]%攻击力的量子属性伤害。",
+            "DescriptionJP": "増幅状態に入り、指定した敵単体にゼーレの攻撃力[1]%分の量子属性ダメージを与える。",
+            "stype": "ult",
+            "energy": 120,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 255,
+                    "2": 272,
+                    "3": 289,
+                    "4": 306,
+                    "5": 323,
+                    "6": 340,
+                    "7": 361.25,
+                    "8": 382.5,
+                    "9": 403.75,
+                    "10": 425,
+                    "11": 442,
+                    "12": 459,
+                    "13": 476,
+                    "14": 493,
+                    "15": 510
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "ultatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Resurgence",
+            "CNname": "再现",
+            "JAname": "再現",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeletalent.webp",
+            "DescriptionEN": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by [1]% for 1 turn(s).Enemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+            "DescriptionCN": "施放普攻、战技、终结技消灭敌方目标时立即获得1个额外回合并进入增幅状态，增幅状态下希儿施放攻击造成的伤害提高[1]%，持续1回合。若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。",
+            "DescriptionJP": "通常攻撃、戦闘スキル、必殺技で敵を倒すと追加ターンを1獲得し、増幅状態に入る。増幅状態のゼーレの与ダメージ+[1]%、1ターン継続。ゼーレの天賦「再現」で獲得した追加ターンの間に敵を倒した場合、この天賦は発動しない。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 40,
+                    "2": 44,
+                    "3": 48,
+                    "4": 52,
+                    "5": 56,
+                    "6": 60,
+                    "7": 65,
+                    "8": 70,
+                    "9": 75,
+                    "10": 80,
+                    "11": 84,
+                    "12": 88,
+                    "13": 92,
+                    "14": 96,
+                    "15": 100
+                }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Phantom Illusion",
+            "CNname": "幻身",
+            "JAname": "幻身",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeletec.webp",
+            "DescriptionEN": "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state.",
+            "DescriptionCN": "使用秘技后进入持续20秒的隐身状态。隐身状态下不会被敌人发现，且主动攻击敌人进入战斗时，希儿立即进入增幅状态。",
+            "DescriptionJP": "秘技を使用した後、20秒のステルス状態になる。ステルス状態になると敵に発見されず、敵を先制攻撃して戦闘に入る時、ゼーレが増幅状態になる。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "special"
+            ]
         }
     ]
 }
