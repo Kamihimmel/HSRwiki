@@ -330,8 +330,8 @@
                     "addtarget": "taunt",
                     "multiplier": -50,
                     "tag": [
-                        "taunt",
-                        "self"
+                        "self",
+                        "taunt"
                     ]
                 }
             ]
@@ -389,8 +389,8 @@
                     "addtarget": "actionf",
                     "multiplier": 20,
                     "tag": [
-                        "actionf",
-                        "self"
+                        "self",
+                        "actionf"
                     ]
                 }
             ]
@@ -485,8 +485,8 @@
         {
             "tiny": true,
             "ENname": "CRIT DMG +8%",
-            "CNname": "会心ダメージ +8%",
-            "JAname": "暴击伤害 +8%",
+            "CNname": "暴击伤害 +8%",
+            "JAname": "会心ダメージ +8%",
             "ttype": "critdmg",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
