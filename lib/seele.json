@@ -386,7 +386,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "multipliertarget": "actionf",
+                    "addtarget": "actionf",
                     "multiplier": 20,
                     "tag": [
                         "actionf",
