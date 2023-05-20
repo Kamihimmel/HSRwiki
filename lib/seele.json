@@ -815,6 +815,7 @@
                 "additionalatk",
                 "quantumatk"
             ],
+            "maxlevel": 15,
             "levelmultiplier": [
                 {
                     "1": 38.25,
