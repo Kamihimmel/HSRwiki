@@ -323,6 +323,17 @@
                 "buff",
                 "normalatkcr",
                 "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "normalatkcr",
+                    "multiplier": 100,
+                    "tag": [
+                        "self",
+                        "normalatkcr"
+                    ]
+                }
             ]
         },
         {
