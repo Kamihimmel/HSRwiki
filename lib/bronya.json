@@ -183,7 +183,7 @@
                     "addtarget": "alldmg",
                     "multiplier": 1,
                     "tag": [
-                        "self",
+                        "singleally",
                         "alldmg"
                     ]
                 }
