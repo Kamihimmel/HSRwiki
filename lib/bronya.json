@@ -362,7 +362,7 @@
             "JAname": "軍勢",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyat3.webp",
             "DescriptionEN": "When Bronya is on the field, all allies deal 10% more DMG.",
-            "DescriptionCN": "施放普攻后，希儿的下一次行动提前20%。",
+            "DescriptionCN": "布洛妮娅在场时，我方全体造成的伤害提高10%。",
             "DescriptionJP": "ブローニャがフィールド上にいる時、味方全体の与ダメージ+10%。",
             "stype": "trace",
             "buffskill": true,
@@ -678,104 +678,57 @@
     "eidolon": [
         {
             "eidolonnum": 1,
-            "ENname": "Extirpating Slash",
-            "CNname": "斩尽",
-            "JAname": "斬尽",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seele1.png",
-            "DescriptionEN": "When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%.",
-            "DescriptionCN": "对当前生命值百分比小于等于80%的敌方目标造成伤害时，暴击率提高15%。",
-            "DescriptionJP": "残りHPが80%以下の敵にダメージを与える時、会心率+15%。",
+            "ENname": "Hone Your Strength",
+            "CNname": "养精蓄锐",
+            "JAname": "英気を養う",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae1.png",
+            "DescriptionEN": "When using Skill, there is a 50% fixed chance of recovering 1 Skill Point. This effect has a 1-turn cooldown.",
+            "DescriptionCN": "施放战技时，有50%固定概率恢复1个战技点，该效果有1回合的触发冷却。",
+            "DescriptionJP": "戦闘スキルを発動した時、50%の固定確率でSPを1回復する、クールタイムは1ターン。",
             "stype": "eidolon",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
                 "buff",
-                "critrate",
+                "skillpointre",
                 "self"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 15,
-                    "tag": [
-                        "self",
-                        "critrate"
-                    ]
-                }
             ]
         },
         {
             "eidolonnum": 2,
-            "ENname": "Dancing Butterfly",
-            "CNname": "蝶舞",
-            "JAname": "蝶舞",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seele2.png",
-            "DescriptionEN": "The SPD Boost effect of Seele's Skill can stack up to 2 time(s).",
-            "DescriptionCN": "战技的加速效果可以叠加，最多叠加2层。",
-            "DescriptionJP": "戦闘スキルの加速効果が累積できるようになる、最大で2層累積できる。",
-            "stype": "eidolon",
-            "buffskill": false,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "special",
-                "self"
-            ]
-        },
-        {
-            "eidolonnum": 3,
-            "ENname": "Dazzling Tumult",
-            "CNname": "缭乱",
-            "JAname": "繚乱",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeleskill.webp",
-            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
-            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-            "stype": "eidolon",
-            "buffskill": false,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "special",
-                "self"
-            ]
-        },
-        {
-            "eidolonnum": 4,
-            "ENname": "Flitting Phantasm",
-            "CNname": "缭乱",
-            "JAname": "繚乱",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seele4.png",
-            "DescriptionEN": "Seele regenerates 15 Energy when she defeats an enemy.",
-            "DescriptionCN": "希儿消灭敌方目标时，自身恢复15点能量。",
-            "DescriptionJP": "ゼーレが敵を倒した時、EPを15回復する。",
+            "ENname": "Quick March",
+            "CNname": "快速行军",
+            "JAname": "急行軍",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae2.png",
+            "DescriptionEN": "When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn.",
+            "DescriptionCN": "施放战技时，被指定的我方目标在行动后速度提高30%，持续1回合。",
+            "DescriptionJP": "戦闘スキルを発動した時、指定された味方は行動した後に速度+30%、1ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "energy",
-                "self"
+                "actionf",
+                "singleally"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "energy",
-                    "multiplier": 15,
+                    "addtarget": "actionf",
+                    "multiplier": 30,
                     "tag": [
-                        "self",
-                        "energy"
+                        "singleally",
+                        "actionf"
                     ]
                 }
             ]
         },
         {
-            "eidolonnum": 5,
-            "ENname": "Piercing Shards",
-            "CNname": "锋锐",
-            "JAname": "鋒鋭",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeleult.webp",
+            "eidolonnum": 3,
+            "ENname": "Bombardment",
+            "CNname": "鼓炮齐鸣",
+            "JAname": "一斉射撃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae3.webp",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
@@ -789,51 +742,57 @@
             ]
         },
         {
-            "eidolonnum": 6,
-            "ENname": "Shattering Shambles",
-            "CNname": "离析",
-            "JAname": "離析",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seele6.png",
-            "DescriptionEN": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered.When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed.",
-            "DescriptionCN": "施放终结技后使受到攻击的敌方单体陷入【乱蝶】状态，持续1回合。【乱蝶】状态下的敌方目标受到攻击后，额外受到1次等同于希儿终结技伤害15%的量子属性附加伤害。若该目标被我方其他目标触发【乱蝶】状态的附加伤害消灭，将不会触发希儿的天赋。当希儿陷入无法战斗状态时，敌方目标的【乱蝶】状态被解除。",
-            "DescriptionJP": "必殺技を発動した後、攻撃を受けた敵単体を「乱れ蝶」状態にする、1ターン継続。乱れ蝶状態の敵が攻撃を受けた後、ゼーレの必殺技ダメージ15%分の量子属性付加ダメージを1回受ける。その敵が、他の味方に「乱れ蝶」の付加ダメージを触発され倒された時、ゼーレの天賦は発動しない。ゼーレが戦闘不能状態になった時、敵の「乱れ蝶」状態が解除される。",
+            "eidolonnum": 4,
+            "ENname": "Take by Surprise",
+            "CNname": "攻其不备",
+            "JAname": "不意打ち",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae4.png",
+            "DescriptionEN": "After an ally other than Bronya uses Basic ATK on an enemy with Wind Weakness, Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to 80% of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn.",
+            "DescriptionCN": "我方其他角色对弱点为风属性的敌方目标施放普攻后，布洛妮娅立即进行1次追加攻击，对该目标造成等同于普攻伤害80%的风属性伤害，该效果每回合可触发1次。",
+            "DescriptionJP": "他の味方が、弱点が風属性の敵に通常攻撃を行った後、ブローニャは追加攻撃を発動し、その敵に通常攻撃のダメージ80%分の風属性ダメージを与える、この効果はターンが回ってくるたびに1回発動できる。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Unstoppable",
+            "CNname": "所向克捷",
+            "JAname": "向かう所敵なし",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae5.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
             "tags": [
-                "additionalatk",
-                "quantumatk"
-            ],
-            "maxlevel": 15,
-            "levelmultiplier": [
-                {
-                    "1": 38.25,
-                    "2": 40.8,
-                    "3": 43.35,
-                    "4": 45.9,
-                    "5": 48.45,
-                    "6": 51,
-                    "7": 54.2,
-                    "8": 57.4,
-                    "9": 60.6,
-                    "10": 63.75,
-                    "11": 66.3,
-                    "12": 68.85,
-                    "13": 71.4,
-                    "14": 73.95,
-                    "15": 76.5
-                }
-            ],
-            "effect": [
-                {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 1,
-                    "tag": [
-                        "additionalatk",
-                        "quantumatk"
-                    ]
-                }
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Piercing Rainbow",
+            "CNname": "气贯长虹",
+            "JAname": "気勢貫天",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae6.png",
+            "DescriptionEN": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s).",
+            "DescriptionCN": "战技对指定我方目标造成的伤害提高效果的持续时间增加1回合。",
+            "DescriptionJP": "戦闘スキルが付与する、指定した味方の与ダメージアップ効果の継続時間+1ターン。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "alldmg",
+                "singleally"
             ]
         }
     ]
