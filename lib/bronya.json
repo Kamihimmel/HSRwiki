@@ -288,120 +288,98 @@
             ]
         },
         {
-            "ENname": "Banner of Command",
-            "CNname": "在旗帜下",
-            "JAname": "旗の下で",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyatec.webp",
-            "DescriptionEN": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).",
-            "DescriptionCN": "使用秘技后，下一次战斗开始时使我方全体攻击力提高15%，持续2回合。",
-            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、味方全体の攻撃力+15%、2ターン継続。",
+            "ENname": "Phantom Illusion",
+            "CNname": "幻身",
+            "JAname": "幻身",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeletec.webp",
+            "DescriptionEN": "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state.",
+            "DescriptionCN": "使用秘技后进入持续20秒的隐身状态。隐身状态下不会被敌人发现，且主动攻击敌人进入战斗时，希儿立即进入增幅状态。",
+            "DescriptionJP": "秘技を使用した後、20秒のステルス状態になる。ステルス状態になると敵に発見されず、敵を先制攻撃して戦闘に入る時、ゼーレが増幅状態になる。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
-            "teamskill": true,
+            "teamskill": false,
             "tags": [
                 "buff",
-                "atk",
-                "allally"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 15,
-                    "tag": [
-                        "allally",
-                        "atk"
-                    ]
-                }
+                "self",
+                "special"
             ]
         }
     ],
     "tracedata": [
         {
             "tiny": false,
-            "ENname": "Nightshade",
-            "CNname": "夜行",
-            "JAname": "夜行",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seelet1.webp",
-            "DescriptionEN": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
-            "DescriptionCN": "若当前生命值百分比小于等于50%，则被敌方目标攻击的概率降低。",
-            "DescriptionJP": "残りHPが50%以下の場合、敵に攻撃される確率ダウン。",
+            "ENname": "Command",
+            "CNname": "号令",
+            "JAname": "号令",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyat1.webp",
+            "DescriptionEN": "The CRIT Rate for Basic ATK increases to 100%",
+            "DescriptionCN": "普攻的暴击率提高至100%。",
+            "DescriptionJP": "通常攻撃の会心率が100%まで上がる。",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "taunt",
+                "normalatkcr",
                 "self"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "taunt",
-                    "multiplier": -50,
-                    "tag": [
-                        "self",
-                        "taunt"
-                    ]
-                }
             ]
         },
         {
             "tiny": false,
-            "ENname": "Lacerate",
-            "CNname": "割裂",
-            "JAname": "斬裂",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seelet2.webp",
-            "DescriptionEN": "While Seele is in the buffed state, her Quantum RES PEN increases by 20%.",
-            "DescriptionCN": "增幅状态下希儿的量子抗性穿透提高20%。",
-            "DescriptionJP": "増幅状態の時、ゼーレの量子属性耐性貫通+20%。",
+            "ENname": "Battlefield",
+            "CNname": "阵地",
+            "JAname": "陣地",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyat2.webp",
+            "DescriptionEN": "At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).",
+            "DescriptionCN": "战斗开始时，我方全体的防御力提高20%，持续2回合。",
+            "DescriptionJP": "戦闘開始時、味方全体の防御力+20%、2ターン継続。",
             "stype": "trace",
             "maxlevel": 15,
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "tags": [
                 "buff",
-                "quantumpen",
-                "self"
+                "def",
+                "allally"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "quantumpen",
+                    "addtarget": "def",
                     "multiplier": 20,
                     "tag": [
-                        "self",
-                        "quantumpen"
+                        "allally",
+                        "def"
                     ]
                 }
             ]
         },
         {
             "tiny": false,
-            "ENname": "Rippling Waves",
-            "CNname": "涟漪",
-            "JAname": "さざ波",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seelet3.webp",
-            "DescriptionEN": "After using a Basic ATK, Seele's next action will be Advanced Forward by 20%.",
+            "ENname": "Military Might",
+            "CNname": "军势",
+            "JAname": "軍勢",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyat3.webp",
+            "DescriptionEN": "When Bronya is on the field, all allies deal 10% more DMG.",
             "DescriptionCN": "施放普攻后，希儿的下一次行动提前20%。",
-            "DescriptionJP": "通常攻撃を行った後、ゼーレの次の行動順が20%早まる。",
+            "DescriptionJP": "ブローニャがフィールド上にいる時、味方全体の与ダメージ+10%。",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "tags": [
                 "buff",
-                "actionf",
-                "self"
+                "alldmg",
+                "allally"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "actionf",
-                    "multiplier": 20,
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
                     "tag": [
-                        "self",
-                        "actionf"
+                        "allally",
+                        "alldmg"
                     ]
                 }
             ]
@@ -437,10 +415,10 @@
         },
         {
             "tiny": true,
-            "ENname": "ATK +4%",
-            "CNname": "攻击力 +4%",
-            "JAname": "攻撃力 +4%",
-            "ttype": "atk",
+            "ENname": "Wind DMG +3.2%",
+            "CNname": "风属性伤害提高 +3.2%",
+            "JAname": "風属性与ダメージ +3.2%",
+            "ttype": "winddmg",
             "DescriptionEN": "A3",
             "DescriptionCN": "A3",
             "DescriptionJP": "A3",
@@ -450,26 +428,26 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "winddmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 4,
+                    "addtarget": "winddmg",
+                    "multiplier": 3.2,
                     "tag": [
                         "self",
-                        "atk"
+                        "winddmg"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "ATK +6%",
-            "CNname": "攻击力 +6%",
-            "JAname": "攻撃力 +6%",
-            "ttype": "atk",
+            "ENname": "Wind DMG +4.8%",
+            "CNname": "风属性伤害提高 +4.8%",
+            "JAname": "風属性与ダメージ +4.8%",
+            "ttype": "winddmg",
             "DescriptionEN": "A4",
             "DescriptionCN": "A4",
             "DescriptionJP": "A4",
@@ -479,16 +457,16 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "winddmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 6,
+                    "addtarget": "winddmg",
+                    "multiplier": 4.8,
                     "tag": [
                         "self",
-                        "atk"
+                        "winddmg"
                     ]
                 }
             ]
@@ -524,10 +502,10 @@
         },
         {
             "tiny": true,
-            "ENname": "DEF +7.5%",
-            "CNname": "防御力 +7.5%",
-            "JAname": "防御力 +7.5%",
-            "ttype": "def",
+            "ENname": "Effect RES +6%",
+            "CNname": "效果抵抗 +6%",
+            "JAname": "効果抵抗 +6%",
+            "ttype": "effectres",
             "DescriptionEN": "A6",
             "DescriptionCN": "A6",
             "DescriptionJP": "A6",
@@ -537,16 +515,16 @@
             "tags": [
                 "buff",
                 "self",
-                "def"
+                "effectres"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 7.5,
+                    "addtarget": "effectres",
+                    "multiplier": 6,
                     "tag": [
                         "self",
-                        "def"
+                        "effectres"
                     ]
                 }
             ]
@@ -582,10 +560,10 @@
         },
         {
             "tiny": true,
-            "ENname": "ATK +8%",
-            "CNname": "攻击力 +8%",
-            "JAname": "攻撃力 +8%",
-            "ttype": "atk",
+            "ENname": "Wind DMG +6.4%",
+            "CNname": "风属性伤害提高 +6.4%",
+            "JAname": "風属性与ダメージ +6.4%",
+            "ttype": "winddmg",
             "DescriptionEN": "LV80",
             "DescriptionCN": "LV80",
             "DescriptionJP": "LV80",
@@ -595,26 +573,26 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "winddmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 8,
+                    "addtarget": "winddmg",
+                    "multiplier": 6.4,
                     "tag": [
                         "self",
-                        "atk"
+                        "winddmg"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "ATK +4%",
-            "CNname": "攻击力 +4%",
-            "JAname": "攻撃力 +4%",
-            "ttype": "atk",
+            "ENname": "Wind DMG +3.2%",
+            "CNname": "风属性伤害提高 +3.2%",
+            "JAname": "風属性与ダメージ +3.2%",
+            "ttype": "winddmg",
             "DescriptionEN": "LV1",
             "DescriptionCN": "LV1",
             "DescriptionJP": "LV1",
@@ -624,13 +602,13 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "winddmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 4,
+                    "addtarget": "winddmg",
+                    "multiplier": 3.2,
                     "tag": [
                         "self",
                         "atk"
@@ -640,10 +618,10 @@
         },
         {
             "tiny": true,
-            "ENname": "DEF +5%",
-            "CNname": "防御力 +5%",
-            "JAname": "防御力 +5%",
-            "ttype": "def",
+            "ENname": "Effect RES +4%",
+            "CNname": "效果抵抗 +4%",
+            "JAname": "効果抵抗 +4%",
+            "ttype": "effectres",
             "DescriptionEN": "A3",
             "DescriptionCN": "A3",
             "DescriptionJP": "A3",
@@ -653,26 +631,26 @@
             "tags": [
                 "buff",
                 "self",
-                "def"
+                "effectres"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 5,
+                    "addtarget": "effectres",
+                    "multiplier": 4,
                     "tag": [
                         "self",
-                        "def"
+                        "effectres"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "ATK +6%",
-            "CNname": "攻击力 +6%",
-            "JAname": "攻撃力 +6%",
-            "ttype": "atk",
+            "ENname": "Wind DMG +4.8%",
+            "CNname": "风属性伤害提高 +4.8%",
+            "JAname": "風属性与ダメージ +4.8%",
+            "ttype": "winddmg",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
@@ -682,16 +660,16 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "winddmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 6,
+                    "addtarget": "winddmg",
+                    "multiplier": 4.8,
                     "tag": [
                         "self",
-                        "atk"
+                        "winddmg"
                     ]
                 }
             ]
