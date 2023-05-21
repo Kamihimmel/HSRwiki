@@ -98,13 +98,13 @@
     ],
     "skilldata": [
         {
-            "ENname": "Thwack",
-            "CNname": "强袭",
-            "JAname": "強襲",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seelena.webp",
-            "DescriptionEN": "Deals Quantum DMG equal to [1]% of Seele's ATK to a single enemy.",
-            "DescriptionCN": "对指定敌方单体造成等同于希儿[1]%攻击力的量子属性伤害。",
-            "DescriptionJP": "指定した敵単体にゼーレの攻撃力[1]%分の量子属性ダメージを与える。",
+            "ENname": "Windrider Bullet",
+            "CNname": "驭风的子弹",
+            "JAname": "疾風の弾丸",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyana.webp",
+            "DescriptionEN": "Deals Wind DMG equal to [1]% of Bronya's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于布洛妮娅[1]%攻击力的风属性伤害。",
+            "DescriptionJP": "指定した敵単体にブローニャの攻撃力[1]%分の風属性ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -125,7 +125,7 @@
             "tags": [
                 "singleatk",
                 "normalatk",
-                "quantumatk"
+                "windatk"
             ],
             "effect": [
                 {
@@ -135,7 +135,7 @@
                     "tag": [
                         "singleatk",
                         "normalatk",
-                        "quantumatk"
+                        "windatk"
                     ]
                 }
             ]
