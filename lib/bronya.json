@@ -141,50 +141,50 @@
             ]
         },
         {
-            "ENname": "Sheathed Blade",
-            "CNname": "归刃",
-            "JAname": "還刃",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeleskill.webp",
-            "DescriptionEN": "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to [1]% of Seele's ATK to a single enemy.",
-            "DescriptionCN": "使希儿的速度提高25%，并对指定敌方单体造成等同于希儿[1]%攻击力的量子属性伤害，速度提高效果持续2回合。",
-            "DescriptionJP": "ゼーレの速度+25%、2ターン継続。指定した敵単体にゼーレの攻撃力[1]%分の量子属性ダメージを与える。",
+            "ENname": "Combat Redeployment",
+            "CNname": "作战再部署",
+            "JAname": "作戦再展開",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyaskill.webp",
+            "DescriptionEN": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by [1]% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+            "DescriptionCN": "解除指定我方单体的1个负面效果，并使该目标立即行动，造成的伤害提高[1]%，持续1回合。当对自身施放该技能时，无法触发立即行动效果。",
+            "DescriptionJP": "指定した味方単体のデバフを1つ解除し、その味方を直ちに行動させ、与ダメージ+[1]%、1ターン継続。自身に対してこのスキルを発動した時、即時行動の効果は発動しない。",
             "stype": "skill",
             "maxlevel": 15,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 110,
-                    "2": 121,
-                    "3": 132,
-                    "4": 143,
-                    "5": 154,
-                    "6": 165,
-                    "7": 178.75,
-                    "8": 192.5,
-                    "9": 206.25,
-                    "10": 220,
-                    "11": 231,
-                    "12": 242,
-                    "13": 253,
-                    "14": 264,
-                    "15": 275
+                    "1": 33,
+                    "2": 36.3,
+                    "3": 39.6,
+                    "4": 42.9,
+                    "5": 46.2,
+                    "6": 49.5,
+                    "7": 53.63,
+                    "8": 57.75,
+                    "9": 61.88,
+                    "10": 66,
+                    "11": 69.3,
+                    "12": 72.6,
+                    "13": 75.9,
+                    "14": 79.2,
+                    "15": 82.5
                 }
             ],
             "tags": [
-                "singleatk",
-                "skillatk",
-                "quantumatk"
+                "buff",
+                "alldmg",
+                "actioni",
+                "singleally"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
+                    "type": "buff",
+                    "addtarget": "alldmg",
                     "multiplier": 1,
                     "tag": [
-                        "singleatk",
-                        "skillatk",
-                        "quantumatk"
+                        "self",
+                        "alldmg"
                     ]
                 }
             ]
