@@ -189,171 +189,130 @@
             ]
         },
         {
-            "ENname": "The Belobog March",
-            "CNname": "贝洛伯格进行曲",
-            "JAname": "ベロブルグ行進曲",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyault.webp",
-            "DescriptionEN": "Increases the ATK of all allies by [1]%, and increases their CRIT DMG equal to [2]% of Bronya's CRIT DMG plus [3]% for 2 turn(s).",
-            "DescriptionCN": "使我方全体攻击力提高[1]%，同时提高等同于布洛妮娅[2]%暴击伤害+[3]%的暴击伤害，持续2回合。",
-            "DescriptionJP": "味方全体の攻撃力+[1]%、会心ダメージがブローニャの会心ダメージの[2]%+[3]%アップする、2ターン継続。",
+            "ENname": "Butterfly Flurry",
+            "CNname": "乱蝶",
+            "JAname": "乱れ蝶",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeleult.webp",
+            "DescriptionEN": "Seele enters the buffed state and deals Quantum DMG equal to [1]% of her ATK to a single enemy.",
+            "DescriptionCN": "立即进入增幅状态，并对指定敌方单体造成等同于希儿[1]%攻击力的量子属性伤害。",
+            "DescriptionJP": "増幅状態に入り、指定した敵単体にゼーレの攻撃力[1]%分の量子属性ダメージを与える。",
             "stype": "ult",
             "energy": 120,
             "maxlevel": 15,
-            "buffskill": true,
-            "teamskill": true,
+            "buffskill": false,
+            "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 33,
-                    "2": 35.2,
-                    "3": 37.4,
-                    "4": 39.6,
-                    "5": 41.8,
-                    "6": 44,
-                    "7": 46.75,
-                    "8": 49.5,
-                    "9": 52.25,
-                    "10": 55,
-                    "11": 57.2,
-                    "12": 59.4,
-                    "13": 61.6,
-                    "14": 63.8,
-                    "15": 66
-                },
-                {
-                    "1": 12,
-                    "2": 12.4,
-                    "3": 12.8,
-                    "4": 13.2,
-                    "5": 13.6,
-                    "6": 14,
-                    "7": 14.5,
-                    "8": 15,
-                    "9": 15.5,
-                    "10": 16,
-                    "11": 16.4,
-                    "12": 16.8,
-                    "13": 17.2,
-                    "14": 17.6,
-                    "15": 18
-                },
-                {
-                    "1": 12,
-                    "2": 12.8,
-                    "3": 13.6,
-                    "4": 14.1,
-                    "5": 15.2,
-                    "6": 16,
-                    "7": 17,
-                    "8": 18,
-                    "9": 19,
-                    "10": 20,
-                    "11": 20.8,
-                    "12": 21.6,
-                    "13": 22.4,
-                    "14": 23.2,
-                    "15": 24
+                    "1": 255,
+                    "2": 272,
+                    "3": 289,
+                    "4": 306,
+                    "5": 323,
+                    "6": 340,
+                    "7": 361.25,
+                    "8": 382.5,
+                    "9": 403.75,
+                    "10": 425,
+                    "11": 442,
+                    "12": 459,
+                    "13": 476,
+                    "14": 493,
+                    "15": 510
                 }
             ],
             "tags": [
-                "buff",
-                "atk",
-                "critdmg",
-                "allally"
+                "singleatk",
+                "ultatk",
+                "quantumatk"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "atk",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "allally",
-                        "atk"
-                    ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 1,
-                    "tag": [
-                        "allally",
-                        "critdmg"
-                    ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 1,
-                    "tag": [
-                        "allally",
-                        "critdmg"
+                        "singleatk",
+                        "ultatk",
+                        "quantumatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Resurgence",
-            "CNname": "再现",
-            "JAname": "再現",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeletalent.webp",
-            "DescriptionEN": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by [1]% for 1 turn(s).Enemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
-            "DescriptionCN": "施放普攻、战技、终结技消灭敌方目标时立即获得1个额外回合并进入增幅状态，增幅状态下希儿施放攻击造成的伤害提高[1]%，持续1回合。若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。",
-            "DescriptionJP": "通常攻撃、戦闘スキル、必殺技で敵を倒すと追加ターンを1獲得し、増幅状態に入る。増幅状態のゼーレの与ダメージ+[1]%、1ターン継続。ゼーレの天賦「再現」で獲得した追加ターンの間に敵を倒した場合、この天賦は発動しない。",
+            "ENname": "Leading the Way",
+            "CNname": "先人一步",
+            "JAname": "先人一歩",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyatalent.webp",
+            "DescriptionEN": "After using her Basic ATK, Bronya's next action will be Advanced Forward by [1]%.",
+            "DescriptionCN": "施放普攻后，布洛妮娅的下一次行动提前[1]%。",
+            "DescriptionJP": "通常攻撃を行った後、ブローニャの行動順が[1]%早まる。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 40,
-                    "2": 44,
-                    "3": 48,
-                    "4": 52,
-                    "5": 56,
-                    "6": 60,
-                    "7": 65,
-                    "8": 70,
-                    "9": 75,
-                    "10": 80,
-                    "11": 84,
-                    "12": 88,
-                    "13": 92,
-                    "14": 96,
-                    "15": 100
+                    "1": 15,
+                    "2": 16.5,
+                    "3": 18,
+                    "4": 19.5,
+                    "5": 21,
+                    "6": 22.5,
+                    "7": 24.38,
+                    "8": 26.25,
+                    "9": 28.13,
+                    "10": 30,
+                    "11": 31.5,
+                    "12": 33,
+                    "13": 34.5,
+                    "14": 36,
+                    "15": 37.5
                 }
             ],
             "tags": [
                 "buff",
-                "self",
-                "alldmg"
+                "actionf",
+                "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "alldmg",
+                    "addtarget": "actionf",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "alldmg"
+                        "actionf"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Phantom Illusion",
-            "CNname": "幻身",
-            "JAname": "幻身",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeletec.webp",
-            "DescriptionEN": "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state.",
-            "DescriptionCN": "使用秘技后进入持续20秒的隐身状态。隐身状态下不会被敌人发现，且主动攻击敌人进入战斗时，希儿立即进入增幅状态。",
-            "DescriptionJP": "秘技を使用した後、20秒のステルス状態になる。ステルス状態になると敵に発見されず、敵を先制攻撃して戦闘に入る時、ゼーレが増幅状態になる。",
+            "ENname": "Banner of Command",
+            "CNname": "在旗帜下",
+            "JAname": "旗の下で",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyatec.webp",
+            "DescriptionEN": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).",
+            "DescriptionCN": "使用秘技后，下一次战斗开始时使我方全体攻击力提高15%，持续2回合。",
+            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、味方全体の攻撃力+15%、2ターン継続。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "tags": [
                 "buff",
-                "self",
-                "special"
+                "atk",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 15,
+                    "tag": [
+                        "allally",
+                        "atk"
+                    ]
+                }
             ]
         }
     ],
