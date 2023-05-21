@@ -340,21 +340,32 @@
             ]
         },
         {
-            "ENname": "Phantom Illusion",
-            "CNname": "幻身",
-            "JAname": "幻身",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeletec.webp",
-            "DescriptionEN": "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state.",
-            "DescriptionCN": "使用秘技后进入持续20秒的隐身状态。隐身状态下不会被敌人发现，且主动攻击敌人进入战斗时，希儿立即进入增幅状态。",
-            "DescriptionJP": "秘技を使用した後、20秒のステルス状態になる。ステルス状態になると敵に発見されず、敵を先制攻撃して戦闘に入る時、ゼーレが増幅状態になる。",
+            "ENname": "Banner of Command",
+            "CNname": "在旗帜下",
+            "JAname": "旗の下で",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyatec.webp",
+            "DescriptionEN": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).",
+            "DescriptionCN": "使用秘技后，下一次战斗开始时使我方全体攻击力提高15%，持续2回合。",
+            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、味方全体の攻撃力+15%、2ターン継続。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "tags": [
                 "buff",
-                "self",
-                "special"
+                "atk",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 15,
+                    "tag": [
+                        "allally",
+                        "atk"
+                    ]
+                }
             ]
         }
     ],
