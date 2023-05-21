@@ -279,7 +279,7 @@
                         "allally",
                         "critdmg"
                     ]
-                }
+                },
                 {
                     "type": "buff",
                     "addtarget": "critdmg",
