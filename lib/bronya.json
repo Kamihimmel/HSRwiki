@@ -240,49 +240,49 @@
             ]
         },
         {
-            "ENname": "Resurgence",
-            "CNname": "再现",
-            "JAname": "再現",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeletalent.webp",
-            "DescriptionEN": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by [1]% for 1 turn(s).Enemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
-            "DescriptionCN": "施放普攻、战技、终结技消灭敌方目标时立即获得1个额外回合并进入增幅状态，增幅状态下希儿施放攻击造成的伤害提高[1]%，持续1回合。若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。",
-            "DescriptionJP": "通常攻撃、戦闘スキル、必殺技で敵を倒すと追加ターンを1獲得し、増幅状態に入る。増幅状態のゼーレの与ダメージ+[1]%、1ターン継続。ゼーレの天賦「再現」で獲得した追加ターンの間に敵を倒した場合、この天賦は発動しない。",
+            "ENname": "Leading the Way",
+            "CNname": "先人一步",
+            "JAname": "先人一歩",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyatalent.webp",
+            "DescriptionEN": "After using her Basic ATK, Bronya's next action will be Advanced Forward by [1]%.",
+            "DescriptionCN": "施放普攻后，布洛妮娅的下一次行动提前[1]%。",
+            "DescriptionJP": "通常攻撃を行った後、ブローニャの行動順が[1]%早まる。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 40,
-                    "2": 44,
-                    "3": 48,
-                    "4": 52,
-                    "5": 56,
-                    "6": 60,
-                    "7": 65,
-                    "8": 70,
-                    "9": 75,
-                    "10": 80,
-                    "11": 84,
-                    "12": 88,
-                    "13": 92,
-                    "14": 96,
-                    "15": 100
+                    "1": 15,
+                    "2": 16.5,
+                    "3": 18,
+                    "4": 19.5,
+                    "5": 21,
+                    "6": 22.5,
+                    "7": 24.38,
+                    "8": 26.25,
+                    "9": 28.13,
+                    "10": 30,
+                    "11": 31.5,
+                    "12": 33,
+                    "13": 34.5,
+                    "14": 36,
+                    "15": 37.5
                 }
             ],
             "tags": [
                 "buff",
-                "self",
-                "alldmg"
+                "actionf",
+                "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "alldmg",
+                    "addtarget": "actionf",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "alldmg"
+                        "actionf"
                     ]
                 }
             ]
