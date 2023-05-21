@@ -190,51 +190,103 @@
             ]
         },
         {
-            "ENname": "Butterfly Flurry",
-            "CNname": "乱蝶",
-            "JAname": "乱れ蝶",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeleult.webp",
-            "DescriptionEN": "Seele enters the buffed state and deals Quantum DMG equal to [1]% of her ATK to a single enemy.",
-            "DescriptionCN": "立即进入增幅状态，并对指定敌方单体造成等同于希儿[1]%攻击力的量子属性伤害。",
-            "DescriptionJP": "増幅状態に入り、指定した敵単体にゼーレの攻撃力[1]%分の量子属性ダメージを与える。",
+            "ENname": "The Belobog March",
+            "CNname": "贝洛伯格进行曲",
+            "JAname": "ベロブルグ行進曲",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyault.webp",
+            "DescriptionEN": "Increases the ATK of all allies by [1]%, and increases their CRIT DMG equal to [2]% of Bronya's CRIT DMG plus [3]% for 2 turn(s).",
+            "DescriptionCN": "使我方全体攻击力提高[1]%，同时提高等同于布洛妮娅[2]%暴击伤害+[3]%的暴击伤害，持续2回合。",
+            "DescriptionJP": "味方全体の攻撃力+[1]%、会心ダメージがブローニャの会心ダメージの[2]%+[3]%アップする、2ターン継続。",
             "stype": "ult",
             "energy": 120,
             "maxlevel": 15,
-            "buffskill": false,
-            "teamskill": false,
+            "buffskill": true,
+            "teamskill": true,
             "levelmultiplier": [
                 {
-                    "1": 255,
-                    "2": 272,
-                    "3": 289,
-                    "4": 306,
-                    "5": 323,
-                    "6": 340,
-                    "7": 361.25,
-                    "8": 382.5,
-                    "9": 403.75,
-                    "10": 425,
-                    "11": 442,
-                    "12": 459,
-                    "13": 476,
-                    "14": 493,
-                    "15": 510
+                    "1": 33,
+                    "2": 35.2,
+                    "3": 37.4,
+                    "4": 39.6,
+                    "5": 41.8,
+                    "6": 44,
+                    "7": 46.75,
+                    "8": 49.5,
+                    "9": 52.25,
+                    "10": 55,
+                    "11": 57.2,
+                    "12": 59.4,
+                    "13": 61.6,
+                    "14": 63.8,
+                    "15": 66
+                },
+                {
+                    "1": 12,
+                    "2": 12.4,
+                    "3": 12.8,
+                    "4": 13.2,
+                    "5": 13.6,
+                    "6": 14,
+                    "7": 14.5,
+                    "8": 15,
+                    "9": 15.5,
+                    "10": 16,
+                    "11": 16.4,
+                    "12": 16.8,
+                    "13": 17.2,
+                    "14": 17.6,
+                    "15": 18
+                },
+                {
+                    "1": 12,
+                    "2": 12.8,
+                    "3": 13.6,
+                    "4": 14.1,
+                    "5": 15.2,
+                    "6": 16,
+                    "7": 17,
+                    "8": 18,
+                    "9": 19,
+                    "10": 20,
+                    "11": 20.8,
+                    "12": 21.6,
+                    "13": 22.4,
+                    "14": 23.2,
+                    "15": 24
                 }
             ],
             "tags": [
-                "singleatk",
-                "ultatk",
-                "quantumatk"
+                "buff",
+                "atk",
+                "critdmg",
+                "allally"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
+                    "type": "buff",
+                    "addtarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "singleatk",
-                        "ultatk",
-                        "quantumatk"
+                        "allally",
+                        "atk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "allally",
+                        "critdmg"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 3,
+                    "tag": [
+                        "allally",
+                        "critdmg"
                     ]
                 }
             ]
