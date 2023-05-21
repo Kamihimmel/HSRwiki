@@ -1,110 +1,110 @@
 {
-    "ENname": "Bronya",
-    "CNname": "布洛妮娅",
-    "JAname": "ブローニャ",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/bronya.webp",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/bronyalarge.webp",
-    "etype": "wind",
-    "wtype": "harmony",
+    "ENname": "Seele",
+    "CNname": "希儿",
+    "JAname": "ゼーレ",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/seele.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/seelelarge.webp",
+    "etype": "quantum",
+    "wtype": "thehunt",
     "rarity": "5",
-    "dtaunt": 100,
-    "dspeed": 99,
+    "dtaunt": 75,
+    "dspeed": 115,
     "maxenergy": 120,
     "leveldata": [
         {
             "level": "1",
-            "hp": 168,
-            "atk": 79,
-            "def": 72
+            "hp": 126,
+            "atk": 87,
+            "def": 49
         },
         {
             "level": "20",
-            "hp": 329,
-            "atk": 154,
-            "def": 141
+            "hp": 247,
+            "atk": 169,
+            "def": 96
         },
         {
             "level": "20+",
-            "hp": 397,
-            "atk": 186,
-            "def": 170
+            "hp": 297,
+            "atk": 204,
+            "def": 116
         },
         {
             "level": "30",
-            "hp": 481,
-            "atk": 225,
-            "def": 206
+            "hp": 361,
+            "atk": 248,
+            "def": 141
         },
         {
             "level": "30+",
-            "hp": 549,
-            "atk": 257,
-            "def": 235
+            "hp": 361,
+            "atk": 283,
+            "def": 160
         },
         {
             "level": "40",
-            "hp": 633,
-            "atk": 297,
-            "def": 272
+            "hp": 475,
+            "atk": 326,
+            "def": 185
         },
         {
             "level": "40+",
-            "hp": 701,
-            "atk": 328,
-            "def": 301
+            "hp": 525,
+            "atk": 361,
+            "def": 205
         },
         {
             "level": "50",
-            "hp": 785,
-            "atk": 368,
-            "def": 337
+            "hp": 589,
+            "atk": 405,
+            "def": 230
         },
         {
             "level": "50+",
-            "hp": 853,
-            "atk": 399,
-            "def": 366
+            "hp": 639,
+            "atk": 439,
+            "def": 249
         },
         {
             "level": "60",
-            "hp": 937,
-            "atk": 439,
-            "def": 402
+            "hp": 703,
+            "atk": 483,
+            "def": 274
         },
         {
             "level": "60+",
-            "hp": 1005,
-            "atk": 471,
-            "def": 431
+            "hp": 753,
+            "atk": 518,
+            "def": 294
         },
         {
             "level": "70",
-            "hp": 1089,
-            "atk": 510,
-            "def": 468
+            "hp": 817,
+            "atk": 561,
+            "def": 319
         },
         {
             "level": "70+",
-            "hp": 1157,
-            "atk": 542,
-            "def": 497
+            "hp": 868,
+            "atk": 596,
+            "def": 339
         },
         {
             "level": "80",
-            "hp": 1241,
-            "atk": 582,
-            "def": 533
+            "hp": 931,
+            "atk": 640,
+            "def": 363
         }
     ],
     "skilldata": [
         {
-            "ENname": "Windrider Bullet",
-            "CNname": "驭风的子弹",
-            "JAname": "疾風の弾丸",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyana.webp",
-            "DescriptionEN": "Deals Wind DMG equal to [1]% of Bronya's ATK to a single enemy.",
-            "DescriptionCN": "对指定敌方单体造成等同于布洛妮娅[1]%攻击力的风属性伤害。",
-            "DescriptionJP": "指定した敵単体にブローニャの攻撃力[1]%分の風属性ダメージを与える。",
+            "ENname": "Thwack",
+            "CNname": "强袭",
+            "JAname": "強襲",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seelena.webp",
+            "DescriptionEN": "Deals Quantum DMG equal to [1]% of Seele's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于希儿[1]%攻击力的量子属性伤害。",
+            "DescriptionJP": "指定した敵単体にゼーレの攻撃力[1]%分の量子属性ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -125,7 +125,7 @@
             "tags": [
                 "singleatk",
                 "normalatk",
-                "windatk"
+                "quantumatk"
             ],
             "effect": [
                 {
@@ -135,56 +135,56 @@
                     "tag": [
                         "singleatk",
                         "normalatk",
-                        "windatk"
+                        "quantumatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Combat Redeployment",
-            "CNname": "作战再部署",
-            "JAname": "作戦再展開",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyaskill.webp",
-            "DescriptionEN": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by [1]% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
-            "DescriptionCN": "解除指定我方单体的1个负面效果，并使该目标立即行动，造成的伤害提高[1]%，持续1回合。当对自身施放该技能时，无法触发立即行动效果。",
-            "DescriptionJP": "指定した味方単体のデバフを1つ解除し、その味方を直ちに行動させ、与ダメージ+[1]%、1ターン継続。自身に対してこのスキルを発動した時、即時行動の効果は発動しない。",
+            "ENname": "Sheathed Blade",
+            "CNname": "归刃",
+            "JAname": "還刃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeleskill.webp",
+            "DescriptionEN": "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to [1]% of Seele's ATK to a single enemy.",
+            "DescriptionCN": "使希儿的速度提高25%，并对指定敌方单体造成等同于希儿[1]%攻击力的量子属性伤害，速度提高效果持续2回合。",
+            "DescriptionJP": "ゼーレの速度+25%、2ターン継続。指定した敵単体にゼーレの攻撃力[1]%分の量子属性ダメージを与える。",
             "stype": "skill",
             "maxlevel": 15,
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 33,
-                    "2": 36.3,
-                    "3": 39.6,
-                    "4": 42.9,
-                    "5": 46.2,
-                    "6": 49.5,
-                    "7": 53.63,
-                    "8": 57.75,
-                    "9": 61.88,
-                    "10": 66,
-                    "11": 69.3,
-                    "12": 72.6,
-                    "13": 75.9,
-                    "14": 79.2,
-                    "15": 82.5
+                    "1": 110,
+                    "2": 121,
+                    "3": 132,
+                    "4": 143,
+                    "5": 154,
+                    "6": 165,
+                    "7": 178.75,
+                    "8": 192.5,
+                    "9": 206.25,
+                    "10": 220,
+                    "11": 231,
+                    "12": 242,
+                    "13": 253,
+                    "14": 264,
+                    "15": 275
                 }
             ],
             "tags": [
-                "buff",
-                "alldmg",
-                "actioni",
-                "singleally"
+                "singleatk",
+                "skillatk",
+                "quantumatk"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "alldmg",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "self",
-                        "alldmg"
+                        "singleatk",
+                        "skillatk",
+                        "quantumatk"
                     ]
                 }
             ]
@@ -240,80 +240,69 @@
             ]
         },
         {
-            "ENname": "Leading the Way",
-            "CNname": "先人一步",
-            "JAname": "先人一歩",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyatalent.webp",
-            "DescriptionEN": "After using her Basic ATK, Bronya's next action will be Advanced Forward by [1]%.",
-            "DescriptionCN": "施放普攻后，布洛妮娅的下一次行动提前[1]%。",
-            "DescriptionJP": "通常攻撃を行った後、ブローニャの行動順が[1]%早まる。",
+            "ENname": "Resurgence",
+            "CNname": "再现",
+            "JAname": "再現",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeletalent.webp",
+            "DescriptionEN": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by [1]% for 1 turn(s).Enemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+            "DescriptionCN": "施放普攻、战技、终结技消灭敌方目标时立即获得1个额外回合并进入增幅状态，增幅状态下希儿施放攻击造成的伤害提高[1]%，持续1回合。若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。",
+            "DescriptionJP": "通常攻撃、戦闘スキル、必殺技で敵を倒すと追加ターンを1獲得し、増幅状態に入る。増幅状態のゼーレの与ダメージ+[1]%、1ターン継続。ゼーレの天賦「再現」で獲得した追加ターンの間に敵を倒した場合、この天賦は発動しない。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 15,
-                    "2": 16.5,
-                    "3": 18,
-                    "4": 19.5,
-                    "5": 21,
-                    "6": 22.5,
-                    "7": 24.38,
-                    "8": 26.25,
-                    "9": 28.13,
-                    "10": 30,
-                    "11": 31.5,
-                    "12": 33,
-                    "13": 34.5,
-                    "14": 36,
-                    "15": 37.5
+                    "1": 40,
+                    "2": 44,
+                    "3": 48,
+                    "4": 52,
+                    "5": 56,
+                    "6": 60,
+                    "7": 65,
+                    "8": 70,
+                    "9": 75,
+                    "10": 80,
+                    "11": 84,
+                    "12": 88,
+                    "13": 92,
+                    "14": 96,
+                    "15": 100
                 }
             ],
             "tags": [
                 "buff",
-                "actionf",
-                "self"
+                "self",
+                "alldmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "actionf",
+                    "addtarget": "alldmg",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "actionf"
+                        "alldmg"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Banner of Command",
-            "CNname": "在旗帜下",
-            "JAname": "旗の下で",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyatec.webp",
-            "DescriptionEN": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).",
-            "DescriptionCN": "使用秘技后，下一次战斗开始时使我方全体攻击力提高15%，持续2回合。",
-            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、味方全体の攻撃力+15%、2ターン継続。",
+            "ENname": "Phantom Illusion",
+            "CNname": "幻身",
+            "JAname": "幻身",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/seeletec.webp",
+            "DescriptionEN": "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state.",
+            "DescriptionCN": "使用秘技后进入持续20秒的隐身状态。隐身状态下不会被敌人发现，且主动攻击敌人进入战斗时，希儿立即进入增幅状态。",
+            "DescriptionJP": "秘技を使用した後、20秒のステルス状態になる。ステルス状態になると敵に発見されず、敵を先制攻撃して戦闘に入る時、ゼーレが増幅状態になる。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
-            "teamskill": true,
+            "teamskill": false,
             "tags": [
                 "buff",
-                "atk",
-                "allally"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 15,
-                    "tag": [
-                        "allally",
-                        "atk"
-                    ]
-                }
+                "self",
+                "special"
             ]
         }
     ],
