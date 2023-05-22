@@ -355,6 +355,17 @@
                 "buff",
                 "atk",
                 "allally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 15,
+                    "tag": [
+                        "allally",
+                        "atk"
+                    ]
+                }
             ]
         }
     ],
