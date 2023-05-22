@@ -755,7 +755,7 @@
             "ENname": "Hone Your Strength",
             "CNname": "养精蓄锐",
             "JAname": "英気を養う",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae1.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronya1.webp",
             "DescriptionEN": "When using Skill, there is a 50% fixed chance of recovering 1 Skill Point. This effect has a 1-turn cooldown.",
             "DescriptionCN": "施放战技时，有50%固定概率恢复1个战技点，该效果有1回合的触发冷却。",
             "DescriptionJP": "戦闘スキルを発動した時、50%の固定確率でSPを1回復する、クールタイムは1ターン。",
@@ -773,7 +773,7 @@
             "ENname": "Quick March",
             "CNname": "快速行军",
             "JAname": "急行軍",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae2.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronya2.webp",
             "DescriptionEN": "When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn.",
             "DescriptionCN": "施放战技时，被指定的我方目标在行动后速度提高30%，持续1回合。",
             "DescriptionJP": "戦闘スキルを発動した時、指定された味方は行動した後に速度+30%、1ターン継続。",
@@ -782,7 +782,7 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "actionf",
+                "speed",
                 "singleally"
             ],
             "effect": [
@@ -792,7 +792,7 @@
                     "multiplier": 30,
                     "tag": [
                         "singleally",
-                        "actionf"
+                        "speed"
                     ]
                 }
             ]
@@ -802,7 +802,7 @@
             "ENname": "Bombardment",
             "CNname": "鼓炮齐鸣",
             "JAname": "一斉射撃",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae3.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyault.webp",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
@@ -820,7 +820,7 @@
             "ENname": "Take by Surprise",
             "CNname": "攻其不备",
             "JAname": "不意打ち",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae4.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronya4.webp",
             "DescriptionEN": "After an ally other than Bronya uses Basic ATK on an enemy with Wind Weakness, Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to 80% of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn.",
             "DescriptionCN": "我方其他角色对弱点为风属性的敌方目标施放普攻后，布洛妮娅立即进行1次追加攻击，对该目标造成等同于普攻伤害80%的风属性伤害，该效果每回合可触发1次。",
             "DescriptionJP": "他の味方が、弱点が風属性の敵に通常攻撃を行った後、ブローニャは追加攻撃を発動し、その敵に通常攻撃のダメージ80%分の風属性ダメージを与える、この効果はターンが回ってくるたびに1回発動できる。",
@@ -862,7 +862,7 @@
             "ENname": "Unstoppable",
             "CNname": "所向克捷",
             "JAname": "向かう所敵なし",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae5.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyaskill.webp",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
             "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
@@ -880,7 +880,7 @@
             "ENname": "Piercing Rainbow",
             "CNname": "气贯长虹",
             "JAname": "気勢貫天",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyae6.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronya6.webp",
             "DescriptionEN": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s).",
             "DescriptionCN": "战技对指定我方目标造成的伤害提高效果的持续时间增加1回合。",
             "DescriptionJP": "戦闘スキルが付与する、指定した味方の与ダメージアップ効果の継続時間+1ターン。",
