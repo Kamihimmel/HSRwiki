@@ -520,9 +520,9 @@
                 {
                     "type": "buff",
                     "addtarget": "alldmg",
-                    "multiplier": 12,
+                    "multiplier": 20,
                     "tag": [
-                        "wbenemy",
+                        "self",
                         "alldmg"
                     ]
                 }
