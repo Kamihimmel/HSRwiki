@@ -307,7 +307,7 @@
                     ]
                 },
                 {
-                    "type": "buff",
+                    "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 3,
                     "tag": [
