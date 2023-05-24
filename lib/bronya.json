@@ -273,6 +273,10 @@
                 },
                 {
                     "type": "buff",
+                    "referencetarget": "bronya",
+                    "referencetargetEN": "Bronya",
+                    "referencetargetCN": "布洛妮娅",
+                    "referencetargetJP": "ブローニャ",
                     "addtarget": "critdmg",
                     "multiplier": 2,
                     "tag": [
