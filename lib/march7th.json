@@ -285,7 +285,8 @@
                 "iceatk",
                 "debuff",
                 "frozen",
-                "allenemy"
+                "allenemy",
+                "additionalatk"
             ],
             "effect": [
                 {
@@ -318,78 +319,88 @@
             ]
         },
         {
-            "ENname": "Leading the Way",
-            "CNname": "先人一步",
-            "JAname": "先人一歩",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyatalent.webp",
-            "DescriptionEN": "After using her Basic ATK, Bronya's next action will be Advanced Forward by [1]%.",
-            "DescriptionCN": "施放普攻后，布洛妮娅的下一次行动提前[1]%。",
-            "DescriptionJP": "通常攻撃を行った後、ブローニャの行動順が[1]%早まる。",
+            "ENname": "Girl Power",
+            "CNname": "少女的特权",
+            "JAname": "少女の特権",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/march7thtalent.webp",
+            "DescriptionEN": "After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to [1]% of her ATK. This effect can be triggered 2 time(s) each turn.",
+            "DescriptionCN": "当持有护盾的我方目标受到敌方目标攻击后，三月七立即向攻击者发起反击，对其造成等同于三月七50%攻击力的冰属性伤害，该效果每回合可触发2次。",
+            "DescriptionJP": "バリアを持つ味方が敵に攻撃された後、三月なのかは攻撃者にカウンターを発動し、三月なのかの攻撃力50%分の氷属性ダメージを与える。この効果はターンが回ってくるたびに2回発動できる。",
             "stype": "talent",
             "maxlevel": 15,
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 15,
-                    "2": 16.5,
-                    "3": 18,
-                    "4": 19.5,
-                    "5": 21,
-                    "6": 22.5,
-                    "7": 24.38,
-                    "8": 26.25,
-                    "9": 28.13,
-                    "10": 30,
-                    "11": 31.5,
-                    "12": 33,
-                    "13": 34.5,
-                    "14": 36,
-                    "15": 37.5
+                    "1": 50,
+                    "2": 55,
+                    "3": 60,
+                    "4": 65,
+                    "5": 70,
+                    "6": 75,
+                    "7": 81.25,
+                    "8": 87.5,
+                    "9": 93.75,
+                    "10": 100,
+                    "11": 105,
+                    "12": 110,
+                    "13": 115,
+                    "14": 120,
+                    "15": 125
                 }
             ],
             "tags": [
-                "buff",
-                "actionf",
-                "self"
+                "singleatk",
+                "followupatk",
+                "iceatk"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "actionf",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "self",
-                        "actionf"
+                        "singleatk",
+                        "followupatk",
+                        "iceatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Banner of Command",
-            "CNname": "在旗帜下",
-            "JAname": "旗の下で",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyatec.webp",
-            "DescriptionEN": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).",
-            "DescriptionCN": "使用秘技后，下一次战斗开始时使我方全体攻击力提高15%，持续2回合。",
-            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、味方全体の攻撃力+15%、2ターン継続。",
+            "ENname": "Freezing Beauty",
+            "CNname": "冻人的瞬间",
+            "JAname": "凍る瞬間",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/march7thtec.webp",
+            "DescriptionEN": "Immediately attacks the enemy. After entering battle, there is a 100% base chance to Freeze a random enemy for 1 turn(s).While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 50% of March 7th's ATK at the beginning of each turn.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后有100%的基础概率使随机敌方单体陷入冻结状态，持续1回合。冻结状态下，敌方目标不能行动同时每回合开始时受到等同于三月七50%攻击力的冰属性附加伤害。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、100%の基礎確率でランダムな敵単体を凍結状態にする、1ターン継続。凍結状態の敵は行動できなくなり、ターンが回ってくるたびに三月なのかの攻撃力50%分の氷属性付加ダメージを受ける。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
             "teamskill": true,
             "tags": [
-                "buff",
-                "atk",
-                "allally"
+                "debuff",
+                "frozen",
+                "iceatk",
+                "additionalatk"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 15,
+                    "type": "debuff",
+                    "multipliertarget": "frozen",
+                    "multiplier": 100,
                     "tag": [
-                        "allally",
-                        "atk"
+                        "allenemy"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 50,
+                    "tag": [
+                        "additionalatk",
+                        "iceatk"
                     ]
                 }
             ]
