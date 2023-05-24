@@ -1,0 +1,916 @@
+{
+    "ENname": "Welt",
+    "CNname": "瓦尔特",
+    "JAname": "ヴェルト",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/welt.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/weltlarge.webp",
+    "etype": "imaginary",
+    "wtype": "nihility",
+    "rarity": "5",
+    "dtaunt": 100,
+    "dspeed": 102,
+    "maxenergy": 120,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 153,
+            "atk": 84,
+            "def": 69
+        },
+        {
+            "level": "20",
+            "hp": 298,
+            "atk": 164,
+            "def": 135
+        },
+        {
+            "level": "20+",
+            "hp": 359,
+            "atk": 198,
+            "def": 162
+        },
+        {
+            "level": "30",
+            "hp": 436,
+            "atk": 240,
+            "def": 197
+        },
+        {
+            "level": "30+",
+            "hp": 497,
+            "atk": 274,
+            "def": 225
+        },
+        {
+            "level": "40",
+            "hp": 574,
+            "atk": 316,
+            "def": 259
+        },
+        {
+            "level": "40+",
+            "hp": 635,
+            "atk": 350,
+            "def": 287
+        },
+        {
+            "level": "50",
+            "hp": 712,
+            "atk": 392,
+            "def": 322
+        },
+        {
+            "level": "50+",
+            "hp": 773,
+            "atk": 426,
+            "def": 349
+        },
+        {
+            "level": "60",
+            "hp": 849,
+            "atk": 468,
+            "def": 384
+        },
+        {
+            "level": "60+",
+            "hp": 911,
+            "atk": 502,
+            "def": 412
+        },
+        {
+            "level": "70",
+            "hp": 987,
+            "atk": 544,
+            "def": 446
+        },
+        {
+            "level": "70+",
+            "hp": 1048,
+            "atk": 578,
+            "def": 474
+        },
+        {
+            "level": "80",
+            "hp": 1125,
+            "atk": 620,
+            "def": 509
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Gravity Suppression",
+            "CNname": "重力压制",
+            "JAname": "重力制圧",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltna.webp",
+            "DescriptionEN": "Deals Imaginary DMG equal to [1]% of Welt's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于瓦尔特[1]%攻击力的虚数属性伤害。",
+            "DescriptionJP": "指定した敵単体にヴェルトの攻撃力[1]%分の虚数属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Edge of the Void",
+            "CNname": "虚空断界",
+            "JAname": "虚空断界",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltskill.webp",
+            "DescriptionEN": "Deals Imaginary DMG equal to [1]% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to [1]% of Welt's ATK to a random enemy. On hit, there is a [2]% base chance to reduce the enemy's SPD by 10% for 2 turn(s).",
+            "DescriptionCN": "对指定敌方单体造成等同于瓦尔特[1]%攻击力的虚数属性伤害，并额外造成2次伤害。每次伤害对敌方随机单体造成等同于瓦尔特[1]%攻击力的虚数属性伤害。攻击命中时有[2]%的基础概率使受到攻击的敌方目标速度降低10%，持续2回合。",
+            "DescriptionJP": "指定した敵単体にヴェルトの攻撃力[1]%分の虚数属性ダメージを与え、さらに2ヒットする。1ヒットごとに、ランダムな敵単体にヴェルトの攻撃力[1]%分の虚数属性ダメージを与える。攻撃が命中すると、[2]%の基礎確率で攻撃を受けた敵の速度-10%、2ターン継続。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 36,
+                    "2": 39.6,
+                    "3": 43.2,
+                    "4": 46.8,
+                    "5": 50.4,
+                    "6": 54,
+                    "7": 58.5,
+                    "8": 63,
+                    "9": 67.5,
+                    "10": 72,
+                    "11": 75.6,
+                    "12": 79.2,
+                    "13": 82.8,
+                    "14": 86.4,
+                    "15": 90
+                },
+                {
+                    "1": 65,
+                    "2": 66,
+                    "3": 67,
+                    "4": 68,
+                    "5": 69,
+                    "6": 70,
+                    "7": 71.25,
+                    "8": 72.5,
+                    "9": 73.75,
+                    "10": 75,
+                    "11": 76,
+                    "12": 77,
+                    "13": 78,
+                    "14": 79,
+                    "15": 80
+                }
+            ],
+            "tags": [
+                "bounce",
+                "skillatk",
+                "imaginaryatk",
+                "debuff",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "bounce",
+                        "skillatk",
+                        "imaginaryatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Synthetic Black Hole",
+            "CNname": "拟似黑洞",
+            "JAname": "疑似ブラックホール",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltult.webp",
+            "DescriptionEN": "Deals Imaginary DMG equal to [1]% of Welt's ATK to all enemies, with a 100% base chance for enemies hit by this ability to be Imprisoned for 1 turn. Imprisoned enemies have their actions delayed by [2]% and SPD reduced by 10%.",
+            "DescriptionCN": "对敌方全体造成等同于瓦尔特[1]%攻击力的虚数属性伤害，有100%的基础概率使受到攻击的敌方目标陷入禁锢状态，持续1回合。禁锢状态下，敌方目标行动延后[2]%，速度降低10%。",
+            "DescriptionJP": "敵全体にヴェルトの攻撃力[1]%分の虚数属性ダメージを与え、100%の基礎確率で攻撃を受けた敵を禁錮状態にする、1ターン継続。禁錮状態の敵の行動順は[2]%遅延され、速度-10%。",
+            "stype": "ult",
+            "energy": 120,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": true,
+            "levelmultiplier": [
+                {
+                    "1": 90,
+                    "2": 96,
+                    "3": 102,
+                    "4": 108,
+                    "5": 114,
+                    "6": 120,
+                    "7": 127.5,
+                    "8": 135,
+                    "9": 142.5,
+                    "10": 150,
+                    "11": 156,
+                    "12": 162,
+                    "13": 168,
+                    "14": 174,
+                    "15": 180
+                },
+                {
+                    "1": 32,
+                    "2": 32.8,
+                    "3": 33.6,
+                    "4": 34.4,
+                    "5": 35.2,
+                    "6": 36,
+                    "7": 37,
+                    "8": 38,
+                    "9": 39,
+                    "10": 40,
+                    "11": 40.8,
+                    "12": 41.6,
+                    "13": 42.4,
+                    "14": 43.2,
+                    "15": 44
+                }
+            ],
+            "tags": [
+                "multiatk",
+                "ultatk",
+                "imaginaryatk",
+                "debuff",
+                "actiond",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "multiatk",
+                        "ultatk",
+                        "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "actiond",
+                    "multiplier": 2,
+                    "tag": [
+                        "multiatk",
+                        "actiond"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Time Distortion",
+            "CNname": "时空扭曲",
+            "JAname": "再現",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welttalent.webp",
+            "DescriptionEN": "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to [1]% of his ATK to the enemy.",
+            "DescriptionCN": "击中处于减速状态的敌方目标时，额外造成1次等同于瓦尔特[1]%攻击力的虚数属性附加伤害。",
+            "DescriptionJP": "攻撃が減速状態の敵に命中した時、さらにヴェルトの攻撃力[1]%分の虚数属性付加ダメージを1回与える。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 30,
+                    "2": 33,
+                    "3": 36,
+                    "4": 39,
+                    "5": 42,
+                    "6": 45,
+                    "7": 48.75,
+                    "8": 52.5,
+                    "9": 56.25,
+                    "10": 60,
+                    "11": 63,
+                    "12": 66,
+                    "13": 69,
+                    "14": 72,
+                    "15": 75
+                }
+            ],
+            "tags": [
+                "additionalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk",
+                        "imaginaryatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Gravitational Imprisonment",
+            "CNname": "画地为牢",
+            "JAname": "画地為牢",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welttec.webp",
+            "DescriptionEN": "After using Welt's Technique, create a dimension that lasts for 15 second(s). Enemies in this dimension have their Movement SPD reduced by 50%. After entering battle with enemies in the dimension, there is a 100% base chance to Imprison the enemies for 1 turn. Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Only 1 dimension created by allies can exist at the same time.",
+            "DescriptionCN": "使用秘技后，制造1片持续15秒的特殊领域。处于特殊领域内的敌人移动速度降低50%。与处于特殊领域内的敌人进入战斗后，有100%的基础概率使敌方目标陷入禁锢状态，持续1回合。禁锢状态下，敌方目标行动延后20%，速度降低10%。我方制造的领域效果最多存在1个。",
+            "DescriptionJP": "秘技を使用した後、15秒間継続する特殊領域を作り出す、特殊領域内にいる敵の移動速度-50%。特殊領域内にいる敵と戦闘に入った後、100%の基礎確率で敵を禁錮状態にする、1ターン継続。禁錮状態の敵は行動順が20%遅延され、速度-10%。味方が作り出した領域は1つまで存在できる。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "actiond",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "addtarget": "actiond",
+                    "multiplier": 20,
+                    "tag": [
+                        "actiond"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "speed",
+                    "multiplier": -10,
+                    "tag": [
+                        "speed"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Retribution",
+            "CNname": "惩戒",
+            "JAname": "懲戒",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltt1.webp",
+            "DescriptionEN": "When using Ultimate, there is a 100% base chance to increase the DMG received by the targets by 12% for 2 turn(s).",
+            "DescriptionCN": "施放终结技时，有100%基础概率使目标受到的伤害提高12%，持续2回合。",
+            "DescriptionJP": "必殺技を発動した時、100%の基礎確率で敵の被ダメージ+12%、2ターン継続。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "taunt",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "taunt",
+                    "multiplier": -50,
+                    "tag": [
+                        "self",
+                        "taunt"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Lacerate",
+            "CNname": "割裂",
+            "JAname": "斬裂",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltt2.webp",
+            "DescriptionEN": "While Seele is in the buffed state, her Quantum RES PEN increases by 20%.",
+            "DescriptionCN": "增幅状态下希儿的量子抗性穿透提高20%。",
+            "DescriptionJP": "増幅状態の時、ゼーレの量子属性耐性貫通+20%。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "quantumpen",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "quantumpen",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "quantumpen"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Rippling Waves",
+            "CNname": "涟漪",
+            "JAname": "さざ波",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltt3.webp",
+            "DescriptionEN": "After using a Basic ATK, Seele's next action will be Advanced Forward by 20%.",
+            "DescriptionCN": "施放普攻后，希儿的下一次行动提前20%。",
+            "DescriptionJP": "通常攻撃を行った後、ゼーレの次の行動順が20%早まる。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "actionf",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT DMG +5.3%",
+            "CNname": "暴击伤害 +5.3%",
+            "JAname": "会心ダメージ +5.3%",
+            "ttype": "critdmg",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT DMG +8%",
+            "CNname": "暴击伤害 +8%",
+            "JAname": "会心ダメージ +8%",
+            "ttype": "critdmg",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT DMG +10.7%",
+            "CNname": "暴击伤害 +10.7%",
+            "JAname": "会心ダメージ +10.7%",
+            "ttype": "critdmg",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 10.7,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Extirpating Slash",
+            "CNname": "斩尽",
+            "JAname": "斬尽",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt1.png",
+            "DescriptionEN": "When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%.",
+            "DescriptionCN": "对当前生命值百分比小于等于80%的敌方目标造成伤害时，暴击率提高15%。",
+            "DescriptionJP": "残りHPが80%以下の敵にダメージを与える時、会心率+15%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Dancing Butterfly",
+            "CNname": "蝶舞",
+            "JAname": "蝶舞",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt2.png",
+            "DescriptionEN": "The SPD Boost effect of Seele's Skill can stack up to 2 time(s).",
+            "DescriptionCN": "战技的加速效果可以叠加，最多叠加2层。",
+            "DescriptionJP": "戦闘スキルの加速効果が累積できるようになる、最大で2層累積できる。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Dazzling Tumult",
+            "CNname": "缭乱",
+            "JAname": "繚乱",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Flitting Phantasm",
+            "CNname": "缭乱",
+            "JAname": "繚乱",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt4.png",
+            "DescriptionEN": "Seele regenerates 15 Energy when she defeats an enemy.",
+            "DescriptionCN": "希儿消灭敌方目标时，自身恢复15点能量。",
+            "DescriptionJP": "ゼーレが敵を倒した時、EPを15回復する。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Piercing Shards",
+            "CNname": "锋锐",
+            "JAname": "鋒鋭",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Shattering Shambles",
+            "CNname": "离析",
+            "JAname": "離析",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt6.png",
+            "DescriptionEN": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered.When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed.",
+            "DescriptionCN": "施放终结技后使受到攻击的敌方单体陷入【乱蝶】状态，持续1回合。【乱蝶】状态下的敌方目标受到攻击后，额外受到1次等同于希儿终结技伤害15%的量子属性附加伤害。若该目标被我方其他目标触发【乱蝶】状态的附加伤害消灭，将不会触发希儿的天赋。当希儿陷入无法战斗状态时，敌方目标的【乱蝶】状态被解除。",
+            "DescriptionJP": "必殺技を発動した後、攻撃を受けた敵単体を「乱れ蝶」状態にする、1ターン継続。乱れ蝶状態の敵が攻撃を受けた後、ゼーレの必殺技ダメージ15%分の量子属性付加ダメージを1回受ける。その敵が、他の味方に「乱れ蝶」の付加ダメージを触発され倒された時、ゼーレの天賦は発動しない。ゼーレが戦闘不能状態になった時、敵の「乱れ蝶」状態が解除される。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "additionalatk",
+                "quantumatk"
+            ],
+            "maxlevel": 15,
+            "levelmultiplier": [
+                {
+                    "1": 38.25,
+                    "2": 40.8,
+                    "3": 43.35,
+                    "4": 45.9,
+                    "5": 48.45,
+                    "6": 51,
+                    "7": 54.2,
+                    "8": 57.4,
+                    "9": 60.6,
+                    "10": 63.75,
+                    "11": 66.3,
+                    "12": 68.85,
+                    "13": 71.4,
+                    "14": 73.95,
+                    "15": 76.5
+                }
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        }
+    ]
+}
