@@ -284,11 +284,12 @@
                 "ultatk",
                 "iceatk",
                 "debuff",
+                "frozen",
                 "allenemy"
             ],
             "effect": [
                 {
-                    "type": "aoe",
+                    "type": "dmg",
                     "addtarget": "atk",
                     "multiplier": 1,
                     "tag": [
@@ -299,10 +300,9 @@
                 },
                 {
                     "type": "debuff",
-                    "multipliertarget": "probability",
+                    "multipliertarget": "frozen",
                     "multiplier": 2,
                     "tag": [
-                        "allally",
                         "allenemy"
                     ]
                 },
