@@ -218,7 +218,7 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "",
+                    "addtarget": "taunt",
                     "multiplier": 3,
                     "tag": [
                         "singleally",
