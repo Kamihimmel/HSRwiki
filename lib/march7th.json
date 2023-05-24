@@ -391,7 +391,7 @@
                     "multipliertarget": "frozen",
                     "multiplier": 100,
                     "tag": [
-                        "allenemy"
+                        "singleenemy"
                     ]
                 },
                 {
@@ -409,9 +409,9 @@
     "tracedata": [
         {
             "tiny": false,
-            "ENname": "Command",
-            "CNname": "号令",
-            "JAname": "号令",
+            "ENname": "Ice Spell",
+            "CNname": "冰咒",
+            "JAname": "氷呪",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyat1.webp",
             "DescriptionEN": "The CRIT Rate for Basic ATK increases to 100%",
             "DescriptionCN": "普攻的暴击率提高至100%。",
