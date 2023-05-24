@@ -228,107 +228,91 @@
             ]
         },
         {
-            "ENname": "The Belobog March",
-            "CNname": "贝洛伯格进行曲",
-            "JAname": "ベロブルグ行進曲",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyault.webp",
-            "DescriptionEN": "Increases the ATK of all allies by [1]%, and increases their CRIT DMG equal to [2]% of Bronya's CRIT DMG plus [3]% for 2 turn(s).",
-            "DescriptionCN": "使我方全体攻击力提高[1]%，同时提高等同于布洛妮娅[2]%暴击伤害+[3]%的暴击伤害，持续2回合。",
-            "DescriptionJP": "味方全体の攻撃力+[1]%、会心ダメージがブローニャの会心ダメージの[2]%+[3]%アップする、2ターン継続。",
+            "ENname": "Glacial Cascade",
+            "CNname": "冰刻箭雨之时",
+            "JAname": "氷刻矢雨の時",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/march7thult.webp",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of March 7th's ATK to all enemies. Hit enemies have a [2]% base chance to be Frozen for 1 turn(s).While Frozen, enemies cannot take action and will receive Additional Ice DMG equal to [3]% of March 7th's ATK at the beginning of each turn.",
+            "DescriptionCN": "对敌方全体造成等同于三月七[1]%攻击力的冰属性伤害。受到攻击的敌方目标有[2]%基础概率陷入冻结状态，持续1回合。冻结状态下，敌方目标不能行动同时每回合开始时受到等同于三月七[3]%攻击力的冰属性附加伤害。",
+            "DescriptionJP": "敵全体に三月なのかの攻撃力[1]%分の氷属性ダメージを与える。攻撃を受けた敵は[2]%の基礎確率で凍結状態になる、1ターン継続。凍結状態の敵は行動できなくなり、ターンが回ってくるたびに三月なのかの攻撃力[3]%分の氷属性付加ダメージを受ける。",
             "stype": "ult",
             "energy": 120,
             "maxlevel": 15,
-            "buffskill": true,
-            "teamskill": true,
+            "buffskill": false,
+            "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 33,
-                    "2": 35.2,
-                    "3": 37.4,
-                    "4": 39.6,
-                    "5": 41.8,
-                    "6": 44,
-                    "7": 46.75,
-                    "8": 49.5,
-                    "9": 52.25,
-                    "10": 55,
-                    "11": 57.2,
-                    "12": 59.4,
-                    "13": 61.6,
-                    "14": 63.8,
-                    "15": 66
+                    "1": 90,
+                    "2": 96,
+                    "3": 102,
+                    "4": 108,
+                    "5": 114,
+                    "6": 120,
+                    "7": 127.5,
+                    "8": 135,
+                    "9": 142.5,
+                    "10": 150,
+                    "11": 156,
+                    "12": 162,
+                    "13": 168,
+                    "14": 174,
+                    "15": 180
                 },
                 {
-                    "1": 12,
-                    "2": 12.4,
-                    "3": 12.8,
-                    "4": 13.2,
-                    "5": 13.6,
-                    "6": 14,
-                    "7": 14.5,
-                    "8": 15,
-                    "9": 15.5,
-                    "10": 16,
-                    "11": 16.4,
-                    "12": 16.8,
-                    "13": 17.2,
-                    "14": 17.6,
-                    "15": 18
+                    "default": 50
                 },
                 {
-                    "1": 12,
-                    "2": 12.8,
-                    "3": 13.6,
-                    "4": 14.1,
-                    "5": 15.2,
-                    "6": 16,
-                    "7": 17,
-                    "8": 18,
-                    "9": 19,
-                    "10": 20,
-                    "11": 20.8,
-                    "12": 21.6,
-                    "13": 22.4,
-                    "14": 23.2,
-                    "15": 24
+                    "1": 30,
+                    "2": 33,
+                    "3": 36,
+                    "4": 39,
+                    "5": 42,
+                    "6": 45,
+                    "7": 48.75,
+                    "8": 52.5,
+                    "9": 56.25,
+                    "10": 60,
+                    "11": 63,
+                    "12": 66,
+                    "13": 69,
+                    "14": 72,
+                    "15": 75
                 }
             ],
             "tags": [
-                "buff",
-                "atk",
-                "critdmg",
-                "allally"
+                "aoe",
+                "ultatk",
+                "iceatk",
+                "debuff",
+                "allenemy"
             ],
             "effect": [
                 {
-                    "type": "buff",
+                    "type": "aoe",
                     "addtarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "allally",
-                        "atk"
+                        "aoe",
+                        "ultatk",
+                        "iceatk"
                     ]
                 },
                 {
-                    "type": "buff",
-                    "referencetarget": "bronya",
-                    "referencetargetEN": "Bronya",
-                    "referencetargetCN": "布洛妮娅",
-                    "referencetargetJP": "ブローニャ",
-                    "addtarget": "critdmg",
+                    "type": "debuff",
+                    "multipliertarget": "probability",
                     "multiplier": 2,
                     "tag": [
                         "allally",
-                        "critdmg"
+                        "allenemy"
                     ]
                 },
                 {
                     "type": "buff",
-                    "addtarget": "critdmg",
+                    "multipliertarget": "atk",
                     "multiplier": 3,
                     "tag": [
-                        "allally",
-                        "critdmg"
+                        "additionalatk",
+                        "iceatk"
                     ]
                 }
             ]
