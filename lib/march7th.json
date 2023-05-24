@@ -1,110 +1,110 @@
 {
-    "ENname": "Bronya",
-    "CNname": "布洛妮娅",
-    "JAname": "ブローニャ",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/bronya.webp",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/bronyalarge.webp",
-    "etype": "wind",
-    "wtype": "harmony",
-    "rarity": "5",
-    "dtaunt": 100,
-    "dspeed": 99,
+    "ENname": "March 7th",
+    "CNname": "三月七",
+    "JAname": "三月なのか",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/march7th.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/march7thlarge.webp",
+    "etype": "ice",
+    "wtype": "preservation",
+    "rarity": "4",
+    "dtaunt": 150,
+    "dspeed": 101,
     "maxenergy": 120,
     "leveldata": [
         {
             "level": "1",
-            "hp": 168,
-            "atk": 79,
-            "def": 72
+            "hp": 144,
+            "atk": 69,
+            "def": 78
         },
         {
             "level": "20",
-            "hp": 329,
-            "atk": 154,
-            "def": 141
+            "hp": 280,
+            "atk": 135,
+            "def": 152
         },
         {
             "level": "20+",
-            "hp": 397,
-            "atk": 186,
-            "def": 170
+            "hp": 338,
+            "atk": 163,
+            "def": 183
         },
         {
             "level": "30",
-            "hp": 481,
-            "atk": 225,
-            "def": 206
+            "hp": 410,
+            "atk": 198,
+            "def": 222
         },
         {
             "level": "30+",
-            "hp": 549,
-            "atk": 257,
-            "def": 235
+            "hp": 468,
+            "atk": 226,
+            "def": 253
         },
         {
             "level": "40",
-            "hp": 633,
-            "atk": 297,
-            "def": 272
+            "hp": 540,
+            "atk": 261,
+            "def": 292
         },
         {
             "level": "40+",
-            "hp": 701,
-            "atk": 328,
-            "def": 301
+            "hp": 597,
+            "atk": 288,
+            "def": 323
         },
         {
             "level": "50",
-            "hp": 785,
-            "atk": 368,
-            "def": 337
+            "hp": 669,
+            "atk": 323,
+            "def": 362
         },
         {
             "level": "50+",
-            "hp": 853,
-            "atk": 399,
-            "def": 366
+            "hp": 727,
+            "atk": 351,
+            "def": 393
         },
         {
             "level": "60",
-            "hp": 937,
-            "atk": 439,
-            "def": 402
+            "hp": 799,
+            "atk": 386,
+            "def": 432
         },
         {
             "level": "60+",
-            "hp": 1005,
-            "atk": 471,
-            "def": 431
+            "hp": 856,
+            "atk": 414,
+            "def": 464
         },
         {
             "level": "70",
-            "hp": 1089,
-            "atk": 510,
-            "def": 468
+            "hp": 928,
+            "atk": 448,
+            "def": 503
         },
         {
             "level": "70+",
-            "hp": 1157,
-            "atk": 542,
-            "def": 497
+            "hp": 986,
+            "atk": 476,
+            "def": 534
         },
         {
             "level": "80",
-            "hp": 1241,
-            "atk": 582,
-            "def": 533
+            "hp": 1058,
+            "atk": 511,
+            "def": 573
         }
     ],
     "skilldata": [
         {
-            "ENname": "Windrider Bullet",
-            "CNname": "驭风的子弹",
-            "JAname": "疾風の弾丸",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyana.webp",
-            "DescriptionEN": "Deals Wind DMG equal to [1]% of Bronya's ATK to a single enemy.",
-            "DescriptionCN": "对指定敌方单体造成等同于布洛妮娅[1]%攻击力的风属性伤害。",
-            "DescriptionJP": "指定した敵単体にブローニャの攻撃力[1]%分の風属性ダメージを与える。",
+            "ENname": "Frigid Cold Arrow",
+            "CNname": "极寒的弓矢",
+            "JAname": "極寒の弓矢",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/march7thna.webp",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of March 7th's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于三月七[1]%攻击力的冰属性伤害。",
+            "DescriptionJP": "指定した敵単体に三月なのかの攻撃力[1]%分の氷属性ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -125,7 +125,7 @@
             "tags": [
                 "singleatk",
                 "normalatk",
-                "windatk"
+                "iceatk"
             ],
             "effect": [
                 {
@@ -135,56 +135,94 @@
                     "tag": [
                         "singleatk",
                         "normalatk",
-                        "windatk"
+                        "iceatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Combat Redeployment",
-            "CNname": "作战再部署",
-            "JAname": "作戦再展開",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bronyaskill.webp",
-            "DescriptionEN": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by [1]% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
-            "DescriptionCN": "解除指定我方单体的1个负面效果，并使该目标立即行动，造成的伤害提高[1]%，持续1回合。当对自身施放该技能时，无法触发立即行动效果。",
-            "DescriptionJP": "指定した味方単体のデバフを1つ解除し、その味方を直ちに行動させ、与ダメージ+[1]%、1ターン継続。自身に対してこのスキルを発動した時、即時行動の効果は発動しない。",
+            "ENname": "The Power of Cuteness",
+            "CNname": "可爱即是正义",
+            "JAname": "可愛いは正義",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/march7thskill.webp",
+            "DescriptionEN": "Provides a single ally with a Shield that can absorb DMG equal to [1]% of March 7th's DEF plus [2] for 3 turn(s).If the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+            "DescriptionCN": "为指定我方单体提供能够抵消等同于三月七[1]%防御力+[2]伤害的护盾，持续3回合。若该目标当前生命值百分比大于等于30%，被敌方攻击的概率大幅提高。",
+            "DescriptionJP": "指定した味方単体に三月なのかの防御力[1]%+[2]の耐久値を持つバリアを与える、3ターン継続。その味方の残りHPが30%以上の場合、敵に攻撃される確率が大幅にアップする。",
             "stype": "skill",
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": true,
             "levelmultiplier": [
                 {
-                    "1": 33,
-                    "2": 36.3,
-                    "3": 39.6,
-                    "4": 42.9,
-                    "5": 46.2,
-                    "6": 49.5,
-                    "7": 53.63,
-                    "8": 57.75,
-                    "9": 61.88,
-                    "10": 66,
-                    "11": 69.3,
-                    "12": 72.6,
-                    "13": 75.9,
-                    "14": 79.2,
-                    "15": 82.5
+                    "1": 38,
+                    "2": 40.38,
+                    "3": 42.75,
+                    "4": 45.13,
+                    "5": 47.5,
+                    "6": 49.4,
+                    "7": 51.3,
+                    "8": 53.2,
+                    "9": 55.1,
+                    "10": 57,
+                    "11": 58.9,
+                    "12": 60.8,
+                    "13": 62.7,
+                    "14": 64.6,
+                    "15": 66.5
+                },
+                {
+                    "1": 190,
+                    "2": 304,
+                    "3": 390,
+                    "4": 475,
+                    "5": 532,
+                    "6": 589,
+                    "7": 632,
+                    "8": 675,
+                    "9": 717,
+                    "10": 760,
+                    "11": 803,
+                    "12": 846,
+                    "13": 888,
+                    "14": 931,
+                    "15": 974
+                },
+                {
+                    "default": 500
                 }
             ],
             "tags": [
                 "buff",
-                "alldmg",
-                "actioni",
+                "shield",
+                "taunt",
                 "singleally"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "alldmg",
+                    "type": "shield",
+                    "addtarget": "def",
                     "multiplier": 1,
                     "tag": [
                         "singleally",
-                        "alldmg"
+                        "shield"
+                    ]
+                },
+                {
+                    "type": "shield",
+                    "addtarget": "",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleally",
+                        "shield"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleally",
+                        "taunt"
                     ]
                 }
             ]
