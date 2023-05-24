@@ -204,6 +204,16 @@
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
                         "bounce",
                         "skillatk",
                         "imaginaryatk"
@@ -270,10 +280,13 @@
                 },
                 {
                     "default": -10
+                },
+                {
+                    "default": 100
                 }
             ],
             "tags": [
-                "allenemy",
+                "aoe",
                 "ultatk",
                 "imaginaryatk",
                 "debuff",
@@ -286,9 +299,17 @@
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "allenemy",
+                        "aoe",
                         "ultatk",
                         "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "imprison",
+                    "multiplier": 4,
+                    "tag": [
+                        "allenemy"
                     ]
                 },
                 {
@@ -381,6 +402,14 @@
             "effect": [
                 {
                     "type": "debuff",
+                    "multipliertarget": "imprison",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy"
+                    ]
+                },
+                {
+                    "type": "debuff",
                     "addtarget": "actiond",
                     "multiplier": 20,
                     "tag": [
@@ -421,7 +450,16 @@
             ],
             "effect": [
                 {
-                    "type": "buff",
+                    "type": "debuff",
+                    "multipliertarget": "dmgreceive",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy",
+                        "dmgreceive"
+                    ]
+                },
+                {
+                    "type": "debuff",
                     "addtarget": "dmgreceive",
                     "multiplier": 12,
                     "tag": [
@@ -474,18 +512,18 @@
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "debuff",
+                "buff",
                 "wbenemy",
                 "dmgreceive"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "dmgreceive",
+                    "addtarget": "alldmg",
                     "multiplier": 12,
                     "tag": [
                         "wbenemy",
-                        "dmgreceive"
+                        "alldmg"
                     ]
                 }
             ]
