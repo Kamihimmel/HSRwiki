@@ -825,7 +825,7 @@
             "ENname": "Legacy of Honor",
             "CNname": "名的传承",
             "JAname": "名の継承",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt1.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt1.png",
             "DescriptionEN": "After Welt uses his Ultimate, his abilities are enhanced. The next 2 time(s) he uses his Basic ATK or Skill, deals Additional DMG to the target equal to 50% of his Basic ATK's DMG multiplier or 80% of his Skill's DMG multiplier respectively.",
             "DescriptionCN": "施放终结技后，瓦尔特获得强化，在随后2次施放普攻或战技时额外对敌方目标造成1次附加伤害。施放普攻造成的附加伤害等同于普攻伤害倍率的50%，施放战技造成的附加伤害等同于战技伤害倍率的80%。",
             "DescriptionJP": "必殺技を発動した後、ヴェルトは強化を獲得、以後2回の通常攻撃/戦闘スキルはさらに敵に付加ダメージを1回与える。通常攻撃の付加ダメージは通常攻撃のダメージ倍率の50%、戦闘スキルの付加ダメージは戦闘スキルのダメージ倍率の80%となる。",
@@ -835,6 +835,63 @@
             "tags": [
                 "additionalatk",
                 "imaginaryatk"
+            ],
+            "maxlevel": 15,
+            "levelmultiplier": [
+                {
+                    "1": 25,
+                    "2": 30,
+                    "3": 35,
+                    "4": 40,
+                    "5": 45,
+                    "6": 50,
+                    "7": 55,
+                    "8": 60,
+                    "9": 65,
+                    "10": 65,
+                    "11": 65,
+                    "12": 65,
+                    "13": 65,
+                    "14": 65,
+                    "15": 65
+                },
+                {
+                    "1": 28.8,
+                    "2": 31.68,
+                    "3": 34.56,
+                    "4": 37.44,
+                    "5": 40.32,
+                    "6": 43.2,
+                    "7": 46.8,
+                    "8": 50.4,
+                    "9": 54,
+                    "10": 57.6,
+                    "11": 60.48,
+                    "12": 63.36,
+                    "13": 66.24,
+                    "14": 69.12,
+                    "15": 72
+                }
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk",
+                        "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "additionalatk",
+                        "imaginaryatk"
+                    ]
+                }
             ]
         },
         {
@@ -842,7 +899,7 @@
             "ENname": "Conflux of Stars",
             "CNname": "星的凝聚",
             "JAname": "星の凝集",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt2.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt2.png",
             "DescriptionEN": "When his Talent is triggered, Welt regenerates 3 Energy.",
             "DescriptionCN": "触发天赋时，瓦尔特恢复3点能量。",
             "DescriptionJP": "天賦発動時、ヴェルトはEPを3回復する。",
@@ -871,7 +928,7 @@
             "ENname": "Prayer of Peace",
             "CNname": "和平的祈愿",
             "JAname": "平和の願い",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt3.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltskill.webp",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
             "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
@@ -889,7 +946,7 @@
             "ENname": "Appellation of Justice",
             "CNname": "义的名号",
             "JAname": "義の旗標",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt4.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt4.png",
             "DescriptionEN": "Base chance for Skill to inflict SPD Reduction increases by 35%.",
             "DescriptionCN": "施放战技时，使受到攻击的敌方目标速度降低的基础概率提高35%。",
             "DescriptionJP": "戦闘スキルを発動した時、攻撃を受けた敵の速度をダウンさせる基礎確率+35%。",
@@ -907,7 +964,7 @@
             "ENname": "Power of Kindness",
             "CNname": "善的力量",
             "JAname": "善の力",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt5.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/weltult.webp",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
@@ -925,7 +982,7 @@
             "ENname": "Prospect of Glory",
             "CNname": "光明的未来",
             "JAname": "光ある未来",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt6.webp",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/welt6.png",
             "DescriptionEN": "When using Skill, deals DMG for 1 extra time to a random enemy.",
             "DescriptionCN": "施放战技时，对随机敌方单体额外造成1次伤害。",
             "DescriptionJP": "戦闘スキルを発動した時、さらにランダムな敵単体にダメージを1回与える。",
