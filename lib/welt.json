@@ -109,6 +109,8 @@
             "maxlevel": 9,
             "buffskill": false,
             "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
             "levelmultiplier": [
                 {
                     "1": 50,
@@ -152,6 +154,8 @@
             "maxlevel": 15,
             "buffskill": false,
             "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 10,
             "levelmultiplier": [
                 {
                     "1": 36,
@@ -243,6 +247,8 @@
             "maxlevel": 15,
             "buffskill": false,
             "teamskill": true,
+            "weaknessbreak": 60,
+            "energyregen": 5,
             "levelmultiplier": [
                 {
                     "1": 90,
@@ -345,6 +351,8 @@
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 0,
             "levelmultiplier": [
                 {
                     "1": 30,
@@ -392,6 +400,8 @@
             "maxlevel": 0,
             "buffskill": true,
             "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 0,
             "tags": [
                 "debuff",
                 "allenemy",

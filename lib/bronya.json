@@ -109,6 +109,8 @@
             "maxlevel": 9,
             "buffskill": false,
             "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
             "levelmultiplier": [
                 {
                     "1": 50,
@@ -152,6 +154,8 @@
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 30,
             "levelmultiplier": [
                 {
                     "1": 33,
@@ -202,6 +206,8 @@
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 5,
             "levelmultiplier": [
                 {
                     "1": 33,
