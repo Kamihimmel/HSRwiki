@@ -806,7 +806,7 @@
             "effect": [
                 {
                     "type": "shield",
-                    "addtarget": "def",
+                    "multipliertarget": "def",
                     "multiplier": 24,
                     "tag": [
                         "singleally"
@@ -814,7 +814,7 @@
                 },
                 {
                     "type": "shield",
-                    "addtarget": "",
+                    "multipliertarget": "",
                     "multiplier": 320,
                     "tag": [
                         "singleally"
