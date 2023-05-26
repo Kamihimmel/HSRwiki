@@ -93,7 +93,7 @@
             "level": "80",
             "hp": 1125,
             "atk": 620,
-            "def": 509
+            "def": 509?""
         }
     ],
     "skilldata": [
@@ -225,6 +225,14 @@
                 },
                 {
                     "type": "debuff",
+                    "addtarget": "basechance",
+                    "multiplier": 2,
+                    "tag": [
+                        "basechance"
+                    ]
+                }
+                {
+                    "type": "debuff",
                     "addtarget": "speed",
                     "multiplier": 3,
                     "tag": [
@@ -324,7 +332,6 @@
                     "multiplier": 2,
                     "tag": [
                         "allenemy",
-                        "imprison",
                         "actiond"
                     ]
                 },
@@ -424,7 +431,6 @@
                     "multiplier": 20,
                     "tag": [
                         "allenemy",
-                        "imprison",
                         "actiond"
                     ]
                 },
