@@ -230,7 +230,7 @@
                     "tag": [
                         "basechance"
                     ]
-                }
+                },
                 {
                     "type": "debuff",
                     "addtarget": "speed",
