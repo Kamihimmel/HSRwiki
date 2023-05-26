@@ -1,0 +1,864 @@
+{
+    "ENname": "Jing Yuan",
+    "CNname": "景元",
+    "JAname": "景元",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/jingyuan.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/jingyuanlarge.webp",
+    "etype": "lightning",
+    "wtype": "erudition",
+    "rarity": "5",
+    "dtaunt": 75,
+    "dspeed": 99,
+    "maxenergy": 130,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 158,
+            "atk": 95,
+            "def": 66
+        },
+        {
+            "level": "20",
+            "hp": 308,
+            "atk": 185,
+            "def": 128
+        },
+        {
+            "level": "20+",
+            "hp": 372,
+            "atk": 223,
+            "def": 155
+        },
+        {
+            "level": "30",
+            "hp": 451,
+            "atk": 270,
+            "def": 188
+        },
+        {
+            "level": "30+",
+            "hp": 514,
+            "atk": 308,
+            "def": 214
+        },
+        {
+            "level": "40",
+            "hp": 594,
+            "atk": 356,
+            "def": 247
+        },
+        {
+            "level": "40+",
+            "hp": 657,
+            "atk": 394,
+            "def": 273
+        },
+        {
+            "level": "50",
+            "hp": 736,
+            "atk": 441,
+            "def": 306
+        },
+        {
+            "level": "50+",
+            "hp": 799,
+            "atk": 479,
+            "def": 333
+        },
+        {
+            "level": "60",
+            "hp": 879,
+            "atk": 527,
+            "def": 366
+        },
+        {
+            "level": "60+",
+            "hp": 942,
+            "atk": 565,
+            "def": 392
+        },
+        {
+            "level": "70",
+            "hp": 1021,
+            "atk": 613,
+            "def": 425
+        },
+        {
+            "level": "70+",
+            "hp": 1085,
+            "atk": 651,
+            "def": 452
+        },
+        {
+            "level": "80",
+            "hp": 1164,
+            "atk": 698,
+            "def": 485
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Glistening Light",
+            "CNname": "石火流光",
+            "JAname": "電光石火",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuanna.webp",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Jing Yuan's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于景元[1]%攻击力的雷属性伤害。",
+            "DescriptionJP": "指定した敵単体に景元の攻撃力[1]%分の雷属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "lightningatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Rifting Zenith",
+            "CNname": "紫霄震曜",
+            "JAname": "紫霄の雷鳴",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuanskill.webp",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn",
+            "DescriptionCN": "对敌方全体造成等同于景元[1]%攻击力的雷属性伤害，同时增加2段【神君】下回合的攻击段数",
+            "DescriptionJP": "指定した味方単体のデバフを1つ解除し、その味方を直ちに行動させ、与ダメージ+[1]%、1ターン継続。自身に対してこのスキルを発動した時、即時行動の効果は発動しない。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 55,
+                    "3": 60,
+                    "4": 65,
+                    "5": 70,
+                    "6": 75,
+                    "7": 81.25,
+                    "8": 87.5,
+                    "9": 93.75,
+                    "10": 100,
+                    "11": 105,
+                    "12": 110,
+                    "13": 115,
+                    "14": 120,
+                    "15": 125
+                }
+            ],
+            "tags": [
+                "aoe",
+                "skillatk",
+                "lightningatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "skillatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Lightbringer",
+            "CNname": "吾身光明",
+            "JAname": "我が身の輝き",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuanult.webp",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.",
+            "DescriptionCN": "对敌方全体造成等同于景元[1]%攻击力的雷属性伤害。同时增加3段【神君】下回合的攻击段数。",
+            "DescriptionJP": "敵全体に景元の攻撃力[1]%分の雷属性ダメージを与え、「神君」の次ターンの攻撃段数+3。",
+            "stype": "ult",
+            "energy": 130,
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 120,
+                    "2": 128,
+                    "3": 136,
+                    "4": 144,
+                    "5": 152,
+                    "6": 160,
+                    "7": 170,
+                    "8": 180,
+                    "9": 190,
+                    "10": 200,
+                    "11": 208,
+                    "12": 216,
+                    "13": 224,
+                    "14": 232,
+                    "15": 240
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "lightningatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "ultatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Prana Extirpated",
+            "CNname": "斩勘神形",
+            "JAname": "退魔の形神",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuantalent.webp",
+            "DescriptionEN": "Summons /Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to [1]% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the target enemy. The Lightning-Lord's Hits Per Action can reach a max of 10. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by 10. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+            "DescriptionCN": "战斗开始时召唤【神君】。【神君】初始拥有60点速度以及3段攻击段数，行动时发动追加攻击，每段攻击对随机敌方单体造成等同于景元攻击力[1]%的雷属性伤害，同时对其相邻目标造成等同于主目标25%的雷属性伤害。【神君】最多累计10段攻击段数且每增加1段攻击段数，速度提高10点，行动结束后速度和攻击段数恢复至初始状态。当景元陷入无法战斗状态时【神君】消失。当景元受到控制类负面状态影响时【神君】也无法行动。",
+            "DescriptionJP": "戦闘開始時に「神君」を召喚する。「神君」の初期速度は60、初期攻撃段数は3。「神君」が行動すると追加攻撃を行い、1段の攻撃でランダムな敵単体に景元の攻撃力[1]%分の雷属性ダメージを与え、隣接する敵にメインターゲットに対する25%分の雷属性ダメージを与える。「神君」の攻撃段数は最大で10段。攻撃段数が1増えるごとに速度+10。神君の行動終了後、速度と攻撃段数が初期状態に戻る。 景元が戦闘不能状態になると「神君」は消える。景元が行動制限系デバフを受けている間、「神君」も行動できない。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 33,
+                    "2": 36.3,
+                    "3": 39.6,
+                    "4": 42.9,
+                    "5": 46.2,
+                    "6": 49.5,
+                    "7": 53.63,
+                    "8": 57.75,
+                    "9": 61.88,
+                    "10": 66,
+                    "11": 69.3,
+                    "12": 72.6,
+                    "13": 75.9,
+                    "14": 79.2,
+                    "15": 82.5
+                },
+                {
+                    "1": 8.25,
+                    "2": 9.075,
+                    "3": 9.9,
+                    "4": 10.725,
+                    "5": 11.55,
+                    "6": 12.375,
+                    "7": 13.4075,
+                    "8": 14.4375,
+                    "9": 15.47,
+                    "10": 16.5,
+                    "11": 17.325,
+                    "12": 18.15,
+                    "13": 18.975,
+                    "14": 19.8,
+                    "15": 20.625
+                }
+            ],
+            "tags": [
+                "aoe",
+                "followupatk",
+                "lightningatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "followupatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Spirit Invocation",
+            "CNname": "摄召威灵",
+            "JAname": "摂召威霊",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuantec.webp",
+            "DescriptionEN": "After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by 3 at the start of the next battle.",
+            "DescriptionCN": "使用秘技后，下一次战斗开始时【神君】第1回合的攻击段数增加3段。",
+            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、「神君」の1ターン目の攻撃段数+3。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "self",
+                "special"
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Battalia Crush",
+            "CNname": "破阵",
+            "JAname": "破陣",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuant1.webp",
+            "DescriptionEN": "If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn.",
+            "DescriptionCN": "若【神君】下回合的攻击段数大于等于6段，则其下回合的暴击伤害提高25%。",
+            "DescriptionJP": "「神君」の次のターンの攻撃段数が6以上の場合、神君の次のターンの会心ダメージ+25%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critdmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 25,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Savant Providence",
+            "CNname": "绸缪",
+            "JAname": "先見",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuant2.webp",
+            "DescriptionEN": "At the start of the battle, immediately regenerates 15 Energy.",
+            "DescriptionCN": "战斗开始时，立即恢复15点能量。",
+            "DescriptionJP": "戦闘開始時、EPを15回復する。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "War Marshal",
+            "CNname": "遣将",
+            "JAname": "遣将",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuant3.webp",
+            "DescriptionEN": "After the Skill is used, the CRIT Rate increases by 10% for 2 turn(s).",
+            "DescriptionCN": "施放战技后，暴击率提升10%，持续2回合。",
+            "DescriptionJP": "戦闘スキルを発動した後、会心率+10%、2ターン継続。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "critrate",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +2.7%",
+            "CNname": "暴击率 +2.7%",
+            "JAname": "会心率 +2.7%",
+            "ttype": "critrate",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "ATK",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +4%",
+            "CNname": "暴击率 +4%",
+            "JAname": "会心率 +4%",
+            "ttype": "critrate",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +5.3%",
+            "CNname": "暴击率 +5.3%",
+            "JAname": "会心率 +5.3%",
+            "ttype": "critrate",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +9%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Slash, Seas Split",
+            "CNname": "星流霆击碎昆冈",
+            "JAname": "流星雷霆<br />山をも砕く",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuan1.png",
+            "DescriptionEN": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the target enemy.",
+            "DescriptionCN": "【神君】施放攻击时，对指定敌方单体的相邻目标造成的伤害倍率额外提高，提高数值等同于对主目标伤害倍率的25%。",
+            "DescriptionJP": "「神君」が攻撃を行う時、指定した敵単体に隣接する敵に対するダメージ倍率が、メインターゲットに対するダメージ倍率25%分アップする。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "followupatk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk",
+                        "windatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Swing, Skies Squashed",
+            "CNname": "戎戈动地开天阵",
+            "JAname": "流星雷霆<br />山をも砕く",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuan2.png",
+            "DescriptionEN": "After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20% for 2 turn(s).",
+            "DescriptionCN": "【神君】行动后，景元的普攻、战技、终结技造成的伤害提高20%，持续2回合。",
+            "DescriptionJP": "「神君」が行動した後、景元の通常攻撃、戦闘スキル、必殺技の与ダメージ+20%、2ターン継続。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Strike, Suns Subdued",
+            "CNname": "移锋惊电冲霄汉",
+            "JAname": "流星雷霆<br />山をも砕く",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuanult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Spin, Stars Sieged",
+            "CNname": "刃卷横云落玉沙",
+            "JAname": "刃、雲を巻き<br />玉沙に落ちる",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuan4.png",
+            "DescriptionEN": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy.",
+            "DescriptionCN": "【神君】每段攻击后，景元恢复2点能量。",
+            "DescriptionJP": "「神君」が1段の攻撃を行うたび、景元はEPを2回復する。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Stride, Spoils Seized",
+            "CNname": "百战弃躯轻死生",
+            "JAname": "百戦経て捨てし躯<br />生死軽んず",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuanskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Sweep, Souls Slain",
+            "CNname": "威灵有应破敌雠",
+            "JAname": "百戦経て捨てし躯<br />生死軽んず",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/jingyuan6.png",
+            "DescriptionEN": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s).",
+            "DescriptionCN": "【神君】每段攻击后会使指定敌方目标额外陷入易伤状态。易伤状态下的敌方目标受到的伤害提高12%，持续至【神君】本次攻击结束，该效果最多叠加3层。",
+            "DescriptionJP": "「神君」が1段の攻撃を行うたび、メインターゲットを被ダメージアップ状態にする。被ダメージアップ状態の敵の被ダメージ+12%、「神君」のその回の攻撃が終了するまで継続、最大で3回累積できる。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "vulnerability",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "addtarget": "vulnerability",
+                    "multiplier": null,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": 12,
+                    "tag": [
+                        "allenemy",
+                        "dmgreceive"
+                    ]
+                }
+            ]
+        }
+    ]
+}
