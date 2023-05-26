@@ -225,7 +225,7 @@
                 },
                 {
                     "type": "debuff",
-                    "addtarget": "basechance",
+                    "multipliertarget": "basechance",
                     "multiplier": 2,
                     "tag": [
                         "basechance"
