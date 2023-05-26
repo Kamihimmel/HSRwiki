@@ -252,7 +252,7 @@
                 "ultatk",
                 "iceatk"
             ],
-            "effect": [
+            "effect": [           
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
@@ -265,22 +265,22 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 1,
-                    "tag": [
-                        "buff",
-                        "self"
-                    ]
-                },
-                {
-                    "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 3,
                     "tag": [
                         "buff",
                         "self"
                     ]
-                }                                   
+                },                     
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "buff",
+                        "self"
+                    ]
+                }
             ]
         },
         {
@@ -440,104 +440,114 @@
                 "buff",
                 "self",
                 "special"
-            ]
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 30,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]            
         }
     ],
     "tracedata": [
         {
             "tiny": false,
-            "ENname": "Nightshade",
-            "CNname": "夜行",
-            "JAname": "夜行",
+            "ENname": "Icing on the Kick",
+            "CNname": "颁冰",
+            "JAname": "颁冰",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqingt1.webp",
-            "DescriptionEN": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
-            "DescriptionCN": "若当前生命值百分比小于等于50%，则被敌方目标攻击的概率降低。",
+            "DescriptionEN": "When Yanqing attacks, deals Additional Ice DMG equal to 30% of Yanqing's ATK to enemies with Ice Weakness.",
+            "DescriptionCN": "施放攻击后，对携带冰属性弱点的敌方目标造成等同于彦卿30%攻击力的冰属性附加伤害。",
             "DescriptionJP": "残りHPが50%以下の場合、敵に攻撃される確率ダウン。",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "buff",
-                "taunt",
-                "self"
+                "additionalatk",
+                "iceatk"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "taunt",
-                    "multiplier": -50,
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
                     "tag": [
-                        "self",
-                        "taunt"
+                        "additionalatk",
+                        "iceatk"
                     ]
                 }
             ]
         },
         {
             "tiny": false,
-            "ENname": "Lacerate",
-            "CNname": "割裂",
-            "JAname": "斬裂",
+            "ENname": "Frost Favors the Brave",
+            "CNname": "凌霜",
+            "JAname": "凌霜",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqingt2.webp",
-            "DescriptionEN": "While Seele is in the buffed state, her Quantum RES PEN increases by 20%.",
-            "DescriptionCN": "增幅状态下希儿的量子抗性穿透提高20%。",
-            "DescriptionJP": "増幅状態の時、ゼーレの量子属性耐性貫通+20%。",
+            "DescriptionEN": "When Soulsteel Sync is active, Effect RES increases by 20%.",
+            "DescriptionCN": "处于【智剑连心】效果时，效果抵抗提高20%。",
+            "DescriptionJP": "「智剣連心」がある場合、効果抵抗+20%",
             "stype": "trace",
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "quantumpen",
+                "effectres",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "quantumpen",
+                    "addtarget": "effectres",
                     "multiplier": 20,
                     "tag": [
                         "self",
-                        "quantumpen"
+                        "effectres"
                     ]
                 }
             ]
         },
         {
             "tiny": false,
-            "ENname": "Rippling Waves",
-            "CNname": "涟漪",
-            "JAname": "さざ波",
+            "ENname": "Gentle Blade",
+            "CNname": "轻吕",
+            "JAname": "軽呂",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqingt3.webp",
-            "DescriptionEN": "After using a Basic ATK, Seele's next action will be Advanced Forward by 20%.",
-            "DescriptionCN": "施放普攻后，希儿的下一次行动提前20%。",
-            "DescriptionJP": "通常攻撃を行った後、ゼーレの次の行動順が20%早まる。",
+            "DescriptionEN": "When a CRIT Hit is triggered, increases SPD by 10% for 2 turn(s).",
+            "DescriptionCN": "触发暴击时，速度提高10%，持续2回合。",
+            "DescriptionJP": "会心が発生した時、速度+10%、2ターン継続。",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "actionf",
+                "speed",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "actionf",
-                    "multiplier": 20,
+                    "addtarget": "speed",
+                    "multiplier": 10,
                     "tag": [
                         "self",
-                        "actionf"
+                        "speed"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "CRIT DMG +5.3%",
-            "CNname": "暴击伤害 +5.3%",
-            "JAname": "会心ダメージ +5.3%",
-            "ttype": "critdmg",
+            "ENname": "ICE DMG +3.2%",
+            "CNname": "冰属性伤害提高 +3.2%",
+            "JAname": "氷属性与ダメージ +3.2%",
+            "ttype": "icedmg",
             "DescriptionEN": "A2",
             "DescriptionCN": "A2",
             "DescriptionJP": "A2",
@@ -547,16 +557,16 @@
             "tags": [
                 "buff",
                 "self",
-                "critdmg"
+                "icedmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 5.3,
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
                     "tag": [
                         "self",
-                        "critdmg"
+                        "icedmg"
                     ]
                 }
             ]
@@ -621,10 +631,10 @@
         },
         {
             "tiny": true,
-            "ENname": "CRIT DMG +8%",
-            "CNname": "暴击伤害 +8%",
-            "JAname": "会心ダメージ +8%",
-            "ttype": "critdmg",
+            "ENname": "ICE DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
@@ -634,26 +644,26 @@
             "tags": [
                 "buff",
                 "self",
-                "critdmg"
+                "icedmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 8,
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
                     "tag": [
                         "self",
-                        "critdmg"
+                        "icedmg"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "DEF +7.5%",
-            "CNname": "防御力 +7.5%",
-            "JAname": "防御力 +7.5%",
-            "ttype": "def",
+            "ENname": "HP +6%",
+            "CNname": "生命值 +6%",
+            "JAname": "生命值 +6%",
+            "ttype": "hp",
             "DescriptionEN": "A6",
             "DescriptionCN": "A6",
             "DescriptionJP": "A6",
@@ -663,26 +673,26 @@
             "tags": [
                 "buff",
                 "self",
-                "def"
+                "hp"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 7.5,
+                    "addtarget": "hp",
+                    "multiplier": 6,
                     "tag": [
                         "self",
-                        "def"
+                        "hp"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "CRIT DMG +10.7%",
-            "CNname": "暴击伤害 +10.7%",
-            "JAname": "会心ダメージ +10.7%",
-            "ttype": "critdmg",
+            "ENname": "ICE DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
             "DescriptionEN": "LV75",
             "DescriptionCN": "LV75",
             "DescriptionJP": "LV75",
@@ -692,16 +702,16 @@
             "tags": [
                 "buff",
                 "self",
-                "critdmg"
+                "icedmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 10.7,
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
                     "tag": [
                         "self",
-                        "critdmg"
+                        "icedmg"
                     ]
                 }
             ]
@@ -766,10 +776,10 @@
         },
         {
             "tiny": true,
-            "ENname": "DEF +5%",
-            "CNname": "防御力 +5%",
-            "JAname": "防御力 +5%",
-            "ttype": "def",
+            "ENname": "HP +5%",
+            "CNname": "生命值 +4%",
+            "JAname": "生命值 +4%",
+            "ttype": "hp",
             "DescriptionEN": "A3",
             "DescriptionCN": "A3",
             "DescriptionJP": "A3",
@@ -779,16 +789,16 @@
             "tags": [
                 "buff",
                 "self",
-                "def"
+                "hp"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 5,
+                    "addtarget": "hp",
+                    "multiplier": 4,
                     "tag": [
                         "self",
-                        "def"
+                        "hp"
                     ]
                 }
             ]
@@ -826,60 +836,70 @@
     "eidolon": [
         {
             "eidolonnum": 1,
-            "ENname": "Extirpating Slash",
-            "CNname": "斩尽",
-            "JAname": "斬尽",
+            "ENname": "Svelte Saber",
+            "CNname": "素刃",
+            "JAname": "素刃",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqing1.png",
-            "DescriptionEN": "When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%.",
-            "DescriptionCN": "对当前生命值百分比小于等于80%的敌方目标造成伤害时，暴击率提高15%。",
-            "DescriptionJP": "残りHPが80%以下の敵にダメージを与える時、会心率+15%。",
+            "DescriptionEN": "When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to 60% of his ATK.",
+            "DescriptionCN": "当彦卿攻击敌方目标时，如果目标处于冻结状态，则立即对目标造成等同于彦卿60%攻击力的冰属性附加伤害。",
+            "DescriptionJP": "彦卿が敵に攻撃を行う時、その敵が凍結状態の場合、敵に彦卿の攻撃力60%分の氷属性付加ダメージを与える。",
             "stype": "eidolon",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
-                "buff",
-                "critrate",
-                "self"
+                "additionalatk",
+                "icedmg"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 15,
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 60,
                     "tag": [
-                        "self",
-                        "critrate"
+                        "additionalatk",
+                        "icedmg"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 2,
-            "ENname": "Dancing Butterfly",
-            "CNname": "蝶舞",
-            "JAname": "蝶舞",
+            "ENname": "Supine Serenade",
+            "CNname": "空明",
+            "JAname": "空明",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqing2.png",
-            "DescriptionEN": "The SPD Boost effect of Seele's Skill can stack up to 2 time(s).",
-            "DescriptionCN": "战技的加速效果可以叠加，最多叠加2层。",
-            "DescriptionJP": "戦闘スキルの加速効果が累積できるようになる、最大で2層累積できる。",
+            "DescriptionEN": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%.",
+            "DescriptionCN": "处于【智剑连心】效果时，额外提高10%的能量恢复效率。",
+            "DescriptionJP": "彦卿に「智剣連心」がある場合、さらにEP回復効率+10%。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "special",
+                "energyregenrate",
                 "self"
-            ]
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energyregenrate",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "energyregenrate"
+                    ]
+                }
+            ]            
         },
         {
             "eidolonnum": 3,
-            "ENname": "Dazzling Tumult",
-            "CNname": "缭乱",
-            "JAname": "繚乱",
+            "ENname": "Sword Savant",
+            "CNname": "剑胎",
+            "JAname": "剣胎",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqingskill.webp",
-            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
-            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -891,42 +911,42 @@
         },
         {
             "eidolonnum": 4,
-            "ENname": "Flitting Phantasm",
-            "CNname": "缭乱",
-            "JAname": "繚乱",
+            "ENname": "Searing Sting",
+            "CNname": "霜厉",
+            "JAname": "霜厲",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqing4.png",
-            "DescriptionEN": "Seele regenerates 15 Energy when she defeats an enemy.",
-            "DescriptionCN": "希儿消灭敌方目标时，自身恢复15点能量。",
-            "DescriptionJP": "ゼーレが敵を倒した時、EPを15回復する。",
+            "DescriptionEN": "When the current HP percentage is 80% or higher, Ice RES PEN increases by 12%.",
+            "DescriptionCN": "当前生命值百分比大于等于80%时，提高自身12%的冰抗性穿透。",
+            "DescriptionJP": "残りHPが80%以上の時、自身の氷属性耐性貫通+12%。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "energy",
+                "icepen",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "energy",
-                    "multiplier": 15,
+                    "addtarget": "icepen",
+                    "multiplier": 12,
                     "tag": [
                         "self",
-                        "energy"
+                        "icepen"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 5,
-            "ENname": "Piercing Shards",
-            "CNname": "锋锐",
-            "JAname": "鋒鋭",
+            "ENname": "Surging Strife",
+            "CNname": "武骨",
+            "JAname": "武骨",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqingult.webp",
-            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
-            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -938,50 +958,20 @@
         },
         {
             "eidolonnum": 6,
-            "ENname": "Shattering Shambles",
-            "CNname": "离析",
-            "JAname": "離析",
+            "ENname": "Swift Swoop",
+            "CNname": "自在",
+            "JAname": "自在",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqing6.png",
-            "DescriptionEN": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered.When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed.",
-            "DescriptionCN": "施放终结技后使受到攻击的敌方单体陷入【乱蝶】状态，持续1回合。【乱蝶】状态下的敌方目标受到攻击后，额外受到1次等同于希儿终结技伤害15%的量子属性附加伤害。若该目标被我方其他目标触发【乱蝶】状态的附加伤害消灭，将不会触发希儿的天赋。当希儿陷入无法战斗状态时，敌方目标的【乱蝶】状态被解除。",
-            "DescriptionJP": "必殺技を発動した後、攻撃を受けた敵単体を「乱れ蝶」状態にする、1ターン継続。乱れ蝶状態の敵が攻撃を受けた後、ゼーレの必殺技ダメージ15%分の量子属性付加ダメージを1回受ける。その敵が、他の味方に「乱れ蝶」の付加ダメージを触発され倒された時、ゼーレの天賦は発動しない。ゼーレが戦闘不能状態になった時、敵の「乱れ蝶」状態が解除される。",
+            "DescriptionEN": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn.",
+            "DescriptionCN": "消灭敌方目标时，如果当前享有终结技的增益效果，则使这些增益效果的持续时间全部延长1回合。",
+            "DescriptionJP": "敵を倒した時に必殺技のバフを受けている場合、それらのバフの継続時間+1ターン。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "tags": [
-                "additionalatk",
-                "iceatk"
-            ],
-            "maxlevel": 15,
-            "levelmultiplier": [
-                {
-                    "1": 38.25,
-                    "2": 40.8,
-                    "3": 43.35,
-                    "4": 45.9,
-                    "5": 48.45,
-                    "6": 51,
-                    "7": 54.2,
-                    "8": 57.4,
-                    "9": 60.6,
-                    "10": 63.75,
-                    "11": 66.3,
-                    "12": 68.85,
-                    "13": 71.4,
-                    "14": 73.95,
-                    "15": 76.5
-                }
-            ],
-            "effect": [
-                {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 1,
-                    "tag": [
-                        "additionalatk",
-                        "iceatk"
-                    ]
-                }
+                "buff",
+                "special",
+                "self"
             ]
         }
     ]
