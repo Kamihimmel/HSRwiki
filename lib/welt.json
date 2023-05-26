@@ -225,10 +225,10 @@
                 },
                 {
                     "type": "debuff",
-                    "multipliertarget": "basechance",
+                    "multipliertarget": "reducespeed",
                     "multiplier": 2,
                     "tag": [
-                        "basechance"
+                        "reducespeed"
                     ]
                 },
                 {
@@ -467,11 +467,11 @@
             "effect": [
                 {
                     "type": "debuff",
-                    "multipliertarget": "dmgreceive",
+                    "multipliertarget": "vulnerability",
                     "multiplier": 100,
                     "tag": [
                         "allenemy",
-                        "dmgreceive"
+                        "vulnerability"
                     ]
                 },
                 {
