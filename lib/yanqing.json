@@ -379,16 +379,16 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critdmg",
+                    "addtarget": "critrate",
                     "multiplier": 1,
                     "tag": [
                         "buff",
                         "self"
                     ]
-                },
+                },                
                 {
                     "type": "buff",
-                    "addtarget": "critrate",
+                    "addtarget": "critdmg",
                     "multiplier": 2,
                     "tag": [
                         "buff",
