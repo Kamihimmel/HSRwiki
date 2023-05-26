@@ -198,9 +198,9 @@
             "CNname": "快雨燕相逐",
             "JAname": "快雨に戯れる燕",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqingult.webp",
-            "DescriptionEN": "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra [1]%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to [2]% of Yanqing's ATK to a single enemy.",
-            "DescriptionCN": "提高自身60%暴击率，若彦卿处于【智剑连心】效果，则使其暴击伤害额外提高[1]%，增益效果持续1回合。随后对指定敌方单体造成等同于彦卿[2]%攻击力的冰属性伤害。",
-            "DescriptionJP": "自身の会心率+60%、彦卿に「智剣連心」がある場合、さらに会心ダメージ+[1]%、バフは1ターン継続。その後、指定した敵単体に彦卿の攻撃力[2]%分の氷属性ダメージを与える。",
+            "DescriptionEN": "Increases Yanqing's CRIT Rate by [3]%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra [1]%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to [2]% of Yanqing's ATK to a single enemy.",
+            "DescriptionCN": "提高自身[3]%暴击率，若彦卿处于【智剑连心】效果，则使其暴击伤害额外提高[1]%，增益效果持续1回合。随后对指定敌方单体造成等同于彦卿[2]%攻击力的冰属性伤害。",
+            "DescriptionJP": "自身の会心率+[3]%、彦卿に「智剣連心」がある場合、さらに会心ダメージ+[1]%、バフは1ターン継続。その後、指定した敵単体に彦卿の攻撃力[2]%分の氷属性ダメージを与える。",
             "stype": "ult",
             "energy": 140,
             "maxlevel": 15,
@@ -242,7 +242,10 @@
                     "13": 392,
                     "14": 406,
                     "15": 420
-                }                
+                },
+                {
+                    "default" : 60
+                }          
             ],
             "tags": [
                 "singleatk",
@@ -268,7 +271,16 @@
                         "buff",
                         "self"
                     ]
-                }                
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 3,
+                    "tag": [
+                        "buff",
+                        "self"
+                    ]
+                }                                   
             ]
         },
         {
