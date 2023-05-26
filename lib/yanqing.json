@@ -373,13 +373,32 @@
             "tags": [
                 "singleatk",
                 "followupatk",
-                "icedmg"
+                "icedmg",
+                "frozen"
             ],
             "effect": [
                 {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "buff",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2,
+                    "tag": [
+                        "buff",
+                        "self"
+                    ]
+                },                
+                {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 1,
+                    "multiplier": 4,
                     "tag": [
                         "singleatk",
                         "followupatk",
@@ -389,7 +408,7 @@
                 {
                     "type": "debuff",
                     "multipliertarget": "frozen",
-                    "multiplier": 2,
+                    "multiplier": 5,
                     "tag": [
                         "singleenemy"
                     ]
