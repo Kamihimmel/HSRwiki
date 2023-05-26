@@ -383,6 +383,15 @@
             "effect": [
                 {
                     "type": "buff",
+                    "addtarget": "taunt",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "taunt"
+                    ]
+                },                
+                {
+                    "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 1,
                     "tag": [
@@ -425,16 +434,7 @@
                         "additionalatk",
                         "iceatk"
                     ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "taunt",
-                    "multiplier": 6,
-                    "tag": [
-                        "self",
-                        "taunt"
-                    ]
-                }                
+                }     
             ]
         },
         {
