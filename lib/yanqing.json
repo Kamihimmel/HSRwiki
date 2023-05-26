@@ -252,7 +252,7 @@
                 "ultatk",
                 "iceatk"
             ],
-            "effect": [
+            "effect": [           
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
@@ -265,22 +265,22 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 1,
-                    "tag": [
-                        "buff",
-                        "self"
-                    ]
-                },
-                {
-                    "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 3,
                     "tag": [
                         "buff",
                         "self"
                     ]
-                }                                   
+                },                     
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "buff",
+                        "self"
+                    ]
+                }
             ]
         },
         {
