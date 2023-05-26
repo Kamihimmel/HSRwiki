@@ -430,7 +430,7 @@
             "JAname": "御剣真訣",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yanqingtec.webp",
             "DescriptionEN": "After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP is 50% or higher.",
-            "DescriptionCN": "使用秘技后进入持续20秒的隐身状态。隐身状态下不会被敌人发现，且主动攻击敌人进入战斗时，希儿立即进入增幅状态。",
+            "DescriptionCN": "使用秘技后，下一次战斗开始时彦卿对当前生命值百分比大于等于50%的敌方目标造成的伤害提高30%，持续2回合。",
             "DescriptionJP": "秘技を使用した後、次の戦闘開始時、残りHPが50%以上の敵に対して、彦卿の与ダメージ+30%、2ターン継続。",
             "stype": "technique",
             "maxlevel": 0,
