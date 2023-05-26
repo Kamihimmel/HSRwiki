@@ -412,6 +412,15 @@
                     "tag": [
                         "singleenemy"
                     ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "additionalatk",
+                        "iceatk"
+                    ]
                 }
             ]
         },
