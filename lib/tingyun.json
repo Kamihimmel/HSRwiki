@@ -223,6 +223,15 @@
                         "singleally",
                         "atk"
                     ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleally",
+                        "additionalatk"
+                    ]
                 }
             ]
         },
