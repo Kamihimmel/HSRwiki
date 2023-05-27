@@ -1,0 +1,644 @@
+{
+    "data": [
+        {
+            "number": "20018",
+            "ENname": "Hidden Shadow",
+            "CNname": "匿影",
+            "JAname": "匿影",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20018.png",
+            "wtype": "nihility",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Mutual Demise",
+            "CNname": "俱殁",
+            "JAname": "倶歿",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/kafka.png",
+            "wtype": "destruction",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Mediation",
+            "CNname": "调和",
+            "JAname": "同調",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/yanqing.png",
+            "wtype": "harmony",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/yanqing.json"
+        },
+        {
+            "ENname": "Multiplication",
+            "CNname": "蕃息",
+            "JAname": "蕃殖",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/himeko.png",
+            "wtype": "abundance",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Pioneering",
+            "CNname": "开疆",
+            "JAname": "新天地",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/welt.png",
+            "wtype": "preservation",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/welt.json"
+        },
+        {
+            "ENname": "Sagacity",
+            "CNname": "睿见",
+            "JAname": "見識",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/silverwolf.png",
+            "wtype": "erudition",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Adversarial",
+            "CNname": "相抗",
+            "JAname": "相抗",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/silverwolf.png",
+            "wtype": "thehunt",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Past and Future",
+            "CNname": "过往未来",
+            "JAname": "過去と未来",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/bronya.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/bronya.json"
+        },
+        {
+            "ENname": "River Flows in Spring",
+            "CNname": "春水初生",
+            "JAname": "春水に初生する",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/seele.png",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "We Are Wildfire",
+            "CNname": "我们是地火",
+            "JAname": "我ら地炎",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/gepard.png",
+            "wtype": "preservation",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Fermata",
+            "CNname": "延长记号",
+            "JAname": "フェルマータ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/clara.png",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Quid Pro Quo",
+            "CNname": "等价交换",
+            "JAname": "等価交換",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/luocha.png",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Geniuses' Repose",
+            "CNname": "天才们的休憩",
+            "JAname": "天才たちの休息",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/jingyuan.png",
+            "wtype": "erudition",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/jingyuan.json"
+        },
+        {
+            "ENname": "Under the Blue Sky",
+            "CNname": "在蓝天下",
+            "JAname": "青空の下で",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/bailu.png",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Dance! Dance! Dance!",
+            "CNname": "舞！舞！舞！",
+            "JAname": "ダンス！ダンス！ダンス！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/mc.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Subscribe for More!",
+            "CNname": "点个关注吧！",
+            "JAname": "フォローして！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/mcf.png",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Trend of the Universal Market",
+            "CNname": "宇宙市场趋势",
+            "JAname": "星間市場のトレンド",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/march7th.png",
+            "wtype": "preservation",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/march7th.json"
+        },
+        {
+            "ENname": "Resolution Shines As Pearls of Sweat",
+            "CNname": "决心如汗珠般闪耀",
+            "JAname": "決意は汗のように輝く",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/danheng.png",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Perfect Timing",
+            "CNname": "此时恰好",
+            "JAname": "今が丁度",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/arlan.png",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Texture of Memories",
+            "CNname": "记忆的质料",
+            "JAname": "記憶の素材",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/asta.png",
+            "wtype": "preservation",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Cruising in the Stellar Sea",
+            "CNname": "星海巡航",
+            "JAname": "星海巡航",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/serval.png",
+            "wtype": "thehunt",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "On the Fall of an Aeon",
+            "CNname": "记一位星神的陨落",
+            "JAname": "とある星神の殞落を記す",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/natasha.png",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Time Waits for No One",
+            "CNname": "时节不居",
+            "JAname": "時節は居らず",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/tingyun.png",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Sleep Like the Dead",
+            "CNname": "如泥酣眠",
+            "JAname": "泥の如き眠り",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "thehunt",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Before Dawn",
+            "CNname": "拂晓之前",
+            "JAname": "夜明け前",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sampo.png",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Moment of Victory",
+            "CNname": "制胜的瞬间",
+            "JAname": "勝利の刹那",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/hook.png",
+            "wtype": "preservation",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "In the Name of the World",
+            "CNname": "以世界之名",
+            "JAname": "世界の名を以て",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/qingque.png",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "But The Battle Isn't Over",
+            "CNname": "但战斗还未结束",
+            "JAname": "だが戦争は終わらない",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sushang.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Something Irreplaceable",
+            "CNname": "无可取代的东西",
+            "JAname": "かけがえのないもの",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sushang.png",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "In the Night",
+            "CNname": "于夜色中",
+            "JAname": "夜の帳の中で",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Night on the Milky Way",
+            "CNname": "银河铁道之夜",
+            "JAname": "銀河鉄道の夜",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sampo.png",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Today Is Another Peaceful Day",
+            "CNname": "今日亦是和平的一日",
+            "JAname": "今日も平和な一日",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sampo.png",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Nowhere to Run",
+            "CNname": "无处可逃",
+            "JAname": "逃げ場なし",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sushang.png",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Carve the Moon, Weave the Clouds",
+            "CNname": "镂月裁云之意",
+            "JAname": "彫月裁雲の意",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/bronya.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/bronya.json"
+        },
+        {
+            "ENname": "Return to Darkness",
+            "CNname": "重返幽冥",
+            "JAname": "幽冥に帰す",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "This Is Me!",
+            "CNname": "这就是我啦！",
+            "JAname": "これがウチだよ！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/hook.png",
+            "wtype": "preservation",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "We Will Meet Again",
+            "CNname": "后会有期",
+            "JAname": "またお会いしましょう",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/danheng.png",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Warmth Shortens Cold Nights",
+            "CNname": "暖夜不会漫长",
+            "JAname": "暖かい夜は長くない",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/tingyun.png",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "The Seriousness of Breakfast",
+            "CNname": "早餐的仪式感",
+            "JAname": "朝食の儀式感",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sampo.png",
+            "wtype": "erudition",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Woof! Walk Time!",
+            "CNname": "汪！散步时间！",
+            "JAname": "ワン！散歩の時間！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sushang.png",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Make the World Clamor",
+            "CNname": "别让世界静下来",
+            "JAname": "この世界に喧噪を",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sampo.png",
+            "wtype": "erudition",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "A Secret Vow",
+            "CNname": "秘密誓心",
+            "JAname": "秘密の誓い",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sushang.png",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Planetary Rendezvous",
+            "CNname": "与行星相会",
+            "JAname": "惑星との出会い",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/bronya.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/bronya.json"
+        },
+        {
+            "ENname": "Swordplay",
+            "CNname": "论剑",
+            "JAname": "論剣",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "thehunt",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Landau's Choice",
+            "CNname": "朗道的选择",
+            "JAname": "ランドゥーの選択",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/hook.png",
+            "wtype": "preservation",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Eyes of the Prey",
+            "CNname": "猎物的视线",
+            "JAname": "獲物の視線",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/qingque.png",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Shared Feeling",
+            "CNname": "同一种心情",
+            "JAname": "同じ気持ち",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/tingyun.png",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "The Birth of the Self",
+            "CNname": "「我」的诞生",
+            "JAname": "「私」の誕生",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sampo.png",
+            "wtype": "erudition",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "The Moles Welcome You",
+            "CNname": "鼹鼠党欢迎你",
+            "JAname": "モグラ党へようこそ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sushang.png",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Memories of the Past",
+            "CNname": "记忆中的模样",
+            "JAname": "記憶の中の姿",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/bronya.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/bronya.json"
+        },
+        {
+            "ENname": "Only Silence Remains",
+            "CNname": "唯有沉默",
+            "JAname": "沈黙のみ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "thehunt",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Day One of My New Life",
+            "CNname": "余生的第一天",
+            "JAname": "余生の初日",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/hook.png",
+            "wtype": "preservation",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Good Night and Sleep Well",
+            "CNname": "晚安与睡颜",
+            "JAname": "おやすみなさいと寝顔",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/qingque.png",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Post-Op Conversation",
+            "CNname": "一场术后对话",
+            "JAname": "手術後の会話",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/tingyun.png",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Passkey",
+            "CNname": "灵钥",
+            "JAname": "霊鍵",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sampo.png",
+            "wtype": "erudition",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Meshing Cogs",
+            "CNname": "轮契",
+            "JAname": "輪契",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/bronya.png",
+            "wtype": "harmony",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/bronya.json"
+        },
+        {
+            "ENname": "Loop",
+            "CNname": "渊环",
+            "JAname": "淵環",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/qingque.png",
+            "wtype": "nihility",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Defense",
+            "CNname": "戍御",
+            "JAname": "防衛",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/hook.png",
+            "wtype": "preservation",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Shattered Home",
+            "CNname": "乐圮",
+            "JAname": "楽壊",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sushang.png",
+            "wtype": "destruction",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Fine Fruit",
+            "CNname": "嘉果",
+            "JAname": "嘉果",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/tingyun.png",
+            "wtype": "abundance",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Darting Arrow",
+            "CNname": "离弦",
+            "JAname": "離弦",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "thehunt",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Data Bank",
+            "CNname": "智库",
+            "JAname": "アーカイブ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sampo.png",
+            "wtype": "erudition",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Chorus",
+            "CNname": "齐颂",
+            "JAname": "斉頌",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/bronya.png",
+            "wtype": "harmony",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/bronya.json"
+        },
+        {
+            "ENname": "Void",
+            "CNname": "幽邃",
+            "JAname": "幽邃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/qingque.png",
+            "wtype": "nihility",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Amber",
+            "CNname": "琥珀",
+            "JAname": "琥珀",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/hook.png",
+            "wtype": "preservation",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Collapsing Sky",
+            "CNname": "天倾",
+            "JAname": "天傾",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/sushang.png",
+            "wtype": "destruction",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Cornucopia",
+            "CNname": "物穰",
+            "JAname": "物穣",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/tingyun.png",
+            "wtype": "abundance",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Arrows",
+            "CNname": "锋镝",
+            "JAname": "矢じり",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "thehunt",
+            "rarity": "3",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Before the Tutorial Mission Starts",
+            "CNname": "新手任务开始前",
+            "JAname": "初めてのクエストの前に",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Echoes of the Coffin",
+            "CNname": "棺的回响",
+            "JAname": "棺のこだま",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "abundance",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Incessant Rain",
+            "CNname": "雨一直下",
+            "JAname": "降りやまぬ雨",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/pela.png",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        }
+    ]
+}
