@@ -230,7 +230,7 @@
                     "referencetargetEN": "Single Ally",
                     "referencetargetCN": "我方单体",
                     "referencetargetJP": "味方単体",
-                    "addtarget": "atk",
+                    "multipliertarget": "atk",
                     "multiplier": 3,
                     "tag": [
                         "additionalatk"
