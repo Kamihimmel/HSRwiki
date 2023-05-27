@@ -726,17 +726,6 @@
                 "buff",
                 "followupatk",
                 "self"
-            ],
-            "effect": [
-                {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 1,
-                    "tag": [
-                        "additionalatk",
-                        "windatk"
-                    ]
-                }
             ]
         },
         {
@@ -753,17 +742,34 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "alldmg",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "alldmg",
+                    "addtarget": "normalatk",
                     "multiplier": 20,
                     "tag": [
                         "self",
-                        "alldmg"
+                        "normalatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "skillatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "skillatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "ultatk"
                     ]
                 }
             ]
@@ -845,8 +851,7 @@
                     "multipliertarget": "vulnerability",
                     "multiplier": null,
                     "tag": [
-                        "self",
-                        "atk"
+                        "self"
                     ]
                 },
                 {

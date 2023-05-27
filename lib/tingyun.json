@@ -1,0 +1,862 @@
+{
+    "ENname": "Tingyun",
+    "CNname": "停云",
+    "JAname": "停雲",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/tingyun.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/tingyunlarge.webp",
+    "etype": "lightning",
+    "wtype": "harmony",
+    "rarity": "4",
+    "dtaunt": 100,
+    "dspeed": 112,
+    "maxenergy": 130,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 115,
+            "atk": 72,
+            "def": 54
+        },
+        {
+            "level": "20",
+            "hp": 224,
+            "atk": 140,
+            "def": 105
+        },
+        {
+            "level": "20+",
+            "hp": 270,
+            "atk": 169,
+            "def": 126
+        },
+        {
+            "level": "30",
+            "hp": 328,
+            "atk": 205,
+            "def": 153
+        },
+        {
+            "level": "30+",
+            "hp": 374,
+            "atk": 234,
+            "def": 175
+        },
+        {
+            "level": "40",
+            "hp": 432,
+            "atk": 270,
+            "def": 202
+        },
+        {
+            "level": "40+",
+            "hp": 478,
+            "atk": 298,
+            "def": 224
+        },
+        {
+            "level": "50",
+            "hp": 535,
+            "atk": 334,
+            "def": 251
+        },
+        {
+            "level": "50+",
+            "hp": 581,
+            "atk": 363,
+            "def": 272
+        },
+        {
+            "level": "60",
+            "hp": 639,
+            "atk": 399,
+            "def": 299
+        },
+        {
+            "level": "60+",
+            "hp": 685,
+            "atk": 428,
+            "def": 321
+        },
+        {
+            "level": "70",
+            "hp": 1089,
+            "atk": 510,
+            "def": 468
+        },
+        {
+            "level": "70+",
+            "hp": 743,
+            "atk": 464,
+            "def": 348
+        },
+        {
+            "level": "80",
+            "hp": 846,
+            "atk": 529,
+            "def": 396
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Dislodged",
+            "CNname": "逐客令",
+            "JAname": "逐客令",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyunna.webp",
+            "DescriptionEN": "Tingyun deals Lightning DMG equal to [1]% of her ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于停云[1]%攻击力的雷属性伤害。",
+            "DescriptionJP": "指定した敵単体に停雲の攻撃力[1]%分の雷属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "lightningatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Soothing Melody",
+            "CNname": "祥音和韵",
+            "JAname": "祥音和韻",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyunskill.webp",
+            "DescriptionEN": "Grants a single ally with Benediction to increase their ATK by [1]%, up to [2]% of Tingyun's current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to [3]% of that ally's ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+            "DescriptionCN": "为指定我方单体提供【赐福】，使其攻击力提高[1]%，最高不超过停云当前攻击力的[2]%。获得【赐福】的目标施放攻击后，会额外造成1次等同于其自身[3]%攻击力的雷属性附加伤害。【赐福】持续3回合且仅对停云战技最新的施放目标生效。",
+            "DescriptionJP": "指定した味方単体に「賜福」を付与し、その味方の攻撃力+[1]%、攻撃力アップ量は停雲の現在の攻撃力の[2]%を超えない。「賜福」を付与された味方が攻撃を行った後、敵にその味方の攻撃力[3]%分の雷属性付加ダメージを1回与える。「賜福」は3ターン継続し、停雲の戦闘スキルの最後のターゲットにのみ効果を発揮する。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 25,
+                    "2": 27.5,
+                    "3": 30,
+                    "4": 32.5,
+                    "5": 35,
+                    "6": 37.5,
+                    "7": 40.63,
+                    "8": 43.75,
+                    "9": 46.88,
+                    "10": 50,
+                    "11": 52.5,
+                    "12": 55,
+                    "13": 57.5,
+                    "14": 60,
+                    "15": 62.5
+                },
+                {
+                    "1": 15,
+                    "2": 16,
+                    "3": 17,
+                    "4": 18,
+                    "5": 19,
+                    "6": 20,
+                    "7": 21.25,
+                    "8": 22.5,
+                    "9": 23.75,
+                    "10": 25,
+                    "11": 26,
+                    "12": 27,
+                    "13": 28,
+                    "14": 29,
+                    "15": 30
+                },
+                {
+                    "1": 20,
+                    "2": 22,
+                    "3": 24,
+                    "4": 26,
+                    "5": 28,
+                    "6": 30,
+                    "7": 32.5,
+                    "8": 35,
+                    "9": 37.5,
+                    "10": 40,
+                    "11": 42,
+                    "12": 44,
+                    "13": 46,
+                    "14": 48,
+                    "15": 50
+                }
+            ],
+            "tags": [
+                "buff",
+                "atk",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleally",
+                        "atk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "referencetarget": "singleally",
+                    "referencetargetEN": "Single Ally",
+                    "referencetargetCN": "我方单体",
+                    "referencetargetJP": "味方単体",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "additionalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Amidst the Rejoicing Clouds",
+            "CNname": "庆云光覆仪祷",
+            "JAname": "慶雲光覆儀祷",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyunult.webp",
+            "DescriptionEN": "Regenerates 50 Energy for a single ally and increases the target's DMG by [1]% for 2 turn(s).",
+            "DescriptionCN": "为指定我方单体恢复50点能量，同时使目标造成的伤害提高[1]%，持续2回合。",
+            "DescriptionJP": "指定した味方単体のEPを50回復し、その味方の与ダメージ+[1]%、2ターン継続。",
+            "stype": "ult",
+            "energy": 130,
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 20,
+                    "2": 23,
+                    "3": 26,
+                    "4": 29,
+                    "5": 32,
+                    "6": 35,
+                    "7": 38.75,
+                    "8": 42.5,
+                    "9": 46.25,
+                    "10": 50,
+                    "11": 53,
+                    "12": 56,
+                    "13": 59,
+                    "14": 62,
+                    "15": 65
+                }
+            ],
+            "tags": [
+                "buff",
+                "energy",
+                "alldmg",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleally",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Violet Sparknado",
+            "CNname": "紫电扶摇",
+            "JAname": "揺れる紫電",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyuntalent.webp",
+            "DescriptionEN": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to [1]% of that ally's ATK to the same enemy.",
+            "DescriptionCN": "敌方目标受到停云攻击后，获得【赐福】的目标立即对其造成等同于自身[1]%攻击力的雷属性附加伤害。",
+            "DescriptionJP": "敵が停雲の攻撃を受けた後、「賜福」を付与された味方が、その敵に自身の攻撃力[1]%分の雷属性付加ダメージを与える。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 30,
+                    "2": 33,
+                    "3": 36,
+                    "4": 39,
+                    "5": 42,
+                    "6": 45,
+                    "7": 48.76,
+                    "8": 52.5,
+                    "9": 56.25,
+                    "10": 60,
+                    "11": 63,
+                    "12": 66,
+                    "13": 69,
+                    "14": 72,
+                    "15": 75
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "actioni",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "additionalatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Gentle Breeze",
+            "CNname": "惠风和畅",
+            "JAname": "恵風和暢",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyuntec.webp",
+            "DescriptionEN": "Tingyun immediately regenerates 50 Energy upon using her Technique.",
+            "DescriptionCN": "使用秘技后立即为自身恢复50点能量。",
+            "DescriptionJP": "秘技を使用した後、自身のEPを50回復する。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 50,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Nourished Joviality",
+            "CNname": "驻晴",
+            "JAname": "留晴",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyunt1.webp",
+            "DescriptionEN": "Tingyun's SPD increases by 20% for 1 turn after using Skill.",
+            "DescriptionCN": "施放战技时，停云自身速度提高20%，持续1回合。",
+            "DescriptionJP": "戦闘スキルを発動した時、停雲の速度+20%、1ターン継続。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "speed",
+                "self"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Jubilant Passage",
+            "CNname": "亨通",
+            "JAname": "亨通",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyunt2.webp",
+            "DescriptionEN": "Tingyun immediately regenerates 5 Energy at the start of her turn.",
+            "DescriptionCN": "停云的回合开始时，自身立即恢复5点能量。",
+            "DescriptionJP": "停雲は自身のターンが回ってきた時、EPを5回復する。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "energy",
+                "actioni",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Knell Subdual",
+            "CNname": "止厄",
+            "JAname": "除災",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyunt3.webp",
+            "DescriptionEN": "Increases Basic ATK DMG by 40%.",
+            "DescriptionCN": "普攻造成的伤害提高40%。",
+            "DescriptionJP": "通常攻撃の与ダメージ+40%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "normalatk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "normalatk",
+                    "multiplier": 40,
+                    "tag": [
+                        "self",
+                        "normalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Lightning DMG +4.8%",
+            "CNname": "雷属性伤害提高 +4.8%",
+            "JAname": "雷属性与ダメージ +4.8%",
+            "ttype": "lightningdmg",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "lightningdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "lightningdmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "lightningdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +10%",
+            "CNname": "防御力 +10%",
+            "JAname": "防御力 +10%",
+            "ttype": "def",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Lightning DMG +3.2%",
+            "CNname": "雷属性伤害提高 +3.2%",
+            "JAname": "雷属性与ダメージ +3.2%",
+            "ttype": "lightningdmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "lightningdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "lightningdmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "lightningdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Windfall of Lucky Springs",
+            "CNname": "春风得意，时运驰骋",
+            "JAname": "春風吹きて時運巡る",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyun1.png",
+            "DescriptionEN": "After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn.",
+            "DescriptionCN": "得到【赐福】的我方单体施放终结技后速度提高20%，持续1回合。",
+            "DescriptionJP": "「賜福」を与えられた味方単体は、必殺技を発動した後に速度+20%、1ターン継続。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "speed",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 20,
+                    "tag": [
+                        "singleally",
+                        "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Gainfully Gives, Givingly Gains",
+            "CNname": "君子惠渥，晏笑承之",
+            "JAname": "君子の恩恵 微笑みを以て承るべき",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyun2.png",
+            "DescriptionEN": "The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn.",
+            "DescriptionCN": "得到【赐福】的我方单体在消灭敌方目标时恢复5点能量，该效果每回合只能触发1次。",
+            "DescriptionJP": "「賜福」を与えられた味方単体は、敵を倒した時にEPを5回復する、この効果はターンが回ってくるたびに1回まで発動できる。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "singleally"
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Halcyon Bequest",
+            "CNname": "青丘遗泽",
+            "JAname": "青丘の遺恩",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyunult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Jovial Versatility",
+            "CNname": "鸣火机变，度时察势",
+            "JAname": "情勢を読み 変化せし鳴火",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyun4.png",
+            "DescriptionEN": "The DMG multiplier provided by Benediction increases by 20%.",
+            "DescriptionCN": "【赐福】附加的伤害倍率提高20%。",
+            "DescriptionJP": "「賜福」の付加ダメージ倍率+20%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "additionalatk"
+            ] 
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Sauntering Coquette",
+            "CNname": "绥绥狐魅",
+            "JAname": "綏んずる狐魅",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyunskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Peace Brings Wealth to All",
+            "CNname": "和气生财，泽盈四方",
+            "JAname": "和気生財",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/tingyun6.png",
+            "DescriptionEN": "Ultimate regenerates 10 more Energy for the target ally.",
+            "DescriptionCN": "终结技为我方目标恢复的能量提高10点。",
+            "DescriptionJP": "必殺技で味方のEPをさらに10回復する。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "singleally"
+            ]
+        }
+    ]
+}
