@@ -848,7 +848,7 @@
             "effect": [
                 {
                     "type": "debuff",
-                    "addtarget": "vulnerability",
+                    "multipliertarget": "vulnerability",
                     "multiplier": null,
                     "tag": [
                         "self"

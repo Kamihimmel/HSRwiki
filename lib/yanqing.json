@@ -368,15 +368,28 @@
                 },
                 {
                     "default": 65
-                }                                                               
+                },
+                {
+                    "default": -60
+                }                                                                               
             ],
             "tags": [
                 "singleatk",
                 "followupatk",
                 "icedmg",
-                "frozen"
+                "frozen",
+                "taunt"
             ],
             "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "taunt",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "taunt"
+                    ]
+                },                
                 {
                     "type": "buff",
                     "addtarget": "critrate",
@@ -421,7 +434,7 @@
                         "additionalatk",
                         "iceatk"
                     ]
-                }
+                }     
             ]
         },
         {
