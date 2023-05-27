@@ -338,7 +338,7 @@
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
-            "teamskill": true,
+            "teamskill": false,
             "tags": [
                 "buff",
                 "energy",
