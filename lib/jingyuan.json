@@ -843,9 +843,8 @@
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "buff",
-                "vulnerability",
-                "self"
+                "debuff",
+                "vulnerability"
             ],
             "effect": [
                 {
@@ -853,7 +852,7 @@
                     "multipliertarget": "vulnerability",
                     "multiplier": null,
                     "tag": [
-                        "self"
+                        "vulnerability"
                     ]
                 },
                 {
