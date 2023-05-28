@@ -482,16 +482,16 @@
             "teamskill": false,
             "tags": [
                 "additionalatk",
-                "iceatk"
+                "icedmg"
             ],
             "effect": [
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 4,
+                    "multiplier": 30,
                     "tag": [
                         "additionalatk",
-                        "iceatk"
+                        "icedmg"
                     ]
                 }
             ]
