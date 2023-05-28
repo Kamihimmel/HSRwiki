@@ -892,7 +892,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "multipliertarget": "energy",
+                    "addtarget": "energy",
                     "multiplier": 5,
                     "tag": [
                         "self",
