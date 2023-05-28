@@ -261,7 +261,7 @@
                 },
                 {
                     "type": "heal",
-                    "addtarget": "",
+                    "multipliertarget": "",
                     "multiplier": 4,
                     "tag": [
                         "singleally",
@@ -380,15 +380,15 @@
             ],
             "tags": [
                 "buff",
-                "heal"
+                "healingbonus"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "multipliertarget": "maxhp",
+                    "addtarget": "healingbonus",
                     "multiplier": 1,
                     "tag": [
-                        "heal"
+                        "healingbonus"
                     ]
                 }
             ]
@@ -465,7 +465,17 @@
             "teamskill": true,
             "tags": [
                 "buff",
-                "heal"
+                "healingbonus"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "healingbonus",
+                    "multiplier": 10,
+                    "tag": [
+                        "healingbonus"
+                    ]
+                }
             ]
         },
         {
@@ -932,7 +942,6 @@
                     "multipliertarget": "maxhp",
                     "multiplier": 48,
                     "tag": [
-                        "heal",
                         "additionalatk",
                         "physicalatk"
                     ]
