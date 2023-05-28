@@ -341,12 +341,14 @@
             "effect": [
                 {
                     "type": "dmg",
+                    "referencetarget": "singleally",
+                    "referencetargetEN": "Single Ally",
+                    "referencetargetCN": "我方单体",
+                    "referencetargetJP": "味方単体",
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "self",
-                        "additionalatk",
-                        "lightningatk"
+                        "additionalatk"
                     ]
                 }
             ]
