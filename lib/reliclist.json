@@ -1,0 +1,164 @@
+{
+    "data": [
+        {
+            "ENname": "Inert SalsottoSet",
+            "CNname": "停止转动的萨尔索图套装",
+            "JAname": "自転が止まったサルソットセット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/herta.webp",
+            "set": "2",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Belobog of the ArchitectsSet",
+            "CNname": "筑城者的贝洛伯格套装",
+            "JAname": "建創者のベロブルグセット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "2",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Firesmith of Lava-ForgingSet",
+            "CNname": "熔岩锻铸的火匠套装",
+            "JAname": "溶岩で鍛造する火匠セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Celestial DifferentiatorSet",
+            "CNname": "星体差分机套装",
+            "JAname": "天体階差機関セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "2",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Wastelander of Banditry DesertSet",
+            "CNname": "盗匪荒漠的废土客套装",
+            "JAname": "荒地で盗みを働く廃土客セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Space Sealing StationSet",
+            "CNname": "太空封印站套装",
+            "JAname": "宇宙封印ステーションセット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "2",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Pan-Galactic Commercial EnterpriseSet",
+            "CNname": "泛银河商业公司套装",
+            "JAname": "汎銀河商事会社セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "2",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Genius of Brilliant StarsSet",
+            "CNname": "繁星璀璨的天才套装",
+            "JAname": "星の如く輝く天才セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Fleet of the AgelessSet",
+            "CNname": "不老者的仙舟套装",
+            "JAname": "老いぬ者の仙舟セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "2",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Talia: Kingdom of BanditrySet",
+            "CNname": "盗贼公国塔利亚套装",
+            "JAname": "盗賊公国タリアセット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "2",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Knight of Purity PalaceSet",
+            "CNname": "净庭教宗的圣骑士套装",
+            "JAname": "純庭教会の聖騎士セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Hunter of Glacial ForestSet",
+            "CNname": "密林卧雪的猎人套装",
+            "JAname": "雪の密林の狩人セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Passerby of Wandering CloudSet",
+            "CNname": "云无留迹的过客套装",
+            "JAname": "流雲無痕の過客セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Musketeer of Wild WheatSet",
+            "CNname": "野穗伴行的快枪手套装",
+            "JAname": "草の穂ガンマンセット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Thief of Shooting MeteorSet",
+            "CNname": "流星追迹的怪盗套装",
+            "JAname": "流星の跡を追う怪盗セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Sprightly VonwacqSet",
+            "CNname": "生命的翁瓦克套装",
+            "JAname": "生命のウェンワークセット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "2",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Band of Sizzling ThunderSet",
+            "CNname": "激奏雷电的乐队套装",
+            "JAname": "雷鳴轟くバンドセット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Eagle of Twilight LineSet",
+            "CNname": "晨昏交界的翔鹰套装",
+            "JAname": "昼夜の狭間を翔ける鷹セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Champion of Streetwise BoxingSet",
+            "CNname": "街头出身的拳王套装",
+            "JAname": "成り上がりチャンピオンセット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        },
+        {
+            "ENname": "Guard of Wuthering SnowSet",
+            "CNname": "戍卫风雪的铁卫套装",
+            "JAname": "吹雪と対峙する兵士セット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/kafka.webp",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+        }
+    ]
+}
