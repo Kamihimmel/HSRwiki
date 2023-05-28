@@ -51,7 +51,7 @@
                 {
                     "type": "buff",
                     "addtarget": "skillatk",
-                    "multiplier": 10,
+                    "multiplier": 12,
                     "tag": [
                         "skillatk",
                         "self"
@@ -60,7 +60,7 @@
                 {
                     "type": "buff",
                     "addtarget": "firedmg",
-                    "multiplier": 10,
+                    "multiplier": 12,
                     "tag": [
                         "firedmg",
                         "self"
