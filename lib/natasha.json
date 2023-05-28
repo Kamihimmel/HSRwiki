@@ -1,0 +1,943 @@
+{
+    "ENname": "Natasha",
+    "CNname": "娜塔莎",
+    "JAname": "ナターシャ",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/natasha.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/natashalarge.webp",
+    "etype": "physical",
+    "wtype": "abundance",
+    "rarity": "4",
+    "dtaunt": 100,
+    "dspeed": 98,
+    "maxenergy": 90,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 158,
+            "atk": 64,
+            "def": 69
+        },
+        {
+            "level": "20",
+            "hp": 308,
+            "atk": 126,
+            "def": 134
+        },
+        {
+            "level": "20+",
+            "hp": 372,
+            "atk": 152,
+            "def": 162
+        },
+        {
+            "level": "30",
+            "hp": 451,
+            "atk": 184,
+            "def": 196
+        },
+        {
+            "level": "30+",
+            "hp": 514,
+            "atk": 210,
+            "def": 224
+        },
+        {
+            "level": "40",
+            "hp": 594,
+            "atk": 243,
+            "def": 258
+        },
+        {
+            "level": "40+",
+            "hp": 657,
+            "atk": 268,
+            "def": 286
+        },
+        {
+            "level": "50",
+            "hp": 736,
+            "atk": 301,
+            "def": 320
+        },
+        {
+            "level": "50+",
+            "hp": 799,
+            "atk": 327,
+            "def": 348
+        },
+        {
+            "level": "60",
+            "hp": 879,
+            "atk": 359,
+            "def": 382
+        },
+        {
+            "level": "60+",
+            "hp": 942,
+            "atk": 385,
+            "def": 410
+        },
+        {
+            "level": "70",
+            "hp": 1021,
+            "atk": 417,
+            "def": 445
+        },
+        {
+            "level": "70+",
+            "hp": 1085,
+            "atk": 443,
+            "def": 472
+        },
+        {
+            "level": "80",
+            "hp": 1164,
+            "atk": 476,
+            "def": 507
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Behind the Kindness",
+            "CNname": "仁慈的背面",
+            "JAname": "慈心の裏側",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashana.webp",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of Natasha's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于娜塔莎[1]%攻击力的物理属性伤害。",
+            "DescriptionJP": "指定した敵単体にナターシャの攻撃力[1]%分の物理ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Love, Heal, and Choose",
+            "CNname": "爱，救护与抉择",
+            "JAname": "愛、救済と選択",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashaskill.webp",
+            "DescriptionEN": "Restores a single ally for [1]% of Natasha's Max HP plus [2]. Restores the ally for another [3]% of Natasha's Max HP plus [4] at the beginning of each turn for 2 turn(s).",
+            "DescriptionCN": "立即为指定我方单体回复等同于娜塔莎[1]%生命上限+[2]的生命值，同时目标每回合开始时为其回复等同于娜塔莎[3]%生命上限+[4]的生命值，持续2回合。",
+            "DescriptionJP": "指定した味方単体のHPをナターシャの最大HP[1]%+[2]回復し、その味方のターンが回ってくるたびに、ナターシャの最大HP[3]%+[4]のHPを回復させる、2ターン継続。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 7,
+                    "2": 7.44,
+                    "3": 7.88,
+                    "4": 8.31,
+                    "5": 8.75,
+                    "6": 9.1,
+                    "7": 9.45,
+                    "8": 9.8,
+                    "9": 10.15,
+                    "10": 10.5,
+                    "11": 10.85,
+                    "12": 11.2,
+                    "13": 11.55,
+                    "14": 11.9,
+                    "15": 12.25
+                },
+                {
+                    "1": 70,
+                    "2": 112,
+                    "3": 144,
+                    "4": 175,
+                    "5": 196,
+                    "6": 217,
+                    "7": 233,
+                    "8": 249,
+                    "9": 264,
+                    "10": 280,
+                    "11": 296,
+                    "12": 312,
+                    "13": 327,
+                    "14": 343,
+                    "15": 359
+                },
+                {
+                    "1": 4.8,
+                    "2": 5.1,
+                    "3": 5.4,
+                    "4": 5.7,
+                    "5": 6,
+                    "6": 6.24,
+                    "7": 6.48,
+                    "8": 6.72,
+                    "9": 6.96,
+                    "10": 7.2,
+                    "11": 7.44,
+                    "12": 7.68,
+                    "13": 7.92,
+                    "14": 8.16,
+                    "15": 8.4
+                },
+                {
+                    "1": 48,
+                    "2": 77,
+                    "3": 98,
+                    "4": 120,
+                    "5": 134,
+                    "6": 149,
+                    "7": 160,
+                    "8": 170,
+                    "9": 181,
+                    "10": 192,
+                    "11": 203,
+                    "12": 214,
+                    "13": 224,
+                    "14": 235,
+                    "15": 246
+                }
+            ],
+            "tags": [
+                "buff",
+                "heal",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "addtarget": "",
+                    "multiplier": 4,
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Gift of Rebirth",
+            "CNname": "新生之礼",
+            "JAname": "新生の礼",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashault.webp",
+            "DescriptionEN": "Heals all allies for [1]% of Natasha's Max HP plus [2].",
+            "DescriptionCN": "立即为我方全体回复等同于娜塔莎[1]%生命上限+[2]的生命值。",
+            "DescriptionJP": "味方全体のHPをナターシャの最大HP[1]%+[2]回復する。",
+            "stype": "ult",
+            "energy": 90,
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 9.2,
+                    "2": 9.78,
+                    "3": 10.35,
+                    "4": 10.92,
+                    "5": 11.5,
+                    "6": 11.96,
+                    "7": 12.42,
+                    "8": 12.88,
+                    "9": 13.34,
+                    "10": 13.8,
+                    "11": 14.26,
+                    "12": 14.72,
+                    "13": 15.18,
+                    "14": 15.64,
+                    "15": 16.1
+                },
+                {
+                    "1": 92,
+                    "2": 147,
+                    "3": 189,
+                    "4": 230,
+                    "5": 258,
+                    "6": 285,
+                    "7": 306,
+                    "8": 327,
+                    "9": 347,
+                    "10": 368,
+                    "11": 389,
+                    "12": 409,
+                    "13": 430,
+                    "14": 451,
+                    "15": 472
+                }
+            ],
+            "tags": [
+                "heal"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "addtarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Innervation",
+            "CNname": "生机焕发",
+            "JAname": "生命の輝き",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashatalent.webp",
+            "DescriptionEN": "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by [1]%. This effect also works on continuous healing.",
+            "DescriptionCN": "为当前生命值百分比小于等于30%的我方目标提供治疗时，娜塔莎的治疗量提高[1]%，该效果对持续治疗效果也会生效。",
+            "DescriptionJP": "残りHPが30%以下の味方に治癒を行う時、ナターシャの治癒量+[1]%、この効果は持続治癒効果にも有効。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 25,
+                    "2": 27.5,
+                    "3": 30,
+                    "4": 32.5,
+                    "5": 35,
+                    "6": 37.5,
+                    "7": 40.63,
+                    "8": 43.75,
+                    "9": 46.88,
+                    "10": 50,
+                    "11": 52.5,
+                    "12": 55,
+                    "13": 57.5,
+                    "14": 60,
+                    "15": 62.5
+                }
+            ],
+            "tags": [
+                "buff",
+                "heal"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Hypnosis Research",
+            "CNname": "催眠研习",
+            "JAname": "催眠研究",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashatec.webp",
+            "DescriptionEN": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% base chance to Weaken all enemies. While Weakened, enemies deal 30% less DMG to allies for 1 turn(s).",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于娜塔莎80%攻击力的物理属性伤害，并有100%的基础概率使敌方每个单体目标陷入虚弱状态。虚弱状态下的敌方目标对我方造成的伤害降低30%，持续1回合。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、ランダムな敵単体にナターシャの攻撃力80%分の物理ダメージを与え、100%の基礎確率で敵単体それぞれを虚弱状態にする。虚弱状態の敵の、味方への与ダメージ-30%、1ターン継続。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 60,
+            "energyregen": 0,
+            "tags": [
+                "debuff",
+                "weaken",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 80,
+                    "tag": [
+                        "singleenemy"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "weaken",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Soothe",
+            "CNname": "舒缓",
+            "JAname": "氷呪",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashat1.webp",
+            "DescriptionEN": "The Skill removes 1 debuff(s) from a target ally.",
+            "DescriptionCN": "施放战技时，解除指定我方单体的1个负面效果。",
+            "DescriptionJP": "戦闘スキルを発動した時、指定した味方単体のデバフを1つ解除する。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "singleally"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Healer",
+            "CNname": "医者",
+            "JAname": "医者",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashat2.webp",
+            "DescriptionEN": "Natasha's Outgoing Healing increases by 10%.",
+            "DescriptionCN": "娜塔莎提供的治疗量提高10%。",
+            "DescriptionJP": "ナターシャの治癒量+10%。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "heal"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Recuperation",
+            "CNname": "调理",
+            "JAname": "摂生",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashat3.webp",
+            "DescriptionEN": "Increases the duration of Skill's continuous healing effect for 1 turn(s).",
+            "DescriptionCN": "施放战技产生的持续回复效果延长1回合。",
+            "DescriptionJP": "戦闘スキルの持続回復効果の継続時間+1ターン。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": []
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +4%",
+            "CNname": "效果抵抗 +4%",
+            "JAname": "効果抵抗 +4%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +4%",
+            "CNname": "生命值 +4%",
+            "JAname": "HP +4%",
+            "ttype": "hp",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +6%",
+            "CNname": "生命值 +6%",
+            "JAname": "HP +6%",
+            "ttype": "hp",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +6%",
+            "CNname": "效果抵抗 +6%",
+            "JAname": "効果抵抗 +6%",
+            "ttype": "effectres",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +6%",
+            "CNname": "生命值 +6%",
+            "JAname": "HP +6%",
+            "ttype": "hp",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +8%",
+            "CNname": "效果抵抗 +8%",
+            "JAname": "効果抵抗 +8%",
+            "ttype": "effectres",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +4%",
+            "CNname": "生命值 +4%",
+            "JAname": "HP +4%",
+            "ttype": "hp",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +8%",
+            "CNname": "生命值 +8%",
+            "JAname": "HP +8%",
+            "ttype": "hp",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Pharmacology Expertise",
+            "CNname": "遍识药理",
+            "JAname": "薬理遍識",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natasha1.png",
+            "DescriptionEN": "After being attacked, if the current HP percentage is 30% or lower, heals self for 1 time to restore HP by an amount equal to 15% of Max HP plus 400. This effect can only be triggered 1 time per battle.",
+            "DescriptionCN": "受到攻击后，若当前生命值百分比小于等于30%，对自身施放1次治疗，回复等同于自身15%生命上限+400的生命值。该效果单场战斗中只能触发1次。",
+            "DescriptionJP": "攻撃を受けた後、残りHPが30%以下の場合、自身に治癒を1回行い、自身の最大HP15%+400のHPを回復する。この効果は一度の戦闘で1回まで発動できる。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "heal",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 15,
+                    "tag": [
+                        "self"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 400,
+                    "tag": [
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Clinical Research",
+            "CNname": "临床研学",
+            "JAname": "臨床研学",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natasha2.png",
+            "DescriptionEN": "When Natasha uses her Ultimate, grant continuous healing for 1 turn(s) to allies whose HP is at 30% or lower. And at the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160.",
+            "DescriptionCN": "施放终结技时，对当前生命值百分比小于等于30%的我方目标附加1回合的持续治疗效果，目标回合开始时为其回复等同于娜塔莎6%生命上限+160的生命值。",
+            "DescriptionJP": "必殺技を発動した時、残りHPが30%以下の味方に1ターン継続する持続治癒効果を付与する。その味方のターンが回ってきた時、ナターシャの最大HP6%+160のHPを回復する。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": true,
+            "tags": [
+                "heal",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 6,
+                    "tag": [
+                        "singleally"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 160,
+                    "tag": [
+                        "singleally"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "The Right Cure",
+            "CNname": "对症下药",
+            "JAname": "因病投薬",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashaskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Miracle Cure",
+            "CNname": "妙手回春",
+            "JAname": "妙手回春",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natasha4.png",
+            "DescriptionEN": "After being attacked, regenerates 5 extra Energy.",
+            "DescriptionCN": "受到攻击后，额外恢复5点能量。",
+            "DescriptionJP": "攻撃を受けた後、さらにEPを5回復する。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "multipliertarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Preventive Treatment",
+            "CNname": "医治未病",
+            "JAname": "未病療治",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natashault.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Doctor's Grace",
+            "CNname": "医者仁心",
+            "JAname": "医者仁心",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/natasha6.png",
+            "DescriptionEN": "Natasha's Basic ATK additionally deals Physical DMG equal to 40% of her Max HP.",
+            "DescriptionCN": "施放普攻时，额外造成等同于娜塔莎生命上限40%的物理属性伤害。",
+            "DescriptionJP": "通常攻撃を行った時、さらにナターシャの最大HP40%分の物理ダメージを与える。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "normalatk",
+                "additionalatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 48,
+                    "tag": [
+                        "heal",
+                        "additionalatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        }
+    ]
+}
