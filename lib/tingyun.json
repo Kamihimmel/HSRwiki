@@ -281,6 +281,15 @@
             "effect": [
                 {
                     "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 50,
+                    "tag": [
+                        "singleally",
+                        "energy"
+                    ]
+                },
+                {
+                    "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 1,
                     "tag": [
@@ -301,7 +310,7 @@
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "levelmultiplier": [
                 {
                     "1": 30,
@@ -386,6 +395,17 @@
                 "buff",
                 "speed",
                 "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
             ]
         },
         {
@@ -400,7 +420,7 @@
             "stype": "trace",
             "maxlevel": 15,
             "buffskill": true,
-            "teamskill": true,
+            "teamskill": false,
             "tags": [
                 "buff",
                 "energy",
@@ -430,7 +450,7 @@
             "DescriptionJP": "通常攻撃の与ダメージ+40%。",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": true,
+            "teamskill": false,
             "tags": [
                 "buff",
                 "normalatk",
@@ -750,8 +770,8 @@
             "DescriptionCN": "得到【赐福】的我方单体施放终结技后速度提高20%，持续1回合。",
             "DescriptionJP": "「賜福」を与えられた味方単体は、必殺技を発動した後に速度+20%、1ターン継続。",
             "stype": "eidolon",
-            "buffskill": false,
-            "teamskill": false,
+            "buffskill": true,
+            "teamskill": true,
             "tags": [
                 "buff",
                 "speed",
@@ -780,11 +800,22 @@
             "DescriptionJP": "「賜福」を与えられた味方単体は、敵を倒した時にEPを5回復する、この効果はターンが回ってくるたびに1回まで発動できる。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "tags": [
                 "buff",
                 "energy",
                 "singleally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "singleally",
+                        "energy"
+                    ]
+                }
             ]
         },
         {
@@ -851,7 +882,7 @@
             "DescriptionJP": "必殺技で味方のEPをさらに10回復する。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "tags": [
                 "buff",
                 "energy",
