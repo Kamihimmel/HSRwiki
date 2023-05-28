@@ -327,7 +327,7 @@
             "effect": [
                 {
                     "type": "heal",
-                    "addtarget": "maxhp",
+                    "multipliertarget": "maxhp",
                     "multiplier": 1,
                     "tag": [
                         "allally",
