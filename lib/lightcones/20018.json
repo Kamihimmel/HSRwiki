@@ -1,0 +1,131 @@
+{
+    "id": "20018",
+    "ENname": "Hidden Shadow",
+    "CNname": "匿影",
+    "JAname": "匿影",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20018.png",
+    "wtype": "nihility",
+    "rarity": "3",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/20018l.webp",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 38,
+            "atk": 14,
+            "def": 12
+        },
+        {
+            "level": "20",
+            "hp": 147,
+            "atk": 55,
+            "def": 46
+        },
+        {
+            "level": "20+",
+            "hp": 193,
+            "atk": 72,
+            "def": 60
+        },
+        {
+            "level": "30",
+            "hp": 251,
+            "atk": 94,
+            "def": 78
+        },
+        {
+            "level": "30+",
+            "hp": 312,
+            "atk": 117,
+            "def": 97
+        },
+        {
+            "level": "40",
+            "hp": 370,
+            "atk": 138,
+            "def": 115
+        },
+        {
+            "level": "40+",
+            "hp": 432,
+            "atk": 162,
+            "def": 135
+        },
+        {
+            "level": "50",
+            "hp": 489,
+            "atk": 183,
+            "def": 153
+        },
+        {
+            "level": "50+",
+            "hp": 551,
+            "atk": 206,
+            "def": 172
+        },
+        {
+            "level": "60",
+            "hp": 608,
+            "atk": 228,
+            "def": 190
+        },
+        {
+            "level": "60+",
+            "hp": 670,
+            "atk": 251,
+            "def": 209
+        },
+        {
+            "level": "70",
+            "hp": 727,
+            "atk": 272,
+            "def": 227
+        },
+        {
+            "level": "70+",
+            "hp": 789,
+            "atk": 295,
+            "def": 246
+        },
+        {
+            "level": "80",
+            "hp": 846,
+            "atk": 317,
+            "def": 264
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Mechanism",
+            "CNname": "机关",
+            "JAname": "電光石火",
+            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1] of ATK to the target enemy.",
+            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]攻击力的附加伤害。",
+            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]分の付加ダメージを与える。",
+            "maxlevel": 5,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 60,
+                    "2": 75,
+                    "3": 90,
+                    "4": 105,
+                    "5": 120
+                }
+            ],
+            "tags": [
+                "additionalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk"
+                    ]
+                }
+            ]
+        }
+    ]
+}
