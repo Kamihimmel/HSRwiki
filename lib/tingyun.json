@@ -270,6 +270,9 @@
                     "13": 59,
                     "14": 62,
                     "15": 65
+                },
+                {
+                    "default": 50
                 }
             ],
             "tags": [
@@ -282,7 +285,7 @@
                 {
                     "type": "buff",
                     "addtarget": "energy",
-                    "multiplier": 50,
+                    "multiplier": 2,
                     "tag": [
                         "singleally",
                         "energy"
@@ -851,7 +854,7 @@
             "tags": [
                 "buff",
                 "additionalatk"
-            ] 
+            ]
         },
         {
             "eidolonnum": 5,
