@@ -280,7 +280,7 @@
             "tags": [
                 "aoe",
                 "ultatk",
-                "dmg reduction",
+                "dmgreduction",
                 "taunt",
                 "followupatk",
                 "physicalatk"
@@ -288,11 +288,11 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "dmg reduction",
+                    "addtarget": "dmgreduction",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "dmg reduction"
+                        "dmgreduction"
                     ]
                 },
                 {
@@ -364,7 +364,7 @@
             ],
             "tags": [
                 "buff",
-                "dmg reduction",
+                "dmgreduction",
                 "singleatk",
                 "followupatk",
                 "physicalatk"
@@ -372,10 +372,10 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "dmg reduction",
+                    "addtarget": "dmgreduction",
                     "multiplier": 1,
                     "tag": [
-                        "dmg reduction"
+                        "dmgreduction"
                     ]
                 },
                 {
@@ -859,17 +859,17 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "dmg reduction",
+                "dmgreduction",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "dmg reduction",
+                    "addtarget": "dmgreduction",
                     "multiplier": 30,
                     "tag": [
                         "self",
-                        "dmg reduction"
+                        "dmgreduction"
                     ]
                 }
             ]
