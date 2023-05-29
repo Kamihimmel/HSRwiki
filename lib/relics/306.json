@@ -1,0 +1,57 @@
+{
+    "id": "107",
+    "ENname": "Firesmith of Lava-ForgingSet",
+    "CNname": "熔岩锻铸的火匠套装",
+    "JAname": "溶岩で鍛造する火匠セット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71017.webp",
+    "set": "2",
+    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_306_5.webp",
+    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_306_6.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%.",
+            "DescriptionCN": "使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。",
+            "DescriptionJP": "装備キャラの会心率+8%。装備キャラの会心率が50%以上の場合、必殺技と追加攻撃の与ダメージ+15%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "ultatk",
+                "followupatk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 8,
+                    "tag": [
+                        "critrate",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 15,
+                    "tag": [
+                        "ultatk",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "followupatk",
+                    "multiplier": 15,
+                    "tag": [
+                        "followupatk",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

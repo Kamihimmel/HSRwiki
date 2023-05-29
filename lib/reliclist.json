@@ -7,7 +7,7 @@
             "JAname": "自転が止まったサルソットセット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71017.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/306.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/306.json"
         },
         {
             "id": "304",
@@ -16,7 +16,7 @@
             "JAname": "建創者のベロブルグセット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71015.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/304.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/304.json"
         },
         {
             "id": "107",
@@ -25,7 +25,7 @@
             "JAname": "溶岩で鍛造する火匠セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71006.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/107.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/107.json"
         },
         {
             "id": "305",
@@ -34,7 +34,7 @@
             "JAname": "天体階差機関セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71016.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/305.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/305.json"
         },
         {
             "id": "112",
@@ -43,7 +43,7 @@
             "JAname": "荒地で盗みを働く廃土客セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71011.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/seele.json"
         },
         {
             "id": "301",
@@ -52,7 +52,7 @@
             "JAname": "宇宙封印ステーションセット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71012.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/301.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/301.json"
         },
         {
             "id": "303",
@@ -61,7 +61,7 @@
             "JAname": "汎銀河商事会社セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71014.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/303.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/303.json"
         },
         {
             "id": "108",
@@ -70,7 +70,7 @@
             "JAname": "星の如く輝く天才セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71007.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/108.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/108.json"
         },
         {
             "id": "302",
@@ -79,7 +79,7 @@
             "JAname": "老いぬ者の仙舟セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71013.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/302.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/302.json"
         },
         {
             "id": "307",
@@ -88,7 +88,7 @@
             "JAname": "盗賊公国タリアセット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71018.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/307.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/307.json"
         },
         {
             "id": "103",
@@ -97,7 +97,7 @@
             "JAname": "純庭教会の聖騎士セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71002.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/103.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/103.json"
         },
         {
             "id": "104",
@@ -106,7 +106,7 @@
             "JAname": "雪の密林の狩人セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71003.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/104.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/104.json"
         },
         {
             "id": "101",
@@ -115,7 +115,7 @@
             "JAname": "流雲無痕の過客セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71000.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/101.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/101.json"
         },
         {
             "id": "102",
@@ -124,7 +124,7 @@
             "JAname": "草の穂ガンマンセット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71001.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/102.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/102.json"
         },
         {
             "id": "111",
@@ -133,7 +133,7 @@
             "JAname": "流星の跡を追う怪盗セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71010.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/111.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/111.json"
         },
         {
             "id": "308",
@@ -142,7 +142,7 @@
             "JAname": "生命のウェンワークセット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71019.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/308.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/308.json"
         },
         {
             "id": "109",
@@ -151,7 +151,7 @@
             "JAname": "雷鳴轟くバンドセット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71008.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/109.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/109.json"
         },
         {
             "id": "110",
@@ -160,7 +160,7 @@
             "JAname": "昼夜の狭間を翔ける鷹セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71009.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/110.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/110.json"
         },
         {
             "id": "105",
@@ -169,7 +169,7 @@
             "JAname": "成り上がりチャンピオンセット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71004.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/105.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/105.json"
         },
         {
             "id": "106",
@@ -178,7 +178,7 @@
             "JAname": "吹雪と対峙する兵士セット",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71005.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/106.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/relics/106.json"
         }
     ]
 }
