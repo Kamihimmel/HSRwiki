@@ -152,8 +152,8 @@
             "DescriptionJP": "指定した味方単体のデバフを1つ解除し、その味方を直ちに行動させ、与ダメージ+[1]%、1ターン継続。自身に対してこのスキルを発動した時、即時行動の効果は発動しない。",
             "stype": "skill",
             "maxlevel": 15,
-            "buffskill": true,
-            "teamskill": true,
+            "buffskill": false,
+            "teamskill": false,
             "weaknessbreak": 30,
             "energyregen": 30,
             "levelmultiplier": [
@@ -204,8 +204,8 @@
             "stype": "ult",
             "energy": 130,
             "maxlevel": 15,
-            "buffskill": true,
-            "teamskill": true,
+            "buffskill": false,
+            "teamskill": false,
             "weaknessbreak": 60,
             "energyregen": 5,
             "levelmultiplier": [
