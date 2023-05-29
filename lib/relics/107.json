@@ -28,7 +28,8 @@
                     "addtarget": "firedmg",
                     "multiplier": 10,
                     "tag": [
-                        "firedmg"
+                        "firedmg",
+                        "self"
                     ]
                 }
             ]
