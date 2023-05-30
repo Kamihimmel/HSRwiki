@@ -8,17 +8,17 @@
             "etype": "ice",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/herta.json"
         },
         {
             "ENname": "Kafka",
             "CNname": "卡芙卡",
-            "JAname": "黑塔",
+            "JAname": "カフカ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/kafka.webp",
             "etype": "lightning",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/kafka.json"
         },
         {
             "ENname": "Yan Qing",
@@ -88,7 +88,7 @@
             "etype": "ice",
             "wtype": "preservation",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/gepard.json"
         },
         {
             "ENname": "Clara",
