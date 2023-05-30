@@ -1,0 +1,914 @@
+{
+    "ENname": "Clara",
+    "CNname": "克拉拉",
+    "JAname": "クラーラ",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/clara.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/claralarge.webp",
+    "etype": "physical",
+    "wtype": "destruction",
+    "rarity": "5",
+    "dtaunt": 125,
+    "dspeed": 90,
+    "maxenergy": 110,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 168,
+            "atk": 100,
+            "def": 66
+        },
+        {
+            "level": "20",
+            "hp": 329,
+            "atk": 195,
+            "def": 128
+        },
+        {
+            "level": "20+",
+            "hp": 397,
+            "atk": 235,
+            "def": 155
+        },
+        {
+            "level": "30",
+            "hp": 481,
+            "atk": 285,
+            "def": 188
+        },
+        {
+            "level": "30+",
+            "hp": 549,
+            "atk": 326,
+            "def": 214
+        },
+        {
+            "level": "40",
+            "hp": 633,
+            "atk": 376,
+            "def": 247
+        },
+        {
+            "level": "40+",
+            "hp": 701,
+            "atk": 416,
+            "def": 273
+        },
+        {
+            "level": "50",
+            "hp": 785,
+            "atk": 466,
+            "def": 306
+        },
+        {
+            "level": "50+",
+            "hp": 853,
+            "atk": 506,
+            "def": 333
+        },
+        {
+            "level": "60",
+            "hp": 937,
+            "atk": 556,
+            "def": 366
+        },
+        {
+            "level": "60+",
+            "hp": 1005,
+            "atk": 596,
+            "def": 392
+        },
+        {
+            "level": "70",
+            "hp": 1089,
+            "atk": 647,
+            "def": 425
+        },
+        {
+            "level": "70+",
+            "hp": 1157,
+            "atk": 687,
+            "def": 452
+        },
+        {
+            "level": "80",
+            "hp": 1241,
+            "atk": 737,
+            "def": 485
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "I Want to Help",
+            "CNname": "我也想帮上忙",
+            "JAname": "クラーラもお手伝いします",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clarana.webp",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of Clara's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于克拉拉[1]%攻击力的物理属性伤害。",
+            "DescriptionJP": "指定した敵単体にクラーラの攻撃力[1]%分の物理ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Svarog Watches Over You",
+            "CNname": "史瓦罗在看着你",
+            "JAname": "スヴァローグが見てる",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/claraskill.webp",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to [2]% of Clara's ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after this Skill is used.",
+            "DescriptionCN": "对敌方全体造成等同于克拉拉[1]%攻击力的物理属性伤害，并对所有被史瓦罗标上【反击标记】的敌方目标额外造成等同于克拉拉[2]%攻击力物理属性伤害。战技施放后所有【反击标记】失效。",
+            "DescriptionJP": "敵全体にクラーラの攻撃力[1]%分の物理ダメージを与える。スヴァローグに「反撃の印」を付与された敵に対し、さらにクラーラの攻撃力[2]%分の物理ダメージを与える。戦闘スキルを発動した後、すべての「反撃の印」が失効する。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 60,
+                    "2": 66,
+                    "3": 72,
+                    "4": 78,
+                    "5": 84,
+                    "6": 90,
+                    "7": 97.5,
+                    "8": 105,
+                    "9": 112.5,
+                    "10": 120,
+                    "11": 126,
+                    "12": 132,
+                    "13": 138,
+                    "14": 144,
+                    "15": 150
+                },
+                {
+                    "1": 60,
+                    "2": 66,
+                    "3": 72,
+                    "4": 78,
+                    "5": 84,
+                    "6": 90,
+                    "7": 97.5,
+                    "8": 105,
+                    "9": 112.5,
+                    "10": 120,
+                    "11": 126,
+                    "12": 132,
+                    "13": 138,
+                    "14": 144,
+                    "15": 150
+                }
+            ],
+            "tags": [
+                "aoe",
+                "skillatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "skillatk",
+                        "physicalatk" 
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "aoe",
+                        "skillatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Promise, Not Command",
+            "CNname": "是约定不是命令",
+            "JAname": "命令じゃなくて約束",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clarault.webp",
+            "DescriptionEN": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra [1]%, and she has greatly increased chances of being attacked by enemies for 2 turn(s). In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by [3]%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect 2 time(s).",
+            "DescriptionCN": "施放终结技后克拉拉受到的伤害额外降低[1]%且被敌方目标攻击的概率大幅提高，持续2回合。同时史瓦罗的反击得到强化，当任意我方目标受到攻击后史瓦罗立即施放反击，对敌方目标造成的伤害倍率提高[3]%，并对其相邻目标造成相当于主目标50%的伤害。强化效果可生效2次。",
+            "DescriptionJP": "必殺技を発動した後、さらにクラーラの被ダメージ-[1]%、敵に攻撃される確率が大幅アップ、2ターン継続。スヴァローグのカウンターを強化。任意の味方が攻撃を受けた後、スヴァローグが攻撃者にカウンターを行い、カウンターのダメージ倍率+[3]%、隣接する敵にメインターゲットに対する50%分のダメージを与える。強化効果は2回発動できる。",
+            "stype": "ult",
+            "energy": 90,
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 15,
+                    "2": 16,
+                    "3": 17,
+                    "4": 18,
+                    "5": 19,
+                    "6": 20,
+                    "7": 21.25,
+                    "8": 22.5,
+                    "9": 23.75,
+                    "10": 25,
+                    "11": 26,
+                    "12": 27,
+                    "13": 28,
+                    "14": 29,
+                    "15": 30
+                },
+                {
+                    "default": 500
+                },
+                {
+                    "1": 96,
+                    "2": 102.4,
+                    "3": 108.8,
+                    "4": 115.2,
+                    "5": 121.6,
+                    "6": 128,
+                    "7": 136,
+                    "8": 144,
+                    "9": 152,
+                    "10": 160,
+                    "11": 166.4,
+                    "12": 172.8,
+                    "13": 179.2,
+                    "14": 185.6,
+                    "15": 192
+                },
+                {
+                    "default": 50
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "dmgreduction",
+                "taunt",
+                "followupatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "dmgreduction",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "dmgreduction"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "taunt",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "taunt"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "followupatk",
+                        "aoe",
+                        "physicalatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "aoe",
+                        "followupatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Because We're Family",
+            "CNname": "因为我们是家人",
+            "JAname": "家族なんだから",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/claratalent.webp",
+            "DescriptionEN": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by [1]%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to [2]% of Clara's ATK.",
+            "DescriptionCN": "克拉拉在史瓦罗的保护下受到敌方目标攻击的伤害降低[1]%。攻击克拉拉的敌方目标会被史瓦罗标上【反击标记】，并遭到史瓦罗的反击，对其造成等同于克拉拉[2]%攻击力的物理属性伤害。",
+            "DescriptionJP": "クラーラはスヴァローグの保護により被ダメージ-[1]%。クラーラを攻撃した敵に対し、スヴァローグが「反撃の印」を付与してカウンターし、クラーラの攻撃力[2]%分の物理ダメージを与える。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "default": 10
+                },
+                {
+                    "1": 80,
+                    "2": 88,
+                    "3": 96,
+                    "4": 104,
+                    "5": 112,
+                    "6": 120,
+                    "7": 130,
+                    "8": 140,
+                    "9": 150,
+                    "10": 160,
+                    "11": 168,
+                    "12": 176,
+                    "13": 184,
+                    "14": 192,
+                    "15": 200
+                }
+            ],
+            "tags": [
+                "buff",
+                "dmgreduction",
+                "singleatk",
+                "followupatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "dmgreduction",
+                    "multiplier": 1,
+                    "tag": [
+                        "dmgreduction"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleatk",
+                        "followupatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "A Small Price for Victory",
+            "CNname": "胜利的小小代价",
+            "JAname": "勝利の小さな対価",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/claratec.webp",
+            "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s).",
+            "DescriptionCN": "立即攻击敌人，进入战斗后克拉拉受到敌方攻击的概率提高，持续2回合。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、クラーラが敵に攻撃される確率がアップする、2ターン継続。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "default": 250
+                }
+            ],
+            "tags": [
+                "buff",
+                "taunt"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "taunt",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "taunt"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Under Protection",
+            "CNname": "守护",
+            "JAname": "守護",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clarat1.webp",
+            "DescriptionEN": "The chance to resist Crowd Control Debuffs increases by 35%.",
+            "DescriptionCN": "抵抗控制类负面状态的概率提高35%。",
+            "DescriptionJP": "行動制限系デバフを抵抗する確率+35%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Kinship",
+            "CNname": "家人",
+            "JAname": "家族",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clarat2.webp",
+            "DescriptionEN": "When attacked, this character has a 35% fixed chance to remove a debuff placed on them.",
+            "DescriptionCN": "受到攻击时有35%的固定概率解除自身1个负面效果。",
+            "DescriptionJP": "攻撃を受けた時、35%の固定確率で自身のデバフを1つ解除する。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Revenge",
+            "CNname": "复仇",
+            "JAname": "復讐",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clarat3.webp",
+            "DescriptionEN": "Increases Svarog's Counter DMG by 30%.",
+            "DescriptionCN": "史瓦罗的反击造成的伤害提高30%。",
+            "DescriptionJP": "スヴァローグのカウンターの与ダメージ+30%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "followupatk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "followupatk",
+                    "multiplier": 30,
+                    "tag": [
+                        "self",
+                        "followupatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Physical DMG +4.8%",
+            "CNname": "物理属性伤害提高 +4.8%",
+            "JAname": "物理与ダメージ +4.8%",
+            "ttype": "physicaldmg",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "physicaldmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "physicaldmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "physicaldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Physical DMG +3.2%",
+            "CNname": "物理属性伤害提高 +3.2%",
+            "JAname": "物理与ダメージ +3.2%",
+            "ttype": "physicaldmg",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "physicaldmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "physicaldmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "physicaldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +4%",
+            "CNname": "生命值 +4%",
+            "JAname": "HP +4%",
+            "ttype": "hp",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +6%",
+            "CNname": "生命值 +6%",
+            "JAname": "HP +6%",
+            "ttype": "hp",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Physical DMG +6.4%",
+            "CNname": "物理属性伤害提高 +6.4%",
+            "JAname": "物理与ダメージ +6.4%",
+            "ttype": "physicaldmg",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "physicaldmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "physicaldmg",
+                    "multiplier": 6.4,
+                    "tag": [
+                        "self",
+                        "physicaldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "A Tall Figure",
+            "CNname": "高大的背影",
+            "JAname": "薬理遍識",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clara1.png",
+            "DescriptionEN": "Using Skill will not remove Marks of Counter on the enemy.",
+            "DescriptionCN": "施放战技后，不会清除敌方目标的【反击标记】。",
+            "DescriptionJP": "戦闘スキルを発動した後、敵に付与した「反撃の印」が失効しなくなる。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "A Tight Embrace",
+            "CNname": "紧紧的拥抱",
+            "JAname": "臨床研学",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clara2.png",
+            "DescriptionEN": "After using the Ultimate, ATK increases by 30% for 2 turn(s).",
+            "DescriptionCN": "施放终结技后攻击力提高30%，持续2回合。",
+            "DescriptionJP": "必殺技を発動した後、攻撃力+30%、2ターン継続。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 30,
+                    "tag": [
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Cold Steel Armor",
+            "CNname": "冰冷的钢甲",
+            "JAname": "因病投薬",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/claraskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Family's Warmth",
+            "CNname": "家人的温暖",
+            "JAname": "妙手回春",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clara4.png",
+            "DescriptionEN": "After Clara is hit, the DMG taken by Clara is reduced by 30%. This effect lasts until the start of her next turn.",
+            "DescriptionCN": "受到攻击后，克拉拉受到的伤害降低30%，效果持续到自己的下个回合开始。",
+            "DescriptionJP": "攻撃を受けた後、クラーラの被ダメージ-30%、次のターンが回ってくるまで継続。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "dmgreduction",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "dmgreduction",
+                    "multiplier": 30,
+                    "tag": [
+                        "self",
+                        "dmgreduction"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "A Small Promise",
+            "CNname": "小小的承诺",
+            "JAname": "未病療治",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clarault.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Long Company",
+            "CNname": "长久的陪伴",
+            "JAname": "医者仁心",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/clara6.png",
+            "DescriptionEN": "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by 1.",
+            "DescriptionCN": "我方其他目标遭到攻击后，史瓦罗也有50%的固定概率触发对攻击者的反击，并对攻击目标添加【反击标记】。施放终结技时，额外增加1次强化反击的次数。",
+            "DescriptionJP": "他の味方が攻撃された後も、スヴァローグは50%の固定確率で攻撃者にカウンターを行い、その敵に「反撃の印」を付与する。必殺技を発動した時、さらに強化反撃の回数+1。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "normalatk",
+                "followupatk",
+                "physicalatk"
+            ]
+        }
+    ]
+}
