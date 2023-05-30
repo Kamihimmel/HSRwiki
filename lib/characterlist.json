@@ -8,7 +8,7 @@
             "etype": "ice",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/herta.json"
         },
         {
             "ENname": "Kafka",
@@ -18,7 +18,7 @@
             "etype": "lightning",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/kafka.json"
         },
         {
             "ENname": "Yan Qing",
@@ -58,7 +58,7 @@
             "etype": "quantum",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/silverwolf.json"
         },
         {
             "ENname": "Bronya",
