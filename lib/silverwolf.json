@@ -1,0 +1,1065 @@
+{
+    "ENname": "Silver Wolf",
+    "CNname": "银狼",
+    "JAname": "銀狼",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/silverwolf.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/silverwolflarge.webp",
+    "etype": "quantum",
+    "wtype": "nihility",
+    "rarity": "5",
+    "dtaunt": 100,
+    "dspeed": 107,
+    "maxenergy": 120,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 143,
+            "atk": 87.12,
+            "def": 62.7
+        },
+        {
+            "level": "20",
+            "hp": 278,
+            "atk": 169.88,
+            "def": 122.26
+        },
+        {
+            "level": "20+",
+            "hp": 335,
+            "atk": 204.73,
+            "def": 147.34
+        },
+        {
+            "level": "40",
+            "hp": 535,
+            "atk": 326.7,
+            "def": 235.12
+        },
+        {
+            "level": "40+",
+            "hp": 592,
+            "atk": 361.55,
+            "def": 260.2
+        },
+        {
+            "level": "50",
+            "hp": 663,
+            "atk": 405.11,
+            "def": 291.55
+        },
+        {
+            "level": "50+",
+            "hp": 720,
+            "atk": 439.96,
+            "def": 316.63
+        },
+        {
+            "level": "60",
+            "hp": 791,
+            "atk": 483.52,
+            "def": 347.98
+        },
+        {
+            "level": "60+",
+            "hp": 848,
+            "atk": 518.36,
+            "def": 373.06
+        },
+        {
+            "level": "70",
+            "hp": 920,
+            "atk": 561.92,
+            "def": 404.41
+        },
+        {
+            "level": "70+",
+            "hp": 977,
+            "atk": 596.77,
+            "def": 429.49
+        },
+        {
+            "level": "80",
+            "hp": 1048,
+            "atk": 640.33,
+            "def": 460.84
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "System Warning",
+            "CNname": "|系统警告|",
+            "JAname": "|システム警告|",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolfna.webp",
+            "DescriptionEN": "Deals Quantum DMG equal to [1]% of silverwolf's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于银狼[1]%攻击力的量子属性伤害。",
+            "DescriptionJP": "指定した敵単体に銀狼の攻撃力[1]%分の量子属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Allow Changes?",
+            "CNname": "是否允许更改？",
+            "JAname": "変更を許可しますか？",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolfskill.webp",
+            "DescriptionEN": "There is a [1]% base chance to add 1 Weakness of an on-field ally's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered. Each enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept. In addition, there is a 100% base chance to reduce the All-Type RES of the enemy further by [2]% for 2 turn(s). Deals Quantum DMG equal to [3]% of Silver Wolf's ATK to this enemy.",
+            "DescriptionCN": "有[1]%的<u>基础概率为指定敌方单体目标添加1个场上我方目标持有属性的弱点，且该弱点对应属性的抗性降低20%，持续2回合。若添加的是敌方目标原有属性的弱点，则不会触发对应属性的抗性降低效果。单个敌方目标仅能被银狼添加1个弱点，当银狼对其再次添加弱点时，仅保留最新添加的弱点。有100%的基础概率额外使该目标的全属性抗性降低[2]%，持续2回合。对该目标造成等同于银狼[3]%攻击力的量子属性伤害。",
+            "DescriptionJP": "[1]%基礎確率で指定した敵単体に、フィールド上の味方が有する属性の内1つを弱点として埋め込む、さらにその弱点属性の属性耐性-20%、2ターン継続。元からあった弱点を埋め込んだ場合、対応属性の属性耐性がダウンする効果は触発されない。1体の敵に対し、銀狼が埋め込める弱点は1つまで。銀狼が同じ敵に対して再度弱点を埋め込む時、最後に埋め込んだ弱点のみが残される。100%の基礎確率でさらにその敵の全属性耐性-[2]%、2ターン継続。その敵に銀狼の攻撃力[3]%分の量子属性ダメージを与える。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 75,
+                    "2": 76,
+                    "3": 77,
+                    "4": 78,
+                    "5": 79,
+                    "6": 80,
+                    "7": 81.25,
+                    "8": 82.5,
+                    "9": 83.75,
+                    "10": 85,
+                    "11": 86,
+                    "12": 87,
+                    "13": 88,
+                    "14": 89,
+                    "15": 90
+                },
+                {
+                    "1": 7.5,
+                    "2": 7.75,
+                    "3": 8,
+                    "4": 8.25,
+                    "5": 8.5,
+                    "6": 8.75,
+                    "7": 9.06,
+                    "8": 9.38,
+                    "9": 9.69,
+                    "10": 10,
+                    "11": 10.25,
+                    "12": 10.5,
+                    "13": 10.75,
+                    "14": 11,
+                    "15": 11.25
+                },
+                {
+                    "1": 98,
+                    "2": 107.8,
+                    "3": 117.6,
+                    "4": 127.4,
+                    "5": 137.2,
+                    "6": 147,
+                    "7": 159.25,
+                    "8": 171.5,
+                    "9": 183.75,
+                    "10": 196,
+                    "11": 205.8,
+                    "12": 215.6,
+                    "13": 225.4,
+                    "14": 235.2,
+                    "15": 245
+                },
+                {
+                    "default": -20
+                },
+                {
+                    "default": 100
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "skillatk",
+                "quantumatk",
+                "debuff",
+                "singleenemy",
+                "addweakness",
+                "reducespecificres",
+                "reduceallres"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "addweakness",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleenemy",
+                        "addweakness"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "reducespecificres",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleenemy",
+                        "reducespecificres"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "specificres",
+                    "multiplier": 4,
+                    "tag": [
+                        "singleenemy",
+                        "specificres"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "reduceallcres",
+                    "multiplier": 5,
+                    "tag": [
+                        "singleenemy",
+                        "reduceallcres"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "allcres",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "allcres"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "User Banned",
+            "CNname": "|账号已封禁|",
+            "JAname": "|アカウントがBANされた|",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolfult.webp",
+            "DescriptionEN": "There's a [1]% base chance to make the target enemy's DEF [2]% for 3 turn(s). And at the same time, deals [3]% of Silver Wolf's ATK as Quantum DMG to the target enemy.",
+            "DescriptionCN": "有[1]%的基础概率使指定敌方单体防御力[2]%，持续3回合，同时对该目标造成等同于银狼[3]%攻击力的量子属性伤害。",
+            "DescriptionJP": "[1]%基礎確率で指定した敵単体の防御力[2]%、3ターン継続。その敵に銀狼の攻撃力[3]%分の量子属性ダメージを与える。",
+            "stype": "ult",
+            "energy": 120,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 90,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 85,
+                    "2": 86.5,
+                    "3": 88,
+                    "4": 89.5,
+                    "5": 91,
+                    "6": 92.5,
+                    "7": 94.38,
+                    "8": 96.25,
+                    "9": 98.13,
+                    "10": 100,
+                    "11": 101.5,
+                    "12": 103,
+                    "13": 104.5,
+                    "14": 106,
+                    "15": 107.5
+                },
+                {
+                    "1": -36,
+                    "2": -36.9,
+                    "3": -37.8,
+                    "4": -38.7,
+                    "5": -39.6,
+                    "6": -40.5,
+                    "7": -41.63,
+                    "8": -42.75,
+                    "9": -43.88,
+                    "10": -45,
+                    "11": -45.9,
+                    "12": -46.8,
+                    "13": -47.7,
+                    "14": -48.6,
+                    "15": -49.5
+                },
+                {
+                    "1": 228,
+                    "2": 243.2,
+                    "3": 258.4,
+                    "4": 273.6,
+                    "5": 288.8,
+                    "6": 304,
+                    "7": 323,
+                    "8": 342,
+                    "9": 361,
+                    "10": 380,
+                    "11": 395.2,
+                    "12": 410.4,
+                    "13": 425.6,
+                    "14": 440.8,
+                    "15": 456
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "ultatk",
+                "quantumatk",
+                "debuff",
+                "singleenemy",
+                "reducedef"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "reducedef",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleenemy",
+                        "reducedef"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "def",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "def"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Awaiting System Response...",
+            "CNname": "等待程序响应…",
+            "JAname": "プログラム応答なし…",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolftalent.webp",
+            "DescriptionEN": "Silver Wolf can create three types of Bugs: ATK [1]%, DEF [2]%, and reduce SPD [3]%.Every time Silver Wolf attacks, she has a [4]% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target. ",
+            "DescriptionCN": "银狼能够制造：攻击力[1]%、防御力[2]%、速度[3]%3种【缺陷】。银狼每次施放攻击后有[4]%的基础概率给受到攻击的敌方目标植入1个随机【缺陷】，持续3回合。",
+            "DescriptionJP": "銀狼は以下の3つの「欠陥」を作成できる：攻撃力[1]%、防御力[2]%、速度[3]%。銀狼が攻撃を行った後、[4]%の基礎確率で攻撃を受けた敵にランダムな「欠陥」を1つ埋め込む、3ターン継続。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 5,
+                    "2": 5.5,
+                    "3": 6,
+                    "4": 6.5,
+                    "5": 7,
+                    "6": 7.5,
+                    "7": 8.13,
+                    "8": 8.75,
+                    "9": 9.38,
+                    "10": 10,
+                    "11": 10.5,
+                    "12": 11,
+                    "13": 11.5,
+                    "14": 12,
+                    "15": 12.5
+                },
+                {
+                    "1": 4,
+                    "2": 4.4,
+                    "3": 4.8,
+                    "4": 5.2,
+                    "5": 5.6,
+                    "6": 6,
+                    "7": 6.5,
+                    "8": 7,
+                    "9": 7.5,
+                    "10": 8,
+                    "11": 8.4,
+                    "12": 8.8,
+                    "13": 9.2,
+                    "14": 9.6,
+                    "15": 10
+                },
+                {
+                    "1": 3,
+                    "2": 3.3,
+                    "3": 3.6,
+                    "4": 3.9,
+                    "5": 4.2,
+                    "6": 4.5,
+                    "7": 4.88,
+                    "8": 5.25,
+                    "9": 5.63,
+                    "10": 6,
+                    "11": 6.3,
+                    "12": 6.6,
+                    "13": 6.9,
+                    "14": 7.2,
+                    "15": 7.5
+                },
+                {
+                    "1": 60,
+                    "2": 61.2,
+                    "3": 62.4,
+                    "4": 63.6,
+                    "5": 64.8,
+                    "6": 66,
+                    "7": 67.5,
+                    "8": 69,
+                    "9": 70.5,
+                    "10": 72,
+                    "11": 73.2,
+                    "12": 74.4,
+                    "13": 75.6,
+                    "14": 76.8,
+                    "15": 78
+                }
+            ],
+            "tags": [
+                "debuff",
+                "singleenemy",
+                "reduceatk",
+                "reducedef",
+                "reducespeed"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "reduceatk",
+                    "multiplier": 4,
+                    "tag": [
+                        "singleenemy",
+                        "reduceatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleenemy",
+                        "atk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "reducedef",
+                    "multiplier": 4,
+                    "tag": [
+                        "singleenemy",
+                        "reducedef"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "def",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "def"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "reducespeed",
+                    "multiplier": 4,
+                    "tag": [
+                        "singleenemy",
+                        "reducespeed"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "speed",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleenemy",
+                        "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Force Quit Program",
+            "CNname": "|强制结束进程|",
+            "JAname": "|プロセス強制終了|",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolftec.webp",
+            "DescriptionEN": "Immediately attacks the enemy. After entering battle, deals Quantum DMG equal to 80% of Silver Wolf's ATK to all enemies, and ignores Weakness Types and reduces Toughness from all enemies. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方全体造成等同于银狼80%攻击力的量子属性伤害，并无视弱点属性削减敌方全体的韧性，击破弱点时，触发量子属性的弱点击破效果。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、敵全体に銀狼の攻撃力80%分の量子属性ダメージを与え、弱点属性を無視して敵全体の靭性を削る。弱点撃破すると、量子属性の弱点撃破効果を発動させる。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": false,
+            "teamskill": true,
+            "weaknessbreak": 60,
+            "energyregen": 0,
+            "tags": [
+                "allenemy",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 80,
+                    "tag": [
+                        "allenemy",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Generate",
+            "CNname": "生成",
+            "JAname": "作成",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolft1.webp",
+            "DescriptionEN": "Bug's duration is extended for 1 turn(s). Every time an enemy is inflicted with Weakness Break, Silver Wolf has a 65% base chance of implanting a random Bug in the enemy.",
+            "DescriptionCN": "【缺陷】的持续时间增加1回合。每当有敌方目标的弱点被击破时，银狼有65%的基础概率对该目标植入1个随机【缺陷】。",
+            "DescriptionJP": "「欠陥」の継続時間+1ターン。敵が弱点撃破された時、銀狼は65%の基礎確率でその敵にランダムな「欠陥」を1つ埋め込む。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "special"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Inject",
+            "CNname": "注入",
+            "JAname": "注入",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolft2.webp",
+            "DescriptionEN": "The duration of the Weakness implanted by Silver Wolf's Skill increases by 1 turn(s).",
+            "DescriptionCN": "施放战技时，为敌方目标添加的弱点持续时间增加1回合。",
+            "DescriptionJP": "戦闘スキルを発動した時、敵に埋め込む弱点の継続時間+1ターン。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "special"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Side Note",
+            "CNname": "旁注",
+            "JAname": "アノテーション",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolft3.webp",
+            "DescriptionEN": "When using Skill, if there are 3 or more debuff(s) affecting the enemy, the Skill decreases the enemy's All-Type RES by an additional 3%.",
+            "DescriptionCN": "施放战技时，若敌方目标的负面效果数量大于等于3个，则战技使目标全属性抗性降低的效果额外降低3%。",
+            "DescriptionJP": "戦闘スキルを発動した時、敵にあるデバフが3つ以上の場合、戦闘スキルによる敵の全属性耐性ダウン効果がさらに3%ダウンする。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "reduceallcres"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "addtarget": "allcres",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleenemy",
+                        "allcres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +4%",
+            "CNname": "效果命中 +4%",
+            "JAname": "効果命中 +4%",
+            "ttype": "effecthit",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Quantum DMG +3.2%",
+            "CNname": "量子属性伤害提高 +3.2%",
+            "JAname": "量子属性与ダメージ +3.2%",
+            "ttype": "quantumdmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +6%",
+            "CNname": "效果命中 +6%",
+            "JAname": "効果命中 +6%",
+            "ttype": "effecthit",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Quantum DMG +4.8%",
+            "CNname": "量子属性伤害提高 +4.8%",
+            "JAname": "量子属性与ダメージ +4.8%",
+            "ttype": "quantumdmg",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +8%",
+            "CNname": "效果命中 +8%",
+            "JAname": "効果命中 +8%",
+            "ttype": "effecthit",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Social Engineering",
+            "CNname": "社会工程",
+            "JAname": "社会工学",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolf1.png",
+            "DescriptionEN": "After using her Ultimate to attack enemies, Silver Wolf regenerates 7 Energy for every debuff that the target enemy currently has. This effect can be triggered up to 5 time(s) in each use of her Ultimate.",
+            "DescriptionCN": "施放终结技攻击敌方目标后，目标每有1个负面效果，银狼恢复7点能量。该效果在每次终结技攻击中最多生效5次。",
+            "DescriptionJP": "必殺技で敵を攻撃した後、敵にデバフが1つあるごとに、銀狼はEPを7回復する。この効果は一回の必殺技発動につき、最大で5回発動できる。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 7,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Zombie Network",
+            "CNname": "僵尸网络",
+            "JAname": "ボットネット",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolf2.png",
+            "DescriptionEN": "When an enemy enters battle, reduce their Effect RES by 20%.",
+            "DescriptionCN": "在敌方目标进入战斗时，使其效果抵抗降低20%。",
+            "DescriptionJP": "敵が戦闘に入る時、効果抵抗-20%。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": -20,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Payload",
+            "CNname": "攻击载荷",
+            "JAname": "ペイロード",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolfskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Bounce Attack",
+            "CNname": "反弹端口",
+            "JAname": "バウンス攻撃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolf4.png",
+            "DescriptionEN": "After using her Ultimate to attack enemies, deals Additional Quantum DMG equal to 20% of Silver Wolf's ATK for every debuff currently on the enemy target. This effect can be triggered for a maximum of 5 time(s) during each use of her Ultimate.",
+            "DescriptionCN": "施放终结技攻击敌方目标后，目标每有1个负面效果，则额外造成等同于银狼20%攻击力的量子属性附加伤害。该效果在每次终结技攻击中最多触发5次。",
+            "DescriptionJP": "必殺技で敵を攻撃した後、その敵にあるデバフ1つにつき、さらに銀狼の攻撃力20%分の量子属性付加ダメージを与える。この効果は1回の必殺技発動で、最大で5回発動できる。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "additionalatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Brute Force Attack",
+            "CNname": "暴力破解",
+            "JAname": "総当たり攻撃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolfult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Overlay Network",
+            "CNname": "重叠网络",
+            "JAname": "オーバーレイ ネットワーク",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolf6.png",
+            "DescriptionEN": "For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by 20%, up to a limit of 100%.",
+            "DescriptionCN": "敌方目标每有1个负面效果，银狼对其造成的伤害提高20%，最多提高100%。",
+            "DescriptionJP": "敵にあるデバフ1つにつき、その敵に対する銀狼の与ダメージ+20%、最大で+100%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        }
+    ]
+}
