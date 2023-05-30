@@ -243,20 +243,20 @@
                 },
                 {
                     "type": "debuff",
-                    "multipliertarget": "reduceallcres",
+                    "multipliertarget": "reduceallres",
                     "multiplier": 5,
                     "tag": [
                         "singleenemy",
-                        "reduceallcres"
+                        "reduceallres"
                     ]
                 },
                 {
                     "type": "debuff",
-                    "addtarget": "allcres",
+                    "addtarget": "allres",
                     "multiplier": 2,
                     "tag": [
                         "singleenemy",
-                        "allcres"
+                        "allres"
                     ]
                 },
                 {
@@ -1006,7 +1006,7 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 1,
+                    "multiplier": 20,
                     "tag": [
                         "additionalatk",
                         "quantumatk"
