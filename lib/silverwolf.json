@@ -136,7 +136,7 @@
             "JAname": "変更を許可しますか？",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/silverwolfskill.webp",
             "DescriptionEN": "There is a [1]% base chance to add 1 Weakness of an on-field ally's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered. Each enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept. In addition, there is a 100% base chance to reduce the All-Type RES of the enemy further by [2]% for 2 turn(s). Deals Quantum DMG equal to [3]% of Silver Wolf's ATK to this enemy.",
-            "DescriptionCN": "有[1]%的<u>基础概率为指定敌方单体目标添加1个场上我方目标持有属性的弱点，且该弱点对应属性的抗性降低20%，持续2回合。若添加的是敌方目标原有属性的弱点，则不会触发对应属性的抗性降低效果。单个敌方目标仅能被银狼添加1个弱点，当银狼对其再次添加弱点时，仅保留最新添加的弱点。有100%的基础概率额外使该目标的全属性抗性降低[2]%，持续2回合。对该目标造成等同于银狼[3]%攻击力的量子属性伤害。",
+            "DescriptionCN": "有[1]%的基础概率为指定敌方单体目标添加1个场上我方目标持有属性的弱点，且该弱点对应属性的抗性降低20%，持续2回合。若添加的是敌方目标原有属性的弱点，则不会触发对应属性的抗性降低效果。单个敌方目标仅能被银狼添加1个弱点，当银狼对其再次添加弱点时，仅保留最新添加的弱点。有100%的基础概率额外使该目标的全属性抗性降低[2]%，持续2回合。对该目标造成等同于银狼[3]%攻击力的量子属性伤害。",
             "DescriptionJP": "[1]%基礎確率で指定した敵単体に、フィールド上の味方が有する属性の内1つを弱点として埋め込む、さらにその弱点属性の属性耐性-20%、2ターン継続。元からあった弱点を埋め込んだ場合、対応属性の属性耐性がダウンする効果は触発されない。1体の敵に対し、銀狼が埋め込める弱点は1つまで。銀狼が同じ敵に対して再度弱点を埋め込む時、最後に埋め込んだ弱点のみが残される。100%の基礎確率でさらにその敵の全属性耐性-[2]%、2ターン継続。その敵に銀狼の攻撃力[3]%分の量子属性ダメージを与える。",
             "stype": "skill",
             "maxlevel": 15,
