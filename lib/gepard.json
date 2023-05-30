@@ -225,7 +225,7 @@
                     "multipliertarget": "atk",
                     "multiplier": 3,
                     "tag": [
-                        "singleally",
+                        "singleenemy",
                         "additionalatk",
                         "iceatk"
                     ]
