@@ -205,7 +205,7 @@
                     "tag": [
                         "aoe",
                         "skillatk",
-                        "physicalatk" 
+                        "physicalatk"
                     ]
                 },
                 {
@@ -306,13 +306,13 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "atk",
+                    "referencetarget": "claratalent",
+                    "referencetargetEN": "Clara Talent Multiplier",
+                    "referencetargetCN": "克拉拉天赋倍率",
+                    "referencetargetJP": "クラーラ天賦倍率",
+                    "addtarget": "",
                     "multiplier": 3,
-                    "tag": [
-                        "followupatk",
-                        "aoe",
-                        "physicalatk"
-                    ]
+                    "tag": []
                 },
                 {
                     "type": "dmg",
