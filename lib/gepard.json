@@ -1,0 +1,904 @@
+{
+    "ENname": "Gepard",
+    "CNname": "杰帕德",
+    "JAname": "ジェパード",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/gepard.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/gepardlarge.webp",
+    "etype": "ice",
+    "wtype": "preservation",
+    "rarity": "5",
+    "dtaunt": 150,
+    "dspeed": 92,
+    "maxenergy": 100,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 190,
+            "atk": 73,
+            "def": 89
+        },
+        {
+            "level": "20",
+            "hp": 370,
+            "atk": 144,
+            "def": 173
+        },
+        {
+            "level": "20+",
+            "hp": 446,
+            "atk": 173,
+            "def": 209
+        },
+        {
+            "level": "30",
+            "hp": 541,
+            "atk": 210,
+            "def": 253
+        },
+        {
+            "level": "30+",
+            "hp": 617,
+            "atk": 240,
+            "def": 289
+        },
+        {
+            "level": "40",
+            "hp": 712,
+            "atk": 277,
+            "def": 334
+        },
+        {
+            "level": "40+",
+            "hp": 788,
+            "atk": 306,
+            "def": 369
+        },
+        {
+            "level": "50",
+            "hp": 883,
+            "atk": 343,
+            "def": 414
+        },
+        {
+            "level": "50+",
+            "hp": 959,
+            "atk": 373,
+            "def": 449
+        },
+        {
+            "level": "60",
+            "hp": 1054,
+            "atk": 410,
+            "def": 494
+        },
+        {
+            "level": "60+",
+            "hp": 1130,
+            "atk": 439,
+            "def": 530
+        },
+        {
+            "level": "70",
+            "hp": 1226,
+            "atk": 476,
+            "def": 574
+        },
+        {
+            "level": "70+",
+            "hp": 1302,
+            "atk": 506,
+            "def": 610
+        },
+        {
+            "level": "80",
+            "hp": 1397,
+            "atk": 543,
+            "def": 654
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Fist of Conviction",
+            "CNname": "一意之拳",
+            "JAname": "一意の拳",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardna.webp",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of Gepard's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于杰帕德[1]%攻击力的冰属性伤害。",
+            "DescriptionJP": "指定した敵単体にジェパードの攻撃力50%分の氷属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "iceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Daunting Smite",
+            "CNname": "震慑之击",
+            "JAname": "震撼の一撃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardskill.webp",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of Gepard's ATK to a single enemy, with a [2]% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to [3]% of Gepard's ATK at the beginning of each turn.",
+            "DescriptionCN": "对指定敌方单体造成等同于杰帕德[1]%攻击力的冰属性伤害，同时有[2]%的基础概率使受到攻击的敌方目标陷入冻结状态，持续1回合。冻结状态下，敌方目标不能行动同时每回合开始时受到等同于杰帕德[3]%攻击力的冰属性附加伤害。",
+            "DescriptionJP": "指定した敵単体にジェパードの攻撃力[1]%分の氷属性ダメージを与え、[2]%の基礎確率で攻撃を受けた敵を凍結状態にする、1ターン継続。凍結状態の敵は行動できず、ターンが回ってくるたびにジェパードの攻撃力[3]%分の氷属性付加ダメージを受ける。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1":100,
+                    "2": 110,
+                    "3": 120,
+                    "4": 130,
+                    "5": 140,
+                    "6": 150,
+                    "7": 162.5,
+                    "8": 175,
+                    "9": 187.5,
+                    "10": 200,
+                    "11": 210,
+                    "12": 220,
+                    "13": 230,
+                    "14": 240,
+                    "15": 250
+                },
+                {
+                    "default": 65
+                },
+                {
+                    "1": 30,
+                    "2": 33,
+                    "3": 36,
+                    "4": 39,
+                    "5": 42,
+                    "6": 45,
+                    "7": 48.75,
+                    "8": 52.5,
+                    "9": 56.25,
+                    "10": 60,
+                    "11": 63,
+                    "12": 66,
+                    "13": 69,
+                    "14": 72,
+                    "15": 75
+                }
+            ],
+            "tags": [
+                "iceatk",
+                "frozen",
+                "additionalatk",
+                "singleatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleenemy",
+                        "iceatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "frozen",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "frozen"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleenemy",
+                        "additionalatk",
+                        "iceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Enduring Bulwark",
+            "CNname": "永屹之壁",
+            "JAname": "永屹の壁",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardult.webp",
+            "DescriptionEN": "Applies a Shield to all allies, absorbing DMG equal to [1]% of Gepard's DEF plus [2] for 3 turn(s).",
+            "DescriptionCN": "为我方全体提供能够抵消等同于杰帕德[1]%防御力+[2]伤害的护盾，持续3回合。",
+            "DescriptionJP": "味方全体にジェパードの防御力[1]%+[2]の耐久値を持つバリアを付与する、3ターン継続。",
+            "stype": "ult",
+            "energy": 100,
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 30,
+                    "2": 31.88,
+                    "3": 33.75,
+                    "4": 35.63,
+                    "5": 37.5,
+                    "6": 39,
+                    "7": 40.5,
+                    "8": 42,
+                    "9": 43.5,
+                    "10": 45,
+                    "11": 46.5,
+                    "12": 48,
+                    "13": 49.5,
+                    "14": 51,
+                    "15": 52.5
+                },
+                {
+                    "1": 150,
+                    "2": 240,
+                    "3": 308,
+                    "4": 375,
+                    "5": 420,
+                    "6": 465,
+                    "7": 499,
+                    "8": 533,
+                    "9": 566,
+                    "10": 600,
+                    "11": 634,
+                    "12": 668,
+                    "13": 701,
+                    "14": 735,
+                    "15": 769
+                }
+            ],
+            "tags": [
+                "shield",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "type": "shield",
+                    "multipliertarget": "def",
+                    "multiplier": 1,
+                    "tag": [
+                        "shield",
+                        "allally"
+                    ]
+                },
+                {
+                    "type": "shield",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "tag": [
+                        "shield",
+                        "allally"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Unyielding Will",
+            "CNname": "不屈之身",
+            "JAname": "不屈の体躯",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardtalent.webp",
+            "DescriptionEN": "When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to [1]% of his Max HP. This effect can only trigger once per battle.",
+            "DescriptionCN": "受到致命攻击时杰帕德不会陷入无法战斗状态，并立即回复等同于自身生命上限[1]%的生命值。该效果单场战斗中只能触发1次。",
+            "DescriptionJP": "ジェパードはHPが0になる攻撃を受けても戦闘不能状態にならず、HPを最大HP[1]%分回復する。この効果は一度の戦闘で1回まで発動できる。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 25,
+                    "2": 27.5,
+                    "3": 30,
+                    "4": 32.5,
+                    "5": 35,
+                    "6": 37.5,
+                    "7": 40.63,
+                    "8": 43.75,
+                    "9": 46.88,
+                    "10": 50,
+                    "11": 52.5,
+                    "12": 55,
+                    "13": 57.5,
+                    "14": 60,
+                    "15": 62.5
+                }
+            ],
+            "tags": [
+                "revive",
+                "self",
+                "heal"
+            ],
+            "effect": [
+                {
+                    "type": "revive",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "revive",
+                        "self",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Comradery",
+            "CNname": "有情之证",
+            "JAname": "仁心の証",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardtec.webp",
+            "DescriptionEN": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s).",
+            "DescriptionCN": "使用秘技后，下一次战斗开始时为我方全体提供能够抵消等同于杰帕德24%防御力+150伤害的护盾，持续2回合。",
+            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、味方全体にジェパードの防御力24%+150の耐久値を持つバリアを付与する、2ターン継続。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "tags": [
+                "shield",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "type": "shield",
+                    "multipliertarget": "def",
+                    "multiplier": 24,
+                    "tag": [
+                        "allally"
+                    ]
+                },
+                {
+                    "type": "shield",
+                    "multipliertarget": "",
+                    "multiplier": 150,
+                    "tag": [
+                        "allally"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Fighting Spirit",
+            "CNname": "战意",
+            "JAname": "戦意",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardt1.webp",
+            "DescriptionEN": "Gepard's ATK increases by 35% of his current DEF. This effect will refresh at the start of each turn.",
+            "DescriptionCN": "杰帕德提高等同于自身当前防御力35%的攻击力，每回合开始时刷新。",
+            "DescriptionJP": "ジェパードの攻撃力が自身の防御力35%分アップ、ターンが回ってくるたびに更新される。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Integrity",
+            "CNname": "刚正",
+            "JAname": "剛直",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardt2.webp",
+            "DescriptionEN": "Gepard has a higher chance to be attacked by enemies.",
+            "DescriptionCN": "杰帕德被敌方攻击的概率提高。",
+            "DescriptionJP": "ジェパードが敵に攻撃される確率がアップする。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "taunt",
+                "self"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Commander",
+            "CNname": "统领",
+            "JAname": "統率",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardt3.webp",
+            "DescriptionEN": "When Unyielding Will is triggered, Gepard's Energy will be restored to 100%.",
+            "DescriptionCN": "【不屈之身】触发后，杰帕德的能量立即恢复至100%。",
+            "DescriptionJP": "「不屈の体躯」を発動した後、ジェパードのEPを100％まで回復する。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "energy",
+                "self"
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +8%",
+            "CNname": "效果抵抗 +8%",
+            "JAname": "効果抵抗 +8%",
+            "ttype": "effectres",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +6.4%",
+            "CNname": "冰属性伤害提高 +6.4%",
+            "JAname": "氷属性与ダメージ +6.4%",
+            "ttype": "icedmg",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 6.4,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +3.2%",
+            "CNname": "冰属性伤害提高 +3.2%",
+            "JAname": "氷属性与ダメージ +3.2%",
+            "ttype": "icedmg",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +4%",
+            "CNname": "效果抵抗 +4%",
+            "JAname": "効果抵抗 +4%",
+            "ttype": "effectres",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +3.2%",
+            "CNname": "冰属性伤害提高 +3.2%",
+            "JAname": "氷属性与ダメージ +3.2%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +6%",
+            "CNname": "效果抵抗 +6%",
+            "JAname": "効果抵抗 +6%",
+            "ttype": "effectres",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Due Diligence",
+            "CNname": "恪尽职守",
+            "JAname": "忠実篤厚",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepard1.png",
+            "DescriptionEN": "When using Skill, increases the base chance to Freeze enemies by 35%.",
+            "DescriptionCN": "施放战技时，使受到攻击的敌方目标陷入冻结状态的基础概率提高35%。",
+            "DescriptionJP": "戦闘スキルを発動した時、攻撃を受けた敵が凍結状態になる基礎確率+35%。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "frozen"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "frozen",
+                    "multiplier": 35,
+                    "tag": [
+                        "singleenemy",
+                        "frozen"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Lingering Cold",
+            "CNname": "余寒",
+            "JAname": "余寒",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepard2.png",
+            "DescriptionEN": "After an enemy Frozen by Skill is unfrozen, their SPD is reduced by 20% for 1 turn(s).",
+            "DescriptionCN": "战技使敌方目标陷入的冻结状态解除后，目标的速度降低20%，持续1回合。",
+            "DescriptionJP": "戦闘スキルで敵に与えた凍結状態が解除された後、敵の速度-20%、1ターン継続。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "speed",
+                    "multiplier": 20,
+                    "tag": [
+                        "singleenemy"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Never Surrender",
+            "CNname": "永不陷落",
+            "JAname": "永劫不落",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Faith Moves Mountains",
+            "CNname": "精诚所至",
+            "JAname": "確固たる意志",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepard4.png",
+            "DescriptionEN": "When Gepard is in battle, all allies' Effect RES increases by 20%.",
+            "DescriptionCN": "杰帕德在场时，我方全体的效果抵抗提高20%。",
+            "DescriptionJP": "ジェパードがフィールドにいる時、味方全体の効果抵抗+20%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "allally",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 20,
+                    "tag": [
+                        "allally",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Cold Iron Fist",
+            "CNname": "拳似寒铁",
+            "JAname": "寒鉄の如く拳",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepardskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Unyielding Resolve",
+            "CNname": "不屈的决意",
+            "JAname": "不屈の決意",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/gepard6.png",
+            "DescriptionEN": "When his Talent is triggered, Gepard's action is Advanced Forward by 100%, and he restores extra HP equal to 50% of his Max HP.",
+            "DescriptionCN": "触发天赋时杰帕德行动提前100%，且当前生命值的回复量额外增加自身生命上限的50%。",
+            "DescriptionJP": "天賦発動時、ジェパードの行動順が100%早まり、HPの回復量がさらに自身の最大HP50%分アップする。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "speed",
+                "heal"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 100,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 50,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                }
+            ]
+        }
+    ]
+}
