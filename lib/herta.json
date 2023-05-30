@@ -115,7 +115,7 @@
             "tags": [
                 "singleatk",
                 "normalatk",
-                "lightningatk"
+                "iceatk"
             ],
             "effect": [
                 {
@@ -125,7 +125,7 @@
                     "tag": [
                         "singleatk",
                         "normalatk",
-                        "lightningatk"
+                        "iceatk"
                     ]
                 }
             ]
@@ -135,12 +135,12 @@
             "CNname": "一锤子买卖",
             "JAname": "一度限りの取引",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertaskill.webp",
-            "DescriptionEN": "Deals Ice DMG equal to 50% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-            "DescriptionCN": "对敌方全体造成等同于黑塔50%攻击力的冰属性伤害。若敌方目标当前生命值百分比大于等于50%，则对该目标造成的伤害提高20%。",
-            "DescriptionJP": "敵全体にヘルタの攻撃力50%分の氷属性ダメージを与える。敵の残りHPが50%以上の場合、その敵に対して与ダメージ+20%。",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
+            "DescriptionCN": "对敌方全体造成等同于黑塔[1]%攻击力的冰属性伤害。若敌方目标当前生命值百分比大于等于50%，则对该目标造成的伤害提高20%。",
+            "DescriptionJP": "敵全体にヘルタの攻撃力[1]%分の氷属性ダメージを与える。敵の残りHPが50%以上の場合、その敵に対して与ダメージ+20%。",
             "stype": "skill",
             "maxlevel": 15,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "weaknessbreak": 30,
             "energyregen": 30,
@@ -161,12 +161,15 @@
                     "13": 115,
                     "14": 120,
                     "15": 125
+                },
+                {
+                    "default": 20
                 }
             ],
             "tags": [
                 "aoe",
                 "skillatk",
-                "lightningatk"
+                "iceatk"
             ],
             "effect": [
                 {
@@ -176,7 +179,16 @@
                     "tag": [
                         "aoe",
                         "skillatk",
-                        "lightningatk"
+                        "iceatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "alldmg"
                     ]
                 }
             ]
@@ -186,11 +198,11 @@
             "CNname": "是魔法，我加了魔法",
             "JAname": "私がかけた魔法だよ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertault.webp",
-            "DescriptionEN": "Deals Ice DMG equal to 120% of Herta's ATK to all enemies.",
-            "DescriptionCN": "对敌方全体造成等同于黑塔120%攻击力的冰属性伤害。",
-            "DescriptionJP": "敵全体にヘルタの攻撃力120%分の氷属性ダメージを与える。",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of Herta's ATK to all enemies.",
+            "DescriptionCN": "对敌方全体造成等同于黑塔[1]%攻击力的冰属性伤害。",
+            "DescriptionJP": "敵全体にヘルタの攻撃力[1]%分の氷属性ダメージを与える。",
             "stype": "ult",
-            "energy": 130,
+            "energy": 110,
             "maxlevel": 15,
             "buffskill": false,
             "teamskill": false,
@@ -218,7 +230,7 @@
             "tags": [
                 "aoe",
                 "ultatk",
-                "lightningatk"
+                "iceatk"
             ],
             "effect": [
                 {
@@ -228,7 +240,7 @@
                     "tag": [
                         "aoe",
                         "ultatk",
-                        "lightningatk"
+                        "iceatk"
                     ]
                 }
             ]
@@ -249,44 +261,27 @@
             "energyregen": 0,
             "levelmultiplier": [
                 {
-                    "1": 33,
-                    "2": 36.3,
-                    "3": 39.6,
-                    "4": 42.9,
-                    "5": 46.2,
-                    "6": 49.5,
-                    "7": 53.63,
-                    "8": 57.75,
-                    "9": 61.88,
-                    "10": 66,
-                    "11": 69.3,
-                    "12": 72.6,
-                    "13": 75.9,
-                    "14": 79.2,
-                    "15": 82.5
-                },
-                {
-                    "1": 8.25,
-                    "2": 9.075,
-                    "3": 9.9,
-                    "4": 10.725,
-                    "5": 11.55,
-                    "6": 12.375,
-                    "7": 13.4075,
-                    "8": 14.4375,
-                    "9": 15.47,
-                    "10": 16.5,
-                    "11": 17.325,
-                    "12": 18.15,
-                    "13": 18.975,
-                    "14": 19.8,
-                    "15": 20.625
+                    "1": 25,
+                    "2": 26.5,
+                    "3": 28,
+                    "4": 29.5,
+                    "5": 31,
+                    "6": 32.5,
+                    "7": 34.38,
+                    "8": 36.25,
+                    "9": 38.13,
+                    "10": 40,
+                    "11": 41.5,
+                    "12": 43,
+                    "13": 44.5,
+                    "14": 46,
+                    "15": 47.5
                 }
             ],
             "tags": [
                 "aoe",
                 "followupatk",
-                "lightningatk"
+                "iceatk"
             ],
             "effect": [
                 {
@@ -296,7 +291,7 @@
                     "tag": [
                         "aoe",
                         "followupatk",
-                        "lightningatk"
+                        "iceatk"
                     ]
                 }
             ]
@@ -312,11 +307,22 @@
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
-            "teamskill": true,
+            "teamskill": false,
             "tags": [
                 "buff",
                 "self",
-                "special"
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 40,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
             ]
         }
     ],
@@ -335,17 +341,17 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "critdmg",
+                "alldmg",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critdmg",
+                    "addtarget": "alldmg",
                     "multiplier": 25,
                     "tag": [
                         "self",
-                        "critdmg"
+                        "alldmg"
                     ]
                 }
             ]
@@ -364,14 +370,14 @@
             "teamskill": true,
             "tags": [
                 "buff",
-                "energy",
+                "alldmg",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "energy",
-                    "multiplier": 15,
+                    "addtarget": "alldmg",
+                    "multiplier": 20,
                     "tag": [
                         "self",
                         "energy"
@@ -393,17 +399,17 @@
             "teamskill": true,
             "tags": [
                 "buff",
-                "critrate",
+                "controlresist",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 10,
+                    "addtarget": "controlresist",
+                    "multiplier": 35,
                     "tag": [
                         "self",
-                        "critrate"
+                        "controlresist"
                     ]
                 }
             ]
@@ -439,10 +445,10 @@
         },
         {
             "tiny": true,
-            "ENname": "ATK +4%",
-            "CNname": "攻击力 +4%",
-            "JAname": "攻撃力 +4%",
-            "ttype": "atk",
+            "ENname": "Ice DMG +3.2%",
+            "CNname": "冰属性伤害提高 +3.2%",
+            "JAname": "氷属性与ダメージ +3.2%",
+            "ttype": "icedmg",
             "DescriptionEN": "A3",
             "DescriptionCN": "A3",
             "DescriptionJP": "A3",
@@ -452,26 +458,26 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "icedmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "ATK",
-                    "multiplier": 4,
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
                     "tag": [
                         "self",
-                        "atk"
+                        "icedmg"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "DEF +5%",
-            "CNname": "防御力 +5%",
-            "JAname": "防御力 +5%",
-            "ttype": "def",
+            "ENname": "CRIT Rate +2.7%",
+            "CNname": "暴击率 +2.7%",
+            "JAname": "会心率 +2.7%",
+            "ttype": "critrate",
             "DescriptionEN": "A3",
             "DescriptionCN": "A3",
             "DescriptionJP": "A3",
@@ -481,45 +487,16 @@
             "tags": [
                 "buff",
                 "self",
-                "def"
+                "critrate"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 5,
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
                     "tag": [
                         "self",
-                        "def"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "ATK +6%",
-            "CNname": "攻击力 +6%",
-            "JAname": "攻撃力 +6%",
-            "ttype": "atk",
-            "DescriptionEN": "A4",
-            "DescriptionCN": "A4",
-            "DescriptionJP": "A4",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 6,
-                    "tag": [
-                        "self",
-                        "atk"
+                        "critrate"
                     ]
                 }
             ]
@@ -555,29 +532,58 @@
         },
         {
             "tiny": true,
-            "ENname": "ATK +6%",
-            "CNname": "攻击力 +6%",
-            "JAname": "攻撃力 +6%",
-            "ttype": "atk",
-            "DescriptionEN": "A5",
-            "DescriptionCN": "A5",
-            "DescriptionJP": "A5",
+            "ENname": "DEF +10%",
+            "CNname": "防御力 +10%",
+            "JAname": "防御力 +10%",
+            "ttype": "def",
+            "DescriptionEN": "75",
+            "DescriptionCN": "75",
+            "DescriptionJP": "75",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "def"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 6,
+                    "addtarget": "def",
+                    "multiplier": 10,
                     "tag": [
                         "self",
-                        "atk"
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "icedmg"
                     ]
                 }
             ]
@@ -588,9 +594,9 @@
             "CNname": "防御力 +7.5%",
             "JAname": "防御力 +7.5%",
             "ttype": "def",
-            "DescriptionEN": "A6",
-            "DescriptionCN": "A6",
-            "DescriptionJP": "A6",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -613,39 +619,39 @@
         },
         {
             "tiny": true,
-            "ENname": "CRIT Rate +5.3%",
-            "CNname": "暴击率 +5.3%",
-            "JAname": "会心率 +5.3%",
-            "ttype": "critrate",
-            "DescriptionEN": "LV75",
-            "DescriptionCN": "LV75",
-            "DescriptionJP": "LV75",
+            "ENname": "Ice DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
                 "self",
-                "critrate"
+                "icedmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 5.3,
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
                     "tag": [
                         "self",
-                        "critrate"
+                        "icedmg"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "ATK +4%",
-            "CNname": "攻击力 +4%",
-            "JAname": "攻撃力 +4%",
-            "ttype": "atk",
+            "ENname": "Ice DMG +3.2%",
+            "CNname": "冰属性伤害提高 +3.2%",
+            "JAname": "氷属性与ダメージ +3.2%",
+            "ttype": "icedmg",
             "DescriptionEN": "LV1",
             "DescriptionCN": "LV1",
             "DescriptionJP": "LV1",
@@ -655,26 +661,26 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "icedmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 4,
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
                     "tag": [
                         "self",
-                        "atk"
+                        "icedmg"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "ATK +9%",
-            "CNname": "攻击力 +8%",
-            "JAname": "攻撃力 +8%",
-            "ttype": "atk",
+            "ENname": "Ice DMG +6.4%",
+            "CNname": "冰属性伤害提高 +6.4%",
+            "JAname": "氷属性与ダメージ +6.4%",
+            "ttype": "icedmg",
             "DescriptionEN": "LV80",
             "DescriptionCN": "LV80",
             "DescriptionJP": "LV80",
@@ -684,16 +690,16 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "icedmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 8,
+                    "addtarget": "icedmg",
+                    "multiplier": 6.4,
                     "tag": [
                         "self",
-                        "atk"
+                        "icedmg"
                     ]
                 }
             ]
@@ -716,6 +722,18 @@
                 "buff",
                 "followupatk",
                 "self"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 40,
+                    "tag": [
+                        "aoe",
+                        "followupatk",
+                        "iceatk"
+                    ]
+                }
             ]
         },
         {
@@ -732,34 +750,16 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "self"
+                "critrate"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "normalatk",
-                    "multiplier": 20,
+                    "addtarget": "critrate",
+                    "multiplier": 3,
                     "tag": [
                         "self",
-                        "normalatk"
-                    ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "skillatk",
-                    "multiplier": 20,
-                    "tag": [
-                        "self",
-                        "skillatk"
-                    ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "ultatk",
-                    "multiplier": 20,
-                    "tag": [
-                        "self",
-                        "ultatk"
+                        "critrate"
                     ]
                 }
             ]
@@ -796,8 +796,19 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "energy",
+                "alldmg",
                 "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
             ]
         },
         {
@@ -831,25 +842,17 @@
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "debuff",
-                "vulnerability"
+                "atk",
+                "self"
             ],
             "effect": [
                 {
-                    "type": "debuff",
-                    "multipliertarget": "vulnerability",
-                    "multiplier": null,
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 25,
                     "tag": [
-                        "vulnerability"
-                    ]
-                },
-                {
-                    "type": "debuff",
-                    "addtarget": "dmgreceive",
-                    "multiplier": 12,
-                    "tag": [
-                        "allenemy",
-                        "dmgreceive"
+                        "self",
+                        "atk"
                     ]
                 }
             ]
