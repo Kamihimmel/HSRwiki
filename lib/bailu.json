@@ -443,7 +443,7 @@
     "tracedata": [
         {
             "tiny": false,
-            "ENname": "Soothe",
+            "ENname": "Qihuang Analects",
             "CNname": "岐黄精义",
             "JAname": "岐黄精義",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailut1.webp",
@@ -471,11 +471,11 @@
         },
         {
             "tiny": false,
-            "ENname": "Healer",
+            "ENname": "Aquatic Benediction",
             "CNname": "鳞渊福泽",
             "JAname": "鱗淵の恩沢",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailut2.webp",
-            "DescriptionEN": "Natasha's Outgoing Healing increases by 10%.",
+            "DescriptionEN": "Characters with Invigoration receive 10% less DMG.",
             "DescriptionCN": "拥有【生息】的角色受到的伤害降低10%。",
             "DescriptionJP": "「生生」を付与されたキャラの被ダメージ-10%。",
             "stype": "trace",
@@ -500,11 +500,11 @@
         },
         {
             "tiny": false,
-            "ENname": "Recuperation",
+            "ENname": "Vidyadhara Ichor Lines",
             "CNname": "持明龙脉",
             "JAname": "持明の龍脈",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailut3.webp",
-            "DescriptionEN": "Increases the duration of Skill's continuous healing effect for 1 turn(s).",
+            "DescriptionEN": "Invigoration can trigger 1 more time(s).",
             "DescriptionCN": "【生息】效果的触发次数增加1次。",
             "DescriptionJP": "「生生」効果の発動回数+1。",
             "stype": "trace",
@@ -806,83 +806,69 @@
     "eidolon": [
         {
             "eidolonnum": 1,
-            "ENname": "Pharmacology Expertise",
-            "CNname": "遍识药理",
-            "JAname": "薬理遍識",
+            "ENname": "Ambrosial Aqua",
+            "CNname": "百脉甘津宁神久",
+            "JAname": "百脈静める甘露",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailu1.png",
-            "DescriptionEN": "After being attacked, if the current HP percentage is 30% or lower, heals self for 1 time to restore HP by an amount equal to 15% of Max HP plus 400. This effect can only be triggered 1 time per battle.",
-            "DescriptionCN": "受到攻击后，若当前生命值百分比小于等于30%，对自身施放1次治疗，回复等同于自身15%生命上限+400的生命值。该效果单场战斗中只能触发1次。",
-            "DescriptionJP": "攻撃を受けた後、残りHPが30%以下の場合、自身に治癒を1回行い、自身の最大HP15%+400のHPを回復する。この効果は一度の戦闘で1回まで発動できる。",
+            "DescriptionEN": "If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates 8 extra Energy for this target.",
+            "DescriptionCN": "【生息】结束时若我方目标当前生命值等于其生命上限，则额外恢复目标8点能量。",
+            "DescriptionJP": "「生生」効果が終了する時、味方のHPが満タンの場合、さらにEPを8回復させる。",
             "stype": "eidolon",
-            "buffskill": false,
-            "teamskill": false,
+            "buffskill": true,
+            "teamskill": true,
             "tags": [
-                "heal",
-                "self"
+                "buff",
+                "energy"
             ],
             "effect": [
                 {
-                    "type": "heal",
-                    "multipliertarget": "maxhp",
-                    "multiplier": 15,
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 8,
                     "tag": [
-                        "self"
-                    ]
-                },
-                {
-                    "type": "heal",
-                    "multipliertarget": "",
-                    "multiplier": 400,
-                    "tag": [
-                        "self"
+                        "energy"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 2,
-            "ENname": "Clinical Research",
-            "CNname": "临床研学",
-            "JAname": "臨床研学",
+            "ENname": "Sylphic Slumber",
+            "CNname": "壶中洞天云螭眠",
+            "JAname": "壺中の天には雲龍眠る",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailu2.png",
-            "DescriptionEN": "When Natasha uses her Ultimate, grant continuous healing for 1 turn(s) to allies whose HP is at 30% or lower. And at the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160.",
-            "DescriptionCN": "施放终结技时，对当前生命值百分比小于等于30%的我方目标附加1回合的持续治疗效果，目标回合开始时为其回复等同于娜塔莎6%生命上限+160的生命值。",
-            "DescriptionJP": "必殺技を発動した時、残りHPが30%以下の味方に1ターン継続する持続治癒効果を付与する。その味方のターンが回ってきた時、ナターシャの最大HP6%+160のHPを回復する。",
+            "DescriptionEN": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s).",
+            "DescriptionCN": "施放终结技后，白露的治疗量提高15%，持续2回合。",
+            "DescriptionJP": "必殺技を発動した後、白露の治癒量+15%、2ターン継続。",
             "stype": "eidolon",
-            "buffskill": false,
-            "teamskill": true,
+            "buffskill": true,
+            "teamskill": false,
             "tags": [
-                "heal",
-                "singleally"
+                "buff",
+                "self",
+                "healingbonus"
             ],
             "effect": [
                 {
-                    "type": "heal",
-                    "multipliertarget": "maxhp",
-                    "multiplier": 6,
+                    "type": "buff",
+                    "addtarget": "healingbonus",
+                    "multiplier": 15,
                     "tag": [
-                        "singleally"
-                    ]
-                },
-                {
-                    "type": "heal",
-                    "multipliertarget": "",
-                    "multiplier": 160,
-                    "tag": [
-                        "singleally"
+                        "self",
+                        "healingbonus"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 3,
-            "ENname": "The Right Cure",
-            "CNname": "对症下药",
-            "JAname": "因病投薬",
+            "ENname": "Omniscient Opulence",
+            "CNname": "掌间乾坤便通玄",
+            "JAname": "心地安らぐ回春の妙手",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailuskill.webp",
-            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
-            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -894,13 +880,13 @@
         },
         {
             "eidolonnum": 4,
-            "ENname": "Miracle Cure",
-            "CNname": "妙手回春",
-            "JAname": "妙手回春",
+            "ENname": "Evil Excision",
+            "CNname": "肘后备急除外障",
+            "JAname": "外傷癒す肘後の備急",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailu4.png",
-            "DescriptionEN": "After being attacked, regenerates 5 extra Energy.",
-            "DescriptionCN": "受到攻击后，额外恢复5点能量。",
-            "DescriptionJP": "攻撃を受けた後、さらにEPを5回復する。",
+            "DescriptionEN": "Every healing provided by the Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect can stack up to 3 time(s).",
+            "DescriptionCN": "战技提供的每1次治疗会额外使受治疗者造成的伤害提高10%，最多叠加3层，持续2回合。",
+            "DescriptionJP": "戦闘スキルによる治癒を受けるたび、その味方の与ダメージ+10%、最大で3層累積できる、2ターン継続。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -923,13 +909,13 @@
         },
         {
             "eidolonnum": 5,
-            "ENname": "Preventive Treatment",
-            "CNname": "医治未病",
-            "JAname": "未病療治",
+            "ENname": "Waning Worries",
+            "CNname": "方定一倾浣俗尘",
+            "JAname": "俗塵濯ぐ慈雨",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailuult.webp",
-            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
-            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -941,31 +927,20 @@
         },
         {
             "eidolonnum": 6,
-            "ENname": "Doctor's Grace",
-            "CNname": "医者仁心",
-            "JAname": "医者仁心",
+            "ENname": "Drooling Drop of Draconic Divinity",
+            "CNname": "龙漦吐哺胜金丹",
+            "JAname": "龍涎仙薬、金丹に勝る",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailu6.png",
-            "DescriptionEN": "Natasha's Basic ATK additionally deals Physical DMG equal to 40% of her Max HP.",
-            "DescriptionCN": "施放普攻时，额外造成等同于娜塔莎生命上限40%的物理属性伤害。",
-            "DescriptionJP": "通常攻撃を行った時、さらにナターシャの最大HP40%分の物理ダメージを与える。",
+            "DescriptionEN": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle.",
+            "DescriptionCN": "白露在单场战斗中累计可以对受到致命攻击的我方目标提供治疗的效果触发次数增加1次。",
+            "DescriptionJP": "一度の戦闘で、白露がHPが0になる攻撃を受けた味方を治癒する効果の発動回数+1。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
             "tags": [
-                "normalatk",
-                "additionalatk",
-                "physicalatk"
-            ],
-            "effect": [
-                {
-                    "type": "dmg",
-                    "multipliertarget": "maxhp",
-                    "multiplier": 48,
-                    "tag": [
-                        "additionalatk",
-                        "physicalatk"
-                    ]
-                }
+                "buff",
+                "special",
+                "revive"
             ]
         }
     ]
