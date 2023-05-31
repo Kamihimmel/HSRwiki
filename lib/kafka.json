@@ -90,9 +90,9 @@
             "CNname": "夜间喧嚣不止",
             "JAname": "止まない夜の喧騒",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/kafkana.webp",
-            "DescriptionEN": "Deals Lightning DMG equal to 70% of Kafka's ATK to a single enemy.",
-            "DescriptionCN": "对指定敌方单体造成等同于卡芙卡130%攻击力的雷属性伤害。",
-            "DescriptionJP": "指定した敵単体にカフカの攻撃力130%分の雷属性ダメージを与える。",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Kafka's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于卡芙卡[1]%攻击力的雷属性伤害。",
+            "DescriptionJP": "指定した敵単体にカフカの攻撃力[1]%分の雷属性ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -135,9 +135,9 @@
             "CNname": "月光摩挲连绵",
             "JAname": "月明かりが撫でる連綿",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/kafkaskill.webp",
-            "DescriptionEN": "Deals Lightning DMG equal to 200% of Kafka's ATK to a target enemy and Lightning DMG equal to 75% of Kafka's ATK to enemies adjacent to it.If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 82.5% of their original DMG.",
-            "DescriptionCN": "对指定敌方单体造成等同于卡芙卡200%攻击力的雷属性伤害，同时对其相邻目标造成等同于卡芙卡75%攻击力的雷属性伤害。若指定敌方单体处于持续伤害状态，其当前承受的所有持续伤害立即产生相当于原伤害82.5%的伤害。",
-            "DescriptionJP": "指定した敵単体にカフカの攻撃力200%分の雷属性ダメージを与え、隣接する敵にカフカの攻撃力75%分の雷属性ダメージを与える。指定した敵が持続ダメージ状態である場合、付与された全持続ダメージ状態が、本来のダメージ82.5%分のダメージを発生する。",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Kafka's ATK to a target enemy and Lightning DMG equal to [2]% of Kafka's ATK to enemies adjacent to it.If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to [3]% of their original DMG.",
+            "DescriptionCN": "对指定敌方单体造成等同于卡芙卡[1]%攻击力的雷属性伤害，同时对其相邻目标造成等同于卡芙卡[2]%攻击力的雷属性伤害。若指定敌方单体处于持续伤害状态，其当前承受的所有持续伤害立即产生相当于原伤害[3]%的伤害。",
+            "DescriptionJP": "指定した敵単体にカフカの攻撃力[1]%分の雷属性ダメージを与え、隣接する敵にカフカの攻撃力[2]%分の雷属性ダメージを与える。指定した敵が持続ダメージ状態である場合、付与された全持続ダメージ状態が、本来のダメージ[3]%分のダメージを発生する。",
             "stype": "skill",
             "maxlevel": 15,
             "buffskill": false,
@@ -146,25 +146,59 @@
             "energyregen": 30,
             "levelmultiplier": [
                 {
-                    "1": 50,
-                    "2": 55,
-                    "3": 60,
-                    "4": 65,
-                    "5": 70,
-                    "6": 75,
-                    "7": 81.25,
-                    "8": 87.5,
-                    "9": 93.75,
-                    "10": 100,
-                    "11": 105,
-                    "12": 110,
-                    "13": 115,
-                    "14": 120,
-                    "15": 125
+                    "1": 80,
+                    "2": 88,
+                    "3": 96,
+                    "4": 104,
+                    "5": 112,
+                    "6": 120,
+                    "7": 130,
+                    "8": 140,
+                    "9": 150,
+                    "10": 160,
+                    "11": 168,
+                    "12": 176,
+                    "13": 184,
+                    "14": 192,
+                    "15": 200
+                },
+                {
+                    "1": 30,
+                    "2": 33,
+                    "3": 36,
+                    "4": 39,
+                    "5": 42,
+                    "6": 45,
+                    "7": 48.75,
+                    "8": 52.5,
+                    "9": 56.25,
+                    "10": 60,
+                    "11": 63,
+                    "12": 66,
+                    "13": 69,
+                    "14": 72,
+                    "15": 75
+                },
+                {
+                    "1": 60,
+                    "2": 61.5,
+                    "3": 63,
+                    "4": 64.5,
+                    "5": 66,
+                    "6": 67.5,
+                    "7": 69.38,
+                    "8": 71.25,
+                    "9": 73.13,
+                    "10": 75,
+                    "11": 76.5,
+                    "12": 78,
+                    "13": 79.5,
+                    "14": 81,
+                    "15": 82.5
                 }
             ],
             "tags": [
-                "aoe",
+                "singleatk",
                 "skillatk",
                 "lightningatk"
             ],
@@ -174,9 +208,31 @@
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "aoe",
+                        "singleatk",
                         "skillatk",
                         "lightningatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "skillatk",
+                        "lightningatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "referencetarget": "dotatk",
+                    "referencetargetEN": "all DoTs currently",
+                    "referencetargetCN": "当前承受的所有持续伤害",
+                    "referencetargetJP": "付与された全持続ダメージ",
+                    "multipliertarget": "",
+                    "multiplier": 3,
+                    "tag": [
+                        "dotatk"
                     ]
                 }
             ]
@@ -186,11 +242,11 @@
             "CNname": "悲剧尽头的颤音",
             "JAname": "悲劇最果ての顫音",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/kafkault.webp",
-            "DescriptionEN": "Deals Lightning DMG equal to 96% of Kafka's ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 99% of the DoT. Shock lasts for 2 turn(s).While Shocked, enemies receive Lightning DoT equal to 308.75% of Kafka's ATK at the beginning of each turn.",
-            "DescriptionCN": "对敌方全体造成等同于卡芙卡96%攻击力的雷属性伤害，有100%的基础概率使受到攻击的敌方目标陷入触电状态，并使其当前承受的触电状态立即产生相当于原伤害99%的伤害。触电状态持续2回合。触电状态下，敌方目标每回合开始时受到等同于卡芙卡308.75%攻击力的雷属性持续伤害。",
-            "DescriptionJP": "敵全体にカフカの攻撃力96%分の雷属性ダメージを与え、100%の基礎確率で攻撃を受けた敵を感電状態にし、付与された感電状態が本来のダメージ99%分のダメージを発生する。感電状態は2ターン継続。感電状態の敵はターンが回ってくるたびに、カフカの攻撃力308.75%分の雷属性持続ダメージを受ける。",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Kafka's ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to [3]% of the DoT. Shock lasts for 2 turn(s).While Shocked, enemies receive Lightning DoT equal to [4]% of Kafka's ATK at the beginning of each turn.",
+            "DescriptionCN": "对敌方全体造成等同于卡芙卡[1]%攻击力的雷属性伤害，有100%的基础概率使受到攻击的敌方目标陷入触电状态，并使其当前承受的触电状态立即产生相当于原伤害[3]%的伤害。触电状态持续2回合。触电状态下，敌方目标每回合开始时受到等同于卡芙卡[4]%攻击力的雷属性持续伤害。",
+            "DescriptionJP": "敵全体にカフカの攻撃力[1]%分の雷属性ダメージを与え、100%の基礎確率で攻撃を受けた敵を感電状態にし、付与された感電状態が本来のダメージ[3]%分のダメージを発生する。感電状態は2ターン継続。感電状態の敵はターンが回ってくるたびに、カフカの攻撃力[4]%分の雷属性持続ダメージを受ける。",
             "stype": "ult",
-            "energy": 130,
+            "energy": 120,
             "maxlevel": 15,
             "buffskill": false,
             "teamskill": false,
@@ -198,21 +254,58 @@
             "energyregen": 5,
             "levelmultiplier": [
                 {
-                    "1": 120,
-                    "2": 128,
-                    "3": 136,
-                    "4": 144,
-                    "5": 152,
-                    "6": 160,
-                    "7": 170,
-                    "8": 180,
-                    "9": 190,
-                    "10": 200,
-                    "11": 208,
-                    "12": 216,
-                    "13": 224,
-                    "14": 232,
-                    "15": 240
+                    "1": 48,
+                    "2": 51.2,
+                    "3": 54.4,
+                    "4": 57.6,
+                    "5": 60.8,
+                    "6": 64,
+                    "7": 68,
+                    "8": 72,
+                    "9": 76,
+                    "10": 80,
+                    "11": 83.2,
+                    "12": 86.4,
+                    "13": 89.6,
+                    "14": 92.8,
+                    "15": 96
+                },
+                {
+                    "defalt": 100
+                },
+                {
+                    "1": 72,
+                    "2": 73.8,
+                    "3": 75.6,
+                    "4": 77.4,
+                    "5": 79.2,
+                    "6": 81,
+                    "7": 83.25,
+                    "8": 85.5,
+                    "9": 87.75,
+                    "10": 90,
+                    "11": 91.8,
+                    "12": 93.6,
+                    "13": 95.4,
+                    "14": 97.2,
+                    "15": 99
+                },
+                {
+                    "1": 95,
+                    "2": 104.5,
+                    "3": 114,
+                    "4": 123.5,
+                    "5": 133,
+                    "6": 147.25,
+                    "7": 166.25,
+                    "8": 190,
+                    "9": 218.5,
+                    "10": 247,
+                    "11": 259.35,
+                    "12": 271.7,
+                    "13": 284.05,
+                    "14": 296,
+                    "15": 308.75
                 }
             ],
             "tags": [
@@ -230,6 +323,39 @@
                         "ultatk",
                         "lightningatk"
                     ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "shocked",
+                    "multiplier": 2,
+                    "tag": [
+                        "allenemy",
+                        "shocked"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "referencetarget": "dotatk",
+                    "referencetargetEN": "DoT Shocked",
+                    "referencetargetCN": "触电持续伤害",
+                    "referencetargetJP": "感電持続ダメージ",
+                    "multipliertarget": "",
+                    "multiplier": 3,
+                    "tag": [
+                        "aoe",
+                        "dotatk",
+                        "lightningatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "aoe",
+                        "dotatk",
+                        "lightningatk"
+                    ]
                 }
             ]
         },
@@ -238,9 +364,9 @@
             "CNname": "温柔亦同残酷",
             "JAname": "優しさもまた残酷",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/kafkatalent.webp",
-            "DescriptionEN": "After an ally of Kafka's uses Basic ATK on an enemy, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to 150% of her ATK to that enemy, with a 100% base chance of increasing the DoT DMG received by the enemy by 22.5% for 2 turns. This effect can only be triggered 1 time per turn.",
-            "DescriptionCN": "当卡芙卡的队友对敌方目标施放普攻后，卡芙卡立即发动追加攻击，对该目标造成等同于卡芙卡150%攻击力的雷属性伤害，并有100%的基础概率使目标受到的持续伤害提高22.5%，持续2回合。该效果每回合只能触发1次。",
-            "DescriptionJP": "カフカ以外の味方が敵に通常攻撃を行った後、カフカは追加攻撃を行い、その敵にカフカの攻撃力150%分の雷属性ダメージを与え、100%の基礎確率で敵の持続被ダメージ+22.5%、2ターン継続。この効果はターンが回ってくるたびに1回まで発動できる。",
+            "DescriptionEN": "After an ally of Kafka's uses Basic ATK on an enemy, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to [1]% of her ATK to that enemy, with a 100% base chance of increasing the DoT DMG received by the enemy by [3]% for 2 turns. This effect can only be triggered 1 time per turn.",
+            "DescriptionCN": "当卡芙卡的队友对敌方目标施放普攻后，卡芙卡立即发动追加攻击，对该目标造成等同于卡芙卡[1]%攻击力的雷属性伤害，并有100%的基础概率使目标受到的持续伤害提高[3]%，持续2回合。该效果每回合只能触发1次。",
+            "DescriptionJP": "カフカ以外の味方が敵に通常攻撃を行った後、カフカは追加攻撃を行い、その敵にカフカの攻撃力[1]%分の雷属性ダメージを与え、100%の基礎確率で敵の持続被ダメージ+[3]%、2ターン継続。この効果はターンが回ってくるたびに1回まで発動できる。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
@@ -249,38 +375,41 @@
             "energyregen": 0,
             "levelmultiplier": [
                 {
-                    "1": 33,
-                    "2": 36.3,
-                    "3": 39.6,
-                    "4": 42.9,
-                    "5": 46.2,
-                    "6": 49.5,
-                    "7": 53.63,
-                    "8": 57.75,
-                    "9": 61.88,
-                    "10": 66,
-                    "11": 69.3,
-                    "12": 72.6,
-                    "13": 75.9,
-                    "14": 79.2,
-                    "15": 82.5
+                    "1": 60,
+                    "2": 66,
+                    "3": 72,
+                    "4": 78,
+                    "5": 84,
+                    "6": 90,
+                    "7": 97.5,
+                    "8": 105,
+                    "9": 112.5,
+                    "10": 120,
+                    "11": 126,
+                    "12": 132,
+                    "13": 138,
+                    "14": 144,
+                    "15": 150
                 },
                 {
-                    "1": 8.25,
-                    "2": 9.075,
-                    "3": 9.9,
-                    "4": 10.725,
-                    "5": 11.55,
-                    "6": 12.375,
-                    "7": 13.4075,
-                    "8": 14.4375,
-                    "9": 15.47,
-                    "10": 16.5,
-                    "11": 17.325,
-                    "12": 18.15,
-                    "13": 18.975,
-                    "14": 19.8,
-                    "15": 20.625
+                    "defalt": 100
+                },
+                {
+                    "1": 15,
+                    "2": 15.5,
+                    "3": 16,
+                    "4": 16.5,
+                    "5": 17,
+                    "6": 17.5,
+                    "7": 18.13,
+                    "8": 18.75,
+                    "9": 19.38,
+                    "10": 20,
+                    "11": 20.5,
+                    "12": 21,
+                    "13": 21.5,
+                    "14": 22,
+                    "15": 22.5
                 }
             ],
             "tags": [
@@ -297,6 +426,22 @@
                         "aoe",
                         "followupatk",
                         "lightningatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "dotvulnerability",
+                    "multiplier": 2,
+                    "tag": [
+                        "dotvulnerability"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "dotdmgreceive",
+                    "multiplier": 3,
+                    "tag": [
+                        "dotdmgreceive"
                     ]
                 }
             ]
@@ -317,6 +462,36 @@
                 "buff",
                 "self",
                 "special"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 50,
+                    "tag": [
+                        "aoe",
+                        "lightningatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "shocked",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy",
+                        "shocked"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 50,
+                    "tag": [
+                        "aoe",
+                        "dotatk",
+                        "lightningatk"
+                    ]
+                }
             ]
         }
     ],
@@ -341,11 +516,15 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 25,
+                    "referencetargetEN": "Kafka's Break Effect",
+                    "referencetargetCN": "卡芙卡击破特攻",
+                    "referencetargetJP": "カフカの撃破特効",
+                    "addtarget": "dotdmgmultiplier",
+                    "multiplier": 24,
                     "tag": [
                         "self",
-                        "critdmg"
+                        "breakeffect",
+                        "dotdmgmultiplier"
                     ]
                 }
             ]
@@ -371,7 +550,7 @@
                 {
                     "type": "buff",
                     "addtarget": "energy",
-                    "multiplier": 15,
+                    "multiplier": 5,
                     "tag": [
                         "self",
                         "energy"
@@ -393,27 +572,16 @@
             "teamskill": true,
             "tags": [
                 "buff",
-                "critrate",
+                "special",
                 "self"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 10,
-                    "tag": [
-                        "self",
-                        "critrate"
-                    ]
-                }
             ]
         },
         {
             "tiny": true,
-            "ENname": "CRIT Rate +2.7%",
-            "CNname": "暴击率 +2.7%",
-            "JAname": "会心率 +2.7%",
-            "ttype": "critrate",
+            "ENname": "Break Effect +5.3%",
+            "CNname": "击破特攻 +5.3%",
+            "JAname": "撃破特効 +5.3%",
+            "ttype": "breakeffect",
             "DescriptionEN": "A2",
             "DescriptionCN": "A2",
             "DescriptionJP": "A2",
@@ -423,16 +591,16 @@
             "tags": [
                 "buff",
                 "self",
-                "critrate"
+                "breakeffect"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 2.7,
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
                     "tag": [
                         "self",
-                        "critrate"
+                        "breakeffect"
                     ]
                 }
             ]
@@ -468,10 +636,10 @@
         },
         {
             "tiny": true,
-            "ENname": "DEF +5%",
-            "CNname": "防御力 +5%",
-            "JAname": "防御力 +5%",
-            "ttype": "def",
+            "ENname": "HP +4%",
+            "CNname": "生命值 +4%",
+            "JAname": "HP +4%",
+            "ttype": "hp",
             "DescriptionEN": "A3",
             "DescriptionCN": "A3",
             "DescriptionJP": "A3",
@@ -481,16 +649,16 @@
             "tags": [
                 "buff",
                 "self",
-                "def"
+                "hp"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 5,
+                    "addtarget": "hp",
+                    "multiplier": 4,
                     "tag": [
                         "self",
-                        "def"
+                        "hp"
                     ]
                 }
             ]
@@ -526,10 +694,10 @@
         },
         {
             "tiny": true,
-            "ENname": "CRIT Rate +4%",
-            "CNname": "暴击率 +4%",
-            "JAname": "会心率 +4%",
-            "ttype": "critrate",
+            "ENname": "Break Effect +8%",
+            "CNname": "击破特攻 +8%",
+            "JAname": "撃破特効 +8%",
+            "ttype": "breakeffect",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
@@ -539,16 +707,16 @@
             "tags": [
                 "buff",
                 "self",
-                "critrate"
+                "breakeffect"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 4,
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
                     "tag": [
                         "self",
-                        "critrate"
+                        "breakeffect"
                     ]
                 }
             ]
@@ -584,10 +752,10 @@
         },
         {
             "tiny": true,
-            "ENname": "DEF +7.5%",
-            "CNname": "防御力 +7.5%",
-            "JAname": "防御力 +7.5%",
-            "ttype": "def",
+            "ENname": "HP +6%",
+            "CNname": "生命值 +6%",
+            "JAname": "HP +6%",
+            "ttype": "hp",
             "DescriptionEN": "A6",
             "DescriptionCN": "A6",
             "DescriptionJP": "A6",
@@ -597,26 +765,26 @@
             "tags": [
                 "buff",
                 "self",
-                "def"
+                "hp"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 7.5,
+                    "addtarget": "hp",
+                    "multiplier": 6,
                     "tag": [
                         "self",
-                        "def"
+                        "hp"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
-            "ENname": "CRIT Rate +5.3%",
-            "CNname": "暴击率 +5.3%",
-            "JAname": "会心率 +5.3%",
-            "ttype": "critrate",
+            "ENname": "Break Effect +10.7%",
+            "CNname": "击破特攻 +10.7%",
+            "JAname": "撃破特効 +10.7%",
+            "ttype": "breakeffect",
             "DescriptionEN": "LV75",
             "DescriptionCN": "LV75",
             "DescriptionJP": "LV75",
@@ -626,16 +794,16 @@
             "tags": [
                 "buff",
                 "self",
-                "critrate"
+                "breakeffect"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 5.3,
+                    "addtarget": "breakeffect",
+                    "multiplier": 10.7,
                     "tag": [
                         "self",
-                        "critrate"
+                        "breakeffect"
                     ]
                 }
             ]
@@ -660,7 +828,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
+                    "addtarget": "ATK",
                     "multiplier": 4,
                     "tag": [
                         "self",
@@ -671,7 +839,7 @@
         },
         {
             "tiny": true,
-            "ENname": "ATK +9%",
+            "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
             "JAname": "攻撃力 +8%",
             "ttype": "atk",
@@ -714,7 +882,7 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "followupatk",
+                "special",
                 "self"
             ]
         },
@@ -737,29 +905,11 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "normalatk",
-                    "multiplier": 20,
+                    "addtarget": "weaknessbreakefficiency",
+                    "multiplier": 50,
                     "tag": [
                         "self",
-                        "normalatk"
-                    ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "skillatk",
-                    "multiplier": 20,
-                    "tag": [
-                        "self",
-                        "skillatk"
-                    ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "ultatk",
-                    "multiplier": 20,
-                    "tag": [
-                        "self",
-                        "ultatk"
+                        "weaknessbreakefficiency"
                     ]
                 }
             ]
@@ -796,7 +946,7 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "energy",
+                "special",
                 "self"
             ]
         },
@@ -831,27 +981,8 @@
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "debuff",
-                "vulnerability"
-            ],
-            "effect": [
-                {
-                    "type": "debuff",
-                    "multipliertarget": "vulnerability",
-                    "multiplier": null,
-                    "tag": [
-                        "vulnerability"
-                    ]
-                },
-                {
-                    "type": "debuff",
-                    "addtarget": "dmgreceive",
-                    "multiplier": 12,
-                    "tag": [
-                        "allenemy",
-                        "dmgreceive"
-                    ]
-                }
+                "self",
+                "buff"
             ]
         }
     ]
