@@ -271,7 +271,7 @@
                     "15": 96
                 },
                 {
-                    "defalt": 100
+                    "default": 100
                 },
                 {
                     "1": 72,
@@ -371,8 +371,8 @@
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": false,
-            "weaknessbreak": 15,
-            "energyregen": 0,
+            "weaknessbreak": 30,
+            "energyregen": 10,
             "levelmultiplier": [
                 {
                     "1": 60,
@@ -392,7 +392,7 @@
                     "15": 150
                 },
                 {
-                    "defalt": 100
+                    "default": 100
                 },
                 {
                     "1": 15,
@@ -458,6 +458,8 @@
             "maxlevel": 0,
             "buffskill": true,
             "teamskill": true,
+            "weaknessbreak": 60,
+            "energyregen": 0,
             "tags": [
                 "buff",
                 "self",
