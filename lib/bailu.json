@@ -485,15 +485,15 @@
             "tags": [
                 "buff",
                 "allally",
-                "dmgres"
+                "dmgreduction"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "dmgres",
+                    "addtarget": "dmgreduction",
                     "multiplier": 10,
                     "tag": [
-                        "dmgres"
+                        "dmgreduction"
                     ]
                 }
             ]
