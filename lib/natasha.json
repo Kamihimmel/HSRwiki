@@ -774,7 +774,7 @@
                 {
                     "type": "buff",
                     "addtarget": "hp",
-                    "multiplier": 7.5,
+                    "multiplier": 8,
                     "tag": [
                         "self",
                         "hp"
