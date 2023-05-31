@@ -229,7 +229,7 @@
                     "referencetargetEN": "all DoTs currently",
                     "referencetargetCN": "当前承受的所有持续伤害",
                     "referencetargetJP": "付与された全持続ダメージ",
-                    "multipliertarget": "",
+                    "multipliertarget": "dmg",
                     "multiplier": 3,
                     "tag": [
                         "dotatk"
@@ -339,7 +339,7 @@
                     "referencetargetEN": "DoT Shocked",
                     "referencetargetCN": "触电持续伤害",
                     "referencetargetJP": "感電持続ダメージ",
-                    "multipliertarget": "",
+                    "multipliertarget": "dmg",
                     "multiplier": 3,
                     "tag": [
                         "aoe",
