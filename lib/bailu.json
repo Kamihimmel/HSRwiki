@@ -444,44 +444,56 @@
         {
             "tiny": false,
             "ENname": "Soothe",
-            "CNname": "舒缓",
-            "JAname": "氷呪",
+            "CNname": "岐黄精义",
+            "JAname": "岐黄精義",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailut1.webp",
-            "DescriptionEN": "The Skill removes 1 debuff(s) from a target ally.",
-            "DescriptionCN": "施放战技时，解除指定我方单体的1个负面效果。",
-            "DescriptionJP": "戦闘スキルを発動した時、指定した味方単体のデバフを1つ解除する。",
+            "DescriptionEN": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns.",
+            "DescriptionCN": "白露对我方目标造成过量治疗时会提高目标10%的生命上限，持续2回合。",
+            "DescriptionJP": "白露が味方に最大HPを超える治癒を行った時、その味方の最大HP+10%、2ターン継続。",
             "stype": "trace",
             "buffskill": true,
             "teamskill": true,
             "tags": [
                 "buff",
-                "singleally"
-            ]
+                "allally",
+                "maxhp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 10,
+                    "tag": [
+                        "maxhp"
+                    ]
+                }
+            ]            
         },
         {
             "tiny": false,
             "ENname": "Healer",
-            "CNname": "医者",
-            "JAname": "医者",
+            "CNname": "鳞渊福泽",
+            "JAname": "鱗淵の恩沢",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailut2.webp",
             "DescriptionEN": "Natasha's Outgoing Healing increases by 10%.",
-            "DescriptionCN": "娜塔莎提供的治疗量提高10%。",
-            "DescriptionJP": "ナターシャの治癒量+10%。",
+            "DescriptionCN": "拥有【生息】的角色受到的伤害降低10%。",
+            "DescriptionJP": "「生生」を付与されたキャラの被ダメージ-10%。",
             "stype": "trace",
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": true,
             "tags": [
                 "buff",
-                "healingbonus"
+                "allally",
+                "dmgres"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "healingbonus",
+                    "addtarget": "dmgres",
                     "multiplier": 10,
                     "tag": [
-                        "healingbonus"
+                        "dmgres"
                     ]
                 }
             ]
@@ -489,12 +501,12 @@
         {
             "tiny": false,
             "ENname": "Recuperation",
-            "CNname": "调理",
-            "JAname": "摂生",
+            "CNname": "持明龙脉",
+            "JAname": "持明の龍脈",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailut3.webp",
             "DescriptionEN": "Increases the duration of Skill's continuous healing effect for 1 turn(s).",
-            "DescriptionCN": "施放战技产生的持续回复效果延长1回合。",
-            "DescriptionJP": "戦闘スキルの持続回復効果の継続時間+1ターン。",
+            "DescriptionCN": "【生息】效果的触发次数增加1次。",
+            "DescriptionJP": "「生生」効果の発動回数+1。",
             "stype": "trace",
             "buffskill": false,
             "teamskill": false,
@@ -502,10 +514,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Effect RES +4%",
-            "CNname": "效果抵抗 +4%",
-            "JAname": "効果抵抗 +4%",
-            "ttype": "icedmg",
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
             "DescriptionEN": "A2",
             "DescriptionCN": "A2",
             "DescriptionJP": "A2",
@@ -515,16 +527,16 @@
             "tags": [
                 "buff",
                 "self",
-                "effectres"
+                "def"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "effectres",
-                    "multiplier": 4,
+                    "addtarget": "def",
+                    "multiplier": 5,
                     "tag": [
                         "self",
-                        "effectres"
+                        "def"
                     ]
                 }
             ]
@@ -557,13 +569,13 @@
                     ]
                 }
             ]
-        },
+        },                
         {
             "tiny": true,
-            "ENname": "DEF +5%",
-            "CNname": "防御力 +5%",
-            "JAname": "防御力 +5%",
-            "ttype": "def",
+            "ENname": "Effect RES +4%",
+            "CNname": "效果抵抗 +4%",
+            "JAname": "効果抵抗 +4%",
+            "ttype": "icedmg",
             "DescriptionEN": "A3",
             "DescriptionCN": "A3",
             "DescriptionJP": "A3",
@@ -573,16 +585,16 @@
             "tags": [
                 "buff",
                 "self",
-                "def"
+                "effectres"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 5,
+                    "addtarget": "effectres",
+                    "multiplier": 4,
                     "tag": [
                         "self",
-                        "def"
+                        "effectres"
                     ]
                 }
             ]
@@ -618,10 +630,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Effect RES +6%",
-            "CNname": "效果抵抗 +6%",
-            "JAname": "効果抵抗 +6%",
-            "ttype": "effectres",
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
@@ -631,16 +643,16 @@
             "tags": [
                 "buff",
                 "self",
-                "effectres"
+                "def"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "effectres",
-                    "multiplier": 6,
+                    "addtarget": "def",
+                    "multiplier": 7.5,
                     "tag": [
                         "self",
-                        "effectres"
+                        "def"
                     ]
                 }
             ]
@@ -676,42 +688,13 @@
         },
         {
             "tiny": true,
-            "ENname": "DEF +7.5%",
-            "CNname": "防御力 +7.5%",
-            "JAname": "防御力 +7.5%",
-            "ttype": "def",
+            "ENname": "Effect RES +6%",
+            "CNname": "效果抵抗 +6%",
+            "JAname": "効果抵抗 +6%",
+            "ttype": "effectres",
             "DescriptionEN": "A6",
             "DescriptionCN": "A6",
             "DescriptionJP": "A6",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "def"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 7.5,
-                    "tag": [
-                        "self",
-                        "def"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "Effect RES +8%",
-            "CNname": "效果抵抗 +8%",
-            "JAname": "効果抵抗 +8%",
-            "ttype": "effectres",
-            "DescriptionEN": "LV75",
-            "DescriptionCN": "LV75",
-            "DescriptionJP": "LV75",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -724,10 +707,39 @@
                 {
                     "type": "buff",
                     "addtarget": "effectres",
-                    "multiplier": 8,
+                    "multiplier": 6,
                     "tag": [
                         "self",
                         "effectres"
+                    ]
+                }
+            ]
+        },        
+        {
+            "tiny": true,
+            "ENname": "DEF +10%",
+            "CNname": "防御力 +10%",
+            "JAname": "防御力 +10%",
+            "ttype": "def",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "def"
                     ]
                 }
             ]
@@ -782,7 +794,7 @@
                 {
                     "type": "buff",
                     "addtarget": "hp",
-                    "multiplier": 7.5,
+                    "multiplier": 8,
                     "tag": [
                         "self",
                         "hp"
