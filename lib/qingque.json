@@ -806,7 +806,16 @@
             "effect": [
                 {
                     "type": "dmg",
-                    "multipliertarget": "normalatk-enhancedatk",
+                    "multipliertarget": "normalatk",
+                    "multiplier": 100,
+                    "tag": [
+                        "followupatk",
+                        "quantumatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "enhancedatk",
                     "multiplier": 100,
                     "tag": [
                         "followupatk",
