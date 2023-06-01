@@ -179,7 +179,8 @@
                 "buff",
                 "alldmg",
                 "actioni",
-                "singleally"
+                "singleally",
+                "removedebuff"
             ],
             "effect": [
                 {
