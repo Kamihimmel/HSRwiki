@@ -683,7 +683,7 @@
         },
         {
             "tiny": true,
-            "ENname": "ATK +9%",
+            "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
             "JAname": "攻撃力 +8%",
             "ttype": "atk",
