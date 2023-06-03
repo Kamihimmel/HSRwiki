@@ -1,0 +1,863 @@
+{
+    "ENname": "Trailblazer",
+    "CNname": "开拓者",
+    "JAname": "開拓者",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/mc.webp",
+    "imageurlalter": "https://hsrwikidata.yunlu18.net/images/characters/mcm.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/mclarge.webp",
+    "imagelargeurlalter": "https://hsrwikidata.yunlu18.net/images/characters/mcmlarge.webp",
+    "etype": "physical",
+    "wtype": "destruction",
+    "rarity": "5",
+    "dtaunt": 125,
+    "dspeed": 100,
+    "maxenergy": 120,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 130,
+            "atk": 79.2,
+            "def": 54
+        },
+        {
+            "level": "20",
+            "hp": 253,
+            "atk": 154.44,
+            "def": 105.3
+        },
+        {
+            "level": "20+",
+            "hp": 305,
+            "atk": 186.12,
+            "def": 126.9
+        },
+        {
+            "level": "40",
+            "hp": 486,
+            "atk": 297,
+            "def": 202.5
+        },
+        {
+            "level": "40+",
+            "hp": 538,
+            "atk": 328.68,
+            "def": 224.1
+        },
+        {
+            "level": "50",
+            "hp": 603,
+            "atk": 368.28,
+            "def": 251.1
+        },
+        {
+            "level": "50+",
+            "hp": 654,
+            "atk": 399.96,
+            "def": 272.7
+        },
+        {
+            "level": "60",
+            "hp": 719,
+            "atk": 439.56,
+            "def": 299.7
+        },
+        {
+            "level": "60+",
+            "hp": 771,
+            "atk": 471.24,
+            "def": 321.3
+        },
+        {
+            "level": "70",
+            "hp": 836,
+            "atk": 510.84,
+            "def": 348.3
+        },
+        {
+            "level": "70+",
+            "hp": 888,
+            "atk": 542.52,
+            "def": 369.9
+        },
+        {
+            "level": "80",
+            "hp": 953,
+            "atk": 582.12,
+            "def": 396.9
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "What Are You Looking At?",
+            "CNname": "看什么看",
+            "JAname": "何見てるの？",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertana.webp",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of Herta's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于黑塔[1]%攻击力的冰属性伤害。",
+            "DescriptionJP": "指定した敵単体にヘルタの攻撃力[1]%分の氷属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "iceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "One-Time Offer",
+            "CNname": "一锤子买卖",
+            "JAname": "一度限りの取引",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertaskill.webp",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
+            "DescriptionCN": "对敌方全体造成等同于黑塔[1]%攻击力的冰属性伤害。若敌方目标当前生命值百分比大于等于50%，则对该目标造成的伤害提高20%。",
+            "DescriptionJP": "敵全体にヘルタの攻撃力[1]%分の氷属性ダメージを与える。敵の残りHPが50%以上の場合、その敵に対して与ダメージ+20%。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 55,
+                    "3": 60,
+                    "4": 65,
+                    "5": 70,
+                    "6": 75,
+                    "7": 81.25,
+                    "8": 87.5,
+                    "9": 93.75,
+                    "10": 100,
+                    "11": 105,
+                    "12": 110,
+                    "13": 115,
+                    "14": 120,
+                    "15": 125
+                },
+                {
+                    "default": 20
+                }
+            ],
+            "tags": [
+                "aoe",
+                "skillatk",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "skillatk",
+                        "iceatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "It's Magic, I Added Some Magic",
+            "CNname": "是魔法，我加了魔法",
+            "JAname": "私がかけた魔法だよ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertault.webp",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of Herta's ATK to all enemies.",
+            "DescriptionCN": "对敌方全体造成等同于黑塔[1]%攻击力的冰属性伤害。",
+            "DescriptionJP": "敵全体にヘルタの攻撃力[1]%分の氷属性ダメージを与える。",
+            "stype": "ult",
+            "energy": 110,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 120,
+                    "2": 128,
+                    "3": 136,
+                    "4": 144,
+                    "5": 152,
+                    "6": 160,
+                    "7": 170,
+                    "8": 180,
+                    "9": 190,
+                    "10": 200,
+                    "11": 208,
+                    "12": 216,
+                    "13": 224,
+                    "14": 232,
+                    "15": 240
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "ultatk",
+                        "iceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Fine, I'll Do It Myself",
+            "CNname": "还是我来吧",
+            "JAname": "やっぱり私がやる",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertatalent.webp",
+            "DescriptionEN": "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25% of Herta's ATK to all enemies.",
+            "DescriptionCN": "当任意我方目标的攻击使敌方目标的当前生命值百分比小于等于50%时，黑塔发动追加攻击，对敌方全体造成等同于黑塔25%攻击力的冰属性伤害。",
+            "DescriptionJP": "味方の攻撃が敵の残りHPを50%以下にした時、ヘルタは追加攻撃を発動し、敵全体にヘルタの攻撃力25%分の氷属性ダメージを与える。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 15,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 25,
+                    "2": 26.5,
+                    "3": 28,
+                    "4": 29.5,
+                    "5": 31,
+                    "6": 32.5,
+                    "7": 34.38,
+                    "8": 36.25,
+                    "9": 38.13,
+                    "10": 40,
+                    "11": 41.5,
+                    "12": 43,
+                    "13": 44.5,
+                    "14": 46,
+                    "15": 47.5
+                }
+            ],
+            "tags": [
+                "aoe",
+                "followupatk",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "followupatk",
+                        "iceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "It Can Still Be Optimized",
+            "CNname": "可以优化一下",
+            "JAname": "改善すべきだよ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertatec.webp",
+            "DescriptionEN": "After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle.",
+            "DescriptionCN": "使用秘技后，下一次战斗开始时黑塔攻击力提高40%，持续3回合。",
+            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、ヘルタの攻撃力+40%、3ターン継続。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 40,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Efficiency",
+            "CNname": "效率",
+            "JAname": "効率",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertat1.webp",
+            "DescriptionEN": "When Skill is used, the DMG Boost effect on target enemies increases by an extra 25%.",
+            "DescriptionCN": "施放战技时，对目标造成的伤害提高效果额外再提高25%。",
+            "DescriptionJP": "戦闘スキルを発動した時、さらに与ダメージ+25%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 25,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Icing",
+            "CNname": "冰结",
+            "JAname": "氷結",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertat2.webp",
+            "DescriptionEN": "When Ultimate is used, deals 20% more DMG to Frozen enemies.",
+            "DescriptionCN": "施放终结技时，对冻结状态下的敌人造成的伤害提高20%。",
+            "DescriptionJP": "必殺技を発動した時、凍結状態の敵に対する与ダメージ+20%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Puppet",
+            "CNname": "人偶",
+            "JAname": "人形",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertat3.webp",
+            "DescriptionEN": "The chance to resist Crowd Control Debuffs increases by 35%.",
+            "DescriptionCN": "抵抗控制类负面状态的概率提高35%。",
+            "DescriptionJP": "行動制限系デバフを抵抗する確率+35%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "controlresist",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "controlresist",
+                    "multiplier": 35,
+                    "tag": [
+                        "self",
+                        "controlresist"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +3.2%",
+            "CNname": "冰属性伤害提高 +3.2%",
+            "JAname": "氷属性与ダメージ +3.2%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +2.7%",
+            "CNname": "暴击率 +2.7%",
+            "JAname": "会心率 +2.7%",
+            "ttype": "critrate",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +4%",
+            "CNname": "暴击率 +4%",
+            "JAname": "会心率 +4%",
+            "ttype": "critrate",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +10%",
+            "CNname": "防御力 +10%",
+            "JAname": "防御力 +10%",
+            "ttype": "def",
+            "DescriptionEN": "75",
+            "DescriptionCN": "75",
+            "DescriptionJP": "75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +3.2%",
+            "CNname": "冰属性伤害提高 +3.2%",
+            "JAname": "氷属性与ダメージ +3.2%",
+            "ttype": "icedmg",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +6.4%",
+            "CNname": "冰属性伤害提高 +6.4%",
+            "JAname": "氷属性与ダメージ +6.4%",
+            "ttype": "icedmg",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 6.4,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Kick You When You're Down",
+            "CNname": "落井当下石",
+            "JAname": "弱みは付け込み",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/herta1.webp",
+            "DescriptionEN": "If the enemy's HP percentage is at 50% or less, Herta's Basic ATK deals Additional Ice DMG equal to 40% of Herta's ATK.",
+            "DescriptionCN": "施放普攻时，若指定敌方单体生命值百分比小于等于50%，则额外造成等同于黑塔40%攻击力的冰属性附加伤害。",
+            "DescriptionJP": "通常攻撃を行った時、指定した敵単体の残りHPが50%以下の場合、さらにヘルタの攻撃力40%分の氷属性付加ダメージを与える。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "followupatk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 40,
+                    "tag": [
+                        "aoe",
+                        "followupatk",
+                        "iceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Keep the Ball Rolling",
+            "CNname": "得胜必追击",
+            "JAname": "勝てば追い打ち",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/herta2.webp",
+            "DescriptionEN": "Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s).",
+            "DescriptionCN": "天赋每触发1次，自身暴击率提高3%，该效果最多叠加5层。",
+            "DescriptionJP": "天賦が1回発動するごとに、自身の会心率+3%、この効果は最大で5回累積できる。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "That's the Kind of Girl I Am",
+            "CNname": "我就是这样女子",
+            "JAname": "私はこういう女なの",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertaskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Hit Where It Hurts",
+            "CNname": "打人要打脸",
+            "JAname": "面子は徹底的に潰す",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/herta4.webp",
+            "DescriptionEN": "When Talent is triggered, DMG increases by 10%.",
+            "DescriptionCN": "触发天赋时造成的伤害提高10%。",
+            "DescriptionJP": "天賦発動時の与ダメージ+10%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Stride, Spoils Seized",
+            "CNname": "骂人不留口",
+            "JAname": "欠点掴んで罵り倒す",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hertault.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "No One Can Betray Me",
+            "CNname": "世上没人能负我",
+            "JAname": "誰も私を裏切れない",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/herta6.webp",
+            "DescriptionEN": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s).",
+            "DescriptionCN": "施放终结技后，攻击力提高25%，持续1回合。",
+            "DescriptionJP": "必殺技を発動した後、攻撃力+25%、1ターン継続。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "atk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 25,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ]
+}
