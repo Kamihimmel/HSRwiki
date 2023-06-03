@@ -1,0 +1,863 @@
+{
+    "ENname": "Qing Que",
+    "CNname": "青雀",
+    "JAname": "青雀",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/qingque.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/qingquelarge.webp",
+    "etype": "quantum",
+    "wtype": "erudition",
+    "rarity": "4",
+    "dtaunt": 75,
+    "dspeed": 98,
+    "maxenergy": 140,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 139,
+            "atk": 88,
+            "def": 60
+        },
+        {
+            "level": "20",
+            "hp": 271,
+            "atk": 173,
+            "def": 117
+        },
+        {
+            "level": "20+",
+            "hp": 327,
+            "atk": 208,
+            "def": 141
+        },
+        {
+            "level": "30",
+            "hp": 396,
+            "atk": 253,
+            "def": 171
+        },
+        {
+            "level": "30+",
+            "hp": 452,
+            "atk": 288,
+            "def": 195
+        },
+        {
+            "level": "40",
+            "hp": 522,
+            "atk": 333,
+            "def": 225
+        },
+        {
+            "level": "40+",
+            "hp": 577,
+            "atk": 368,
+            "def": 249
+        },
+        {
+            "level": "50",
+            "hp": 647,
+            "atk": 412,
+            "def": 279
+        },
+        {
+            "level": "50+",
+            "hp": 702,
+            "atk": 448,
+            "def": 303
+        },
+        {
+            "level": "60",
+            "hp": 772,
+            "atk": 492,
+            "def": 333
+        },
+        {
+            "level": "60+",
+            "hp": 828,
+            "atk": 528,
+            "def": 357
+        },
+        {
+            "level": "70",
+            "hp": 897,
+            "atk": 572,
+            "def": 387
+        },
+        {
+            "level": "70+",
+            "hp": 953,
+            "atk": 608,
+            "def": 411
+        },
+        {
+            "level": "80",
+            "hp": 1023,
+            "atk": 652,
+            "def": 441
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Flower Pick",
+            "CNname": "门前清",
+            "JAname": "門前清",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquena.webp",
+            "DescriptionEN": "ST: Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to [1]% of Qingque's ATK to a single enemy. \nBlast: Deals Quantum DMG equal to [2]% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to [3]% of Qingque's ATK to enemies adjacent to it. Cherry on Top! cannot recover Skill Points.",
+            "DescriptionCN": "单攻: 使用1张当前花色最少的琼玉牌，对指定敌方单体造成等同于青雀[1]%攻击力的量子属性伤害。\n扩散: 对指定敌方单体造成等同于青雀[2]%攻击力的量子属性伤害，并对其相邻目标造成等同于青雀[3]%攻击力的量子属性伤害。【杠上开花！】无法恢复战技点。",
+            "DescriptionJP": "単体攻撃: 数が一番少ない絵柄の美玉牌を1枚使用し、指定した敵単体に青雀の攻撃力[1]%分の量子属性ダメージを与える。\n拡散攻撃: 指定した敵単体に青雀の攻撃力[2]%分の量子属性ダメージを与え、隣接する敵に青雀の攻撃力[3]%分の量子属性ダメージを与える。「嶺上開花！」はSPを回復できない。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                },
+                {
+                    "1": 120,
+                    "2": 144,
+                    "3": 168,
+                    "4": 192,
+                    "5": 216,
+                    "6": 240,
+                    "7": 264,
+                    "8": 288,
+                    "9": 312
+                },
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "quantumatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleatk",
+                        "enhancedatk",
+                        "quantumatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "aoe",
+                        "enhancedatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "A Scoop of Moon",
+            "CNname": "海底捞月",
+            "JAname": "海底撈月",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingqueskill.webp",
+            "DescriptionEN": "Immediately draws 2 jade tile(s) and increases DMG by [1]% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
+            "DescriptionCN": "立即抽取2张琼玉牌，使自身造成的伤害提高[1]%，持续至本回合结束。该效果可以叠加4层。施放该战技后，本回合不会结束。",
+            "DescriptionJP": "牌を2枚取り、自身の与ダメージ+[1]%、このターンが終了するまで継続。この効果は最大で4層累積できる。この戦闘スキルを発動した後、ターンは終了しない。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 14,
+                    "2": 15.4,
+                    "3": 16.8,
+                    "4": 18.2,
+                    "5": 19.6,
+                    "6": 21,
+                    "7": 22.75,
+                    "8": 24.5,
+                    "9": 26.25,
+                    "10": 28,
+                    "11": 29.4,
+                    "12": 30.8,
+                    "13": 32.2,
+                    "14": 33.6,
+                    "15": 35
+                }
+            ],
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "A Quartet? Woo-hoo!",
+            "CNname": "四幺暗刻？和！",
+            "JAname": "幺魚暗カン？アガリ！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingqueult.webp",
+            "DescriptionEN": "Deals Quantum DMG equal to [1]% of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+            "DescriptionCN": "对敌方全体造成等同于青雀[1]%攻击力的量子属性伤害，并获得4张相同花色的琼玉牌。",
+            "DescriptionJP": "敵全体に青雀の攻撃力[1]%分の量子属性ダメージを与え、同じ絵柄の美玉牌を4枚獲得する。",
+            "stype": "ult",
+            "energy": 140,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 120,
+                    "2": 128,
+                    "3": 136,
+                    "4": 144,
+                    "5": 152,
+                    "6": 160,
+                    "7": 170,
+                    "8": 180,
+                    "9": 190,
+                    "10": 200,
+                    "11": 208,
+                    "12": 216,
+                    "13": 224,
+                    "14": 232,
+                    "15": 240
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "ultatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Celestial Jade",
+            "CNname": "帝垣琼玉",
+            "JAname": "帝垣美玉",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquetalent.webp",
+            "DescriptionEN": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by [1]%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top!.",
+            "DescriptionCN": "我方目标回合开始时，青雀会从3种不同花色的琼玉牌中随机抽取1张，最多持有4张琼玉牌。青雀回合开始时，若持有的琼玉牌数为4且花色相同，青雀消耗所有琼玉牌进入【暗杠】状态。处于【暗杠】状态时无法再次施放战技，同时使自身攻击力提高[1]%，普攻【门前清】强化为【杠上开花！】，【暗杠】状态会在施放【杠上开花！】后结束。",
+            "DescriptionJP": "味方のターンが回ってきた時、青雀は3つの絵柄の美玉牌の中からランダムに1枚取る、手持ちの美玉牌は最大で4枚まで。青雀のターンが回ってきた時、手持ちに同じ絵柄の美玉牌が4枚ある場合、青雀はすべての美玉牌を消費して「暗カン」状態に入る。「暗カン」状態の時は戦闘スキルを発動できず、自身の攻撃力+[1]%、通常攻撃「門前清」が「嶺上開花！」に強化される。「暗カン」状態は「嶺上開花！」を発動した後に終了する。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 36,
+                    "2": 39.6,
+                    "3": 43.2,
+                    "4": 46.8,
+                    "5": 50.4,
+                    "6": 54,
+                    "7": 58.5,
+                    "8": 63,
+                    "9": 67.5,
+                    "10": 72,
+                    "11": 75.6,
+                    "12": 79.2,
+                    "13": 82.8,
+                    "14": 86.4,
+                    "15": 90
+                }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Game Solitaire",
+            "CNname": "独弈之乐",
+            "JAname": "独奕の楽しみ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquetec.webp",
+            "DescriptionEN": "After using Technique, Qingque draws 2 jade tile(s) when the battle starts.",
+            "DescriptionCN": "使用秘技后，进入战斗时青雀会抽取2张琼玉牌。",
+            "DescriptionJP": "秘技を使用した後、戦闘に入る時、青雀は美玉牌を2枚取る。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "special"
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Tile Battle",
+            "CNname": "争番",
+            "JAname": "争番",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquet1.webp",
+            "DescriptionEN": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
+            "DescriptionCN": "施放战技时，恢复1个战技点。该效果单场战斗中只能触发1次。",
+            "DescriptionJP": "戦闘スキルを発動した時、SPを1回復する。この効果は一度の戦闘で1回まで発動できる。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "skillpointrestore",
+                "self"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Bide Time",
+            "CNname": "听牌",
+            "JAname": "聴牌",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquet2.webp",
+            "DescriptionEN": "Using the Skill increases DMG Boost effect of attacks by an extra 10%.",
+            "DescriptionCN": "战技使自身造成的伤害提高效果额外提高10%。",
+            "DescriptionJP": "戦闘スキルによる、自身の与ダメージアップ効果がさらに10%アップする。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Winning Hand",
+            "CNname": "抢杠",
+            "JAname": "チャンカン",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquet3.webp",
+            "DescriptionEN": "Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK.",
+            "DescriptionCN": "施放强化普攻后，青雀的速度提高10%，持续1回合。",
+            "DescriptionJP": "強化通常攻撃を行った後、青雀の速度+10%、1ターン継続。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "speed",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Quantum DMG +3.2%",
+            "CNname": "量子属性伤害提高 +3.2%",
+            "JAname": "量子属性与ダメージ +3.2%",
+            "ttype": "quantumdmg",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "ATK",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Quantum DMG +4.8%",
+            "CNname": "量子属性伤害提高 +4.8%",
+            "JAname": "量子属性与ダメージ +4.8%",
+            "ttype": "quantumdmg",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Quantum DMG +6.4%",
+            "CNname": "量子属性伤害提高 +6.4%",
+            "JAname": "量子属性与ダメージ +6.4%",
+            "ttype": "quantumdmg",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 6.4,
+                    "tag": [
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Rise Through the Tiles",
+            "CNname": "散勇化骁摸幺鱼",
+            "JAname": "幺魚と戯れる孤兵",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingque1.png",
+            "DescriptionEN": "Ultimate deals 10% more DMG.",
+            "DescriptionCN": "施放终结技造成的伤害提高10%。",
+            "DescriptionJP": "必殺技の与ダメージ+10%。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "ultatk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "ultatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Sleep on the Tiles",
+            "CNname": "棋枰作枕好入眠",
+            "JAname": "碁盤は枕、快眠の助け",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingque2.png",
+            "DescriptionEN": "Every time Draw Tile is triggered, Qingque immediately regenerates 1 Energy.",
+            "DescriptionCN": "青雀每次触发抽牌时，立即恢复1点能量。",
+            "DescriptionJP": "青雀は牌を取るたびにEPを1回復する。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "energy",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Strike, Suns Subdued",
+            "CNname": "观琼视茕门前清",
+            "JAname": "流星雷霆<br />山をも砕く",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingqueult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Right on the Tiles",
+            "CNname": "帝垣翔鳞和绝张",
+            "JAname": "刃、雲を巻き<br />玉沙に落ちる",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingque4.png",
+            "DescriptionEN": "After this character's Skill is used, there is a 24% fixed chance to gain Autarky, which lasts until the end of the current turn. With Autarky, using Basic ATK or Enhanced Basic ATK immediately launches 1 follow-up attack on the same target, dealing Quantum DMG equal to 100% of the previous Basic ATK (or Enhanced Basic ATK)'s DMG.",
+            "DescriptionCN": "施放战技后，有24%的固定概率获得【不求人】状态，持续至本回合结束。【不求人】状态下，施放普攻或施放强化普攻后立即进行1次追加攻击，对该目标造成等同于普攻或强化普攻伤害100%的量子属性伤害。",
+            "DescriptionJP": "戦闘スキルを発動した後、24%の固定確率で「門前ツモ」状態に入る、このターンが終了するまで継続。「門前ツモ」状態では、通常攻撃または強化通常攻撃を行った後に追加攻撃を1回行い、敵にその通常攻撃または強化通常攻撃のダメージ100%分の量子属性ダメージを与える。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "singleenemy",
+                "followupatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "normalatk",
+                    "multiplier": 100,
+                    "tag": [
+                        "followupatk",
+                        "quantumatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "enhancedatk",
+                    "multiplier": 100,
+                    "tag": [
+                        "followupatk",
+                        "quantumatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Gambit for the Tiles",
+            "CNname": "七星流离全不靠",
+            "JAname": "百戦経て捨てし躯<br />生死軽んず",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingqueskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Prevail Beyond the Tiles",
+            "CNname": "虚心平意候枭卢",
+            "JAname": "百戦経て捨てし躯<br />生死軽んず",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingque6.png",
+            "DescriptionEN": "Recovers 1 Skill Point after using Enhanced Basic ATK.",
+            "DescriptionCN": "施放强化普攻后，恢复1个战技点。",
+            "DescriptionJP": "強化通常攻撃を行った後、SPを1回復する。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "skillpointrestore",
+                "self"
+            ]
+        }
+    ]
+}

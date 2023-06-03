@@ -1,0 +1,944 @@
+{
+    "ENname": "Serval",
+    "CNname": "希露瓦",
+    "JAname": "セーバル",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/serval.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/servallarge.webp",
+    "etype": "lightning",
+    "wtype": "erudition",
+    "rarity": "4",
+    "dtaunt": 75,
+    "dspeed": 104,
+    "maxenergy": 100,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 124,
+            "atk": 88,
+            "def": 51
+        },
+        {
+            "level": "20",
+            "hp": 243,
+            "atk": 173,
+            "def": 99
+        },
+        {
+            "level": "20+",
+            "hp": 293,
+            "atk": 208,
+            "def": 119
+        },
+        {
+            "level": "30",
+            "hp": 355,
+            "atk": 253,
+            "def": 145
+        },
+        {
+            "level": "30+",
+            "hp": 405,
+            "atk": 288,
+            "def": 165
+        },
+        {
+            "level": "40",
+            "hp": 468,
+            "atk": 333,
+            "def": 191
+        },
+        {
+            "level": "40+",
+            "hp": 517,
+            "atk": 368,
+            "def": 211
+        },
+        {
+            "level": "50",
+            "hp": 580,
+            "atk": 412,
+            "def": 237
+        },
+        {
+            "level": "50+",
+            "hp": 630,
+            "atk": 448,
+            "def": 257
+        },
+        {
+            "level": "60",
+            "hp": 692,
+            "atk": 492,
+            "def": 283
+        },
+        {
+            "level": "60+",
+            "hp": 742,
+            "atk": 528,
+            "def": 303
+        },
+        {
+            "level": "70",
+            "hp": 804,
+            "atk": 572,
+            "def": 328
+        },
+        {
+            "level": "70+",
+            "hp": 854,
+            "atk": 608,
+            "def": 349
+        },
+        {
+            "level": "80",
+            "hp": 917,
+            "atk": 652,
+            "def": 374
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Roaring Thunderclap",
+            "CNname": "雷鸣音阶",
+            "JAname": "雷鳴音階",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servalna.webp",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Serval's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于希露瓦[1]%攻击力的雷属性伤害。",
+            "DescriptionJP": "指定した敵単体にセーバルの攻撃力[1]%分の雷属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "lightningatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Lightning Flash",
+            "CNname": "电光石火间",
+            "JAname": "スパーク",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servalskill.webp",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Serval's ATK to a single enemy and Lightning DMG equal to [2]% of Serval's ATK to enemies adjacent to it, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies take Lightning DoT equal to [3]% of Serval's ATK at the beginning of each turn.",
+            "DescriptionCN": "对指定敌方单体造成等同于希露瓦[1]%攻击力的雷属性伤害，同时对其相邻目标造成等同于希露瓦[2]%攻击力的雷属性伤害，此外有80%的基础概率使受到攻击的敌方目标陷入触电状态，持续2回合。触电状态下，敌方目标每回合开始时受到等同于希露瓦[3]%攻击力的雷属性持续伤害。",
+            "DescriptionJP": "指定した敵単体にセーバルの攻撃力[1]%分の雷属性ダメージを与え、隣接する敵にセーバルの攻撃力[2]%分の雷属性ダメージを与える。さらに80%の基礎確率で攻撃を受けた敵を感電状態にする、2ターン継続。感電状態の敵はターンが回ってくるたびに、セーバルの攻撃力[3]%分の雷属性持続ダメージを受ける。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 70,
+                    "2": 77,
+                    "3": 84,
+                    "4": 91,
+                    "5": 98,
+                    "6": 105,
+                    "7": 113.75,
+                    "8": 122.5,
+                    "9": 131.25,
+                    "10": 140,
+                    "11": 147,
+                    "12": 154,
+                    "13": 161,
+                    "14": 168,
+                    "15": 175
+                },
+                {
+                    "1": 30,
+                    "2": 33,
+                    "3": 36,
+                    "4": 39,
+                    "5": 42,
+                    "6": 45,
+                    "7": 48.75,
+                    "8": 52.5,
+                    "9": 56.25,
+                    "10": 60,
+                    "11": 63,
+                    "12": 66,
+                    "13": 69,
+                    "14": 72,
+                    "15": 75
+                },
+                {
+                    "default": 80
+                },
+                {
+                    "1": 40,
+                    "2": 44,
+                    "3": 48,
+                    "4": 52,
+                    "5": 56,
+                    "6": 62,
+                    "7": 70,
+                    "8": 80,
+                    "9": 92,
+                    "10": 104,
+                    "11": 109.2,
+                    "12": 114.4,
+                    "13": 119.6,
+                    "14": 124.8,
+                    "15": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "skillatk",
+                "lightningatk",
+                "shocked",
+                "dotatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "lightningatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "skillatk",
+                        "lightningatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "shocked",
+                    "multiplier": 3,
+                    "tag": [
+                        "shocked"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "dotatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Here Comes the Mechanical Fever",
+            "CNname": "机械热潮登场！",
+            "JAname": "機械ブーム登場！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servalult.webp",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+            "DescriptionCN": "对敌方全体造成等同于希露瓦[1]%攻击力的雷属性伤害，并使触电状态下的敌方目标延长2回合的触电状态。",
+            "DescriptionJP": "敵全体にセーバルの攻撃力[1]%分の雷属性ダメージを与え、敵の感電状態+2ターン。",
+            "stype": "ult",
+            "energy": 100,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": true,
+            "weaknessbreak": 60,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 108,
+                    "2": 115.2,
+                    "3": 122.4,
+                    "4": 129.6,
+                    "5": 136.8,
+                    "6": 144,
+                    "7": 153,
+                    "8": 162,
+                    "9": 171,
+                    "10": 180,
+                    "11": 187.2,
+                    "12": 194.4,
+                    "13": 201.6,
+                    "14": 208.8,
+                    "15": 216
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "lightningatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "ultatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Galvanic Chords",
+            "CNname": "燃情和弦",
+            "JAname": "情熱コード",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servaltalent.webp",
+            "DescriptionEN": "After Serval attacks, deals Additional Lightning DMG equal to [1]% of Serval's ATK to all Shocked enemies.",
+            "DescriptionCN": "施放攻击后，对所有触电状态下的敌方目标造成等同于希露瓦[1]%攻击力的雷属性附加伤害。",
+            "DescriptionJP": "攻撃を行った後、すべての感電状態の敵にセーバルの攻撃力[1]%分の雷属性付加ダメージを与える。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 36,
+                    "2": 39.6,
+                    "3": 43.2,
+                    "4": 46.8,
+                    "5": 50.4,
+                    "6": 54,
+                    "7": 58.5,
+                    "8": 63,
+                    "9": 67.5,
+                    "10": 72,
+                    "11": 75.6,
+                    "12": 79.2,
+                    "13": 82.8,
+                    "14": 86.4,
+                    "15": 90
+                }
+            ],
+            "tags": [
+                "aoe",
+                "additionalatk",
+                "lightningatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "additionalatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Good Night, Belobog",
+            "CNname": "晚安，贝洛伯格",
+            "JAname": "おやすみ、ベロブルグ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servaltec.webp",
+            "DescriptionEN": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 50% of Serval's ATK to a random enemy, with a 100% base chance for all enemies to become Shocked for 3 turn(s). While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于希露瓦50%攻击力的雷属性伤害，同时有100%的基础概率使敌方每个单体目标陷入触电状态，持续3回合。触电状态下，敌方目标每回合开始时受到等同于希露瓦50%攻击力的雷属性持续伤害。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、ランダムな敵単体にセーバルの攻撃力50%分の雷属性ダメージを与え、100%の基礎確率で敵単体それぞれに感電状態を付与する、3ターン継続。感電状態の敵はターンが回ってくるたびに、セーバルの攻撃力50%分の雷属性持続ダメージを受ける。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 60,
+            "energyregen": 0,
+            "tags": [
+                "shocked",
+                "dotatk",
+                "lightningatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 50,
+                    "tag": [
+                        "singleatk",
+                        "lightningatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "shocked",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy",
+                        "shocked"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 50,
+                    "tag": [
+                        "aoe",
+                        "dotatk",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Rock 'n' Roll",
+            "CNname": "摇滚",
+            "JAname": "ロック",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servalt1.webp",
+            "DescriptionEN": "Skill has a 20% increased base chance to Shock enemies.",
+            "DescriptionCN": "施放战技时，使受到攻击的敌方目标陷入触电状态的基础概率提高20%。",
+            "DescriptionJP": "戦闘スキルを発動した時、攻撃を受けた敵が感電状態になる基礎確率+20%。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "shocked"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "shocked",
+                    "multiplier": 20,
+                    "tag": [
+                        "shocked"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "String Vibration",
+            "CNname": "电音",
+            "JAname": "電子音",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servalt2.webp",
+            "DescriptionEN": "At the start of the battle, immediately regenerates 15 Energy.",
+            "DescriptionCN": "战斗开始时，立即恢复15点能量。",
+            "DescriptionJP": "戦闘開始時、EPを15回復する。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Mania",
+            "CNname": "狂热",
+            "JAname": "狂熱",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servalt3.webp",
+            "DescriptionEN": "Upon defeating an enemy, ATK is increased by 20% for 2 turn(s).",
+            "DescriptionCN": "消灭敌方目标后，攻击力提高20%，持续2回合。",
+            "DescriptionJP": "敵を倒した後、攻撃力+20%、2ターン継続。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +4%",
+            "CNname": "效果命中 +4%",
+            "JAname": "効果命中 +4%",
+            "ttype": "effecthit",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +2.7%",
+            "CNname": "暴击率 +2.7%",
+            "JAname": "会心率 +2.7%",
+            "ttype": "critrate",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +4%",
+            "CNname": "效果抵抗 +4%",
+            "JAname": "効果抵抗 +4%",
+            "ttype": "effectres",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +4%",
+            "CNname": "暴击率 +4%",
+            "JAname": "会心率 +4%",
+            "ttype": "critrate",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +6%",
+            "CNname": "效果命中 +6%",
+            "JAname": "効果命中 +6%",
+            "ttype": "effecthit",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +4%",
+            "CNname": "暴击率 +4%",
+            "JAname": "会心率 +4%",
+            "ttype": "critrate",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +6%",
+            "CNname": "效果抵抗 +6%",
+            "JAname": "効果抵抗 +6%",
+            "ttype": "effectres",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +8%",
+            "CNname": "效果命中 +8%",
+            "JAname": "効果命中 +8%",
+            "ttype": "effecthit",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +2.7%",
+            "CNname": "暴击率 +2.7%",
+            "JAname": "会心率 +2.7%",
+            "ttype": "critrate",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT Rate +5.3%",
+            "CNname": "暴击率 +5.3%",
+            "JAname": "会心率 +5.3%",
+            "ttype": "critrate",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Echo Chamber",
+            "CNname": "余音绕梁",
+            "JAname": "いつまでも鳴り響け",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/serval1.webp",
+            "DescriptionEN": "Basic ATK deals Lightning DMG equal to 60% of the Basic ATK's DMG to a random enemy adjacent to the target of the Basic ATK.",
+            "DescriptionCN": "普攻对指定敌方目标的1个随机相邻目标造成等同于普攻伤害60%的雷属性伤害。",
+            "DescriptionJP": "通常攻撃は指定した敵に隣接するランダムな敵に、通常攻撃のダメージ60%分の雷属性ダメージを与える。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "normalatk",
+                "singleatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "normalatk",
+                    "multiplier": 60,
+                    "tag": [
+                        "singleenemy",
+                        "lightningatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Encore!",
+            "CNname": "安可！",
+            "JAname": "アンコール！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/serval2.webp",
+            "DescriptionEN": "Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy.",
+            "DescriptionCN": "每触发1次天赋的附加伤害，希露瓦恢复4点能量。",
+            "DescriptionJP": "天賦の付加ダメージを1回発動するたびに、セーバルはEPを4回復する。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Listen, the Heartbeat of the Gears",
+            "CNname": "听，齿轮的心跳",
+            "JAname": "聞け、歯車の鼓動を",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servalskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Make Some Noise!",
+            "CNname": "制造噪音吧！",
+            "JAname": "噪音を鳴らせ！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/serval4.webp",
+            "DescriptionEN": "Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill.",
+            "DescriptionCN": "施放终结技时，有100%基础概率使非触电状态下的敌方目标状态陷入与战技相同的触电状态。",
+            "DescriptionJP": "必殺技を発動した時、100%の基礎確率で感電状態でない敵を、戦闘スキルが与えるものと同じ感電状態にする。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "shocked",
+                "ultatk"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "addtarget": "shocked",
+                    "multiplier": 100,
+                    "tag": [
+                        "ultatk",
+                        "shocked"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Belobog's Loudest Roar!",
+            "CNname": "贝洛伯格最强音！",
+            "JAname": "ベロブルグ最強音！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/servalult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "This Song Rocks to Heaven!",
+            "CNname": "这一曲，贯穿天穹！",
+            "JAname": "この一曲、<br />天穹を貫く！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/serval6.webp",
+            "DescriptionEN": "Serval deals 30% more DMG to Shocked enemies.",
+            "DescriptionCN": "希露瓦对触电状态下的敌方目标造成的伤害提高30%。",
+            "DescriptionJP": "感電状態の敵に対するセーバルの与ダメージ+30%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "self",
+                "buff",
+                "shocked"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 30,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

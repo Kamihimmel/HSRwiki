@@ -1,0 +1,885 @@
+{
+    "ENname": "Dan Heng",
+    "CNname": "丹恒",
+    "JAname": "丹恒",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/danheng.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/danhenglarge.webp",
+    "etype": "wind",
+    "wtype": "thehunt",
+    "rarity": "4",
+    "dtaunt": 75,
+    "dspeed": 110,
+    "maxenergy": 100,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 120,
+            "atk": 74,
+            "def": 54
+        },
+        {
+            "level": "20",
+            "hp": 234,
+            "atk": 145,
+            "def": 105
+        },
+        {
+            "level": "20+",
+            "hp": 282,
+            "atk": 174,
+            "def": 126
+        },
+        {
+            "level": "30",
+            "hp": 342,
+            "atk": 212,
+            "def": 153
+        },
+        {
+            "level": "30+",
+            "hp": 390,
+            "atk": 241,
+            "def": 175
+        },
+        {
+            "level": "40",
+            "hp": 450,
+            "atk": 279,
+            "def": 202
+        },
+        {
+            "level": "40+",
+            "hp": 498,
+            "atk": 308,
+            "def": 224
+        },
+        {
+            "level": "50",
+            "hp": 558,
+            "atk": 345,
+            "def": 251
+        },
+        {
+            "level": "50+",
+            "hp": 606,
+            "atk": 375,
+            "def": 272
+        },
+        {
+            "level": "60",
+            "hp": 666,
+            "atk": 412,
+            "def": 299
+        },
+        {
+            "level": "60+",
+            "hp": 714,
+            "atk": 442,
+            "def": 321
+        },
+        {
+            "level": "70",
+            "hp": 774,
+            "atk": 479,
+            "def": 348
+        },
+        {
+            "level": "70+",
+            "hp": 822,
+            "atk": 509,
+            "def": 369
+        },
+        {
+            "level": "80",
+            "hp": 882,
+            "atk": 546,
+            "def": 396
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Cloudlancer Art: North Wind",
+            "CNname": "云骑枪术•朔风",
+            "JAname": "雲騎槍術・朔風",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengna.webp",
+            "DescriptionEN": "Deals Wind DMG equal to [1]% of Dan Heng's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于丹恒[1]%攻击力的风属性伤害。",
+            "DescriptionJP": "指定した敵単体に丹恒の攻撃力[1]%分の風属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "windatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "windatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Cloudlancer Art: Torrent",
+            "CNname": "云骑枪术•疾雨",
+            "JAname": "雲騎槍術・疾雨",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengskill.webp",
+            "DescriptionEN": "Deals Wind DMG equal to [1]% of Dan Heng's ATK to a single enemy. On a CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12% for 2 turn(s).",
+            "DescriptionCN": "对指定敌方单体造成等同于丹恒[1]%攻击力的风属性伤害。战技造成的伤害触发暴击时，有100%的基础概率使受到攻击的敌方目标速度降低12%，持续2回合。",
+            "DescriptionJP": "指定した敵単体に丹恒の攻撃力[1]%分の風属性ダメージを与える。戦闘スキルで会心が発生した時、100%の基礎確率で攻撃を受けた敵の速度-12%、2ターン継続。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 110,
+                    "2": 121,
+                    "3": 132,
+                    "4": 143,
+                    "5": 154,
+                    "6": 165,
+                    "7": 178.75,
+                    "8": 192.5,
+                    "9": 206.25,
+                    "10": 220,
+                    "11": 231,
+                    "12": 242,
+                    "13": 253,
+                    "14": 264,
+                    "15": 275
+                },
+                {
+                    "default": 12
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "skillatk",
+                "windatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "speed",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Ethereal Dream",
+            "CNname": "洞天幻化，长梦一觉",
+            "JAname": "洞天幻化、長夢一覚",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengult.webp",
+            "DescriptionEN": "Deals Wind DMG equal to [1]% of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by [2]%.",
+            "DescriptionCN": "对指定敌方单体造成等同于丹恒[1]%攻击力的风属性伤害。当受到攻击的敌方目标处于减速状态时，终结技造成的伤害倍率提高[2]%。",
+            "DescriptionJP": "指定した敵単体に丹恒の攻撃力[1]%分の風属性ダメージを与える。攻撃を受けた敵が減速状態の場合、必殺技のダメージ倍率+[2]%。",
+            "stype": "ult",
+            "energy": 100,
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 90,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 240,
+                    "2": 256,
+                    "3": 272,
+                    "4": 288,
+                    "5": 304,
+                    "6": 320,
+                    "7": 340,
+                    "8": 360,
+                    "9": 380,
+                    "10": 400,
+                    "11": 416,
+                    "12": 432,
+                    "13": 448,
+                    "14": 464,
+                    "15": 480
+                },
+                {
+                    "1": 72,
+                    "2": 76.8,
+                    "3": 81.6,
+                    "4": 86.4,
+                    "5": 91.2,
+                    "6": 96,
+                    "7": 102,
+                    "8": 108,
+                    "9": 114,
+                    "10": 120,
+                    "11": 124.8,
+                    "12": 129.6,
+                    "13": 134.4,
+                    "14": 139.2,
+                    "15": 144
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "ultatk",
+                "windatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "ultatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Superiority of Reach",
+            "CNname": "寸长寸强",
+            "JAname": "寸長寸強",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengtalent.webp",
+            "DescriptionEN": "When Dan Heng is the target of an ally's Ability, his next attack's Wind RES PEN increases by [1]%. This effect can be triggered again after 2 turn(s).",
+            "DescriptionCN": "当丹恒成为我方技能的施放目标时，下一次攻击的风抗性穿透提高[1]%。该效果在2回合后可再次触发。",
+            "DescriptionJP": "丹恒が味方スキルのターゲットになった時、次の攻撃の風属性耐性貫通[1]%。この効果は2ターン後に再度発動できる。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 18,
+                    "2": 19.8,
+                    "3": 21.6,
+                    "4": 23.4,
+                    "5": 25.2,
+                    "6": 27,
+                    "7": 29.25,
+                    "8": 31.5,
+                    "9": 33.75,
+                    "10": 36,
+                    "11": 37.8,
+                    "12": 39.6,
+                    "13": 41.4,
+                    "14": 43.2,
+                    "15": 45
+                }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "windpen"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "windpen",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "windpen"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Splitting Spearhead",
+            "CNname": "破敌锋芒",
+            "JAname": "破敵の矛先",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengtec.webp",
+            "DescriptionEN": "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s).",
+            "DescriptionCN": "使用秘技后，下一次战斗开始时丹恒攻击力提高40%，持续3回合。",
+            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、丹恒の攻撃力+40%、3ターン継続。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 40,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Hidden Dragon",
+            "CNname": "潜龙",
+            "JAname": "潜龍",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengt1.webp",
+            "DescriptionEN": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+            "DescriptionCN": "若当前生命值百分比小于等于50%，则被敌方目标攻击的概率降低。",
+            "DescriptionJP": "残りHPが50%以下の場合、敵に攻撃される確率ダウン。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "taunt",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "taunt",
+                    "multiplier": -50,
+                    "tag": [
+                        "self",
+                        "taunt"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "High Gale",
+            "CNname": "罡风",
+            "JAname": "剛風",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengt2.webp",
+            "DescriptionEN": "Basic ATK deals 40% more DMG to Slowed enemies.",
+            "DescriptionCN": "普攻对减速状态下的敌方目标造成的伤害提高40%。",
+            "DescriptionJP": "攻撃を行った後、50%の固定確率で自身の速度+20%、2ターン継続。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "normalatk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "normalatk",
+                    "multiplier": 40,
+                    "tag": [
+                        "self",
+                        "normalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Faster Than Light",
+            "CNname": "绝影",
+            "JAname": "絶影",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengt3.webp",
+            "DescriptionEN": "After launching an attack, there is a 50% fixed chance to increase own SPD by 20% for 2 turn(s).",
+            "DescriptionCN": "施放攻击后有50%的固定概率使自身速度提高20%，持续2回合。",
+            "DescriptionJP": "攻撃を行った後、50%の固定確率で自身の速度+20%、2ターン継続。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "speed",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Wind DMG +3.2%",
+            "CNname": "风属性伤害提高 +3.2%",
+            "JAname": "風属性与ダメージ +3.2%",
+            "ttype": "winddmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "winddmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "winddmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "critdmg",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Wind DMG +6.4%",
+            "CNname": "风属性伤害提高 +6.4%",
+            "JAname": "風属性与ダメージ +6.4%",
+            "ttype": "winddmg",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "winddmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 6.4,
+                    "tag": [
+                        "self",
+                        "winddmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Wind DMG +4.8%",
+            "CNname": "风属性伤害提高 +4.8%",
+            "JAname": "風属性与ダメージ +4.8%",
+            "ttype": "winddmg",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "winddmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "winddmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Wind DMG +3.2%",
+            "CNname": "风属性伤害提高 +3.2%",
+            "JAname": "風属性与ダメージ +3.2%",
+            "ttype": "winddmg",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "winddmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "winddmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Wind DMG +4.8%",
+            "CNname": "风属性伤害提高 +4.8%",
+            "JAname": "風属性与ダメージ +4.8%",
+            "ttype": "winddmg",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "winddmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "winddmg"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "The Higher You Fly, the Harder You Fall",
+            "CNname": "穷高极天，亢盈难久",
+            "JAname": "極天窮尽するも<br />昂り保てず",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danheng1.png",
+            "DescriptionEN": "When the target enemy's current HP percentage is greater than or equal to 50%, CRIT Rate increases by 12%.",
+            "DescriptionCN": "当击中的敌方目标当前生命值百分比大于等于50%时，暴击率提高12%。",
+            "DescriptionJP": "攻撃が命中した敵の残りHPが50%以上の場合、会心率+12%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 12,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Quell the Venom Octet, Quench the Vice O'Flame",
+            "CNname": "威制八毒，灭却炎烟",
+            "JAname": "八毒圧倒<br />炎煙滅却",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danheng2.png",
+            "DescriptionEN": "Reduces Talent cooldown by 1 turn.",
+            "DescriptionCN": "天赋的冷却时间减少1回合。",
+            "DescriptionJP": "天賦のクールタイム-1ターン。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Seen and Unseen",
+            "CNname": "幽明变化，自在蟠跃",
+            "JAname": "幽明の変化<br />遊龍の如く自在にあり",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Roaring Dragon and Soaring Sun",
+            "CNname": "奋迅三昧，如日空居",
+            "JAname": "奮迅三昧<br />日輪が如く",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danheng4.png",
+            "DescriptionEN": "When Dan Heng uses his Ultimate to defeat an enemy, his next action is Advanced Forward by 100%.",
+            "DescriptionCN": "施放终结技消灭敌方目标时，丹恒的下一次行动提前100%。",
+            "DescriptionJP": "必殺技で敵を倒した時、丹恒の次の行動の行動順が100%早まる。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "actionf",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 100,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "A Drop of Rain Feeds a Torrent",
+            "CNname": "一渧天水，六虚洪流",
+            "JAname": "天水分かつ一槍<br />六虚の洪流振り起こす",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danhengult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "The Troubled Soul Lies in Wait",
+            "CNname": "须绳缚身，沉潜勿用",
+            "JAname": "今生縄縛<br />解く時急く勿れ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/danheng6.png",
+            "DescriptionEN": "The Slow state triggered by Skill reduces the enemy's SPD by an extra 8%.",
+            "DescriptionCN": "战技触发的减速状态使目标的速度额外降低8%。",
+            "DescriptionJP": "戦闘スキルによって減速状態を付与された敵は、さらに速度-8%。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "speed",
+                    "multiplier": 8,
+                    "tag": [
+                        "speed",
+                        "singleenemy"
+                    ]
+                }
+            ]
+        }
+    ]
+}

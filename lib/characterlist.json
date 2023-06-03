@@ -38,7 +38,7 @@
             "etype": "fire",
             "wtype": "erudition",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/himeko.json"
         },
         {
             "ENname": "Welt",
@@ -101,14 +101,14 @@
             "infourl": "https://hsrwikidata.yunlu18.net/lib/clara.json"
         },
         {
-            "ENname": "Luocha",
+            "ENname": "Luo Cha",
             "CNname": "羅刹",
             "JAname": "クラーラ",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/luocha.webp",
             "etype": "imaginary",
             "wtype": "abundance",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/luocha.json"
         },
         {
             "ENname": "Jing Yuan",
@@ -121,14 +121,14 @@
             "infourl": "https://hsrwikidata.yunlu18.net/lib/jingyuan.json"
         },
         {
-            "ENname": "Bailu",
+            "ENname": "Bai Lu",
             "CNname": "白露",
             "JAname": "白露",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/bailu.webp",
             "etype": "lightning",
             "wtype": "abundance",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/bailu.json"
         },
         {
             "ENname": "Trailblazer",
@@ -170,7 +170,7 @@
             "etype": "wind",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/danheng.json"
         },
         {
             "ENname": "Arlan",
@@ -200,7 +200,7 @@
             "etype": "lightning",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/serval.json"
         },
         {
             "ENname": "Natasha",
@@ -213,7 +213,7 @@
             "infourl": "https://hsrwikidata.yunlu18.net/lib/natasha.json"
         },
         {
-            "ENname": "Tingyun",
+            "ENname": "Ting Yun",
             "CNname": "停云",
             "JAname": "停雲",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/tingyun.webp",
@@ -253,17 +253,17 @@
             "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
         },
         {
-            "ENname": "Qingque",
+            "ENname": "Qing Que",
             "CNname": "青雀",
             "JAname": "青雀",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/qingque.webp",
             "etype": "quantum",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/qingque.json"
         },
         {
-            "ENname": "Sushang",
+            "ENname": "Su Shang",
             "CNname": "素裳",
             "JAname": "素裳",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sushang.webp",

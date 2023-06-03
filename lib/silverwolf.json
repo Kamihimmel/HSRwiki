@@ -953,16 +953,16 @@
             "teamskill": false,
             "tags": [
                 "debuff",
-                "self",
+                "allenemy",
                 "effectres"
             ],
             "effect": [
                 {
-                    "type": "buff",
+                    "type": "debuff",
                     "addtarget": "effectres",
                     "multiplier": -20,
                     "tag": [
-                        "self",
+                        "allenemy",
                         "effectres"
                     ]
                 }

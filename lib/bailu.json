@@ -1,0 +1,947 @@
+{
+    "ENname": "Bai Lu",
+    "CNname": "白露",
+    "JAname": "ナターシャ",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/bailu.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/bailularge.webp",
+    "etype": "lightning",
+    "wtype": "abundance",
+    "rarity": "5",
+    "dtaunt": 100,
+    "dspeed": 98,
+    "maxenergy": 100,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 179,
+            "atk": 76,
+            "def": 66
+        },
+        {
+            "level": "20",
+            "hp": 350,
+            "atk": 149,
+            "def": 134
+        },
+        {
+            "level": "20+",
+            "hp": 421,
+            "atk": 179,
+            "def": 155
+        },
+        {
+            "level": "30",
+            "hp": 511,
+            "atk": 218,
+            "def": 188
+        },
+        {
+            "level": "30+",
+            "hp": 583,
+            "atk": 248,
+            "def": 214
+        },
+        {
+            "level": "40",
+            "hp": 673,
+            "atk": 287,
+            "def": 247
+        },
+        {
+            "level": "40+",
+            "hp": 745,
+            "atk": 317,
+            "def": 273
+        },
+        {
+            "level": "50",
+            "hp": 834,
+            "atk": 356,
+            "def": 306
+        },
+        {
+            "level": "50+",
+            "hp": 906,
+            "atk": 386,
+            "def": 333
+        },
+        {
+            "level": "60",
+            "hp": 996,
+            "atk": 424,
+            "def": 366
+        },
+        {
+            "level": "60+",
+            "hp": 1068,
+            "atk": 455,
+            "def": 392
+        },
+        {
+            "level": "70",
+            "hp": 1157,
+            "atk": 493,
+            "def": 425
+        },
+        {
+            "level": "70+",
+            "hp": 1229,
+            "atk": 524,
+            "def": 452
+        },
+        {
+            "level": "80",
+            "hp": 1319,
+            "atk": 562,
+            "def": 485
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Diagnostic Kick",
+            "CNname": "望 、闻、问…蹴！",
+            "JAname": "望・聞・問…蹴！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailuna.webp",
+            "DescriptionEN": "Deals Lightning DMG equal to [1] of Bailu's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于白露[1]%攻击力的雷属性伤害。",
+            "DescriptionJP": "指定した敵単体に白露の攻撃力[1]%分の雷属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Singing Among Clouds",
+            "CNname": "云吟乍涌坠珠露",
+            "JAname": "雲吟乍然、零れる珠露",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailuskill.webp",
+            "DescriptionEN": "Heals a single ally for [1]% of Bailu's Max HP plus [2]. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
+            "DescriptionCN": "立即为指定我方单体回复等同于白露[1]%生命上限+[2]的生命值，然后白露随机为我方单体进行2次治疗，每提供1次治疗，下一次治疗回复的生命值会降低15%。",
+            "DescriptionJP": "指定した味方単体のHPを白露の最大HP[1]%+[2]回復し、さらに2回、ランダムに味方単体を治癒する。治癒するたびに、次の治癒で回復するHP-15%。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 7.8,
+                    "2": 8.29,
+                    "3": 8.78,
+                    "4": 9.26,
+                    "5": 9.75,
+                    "6": 10.14,
+                    "7": 10.53,
+                    "8": 10.92,
+                    "9": 11.31,
+                    "10": 11.7,
+                    "11": 12.09,
+                    "12": 12.48,
+                    "13": 12.87,
+                    "14": 13.26,
+                    "15": 13.65
+                },
+                {
+                    "1": 78,
+                    "2": 125,
+                    "3": 160,
+                    "4": 195,
+                    "5": 218,
+                    "6": 242,
+                    "7": 259,
+                    "8": 277,
+                    "9": 294,
+                    "10": 312,
+                    "11": 330,
+                    "12": 347,
+                    "13": 365,
+                    "14": 382,
+                    "15": 400
+                }
+            ],
+            "tags": [
+                "buff",
+                "heal",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Felicitous Thunderleap",
+            "CNname": "匏蛟跃渊先雷音",
+            "JAname": "雷鳴率いる躍渊の蛟龍",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailuult.webp",
+            "DescriptionEN": "Heals all allies for [1]% of Bailu's Max HP plus [2]. Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn. The effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
+            "DescriptionCN": "立即为我方全体回复等同于白露[1]%生命上限+[2]的生命值。对于没有【生息】的我方目标，白露使其附上【生息】，对于已拥有【生息】的我方目标，白露使其已有的【生息】持续时间延长1回合。【生息】可持续2回合，该效果不可叠加。",
+            "DescriptionJP": "味方全体のHPを白露の最大HP[1]%+[2]回復する。「生生」が付与されていない味方に「生生」を付与する。「生生」が付与されている味方の「生生」の継続時間+1ターン。「生生」は2ターン継続でき、効果は累積できない。",
+            "stype": "ult",
+            "energy": 100,
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 9,
+                    "2": 9.56,
+                    "3": 10.13,
+                    "4": 10.69,
+                    "5": 11.25,
+                    "6": 11.7,
+                    "7": 12.15,
+                    "8": 12.6,
+                    "9": 13.05,
+                    "10": 13.5,
+                    "11": 13.95,
+                    "12": 14.4,
+                    "13": 14.85,
+                    "14": 15.3,
+                    "15": 15.75
+                },
+                {
+                    "1": 90,
+                    "2": 144,
+                    "3": 185,
+                    "4": 225,
+                    "5": 252,
+                    "6": 279,
+                    "7": 299,
+                    "8": 320,
+                    "9": 340,
+                    "10": 360,
+                    "11": 380,
+                    "12": 401,
+                    "13": 421,
+                    "14": 441,
+                    "15": 461
+                }
+            ],
+            "tags": [
+                "heal"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Gourdful of Elixir",
+            "CNname": "奔走悬壶济世长",
+            "JAname": "懸壺済世",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailutalent.webp",
+            "DescriptionEN": "After an ally with Invigoration is hit, restores the ally's HP for [1]% of Bailu's Max HP plus [2]. This effect can trigger 2 time(s). \nWhen an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for [3]% of Bailu's Max HP plus [4] HP. This effect can be triggered 1 time per battle.",
+            "DescriptionCN": "拥有【生息】的我方目标，在受到攻击后会回复等同于白露[1]%生命上限+[2]的生命值，该效果可以触发2次。\n当白露的队友受到致命攻击时，不会陷入无法战斗状态，白露会立即为其提供治疗，回复等同于白露[3]%生命上限+[4]的生命值。该效果单场战斗中可以触发1次。",
+            "DescriptionJP": "「生生」を持つ味方が攻撃を受けた後、HPを白露の最大HP[1]%+[2]回復する、この効果は2回発動できる。白露以外の味方は、HPが0になる攻撃を受けても戦闘不能状態にならず、白露がその味方を治癒し、白露の最大HP[3]%+[4]のHPを回復させる。この効果は一度の戦闘で1回発動できる。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 3.6,
+                    "2": 3.83,
+                    "3": 4.05,
+                    "4": 4.28,
+                    "5": 4.5,
+                    "6": 4.68,
+                    "7": 4.86,
+                    "8": 5.04,
+                    "9": 5.22,
+                    "10": 5.4,
+                    "11": 5.58,
+                    "12": 5.76,
+                    "13": 5.94,
+                    "14": 6.12,
+                    "15": 6.3
+                },
+                {
+                    "1": 36,
+                    "2": 58,
+                    "3": 74,
+                    "4": 90,
+                    "5": 101,
+                    "6": 112,
+                    "7": 120,
+                    "8": 128,
+                    "9": 136,
+                    "10": 144,
+                    "11": 152,
+                    "12": 160,
+                    "13": 168,
+                    "14": 176,
+                    "15": 185
+                },
+                {
+                    "1": 12,
+                    "2": 12.75,
+                    "3": 13.5,
+                    "4": 14.5,
+                    "5": 15,
+                    "6": 15.6,
+                    "7": 16.2,
+                    "8": 16.8,
+                    "9": 17.4,
+                    "10": 18,
+                    "11": 18.6,
+                    "12": 19.2,
+                    "13": 19.8,
+                    "14": 20.4,
+                    "15": 21
+                },
+                {
+                    "1": 120,
+                    "2": 192,
+                    "3": 246,
+                    "4": 300,
+                    "5": 336,
+                    "6": 372,
+                    "7": 399,
+                    "8": 426,
+                    "9": 453,
+                    "10": 480,
+                    "11": 507,
+                    "12": 534,
+                    "13": 561,
+                    "14": 588,
+                    "15": 615
+                }                
+            ],
+            "tags": [
+                "heal",
+                "buff",
+                "revive"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "revive",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleally",
+                        "revive"
+                    ]
+                },
+                {
+                    "type": "revive",
+                    "multipliertarget": "",
+                    "multiplier": 4,
+                    "tag": [
+                        "singleally",
+                        "revive"
+                    ]
+                }                
+            ]
+        },
+        {
+            "ENname": "Saunter in the Rain",
+            "CNname": "徜徉灵泽病恙短",
+            "JAname": "恙病を払拭せし、徜徉する霊澤",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailutec.webp",
+            "DescriptionEN": "After using Technique, at the start of the next battle, all allies are granted Invigoration for 2 turn(s).",
+            "DescriptionCN": "用秘技后，下一次战斗开始时为我方全体附上【生息】，持续2回合。",
+            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、味方全体に「生生」を付与、2ターン継続。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": true,
+            "energyregen": 0,
+            "tags": [
+                "buff",
+                "special"
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Qihuang Analects",
+            "CNname": "岐黄精义",
+            "JAname": "岐黄精義",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailut1.webp",
+            "DescriptionEN": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns.",
+            "DescriptionCN": "白露对我方目标造成过量治疗时会提高目标10%的生命上限，持续2回合。",
+            "DescriptionJP": "白露が味方に最大HPを超える治癒を行った時、その味方の最大HP+10%、2ターン継続。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "allally",
+                "maxhp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 10,
+                    "tag": [
+                        "maxhp"
+                    ]
+                }
+            ]            
+        },
+        {
+            "tiny": false,
+            "ENname": "Aquatic Benediction",
+            "CNname": "鳞渊福泽",
+            "JAname": "鱗淵の恩沢",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailut2.webp",
+            "DescriptionEN": "Characters with Invigoration receive 10% less DMG.",
+            "DescriptionCN": "拥有【生息】的角色受到的伤害降低10%。",
+            "DescriptionJP": "「生生」を付与されたキャラの被ダメージ-10%。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "allally",
+                "dmgreduction"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "dmgreduction",
+                    "multiplier": 10,
+                    "tag": [
+                        "dmgreduction"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Vidyadhara Ichor Lines",
+            "CNname": "持明龙脉",
+            "JAname": "持明の龍脈",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailut3.webp",
+            "DescriptionEN": "Invigoration can trigger 1 more time(s).",
+            "DescriptionCN": "【生息】效果的触发次数增加1次。",
+            "DescriptionJP": "「生生」効果の発動回数+1。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": []
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +4%",
+            "CNname": "生命值 +4%",
+            "JAname": "HP +4%",
+            "ttype": "hp",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },                
+        {
+            "tiny": true,
+            "ENname": "Effect RES +4%",
+            "CNname": "效果抵抗 +4%",
+            "JAname": "効果抵抗 +4%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +6%",
+            "CNname": "生命值 +6%",
+            "JAname": "HP +6%",
+            "ttype": "hp",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +6%",
+            "CNname": "生命值 +6%",
+            "JAname": "HP +6%",
+            "ttype": "hp",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +6%",
+            "CNname": "效果抵抗 +6%",
+            "JAname": "効果抵抗 +6%",
+            "ttype": "effectres",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },        
+        {
+            "tiny": true,
+            "ENname": "DEF +10%",
+            "CNname": "防御力 +10%",
+            "JAname": "防御力 +10%",
+            "ttype": "def",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +4%",
+            "CNname": "生命值 +4%",
+            "JAname": "HP +4%",
+            "ttype": "hp",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +8%",
+            "CNname": "生命值 +8%",
+            "JAname": "HP +8%",
+            "ttype": "hp",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Ambrosial Aqua",
+            "CNname": "百脉甘津宁神久",
+            "JAname": "百脈静める甘露",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailu1.png",
+            "DescriptionEN": "If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates 8 extra Energy for this target.",
+            "DescriptionCN": "【生息】结束时若我方目标当前生命值等于其生命上限，则额外恢复目标8点能量。",
+            "DescriptionJP": "「生生」効果が終了する時、味方のHPが満タンの場合、さらにEPを8回復させる。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 8,
+                    "tag": [
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Sylphic Slumber",
+            "CNname": "壶中洞天云螭眠",
+            "JAname": "壺中の天には雲龍眠る",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailu2.png",
+            "DescriptionEN": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s).",
+            "DescriptionCN": "施放终结技后，白露的治疗量提高15%，持续2回合。",
+            "DescriptionJP": "必殺技を発動した後、白露の治癒量+15%、2ターン継続。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "healingbonus"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "healingbonus",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "healingbonus"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Omniscient Opulence",
+            "CNname": "掌间乾坤便通玄",
+            "JAname": "心地安らぐ回春の妙手",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailuskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Evil Excision",
+            "CNname": "肘后备急除外障",
+            "JAname": "外傷癒す肘後の備急",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailu4.png",
+            "DescriptionEN": "Every healing provided by the Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect can stack up to 3 time(s).",
+            "DescriptionCN": "战技提供的每1次治疗会额外使受治疗者造成的伤害提高10%，最多叠加3层，持续2回合。",
+            "DescriptionJP": "戦闘スキルによる治癒を受けるたび、その味方の与ダメージ+10%、最大で3層累積できる、2ターン継続。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Waning Worries",
+            "CNname": "方定一倾浣俗尘",
+            "JAname": "俗塵濯ぐ慈雨",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailuult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Drooling Drop of Draconic Divinity",
+            "CNname": "龙漦吐哺胜金丹",
+            "JAname": "龍涎仙薬、金丹に勝る",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bailu6.png",
+            "DescriptionEN": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle.",
+            "DescriptionCN": "白露在单场战斗中累计可以对受到致命攻击的我方目标提供治疗的效果触发次数增加1次。",
+            "DescriptionJP": "一度の戦闘で、白露がHPが0になる攻撃を受けた味方を治癒する効果の発動回数+1。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "revive"
+            ]
+        }
+    ]
+}

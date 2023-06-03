@@ -1,0 +1,910 @@
+{
+    "ENname": "Himeko",
+    "CNname": "姬子",
+    "JAname": "姫子",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/himeko.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/himekolarge.webp",
+    "etype": "fire",
+    "wtype": "erudition",
+    "rarity": "5",
+    "dtaunt": 75,
+    "dspeed": 96,
+    "maxenergy": 120,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 142,
+            "atk": 102,
+            "def": 59
+        },
+        {
+            "level": "20",
+            "hp": 278,
+            "atk": 200,
+            "def": 115
+        },
+        {
+            "level": "20+",
+            "hp": 335,
+            "atk": 241,
+            "def": 139
+        },
+        {
+            "level": "30",
+            "hp": 406,
+            "atk": 293,
+            "def": 169
+        },
+        {
+            "level": "30+",
+            "hp": 463,
+            "atk": 334,
+            "def": 193
+        },
+        {
+            "level": "40",
+            "hp": 534,
+            "atk": 386,
+            "def": 222
+        },
+        {
+            "level": "40+",
+            "hp": 591,
+            "atk": 427,
+            "def": 246
+        },
+        {
+            "level": "50",
+            "hp": 662,
+            "atk": 478,
+            "def": 276
+        },
+        {
+            "level": "50+",
+            "hp": 719,
+            "atk": 519,
+            "def": 299
+        },
+        {
+            "level": "60",
+            "hp": 791,
+            "atk": 571,
+            "def": 329
+        },
+        {
+            "level": "60+",
+            "hp": 848,
+            "atk": 612,
+            "def": 353
+        },
+        {
+            "level": "70",
+            "hp": 919,
+            "atk": 664,
+            "def": 425
+        },
+        {
+            "level": "70+",
+            "hp": 976,
+            "atk": 705,
+            "def": 406
+        },
+        {
+            "level": "80",
+            "hp": 1047,
+            "atk": 756,
+            "def": 436
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Sawblade Tuning",
+            "CNname": "武装调律",
+            "JAname": "武装調律",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekona.webp",
+            "DescriptionEN": "Deals Fire DMG equal to [1]% of Himeko's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于姬子[1]%攻击力的火属性伤害。",
+            "DescriptionJP": "指定した敵単体に姫子の攻撃力[1]%分の炎属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "fireatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Molten Detonation",
+            "CNname": "熔核爆裂",
+            "JAname": "溶核爆裂",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekoskill.webp",
+            "DescriptionEN": "Deals Fire DMG equal to [1]% of Himeko's ATK to a single enemy and Fire DMG equal to [2]% of Himeko's ATK to enemies adjacent to it.",
+            "DescriptionCN": "对指定敌方单体造成等同于姬子[1]%攻击力的火属性伤害，同时对其相邻目标造成等同于姬子[2]%攻击力的火属性伤害。",
+            "DescriptionJP": "指定した敵単体に姫子の攻撃力[1]%分の炎属性ダメージを与え、隣接する敵に姫子の攻撃力[2]%分の炎属性ダメージを与える。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 100,
+                    "2": 110,
+                    "3": 120,
+                    "4": 130,
+                    "5": 140,
+                    "6": 150,
+                    "7": 162.5,
+                    "8": 175,
+                    "9": 187.5,
+                    "10": 200,
+                    "11": 210,
+                    "12": 220,
+                    "13": 230,
+                    "14": 240,
+                    "15": 250
+                },
+                {
+                    "1": 40,
+                    "2": 44,
+                    "3": 48,
+                    "4": 52,
+                    "5": 56,
+                    "6": 60,
+                    "7": 65,
+                    "8": 70,
+                    "9": 75,
+                    "10": 80,
+                    "11": 84,
+                    "12": 88,
+                    "13": 92,
+                    "14": 96,
+                    "15": 100
+                }
+            ],
+            "tags": [
+                "skillatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "aoe",
+                        "skillatk",
+                        "fireatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Heavenly Flare",
+            "CNname": "天坠之火",
+            "JAname": "天墜の火",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekoult.webp",
+            "DescriptionEN": "Deals Fire DMG equal to [1]% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+            "DescriptionCN": "对敌方全体造成等同于姬子[1]%攻击力的火属性伤害，每消灭1个敌方目标额外恢复姬子5点能量。",
+            "DescriptionJP": "敵全体に姫子の攻撃力[1]%分の炎属性ダメージを与える。敵を1体倒すごとに、さらに姫子のEPを5回復する。",
+            "stype": "ult",
+            "energy": 120,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 138,
+                    "2": 147.2,
+                    "3": 156.4,
+                    "4": 165.6,
+                    "5": 174.8,
+                    "6": 184,
+                    "7": 195.5,
+                    "8": 207,
+                    "9": 218.5,
+                    "10": 230,
+                    "11": 239.2,
+                    "12": 248.4,
+                    "13": 257.6,
+                    "14": 266.8,
+                    "15": 276
+                },
+                {
+                    "default": 5
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "fireatk",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "fireatk",
+                        "ultatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Victory Rush",
+            "CNname": "乘胜追击",
+            "JAname": "乗勝追撃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekotalent.webp",
+            "DescriptionEN": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points). If Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to [1]% of her ATK to all enemies, consuming all Charge points. At the start of the battle, Himeko gains 1 point of Charge.",
+            "DescriptionCN": "当有敌方目标的弱点被击破时，姬子获得充能，上限3点。当我方目标施放攻击后，若姬子的充能达到上限则立即发动1次追加攻击，对敌方全体目标造成等同于姬子[1]%攻击力的火属性伤害，并消耗全部充能。战斗开始时获得1点充能。",
+            "DescriptionJP": "敵が弱点撃破された時、姫子はチャージを獲得する、最大で3層まで。味方が攻撃を行った後、姫子のチャージが最大に達した場合、チャージを全部消費して追加攻撃を1回発動し、敵全体に姫子の攻撃力[1]%分の炎属性ダメージを与える。戦闘開始時にチャージを1層獲得。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 10,
+            "levelmultiplier": [
+                {
+                    "1": 70,
+                    "2": 77,
+                    "3": 84,
+                    "4": 91,
+                    "5": 98,
+                    "6": 105,
+                    "7": 113.75,
+                    "8": 122.5,
+                    "9": 131.25,
+                    "10": 140,
+                    "11": 147,
+                    "12": 154,
+                    "13": 161,
+                    "14": 168,
+                    "15": 175
+                }
+            ],
+            "tags": [
+                "aoe",
+                "followupatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "followupatk",
+                        "fireatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Incomplete Combustion",
+            "CNname": "不完全燃烧",
+            "JAname": "不完全燃焼",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekotec.webp",
+            "DescriptionEN": "After using Technique, creates a dimension that lasts for 15 second(s). After entering battle with enemies in the dimension, there is a 100% base chance to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 dimension created by allies can exist at the same time.",
+            "DescriptionCN": "使用秘技后，制造1片持续15秒的特殊领域。与处于特殊领域内的敌人进入战斗后，有100%的基础概率使敌方目标受到的火属性伤害提高10%，持续2回合。我方制造的领域效果最多存在1个。",
+            "DescriptionJP": "秘技を使用した後、15秒間持続する特殊領域を作り出す。特殊領域内にいる敵と戦闘に入った後、100%の基礎確率で敵の炎属性被ダメージ+10%、2ターン継続。味方が作り出した領域は1つまで存在できる。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "default": 100
+                },
+                {
+                    "default": 10
+                }
+            ],
+            "tags": [
+                "buff",
+                "taunt"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "firevulnerability",
+                    "multiplier": 1,
+                    "tag": [
+                        "firevulnerability"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "firedmgreceive",
+                    "multiplier": 2,
+                    "tag": [
+                        "firedmgreceive"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Magma",
+            "CNname": "灼热",
+            "JAname": "灼熱",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekot1.webp",
+            "DescriptionEN": "Skill deals 20% more DMG to enemies currently afflicted with Burn.",
+            "DescriptionCN": "战技对灼烧状态下的敌方目标造成的伤害提高20%。",
+            "DescriptionJP": "燃焼状態の敵に対する戦闘スキルの与ダメージ+20%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "skillatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "skillatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Benchmark",
+            "CNname": "道标",
+            "JAname": "道標",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekot2.webp",
+            "DescriptionEN": "When current HP percentage is 80% or higher, CRIT Rate increases by 15%.",
+            "DescriptionCN": "若当前生命值百分比大于等于80%，则暴击率提高15%。",
+            "DescriptionJP": "残りHPが80%以上の場合、会心率+15%。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Starfire",
+            "CNname": "星火",
+            "JAname": "星火",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekot3.webp",
+            "DescriptionEN": "After using an attack, there is a 50% base chance to inflict Burn on enemies for 2 turn(s). When afflicted with Burn, enemies take Fire DoT equal to 30% of Himeko's ATK at the start of each turn.",
+            "DescriptionCN": "施放攻击后，有50%的基础概率使敌方目标陷入灼烧状态，持续2回合。灼烧状态下，敌方目标每回合开始时受到等同于姬子30%攻击力的火属性持续伤害。",
+            "DescriptionJP": "攻撃を行った時、50%の基礎確率で敵を燃焼状態にする、2ターン継続。燃焼状態の敵はターンが回ってくるたびに、姫子の攻撃力30%分の炎属性持続ダメージを受ける。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "followupatk"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "burn",
+                    "multiplier": 50,
+                    "tag": [
+                        "allenemy",
+                        "burn"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 30,
+                    "tag": [
+                        "dotatk",
+                        "fireatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Fire DMG +4.8%",
+            "CNname": "火属性伤害提高 +4.8%",
+            "JAname": "炎属性与ダメージ +4.8%",
+            "ttype": "firedmg",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Fire DMG +4.8%",
+            "CNname": "火属性伤害提高 +4.8%",
+            "JAname": "炎属性与ダメージ +4.8%",
+            "ttype": "firedmg",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +6%",
+            "CNname": "效果抵抗 +6%",
+            "JAname": "効果抵抗 +6%",
+            "ttype": "effectres",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Fire DMG +3.2%",
+            "CNname": "火属性伤害提高 +3.2%",
+            "JAname": "炎属性与ダメージ +3.2%",
+            "ttype": "firedmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +4%",
+            "CNname": "效果抵抗 +4%",
+            "JAname": "効果抵抗 +4%",
+            "ttype": "effectres",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Fire DMG +3.2%",
+            "CNname": "火属性伤害提高 +3.2%",
+            "JAname": "炎属性与ダメージ +3.2%",
+            "ttype": "firedmg",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Fire DMG +6.4%",
+            "CNname": "火属性伤害提高 +6.4%",
+            "JAname": "炎属性与ダメージ +6.4%",
+            "ttype": "firedmg",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 6.4,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Childhood",
+            "CNname": "童年",
+            "JAname": "子供時代",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himeko1.png",
+            "DescriptionEN": "After Victory Rush is triggered, Himeko's SPD increases by 20% for 2 turn(s).",
+            "DescriptionCN": "【乘胜追击】触发后，姬子的速度提高20%，持续2回合。",
+            "DescriptionJP": "「乗勝追撃」発動後、姫子の速度+20%、2ターン継続。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Convergence",
+            "CNname": "邂逅",
+            "JAname": "邂逅",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himeko2.png",
+            "DescriptionEN": "Deals 15% more DMG to enemies whose HP percentage is 50% or less.",
+            "DescriptionCN": "对当前生命值百分比小于等于50%的敌方目标造成的伤害提高15%。",
+            "DescriptionJP": "残りHPが50%以下の敵に対して与ダメージ+15%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Poised",
+            "CNname": "自我",
+            "JAname": "自我",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekoskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Dedication",
+            "CNname": "投入",
+            "JAname": "没頭",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himeko4.png",
+            "DescriptionEN": "When Himeko's Skill inflicts Weakness Break on an enemy, she gains 1 extra point(s) of Charge.",
+            "DescriptionCN": "施放战技对敌方目标造成弱点击破时，姬子额外获得1点充能。",
+            "DescriptionJP": "戦闘スキルで敵を弱点撃破した時、姫子はさらにチャージを1獲得する。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Aspiration",
+            "CNname": "梦想",
+            "JAname": "夢",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himekoult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Trailblaze!",
+            "CNname": "开拓！",
+            "JAname": "開拓！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/himeko6.png",
+            "DescriptionEN": "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy.",
+            "DescriptionCN": "终结技额外造成2次伤害，对随机敌方单体各造成等同于原伤害40%的火属性伤害。",
+            "DescriptionJP": "必殺技のヒット数+2、1ヒットごとにランダムな敵単体に、本来のダメージ40%分の炎属性ダメージを与える。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "ultatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "ultatk",
+                    "multiplier": 40,
+                    "tag": [
+                        "singleenemy",
+                        "fireatk"
+                    ]
+                }
+            ]
+        }
+    ]
+}
