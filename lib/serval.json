@@ -500,10 +500,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Effect Hit Rate +4%",
+            "ENname": "Effect Hit +4%",
             "CNname": "效果命中 +4%",
             "JAname": "効果命中 +4%",
-            "ttype": "effecthitrate",
+            "ttype": "effecthit",
             "DescriptionEN": "A2",
             "DescriptionCN": "A2",
             "DescriptionJP": "A2",
@@ -513,16 +513,16 @@
             "tags": [
                 "buff",
                 "self",
-                "effecthitrate"
+                "effecthit"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "effecthitrate",
+                    "addtarget": "effecthit",
                     "multiplier": 4,
                     "tag": [
                         "self",
-                        "effecthitrate"
+                        "effecthit"
                     ]
                 }
             ]
@@ -616,10 +616,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Effect Hit Rate +6%",
+            "ENname": "Effect Hit +6%",
             "CNname": "效果命中 +6%",
             "JAname": "効果命中 +6%",
-            "ttype": "effecthitrate",
+            "ttype": "effecthit",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
@@ -629,16 +629,16 @@
             "tags": [
                 "buff",
                 "self",
-                "effecthitrate"
+                "effecthit"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "effecthitrate",
+                    "addtarget": "effecthit",
                     "multiplier": 6,
                     "tag": [
                         "self",
-                        "effecthitrate"
+                        "effecthit"
                     ]
                 }
             ]
@@ -703,10 +703,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Effect Hit Rate +8%",
+            "ENname": "Effect Hit +8%",
             "CNname": "效果命中 +8%",
             "JAname": "効果命中 +8%",
-            "ttype": "effecthitrate",
+            "ttype": "effecthit",
             "DescriptionEN": "LV75",
             "DescriptionCN": "LV75",
             "DescriptionJP": "LV75",
@@ -716,16 +716,16 @@
             "tags": [
                 "buff",
                 "self",
-                "effecthitrate"
+                "effecthit"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "effecthitrate",
+                    "addtarget": "effecthit",
                     "multiplier": 8,
                     "tag": [
                         "self",
-                        "effecthitrate"
+                        "effecthit"
                     ]
                 }
             ]
