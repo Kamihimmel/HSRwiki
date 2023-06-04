@@ -83,34 +83,36 @@
     ],
     "skilldata": [
         {
-            "ENname": "Mechanism",
-            "CNname": "机关",
+            "ENname": "IPC",
+            "CNname": "公司",
             "JAname": "電光石火",
-            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1]% of ATK to the target enemy.",
-            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]%攻击力的附加伤害。",
-            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]%分の付加ダメージを与える。",
+            "DescriptionEN": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by 12% of their Max HP.",
+            "DescriptionCN": "当装备者击破敌方目标的弱点时，回复等同于自身生命上限12%的生命值。",
+            "DescriptionJP": "装備キャラが敵を弱点撃破した時、HPを最大HP12%分回復する。",
             "maxlevel": 5,
             "buffskill": false,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 60,
-                    "2": 75,
-                    "3": 90,
-                    "4": 105,
-                    "5": 120
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
                 }
             ],
             "tags": [
-                "additionalatk"
+                "heal",
+                "self"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
                     "multiplier": 1,
                     "tag": [
-                        "additionalatk"
+                        "self",
+                        "heal"
                     ]
                 }
             ]
