@@ -363,9 +363,9 @@
             "CNname": "云骑剑经 • 叩阵",
             "JAname": "雲騎剣経・叩陣",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangtec.webp",
-            "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to [1]% of her ATK to all enemies.",
-            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方全体造成等同于素裳[1]%攻击力的物理属性伤害。",
-            "DescriptionJP": "敵を攻撃。戦闘に入った後、敵全体に素裳の攻撃力[1]%分の物理ダメージを与える。",
+            "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方全体造成等同于素裳80%攻击力的物理属性伤害。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、敵全体に素裳の攻撃力80%分の物理ダメージを与える。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": false,
@@ -461,17 +461,17 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "speed",
+                "actionf",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
-                    "multiplier": 20,
+                    "addtarget": "actionf",
+                    "multiplier": 15,
                     "tag": [
                         "self",
-                        "speed"
+                        "actionf"
                     ]
                 }
             ]
