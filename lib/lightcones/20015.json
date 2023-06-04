@@ -83,34 +83,37 @@
     ],
     "skilldata": [
         {
-            "ENname": "Mechanism",
-            "CNname": "机关",
-            "JAname": "電光石火",
-            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1]% of ATK to the target enemy.",
-            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]%攻击力的附加伤害。",
-            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]%分の付加ダメージを与える。",
+            "ENname": "Denizens of Abundance",
+            "CNname": "丰饶民",
+            "JAname": "豊穣の民",
+            "DescriptionEN": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by [1]%.",
+            "DescriptionCN": "当装备者施放普攻后，使下一次行动提前[1]%。",
+            "DescriptionJP": "装備キャラが通常攻撃を行った後、次の行動順が[1]%早まる。",
             "maxlevel": 5,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 60,
-                    "2": 75,
-                    "3": 90,
-                    "4": 105,
-                    "5": 120
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
                 }
             ],
             "tags": [
-                "additionalatk"
+                "buff",
+                "actionf",
+                "self"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
+                    "type": "buff",
+                    "addtarget": "actionf",
                     "multiplier": 1,
                     "tag": [
-                        "additionalatk"
+                        "self",
+                        "actionf"
                     ]
                 }
             ]

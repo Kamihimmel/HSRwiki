@@ -90,7 +90,7 @@
             "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
             "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
             "maxlevel": 5,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
@@ -102,6 +102,8 @@
                 }
             ],
             "tags": [
+                "buff",
+                "self",
                 "speed"
             ],
             "effect": [
