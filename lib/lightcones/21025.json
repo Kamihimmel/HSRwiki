@@ -83,34 +83,37 @@
     ],
     "skilldata": [
         {
-            "ENname": "Mechanism",
-            "CNname": "机关",
-            "JAname": "電光石火",
-            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1]% of ATK to the target enemy.",
-            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]%攻击力的附加伤害。",
-            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]%分の付加ダメージを与える。",
+            "ENname": "Kites From the Past",
+            "CNname": "旧日纸鸢",
+            "JAname": "昔日の紙鳶",
+            "DescriptionEN": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals [1]% increased DMG for 1 turn(s).",
+            "DescriptionCN": "当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高[1]%，持续1回合。",
+            "DescriptionJP": "装備キャラが戦闘スキルを発動した後、次に行動する他の味方の与ダメージ+[1]%、1ターン継続。",
             "maxlevel": 5,
-            "buffskill": false,
-            "teamskill": false,
+            "buffskill": true,
+            "teamskill": true,
             "levelmultiplier": [
                 {
-                    "1": 60,
-                    "2": 75,
-                    "3": 90,
-                    "4": 105,
-                    "5": 120
+                    "1": 16,
+                    "2": 20,
+                    "3": 24,
+                    "4": 28,
+                    "5": 32
                 }
             ],
             "tags": [
-                "additionalatk"
+                "buff",
+                "allally",
+                "speed"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
+                    "type": "buff",
+                    "addtarget": "alldmg",
                     "multiplier": 1,
                     "tag": [
-                        "additionalatk"
+                        "allally",
+                        "alldmg"
                     ]
                 }
             ]

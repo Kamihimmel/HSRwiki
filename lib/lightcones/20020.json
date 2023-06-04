@@ -83,34 +83,37 @@
     ],
     "skilldata": [
         {
-            "ENname": "Mechanism",
-            "CNname": "机关",
-            "JAname": "電光石火",
-            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1]% of ATK to the target enemy.",
-            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]%攻击力的附加伤害。",
-            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]%分の付加ダメージを与える。",
+            "ENname": "Genius",
+            "CNname": "天才",
+            "JAname": "天才",
+            "DescriptionEN": "When the wearer uses their Ultimate, increases ATK by [1]% for 2 turn(s).",
+            "DescriptionCN": "当装备者施放终结技时，攻击力提高[1]%，持续2回合。",
+            "DescriptionJP": "装備キャラが必殺技を発動した時、攻撃力+[1]%、2ターン継続。",
             "maxlevel": 5,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 60,
-                    "2": 75,
-                    "3": 90,
-                    "4": 105,
-                    "5": 120
+                    "1": 24,
+                    "2": 30,
+                    "3": 36,
+                    "4": 42,
+                    "5": 48
                 }
             ],
             "tags": [
-                "additionalatk"
+                "buff",
+                "atk",
+                "self"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
+                    "type": "buff",
+                    "addtarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "additionalatk"
+                        "self",
+                        "atk"
                     ]
                 }
             ]

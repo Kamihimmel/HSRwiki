@@ -87,32 +87,32 @@
             "CNname": "家族",
             "JAname": "ファミリー",
             "DescriptionEN": "Upon battle entry, all allies receive 12 increased SPD for 1 turn(s).",
-            "DescriptionCN": "进入战斗时，我方全体速度提高12，持续1回合。",
-            "DescriptionJP": "戦闘に入る時、味方全体の速度+12、1ターン継続。",
+            "DescriptionCN": "进入战斗时，我方全体速度提高[1]，持续1回合。",
+            "DescriptionJP": "戦闘に入る時、味方全体の速度+[1]、1ターン継続。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": true,
             "levelmultiplier": [
                 {
-                    "1": 60,
-                    "2": 75,
-                    "3": 90,
-                    "4": 105,
-                    "5": 120
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
                 }
             ],
             "tags": [
                 "buff",
-                "self",
+                "allally",
                 "speed"
             ],
             "effect": [
                 {
                     "type": "buff",
                     "addtarget": "",
-                    "multiplier": 12,
+                    "multiplier": 1,
                     "tag": [
-                        "self",
+                        "allally",
                         "speed"
                     ]
                 }
