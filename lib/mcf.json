@@ -242,7 +242,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "multipliertarget": "damagereceive",
+                    "addtarget": "damagereceive",
                     "multiplier": 1,
                     "tag": [
                         "self",
