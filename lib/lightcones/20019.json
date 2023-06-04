@@ -83,15 +83,15 @@
     ],
     "skilldata": [
         {
-            "ENname": "Mechanism",
-            "CNname": "机关",
-            "JAname": "電光石火",
-            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1]% of ATK to the target enemy.",
-            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]%攻击力的附加伤害。",
-            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]%分の付加ダメージを与える。",
+            "ENname": "Family",
+            "CNname": "家族",
+            "JAname": "ファミリー",
+            "DescriptionEN": "Upon battle entry, all allies receive 12 increased SPD for 1 turn(s).",
+            "DescriptionCN": "进入战斗时，我方全体速度提高12，持续1回合。",
+            "DescriptionJP": "戦闘に入る時、味方全体の速度+12、1ターン継続。",
             "maxlevel": 5,
-            "buffskill": false,
-            "teamskill": false,
+            "buffskill": true,
+            "teamskill": true,
             "levelmultiplier": [
                 {
                     "1": 60,
@@ -102,15 +102,18 @@
                 }
             ],
             "tags": [
-                "additionalatk"
+                "buff",
+                "self",
+                "speed"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 1,
+                    "type": "buff",
+                    "addtarget": "",
+                    "multiplier": 12,
                     "tag": [
-                        "additionalatk"
+                        "self",
+                        "speed"
                     ]
                 }
             ]
