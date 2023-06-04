@@ -236,22 +236,22 @@
             ],
             "tags": [
                 "buff",
-                "damagereceive",
+                "dmgreceive",
                 "tauntdebuff"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "damagereceive",
+                    "addtarget": "dmgreceive",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "damagereceive"
+                        "dmgreceive"
                     ]
                 },
                 {
                     "type": "debuff",
-                    "addtarget": "tauntdebuff",
+                    "multipliertarget": "tauntdebuff",
                     "multiplier": 2,
                     "tag": [
                         "allenemy",
@@ -501,17 +501,17 @@
             "teamskill": true,
             "tags": [
                 "buff",
-                "damagereceive",
+                "dmgreceive",
                 "allally"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "damagereceive",
+                    "addtarget": "dmgreceive",
                     "multiplier": -15,
                     "tag": [
                         "allally",
-                        "damagereceive"
+                        "dmgreceive"
                     ]
                 }
             ]
