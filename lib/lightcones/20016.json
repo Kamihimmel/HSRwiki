@@ -83,34 +83,37 @@
     ],
     "skilldata": [
         {
-            "ENname": "Mechanism",
-            "CNname": "机关",
-            "JAname": "電光石火",
-            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1]% of ATK to the target enemy.",
-            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]%攻击力的附加伤害。",
-            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]%分の付加ダメージを与える。",
+            "ENname": "Legion",
+            "CNname": "军团",
+            "JAname": "レギオン",
+            "DescriptionEN": "If the wearer's current HP is lower than 80%, CRIT Rate increases by 12%.",
+            "DescriptionCN": "装备者当前生命值百分比小于80%时，暴击率提高12%。",
+            "DescriptionJP": "装備キャラの残りHPが80%未満の場合、会心率+12%。",
             "maxlevel": 5,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 60,
-                    "2": 75,
-                    "3": 90,
-                    "4": 105,
-                    "5": 120
+                    "1": 12,
+                    "2": 15,
+                    "3": 18,
+                    "4": 21,
+                    "5": 24
                 }
             ],
             "tags": [
-                "additionalatk"
+                "buff",
+                "critrate",
+                "self"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
+                    "type": "buff",
+                    "addtarget": "critrate",
                     "multiplier": 1,
                     "tag": [
-                        "additionalatk"
+                        "self",
+                        "critrate"
                     ]
                 }
             ]
