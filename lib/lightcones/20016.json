@@ -1,0 +1,122 @@
+{
+    "id": "20016",
+    "ENname": "Mutual Demise",
+    "CNname": "俱殁",
+    "JAname": "倶歿",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20016.png",
+    "wtype": "destruction",
+    "rarity": "3",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20016l.webp",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 38,
+            "atk": 16.8,
+            "def": 9
+        },
+        {
+            "level": "20",
+            "hp": 148,
+            "atk": 64.68,
+            "def": 34.65
+        },
+        {
+            "level": "20+",
+            "hp": 194,
+            "atk": 84.84,
+            "def": 45.45
+        },
+        {
+            "level": "40",
+            "hp": 371,
+            "atk": 162.12,
+            "def": 86.85
+        },
+        {
+            "level": "40+",
+            "hp": 432,
+            "atk": 189,
+            "def": 101.25
+        },
+        {
+            "level": "50",
+            "hp": 490,
+            "atk": 214.2,
+            "def": 114.75
+        },
+        {
+            "level": "50+",
+            "hp": 551,
+            "atk": 241.08,
+            "def": 129.15
+        },
+        {
+            "level": "60",
+            "hp": 609,
+            "atk": 266.28,
+            "def": 142.65
+        },
+        {
+            "level": "60+",
+            "hp": 670,
+            "atk": 293.16,
+            "def": 157.05
+        },
+        {
+            "level": "70",
+            "hp": 728,
+            "atk": 318.36,
+            "def": 170.55
+        },
+        {
+            "level": "70+",
+            "hp": 789,
+            "atk": 345.24,
+            "def": 184.95
+        },
+        {
+            "level": "80",
+            "hp": 847,
+            "atk": 370.44,
+            "def": 198.45
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Legion",
+            "CNname": "军团",
+            "JAname": "レギオン",
+            "DescriptionEN": "If the wearer's current HP is lower than 80%, CRIT Rate increases by [1]%.",
+            "DescriptionCN": "装备者当前生命值百分比小于80%时，暴击率提高[1]%。",
+            "DescriptionJP": "装備キャラの残りHPが80%未満の場合、会心率+[1]%。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 12,
+                    "2": 15,
+                    "3": 18,
+                    "4": 21,
+                    "5": 24
+                }
+            ],
+            "tags": [
+                "buff",
+                "critrate",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "id": "20019",
+    "ENname": "Mediation",
+    "CNname": "调和",
+    "JAname": "同調",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20019.png",
+    "wtype": "harmony",
+    "rarity": "3",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20019l.webp",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 38,
+            "atk": 14.4,
+            "def": 12
+        },
+        {
+            "level": "20",
+            "hp": 148,
+            "atk": 55.44,
+            "def": 46.2
+        },
+        {
+            "level": "20+",
+            "hp": 194,
+            "atk": 72.72,
+            "def": 60.6
+        },
+        {
+            "level": "40",
+            "hp": 371,
+            "atk": 138.96,
+            "def": 115.8
+        },
+        {
+            "level": "40+",
+            "hp": 432,
+            "atk": 162,
+            "def": 135
+        },
+        {
+            "level": "50",
+            "hp": 490,
+            "atk": 183.6,
+            "def": 153
+        },
+        {
+            "level": "50+",
+            "hp": 551,
+            "atk": 206.64,
+            "def": 172.2
+        },
+        {
+            "level": "60",
+            "hp": 609,
+            "atk": 228.24,
+            "def": 190.2
+        },
+        {
+            "level": "60+",
+            "hp": 670,
+            "atk": 251.28,
+            "def": 209.4
+        },
+        {
+            "level": "70",
+            "hp": 728,
+            "atk": 272.88,
+            "def": 227.4
+        },
+        {
+            "level": "70+",
+            "hp": 789,
+            "atk": 295.92,
+            "def": 246.6
+        },
+        {
+            "level": "80",
+            "hp": 847,
+            "atk": 317.52,
+            "def": 264.6
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Family",
+            "CNname": "家族",
+            "JAname": "ファミリー",
+            "DescriptionEN": "Upon battle entry, all allies receive 12 increased SPD for 1 turn(s).",
+            "DescriptionCN": "进入战斗时，我方全体速度提高[1]，持续1回合。",
+            "DescriptionJP": "戦闘に入る時、味方全体の速度+[1]、1ターン継続。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": true,
+            "levelmultiplier": [
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                }
+            ],
+            "tags": [
+                "buff",
+                "allally",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "",
+                    "multiplier": 1,
+                    "tag": [
+                        "allally",
+                        "speed"
+                    ]
+                }
+            ]
+        }
+    ]
+}

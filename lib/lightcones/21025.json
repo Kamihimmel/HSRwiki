@@ -1,0 +1,122 @@
+{
+    "id": "21025",
+    "ENname": "Past and Future",
+    "CNname": "过往未来",
+    "JAname": "過去と未来",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21025.png",
+    "wtype": "harmony",
+    "rarity": "4",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21025l.webp",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43,
+            "atk": 19.2,
+            "def": 18
+        },
+        {
+            "level": "20",
+            "hp": 166,
+            "atk": 73.92,
+            "def": 69.3
+        },
+        {
+            "level": "20+",
+            "hp": 218,
+            "atk": 96.96,
+            "def": 90.9
+        },
+        {
+            "level": "40",
+            "hp": 417,
+            "atk": 185.28,
+            "def": 173.7
+        },
+        {
+            "level": "40+",
+            "hp": 486,
+            "atk": 216,
+            "def": 202.5
+        },
+        {
+            "level": "50",
+            "hp": 551,
+            "atk": 244.8,
+            "def": 229.5
+        },
+        {
+            "level": "50+",
+            "hp": 620,
+            "atk": 275.52,
+            "def": 258.3
+        },
+        {
+            "level": "60",
+            "hp": 685,
+            "atk": 304.32,
+            "def": 285.3
+        },
+        {
+            "level": "60+",
+            "hp": 754,
+            "atk": 335.04,
+            "def": 314.1
+        },
+        {
+            "level": "70",
+            "hp": 819,
+            "atk": 363.84,
+            "def": 341.1
+        },
+        {
+            "level": "70+",
+            "hp": 888,
+            "atk": 394.56,
+            "def": 369.9
+        },
+        {
+            "level": "80",
+            "hp": 953,
+            "atk": 423.36,
+            "def": 396.9
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Kites From the Past",
+            "CNname": "旧日纸鸢",
+            "JAname": "昔日の紙鳶",
+            "DescriptionEN": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals [1]% increased DMG for 1 turn(s).",
+            "DescriptionCN": "当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高[1]%，持续1回合。",
+            "DescriptionJP": "装備キャラが戦闘スキルを発動した後、次に行動する他の味方の与ダメージ+[1]%、1ターン継続。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": true,
+            "levelmultiplier": [
+                {
+                    "1": 16,
+                    "2": 20,
+                    "3": 24,
+                    "4": 28,
+                    "5": 32
+                }
+            ],
+            "tags": [
+                "buff",
+                "allally",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "allally",
+                        "alldmg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

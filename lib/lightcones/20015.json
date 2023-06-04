@@ -1,0 +1,122 @@
+{
+    "id": "20015",
+    "ENname": "Multiplication",
+    "CNname": "蕃息",
+    "JAname": "蕃殖",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20015.png",
+    "wtype": "abundance",
+    "rarity": "3",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20015l.webp",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43,
+            "atk": 14.4,
+            "def": 9
+        },
+        {
+            "level": "20",
+            "hp": 166,
+            "atk": 55.44,
+            "def": 34.65
+        },
+        {
+            "level": "20+",
+            "hp": 218,
+            "atk": 72.72,
+            "def": 45.45
+        },
+        {
+            "level": "40",
+            "hp": 417,
+            "atk": 138.96,
+            "def": 86.85
+        },
+        {
+            "level": "40+",
+            "hp": 486,
+            "atk": 162,
+            "def": 101.25
+        },
+        {
+            "level": "50",
+            "hp": 551,
+            "atk": 183.6,
+            "def": 114.75
+        },
+        {
+            "level": "50+",
+            "hp": 620,
+            "atk": 206.64,
+            "def": 129.15
+        },
+        {
+            "level": "60",
+            "hp": 685,
+            "atk": 228.24,
+            "def": 142.65
+        },
+        {
+            "level": "60+",
+            "hp": 754,
+            "atk": 251.28,
+            "def": 157.05
+        },
+        {
+            "level": "70",
+            "hp": 819,
+            "atk": 272.88,
+            "def": 170.55
+        },
+        {
+            "level": "70+",
+            "hp": 888,
+            "atk": 295.92,
+            "def": 184.95
+        },
+        {
+            "level": "80",
+            "hp": 953,
+            "atk": 317.52,
+            "def": 198.45
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Denizens of Abundance",
+            "CNname": "丰饶民",
+            "JAname": "豊穣の民",
+            "DescriptionEN": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by [1]%.",
+            "DescriptionCN": "当装备者施放普攻后，使下一次行动提前[1]%。",
+            "DescriptionJP": "装備キャラが通常攻撃を行った後、次の行動順が[1]%早まる。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                }
+            ],
+            "tags": [
+                "buff",
+                "actionf",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                }
+            ]
+        }
+    ]
+}

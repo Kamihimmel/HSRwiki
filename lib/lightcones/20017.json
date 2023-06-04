@@ -1,0 +1,121 @@
+{
+    "id": "20017",
+    "ENname": "Pioneering",
+    "CNname": "开疆",
+    "JAname": "新天地",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20017.png",
+    "wtype": "preservation",
+    "rarity": "3",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20017l.webp",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43,
+            "atk": 12,
+            "def": 12
+        },
+        {
+            "level": "20",
+            "hp": 166,
+            "atk": 46.2,
+            "def": 46.2
+        },
+        {
+            "level": "20+",
+            "hp": 218,
+            "atk": 60.6,
+            "def": 60.6
+        },
+        {
+            "level": "40",
+            "hp": 417,
+            "atk": 115.8,
+            "def": 115.8
+        },
+        {
+            "level": "40+",
+            "hp": 486,
+            "atk": 135,
+            "def": 135
+        },
+        {
+            "level": "50",
+            "hp": 551,
+            "atk": 153,
+            "def": 153
+        },
+        {
+            "level": "50+",
+            "hp": 620,
+            "atk": 172.2,
+            "def": 172.2
+        },
+        {
+            "level": "60",
+            "hp": 685,
+            "atk": 190.2,
+            "def": 190.2
+        },
+        {
+            "level": "60+",
+            "hp": 754,
+            "atk": 209.4,
+            "def": 209.4
+        },
+        {
+            "level": "70",
+            "hp": 819,
+            "atk": 227.4,
+            "def": 227.4
+        },
+        {
+            "level": "70+",
+            "hp": 888,
+            "atk": 246.6,
+            "def": 246.6
+        },
+        {
+            "level": "80",
+            "hp": 953,
+            "atk": 264.6,
+            "def": 264.6
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "IPC",
+            "CNname": "公司",
+            "JAname": "電光石火",
+            "DescriptionEN": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by [1]% of their Max HP.",
+            "DescriptionCN": "当装备者击破敌方目标的弱点时，回复等同于自身生命上限[1]%的生命值。",
+            "DescriptionJP": "装備キャラが敵を弱点撃破した時、HPを最大HP[1]%分回復する。",
+            "maxlevel": 5,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                }
+            ],
+            "tags": [
+                "heal",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                }
+            ]
+        }
+    ]
+}
