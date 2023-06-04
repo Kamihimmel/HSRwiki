@@ -1,0 +1,119 @@
+{
+    "id": "20016",
+    "ENname": "Mutual Demise",
+    "CNname": "俱殁",
+    "JAname": "倶歿",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20016.png",
+    "wtype": "destruction",
+    "rarity": "3",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20016l.webp",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 38,
+            "atk": 16.8,
+            "def": 9
+        },
+        {
+            "level": "20",
+            "hp": 148,
+            "atk": 64.68,
+            "def": 34.65
+        },
+        {
+            "level": "20+",
+            "hp": 194,
+            "atk": 84.84,
+            "def": 45.45
+        },
+        {
+            "level": "40",
+            "hp": 371,
+            "atk": 162.12,
+            "def": 86.85
+        },
+        {
+            "level": "40+",
+            "hp": 432,
+            "atk": 189,
+            "def": 101.25
+        },
+        {
+            "level": "50",
+            "hp": 490,
+            "atk": 214.2,
+            "def": 114.75
+        },
+        {
+            "level": "50+",
+            "hp": 551,
+            "atk": 241.08,
+            "def": 129.15
+        },
+        {
+            "level": "60",
+            "hp": 609,
+            "atk": 266.28,
+            "def": 142.65
+        },
+        {
+            "level": "60+",
+            "hp": 670,
+            "atk": 293.16,
+            "def": 157.05
+        },
+        {
+            "level": "70",
+            "hp": 728,
+            "atk": 318.36,
+            "def": 170.55
+        },
+        {
+            "level": "70+",
+            "hp": 789,
+            "atk": 345.24,
+            "def": 184.95
+        },
+        {
+            "level": "80",
+            "hp": 847,
+            "atk": 370.44,
+            "def": 198.45
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Mechanism",
+            "CNname": "机关",
+            "JAname": "電光石火",
+            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1]% of ATK to the target enemy.",
+            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]%攻击力的附加伤害。",
+            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]%分の付加ダメージを与える。",
+            "maxlevel": 5,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 60,
+                    "2": 75,
+                    "3": 90,
+                    "4": 105,
+                    "5": 120
+                }
+            ],
+            "tags": [
+                "additionalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk"
+                    ]
+                }
+            ]
+        }
+    ]
+}

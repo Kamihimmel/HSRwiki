@@ -1,0 +1,119 @@
+{
+    "id": "21025",
+    "ENname": "Past and Future",
+    "CNname": "过往未来",
+    "JAname": "過去と未来",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21025.png",
+    "wtype": "harmony",
+    "rarity": "4",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21025l.webp",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43,
+            "atk": 19.2,
+            "def": 18
+        },
+        {
+            "level": "20",
+            "hp": 166,
+            "atk": 73.92,
+            "def": 69.3
+        },
+        {
+            "level": "20+",
+            "hp": 218,
+            "atk": 96.96,
+            "def": 90.9
+        },
+        {
+            "level": "40",
+            "hp": 417,
+            "atk": 185.28,
+            "def": 173.7
+        },
+        {
+            "level": "40+",
+            "hp": 486,
+            "atk": 216,
+            "def": 202.5
+        },
+        {
+            "level": "50",
+            "hp": 551,
+            "atk": 244.8,
+            "def": 229.5
+        },
+        {
+            "level": "50+",
+            "hp": 620,
+            "atk": 275.52,
+            "def": 258.3
+        },
+        {
+            "level": "60",
+            "hp": 685,
+            "atk": 304.32,
+            "def": 285.3
+        },
+        {
+            "level": "60+",
+            "hp": 754,
+            "atk": 335.04,
+            "def": 314.1
+        },
+        {
+            "level": "70",
+            "hp": 819,
+            "atk": 363.84,
+            "def": 341.1
+        },
+        {
+            "level": "70+",
+            "hp": 888,
+            "atk": 394.56,
+            "def": 369.9
+        },
+        {
+            "level": "80",
+            "hp": 953,
+            "atk": 423.36,
+            "def": 396.9
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Mechanism",
+            "CNname": "机关",
+            "JAname": "電光石火",
+            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1]% of ATK to the target enemy.",
+            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]%攻击力的附加伤害。",
+            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]%分の付加ダメージを与える。",
+            "maxlevel": 5,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 60,
+                    "2": 75,
+                    "3": 90,
+                    "4": 105,
+                    "5": 120
+                }
+            ],
+            "tags": [
+                "additionalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk"
+                    ]
+                }
+            ]
+        }
+    ]
+}

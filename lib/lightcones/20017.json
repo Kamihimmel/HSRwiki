@@ -1,0 +1,119 @@
+{
+    "id": "20017",
+    "ENname": "Pioneering",
+    "CNname": "开疆",
+    "JAname": "新天地",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20017.png",
+    "wtype": "preservation",
+    "rarity": "3",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20017l.webp",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43,
+            "atk": 12,
+            "def": 12
+        },
+        {
+            "level": "20",
+            "hp": 166,
+            "atk": 46.2,
+            "def": 46.2
+        },
+        {
+            "level": "20+",
+            "hp": 218,
+            "atk": 60.6,
+            "def": 60.6
+        },
+        {
+            "level": "40",
+            "hp": 417,
+            "atk": 115.8,
+            "def": 115.8
+        },
+        {
+            "level": "40+",
+            "hp": 486,
+            "atk": 135,
+            "def": 135
+        },
+        {
+            "level": "50",
+            "hp": 551,
+            "atk": 153,
+            "def": 153
+        },
+        {
+            "level": "50+",
+            "hp": 620,
+            "atk": 172.2,
+            "def": 172.2
+        },
+        {
+            "level": "60",
+            "hp": 685,
+            "atk": 190.2,
+            "def": 190.2
+        },
+        {
+            "level": "60+",
+            "hp": 754,
+            "atk": 209.4,
+            "def": 209.4
+        },
+        {
+            "level": "70",
+            "hp": 819,
+            "atk": 227.4,
+            "def": 227.4
+        },
+        {
+            "level": "70+",
+            "hp": 888,
+            "atk": 246.6,
+            "def": 246.6
+        },
+        {
+            "level": "80",
+            "hp": 953,
+            "atk": 264.6,
+            "def": 264.6
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Mechanism",
+            "CNname": "机关",
+            "JAname": "電光石火",
+            "DescriptionEN": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to [1]% of ATK to the target enemy.",
+            "DescriptionCN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身[1]%攻击力的附加伤害。",
+            "DescriptionJP": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力[1]%分の付加ダメージを与える。",
+            "maxlevel": 5,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 60,
+                    "2": 75,
+                    "3": 90,
+                    "4": 105,
+                    "5": 120
+                }
+            ],
+            "tags": [
+                "additionalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk"
+                    ]
+                }
+            ]
+        }
+    ]
+}
