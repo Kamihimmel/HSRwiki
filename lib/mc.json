@@ -780,7 +780,7 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mc1.webp",
             "DescriptionEN": "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra Energy. This effect can only be triggered once per attack.",
             "DescriptionCN": "放终结技消灭敌方目标时，开拓者额外恢复10点能量，该效果每次攻击只能触发1次。",
-            "DescriptionJP": "通常攻撃を行った時、指定した敵単体の残りHPが50%以下の場合、さらにヘルタの攻撃力40%分の氷属性付加ダメージを与える。",
+            "DescriptionJP": "必殺技で敵を倒した時、さらに開拓者のEPを10回復する。この効果は1回の攻撃で1回まで発動できる。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -793,7 +793,7 @@
                 {
                     "type": "dmg",
                     "addtarget": "energy",
-                    "multiplier": 40,
+                    "multiplier": 10,
                     "tag": [
                         "self",
                         "energy"

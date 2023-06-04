@@ -89,12 +89,12 @@
     "skilldata": [
         {
             "ENname": "Ice-Breaking Light",
-            "CNname": "看什么看",
-            "JAname": "何見てるの？",
+            "CNname": "穿彻坚冰的烈芒",
+            "JAname": "堅氷を貫く烈火",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcfna.webp",
-            "DescriptionEN": "Deals Ice DMG equal to [1]% of mcf's ATK to a single enemy.",
-            "DescriptionCN": "对指定敌方单体造成等同于黑塔[1]%攻击力的冰属性伤害。",
-            "DescriptionJP": "指定した敵単体にヘルタの攻撃力[1]%分の氷属性ダメージを与える。",
+            "DescriptionEN": "Deals Fire DMG equal to [1]% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.",
+            "DescriptionCN": "对指定敌方单体造成等同于开拓者[1]%攻击力的火属性伤害并叠加1层【灼热意志】。",
+            "DescriptionJP": "指定した敵単体に開拓者の攻撃力[1]%分の炎属性ダメージを与え、「灼熱意志」を1層獲得する。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -117,7 +117,7 @@
             "tags": [
                 "singleatk",
                 "normalatk",
-                "iceatk"
+                "fireatk"
             ],
             "effect": [
                 {
@@ -127,25 +127,154 @@
                     "tag": [
                         "singleatk",
                         "normalatk",
-                        "iceatk"
+                        "fireatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "One-Time Offer",
-            "CNname": "一锤子买卖",
-            "JAname": "一度限りの取引",
+            "ENname": "Ice-Breaking Light",
+            "CNname": "穿彻坚冰的烈芒",
+            "JAname": "堅氷を貫く烈火",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcfna.webp",
+            "DescriptionEN": "Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to [1]% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to [2]% of the Trailblazer's ATK to enemies adjacent to it.",
+            "DescriptionCN": "消耗4层【灼热意志】，强化普攻。对指定敌方单体造成等同于开拓者[1]%攻击力的火属性伤害，同时对其相邻目标造成等同于开拓者[2]%攻击力的火属性伤害。",
+            "DescriptionJP": "「灼熱意志」を4層消費して、通常攻撃を強化。指定した敵単体に開拓者の攻撃力[1]%分の炎属性ダメージを与え、隣接する敵に開拓者の攻撃力[2]%分の炎属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 90,
+                    "2": 99,
+                    "3": 108,
+                    "4": 117,
+                    "5": 126,
+                    "6": 135,
+                    "7": 146.25,
+                    "8": 157.5,
+                    "9": 168.75
+                },
+                {
+                    "1": 36,
+                    "2": 39.6,
+                    "3": 43.2,
+                    "4": 46.8,
+                    "5": 50.4,
+                    "6": 54,
+                    "7": 58.5,
+                    "8": 63,
+                    "9": 67.5
+                }
+            ],
+            "tags": [
+                "blastatk",
+                "normalatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "normalatk",
+                        "fireatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Ever-Burning Amber",
+            "CNname": "炽燃不灭的琥珀",
+            "JAname": "不滅のアンバー",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcfskill.webp",
-            "DescriptionEN": "Deals Ice DMG equal to [1]% of mcf's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-            "DescriptionCN": "对敌方全体造成等同于黑塔[1]%攻击力的冰属性伤害。若敌方目标当前生命值百分比大于等于50%，则对该目标造成的伤害提高20%。",
-            "DescriptionJP": "敵全体にヘルタの攻撃力[1]%分の氷属性ダメージを与える。敵の残りHPが50%以上の場合、その敵に対して与ダメージ+20%。",
+            "DescriptionEN": "Increases the Trailblazer's DMG Reduction by [1]% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).",
+            "DescriptionCN": "施放战技后，开拓者受到的伤害降低[1]%并叠加1层【灼热意志】，此外有100%基础概率使敌方全体陷入嘲讽状态，持续1回合。",
+            "DescriptionJP": "戦闘スキルを発動した後、開拓者の被ダメージ-[1]%、「灼熱意志」を1層獲得、さらに100%の基礎確率で敵全体を挑発状態にする、1ターン継続。",
             "stype": "skill",
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": false,
-            "weaknessbreak": 30,
+            "weaknessbreak": 0,
             "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": -40,
+                    "2": -41,
+                    "3": -42,
+                    "4": -43,
+                    "5": -44,
+                    "6": -45,
+                    "7": -46.25,
+                    "8": -47.5,
+                    "9": -48.75,
+                    "10": -50,
+                    "11": -51,
+                    "12": -52,
+                    "13": -53,
+                    "14": -54,
+                    "15": -55
+                },
+                {
+                    "default": 100
+                }
+            ],
+            "tags": [
+                "buff",
+                "damagereceive",
+                "tauntdebuff"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "multipliertarget": "damagereceive",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "damagereceive"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "tauntdebuff",
+                    "multiplier": 2,
+                    "tag": [
+                        "allenemy",
+                        "tauntdebuff"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "War-Flaming Lance",
+            "CNname": "陷阵无回的炎枪",
+            "JAname": "陥陣無帰の炎槍",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcfult.webp",
+            "DescriptionEN": "Deals Fire DMG equal to [1]% of the Trailblazer's ATK plus [2]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+            "DescriptionCN": "对敌方全体造成等同于开拓者[1]%攻击力+[2]%防御力的火属性伤害。下一次施放普攻时，自动获得强化且不消耗【灼热意志】。",
+            "DescriptionJP": "敵全体に開拓者の攻撃力[1]%+防御力[2]%分の炎属性ダメージを与える。次の通常攻撃を強化、その強化通常攻撃は「灼熱意志」を消費しない。",
+            "stype": "ult",
+            "energy": 120,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 5,
             "levelmultiplier": [
                 {
                     "1": 50,
@@ -165,74 +294,27 @@
                     "15": 125
                 },
                 {
-                    "default": 20
-                }
-            ],
-            "tags": [
-                "aoe",
-                "skillatk",
-                "iceatk"
-            ],
-            "effect": [
-                {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 1,
-                    "tag": [
-                        "aoe",
-                        "skillatk",
-                        "iceatk"
-                    ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 2,
-                    "tag": [
-                        "self",
-                        "alldmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "ENname": "It's Magic, I Added Some Magic",
-            "CNname": "是魔法，我加了魔法",
-            "JAname": "私がかけた魔法だよ",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcfult.webp",
-            "DescriptionEN": "Deals Ice DMG equal to [1]% of mcf's ATK to all enemies.",
-            "DescriptionCN": "对敌方全体造成等同于黑塔[1]%攻击力的冰属性伤害。",
-            "DescriptionJP": "敵全体にヘルタの攻撃力[1]%分の氷属性ダメージを与える。",
-            "stype": "ult",
-            "energy": 110,
-            "maxlevel": 15,
-            "buffskill": false,
-            "teamskill": false,
-            "weaknessbreak": 60,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "1": 120,
-                    "2": 128,
-                    "3": 136,
-                    "4": 144,
-                    "5": 152,
-                    "6": 160,
-                    "7": 170,
-                    "8": 180,
-                    "9": 190,
-                    "10": 200,
-                    "11": 208,
-                    "12": 216,
-                    "13": 224,
-                    "14": 232,
-                    "15": 240
+                    "1": 75,
+                    "2": 82.5,
+                    "3": 90,
+                    "4": 97.5,
+                    "5": 105,
+                    "6": 112.5,
+                    "7": 121.875,
+                    "8": 131.25,
+                    "9": 140.625,
+                    "10": 150,
+                    "11": 157.5,
+                    "12": 165,
+                    "13": 172.5,
+                    "14": 180,
+                    "15": 187.5
                 }
             ],
             "tags": [
                 "aoe",
                 "ultatk",
-                "iceatk"
+                "fireatk"
             ],
             "effect": [
                 {
@@ -242,72 +324,266 @@
                     "tag": [
                         "aoe",
                         "ultatk",
-                        "iceatk"
+                        "fireatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "def",
+                    "multiplier": 2,
+                    "tag": [
+                        "aoe",
+                        "ultatk",
+                        "fireatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Fine, I'll Do It Myself",
-            "CNname": "还是我来吧",
+            "ENname": "Treasure of the Architects",
+            "CNname": "筑城者遗宝",
             "JAname": "やっぱり私がやる",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcftalent.webp",
-            "DescriptionEN": "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, mcf will launch a follow-up attack, dealing Ice DMG equal to 25% of mcf's ATK to all enemies.",
-            "DescriptionCN": "当任意我方目标的攻击使敌方目标的当前生命值百分比小于等于50%时，黑塔发动追加攻击，对敌方全体造成等同于黑塔25%攻击力的冰属性伤害。",
-            "DescriptionJP": "味方の攻撃が敵の残りHPを50%以下にした時、ヘルタは追加攻撃を発動し、敵全体にヘルタの攻撃力25%分の氷属性ダメージを与える。",
+            "DescriptionEN": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. \nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4% of the Trailblazer's DEF plus 20. The Shield lasts for 2 turn(s).",
+            "DescriptionCN": "每受到1次攻击，叠加1层【灼热意志】，最多可叠加8层。\n 【灼热意志】层数不低于4时，普攻将获得强化，对指定敌方单体及其相邻目标同时造成伤害。\n开拓者施放普攻、战技、终结技后，为我方全体提供能够抵消等同于开拓者4%防御力+20伤害的护盾，持续2回合。",
+            "DescriptionJP": "攻撃を1回受けるごとに、「灼熱意志」を1層獲得、最大で8層累積できる。\n「灼熱意志」の層数が4以上である場合は通常攻撃が強化され、指定した敵単体および隣接する敵にダメージを与える。\n開拓者が通常攻撃、戦闘スキル、必殺技を発動した後、味方全体に開拓者の防御力4%+20の耐久値を持つバリアを付与する。バリアは2ターン継続。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": false,
-            "weaknessbreak": 15,
+            "weaknessbreak": 0,
             "energyregen": 0,
             "levelmultiplier": [
                 {
-                    "1": 25,
-                    "2": 26.5,
-                    "3": 28,
-                    "4": 29.5,
-                    "5": 31,
-                    "6": 32.5,
-                    "7": 34.38,
-                    "8": 36.25,
-                    "9": 38.13,
-                    "10": 40,
-                    "11": 41.5,
-                    "12": 43,
-                    "13": 44.5,
-                    "14": 46,
-                    "15": 47.5
+                    "1": 4,
+                    "2": 4.25,
+                    "3": 4.49,
+                    "4": 4.75,
+                    "5": 5,
+                    "6": 5.2,
+                    "7": 5.4,
+                    "8": 5.59,
+                    "9": 5.8,
+                    "10": 6,
+                    "11": 6.2,
+                    "12": 6.4,
+                    "13": 6.6,
+                    "14": 6.79,
+                    "15": 7
+                },
+                {
+                    "1": 20,
+                    "2": 32,
+                    "3": 41,
+                    "4": 50,
+                    "5": 56,
+                    "6": 62,
+                    "7": 66.5,
+                    "8": 71,
+                    "9": 75.5,
+                    "10": 80,
+                    "11": 84.5,
+                    "12": 89,
+                    "13": 93.5,
+                    "14": 98,
+                    "15": 102.5
                 }
             ],
             "tags": [
-                "aoe",
-                "followupatk",
-                "iceatk"
+                "shield"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
+                    "type": "shield",
+                    "multipliertarget": "def",
                     "multiplier": 1,
                     "tag": [
-                        "aoe",
-                        "followupatk",
-                        "iceatk"
+                        "allally"
+                    ]
+                },
+                {
+                    "type": "shield",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "tag": [
+                        "allally"
                     ]
                 }
             ]
         },
         {
             "ENname": "It Can Still Be Optimized",
-            "CNname": "可以优化一下",
-            "JAname": "改善すべきだよ",
+            "CNname": "守护者召令",
+            "JAname": "守護者命令",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcftec.webp",
-            "DescriptionEN": "After using her Technique, mcf's ATK increases by 40% for 3 turn(s) at the beginning of the next battle.",
-            "DescriptionCN": "使用秘技后，下一次战斗开始时黑塔攻击力提高40%，持续3回合。",
-            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、ヘルタの攻撃力+40%、3ターン継続。",
+            "DescriptionEN": "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s).",
+            "DescriptionCN": "使用秘技后，下一次战斗开始时给自身提供能够抵消等同于开拓者30%防御力+384伤害的护盾，持续1回合。",
+            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、自身に開拓者の防御力30%+384の耐久値を持つバリアを付与する、1ターン継続。",
             "stype": "technique",
             "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "shield",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "shield",
+                    "multipliertarget": "def",
+                    "multiplier": 30,
+                    "tag": [
+                        "self"
+                    ]
+                },
+                {
+                    "type": "shield",
+                    "multipliertarget": "",
+                    "multiplier": 384,
+                    "tag": [
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Action Beats Overthinking",
+            "CNname": "行胜思",
+            "JAname": "考えるより行動",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcft1.webp",
+            "DescriptionEN": "When the Trailblazer is protected by a Shield at the beginning of the turn, increases their ATK by 15% and regenerates 5 Energy until the action is over.",
+            "DescriptionCN": "回合开始时，若开拓者持有护盾保护，则攻击力提高15%并恢复5点能量，持续到行动结束。",
+            "DescriptionJP": "ターンが回ってきた時、開拓者がバリアを持つ場合、攻撃力+15%、EPを5回復する、効果は行動終了まで継続。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "The Strong Defend the Weak",
+            "CNname": "强援弱",
+            "JAname": "弱きを助け",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcft2.webp",
+            "DescriptionEN": "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s).",
+            "DescriptionCN": "施放战技后，我方全体受到的伤害降低15%，持续1回合。",
+            "DescriptionJP": "戦闘スキルを発動した後、味方全体の被ダメージ-15%、1ターン継続。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "damagereceive",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "damagereceive",
+                    "multiplier": -15,
+                    "tag": [
+                        "allally",
+                        "damagereceive"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Unwavering Gallantry",
+            "CNname": "生先死",
+            "JAname": "死の前に生を",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcft3.webp",
+            "DescriptionEN": "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP.",
+            "DescriptionCN": "开拓者施放强化普攻后，回复等同于自身生命上限5%的生命值。",
+            "DescriptionJP": "開拓者が強化通常攻撃を行った後、HPを最大HP5%分回復する。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "heal",
+                "maxhp",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "addtarget": "maxhp",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "maxhp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +6%",
+            "CNname": "生命值 +6%",
+            "JAname": "HP +6%",
+            "ttype": "hp",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "critdmg",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
@@ -319,215 +595,10 @@
                 {
                     "type": "buff",
                     "addtarget": "atk",
-                    "multiplier": 40,
+                    "multiplier": 8,
                     "tag": [
                         "self",
                         "atk"
-                    ]
-                }
-            ]
-        }
-    ],
-    "tracedata": [
-        {
-            "tiny": false,
-            "ENname": "Efficiency",
-            "CNname": "效率",
-            "JAname": "効率",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcft1.webp",
-            "DescriptionEN": "When Skill is used, the DMG Boost effect on target enemies increases by an extra 25%.",
-            "DescriptionCN": "施放战技时，对目标造成的伤害提高效果额外再提高25%。",
-            "DescriptionJP": "戦闘スキルを発動した時、さらに与ダメージ+25%。",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "alldmg",
-                "self"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 25,
-                    "tag": [
-                        "self",
-                        "alldmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": false,
-            "ENname": "Icing",
-            "CNname": "冰结",
-            "JAname": "氷結",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcft2.webp",
-            "DescriptionEN": "When Ultimate is used, deals 20% more DMG to Frozen enemies.",
-            "DescriptionCN": "施放终结技时，对冻结状态下的敌人造成的伤害提高20%。",
-            "DescriptionJP": "必殺技を発動した時、凍結状態の敵に対する与ダメージ+20%。",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": true,
-            "tags": [
-                "buff",
-                "alldmg",
-                "self"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 20,
-                    "tag": [
-                        "self",
-                        "energy"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": false,
-            "ENname": "Puppet",
-            "CNname": "人偶",
-            "JAname": "人形",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcft3.webp",
-            "DescriptionEN": "The chance to resist Crowd Control Debuffs increases by 35%.",
-            "DescriptionCN": "抵抗控制类负面状态的概率提高35%。",
-            "DescriptionJP": "行動制限系デバフを抵抗する確率+35%。",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": true,
-            "tags": [
-                "buff",
-                "controlresist",
-                "self"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "controlresist",
-                    "multiplier": 35,
-                    "tag": [
-                        "self",
-                        "controlresist"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "DEF +5%",
-            "CNname": "防御力 +5%",
-            "JAname": "防御力 +5%",
-            "ttype": "def",
-            "DescriptionEN": "A2",
-            "DescriptionCN": "A2",
-            "DescriptionJP": "A2",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "def"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 5,
-                    "tag": [
-                        "self",
-                        "def"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "Ice DMG +3.2%",
-            "CNname": "冰属性伤害提高 +3.2%",
-            "JAname": "氷属性与ダメージ +3.2%",
-            "ttype": "icedmg",
-            "DescriptionEN": "A3",
-            "DescriptionCN": "A3",
-            "DescriptionJP": "A3",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "icedmg"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "icedmg",
-                    "multiplier": 3.2,
-                    "tag": [
-                        "self",
-                        "icedmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "CRIT Rate +2.7%",
-            "CNname": "暴击率 +2.7%",
-            "JAname": "会心率 +2.7%",
-            "ttype": "critrate",
-            "DescriptionEN": "A3",
-            "DescriptionCN": "A3",
-            "DescriptionJP": "A3",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "critrate"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 2.7,
-                    "tag": [
-                        "self",
-                        "critrate"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "CRIT Rate +4%",
-            "CNname": "暴击率 +4%",
-            "JAname": "会心率 +4%",
-            "ttype": "critrate",
-            "DescriptionEN": "A5",
-            "DescriptionCN": "A5",
-            "DescriptionJP": "A5",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "critrate"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 4,
-                    "tag": [
-                        "self",
-                        "critrate"
                     ]
                 }
             ]
@@ -538,9 +609,9 @@
             "CNname": "防御力 +10%",
             "JAname": "防御力 +10%",
             "ttype": "def",
-            "DescriptionEN": "75",
-            "DescriptionCN": "75",
-            "DescriptionJP": "75",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -563,10 +634,97 @@
         },
         {
             "tiny": true,
-            "ENname": "Ice DMG +4.8%",
-            "CNname": "冰属性伤害提高 +4.8%",
-            "JAname": "氷属性与ダメージ +4.8%",
-            "ttype": "icedmg",
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +5%",
+            "CNname": "防御力 +5%",
+            "JAname": "防御力 +5%",
+            "ttype": "def",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "DEF +7.5%",
+            "CNname": "防御力 +7.5%",
+            "JAname": "防御力 +7.5%",
+            "ttype": "def",
             "DescriptionEN": "A4",
             "DescriptionCN": "A4",
             "DescriptionJP": "A4",
@@ -576,16 +734,74 @@
             "tags": [
                 "buff",
                 "self",
-                "icedmg"
+                "def"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "icedmg",
-                    "multiplier": 4.8,
+                    "addtarget": "def",
+                    "multiplier": 7.5,
                     "tag": [
                         "self",
-                        "icedmg"
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +4%",
+            "CNname": "生命值 +4%",
+            "JAname": "HP +4%",
+            "ttype": "hp",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
                     ]
                 }
             ]
@@ -618,159 +834,67 @@
                     ]
                 }
             ]
-        },
-        {
-            "tiny": true,
-            "ENname": "Ice DMG +4.8%",
-            "CNname": "冰属性伤害提高 +4.8%",
-            "JAname": "氷属性与ダメージ +4.8%",
-            "ttype": "icedmg",
-            "DescriptionEN": "A5",
-            "DescriptionCN": "A5",
-            "DescriptionJP": "A5",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "icedmg"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "icedmg",
-                    "multiplier": 4.8,
-                    "tag": [
-                        "self",
-                        "icedmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "Ice DMG +3.2%",
-            "CNname": "冰属性伤害提高 +3.2%",
-            "JAname": "氷属性与ダメージ +3.2%",
-            "ttype": "icedmg",
-            "DescriptionEN": "LV1",
-            "DescriptionCN": "LV1",
-            "DescriptionJP": "LV1",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "icedmg"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "icedmg",
-                    "multiplier": 3.2,
-                    "tag": [
-                        "self",
-                        "icedmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "Ice DMG +6.4%",
-            "CNname": "冰属性伤害提高 +6.4%",
-            "JAname": "氷属性与ダメージ +6.4%",
-            "ttype": "icedmg",
-            "DescriptionEN": "LV80",
-            "DescriptionCN": "LV80",
-            "DescriptionJP": "LV80",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "icedmg"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "icedmg",
-                    "multiplier": 6.4,
-                    "tag": [
-                        "self",
-                        "icedmg"
-                    ]
-                }
-            ]
         }
     ],
     "eidolon": [
         {
             "eidolonnum": 1,
-            "ENname": "Kick You When You're Down",
-            "CNname": "落井当下石",
-            "JAname": "弱みは付け込み",
+            "ENname": "Earth-Shaking Resonance",
+            "CNname": "大地芯髓的鸣动",
+            "JAname": "大地芯髄の鳴動",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcf1.webp",
-            "DescriptionEN": "If the enemy's HP percentage is at 50% or less, mcf's Basic ATK deals Additional Ice DMG equal to 40% of mcf's ATK.",
-            "DescriptionCN": "施放普攻时，若指定敌方单体生命值百分比小于等于50%，则额外造成等同于黑塔40%攻击力的冰属性附加伤害。",
-            "DescriptionJP": "通常攻撃を行った時、指定した敵単体の残りHPが50%以下の場合、さらにヘルタの攻撃力40%分の氷属性付加ダメージを与える。",
+            "DescriptionEN": "When the Trailblazer uses their Basic ATK, additionally deals Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, deal Fire Additional DMG equal to 50% of the Trailblazer's DEF.",
+            "DescriptionCN": "施放普攻时，额外造成等同于开拓者25%防御力的火属性伤害；施放强化普攻时，额外造成等同于开拓者50%防御力的火属性伤害。",
+            "DescriptionJP": "通常攻撃を行った時、さらに開拓者の防御力25%分の炎属性ダメージを与える。強化通常攻撃を行った時、さらに開拓者の防御力50%分の炎属性ダメージを与える。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
             "tags": [
                 "buff",
-                "followupatk",
+                "special",
                 "self"
             ],
-            "effect": [
-                {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 40,
-                    "tag": [
-                        "aoe",
-                        "followupatk",
-                        "iceatk"
-                    ]
-                }
-            ]
+            "effect": []
         },
         {
             "eidolonnum": 2,
-            "ENname": "Keep the Ball Rolling",
-            "CNname": "得胜必追击",
-            "JAname": "勝てば追い打ち",
+            "ENname": "Time-Defying Tenacity",
+            "CNname": "古老寒铁的坚守",
+            "JAname": "古き寒鉄の堅守",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcf2.webp",
-            "DescriptionEN": "Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s).",
-            "DescriptionCN": "天赋每触发1次，自身暴击率提高3%，该效果最多叠加5层。",
-            "DescriptionJP": "天賦が1回発動するごとに、自身の会心率+3%、この効果は最大で5回累積できる。",
+            "DescriptionEN": "The Shield applied to all allies from the Trailblazer's Talent will block extra DMG equal to 2% of the Trailblazer's DEF plus 27.",
+            "DescriptionCN": "触发天赋时，为我方全体提供的护盾能够额外抵消等同于开拓者防御力2%+27的伤害。",
+            "DescriptionJP": "天賦発動時、味方全体に付与するバリアの耐久値が、開拓者の防御力2%+27アップする。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "buff",
-                "critrate"
+                "shield"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 3,
+                    "type": "shield",
+                    "multipliertarget": "def",
+                    "multiplier": 2,
                     "tag": [
-                        "self",
-                        "critrate"
+                        "self"
+                    ]
+                },
+                {
+                    "type": "shield",
+                    "multipliertarget": "",
+                    "multiplier": 27,
+                    "tag": [
+                        "self"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 3,
-            "ENname": "That's the Kind of Girl I Am",
-            "CNname": "我就是这样女子",
-            "JAname": "私はこういう女なの",
+            "ENname": "Trail-Blazing Blueprint",
+            "CNname": "砌造未来的蓝图",
+            "JAname": "未来を築く青図",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcfskill.webp",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
@@ -786,38 +910,28 @@
         },
         {
             "eidolonnum": 4,
-            "ENname": "Hit Where It Hurts",
-            "CNname": "打人要打脸",
-            "JAname": "面子は徹底的に潰す",
+            "ENname": "Nation-Building Oath",
+            "CNname": "驻留文明的誓言",
+            "JAname": "文明に留まる誓い",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcf4.webp",
-            "DescriptionEN": "When Talent is triggered, DMG increases by 10%.",
-            "DescriptionCN": "触发天赋时造成的伤害提高10%。",
-            "DescriptionJP": "天賦発動時の与ダメージ+10%。",
+            "DescriptionEN": "At the start of the battle, immediately gains 4 stack(s) of Magma Will.",
+            "DescriptionCN": "战斗开始时，立即获得4层【灼热意志】。",
+            "DescriptionJP": "戦闘開始時、「灼熱意志」を4層獲得する。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "alldmg",
+                "special",
                 "self"
             ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 10,
-                    "tag": [
-                        "self",
-                        "alldmg"
-                    ]
-                }
-            ]
+            "effect": []
         },
         {
             "eidolonnum": 5,
-            "ENname": "Stride, Spoils Seized",
-            "CNname": "骂人不留口",
-            "JAname": "欠点掴んで罵り倒す",
+            "ENname": "Spirit-Warming Flame",
+            "CNname": "点燃光焰的勇气",
+            "JAname": "光焔を燃やす勇気",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcfult.webp",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
@@ -833,25 +947,25 @@
         },
         {
             "eidolonnum": 6,
-            "ENname": "No One Can Betray Me",
-            "CNname": "世上没人能负我",
-            "JAname": "誰も私を裏切れない",
+            "ENname": "City-Forging Bulwarks",
+            "CNname": "永屹城垣的壁垒",
+            "JAname": "永世に聳える壁塁",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/mcf6.webp",
-            "DescriptionEN": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s).",
-            "DescriptionCN": "施放终结技后，攻击力提高25%，持续1回合。",
-            "DescriptionJP": "必殺技を発動した後、攻撃力+25%、1ターン継続。",
+            "DescriptionEN": "After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s).",
+            "DescriptionCN": "施放强化普攻或终结技后，开拓者的防御力提高10%，最多叠加3层。",
+            "DescriptionJP": "強化通常攻撃または必殺技を発動した後、開拓者の防御力+10%、最大で3層累積できる。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "atk",
+                "def",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 25,
+                    "addtarget": "def",
+                    "multiplier": 10,
                     "tag": [
                         "self",
                         "atk"
