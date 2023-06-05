@@ -1,0 +1,1041 @@
+{
+    "ENname": "Hook",
+    "CNname": "虎克",
+    "JAname": "フック",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/hook.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/hooklarge.webp",
+    "etype": "fire",
+    "wtype": "destruction",
+    "rarity": "4",
+    "dtaunt": 125,
+    "dspeed": 94,
+    "maxenergy": 120,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 182,
+            "atk": 84,
+            "def": 48
+        },
+        {
+            "level": "20",
+            "hp": 355,
+            "atk": 163,
+            "def": 93
+        },
+        {
+            "level": "20+",
+            "hp": 428,
+            "atk": 197,
+            "def": 112
+        },
+        {
+            "level": "30",
+            "hp": 519,
+            "atk": 239,
+            "def": 136
+        },
+        {
+            "level": "30+",
+            "hp": 592,
+            "atk": 273,
+            "def": 156
+        },
+        {
+            "level": "40",
+            "hp": 684,
+            "atk": 315,
+            "def": 180
+        },
+        {
+            "level": "40+",
+            "hp": 758,
+            "atk": 348,
+            "def": 199
+        },
+        {
+            "level": "50",
+            "hp": 848,
+            "atk": 390,
+            "def": 223
+        },
+        {
+            "level": "50+",
+            "hp": 921,
+            "atk": 424,
+            "def": 242
+        },
+        {
+            "level": "60",
+            "hp": 1012,
+            "atk": 466,
+            "def": 266
+        },
+        {
+            "level": "60+",
+            "hp": 1085,
+            "atk": 499,
+            "def": 285
+        },
+        {
+            "level": "70",
+            "hp": 1176,
+            "atk": 541,
+            "def": 309
+        },
+        {
+            "level": "70+",
+            "hp": 1249,
+            "atk": 575,
+            "def": 328
+        },
+        {
+            "level": "80",
+            "hp": 1340,
+            "atk": 617,
+            "def": 352
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Hehe! Don't Get Burned!",
+            "CNname": "喂！小心火烛",
+            "JAname": "おい！火の元に気をつけな",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hookna.webp",
+            "DescriptionEN": "Deals Fire DMG equal to [1]% of Hook's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于虎克[1]%攻击力的火属性伤害。",
+            "DescriptionJP": "指定した敵単体にフックの攻撃力[1]%分の炎属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "fireatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Hey! Remember Hook?",
+            "CNname": "嘿！记得虎克吗",
+            "JAname": "おい！フックを覚えてるか？",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hookskill.webp",
+            "DescriptionEN": "Deals Fire DMG equal to [1]% of Hook's ATK to a single enemy. In addition, there is a 100% base chance to inflict Burn for 2 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to [3]% of Hook's ATK at the beginning of each turn.",
+            "DescriptionCN": "对指定敌方单体造成等同于虎克[1]%攻击力的火属性伤害，同时有100%的基础概率使其陷入灼烧状态，持续2回合。灼烧状态下，敌方目标每回合开始时受到等同于虎克[3]%攻击力的火属性持续伤害。",
+            "DescriptionJP": "指定した敵単体にフックの攻撃力[1]%分の炎属性ダメージを与え、100%の基礎確率で敵を燃焼状態にする、2ターン継続。燃焼状態の敵はターンが回ってくるたびに、フックの攻撃力[3]%分の炎属性持続ダメージを受ける。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 120,
+                    "2": 132,
+                    "3": 144,
+                    "4": 156,
+                    "5": 168,
+                    "6": 180,
+                    "7": 195,
+                    "8": 210,
+                    "9": 225,
+                    "10": 240,
+                    "11": 252,
+                    "12": 264,
+                    "13": 276,
+                    "14": 288,
+                    "15": 300
+                },
+                {
+                    "default": 100
+                },
+                {
+                    "1": 25,
+                    "2": 27.5,
+                    "3": 30,
+                    "4": 32.5,
+                    "5": 35,
+                    "6": 38.75,
+                    "7": 43.75,
+                    "8": 50,
+                    "9": 57.5,
+                    "10": 65,
+                    "11": 68.25,
+                    "12": 71.5,
+                    "13": 74.75,
+                    "14": 78,
+                    "15": 81.25
+                }
+            ],
+            "tags": [
+                "skillatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "burn",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "burn"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleenemy",
+                        "dotatk",
+                        "fireatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Hey! Remember Hook?",
+            "CNname": "嘿！记得虎克吗",
+            "JAname": "おい！フックを覚えてるか？",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hookskill.webp",
+            "DescriptionEN": "Deals Fire DMG equal to [1]% of Hook's ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to [3]% of Hook's ATK to enemies adjacent to it. When afflicted with Burn, enemies will take Fire DoT equal to [4]% of Hook's ATK at the beginning of each turn.",
+            "DescriptionCN": "对指定敌方单体造成等同于虎克[1]%攻击力的火属性伤害，同时有100%的基础概率使其陷入灼烧状态，持续2回合。此外对其相邻目标造成等同于虎克[3]%攻击力的火属性伤害。灼烧状态下，敌方目标每回合开始时受到等同于虎克[4]%攻击力的火属性持续伤害。",
+            "DescriptionJP": "指定した敵単体にフックの攻撃力[1]%分の炎属性ダメージを与え、100%の基礎確率で敵を燃焼状態にする、2ターン継続。さらに、その敵に隣接する敵にフックの攻撃力[3]%分の炎属性ダメージを与える。燃焼状態の敵はターンが回ってくるたびに、フックの攻撃力[4]%分の炎属性持続ダメージを受ける。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 140,
+                    "2": 154,
+                    "3": 168,
+                    "4": 182,
+                    "5": 196,
+                    "6": 210,
+                    "7": 227.5,
+                    "8": 245,
+                    "9": 262.5,
+                    "10": 280,
+                    "11": 294,
+                    "12": 308,
+                    "13": 322,
+                    "14": 336,
+                    "15": 350
+                },
+                {
+                    "default": 100
+                },
+                {
+                    "1": 40,
+                    "2": 44,
+                    "3": 48,
+                    "4": 52,
+                    "5": 56,
+                    "6": 60,
+                    "7": 65,
+                    "8": 70,
+                    "9": 75,
+                    "10": 80,
+                    "11": 84,
+                    "12": 88,
+                    "13": 92,
+                    "14": 96,
+                    "15": 100
+                },
+                {
+                    "1": 25,
+                    "2": 27.5,
+                    "3": 30,
+                    "4": 32.5,
+                    "5": 35,
+                    "6": 38.75,
+                    "7": 43.75,
+                    "8": 50,
+                    "9": 57.5,
+                    "10": 65,
+                    "11": 68.25,
+                    "12": 71.5,
+                    "13": 74.75,
+                    "14": 78,
+                    "15": 81.25
+                }
+            ],
+            "tags": [
+                "skillatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "burn",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "burn"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "blastatk",
+                        "skillatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "singleenemy",
+                        "dotatk",
+                        "fireatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Boom! Here Comes the Fire!",
+            "CNname": "轰！飞来焰火",
+            "JAname": "ドカン！飛んでけ花火！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hookult.webp",
+            "DescriptionEN": "Deals Fire DMG equal to [1]% of Hook's ATK to a single enemy. After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
+            "DescriptionCN": "对指定敌方单体造成等同于虎克[1]%攻击力的火属性伤害。施放终结技后，下一次施放的战技得到强化，强化后的战技能够同时对指定敌方单体及其相邻目标造成伤害。",
+            "DescriptionJP": "指定した敵単体にフックの攻撃力[1]%分の炎属性ダメージを与える。必殺技を発動した後、次に発動する戦闘スキルを強化、強化後の戦闘スキルは指定した敵単体および隣接する敵にダメージを与える。",
+            "stype": "ult",
+            "energy": 120,
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 90,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 240,
+                    "2": 256,
+                    "3": 272,
+                    "4": 288,
+                    "5": 304,
+                    "6": 320,
+                    "7": 340,
+                    "8": 360,
+                    "9": 380,
+                    "10": 400,
+                    "11": 416,
+                    "12": 432,
+                    "13": 448,
+                    "14": 464,
+                    "15": 480
+                }
+            ],
+            "tags": [
+                "singleenemy",
+                "ultatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleenemy",
+                        "fireatk",
+                        "ultatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Ha! Oil to the Flames!",
+            "CNname": "哈！火上浇油",
+            "JAname": "はっ！火に油を注ぐ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hooktalent.webp",
+            "DescriptionEN": "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to [1]% of Hook's ATK and regenerates 5 extra Energy.",
+            "DescriptionCN": "攻击处于灼烧状态的敌方目标时，追加1次等同于虎克[1]%攻击力的火属性附加伤害，并额外恢复5点能量。",
+            "DescriptionJP": "燃焼状態の敵を攻撃する時、さらにフックの攻撃力[1]%分の炎属性付加ダメージを1回与え、さらにEPを5回復する。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 55,
+                    "3": 60,
+                    "4": 65,
+                    "5": 70,
+                    "6": 75,
+                    "7": 81.25,
+                    "8": 87.5,
+                    "9": 93.75,
+                    "10": 100,
+                    "11": 105,
+                    "12": 110,
+                    "13": 115,
+                    "14": 120,
+                    "15": 125
+                },
+                {
+                    "default": 5
+                }
+            ],
+            "tags": [
+                "additionalatk",
+                "fireatk",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "additionalatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Ack! Look at This Mess!",
+            "CNname": "哎！瞧这一团糟",
+            "JAname": "ほら！滅茶苦茶になってる",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hooktec.webp",
+            "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于虎克50%攻击力的火属性伤害，同时有100%的基础概率使敌方每个单体目标陷入灼烧状态，持续3回合。灼烧状态下，敌方目标每回合开始时受到等同于虎克50%攻击力的火属性持续伤害。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、ランダムな敵単体にフックの攻撃力50%分の炎属性ダメージを与え、100%の基礎確率で敵単体それぞれに燃焼状態を付与する、3ターン継続。燃焼状態の敵はターンが回ってくるたびに、フックの攻撃力50%分の炎属性持続ダメージを受ける。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "default": 50
+                },
+                {
+                    "default": 100
+                },
+                {
+                    "default": 50
+                }
+            ],
+            "tags": [
+                "buff",
+                "taunt"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleenemy",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "burn",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "burn"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "dotatk",
+                        "fireatk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Innocence",
+            "CNname": "童真",
+            "JAname": "子供心",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hookt1.webp",
+            "DescriptionEN": "Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.",
+            "DescriptionCN": "触发天赋时，回复等同于虎克生命上限5%的生命值。",
+            "DescriptionJP": "天賦発動時、フックの最大HP5%分のHPを回復する。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "heal",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Naivete",
+            "CNname": "无邪",
+            "JAname": "無邪気",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hookt2.webp",
+            "DescriptionEN": "The chance to resist Crowd Control Debuffs increases by 35%.",
+            "DescriptionCN": "抵抗控制类负面状态的概率提高35%。",
+            "DescriptionJP": "行動制限系デバフを抵抗する確率+35%。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Playing With Fire",
+            "CNname": "玩火",
+            "JAname": "火遊び",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hookt3.webp",
+            "DescriptionEN": "When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally regenerates 5 Energy.",
+            "DescriptionCN": "施放终结技后，虎克的行动提前20%并额外恢复5点能量。",
+            "DescriptionJP": "必殺技を発動した後、フックの行動順が20%早まり、さらにEPを5回復する。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "actionf",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +4%",
+            "CNname": "生命值 +4%",
+            "JAname": "HP +4%",
+            "ttype": "hp",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT DMG +5.3%",
+            "CNname": "暴击伤害 +5.3%",
+            "JAname": "会心ダメージ +5.3%",
+            "ttype": "critdmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +6%",
+            "CNname": "生命值 +6%",
+            "JAname": "HP +6%",
+            "ttype": "hp",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "CRIT DMG +8%",
+            "CNname": "暴击伤害 +8%",
+            "JAname": "会心ダメージ +8%",
+            "ttype": "critdmg",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "HP +8%",
+            "CNname": "生命值 +8%",
+            "JAname": "HP +8%",
+            "ttype": "hp",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Early to Bed, Early to Rise",
+            "CNname": "早睡早起很健康",
+            "JAname": "早寝早起きは健康的",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hook1.png",
+            "DescriptionEN": "Enhanced Skill deals 20% increased DMG.",
+            "DescriptionCN": "战技强化后造成的伤害提高20%。",
+            "DescriptionJP": "強化後の戦闘スキルの与ダメージ+20%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "skillatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "skillatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Happy Tummy, Happy Body",
+            "CNname": "吃好喝好长身体",
+            "JAname": "よく食べて成長する",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hook2.png",
+            "DescriptionEN": "Extends the duration of Burn caused by Skill by 1 turn(s).",
+            "DescriptionCN": "战技使敌方目标陷入的灼烧状态持续时间增加1回合。",
+            "DescriptionJP": "戦闘スキルが付与する燃焼状態の継続時間+1ターン。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "burn"
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Don't Be Picky, Nothing's Icky",
+            "CNname": "不挑不选全都要",
+            "JAname": "好き嫌いはしない",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hookskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "It's Okay to Not Know",
+            "CNname": "稀里糊涂没关系",
+            "JAname": "うっかりしても大丈夫",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hook4.png",
+            "DescriptionEN": "When Talent is triggered, there is a 100% base chance to Burn enemies adjacent to the target enemy, equivalent to that of Skill.",
+            "DescriptionCN": "触发天赋时，有100%基础概率使指定敌方目标的相邻目标也陷入等同于战技的灼烧状态。",
+            "DescriptionJP": "天賦発動時、100%の基礎確率で指定した敵に隣接する敵を、戦闘スキルが与えるものと同じ燃焼状態にする。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "special",
+                "self",
+                "burn"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "burn",
+                    "multiplier": 100,
+                    "tag": [
+                        "aoe",
+                        "burn"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Let the Moles' Deeds Be Known",
+            "CNname": "好事留名鼹鼠党",
+            "JAname": "モグラ党は名を遺す",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hookult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Always Ready to Punch and Kick",
+            "CNname": "随时准备打坏人",
+            "JAname": "悪い奴らはお仕置きだ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/hook6.png",
+            "DescriptionEN": "Hook deals 20% more DMG to enemies afflicted with Burn.",
+            "DescriptionCN": "虎克对灼烧状态下的敌方目标造成的伤害提高20%。",
+            "DescriptionJP": "燃焼状態の敵に対するフックの与ダメージ+20%。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "burn",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "burn",
+                        "alldmg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

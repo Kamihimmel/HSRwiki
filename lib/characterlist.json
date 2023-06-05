@@ -250,7 +250,7 @@
             "etype": "fire",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/hook.json"
         },
         {
             "ENname": "Qing Que",
@@ -269,6 +269,16 @@
             "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sushang.webp",
             "etype": "physical",
             "wtype": "thehunt",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/sushang.json"
+        },
+        {
+            "ENname": "Yu Kong",
+            "CNname": "驭空",
+            "JAname": "御空",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/yukong.webp",
+            "etype": "imaginary",
+            "wtype": "harmony",
             "rarity": "4",
             "infourl": "https://hsrwikidata.yunlu18.net/lib/sushang.json"
         }
