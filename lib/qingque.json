@@ -102,9 +102,9 @@
             "CNname": "门前清",
             "JAname": "門前清",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquena.webp",
-            "DescriptionEN": "ST: Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to [1]% of Qingque's ATK to a single enemy. \nBlast: Deals Quantum DMG equal to [2]% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to [3]% of Qingque's ATK to enemies adjacent to it. Cherry on Top! cannot recover Skill Points.",
-            "DescriptionCN": "单攻: 使用1张当前花色最少的琼玉牌，对指定敌方单体造成等同于青雀[1]%攻击力的量子属性伤害。\n扩散: 对指定敌方单体造成等同于青雀[2]%攻击力的量子属性伤害，并对其相邻目标造成等同于青雀[3]%攻击力的量子属性伤害。【杠上开花！】无法恢复战技点。",
-            "DescriptionJP": "単体攻撃: 数が一番少ない絵柄の美玉牌を1枚使用し、指定した敵単体に青雀の攻撃力[1]%分の量子属性ダメージを与える。\n拡散攻撃: 指定した敵単体に青雀の攻撃力[2]%分の量子属性ダメージを与え、隣接する敵に青雀の攻撃力[3]%分の量子属性ダメージを与える。「嶺上開花！」はSPを回復できない。",
+            "DescriptionEN": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to [1]% of Qingque's ATK to a single enemy. ",
+            "DescriptionCN": "使用1张当前花色最少的琼玉牌，对指定敌方单体造成等同于青雀[1]%攻击力的量子属性伤害。",
+            "DescriptionJP": "数が一番少ない絵柄の美玉牌を1枚使用し、指定した敵単体に青雀の攻撃力[1]%分の量子属性ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -112,28 +112,6 @@
             "weaknessbreak": 30,
             "energyregen": 20,
             "levelmultiplier": [
-                {
-                    "1": 50,
-                    "2": 60,
-                    "3": 70,
-                    "4": 80,
-                    "5": 90,
-                    "6": 100,
-                    "7": 110,
-                    "8": 120,
-                    "9": 130
-                },
-                {
-                    "1": 120,
-                    "2": 144,
-                    "3": 168,
-                    "4": 192,
-                    "5": 216,
-                    "6": 240,
-                    "7": 264,
-                    "8": 288,
-                    "9": 312
-                },
                 {
                     "1": 50,
                     "2": 60,
@@ -161,24 +139,70 @@
                         "normalatk",
                         "quantumatk"
                     ]
+                }
+            ]
+        },
+        {
+            "ENname": "Cherry on Top!",
+            "CNname": "杠上开花！",
+            "JAname": "嶺上開花！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquena.webp",
+            "DescriptionEN": "Deals Quantum DMG equal to [1]% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to [2]% of Qingque's ATK to enemies adjacent to it. Cherry on Top! cannot recover Skill Points.",
+            "DescriptionCN": "对指定敌方单体造成等同于青雀[1]%攻击力的量子属性伤害，并对其相邻目标造成等同于青雀[2]%攻击力的量子属性伤害。【杠上开花！】无法恢复战技点。",
+            "DescriptionJP": "指定した敵単体に青雀の攻撃力[1]%分の量子属性ダメージを与え、隣接する敵に青雀の攻撃力[2]%分の量子属性ダメージを与える。「嶺上開花！」はSPを回復できない。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 120,
+                    "2": 144,
+                    "3": 168,
+                    "4": 192,
+                    "5": 216,
+                    "6": 240,
+                    "7": 264,
+                    "8": 288,
+                    "9": 312
                 },
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "blastatk",
+                "normalatk",
+                "quantumatk"
+            ],
+            "effect": [
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 2,
+                    "multiplier": 1,
                     "tag": [
                         "singleatk",
-                        "enhancedatk",
+                        "normalatk",
                         "quantumatk"
                     ]
                 },
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 3,
+                    "multiplier": 2,
                     "tag": [
-                        "aoe",
-                        "enhancedatk",
+                        "blastatk",
+                        "normalatk",
                         "quantumatk"
                     ]
                 }
@@ -807,15 +831,6 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "normalatk",
-                    "multiplier": 100,
-                    "tag": [
-                        "followupatk",
-                        "quantumatk"
-                    ]
-                },
-                {
-                    "type": "dmg",
-                    "multipliertarget": "enhancedatk",
                     "multiplier": 100,
                     "tag": [
                         "followupatk",

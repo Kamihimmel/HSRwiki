@@ -675,7 +675,7 @@
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
-            "JAname": "生命值 +6%",
+            "JAname": "HP +6%",
             "ttype": "hp",
             "DescriptionEN": "A6",
             "DescriptionCN": "A6",
