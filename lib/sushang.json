@@ -293,7 +293,7 @@
                 {
                     "type": "buff",
                     "addtarget": "actionf",
-                    "multiplier": 1,
+                    "multiplier": 100,
                     "tag": [
                         "self",
                         "actionf"
