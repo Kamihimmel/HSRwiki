@@ -361,7 +361,7 @@
                 {
                     "type": "debuff",
                     "multipliertarget": "def",
-                    "multiplier": 20,
+                    "multiplier": -20,
                     "tag": [
                         "allenemy",
                         "reducedef"
