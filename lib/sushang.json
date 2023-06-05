@@ -271,6 +271,9 @@
                     "13": 33.6,
                     "14": 34.8,
                     "15": 36
+                },
+                {
+                    "default":100
                 }
             ],
             "tags": [
@@ -293,7 +296,7 @@
                 {
                     "type": "buff",
                     "addtarget": "actionf",
-                    "multiplier": 100,
+                    "multiplier": 3,
                     "tag": [
                         "self",
                         "actionf"
