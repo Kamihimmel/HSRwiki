@@ -109,11 +109,11 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "",
+                    "addtarget": "speedpt",
                     "multiplier": 1,
                     "tag": [
                         "allally",
-                        "speed"
+                        "speedpt"
                     ]
                 }
             ]
