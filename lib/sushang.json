@@ -212,15 +212,6 @@
                     ]
                 },
                 {
-                    "type": "debuff",
-                    "multipliertarget": "additionalatk",
-                    "multiplier": 2,
-                    "tag": [
-                        "singleenemy",
-                        "additionalatk"
-                    ]
-                },
-                {
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 3,
@@ -285,7 +276,8 @@
             "tags": [
                 "singleatk",
                 "ultatk",
-                "physicalatk"
+                "physicalatk",
+                "actioni"
             ],
             "effect": [
                 {
@@ -368,6 +360,7 @@
             "DescriptionJP": "敵を攻撃。戦闘に入った後、敵全体に素裳の攻撃力80%分の物理ダメージを与える。",
             "stype": "technique",
             "maxlevel": 0,
+            "weaknessbreak": 60,
             "buffskill": false,
             "teamskill": false,
             "tags": [
@@ -784,17 +777,6 @@
                 "buff",
                 "skillpointre",
                 "self"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "skillpointre",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "skillpointre"
-                    ]
-                }
             ]
         },
         {
