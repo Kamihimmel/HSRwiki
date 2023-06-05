@@ -222,9 +222,9 @@
             "CNname": "星空祝言",
             "JAname": "星空祝言",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/astault.webp",
-            "DescriptionEN": "Increases SPD of all allies by 36 for 2 turn(s).",
-            "DescriptionCN": "使我方全体速度提高36点，持续2回合。",
-            "DescriptionJP": "味方全体の速度+36、2ターン継続。",
+            "DescriptionEN": "Increases SPD of all allies by [1] for 2 turn(s).",
+            "DescriptionCN": "使我方全体速度提高[1]点，持续2回合。",
+            "DescriptionJP": "味方全体の速度+[1]、2ターン継続。",
             "stype": "ult",
             "energy": 120,
             "maxlevel": 15,
@@ -253,17 +253,17 @@
             ],
             "tags": [
                 "buff",
-                "speed",
+                "speedpt",
                 "allally"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "speedpt",
                     "multiplier": 1,
                     "tag": [
                         "allally",
-                        "speed"
+                        "speedpt"
                     ]
                 }
             ]

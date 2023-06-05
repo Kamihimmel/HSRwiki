@@ -836,15 +836,6 @@
                         "followupatk",
                         "quantumatk"
                     ]
-                },
-                {
-                    "type": "dmg",
-                    "multipliertarget": "enhancedatk",
-                    "multiplier": 100,
-                    "tag": [
-                        "followupatk",
-                        "quantumatk"
-                    ]
                 }
             ]
         },

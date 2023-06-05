@@ -1,0 +1,908 @@
+{
+    "ENname": "Pela",
+    "CNname": "佩拉",
+    "JAname": "ペラ",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/pela.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/pelalarge.webp",
+    "etype": "ice",
+    "wtype": "nihility",
+    "rarity": "4",
+    "dtaunt": 100,
+    "dspeed": 105,
+    "maxenergy": 110,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 134,
+            "atk": 74,
+            "def": 63
+        },
+        {
+            "level": "20",
+            "hp": 262,
+            "atk": 145,
+            "def": 122
+        },
+        {
+            "level": "20+",
+            "hp": 315,
+            "atk": 174,
+            "def": 148
+        },
+        {
+            "level": "30",
+            "hp": 383,
+            "atk": 212,
+            "def": 179
+        },
+        {
+            "level": "30+",
+            "hp": 436,
+            "atk": 241,
+            "def": 204
+        },
+        {
+            "level": "40",
+            "hp": 504,
+            "atk": 279,
+            "def": 236
+        },
+        {
+            "level": "40+",
+            "hp": 557,
+            "atk": 308,
+            "def": 261
+        },
+        {
+            "level": "50",
+            "hp": 624,
+            "atk": 345,
+            "def": 292
+        },
+        {
+            "level": "50+",
+            "hp": 678,
+            "atk": 375,
+            "def": 318
+        },
+        {
+            "level": "60",
+            "hp": 745,
+            "atk": 412,
+            "def": 349
+        },
+        {
+            "level": "60+",
+            "hp": 799,
+            "atk": 442,
+            "def": 374
+        },
+        {
+            "level": "70",
+            "hp": 866,
+            "atk": 479,
+            "def": 406
+        },
+        {
+            "level": "70+",
+            "hp": 920,
+            "atk": 509,
+            "def": 431
+        },
+        {
+            "level": "80",
+            "hp": 987,
+            "atk": 546,
+            "def": 463
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Frost Shot",
+            "CNname": "冰点射击",
+            "JAname": "氷点狙撃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelana.webp",
+            "DescriptionEN": "Deals Ice DMG equal to [1]% of Pela's ATK to a single target enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于佩拉[1]%攻击力的冰属性伤害。",
+            "DescriptionJP": "指定した敵単体にペラの攻撃力[1]%分の氷属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "iceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Frostbite",
+            "CNname": "低温妨害",
+            "JAname": "低温妨害",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelaskill.webp",
+            "DescriptionEN": "Removes 1 buff(s) and deals Ice DMG equal to [1]% of Pela's ATK to a single target enemy.",
+            "DescriptionCN": "解除指定敌方单体的1个增益效果，同时造成等同于佩拉[1]%攻击力的冰属性伤害。",
+            "DescriptionJP": "指定した敵単体のバフを1つ解除し、ペラの攻撃力[1]%分の氷属性ダメージを与える。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 105,
+                    "2": 115.5,
+                    "3": 126,
+                    "4": 136.5,
+                    "5": 147,
+                    "6": 157.5,
+                    "7": 170.63,
+                    "8": 183.75,
+                    "9": 196.88,
+                    "10": 210,
+                    "11": 220.5,
+                    "12": 231,
+                    "13": 241.5,
+                    "14": 252,
+                    "15": 262.5
+                }
+            ],
+            "tags": [
+                "singleenemy",
+                "removebuff",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleenemy",
+                        "iceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Zone Suppression",
+            "CNname": "领域压制",
+            "JAname": "領域制圧",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelault.webp",
+            "DescriptionEN": "Deals Ice DMG equal to [2]% of Pela's ATK to all enemies, with a 100% base chance to inflict Exposed on all enemies. When Exposed, enemies' DEF is reduced by [3]% for 2 turn(s).",
+            "DescriptionCN": "有100%的基础概率使敌方每个单体目标陷入【通解】状态，同时对敌方全体造成等同于佩拉[2]%攻击力的冰属性伤害。【通解】状态下，敌方目标防御力降低[3]%，持续2回合。",
+            "DescriptionJP": "100%の基礎確率で敵単体それぞれを「一般解」状態にし、敵全体にペラの攻撃力[2]%分の氷属性ダメージを与える。「一般解」状態の敵の防御力-[3]%、2ターン継続。",
+            "stype": "ult",
+            "energy": 110,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "default": 100
+                },
+                {
+                    "1": 60,
+                    "2": 64,
+                    "3": 68,
+                    "4": 72,
+                    "5": 76,
+                    "6": 80,
+                    "7": 85,
+                    "8": 90,
+                    "9": 95,
+                    "10": 100,
+                    "11": 104,
+                    "12": 108,
+                    "13": 112,
+                    "14": 116,
+                    "15": 120
+                },
+                {
+                    "1": 30,
+                    "2": 31,
+                    "3": 32,
+                    "4": 33,
+                    "5": 34,
+                    "6": 35,
+                    "7": 36.25,
+                    "8": 37.5,
+                    "9": 38.75,
+                    "10": 40,
+                    "11": 41,
+                    "12": 42,
+                    "13": 43,
+                    "14": 44,
+                    "15": 45
+                }
+            ],
+            "tags": [
+                "debuff",
+                "allenemy",
+                "iceatk",
+                "defred"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "exposed",
+                    "multiplier": 1,
+                    "tag": [
+                        "allenemy",
+                        "exposed"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "allenemy",
+                        "iceatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "def",
+                    "multiplier": 3,
+                    "tag": [
+                        "allenemy",
+                        "defred"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Data Collecting",
+            "CNname": "数据采集",
+            "JAname": "データ採取",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelatalent.webp",
+            "DescriptionEN": "If the enemy is debuffed after Pela's attack, Pela will restore [1] extra Energy. This effect can only be triggered 1 time per attack.",
+            "DescriptionCN": "施放攻击后若敌方目标处于负面效果，则佩拉额外恢复[1]点能量。该效果每次攻击只能触发1次。",
+            "DescriptionJP": "攻撃を行った後、敵にデバフがある場合、ペラはさらにEPを[1]回復する。この効果は1回の攻撃で1回まで発動できる。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 5,
+                    "2": 6,
+                    "3": 6,
+                    "4": 7,
+                    "5": 7,
+                    "6": 8,
+                    "7": 8,
+                    "8": 9,
+                    "9": 9,
+                    "10": 10,
+                    "11": 11,
+                    "12": 11,
+                    "13": 12,
+                    "14": 12,
+                    "15": 13
+                }
+            ],
+            "tags": [
+                "self",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Preemptive Strike",
+            "CNname": "先发制人",
+            "JAname": "先手必勝",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelatec.webp",
+            "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% base chance of lowering the DEF of all enemies by 20% for 2 turn(s).",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于佩拉80%攻击力的冰属性伤害，同时有100%的基础概率使敌方每个单体目标防御力降低20%，持续2回合。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、ランダムな敵単体にペラの攻撃力80%分の氷属性ダメージを与え、100%の基礎確率で敵単体それぞれの防御力-20%、2ターン継続。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": true,
+            "teamskill": true,
+            "weaknessbreak": 60,
+            "energyregen": 0,
+            "tags": [
+                "singleenemy",
+                "iceatk",
+                "defred"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 80,
+                    "tag": [
+                        "singleenemy",
+                        "iceatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "def",
+                    "multiplier": 20,
+                    "tag": [
+                        "allenemy",
+                        "defred"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Bash",
+            "CNname": "痛击",
+            "JAname": "痛撃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelat1.webp",
+            "DescriptionEN": "Deals 20% more DMG to debuffed enemies.",
+            "DescriptionCN": "对处于负面效果的敌方目标造成的伤害提高20%。",
+            "DescriptionJP": "デバフ状態の敵に対して与ダメージ+20%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "The Secret Strategy",
+            "CNname": "秘策",
+            "JAname": "秘策",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelat2.webp",
+            "DescriptionEN": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by 10%.",
+            "DescriptionCN": "佩拉在场时，我方全体的效果命中提高10%。",
+            "DescriptionJP": "ペラがフィールド上にいる時、味方全体の効果命中+10%。",
+            "stype": "trace",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "effecthit",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 10,
+                    "tag": [
+                        "allally",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Wipe Out",
+            "CNname": "追歼",
+            "JAname": "追撃殲滅",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelat3.webp",
+            "DescriptionEN": "Using Skill to remove buff(s) increases the DMG of the next attack by 20%.",
+            "DescriptionCN": "施放战技解除增益效果时，下一次攻击造成的伤害提高20%。",
+            "DescriptionJP": "戦闘スキルを発動してバフを解除した時、次の攻撃の与ダメージ+20%。",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK 4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +3.2%",
+            "CNname": "冰属性伤害提高 +3.2%",
+            "JAname": "氷属性与ダメージ +3.2%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +4%",
+            "CNname": "效果命中 +4%",
+            "JAname": "効果命中 +4%",
+            "ttype": "effecthit",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK 6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +4.8%",
+            "CNname": "冰属性伤害提高 +4.8%",
+            "JAname": "氷属性与ダメージ +4.8%",
+            "ttype": "icedmg",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +6%",
+            "CNname": "效果命中 +6%",
+            "JAname": "効果命中 +6%",
+            "ttype": "effecthit",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +3.2%",
+            "CNname": "冰属性伤害提高 +3.2%",
+            "JAname": "氷属性与ダメージ +3.2%",
+            "ttype": "icedmg",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Ice DMG +6.4%",
+            "CNname": "冰属性伤害提高 +6.4%",
+            "JAname": "氷属性与ダメージ +6.4%",
+            "ttype": "icedmg",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "icedmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 6.4,
+                    "tag": [
+                        "self",
+                        "icedmg"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Victory Report",
+            "CNname": "胜利反馈",
+            "JAname": "勝利のフィードバック",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pela1.png",
+            "DescriptionEN": "When Pela defeats an enemy, Pela regenerates 5 Energy.",
+            "DescriptionCN": "敌方目标被消灭时，佩拉恢复5点能量。",
+            "DescriptionJP": "敵が倒された時、ペラはEPを5回復する。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Adamant Charge",
+            "CNname": "疾进不止",
+            "JAname": "止まぬ行進",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pela2.png",
+            "DescriptionEN": "Using Skill to remove buff(s) increases SPD by 10% for 2 turn(s).",
+            "DescriptionCN": "施放战技解除增益效果时，速度提高10%，持续2回合。",
+            "DescriptionJP": "戦闘スキルを発動してバフを解除する時、速度+10%、2ターン継続。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "speed",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Suppressive Force",
+            "CNname": "压制升级",
+            "JAname": "制圧エスカレート",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelaskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "Full Analysis",
+            "CNname": "完全剖析",
+            "JAname": "完全解析",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pela4.png",
+            "DescriptionEN": "When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s).",
+            "DescriptionCN": "施放战技时，有100%的基础概率使敌方目标冰抗性降低12%，持续2回合。",
+            "DescriptionJP": "戦闘スキルを発動した時、100%の基礎確率で敵の氷属性耐性-12%、2ターン継続。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "iceres",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "iceres",
+                    "multiplier": 12,
+                    "tag": [
+                        "singleenemy",
+                        "iceres"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Absolute Jeopardy",
+            "CNname": "零度妨害",
+            "JAname": "零度妨害",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pelault.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Feeble Pursuit",
+            "CNname": "疲弱追击",
+            "JAname": "疲弱追撃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pela6.png",
+            "DescriptionEN": "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to 40% of Pela's ATK to the enemy.",
+            "DescriptionCN": "施放攻击后，若敌方目标处于负面效果，则对其造成等同于佩拉40%攻击力的冰属性附加伤害。",
+            "DescriptionJP": "攻撃を行った後、敵がデバフ状態の場合、ペラの攻撃力40%分の氷属性付加ダメージを与える。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "singleenemy",
+                "additionalatk",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 40,
+                    "tag": [
+                        "singleenemy",
+                        "additionalatk",
+                        "iceatk"
+                    ]
+                }
+            ]
+        }
+    ]
+}
