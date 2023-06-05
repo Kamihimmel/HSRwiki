@@ -277,7 +277,7 @@
                 "singleatk",
                 "ultatk",
                 "physicalatk",
-                "actioni"
+                "actionf"
             ],
             "effect": [
                 {
@@ -290,6 +290,16 @@
                         "physicalatk"
                     ]
                 },
+                {
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                },
+
                 {
                     "type": "buff",
                     "addtarget": "atk",
