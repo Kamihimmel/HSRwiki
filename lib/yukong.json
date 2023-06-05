@@ -13,98 +13,98 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 174,
-            "atk": 102.96,
-            "def": 49.5
+            "hp": 124,
+            "atk": 81,
+            "def": 51
         },
         {
             "level": "20",
-            "hp": 340,
-            "atk": 200.77,
-            "def": 96.53
+            "hp": 243,
+            "atk": 159,
+            "def": 99
         },
         {
             "level": "20+",
-            "hp": 409,
-            "atk": 241.96,
-            "def": 116.33
+            "hp": 293,
+            "atk": 191,
+            "def": 119
         },
         {
             "level": "30",
-            "hp": 496,
-            "atk": 293,
-            "def": 141
+            "hp": 355,
+            "atk": 232,
+            "def": 145
         },
         {
             "level": "30+",
-            "hp": 566,
-            "atk": 334,
-            "def": 160
+            "hp": 405,
+            "atk": 265,
+            "def": 165
         },
         {
             "level": "40",
-            "hp": 653,
-            "atk": 386.1,
-            "def": 185.63
+            "hp": 468,
+            "atk": 306,
+            "def": 191
         },
         {
             "level": "40+",
-            "hp": 723,
-            "atk": 427.28,
-            "def": 205.43
+            "hp": 517,
+            "atk": 338,
+            "def": 211
         },
         {
             "level": "50",
-            "hp": 810,
-            "atk": 478.76,
-            "def": 230.18
+            "hp": 580,
+            "atk": 379,
+            "def": 237
         },
         {
             "level": "50+",
-            "hp": 880,
-            "atk": 519.95,
-            "def": 249.98
+            "hp": 630,
+            "atk": 412,
+            "def": 257
         },
         {
             "level": "60",
-            "hp": 967,
-            "atk": 571.43,
-            "def": 274.73
+            "hp": 692,
+            "atk": 452,
+            "def": 283
         },
         {
             "level": "60+",
-            "hp": 1037,
-            "atk": 612.61,
+            "hp": 742,
+            "atk": 485,
             "def": 294.53
         },
         {
             "level": "70",
-            "hp": 1124,
-            "atk": 664.09,
-            "def": 319.28
+            "hp": 804,
+            "atk": 526,
+            "def": 328
         },
         {
             "level": "70+",
-            "hp": 1194,
-            "atk": 705.28,
-            "def": 339.08
+            "hp": 854,
+            "atk": 558,
+            "def": 349
         },
         {
             "level": "80",
-            "hp": 1281,
-            "atk": 756.76,
-            "def": 363.83
+            "hp": 917,
+            "atk": 599,
+            "def": 374
         }
     ],
     "skilldata": [
         {
-            "ENname": "Thorns of the Abyss",
-            "CNname": "黑渊的棘刺",
-            "JAname": "黒淵の棘",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochana.webp",
-            "DescriptionEN": "Deals Imaginary DMG equal to [1]% of luocha's ATK to a single enemy.",
-            "DescriptionCN": "对指定敌方单体造成等同于罗刹[1]%攻击力的虚数属性伤害。",
-            "DescriptionJP": "指定した敵単体に羅刹の攻撃力[1]%分の虚数属性ダメージを与える。",
+            "ENname": "Arrowslinger",
+            "CNname": "流镝",
+            "JAname": "流鏑",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongna.webp",
+            "DescriptionEN": "Deals [1]% of Yukong's ATK as Imaginary DMG to a target enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于驭空[1]%攻击力的虚数属性伤害。",
+            "DescriptionJP": "指定した敵単体に御空の攻撃力[1]%分の虚数属性ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -143,145 +143,170 @@
             ]
         },
         {
-            "ENname": "Prayer of Abyss Flower",
-            "CNname": "白花的祈望",
-            "JAname": "白花の祈望",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochaskill.webp",
-            "DescriptionEN": "After using his Skill, immediately restore the target ally's HP equal to [1]% of Luocha's ATK plus [2]. Meanwhile, Luocha gains 1 stack of Abyss Flower.When any ally's HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha's Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
-            "DescriptionCN": "施放战技后立即为指定我方单体回复等同于罗刹[1]%攻击力+[2]的生命值，并使罗刹获得1层【白花之刻】。当我方任意单体当前生命值百分比小于等于50%时，罗刹会立即对其触发1次等同于战技的效果，此次触发不消耗战技点。该效果在2回合后可再次触发。",
-            "DescriptionJP": "戦闘スキルを発動した後、指定した味方単体のHPを、羅刹の攻撃力[1]%+[2]回復し、羅刹は「白花の刻」を1層獲得する。任意の味方単体の残りHPが50%以下の時、羅刹はその味方に戦闘スキルと同等の効果を1回発動する、この行動はSPを消費しない。この効果は2ターン後に再度発動できる。",
+            "ENname": "Emboldening Salvo",
+            "CNname": "天阙鸣弦",
+            "JAname": "天宮に鳴り響む弦",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongskill.webp",
+            "DescriptionEN": "Obtains 2 stack(s) of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by [1]%, and every time an ally's turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it's the turn where Yukong gains Roaring Bowstrings by using Skill, Roaring Bowstrings will not be removed.",
+            "DescriptionCN": "获得2层【鸣弦号令】，最多持有不超过2层。当驭空持有【鸣弦号令】时，我方全体攻击力提高[1]%，且每次我方目标回合结束时，移除驭空1层【鸣弦号令】。驭空施放战技获得【鸣弦号令】的回合，不会移除【鸣弦号令】。",
+            "DescriptionJP": "「鳴弦号令」を2層獲得する。「鳴弦号令」は最大で2層累積できる。御空に「鳴弦号令」がある時、味方全体の攻撃力+[1]%。味方のターンが終了するたびに、御空の「鳴弦号令」が1層減る。御空が戦闘スキルで「鳴弦号令」を獲得したターン、「鳴弦号令」は減らない。",
             "stype": "skill",
             "maxlevel": 15,
-            "buffskill": false,
-            "teamskill": false,
+            "buffskill": true,
+            "teamskill": true,
             "weaknessbreak": 0,
             "energyregen": 30,
             "levelmultiplier": [
                 {
                     "1": 40,
-                    "2": 42.5,
-                    "3": 45,
-                    "4": 47.5,
-                    "5": 50,
-                    "6": 52,
-                    "7": 54,
-                    "8": 56,
-                    "9": 58,
-                    "10": 60,
-                    "11": 62,
-                    "12": 64,
-                    "13": 66,
-                    "14": 68,
-                    "15": 70
-                },
-                {
-                    "1": 200,
-                    "2": 320,
-                    "3": 410,
-                    "4": 500,
-                    "5": 560,
-                    "6": 620,
-                    "7": 665,
-                    "8": 710,
-                    "9": 755,
-                    "10": 800,
-                    "11": 845,
-                    "12": 890,
-                    "13": 935,
-                    "14": 980,
-                    "15": 1025
+                    "2": 44,
+                    "3": 48,
+                    "4": 52,
+                    "5": 56,
+                    "6": 60,
+                    "7": 65,
+                    "8": 70,
+                    "9": 75,
+                    "10": 80,
+                    "11": 84,
+                    "12": 88,
+                    "13": 92,
+                    "14": 96,
+                    "15": 100
                 }
             ],
             "tags": [
                 "buff",
-                "heal",
-                "singleally"
+                "atk",
+                "allally"
             ],
             "effect": [
                 {
-                    "type": "heal",
-                    "multipliertarget": "atk",
+                    "type": "buff",
+                    "addtarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "singleally",
-                        "heal"
-                    ]
-                },
-                {
-                    "type": "heal",
-                    "multipliertarget": "",
-                    "multiplier": 2,
-                    "tag": [
-                        "singleally",
-                        "heal"
+                        "allally",
+                        "atk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Death Wish",
-            "CNname": "归葬的遂愿",
-            "JAname": "帰葬の成就",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochault.webp",
-            "DescriptionEN": "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to [1]% of Luocha's ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
-            "DescriptionCN": "解除敌方全体1个增益效果，并对敌方全体造成等同于罗刹[1]%攻击力的虚数属性伤害，同时使罗刹获得1层【白花之刻】。",
-            "DescriptionJP": "敵全体のバフを1つ解除し、敵全体に羅刹の攻撃力[1]%分の虚数属性ダメージを与える。羅刹は「白花の刻」を1層獲得する。",
+            "ENname": "Diving Kestrel",
+            "CNname": "贯云饮羽",
+            "JAname": "貫雲箭",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongult.webp",
+            "DescriptionEN": "If Roaring Bowstrings is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by [1]% and CRIT DMG by [2]%. At the same time, deals Imaginary DMG equal to [3]% of Yukong's ATK to a single enemy.",
+            "DescriptionCN": "施放终结技时，若驭空持有【鸣弦号令】，则额外使我方全体暴击率提高[1]%，暴击伤害提高[2]%。同时对指定敌方单体造成等同于驭空[3]%攻击力的虚数属性伤害。",
+            "DescriptionJP": "必殺技を発動した時、御空に「鳴弦号令」がある場合、さらに味方全体の会心率+[1]%、会心ダメージ+[2]%。指定した敵単体に御空の攻撃力[3]%分の虚数属性ダメージを与える。",
             "stype": "ult",
             "energy": 130,
             "maxlevel": 15,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": true,
-            "weaknessbreak": 60,
+            "weaknessbreak": 90,
             "energyregen": 5,
             "levelmultiplier": [
                 {
-                    "1": 120,
-                    "2": 128,
-                    "3": 136,
-                    "4": 144,
-                    "5": 152,
-                    "6": 160,
-                    "7": 170,
-                    "8": 180,
-                    "9": 190,
-                    "10": 200,
-                    "11": 208,
-                    "12": 216,
-                    "13": 224,
-                    "14": 232,
-                    "15": 240
+                    "1": 21,
+                    "2": 21.7,
+                    "3": 22.4,
+                    "4": 23.1,
+                    "5": 23.8,
+                    "6": 24.5,
+                    "7": 25.38,
+                    "8": 26.25,
+                    "9": 27.13,
+                    "10": 28,
+                    "11": 28.7,
+                    "12": 29.4,
+                    "13": 30.1,
+                    "14": 30.8,
+                    "15": 31.5
+                },
+                {
+                    "1": 39,
+                    "2": 41.6,
+                    "3": 44.2,
+                    "4": 46.8,
+                    "5": 49.4,
+                    "6": 52,
+                    "7": 55.25,
+                    "8": 58.5,
+                    "9": 61.75,
+                    "10": 65,
+                    "11": 67.6,
+                    "12": 70.2,
+                    "13": 72.8,
+                    "14": 75.4,
+                    "15": 78
+                },
+                {
+                    "1": 228,
+                    "2": 243.2,
+                    "3": 258.4,
+                    "4": 273.6,
+                    "5": 288.8,
+                    "6": 304,
+                    "7": 323,
+                    "8": 342,
+                    "9": 361,
+                    "10": 380,
+                    "11": 395.2,
+                    "12": 410.4,
+                    "13": 425.6,
+                    "14": 440.8,
+                    "15": 456
                 }
             ],
             "tags": [
-                "aoe",
-                "ultatk",
-                "imaginaryatk",
-                "allenemy",
-                "removebuff"
+                "buff",
+                "allally",
+                "critrate",
+                "critdmg",
+                "singleatk",
+                "imaginaryatk"
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
+                    "type": "buff",
+                    "addtarget": "critrate",
                     "multiplier": 1,
                     "tag": [
-                        "aoe",
+                        "allally",
+                        "critrate"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "allally",
+                        "critdmg"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleenemy",
                         "ultatk",
-                        "imaginaryatk",
-                        "allenemy",
-                        "removebuff"
+                        "imaginaryatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Cycle of Life",
-            "CNname": "生息的轮转",
-            "JAname": "生命の輪廻",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochatalent.webp",
-            "DescriptionEN": "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy.When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to [1]% of Luocha's ATK plus [2].The Field's effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
-            "DescriptionCN": "当【白花之刻】达到2层时，罗刹会消耗全部【白花之刻】展开结界。处于结界中的任意敌方目标受到攻击后，施放攻击的我方目标立即回复等同于罗刹[1]%攻击力+[2]的生命值。结界效果持续2回合。当罗刹陷入无法战斗状态时，结界也会被解除。",
-            "DescriptionJP": "「白花の刻」が2層に達した時、羅刹は「白花の刻」をすべて消費し、結界を張る。結界内の任意の敵が攻撃を受けた後、攻撃を行った味方は羅刹の攻撃力[1]%+[2]のHPを回復する。結界は2ターン継続する。羅刹が戦闘不能状態になった時、結界は解除される。",
+            "ENname": "Seven Layers, One Arrow",
+            "CNname": "箭彻七札",
+            "JAname": "徹札矢",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongtalent.webp",
+            "DescriptionEN": "Basic ATK additionally deals Imaginary DMG equal to [1]% of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+            "DescriptionCN": "施放普攻可额外造成等同于驭空[1]%攻击力的虚数属性伤害，并使本次攻击的削韧伤害提高100%，该效果在1回合后可再次触发。",
+            "DescriptionJP": "通常攻撃を行うと、さらに御空の攻撃力[1]%分の虚数属性ダメージを与え、その回の攻撃の削靭ダメージ+100%、この効果は1ターン後に再度触発できる。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
@@ -290,74 +315,61 @@
             "energyregen": 0,
             "levelmultiplier": [
                 {
-                    "1": 12,
-                    "2": 12.75,
-                    "3": 13.5,
-                    "4": 14.25,
-                    "5": 15,
-                    "6": 15.6,
-                    "7": 16.2,
-                    "8": 16.8,
-                    "9": 17.4,
-                    "10": 18,
-                    "11": 18.6,
-                    "12": 19.2,
-                    "13": 19.8,
-                    "14": 20.4,
-                    "15": 21
+                    "1": 40,
+                    "2": 44,
+                    "3": 48,
+                    "4": 52,
+                    "5": 56,
+                    "6": 60,
+                    "7": 65,
+                    "8": 70,
+                    "9": 75,
+                    "10": 80,
+                    "11": 84,
+                    "12": 88,
+                    "13": 92,
+                    "14": 96,
+                    "15": 100
                 },
                 {
-                    "1": 60,
-                    "2": 96,
-                    "3": 123,
-                    "4": 150,
-                    "5": 168,
-                    "6": 186,
-                    "7": 200,
-                    "8": 213,
-                    "9": 227,
-                    "10": 240,
-                    "11": 254,
-                    "12": 267,
-                    "13": 281,
-                    "14": 294,
-                    "15": 308
+                    "default": 100
                 }
             ],
             "tags": [
-                "buff",
-                "heal",
-                "singleally"
+                "singleenemy",
+                "additionalatk",
+                "imaginaryatk"
             ],
             "effect": [
                 {
-                    "type": "heal",
+                    "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "singleally",
-                        "heal"
+                        "singleenemy",
+                        "additionalatk",
+                        "imaginaryatk"
                     ]
                 },
                 {
-                    "type": "heal",
-                    "multipliertarget": "",
+                    "type": "buff",
+                    "addtarget": "",
                     "multiplier": 2,
                     "tag": [
-                        "singleally",
-                        "heal"
+                        "singleenemy",
+                        "normalatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Mercy of a Fool",
-            "CNname": "愚者的悲悯",
-            "JAname": "愚者の悲哀",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochatec.webp",
-            "DescriptionEN": "After using Technique, at the start of the next battle, Talent will be immediately triggered.",
-            "DescriptionCN": "使用秘技后，下一次战斗开始时立即触发天赋。",
-            "DescriptionJP": "秘技を使用した後、次の戦闘開始時、天賦を発動する。",
+            "ENname": "Chasing the Wind",
+            "CNname": "云鸢逐风",
+            "JAname": "風追う雲鳶",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongtec.webp",
+            "DescriptionEN": "After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her Movement SPD increases by 35%, and Yukong gains 2 stack(s) of Roaring Bowstrings when she enters battle by attacking enemies.",
+            "DescriptionCN": "使用秘技后进入持续20秒的冲刺状态。冲刺状态下自身移动速度提高35%，且主动攻击敌人进入战斗时，驭空获得2层【鸣弦号令】。",
+            "DescriptionJP": "秘技を使用した後、20秒の疾走状態に入る。疾走状態では、自身の移動速度+35%、敵を先制攻撃して戦闘に入る時、御空は「鳴弦号令」を2層獲得する。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
@@ -367,177 +379,91 @@
             "tags": [
                 "buff",
                 "self",
-                "special"
+                "movspeed"
             ]
         }
     ],
     "tracedata": [
         {
             "tiny": false,
-            "ENname": "Sanctified",
-            "CNname": "浇灌尘身",
-            "JAname": "清めし塵の身",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochat1.webp",
-            "DescriptionEN": "When any enemy in the Field is attacked by an ally, all allies (except the attacker) restore HP equal to 7% of Luocha's ATK plus 93.",
-            "DescriptionCN": "处于结界中的任意敌方目标受到我方攻击后，除攻击者外的我方目标也会回复等同于罗刹7%攻击力+93的生命值。",
-            "DescriptionJP": "結界の中にある任意の敵が味方の攻撃を受けた後、攻撃者以外の味方も羅刹の攻撃力7%+93のHPを回復する。",
+            "ENname": "Bowmaster",
+            "CNname": "迟彝",
+            "JAname": "遅彝",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongt1.webp",
+            "DescriptionEN": "When Yukong is on the field, Imaginary DMG dealt by all allies increases by 12%.",
+            "DescriptionCN": "驭空在场时，我方全体造成的虚数属性伤害提高12%。",
+            "DescriptionJP": "御空がフィールド上にいる時、味方全体の虚数属性与ダメージ+12%。",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "tags": [
                 "buff",
-                "heal",
-                "self"
+                "allally",
+                "imaginarydmg"
             ],
             "effect": [
                 {
-                    "type": "heal",
-                    "multipliertarget": "atk",
-                    "multiplier": 7,
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 12,
                     "tag": [
-                        "self",
-                        "heal"
-                    ]
-                },
-                {
-                    "type": "heal",
-                    "multipliertarget": "",
-                    "multiplier": 93,
-                    "tag": [
-                        "self",
-                        "heal"
+                        "allally",
+                        "imaginarydmg"
                     ]
                 }
-            ]
+            ]    
         },
         {
             "tiny": false,
-            "ENname": "Through the Valley",
-            "CNname": "行过幽谷",
-            "JAname": "幽谷を越え",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochat2.webp",
-            "DescriptionEN": "The chance to resist Crowd Control debuffs increases by 70%.",
-            "DescriptionCN": "抵抗控制类负面状态的概率提高70%。",
-            "DescriptionJP": "行動制限系デバフを抵抗する確率+70%。",
+            "ENname": "Majestas",
+            "CNname": "气壮",
+            "JAname": "気壮",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongt2.webp",
+            "DescriptionEN": "When Roaring Bowstrings is active, Yukong regenerates 2 additional Energy every time an ally takes action.",
+            "DescriptionCN": "持有【鸣弦号令】时，每当我方目标行动后，驭空将额外恢复2点能量。",
+            "DescriptionJP": "「鳴弦号令」がある時、味方が行動した後、御空はEPを2回復する。",
             "stype": "trace",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
-                "buff",
-                "self"
-            ]
+                "self",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ] 
         },
         {
             "tiny": false,
-            "ENname": "Cleansing Revival",
-            "CNname": "浸池苏生",
-            "JAname": "滴水蘇生",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochat3.webp",
-            "DescriptionEN": "When the Skill's effect is triggered, removes 1 debuff(s) from a target ally.",
-            "DescriptionCN": "触发战技效果时，解除指定我方单体的1个负面效果。",
-            "DescriptionJP": "戦闘スキルの効果が触発された時、指定した味方単体のデバフを1つ解除する。",
+            "ENname": "Archerion",
+            "CNname": "襄尺",
+            "JAname": "襄尺",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongt3.webp",
+            "DescriptionEN": "Yukong can resist 1 debuff application for 1 time. This effect can be triggered again in 2 turn(s).",
+            "DescriptionCN": "驭空被施加负面效果时可抵抗1次负面效果，该效果在2回合后可再次触发。",
+            "DescriptionJP": "デバフを付与された時、御空はそれを1回防げる。この効果は2ターン後に再度触発できる。",
             "stype": "trace",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
-                "buff",
-                "singleally",
-                "removedebuff"
+                "self",
+                "debuffres"
             ]
         },
         {
             "tiny": true,
-            "ENname": "HP +4%",
-            "CNname": "生命值 +4%",
-            "JAname": "HP +4%",
-            "ttype": "hp",
-            "DescriptionEN": "A2",
-            "DescriptionCN": "A2",
-            "DescriptionJP": "A2",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "hp"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "hp",
-                    "multiplier": 4,
-                    "tag": [
-                        "self",
-                        "hp"
-                    ]
-                }
-            ]
-        },  
-        {
-            "tiny": true,
-            "ENname": "ATK +4%",
-            "CNname": "攻击力 +4%",
-            "JAname": "攻撃力 +4%",
-            "ttype": "atk",
-            "DescriptionEN": "A3",
-            "DescriptionCN": "A3",
-            "DescriptionJP": "A3",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 4,
-                    "tag": [
-                        "self",
-                        "atk"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "DEF +5%",
-            "CNname": "防御力 +5%",
-            "JAname": "防御力 +5%",
-            "ttype": "def",
-            "DescriptionEN": "A3",
-            "DescriptionCN": "A3",
-            "DescriptionJP": "A3",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "def"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 5,
-                    "tag": [
-                        "self",
-                        "def"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "ATK +6%",
-            "CNname": "攻击力 +6%",
-            "JAname": "攻撃力 +6%",
-            "ttype": "atk",
+            "ENname": "Imaginary DMG +4.8%",
+            "CNname": "虚数属性伤害提高 +4.8%",
+            "JAname": "虚数属性与ダメージ +4.8%",
+            "ttype": "imaginarydmg",
             "DescriptionEN": "A4",
             "DescriptionCN": "A4",
             "DescriptionJP": "A4",
@@ -547,20 +473,20 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "imaginarydmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 6,
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 4.8,
                     "tag": [
                         "self",
-                        "atk"
+                        "imaginarydmg"
                     ]
                 }
             ]
-        },
+        },  
         {
             "tiny": true,
             "ENname": "HP +6%",
@@ -589,16 +515,16 @@
                     ]
                 }
             ]
-        }, 
+        },
         {
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
             "JAname": "攻撃力 +6%",
             "ttype": "atk",
-            "DescriptionEN": "A5",
-            "DescriptionCN": "A5",
-            "DescriptionJP": "A5",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -621,42 +547,13 @@
         },
         {
             "tiny": true,
-            "ENname": "DEF +7.5%",
-            "CNname": "防御力 +7.5%",
-            "JAname": "防御力 +7.5%",
-            "ttype": "def",
-            "DescriptionEN": "A6",
-            "DescriptionCN": "A6",
-            "DescriptionJP": "A6",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "def"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "def",
-                    "multiplier": 7.5,
-                    "tag": [
-                        "self",
-                        "def"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
             "ENname": "HP +8%",
             "CNname": "生命值 +8%",
             "JAname": "HP +8%",
             "ttype": "hp",
-            "DescriptionEN": "LV5",
-            "DescriptionCN": "LV5",
-            "DescriptionJP": "LV5",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -676,13 +573,13 @@
                     ]
                 }
             ]
-        }, 
+        },
         {
             "tiny": true,
-            "ENname": "ATK +8%",
-            "CNname": "攻击力 +8%",
-            "JAname": "攻撃力 +8%",
-            "ttype": "atk",
+            "ENname": "Imaginary DMG +6.4%",
+            "CNname": "虚数属性伤害提高 +6.4%",
+            "JAname": "虚数属性与ダメージ +6.4%",
+            "ttype": "imaginarydmg",
             "DescriptionEN": "LV80",
             "DescriptionCN": "LV80",
             "DescriptionJP": "LV80",
@@ -692,29 +589,116 @@
             "tags": [
                 "buff",
                 "self",
-                "atk"
+                "imaginarydmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 8,
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 6.4,
                     "tag": [
                         "self",
-                        "atk"
+                        "imaginarydmg"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "tiny": true,
+            "ENname": "HP +4%",
+            "CNname": "生命值 +4%",
+            "JAname": "HP +4%",
+            "ttype": "hp",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
                     ]
                 }
             ]
         },
         {
             "tiny": true,
+            "ENname": "Imaginary DMG +3.2%",
+            "CNname": "虚数属性伤害提高 +3.2%",
+            "JAname": "虚数属性与ダメージ +3.2%",
+            "ttype": "imaginarydmg",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "imaginarydmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Imaginary DMG +3.2%",
+            "CNname": "虚数属性伤害提高 +3.2%",
+            "JAname": "虚数属性与ダメージ +3.2%",
+            "ttype": "imaginarydmg",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "imaginarydmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "imaginarydmg"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
             "JAname": "攻撃力 +4%",
             "ttype": "atk",
-            "DescriptionEN": "LV1",
-            "DescriptionCN": "LV1",
-            "DescriptionJP": "LV1",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -734,82 +718,104 @@
                     ]
                 }
             ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Imaginary DMG +4.8%",
+            "CNname": "虚数属性伤害提高 +4.8%",
+            "JAname": "虚数属性与ダメージ +4.8%",
+            "ttype": "imaginarydmg",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "imaginarydmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "imaginarydmg"
+                    ]
+                }
+            ]
         }
     ],
     "eidolon": [
         {
             "eidolonnum": 1,
-            "ENname": "Ablution of the Quick",
-            "CNname": "濯洗生者",
-            "JAname": "生者の浄化",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luocha1.webp",
-            "DescriptionEN": "While the Field is active, ATK of all allies increases by 20%.",
-            "DescriptionCN": "结界生效时我方全体攻击力提高20%",
-            "DescriptionJP": "結界が発動している間、味方全体の攻撃力+20%。",
+            "ENname": "Aerial Marshal",
+            "CNname": "天舶飞将，枕弧待战",
+            "JAname": "天舟の飛将 弓枕き戦を待つ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukong1.webp",
+            "DescriptionEN": "At the start of battle, increases the SPD of all allies by 10% for 2 turn(s).",
+            "DescriptionCN": "进入战斗时，我方全体速度提高10%，持续2回合。",
+            "DescriptionJP": "戦闘に入る時、味方全体の速度+10%、2ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": true,
             "tags": [
                 "buff",
                 "allally",
-                "atk"
+                "speed"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 20,
+                    "addtarget": "speed",
+                    "multiplier": 10,
                     "tag": [
                         "allally",
-                        "atk"
+                        "speed"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 2,
-            "ENname": "Bestowal From the Pure",
-            "CNname": "净庭赐礼",
-            "JAname": "純庭の礼賜",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luocha2.webp",
-            "DescriptionEN": "When using his Skill, if the target ally's HP is lower than 50%, Luocha's Outgoing Healing increases by 30%. If the target ally's HP is at 50% or higher, the ally receives a Shield that can absorb DMG equal to 18% of Luocha's ATK plus 240, lasting for 2 turns.",
-            "DescriptionCN": "触发战技效果时，若指定我方目标当前生命值百分比小于50%，则罗刹提供的治疗量提高30%；若指定我方目标当前生命值百分比大于等于50%，则为其提供能够抵消等同于罗刹18%攻击力+240伤害的护盾，持续2回合。",
-            "DescriptionJP": "戦闘スキルの効果が触発された時、指定した味方の残りHPが50%未満の場合、羅刹の治癒量+30%。指定した味方の残りHPが50%以上の場合、その味方に羅刹の攻撃力18%+240の耐久値を持つバリアを付与する、2ターン継続。",
+            "ENname": "Skyward Command",
+            "CNname": "青霄驰骋，驱驭苍穹",
+            "JAname": "青霄を駆け 蒼穹を御す",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukong2.webp",
+            "DescriptionEN": "When any ally's current energy is equal to its energy limit, Yukong regenerates an additional 5 energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong casts her Ultimate.",
+            "DescriptionCN": "当我方任意单体当前能量值等于其能量上限时，驭空额外恢复5点能量。该效果我方每个单体仅可触发1次，当驭空施放终结技后，重置该效果触发次数",
+            "DescriptionJP": "任意の味方のEPが満タンの時、御空はさらにEPを5回復する。この効果は味方1名につき1回まで触発できる。御空が必殺技を発動した後、この効果の触発回数がリセットされる。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
             "tags": [
-                "shield",
-                "singleally"
+                "self",
+                "energy"
             ],
             "effect": [
                 {
-                    "type": "shield",
-                    "multipliertarget": "atk",
-                    "multiplier": 18,
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
                     "tag": [
-                        "singleally"
-                    ]
-                },
-                {
-                    "type": "shield",
-                    "multipliertarget": "",
-                    "multiplier": 240,
-                    "tag": [
-                        "singleally"
+                        "self",
+                        "energy"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 3,
-            "ENname": "Surveyal by the Fool",
-            "CNname": "愚人试探",
-            "JAname": "愚者の模索",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochaskill.webp",
-            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.Talent Lv. +2, up to a maximum of Lv. 15.",
-            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "ENname": "Torrential Fusillade",
+            "CNname": "危弓未辍，执射不宁",
+            "JAname": "断絶せぬ危弓 止まぬ飛矢",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -821,40 +827,42 @@
         },
         {
             "eidolonnum": 4,
-            "ENname": "Judgment via the King",
-            "CNname": "荆冠审判",
-            "JAname": "荊の審判",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luocha4.webp",
-            "DescriptionEN": "When Luocha's Field is active, enemies become Weakened and deal 12% less DMG.",
-            "DescriptionCN": "结界生效时使敌方目标陷入虚弱状态，造成的伤害降低12%。",
-            "DescriptionJP": "結界が存在する間、敵を虚弱状態にし、敵の与ダメージ-12%。",
+            "ENname": "Zephyrean Echoes",
+            "CNname": "百里闻风，九曲响镝",
+            "JAname": "百里の風拾い 九曲の鏑鳴らす",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukong4.webp",
+            "DescriptionEN": "When Roaring Bowstrings is active, Yukong deals 30% more DMG to enemies.",
+            "DescriptionCN": "持有【鸣弦号令】时，驭空造成的伤害提高30%。",
+            "DescriptionJP": "「鳴弦号令」がある時、御空の与ダメージ+30%。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "debuff",
-                "weaken"
+                "buff",
+                "self",
+                "alldmg"
             ],
             "effect": [
                 {
-                    "type": "debuff",
-                    "multipliertarget": "weaken",
-                    "multiplier": 12,
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 30,
                     "tag": [
-                        "allenemy"
+                        "self",
+                        "alldmg"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 5,
-            "ENname": "Cicatrix 'Neath the Pain",
-            "CNname": "受难之痕",
-            "JAname": "受難の痕",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luochault.webp",
-            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.Basic ATK Lv. +1, up to a maximum of Lv. 10.",
-            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "ENname": "August Deadshot",
+            "CNname": "井仪贯侯，疾羽参连",
+            "JAname": "井儀の四矢 参連の疾羽",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukongult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -866,31 +874,19 @@
         },
         {
             "eidolonnum": 6,
-            "ENname": "Reunion With the Dust",
-            "CNname": "皆归尘土",
-            "JAname": "皆灰燼に帰す",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luocha6.webp",
-            "DescriptionEN": "When using Ultimate, there is a 100% fixed chance to reduce all enemies' All-Type RES by 20% for 2 turn(s).",
-            "DescriptionCN": "施放终结技时，有100%固定概率使敌方全体全属性抗性降低20%，持续2回合。",
-            "DescriptionJP": "必殺技を発動した時、100%の固定確率で敵全体の全属性耐性-20%、2ターン継続。",
+            "ENname": "Bowstring Thunderclap",
+            "CNname": "弦栝如雷，铣珧激荡",
+            "JAname": "雷の如き弓弦 激動する銑弓",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/yukong6.webp",
+            "DescriptionEN": "When Yukong uses her Ultimate, she immediately gains 1 stack(s) of Roaring Bowstrings.",
+            "DescriptionCN": "驭空施放终结技时，立即先获得1层【鸣弦号令】。",
+            "DescriptionJP": "御空が必殺技を発動した時、先に「鳴弦号令」を1層獲得する。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
             "tags": [
-                "debuff",
-                "allenemy",
-                "reduceallres"
-            ],
-            "effect": [
-                {
-                    "type": "debuff",
-                    "addtarget": "allres",
-                    "multiplier": -20,
-                    "tag": [
-                        "allenemy",
-                        "allres"
-                    ]
-                }
+                "buff",
+                "self"
             ]
         }
     ]
