@@ -834,7 +834,7 @@
             "JAname": "完全解析",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/pela4.png",
             "DescriptionEN": "When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s).",
-            "DescriptionCN": "施放战技时，有100%的基础概率使敌方目标冰抗性降低12%，持续2回合。",
+            "DescriptionCN": "施放战技时，有100%的基础概率使敌方目标冰属性抗性降低12%，持续2回合。",
             "DescriptionJP": "戦闘スキルを発動した時、100%の基礎確率で敵の氷属性耐性-12%、2ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
