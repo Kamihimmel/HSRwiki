@@ -447,7 +447,8 @@
             "teamskill": true,
             "tags": [
                 "buff",
-                "singleally"
+                "singleally",
+                "removedebuff"
             ]
         },
         {
