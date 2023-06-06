@@ -95,9 +95,7 @@
             "def": 330,
             "hp": 1199
         }
-    ]
-    
-    ,
+    ],
     "skilldata": [
         {
             "ENname": "Lightning Rush",
@@ -338,7 +336,7 @@
             "weaknessbreak": 60,
             "energyregen": 0,
             "tags": [
-                "physicalatk"
+                "lightningatk"
             ],
             "effect": [
                 {
@@ -346,7 +344,8 @@
                     "multipliertarget": "atk",
                     "multiplier": 80,
                     "tag": [
-                        "allenemy"
+                        "allenemy",
+                        "lightningatk"
                     ]
                 }
             ]
