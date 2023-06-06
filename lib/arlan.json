@@ -100,13 +100,13 @@
     ,
     "skilldata": [
         {
-            "ENname": "I Want to Help",
-            "CNname": "我也想帮上忙",
-            "JAname": "クラーラもお手伝いします",
+            "ENname": "Lightning Rush",
+            "CNname": "如雷疾行",
+            "JAname": "疾行する雷の如し",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlanna.webp",
-            "DescriptionEN": "Deals Physical DMG equal to [1]% of Clara's ATK to a single enemy.",
-            "DescriptionCN": "对指定敌方单体造成等同于克拉拉[1]%攻击力的物理属性伤害。",
-            "DescriptionJP": "指定した敵単体にクラーラの攻撃力[1]%分の物理ダメージを与える。",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Arlan's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于阿兰[1]%攻击力的雷属性伤害。",
+            "DescriptionJP": "指定した敵単体にアーランの攻撃力[1]%分の雷属性ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -145,57 +145,40 @@
             ]
         },
         {
-            "ENname": "Svarog Watches Over You",
-            "CNname": "史瓦罗在看着你",
-            "JAname": "スヴァローグが見てる",
+            "ENname": "Shackle Breaker",
+            "CNname": "禁锢解除",
+            "JAname": "禁錮解除",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlanskill.webp",
-            "DescriptionEN": "Deals Physical DMG equal to [1]% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to [2]% of Clara's ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after this Skill is used.",
-            "DescriptionCN": "对敌方全体造成等同于克拉拉[1]%攻击力的物理属性伤害，并对所有被史瓦罗标上【反击标记】的敌方目标额外造成等同于克拉拉[2]%攻击力物理属性伤害。战技施放后所有【反击标记】失效。",
-            "DescriptionJP": "敵全体にクラーラの攻撃力[1]%分の物理ダメージを与える。スヴァローグに「反撃の印」を付与された敵に対し、さらにクラーラの攻撃力[2]%分の物理ダメージを与える。戦闘スキルを発動した後、すべての「反撃の印」が失効する。",
+            "DescriptionEN": "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to [1]% of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+            "DescriptionCN": "消耗等同于阿兰生命上限15%的生命值对指定敌方单体造成等同于阿兰[1]%攻击力的雷属性伤害。若当前生命值不足，施放战技时阿兰的当前生命值降至1点。",
+            "DescriptionJP": "アーランのHPを最大HP15%分消費して、指定した敵単体にアーランの攻撃力[1]%分の雷属性ダメージを与える。残りHPが足りない場合、戦闘スキルを発動する時、アーランの残りHPが1になる。",
             "stype": "skill",
             "maxlevel": 15,
             "buffskill": false,
             "teamskill": false,
-            "weaknessbreak": 30,
+            "weaknessbreak": 60,
             "energyregen": 30,
             "levelmultiplier": [
                 {
-                    "1": 60,
-                    "2": 66,
-                    "3": 72,
-                    "4": 78,
-                    "5": 84,
-                    "6": 90,
-                    "7": 97.5,
-                    "8": 105,
-                    "9": 112.5,
-                    "10": 120,
-                    "11": 126,
-                    "12": 132,
-                    "13": 138,
-                    "14": 144,
-                    "15": 150
-                },
-                {
-                    "1": 60,
-                    "2": 66,
-                    "3": 72,
-                    "4": 78,
-                    "5": 84,
-                    "6": 90,
-                    "7": 97.5,
-                    "8": 105,
-                    "9": 112.5,
-                    "10": 120,
-                    "11": 126,
-                    "12": 132,
-                    "13": 138,
-                    "14": 144,
-                    "15": 150
+                    "1": 120,
+                    "2": 132,
+                    "3": 144,
+                    "4": 156,
+                    "5": 168,
+                    "6": 180,
+                    "7": 195,
+                    "8": 210,
+                    "9": 225,
+                    "10": 240,
+                    "11": 252,
+                    "12": 264,
+                    "13": 276,
+                    "14": 288,
+                    "15": 300
                 }
             ],
             "tags": [
-                "aoe",
+                "singleatk",
                 "skillatk",
                 "lightningatk"
             ],
@@ -205,17 +188,7 @@
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "aoe",
-                        "skillatk",
-                        "lightningatk"
-                    ]
-                },
-                {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 2,
-                    "tag": [
-                        "aoe",
+                        "singleatk",
                         "skillatk",
                         "lightningatk"
                     ]
@@ -223,40 +196,37 @@
             ]
         },
         {
-            "ENname": "Promise, Not Command",
+            "ENname": "Frenzied Punishment",
             "CNname": "是约定不是命令",
-            "JAname": "命令じゃなくて約束",
+            "JAname": "狂者の制裁",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlanult.webp",
-            "DescriptionEN": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra [1]%, and she has greatly increased chances of being attacked by enemies for 2 turn(s). In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by [3]%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect 2 time(s).",
-            "DescriptionCN": "施放终结技后克拉拉受到的伤害额外降低[1]%且被敌方目标攻击的概率大幅提高，持续2回合。同时史瓦罗的反击得到强化，当任意我方目标受到攻击后史瓦罗立即施放反击，对敌方目标造成的伤害倍率提高[3]%，并对其相邻目标造成相当于主目标50%的伤害。强化效果可生效2次。",
-            "DescriptionJP": "必殺技を発動した後、さらにクラーラの被ダメージ-[1]%、敵に攻撃される確率が大幅アップ、2ターン継続。スヴァローグのカウンターを強化。任意の味方が攻撃を受けた後、スヴァローグが攻撃者にカウンターを行い、カウンターのダメージ倍率+[3]%、隣接する敵にメインターゲットに対する50%分のダメージを与える。強化効果は2回発動できる。",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Arlan's ATK to a single enemy and Lightning DMG equal to [2]% of Arlan's ATK to enemies adjacent to it.",
+            "DescriptionCN": "对指定敌方单体造成等同于阿兰[1]%攻击力的雷属性伤害，同时对其相邻目标造成等同于阿兰[2]%攻击力的雷属性伤害。",
+            "DescriptionJP": "指定した敵単体にアーランの攻撃力[1]%分の雷属性ダメージを与え、隣接する敵にアーランの攻撃力[2]%分の雷属性ダメージを与える。",
             "stype": "ult",
             "energy": 110,
             "maxlevel": 15,
-            "buffskill": true,
-            "teamskill": true,
-            "weaknessbreak": 0,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
             "energyregen": 5,
             "levelmultiplier": [
                 {
-                    "1": 15,
-                    "2": 16,
-                    "3": 17,
-                    "4": 18,
-                    "5": 19,
-                    "6": 20,
-                    "7": 21.25,
-                    "8": 22.5,
-                    "9": 23.75,
-                    "10": 25,
-                    "11": 26,
-                    "12": 27,
-                    "13": 28,
-                    "14": 29,
-                    "15": 30
-                },
-                {
-                    "default": 500
+                    "1": 192,
+                    "2": 204.8,
+                    "3": 217.6,
+                    "4": 230.4,
+                    "5": 243.2,
+                    "6": 256,
+                    "7": 272,
+                    "8": 288,
+                    "9": 304,
+                    "10": 320,
+                    "11": 332.8,
+                    "12": 345.6,
+                    "13": 358.4,
+                    "14": 371.2,
+                    "15": 384
                 },
                 {
                     "1": 96,
@@ -274,68 +244,44 @@
                     "13": 179.2,
                     "14": 185.6,
                     "15": 192
-                },
-                {
-                    "default": 50
                 }
             ],
             "tags": [
-                "aoe",
+                "blastatk",
                 "ultatk",
-                "dmgreduction",
-                "taunt",
-                "followupatk",
                 "lightningatk"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "dmgreduction",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "self",
-                        "dmgreduction"
+                        "singleatk",
+                        "ultatk",
+                        "lightningatk"
                     ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "taunt",
-                    "multiplier": 2,
-                    "tag": [
-                        "self",
-                        "taunt"
-                    ]
-                },
-                {
-                    "type": "buff",
-                    "referencetarget": "arlantalent",
-                    "referencetargetEN": "Clara Talent Multiplier",
-                    "referencetargetCN": "克拉拉天赋倍率",
-                    "referencetargetJP": "クラーラ天賦倍率",
-                    "addtarget": "",
-                    "multiplier": 3,
-                    "tag": []
                 },
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 4,
+                    "multiplier": 2,
                     "tag": [
-                        "aoe",
-                        "followupatk",
+                        "blastatk",
+                        "ultatk",
                         "lightningatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Because We're Family",
-            "CNname": "因为我们是家人",
-            "JAname": "家族なんだから",
+            "ENname": "Pain and Anger",
+            "CNname": "至痛至怒",
+            "JAname": "痛みと怒りの極み",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlantalent.webp",
-            "DescriptionEN": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by [1]%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to [2]% of Clara's ATK.",
-            "DescriptionCN": "克拉拉在史瓦罗的保护下受到敌方目标攻击的伤害降低[1]%。攻击克拉拉的敌方目标会被史瓦罗标上【反击标记】，并遭到史瓦罗的反击，对其造成等同于克拉拉[2]%攻击力的物理属性伤害。",
-            "DescriptionJP": "クラーラはスヴァローグの保護により被ダメージ-[1]%。クラーラを攻撃した敵に対し、スヴァローグが「反撃の印」を付与してカウンターし、クラーラの攻撃力[2]%分の物理ダメージを与える。",
+            "DescriptionEN": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of [1]% more DMG.",
+            "DescriptionCN": "根据阿兰当前损失的生命值百分比获得伤害加成，最多使阿兰造成的伤害提高[1]%。",
+            "DescriptionJP": "アーランの失ったHPの割合に応じて与ダメージアップ、最大でアーランの与ダメージ+[1]%。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
@@ -344,85 +290,63 @@
             "energyregen": 5,
             "levelmultiplier": [
                 {
-                    "default": 10
-                },
-                {
-                    "1": 80,
-                    "2": 88,
-                    "3": 96,
-                    "4": 104,
-                    "5": 112,
-                    "6": 120,
-                    "7": 130,
-                    "8": 140,
-                    "9": 150,
-                    "10": 160,
-                    "11": 168,
-                    "12": 176,
-                    "13": 184,
-                    "14": 192,
-                    "15": 200
+                    "1": 36,
+                    "2": 39.6,
+                    "3": 43.2,
+                    "4": 46.8,
+                    "5": 50.4,
+                    "6": 54,
+                    "7": 58.5,
+                    "8": 63,
+                    "9": 67.5,
+                    "10": 72,
+                    "11": 75.6,
+                    "12": 79.2,
+                    "13": 82.8,
+                    "14": 86.4,
+                    "15": 90
                 }
             ],
             "tags": [
                 "buff",
-                "dmgreduction",
-                "singleatk",
-                "followupatk",
-                "lightningatk"
+                "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "dmgreduction",
+                    "addtarget": "alldmg",
                     "multiplier": 1,
                     "tag": [
-                        "dmgreduction"
-                    ]
-                },
-                {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 2,
-                    "tag": [
-                        "singleatk",
-                        "followupatk",
-                        "lightningatk"
+                        "self",
+                        "alldmg"
                     ]
                 }
             ]
         },
         {
-            "ENname": "A Small Price for Victory",
-            "CNname": "胜利的小小代价",
-            "JAname": "勝利の小さな対価",
+            "ENname": "Swift Harvest",
+            "CNname": "极速收割",
+            "JAname": "特急ハーベスト",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlantec.webp",
-            "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s).",
-            "DescriptionCN": "立即攻击敌人，进入战斗后克拉拉受到敌方攻击的概率提高，持续2回合。",
-            "DescriptionJP": "敵を攻撃。戦闘に入った後、クラーラが敵に攻撃される確率がアップする、2ターン継続。",
+            "DescriptionEN": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方全体造成等同于阿兰80%攻击力的雷属性伤害。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、敵全体にアーランの攻撃力80%分の雷属性ダメージを与える。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": false,
             "teamskill": false,
             "weaknessbreak": 60,
             "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "default": 250
-                }
-            ],
             "tags": [
-                "buff",
-                "taunt"
+                "physicalatk"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "taunt",
-                    "multiplier": 1,
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 80,
                     "tag": [
-                        "self",
-                        "taunt"
+                        "allenemy"
                     ]
                 }
             ]
@@ -431,76 +355,86 @@
     "tracedata": [
         {
             "tiny": false,
-            "ENname": "Under Protection",
-            "CNname": "守护",
-            "JAname": "守護",
+            "ENname": "Revival",
+            "CNname": "苏生",
+            "JAname": "蘇生",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlant1.webp",
-            "DescriptionEN": "The chance to resist Crowd Control Debuffs increases by 35%.",
-            "DescriptionCN": "抵抗控制类负面状态的概率提高35%。",
-            "DescriptionJP": "行動制限系デバフを抵抗する確率+35%。",
+            "DescriptionEN": "If the current HP percentage is 30% or lower when defeating an enemy, immediately restores HP equal to 20% of Max HP.",
+            "DescriptionCN": "消灭敌方目标时，若当前生命值百分比小于等于30%，则立即回复等同于自身生命上限20%的生命值",
+            "DescriptionJP": "敵を倒した時、残りHPが30%以下の場合、自身の最大HP20%分のHPを回復する。",
             "stype": "trace",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
-                "buff",
-                "controlresist",
+                "heal",
                 "self"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "controlresist",
-                    "multiplier": 35,
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 20,
                     "tag": [
                         "self",
-                        "controlresist"
+                        "heal"
                     ]
                 }
             ]
         },
         {
             "tiny": false,
-            "ENname": "Kinship",
-            "CNname": "家人",
-            "JAname": "家族",
+            "ENname": "Endurance",
+            "CNname": "坚忍",
+            "JAname": "堅忍",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlant2.webp",
-            "DescriptionEN": "When attacked, this character has a 35% fixed chance to remove a debuff placed on them.",
-            "DescriptionCN": "受到攻击时有35%的固定概率解除自身1个负面效果。",
-            "DescriptionJP": "攻撃を受けた時、35%の固定確率で自身のデバフを1つ解除する。",
+            "DescriptionEN": "The chance to resist DoT Debuffs increases by 50%.",
+            "DescriptionCN": "抵抗持续伤害类负面状态的概率提高50%。",
+            "DescriptionJP": "持続ダメージ系デバフを抵抗する確率+50%。",
             "stype": "trace",
-            "maxlevel": 15,
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
                 "buff",
+                "dotresist",
                 "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "dotresist",
+                    "multiplier": 50,
+                    "tag": [
+                        "self",
+                        "dotresist"
+                    ]
+                }
             ]
         },
         {
             "tiny": false,
-            "ENname": "Revenge",
-            "CNname": "复仇",
-            "JAname": "復讐",
+            "ENname": "Repel",
+            "CNname": "抗御",
+            "JAname": "抗拒",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlant3.webp",
-            "DescriptionEN": "Increases Svarog's Counter DMG by 30%.",
-            "DescriptionCN": "史瓦罗的反击造成的伤害提高30%。",
-            "DescriptionJP": "スヴァローグのカウンターの与ダメージ+30%。",
+            "DescriptionEN": "Upon entering battle, if Arlan's HP is less than or equal to 50%, he can nullify all DMG received except for DoTs until he is attacked.",
+            "DescriptionCN": "进入战斗时，若当前生命值百分比小于等于50%，阿兰可以抵抗除持续伤害外的所有伤害。当阿兰受到攻击后，该效果解除。",
+            "DescriptionJP": "戦闘に入る時、残りHPが50%以下の場合、アーランは持続ダメージ以外のすべてのダメージを防ぐ。アーランが攻撃を受けた後、この効果は解除される。",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
                 "self",
-                "followupatk"
+                "dmgnullify"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "followupatk",
-                    "multiplier": 30,
+                    "addtarget": "dmgnullify",
+                    "multiplier": null,
                     "tag": [
                         "self",
-                        "followupatk"
+                        "dmgnullify"
                     ]
                 }
             ]
@@ -536,10 +470,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Physical DMG +4.8%",
-            "CNname": "物理属性伤害提高 +4.8%",
-            "JAname": "物理与ダメージ +4.8%",
-            "ttype": "lightningdmg",
+            "ENname": "Effect RES +6%",
+            "CNname": "效果抵抗 +6%",
+            "JAname": "効果抵抗 +6%",
+            "ttype": "effectres",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
@@ -549,16 +483,16 @@
             "tags": [
                 "buff",
                 "self",
-                "lightningdmg"
+                "effectres"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "lightningdmg",
-                    "multiplier": 4.8,
+                    "addtarget": "effectres",
+                    "multiplier": 6,
                     "tag": [
                         "self",
-                        "lightningdmg"
+                        "effectres"
                     ]
                 }
             ]
@@ -594,10 +528,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Physical DMG +3.2%",
-            "CNname": "物理属性伤害提高 +3.2%",
-            "JAname": "物理与ダメージ +3.2%",
-            "ttype": "lightningdmg",
+            "ENname": "Effect RES +4%",
+            "CNname": "效果抵抗 +4%",
+            "JAname": "効果抵抗 +4%",
+            "ttype": "icedmg",
             "DescriptionEN": "A2",
             "DescriptionCN": "A2",
             "DescriptionJP": "A2",
@@ -607,16 +541,16 @@
             "tags": [
                 "buff",
                 "self",
-                "lightningdmg"
+                "effectres"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "lightningdmg",
-                    "multiplier": 3.2,
+                    "addtarget": "effectres",
+                    "multiplier": 4,
                     "tag": [
                         "self",
-                        "lightningdmg"
+                        "effectres"
                     ]
                 }
             ]
@@ -710,10 +644,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Physical DMG +6.4%",
-            "CNname": "物理属性伤害提高 +6.4%",
-            "JAname": "物理与ダメージ +6.4%",
-            "ttype": "lightningdmg",
+            "ENname": "Effect RES +8%",
+            "CNname": "效果抵抗 +8%",
+            "JAname": "効果抵抗 +8%",
+            "ttype": "effectres",
             "DescriptionEN": "LV75",
             "DescriptionCN": "LV75",
             "DescriptionJP": "LV75",
@@ -723,16 +657,16 @@
             "tags": [
                 "buff",
                 "self",
-                "lightningdmg"
+                "effectres"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "lightningdmg",
-                    "multiplier": 6.4,
+                    "addtarget": "effectres",
+                    "multiplier": 8,
                     "tag": [
                         "self",
-                        "lightningdmg"
+                        "effectres"
                     ]
                 }
             ]
@@ -799,55 +733,57 @@
     "eidolon": [
         {
             "eidolonnum": 1,
-            "ENname": "A Tall Figure",
-            "CNname": "高大的背影",
-            "JAname": "薬理遍識",
+            "ENname": "To the Bitter End",
+            "CNname": "万死不辞",
+            "JAname": "万死も辞さぬ決意",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlan1.png",
-            "DescriptionEN": "Using Skill will not remove Marks of Counter on the enemy.",
-            "DescriptionCN": "施放战技后，不会清除敌方目标的【反击标记】。",
-            "DescriptionJP": "戦闘スキルを発動した後、敵に付与した「反撃の印」が失効しなくなる。",
+            "DescriptionEN": "When HP is lower than or equal to 50% of Max HP, increases Skill's DMG by 10%.",
+            "DescriptionCN": "当前生命值百分比小于等于50%时，战技造成的伤害提高10%。",
+            "DescriptionJP": "残りHPが50%以下の敵に対する戦闘スキルの与ダメージ+10%。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "self"
-            ]
-        },
-        {
-            "eidolonnum": 2,
-            "ENname": "A Tight Embrace",
-            "CNname": "紧紧的拥抱",
-            "JAname": "臨床研学",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlan2.png",
-            "DescriptionEN": "After using the Ultimate, ATK increases by 30% for 2 turn(s).",
-            "DescriptionCN": "施放终结技后攻击力提高30%，持续2回合。",
-            "DescriptionJP": "必殺技を発動した後、攻撃力+30%、2ターン継続。",
-            "stype": "eidolon",
-            "buffskill": false,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self"
+                "self",
+                "skillatk"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 30,
+                    "addtarget": "skillatk",
+                    "multiplier": 10,
                     "tag": [
-                        "self"
+                        "self",
+                        "skillatk"
                     ]
                 }
             ]
         },
         {
+            "eidolonnum": 2,
+            "ENname": "Breaking Free",
+            "CNname": "除制去缚",
+            "JAname": "縛りより放たれし心",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlan2.png",
+            "DescriptionEN": "Using Skill or Ultimate removes 1 debuff from oneself.",
+            "DescriptionCN": "施放战技、终结技时，解除自身的1个负面效果。",
+            "DescriptionJP": "戦闘スキルまたは必殺技を発動した時、自身のデバフを1つ解除する。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "removedebuff",
+                "self"
+            ]
+        },
+        {
             "eidolonnum": 3,
-            "ENname": "Cold Steel Armor",
-            "CNname": "冰冷的钢甲",
+            "ENname": "Power Through",
+            "CNname": "重剑强攻",
             "JAname": "因病投薬",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlanskill.webp",
-            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
             "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
             "stype": "eidolon",
@@ -861,40 +797,39 @@
         },
         {
             "eidolonnum": 4,
-            "ENname": "Family's Warmth",
-            "CNname": "家人的温暖",
-            "JAname": "妙手回春",
+            "ENname": "Turn the Tables",
+            "CNname": "绝处反击",
+            "JAname": "絶境の反撃",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlan4.png",
-            "DescriptionEN": "After Clara is hit, the DMG taken by Clara is reduced by 30%. This effect lasts until the start of her next turn.",
-            "DescriptionCN": "受到攻击后，克拉拉受到的伤害降低30%，效果持续到自己的下个回合开始。",
-            "DescriptionJP": "攻撃を受けた後、クラーラの被ダメージ-30%、次のターンが回ってくるまで継続。",
+            "DescriptionEN": "When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan immediately restores his HP to 25% of his Max HP. This effect is automatically removed after it is triggered once or after 2 turn(s) have elapsed.",
+            "DescriptionCN": "进入战斗后，受到致命攻击时阿兰不会陷入无法战斗状态，并立即回复至自身生命上限的25%。该效果在触发1次后或持续2回合后自动解除。",
+            "DescriptionJP": "戦闘に入った後、アーランはHPが0になる攻撃を受けても戦闘不能状態にならず、HPを25%まで回復する。この効果は1回発動した後、または2ターン以降に自動解除される。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
             "tags": [
-                "buff",
-                "dmgreduction",
+                "revive",
                 "self"
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "dmgreduction",
-                    "multiplier": 30,
+                    "type": "revive",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 25,
                     "tag": [
                         "self",
-                        "dmgreduction"
+                        "heal"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 5,
-            "ENname": "A Small Promise",
-            "CNname": "小小的承诺",
+            "ENname": "Hammer and Tongs",
+            "CNname": "全力倾注",
             "JAname": "未病療治",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlanult.webp",
-            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
             "stype": "eidolon",
@@ -908,20 +843,40 @@
         },
         {
             "eidolonnum": 6,
-            "ENname": "Long Company",
-            "CNname": "长久的陪伴",
-            "JAname": "医者仁心",
+            "ENname": "Self-Sacrifice",
+            "CNname": "以身作引",
+            "JAname": "献身的な先導",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/arlan6.png",
-            "DescriptionEN": "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by 1.",
-            "DescriptionCN": "我方其他目标遭到攻击后，史瓦罗也有50%的固定概率触发对攻击者的反击，并对攻击目标添加【反击标记】。施放终结技时，额外增加1次强化反击的次数。",
-            "DescriptionJP": "他の味方が攻撃された後も、スヴァローグは50%の固定確率で攻撃者にカウンターを行い、その敵に「反撃の印」を付与する。必殺技を発動した時、さらに強化反撃の回数+1。",
+            "DescriptionEN": "When HP drops to 50% or below, Ultimate deals 20% more DMG. The DMG multiplier of DMG taken by the target enemy now applies to adjacent enemies as well.",
+            "DescriptionCN": "当前生命值百分比小于等于50%时，终结技造成的伤害提高20%，且对相邻目标的伤害倍率提高到与主目标相同的伤害倍率。",
+            "DescriptionJP": "残りHPが50%以下の時、必殺技の与ダメージ+20%、隣接する敵に対するダメージ倍率がメインターゲットと同じになる。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "tags": [
-                "normalatk",
-                "followupatk",
-                "lightningatk"
+                "buff",
+                "ultatk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "ultatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "blastatk",
+                    "multiplier": 100,
+                    "tag": [
+                        "self",
+                        "blastatk"
+                    ]
+                }                
             ]
         }
     ]
