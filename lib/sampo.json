@@ -1,0 +1,890 @@
+{
+    "ENname": "Sampo",
+    "CNname": "桑博",
+    "JAname": "サンポ",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sampo.webp",
+    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/sampolarge.webp",
+    "etype": "wind",
+    "wtype": "nihility",
+    "rarity": "4",
+    "dtaunt": 100,
+    "dspeed": 102,
+    "maxenergy": 100,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 139,
+            "atk": 84,
+            "def": 54
+        },
+        {
+            "level": "20",
+            "hp": 271,
+            "atk": 163,
+            "def": 105
+        },
+        {
+            "level": "20+",
+            "hp": 327,
+            "atk": 197,
+            "def": 126
+        },
+        {
+            "level": "30",
+            "hp": 396,
+            "atk": 239,
+            "def": 153
+        },
+        {
+            "level": "30+",
+            "hp": 452,
+            "atk": 273,
+            "def": 175
+        },
+        {
+            "level": "40",
+            "hp": 522,
+            "atk": 315,
+            "def": 202
+        },
+        {
+            "level": "40+",
+            "hp": 577,
+            "atk": 348,
+            "def": 224
+        },
+        {
+            "level": "50",
+            "hp": 647,
+            "atk": 390,
+            "def": 251
+        },
+        {
+            "level": "50+",
+            "hp": 702,
+            "atk": 424,
+            "def": 272
+        },
+        {
+            "level": "60",
+            "hp": 772,
+            "atk": 466,
+            "def": 299
+        },
+        {
+            "level": "60+",
+            "hp": 828,
+            "atk": 499,
+            "def": 321
+        },
+        {
+            "level": "70",
+            "hp": 897,
+            "atk": 541,
+            "def": 348
+        },
+        {
+            "level": "70+",
+            "hp": 953,
+            "atk": 575,
+            "def": 369
+        },
+        {
+            "level": "80",
+            "hp": 1023,
+            "atk": 617,
+            "def": 396
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Dazzling Blades",
+            "CNname": "酷炫的刀花",
+            "JAname": "眩い刃紋",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampona.webp",
+            "DescriptionEN": "Deals Wind DMG equal to [1]% of Sampo's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于桑博[1]%攻击力的风属性伤害。",
+            "DescriptionJP": "指定した敵単体にサンポの攻撃力[1]%分の風属性ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "windatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "windatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Ricochet Love",
+            "CNname": "反复横跳的爱",
+            "JAname": "反復横跳びの愛",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/samposkill.webp",
+            "DescriptionEN": "Deals Wind DMG equal to [1]% of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to [2]% of Sampo's ATK to a random enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于桑博[1]%攻击力的风属性伤害，并额外造成4次伤害，每次伤害对敌方随机单体造成等同于桑博[2]%攻击力的风属性伤害。",
+            "DescriptionJP": "指定した敵単体にサンポの攻撃力[1]%分の風属性ダメージを与え、さらに4ヒットする。1ヒットごとにランダムな敵単体にサンポの攻撃力[2]%分の風属性ダメージを与える。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 6,
+            "levelmultiplier": [
+                {
+                    "1": 28,
+                    "2": 30.8,
+                    "3": 33.6,
+                    "4": 36.4,
+                    "5": 39.2,
+                    "6": 42,
+                    "7": 45.5,
+                    "8": 49,
+                    "9": 52.5,
+                    "10": 56,
+                    "11": 58.8,
+                    "12": 61.6,
+                    "13": 64.4,
+                    "14": 67.2,
+                    "15": 70
+                },
+                {
+                    "1": 28,
+                    "2": 30.8,
+                    "3": 33.6,
+                    "4": 36.4,
+                    "5": 39.2,
+                    "6": 42,
+                    "7": 45.5,
+                    "8": 49,
+                    "9": 52.5,
+                    "10": 56,
+                    "11": 58.8,
+                    "12": 61.6,
+                    "13": 64.4,
+                    "14": 67.2,
+                    "15": 70
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "skillatk",
+                "windatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "additionalatk",
+                        "skillatk",
+                        "windatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Surprise Present",
+            "CNname": "惊喜礼盒",
+            "JAname": "サプライズボックス",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampoult.webp",
+            "DescriptionEN": "Deals Wind DMG equal to [1]% of Sampo's ATK to all enemies, with a 100% base chance to increase the targets' DoT taken by [3]% for 2 turn(s).",
+            "DescriptionCN": "对敌方全体造成等同于桑博[1]%攻击力的风属性伤害，同时有100%的基础概率使被攻击的敌方目标受到的持续伤害提高[3]%，持续2回合。",
+            "DescriptionJP": "敵全体にサンポの攻撃力[1]%分の風属性ダメージを与え、100%の基礎確率で攻撃を受けた敵の持続被ダメージ+[3]%、2ターン継続。",
+            "stype": "ult",
+            "energy": 100,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 96,
+                    "2": 102.4,
+                    "3": 108.8,
+                    "4": 115.2,
+                    "5": 121.6,
+                    "6": 128,
+                    "7": 136,
+                    "8": 144,
+                    "9": 152,
+                    "10": 160,
+                    "11": 166.4,
+                    "12": 172.8,
+                    "13": 179.2,
+                    "14": 185.6,
+                    "15": 192
+                },
+                {
+                    "default": 100
+                },
+                {
+                    "1": 20,
+                    "2": 21,
+                    "3": 22,
+                    "4": 23,
+                    "5": 24,
+                    "6": 25,
+                    "7": 26.25,
+                    "8": 27.5,
+                    "9": 28.75,
+                    "10": 30,
+                    "11": 31,
+                    "12": 32,
+                    "13": 33,
+                    "14": 34,
+                    "15": 35
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "buff",
+                "dotvulnerability"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "ultatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "dotvulnerability",
+                    "multiplier": 2,
+                    "tag": [
+                        "aoe",
+                        "dotvulnerability"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "addtarget": "dotdmgreceive",
+                    "multiplier": 3,
+                    "tag": [
+                        "dotdmgreceive"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Windtorn Dagger",
+            "CNname": "撕风的匕首",
+            "JAname": "風を切り裂く匕首",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampotalent.webp",
+            "DescriptionEN": "Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to [2]% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+            "DescriptionCN": "桑博击中敌方目标后有65%的基础概率使目标陷入风化状态，持续3回合。风化状态下，敌方目标每回合开始时受到等同于桑博[2]%攻击力的风属性持续伤害。风化状态最多叠加5层。",
+            "DescriptionJP": "サンポの攻撃が敵に命中した後、65%の基礎確率で敵を風化状態にする、3ターン継続。風化状態の敵はターンが回ってくるたびに、サンポの攻撃力[2]%分の風属性持続ダメージを受ける。風化状態は最大で5層累積できる。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "default": 65
+                },
+                {
+                    "1": 20,
+                    "2": 22,
+                    "3": 24,
+                    "4": 26,
+                    "5": 28,
+                    "6": 31,
+                    "7": 35,
+                    "8": 40,
+                    "9": 46,
+                    "10": 52,
+                    "11": 54.6,
+                    "12": 57.2,
+                    "13": 59.8,
+                    "14": 62.4,
+                    "15": 65
+                }
+            ],
+            "tags": [
+                "dotatk",
+                "windatk"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "windshear",
+                    "multiplier": 1,
+                    "tag": [
+                        "windshear"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "aoe",
+                        "dotatk",
+                        "windatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "Shining Bright",
+            "CNname": "你最闪亮",
+            "JAname": "一番の輝きをあなたへ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampotec.webp",
+            "DescriptionEN": "After Sampo uses his Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team. When initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action by 25%.",
+            "DescriptionCN": "使用秘技后使一定区域内的敌人陷入10秒的目盲状态，目盲状态下的敌人无法发现我方目标。若主动攻击陷入目盲状态的敌人，进入战斗时有100%固定概率使敌方每个单体目标行动延后25%。",
+            "DescriptionJP": "秘技を使用した後、一定区域内の敵を10秒間のブラインド状態にする。ブラインド状態の敵は味方を発見できない。ブラインド状態の敵を先制攻撃して戦闘に入った時、100%の固定確率で、敵単体それぞれの行動順を25%遅延させる。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 0,
+            "tags": [
+                "debuff",
+                "action"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "actiond",
+                    "multiplier": 25,
+                    "tag": [
+                        "aoe",
+                        "actiond"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "tiny": false,
+            "ENname": "Defensive Position",
+            "CNname": "后手",
+            "JAname": "予備プラン",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampot1.webp",
+            "DescriptionEN": "Using Ultimate additionally regenerates 10 Energy.",
+            "DescriptionCN": "施放终结技时，额外恢复10点能量。",
+            "DescriptionJP": "必殺技を発動した時、さらにEPを10回復する。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Spice Up",
+            "CNname": "加料",
+            "JAname": "火に油",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampot2.webp",
+            "DescriptionEN": "Enemies with Wind Shear effect deal 15% less DMG to Sampo.",
+            "DescriptionCN": "风化状态下的敌方目标对桑博造成的伤害降低15%。",
+            "DescriptionJP": "風化状態の敵に対する、サンポの被ダメージ-15%。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "self",
+                "dmgreduce"
+            ]
+        },
+        {
+            "tiny": false,
+            "ENname": "Trap",
+            "CNname": "圈套",
+            "JAname": "ワナ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampot3.webp",
+            "DescriptionEN": "Extends the duration of Wind Shear caused by Talent by 1 turn(s).",
+            "DescriptionCN": "天赋使敌方陷入风化状态的持续时间延长1回合。",
+            "DescriptionJP": "天賦による敵の風化状態の継続時間+1ターン。",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "windshear"
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +6%",
+            "CNname": "效果命中 +6%",
+            "JAname": "効果命中 +6%",
+            "ttype": "effecthit",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +6%",
+            "CNname": "攻击力 +6%",
+            "JAname": "攻撃力 +6%",
+            "ttype": "atk",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +6%",
+            "CNname": "效果抵抗 +6%",
+            "JAname": "効果抵抗 +6%",
+            "ttype": "effectres",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +8%",
+            "CNname": "效果命中 +8%",
+            "JAname": "効果命中 +8%",
+            "ttype": "effecthit",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect Hit +4%",
+            "CNname": "效果命中 +4%",
+            "JAname": "効果命中 +4%",
+            "ttype": "effecthit",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "Effect RES +4%",
+            "CNname": "效果抵抗 +4%",
+            "JAname": "効果抵抗 +4%",
+            "ttype": "effectres",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +8%",
+            "CNname": "攻击力 +8%",
+            "JAname": "攻撃力 +8%",
+            "ttype": "atk",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "eidolonnum": 1,
+            "ENname": "Rising Love",
+            "CNname": "加码的爱",
+            "JAname": "値上げする愛",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampo1.webp",
+            "DescriptionEN": "When using Skill, deals DMG for 1 extra time(s) to a random enemy.",
+            "DescriptionCN": "施放战技时，对敌方随机单体额外造成1次伤害。",
+            "DescriptionJP": "戦闘スキルを発動した時、さらにランダムな敵単体にダメージを1回与える。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "skillatk",
+                "windatk"
+            ]
+        },
+        {
+            "eidolonnum": 2,
+            "ENname": "Infectious Enthusiasm",
+            "CNname": "热情会传染",
+            "JAname": "熱情はうつる",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampo2.webp",
+            "DescriptionEN": "Defeating an enemy with Wind Shear has a 100% base chance to inflict all enemies with 1 stack(s) of Wind Shear, equivalent to the Talent's Wind Shear.",
+            "DescriptionCN": "风化状态下的敌方目标被消灭时，使敌方全体有100%的基础概率叠加1层等同于天赋的风化状态。",
+            "DescriptionJP": "風化状態の敵が倒された時、100%の基礎確率で敵全体に、天賦と同じ風化状態を1層付与する。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 3,
+            "ENname": "Big Money!",
+            "CNname": "大数字！",
+            "JAname": "大儲け！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/samposkill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 4,
+            "ENname": "The Deeper the Love, the Stronger the Hate",
+            "CNname": "爱之深，恨之切",
+            "JAname": "愛する程恨む",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampo4.webp",
+            "DescriptionEN": "When Skill hits an enemy with 5 or more stack(s) of Wind Shear, the enemy immediately takes 8% of current Wind Shear DMG.",
+            "DescriptionCN": "战技击中风化状态大于等于5层的敌方目标时，使其当前承受的风化状态立即产生相当于原伤害8%的伤害。",
+            "DescriptionJP": "戦闘スキルが風化状態5層以上の敵に命中した時、その敵が受けている風化状態が本来のダメージ8%分のダメージを発生する。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": true,
+            "tags": [
+                "windshear",
+                "skillatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "windshear",
+                    "multiplier": 8,
+                    "tag": [
+                        "skillatk",
+                        "windshear",
+                        "additionalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "eidolonnum": 5,
+            "ENname": "Huuuuge Money!",
+            "CNname": "超大数字！",
+            "JAname": "超大儲け！",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampoult.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "eidolonnum": 6,
+            "ENname": "Increased Spending",
+            "CNname": "消费升级",
+            "JAname": "消費のアップグレード",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sampo6.webp",
+            "DescriptionEN": "Talent's Wind Shear DMG multiplier increases by 15%.",
+            "DescriptionCN": "天赋施加的风化状态的伤害倍率提高15%。",
+            "DescriptionJP": "天賦が付与した風化状態のダメージ倍率+15%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "self",
+                "buff",
+                "shocked"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "referencetarget": "sampotalent",
+                    "referencetargetEN": "Sampo Talent Multiplier",
+                    "referencetargetCN": "桑博天赋倍率",
+                    "referencetargetJP": "サンポ天賦倍率",
+                    "addtarget": "",
+                    "multiplier": 15,
+                    "tag": []
+                }
+            ]
+        }
+    ]
+}
