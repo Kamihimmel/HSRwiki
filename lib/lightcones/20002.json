@@ -10,110 +10,120 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
+            "hp": 38,
             "atk": 16.8,
-            "def": 12
+            "def": 9
         },
         {
             "level": "20",
-            "hp": 129,
+            "hp": 148,
             "atk": 64.68,
-            "def": 46.2
+            "def": 34.65
         },
         {
             "level": "20+",
-            "hp": 170,
+            "hp": 194,
             "atk": 84.84,
-            "def": 60.6
+            "def": 45.45
         },
         {
             "level": "40",
-            "hp": 324,
+            "hp": 371,
             "atk": 162.12,
-            "def": 115.8
+            "def": 86.85
         },
         {
             "level": "40+",
-            "hp": 378,
+            "hp": 432,
             "atk": 189,
-            "def": 135
+            "def": 101.25
         },
         {
             "level": "50",
-            "hp": 428,
+            "hp": 490,
             "atk": 214.2,
-            "def": 153
+            "def": 114.75
         },
         {
             "level": "50+",
-            "hp": 482,
+            "hp": 551,
             "atk": 241.08,
-            "def": 172.2
+            "def": 129.15
         },
         {
             "level": "60",
-            "hp": 533,
+            "hp": 609,
             "atk": 266.28,
-            "def": 190.2
+            "def": 142.65
         },
         {
             "level": "60+",
-            "hp": 586,
+            "hp": 670,
             "atk": 293.16,
-            "def": 209.4
+            "def": 157.05
         },
         {
             "level": "70",
-            "hp": 637,
+            "hp": 728,
             "atk": 318.36,
-            "def": 227.4
+            "def": 170.55
         },
         {
             "level": "70+",
-            "hp": 690,
+            "hp": 789,
             "atk": 345.24,
-            "def": 246.6
+            "def": 184.95
         },
         {
             "level": "80",
-            "hp": 741,
+            "hp": 847,
             "atk": 370.44,
-            "def": 264.6
+            "def": 198.45
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Havoc",
+            "CNname": "破灭",
+            "JAname": "破滅",
+            "DescriptionEN": "Increases the wearer's Basic ATK and Skill DMG by [1]%.",
+            "DescriptionCN": "使装备者普攻和战技造成的伤害提高[1]%。",
+            "DescriptionJP": "装備キャラの通常攻撃と戦闘スキルの与ダメージ+[1]%。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 20,
+                    "2": 25,
+                    "3": 30,
+                    "4": 35,
+                    "5": 40
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "skillatk",
+                "normalatk"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "skillatk",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "skillatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "normalatk",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "normalatk"
                     ]
                 }
             ]
