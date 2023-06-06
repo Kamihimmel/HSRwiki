@@ -1,0 +1,74 @@
+{
+    "id": "102",
+    "ENname": "Musketeer of Wild WheatSet",
+    "CNname": "野穗伴行的快枪手套装",
+    "JAname": "草の穂ガンマンセット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71001.webp",
+    "set": "4",
+    "head": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_102_1.webp",
+    "hands": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_102_2.webp",
+    "body": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_102_3.webp",
+    "feet": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_102_4.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "ATK increases by 12%.",
+            "DescriptionCN": "攻击力提高12%。",
+            "DescriptionJP": "攻撃力+12%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 12,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%.",
+            "DescriptionCN": "使装备者的速度提高6%，普攻造成的伤害提高10%。",
+            "DescriptionJP": "装備キャラの速度+6%、通常攻撃の与ダメージ+10%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "speed",
+                "atk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 6,
+                    "tag": [
+                        "speed",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 10,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

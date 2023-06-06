@@ -1,0 +1,64 @@
+{
+    "id": "109",
+    "ENname": "Band of Sizzling ThunderSet",
+    "CNname": "激奏雷电的乐队套装",
+    "JAname": "雷鳴轟くバンドセット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71008.webp",
+    "set": "4",
+    "head": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_109_1.webp",
+    "hands": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_109_2.webp",
+    "body": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_109_3.webp",
+    "feet": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_109_4.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases Lightning DMG by 10%.",
+            "DescriptionCN": "雷属性伤害提高10%。",
+            "DescriptionJP": "雷属性ダメージ+10%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "lightningdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "lightningdmg",
+                    "multiplier": 10,
+                    "tag": [
+                        "lightningdmg",
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "When the wearer uses their Skill, increases the wearer's ATK by 20% for 1 turn(s).",
+            "DescriptionCN": "当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。",
+            "DescriptionJP": "装備キャラが戦闘スキルを発動した時、装備キャラの攻撃力+20%、1ターン継続。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 20,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

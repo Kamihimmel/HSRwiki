@@ -1,0 +1,73 @@
+{
+    "id": "108",
+    "ENname": "Genius of Brilliant StarsSet",
+    "CNname": "繁星璀璨的天才套装",
+    "JAname": "星の如く輝く天才セット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71007.webp",
+    "set": "4",
+    "head": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_108_1.webp",
+    "hands": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_108_2.webp",
+    "body": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_108_3.webp",
+    "feet": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_108_4.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases Quantum DMG by 10%.",
+            "DescriptionCN": "量子属性伤害提高10%。",
+            "DescriptionJP": "量子属性ダメージ+10%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 10,
+                    "tag": [
+                        "quantumdmg",
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF.",
+            "DescriptionCN": "当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。",
+            "DescriptionJP": "装備キャラが敵にダメージを与えた時、敵の防御力を10%無視する。敵に量子属性の弱点がある場合、さらに防御力を10%無視する。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "ignoredef",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 10,
+                    "tag": [
+                        "ignoredef",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 10,
+                    "tag": [
+                        "ignoredef",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "id": "106",
+    "ENname": "Guard of Wuthering SnowSet",
+    "CNname": "戍卫风雪的铁卫套装",
+    "JAname": "吹雪と対峙する兵士セット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71005.webp",
+    "set": "4",
+    "head": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_106_1.webp",
+    "hands": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_106_2.webp",
+    "body": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_106_3.webp",
+    "feet": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_106_4.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Reduces DMG taken by 8%.",
+            "DescriptionCN": "受到伤害降低8%。",
+            "DescriptionJP": "被ダメージ-8%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "dmgreceive"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": -8,
+                    "tag": [
+                        "dmgreceive",
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "At the beginning of the turn, if the wearer's HP is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy.",
+            "DescriptionCN": "回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。",
+            "DescriptionJP": "ターンが回ってきた時、装備キャラの残りHPが50%以下の場合、HPを最大HP8%分回復し、EPを5回復する。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "heal",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "energy",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

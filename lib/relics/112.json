@@ -1,0 +1,74 @@
+{
+    "id": "112",
+    "ENname": "Wastelander of Banditry DesertSet",
+    "CNname": "盗匪荒漠的废土客套装",
+    "JAname": "荒地で盗みを働く廃土客セット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71011.webp",
+    "set": "4",
+    "head": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_112_1.webp",
+    "hands": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_112_2.webp",
+    "body": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_112_3.webp",
+    "feet": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_112_4.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases Imaginary DMG by 10%.",
+            "DescriptionCN": "虚数属性伤害提高10%。",
+            "DescriptionJP": "虚数属性ダメージ+10%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "imaginarydmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 10,
+                    "tag": [
+                        "imaginarydmg",
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "When attacking debuffed enemies, the wearer's CRIT Rate increases by 10%, and their CRIT DMG increases by 20% against Imprisoned enemies.",
+            "DescriptionCN": "装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。",
+            "DescriptionJP": "デバフ状態の敵にダメージを与えた時、装備キャラの会心率+10%。禁錮状態の敵にダメージを与えた時、会心ダメージ+20%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "critdmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 10,
+                    "tag": [
+                        "critrate",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 20,
+                    "tag": [
+                        "critdmg",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

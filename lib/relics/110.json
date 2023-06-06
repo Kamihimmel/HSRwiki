@@ -1,0 +1,64 @@
+{
+    "id": "110",
+    "ENname": "Eagle of Twilight LineSet",
+    "CNname": "晨昏交界的翔鹰套装",
+    "JAname": "昼夜の狭間を翔ける鷹セット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71009.webp",
+    "set": "4",
+    "head": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_110_1.webp",
+    "hands": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_110_2.webp",
+    "body": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_110_3.webp",
+    "feet": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_110_4.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases Wind DMG by 10%.",
+            "DescriptionCN": "风属性伤害提高10%。",
+            "DescriptionJP": "風属性ダメージ+10%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "winddmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 10,
+                    "tag": [
+                        "winddmg",
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "After the wearer uses their Ultimate, their action is Advanced Forward by 25%.",
+            "DescriptionCN": "当装备者施放终结技后，使其行动提前25%。",
+            "DescriptionJP": "装備キャラが必殺技を発動した後、行動順が25%早まる。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "actionf",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 25,
+                    "tag": [
+                        "actionf",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

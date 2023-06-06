@@ -1,0 +1,64 @@
+{
+    "id": "103",
+    "ENname": "Knight of Purity PalaceSet",
+    "CNname": "净庭教宗的圣骑士套装",
+    "JAname": "純庭教会の聖騎士セット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71002.webp",
+    "set": "4",
+    "head": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_103_1.webp",
+    "hands": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_103_2.webp",
+    "body": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_103_3.webp",
+    "feet": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_103_4.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases DEF by 15%.",
+            "DescriptionCN": "防御力提高15%。",
+            "DescriptionJP": "防御力+15%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 15,
+                    "tag": [
+                        "def",
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%.",
+            "DescriptionCN": "使装备者提供的护盾量提高20%。",
+            "DescriptionJP": "装備キャラが付与するバリアの耐久値+20%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "shielddmgabsorb",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "shielddmgabsorb",
+                    "multiplier": 20,
+                    "tag": [
+                        "shielddmgabsorb",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

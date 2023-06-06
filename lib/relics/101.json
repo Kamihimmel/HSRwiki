@@ -1,0 +1,51 @@
+{
+    "id": "101",
+    "ENname": "Passerby of Wandering CloudSet",
+    "CNname": "云无留迹的过客套装",
+    "JAname": "流雲無痕の過客セット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71000.webp",
+    "set": "4",
+    "head": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_101_1.webp",
+    "hands": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_101_2.webp",
+    "body": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_101_3.webp",
+    "feet": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_101_4.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases Outgoing Healing by 10%.",
+            "DescriptionCN": "治疗量提高10%。",
+            "DescriptionJP": "治癒量+10%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "healingbonus"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "healingbonus",
+                    "multiplier": 10,
+                    "tag": [
+                        "healingbonus",
+                        "self"
+                    ]
+                }
+            ]
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "At the start of the battle, immediately regenerates 1 Skill Point.",
+            "DescriptionCN": "在战斗开始时，立即为我方恢复1个战技点。",
+            "DescriptionJP": "戦闘開始時、SPを1回復する。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "skillpointre"
+            ]
+        }
+    ]
+}
