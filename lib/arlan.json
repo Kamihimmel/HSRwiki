@@ -443,7 +443,19 @@
             "teamskill": false,
             "tags": [
                 "buff",
+                "controlresist",
                 "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "controlresist",
+                    "multiplier": 35,
+                    "tag": [
+                        "self",
+                        "controlresist"
+                    ]
+                }
             ]
         },
         {
