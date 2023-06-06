@@ -848,7 +848,7 @@
                 {
                     "type": "debuff",
                     "multipliertarget": "iceres",
-                    "multiplier": 12,
+                    "multiplier": -12,
                     "tag": [
                         "singleenemy",
                         "iceres"

@@ -353,7 +353,7 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "",
+                    "addtarget": "toughnessreducingdmg",
                     "multiplier": 2,
                     "tag": [
                         "singleenemy",
