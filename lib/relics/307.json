@@ -1,0 +1,46 @@
+{
+    "id": "307",
+    "ENname": "Talia: Kingdom of BanditrySet",
+    "CNname": "盗贼公国塔利亚套装",
+    "JAname": "盗賊公国タリアセット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71018.webp",
+    "set": "2",
+    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_307_5.webp",
+    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_307_6.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break effect increases by an extra 20%.",
+            "DescriptionCN": "使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。",
+            "DescriptionJP": "装備キャラの撃破特効+16%。装備キャラの速度が145以上の場合、さらに撃破特効+20%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "breakeffect"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 16,
+                    "tag": [
+                        "breakeffect",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 20,
+                    "tag": [
+                        "breakeffect",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "id": "308",
+    "ENname": "Sprightly VonwacqSet",
+    "CNname": "生命的翁瓦克套装",
+    "JAname": "生命のウェンワークセット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71019.webp",
+    "set": "2",
+    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_308_5.webp",
+    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_308_6.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle.",
+            "DescriptionCN": "使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。",
+            "DescriptionJP": "装備キャラのEP回復効率+5%。装備キャラの速度が120以上の場合、戦闘に入る時、行動順が40%早まる。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energyregenrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energyregenrate",
+                    "multiplier": 5,
+                    "tag": [
+                        "energyregenrate",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 40,
+                    "tag": [
+                        "actionf",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

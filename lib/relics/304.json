@@ -1,0 +1,46 @@
+{
+    "id": "304",
+    "ENname": "Belobog of the ArchitectsSet",
+    "CNname": "筑城者的贝洛伯格套装",
+    "JAname": "建創者のベロブルグセット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71015.webp",
+    "set": "2",
+    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_304_5.webp",
+    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_304_6.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.",
+            "DescriptionCN": "使装备者的防御力提高15%。当装备者的效果命中大于等于50%时，防御力额外提高15%。",
+            "DescriptionJP": "装備キャラの防御力+15%。装備キャラの効果命中が50%以上の場合、さらに防御力+15%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 15,
+                    "tag": [
+                        "def",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 15,
+                    "tag": [
+                        "def",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

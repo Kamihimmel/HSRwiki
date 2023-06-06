@@ -1,0 +1,46 @@
+{
+    "id": "301",
+    "ENname": "Space Sealing StationSet",
+    "CNname": "太空封印站套装",
+    "JAname": "宇宙封印ステーションセット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71012.webp",
+    "set": "2",
+    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_301_5.webp",
+    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_301_6.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%.",
+            "DescriptionCN": "使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。",
+            "DescriptionJP": "装備キャラの攻撃力+12%。装備キャラの速度が120以上の場合、さらに攻撃力+12%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 12,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 12,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}

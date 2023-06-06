@@ -1,0 +1,46 @@
+{
+    "id": "302",
+    "ENname": "Fleet of the AgelessSet",
+    "CNname": "不老者的仙舟套装",
+    "JAname": "老いぬ者の仙舟セット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71013.webp",
+    "set": "2",
+    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_302_5.webp",
+    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_302_6.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.",
+            "DescriptionCN": "使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。",
+            "DescriptionJP": "装備キャラの最大HP+12%。装備キャラの速度が120以上の場合、味方全体の攻撃力+8%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "maxhp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 12,
+                    "tag": [
+                        "maxhp",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "atk",
+                        "allally"
+                    ]
+                }
+            ]
+        }
+    ]
+}

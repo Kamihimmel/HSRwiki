@@ -1,0 +1,47 @@
+{
+    "id": "305",
+    "ENname": "Celestial DifferentiatorSet",
+    "CNname": "星体差分机套装",
+    "JAname": "天体階差機関セット",
+    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71016.webp",
+    "set": "2",
+    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_305_5.webp",
+    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_305_6.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack.",
+            "DescriptionCN": "使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。",
+            "DescriptionJP": "装備キャラの会心ダメージ+16%。装備キャラの会心ダメージが120%以上の場合、戦闘に入った後、装備キャラの会心率+60%、初回の攻撃が終了するまで継続。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critdmg",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 16,
+                    "tag": [
+                        "critdmg",
+                        "self"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 60,
+                    "tag": [
+                        "critrate",
+                        "self"
+                    ]
+                }
+            ]
+        }
+    ]
+}
