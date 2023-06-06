@@ -10,110 +10,139 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 43,
+            "atk": 19,
+            "def": 18
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 166,
+            "atk": 73,
+            "def": 69
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 218,
+            "atk": 96,
+            "def": 90
+        },
+        {
+            "level": "30",
+            "hp": 282,
+            "atk": 125,
+            "def": 117
+        },
+        {
+            "level": "30+",
+            "hp": 352,
+            "atk": 156,
+            "def": 146
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 416,
+            "atk": 185,
+            "def": 173
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 486,
+            "atk": 216,
+            "def": 202
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 550,
+            "atk": 244,
+            "def": 229
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 619,
+            "atk": 275,
+            "def": 258
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 684,
+            "atk": 304,
+            "def": 285
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 753,
+            "atk": 335,
+            "def": 314
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 818,
+            "atk": 363,
+            "def": 341
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 887,
+            "atk": 394,
+            "def": 369
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 952,
+            "atk": 423,
+            "def": 396
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Old Photo",
+            "CNname": "老相片",
+            "JAname": "古い写真",
+            "DescriptionEN": "Increases the wearer's Break Effect by [1]%. When the wearer attacks, additionally regenerates [2] Energy. This effect can only be triggered 1 time per turn.",
+            "DescriptionCN": "使装备者的击破特攻提高[1]%。装备者施放攻击后，额外恢复[2]点能量，该效果单个回合内不可重复触发。",
+            "DescriptionJP": "装備キャラの撃破特効+[1]%。装備キャラが攻撃を行った後、さらにEPを[2]回復する、この効果は1ターンに1回まで発動できる。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 28,
+                    "2": 35,
+                    "3": 42,
+                    "4": 49,
+                    "5": 56
+                },
+                {
+                    "1": 4,
+                    "2": 5,
+                    "3": 6,
+                    "4": 7,
+                    "5": 8
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "breakeffect",
+                "energy"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "breakeffect",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "breakeffect"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "energy"
                     ]
                 }
             ]
