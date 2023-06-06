@@ -83,37 +83,37 @@
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "War Cry",
+            "CNname": "鸣角",
+            "JAname": "鳴角",
+            "DescriptionEN": "When the wearer defeats an enemy, increases ATK by [1]% for 3 turn(s).",
+            "DescriptionCN": "使装备者消灭敌方目标后，攻击力提高[1]%，持续3回合。",
+            "DescriptionJP": "装備キャラが敵を倒した後、攻撃力+[1]%、3ターン持続。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 24,
+                    "2": 30,
+                    "3": 36,
+                    "4": 42,
+                    "5": 48
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "atk"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "atk",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "atk"
                     ]
                 }
             ]

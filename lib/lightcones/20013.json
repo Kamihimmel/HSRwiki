@@ -83,37 +83,37 @@
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Epiphany",
+            "CNname": "顿悟",
+            "JAname": "悟道",
+            "DescriptionEN": "After the wearer uses their Skill, additionally regenerates [1] Energy. This effect can only be triggered 1 time per turn.",
+            "DescriptionCN": "使装备者施放战技后额外恢复[1]点能量，该效果单个回合内不可重复触发。",
+            "DescriptionJP": "装備キャラが戦闘スキルを発動した後、さらにEPを[1]回復する、この効果は1ターンに1回まで発動できる。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 8,
+                    "2": 9,
+                    "3": 10,
+                    "4": 11,
+                    "5": 12
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "energy"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "energy",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "energy"
                     ]
                 }
             ]

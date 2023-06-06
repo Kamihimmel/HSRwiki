@@ -83,37 +83,37 @@
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Learned",
+            "CNname": "博识",
+            "JAname": "博識",
+            "DescriptionEN": "Increases the wearer's Ultimate DMG by [1]%.",
+            "DescriptionCN": "使装备者终结技造成的伤害提高[1]%。",
+            "DescriptionJP": "装備キャラの必殺技の与ダメージ+[1]%。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 28,
+                    "2": 35,
+                    "3": 42,
+                    "4": 49,
+                    "5": 56
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "ultatk"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "ultatk",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "ultatk"
                     ]
                 }
             ]
