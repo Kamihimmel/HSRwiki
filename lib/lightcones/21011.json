@@ -10,110 +10,122 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 48,
+            "atk": 19,
+            "def": 15
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 184,
+            "atk": 73,
+            "def": 57
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 242,
+            "atk": 96,
+            "def": 75
+        },
+        {
+            "level": "30",
+            "hp": 314,
+            "atk": 125,
+            "def": 98
+        },
+        {
+            "level": "30+",
+            "hp": 391,
+            "atk": 156,
+            "def": 122
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 463,
+            "atk": 185,
+            "def": 144
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 540,
+            "atk": 216,
+            "def": 168
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 612,
+            "atk": 244,
+            "def": 191
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 688,
+            "atk": 275,
+            "def": 215
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 760,
+            "atk": 304,
+            "def": 237
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 837,
+            "atk": 335,
+            "def": 261
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 909,
+            "atk": 363,
+            "def": 284
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 986,
+            "atk": 394,
+            "def": 308
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 1058,
+            "atk": 423,
+            "def": 330
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Departure",
+            "CNname": "启程",
+            "JAname": "旅立ち",
+            "DescriptionEN": "After entering battle, if an ally deals the same DMG Type as the wearer, DMG dealt increases by [1]%.",
+            "DescriptionCN": "进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高[1]%。",
+            "DescriptionJP": "戦闘に入った後、味方が装備キャラと同じ属性のダメージを与えた時、与ダメージ+[1]%。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 12,
+                    "2": 15,
+                    "3": 18,
+                    "4": 21,
+                    "5": 24
                 }
             ],
             "tags": [
                 "buff",
-                "self",
-                "speed"
+                "ally",
+                "alldmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "alldmg",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "alldmg"
                     ]
                 }
             ]

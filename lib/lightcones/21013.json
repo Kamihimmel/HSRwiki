@@ -10,110 +10,138 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 38,
+            "atk": 21,
+            "def": 18
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 147,
+            "atk": 83,
+            "def": 69
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 193,
+            "atk": 109,
+            "def": 90
+        },
+        {
+            "level": "30",
+            "hp": 251,
+            "atk": 141,
+            "def": 117
+        },
+        {
+            "level": "30+",
+            "hp": 312,
+            "atk": 176,
+            "def": 146
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 370,
+            "atk": 208,
+            "def": 173
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 432,
+            "atk": 243,
+            "def": 202
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 489,
+            "atk": 275,
+            "def": 229
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 551,
+            "atk": 309,
+            "def": 258
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 608,
+            "atk": 342,
+            "def": 285
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 670,
+            "atk": 376,
+            "def": 314
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 727,
+            "atk": 409,
+            "def": 341
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 789,
+            "atk": 443,
+            "def": 369
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 846,
+            "atk": 476,
+            "def": 396
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "The Power of Sound",
+            "CNname": "声音的力量",
+            "JAname": "声の力",
+            "DescriptionEN": "The wearer regenerates [1] Energy immediately upon entering battle, and increases Ultimate DMG by [2]%.",
+            "DescriptionCN": "使装备者进入战斗时立即恢复[1]点能量，同时使其终结技造成的伤害提高[2]%。",
+            "DescriptionJP": "戦闘に入る時、装備キャラはEPを[1]回復する。装備キャラの必殺技の与ダメージ+[2]%。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 20,
+                    "2": 23,
+                    "3": 26,
+                    "4": 29,
+                    "5": 32
+                },
+                {
+                    "1": 32,
+                    "2": 40,
+                    "3": 48,
+                    "4": 56,
+                    "5": 64
                 }
             ],
             "tags": [
                 "buff",
-                "self",
-                "speed"
+                "energy",
+                "ultdmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "energy",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "energy"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "ultdmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "ultdmg"
                     ]
                 }
             ]

@@ -10,110 +10,139 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 33,
+            "atk": 21,
+            "def": 21
         },
         {
             "level": "20",
             "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "atk": 83,
+            "def": 80
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 169,
+            "atk": 109,
+            "def": 106
+        },
+        {
+            "level": "30",
+            "hp": 220,
+            "atk": 141,
+            "def": 137
+        },
+        {
+            "level": "30+",
+            "hp": 273,
+            "atk": 176,
+            "def": 171
         },
         {
             "level": "40",
             "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "atk": 208,
+            "def": 202
         },
         {
             "level": "40+",
             "hp": 378,
-            "atk": 189,
-            "def": 135
+            "atk": 243,
+            "def": 236
         },
         {
             "level": "50",
             "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "atk": 275,
+            "def": 267
         },
         {
             "level": "50+",
             "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "atk": 309,
+            "def": 301
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 532,
+            "atk": 342,
+            "def": 332
         },
         {
             "level": "60+",
             "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "atk": 376,
+            "def": 366
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 636,
+            "atk": 409,
+            "def": 397
         },
         {
             "level": "70+",
             "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "atk": 443,
+            "def": 431
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 740,
+            "atk": 476,
+            "def": 463
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Teary-Eyed",
+            "CNname": "泪中人",
+            "JAname": "袖時雨",
+            "DescriptionEN": "At the start of the battle, the DMG dealt to all allies decreases by [1]% for 5 turn(s). At the same time, immediately restores HP to all allies equal to [2]% of the respective HP difference between the characters' Max HP and current HP.",
+            "DescriptionCN": "战斗开始时，使我方全体受到的伤害降低[1]%，持续5回合。同时立即为我方全体回复等同于各自已损失生命值[2]%的生命值。",
+            "DescriptionJP": "戦闘開始時、味方全体の被ダメージ-[1]%、5ターン継続。味方全体のHPを、それぞれが失ったHP[2]%分回復する。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 8,
+                    "2": 10,
+                    "3": 12,
+                    "4": 14,
+                    "5": 16
+                },
+                {
+                    "1": 30,
+                    "2": 35,
+                    "3": 40,
+                    "4": 45,
+                    "5": 50
                 }
             ],
             "tags": [
                 "buff",
-                "self",
-                "speed"
+                "dmgreduction",
+                "heal"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "dmgreduction",
                     "multiplier": 1,
                     "tag": [
+                        "allally",
+                        "dmgreduction"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "hp",
+                    "multiplier": 2,
+                    "tag": [
                         "self",
-                        "speed"
+                        "heal",
+                        "allally"
                     ]
                 }
             ]

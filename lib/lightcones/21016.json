@@ -10,110 +10,156 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 48,
+            "atk": 16,
+            "def": 18
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 184,
+            "atk": 64,
+            "def": 69
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 242,
+            "atk": 84,
+            "def": 90
+        },
+        {
+            "level": "30",
+            "hp": 314,
+            "atk": 110,
+            "def": 117
+        },
+        {
+            "level": "30+",
+            "hp": 391,
+            "atk": 136,
+            "def": 146
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 463,
+            "atk": 162,
+            "def": 173
         },
         {
             "level": "40+",
-            "hp": 378,
+            "hp": 540,
             "atk": 189,
-            "def": 135
+            "def": 202
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 612,
+            "atk": 214,
+            "def": 229
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 688,
+            "atk": 241,
+            "def": 258
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 760,
+            "atk": 266,
+            "def": 285
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 837,
+            "atk": 293,
+            "def": 314
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 909,
+            "atk": 318,
+            "def": 341
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 986,
+            "atk": 345,
+            "def": 369
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 1058,
+            "atk": 370,
+            "def": 396
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "A New Round of Shuffling",
+            "CNname": "新一轮洗牌",
+            "JAname": "また一巡の入れ替え",
+            "DescriptionEN": "Increases the wearer's DEF by [1]%. When the wearer is attacked, there is a 100% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to [3]% of the wearer's DEF for 2 turn(s).",
+            "DescriptionCN": "使装备者的防御力提高[1]%。当装备者受到攻击后，有100%的基础概率使敌方目标陷入灼烧状态，每回合造成等同于装备者[3]%防御力的持续伤害，持续2回合。",
+            "DescriptionJP": "装備キャラの防御力+[1]%。装備キャラが攻撃を受けた後、100%の基礎確率で攻撃した敵を燃焼状態にする。燃焼状態の敵はターンが回ってくるたびに、装備キャラの防御力[3]%分の持続ダメージを受ける、2ターン継続。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 16,
+                    "2": 20,
+                    "3": 24,
+                    "4": 28,
+                    "5": 32
+                },
+                {
+                    "1": 100,
+                    "2": 105,
+                    "3": 110,
+                    "4": 115,
+                    "5": 120
+                },
+                {
+                    "1": 40,
+                    "2": 50,
+                    "3": 60,
+                    "4": 70,
+                    "5": 80
                 }
             ],
             "tags": [
                 "buff",
-                "self",
-                "speed"
+                "singleenemy",
+                "def",
+                "burn",
+                "dotatk"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "def",
                     "multiplier": 1,
                     "tag": [
                         "self",
                         "speed"
+                    ]
+                },
+                {
+                    "type": "debuff",
+                    "multipliertarget": "burn",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "burn"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "def",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleenemy",
+                        "dotatk"
                     ]
                 }
             ]

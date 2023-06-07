@@ -213,7 +213,6 @@
                     "multipliertarget": "atk",
                     "multiplier": 2,
                     "tag": [
-                        "additionalatk",
                         "skillatk",
                         "windatk"
                     ]
@@ -445,7 +444,18 @@
             "teamskill": false,
             "tags": [
                 "self",
-                "dmgreduce"
+                "dmgreduction"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "dmgreduction",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "dmgreduction"
+                    ]
+                }
             ]
         },
         {
@@ -871,19 +881,7 @@
             "tags": [
                 "self",
                 "buff",
-                "shocked"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "referencetarget": "sampotalent",
-                    "referencetargetEN": "Sampo Talent Multiplier",
-                    "referencetargetCN": "桑博天赋倍率",
-                    "referencetargetJP": "サンポ天賦倍率",
-                    "addtarget": "",
-                    "multiplier": 15,
-                    "tag": []
-                }
+                "windshear"
             ]
         }
     ]

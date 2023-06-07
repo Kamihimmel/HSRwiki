@@ -10,110 +10,122 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 43,
+            "atk": 21,
+            "def": 15
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 166,
+            "atk": 83,
+            "def": 57
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 218,
+            "atk": 109,
+            "def": 75
+        },
+        {
+            "level": "30",
+            "hp": 282,
+            "atk": 141,
+            "def": 98
+        },
+        {
+            "level": "30+",
+            "hp": 352,
+            "atk": 176,
+            "def": 122
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 416,
+            "atk": 208,
+            "def": 144
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 486,
+            "atk": 243,
+            "def": 168
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 550,
+            "atk": 275,
+            "def": 191
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 619,
+            "atk": 309,
+            "def": 215
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 684,
+            "atk": 342,
+            "def": 237
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 753,
+            "atk": 376,
+            "def": 261
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 818,
+            "atk": 409,
+            "def": 284
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 887,
+            "atk": 443,
+            "def": 308
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 952,
+            "atk": 476,
+            "def": 330
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Toiler",
+            "CNname": "劳碌者",
+            "JAname": "奔走者",
+            "DescriptionEN": "For every debuff the target enemy has, the DMG dealt by the wearer increases by [1]%, stacking up to 3 time(s). This effect also applies to DoT.",
+            "DescriptionCN": "敌方目标每承受1个负面效果，装备者对其造成的伤害提高[1]%，最多叠加3层。该效果对持续伤害也会生效。",
+            "DescriptionJP": "敵にデバフが1つあるごとに、その敵に対する装備キャラの与ダメージ+[1]%、最大で3層累積できる。この効果は持続ダメージにも有効。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 12,
+                    "2": 15,
+                    "3": 18,
+                    "4": 21,
+                    "5": 24
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "alldmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "alldmg",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "alldmg"
                     ]
                 }
             ]

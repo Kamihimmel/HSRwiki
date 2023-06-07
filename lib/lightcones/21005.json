@@ -10,110 +10,122 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
+            "hp": 48,
+            "atk": 21,
             "def": 12
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 184,
+            "atk": 83,
+            "def": 46
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 242,
+            "atk": 109,
+            "def": 60
+        },
+        {
+            "level": "30",
+            "hp": 314,
+            "atk": 141,
+            "def": 78
+        },
+        {
+            "level": "30+",
+            "hp": 391,
+            "atk": 176,
+            "def": 97
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 463,
+            "atk": 208,
+            "def": 115
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
+            "hp": 540,
+            "atk": 243,
             "def": 135
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
+            "hp": 612,
+            "atk": 275,
             "def": 153
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 688,
+            "atk": 309,
+            "def": 172
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 760,
+            "atk": 342,
+            "def": 190
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 837,
+            "atk": 376,
+            "def": 209
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 909,
+            "atk": 409,
+            "def": 227
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 986,
+            "atk": 443,
+            "def": 246
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 1058,
+            "atk": 476,
+            "def": 264
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Fantastic Adventure",
+            "CNname": "奇妙冒险",
+            "JAname": "奇妙な冒険",
+            "DescriptionEN": "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by [1]%.",
+            "DescriptionCN": "装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高[1]%。",
+            "DescriptionJP": "装備キャラが通常攻撃、戦闘スキルまたは必殺技で敵に攻撃を行った後、それぞれ「わんぱく値」を1層まで獲得できる。1層につき、装備キャラの攻撃力+[1]%。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 12,
+                    "2": 15,
+                    "3": 18,
+                    "4": 21,
+                    "5": 24
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "atk"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "atk",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "atk"
                     ]
                 }
             ]
