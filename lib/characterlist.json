@@ -8,7 +8,8 @@
             "etype": "ice",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/herta.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/herta.json",
+            "spoiler": false
         },
         {
             "ENname": "Kafka",
@@ -18,7 +19,8 @@
             "etype": "lightning",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/kafka.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/kafka.json",
+            "spoiler": true
         },
         {
             "ENname": "Yan Qing",
@@ -28,7 +30,8 @@
             "etype": "ice",
             "wtype": "thehunt",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/yanqing.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/yanqing.json",
+            "spoiler": false
         },
         {
             "ENname": "Himeko",
@@ -38,7 +41,8 @@
             "etype": "fire",
             "wtype": "erudition",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/himeko.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/himeko.json",
+            "spoiler": false
         },
         {
             "ENname": "Welt",
@@ -48,7 +52,8 @@
             "etype": "imaginary",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/welt.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/welt.json",
+            "spoiler": false
         },
         {
             "ENname": "Silver Wolf",
@@ -58,7 +63,8 @@
             "etype": "quantum",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/silverwolf.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/silverwolf.json",
+            "spoiler": false
         },
         {
             "ENname": "Bronya",
@@ -68,7 +74,8 @@
             "etype": "wind",
             "wtype": "harmony",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/bronya.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/bronya.json",
+            "spoiler": false
         },
         {
             "ENname": "Seele",
@@ -78,7 +85,8 @@
             "etype": "quantum",
             "wtype": "thehunt",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/seele.json",
+            "spoiler": false
         },
         {
             "ENname": "Gepard",
@@ -88,7 +96,8 @@
             "etype": "ice",
             "wtype": "preservation",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/gepard.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/gepard.json",
+            "spoiler": false
         },
         {
             "ENname": "Clara",
@@ -98,7 +107,8 @@
             "etype": "physical",
             "wtype": "destruction",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/clara.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/clara.json",
+            "spoiler": false
         },
         {
             "ENname": "Luo Cha",
@@ -108,7 +118,8 @@
             "etype": "imaginary",
             "wtype": "abundance",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/luocha.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/luocha.json",
+            "spoiler": false
         },
         {
             "ENname": "Jing Yuan",
@@ -118,7 +129,8 @@
             "etype": "lightning",
             "wtype": "erudition",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/jingyuan.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/jingyuan.json",
+            "spoiler": false
         },
         {
             "ENname": "Bai Lu",
@@ -128,7 +140,8 @@
             "etype": "lightning",
             "wtype": "abundance",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/bailu.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/bailu.json",
+            "spoiler": false
         },
         {
             "ENname": "Trailblazer",
@@ -139,7 +152,8 @@
             "etype": "physical",
             "wtype": "destruction",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/mc.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/mc.json",
+            "spoiler": false
         },
         {
             "ENname": "Trailblazer",
@@ -150,7 +164,8 @@
             "etype": "fire",
             "wtype": "preservation",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/mcf.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/mcf.json",
+            "spoiler": false
         },
         {
             "ENname": "March 7th",
@@ -160,7 +175,8 @@
             "etype": "ice",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/march7th.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/march7th.json",
+            "spoiler": false
         },
         {
             "ENname": "Dan Heng",
@@ -170,7 +186,8 @@
             "etype": "wind",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/danheng.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/danheng.json",
+            "spoiler": false
         },
         {
             "ENname": "Arlan",
@@ -180,7 +197,8 @@
             "etype": "lightning",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/arlan.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/arlan.json",
+            "spoiler": false
         },
         {
             "ENname": "Asta",
@@ -190,7 +208,8 @@
             "etype": "fire",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/asta.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/asta.json",
+            "spoiler": false
         },
         {
             "ENname": "Serval",
@@ -200,7 +219,8 @@
             "etype": "lightning",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/serval.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/serval.json",
+            "spoiler": false
         },
         {
             "ENname": "Natasha",
@@ -210,7 +230,8 @@
             "etype": "physical",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/natasha.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/natasha.json",
+            "spoiler": false
         },
         {
             "ENname": "Ting Yun",
@@ -220,7 +241,8 @@
             "etype": "lightning",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/tingyun.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/tingyun.json",
+            "spoiler": false
         },
         {
             "ENname": "Pela",
@@ -230,7 +252,8 @@
             "etype": "ice",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/pela.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/pela.json",
+            "spoiler": false
         },
         {
             "ENname": "Sampo",
@@ -240,7 +263,8 @@
             "etype": "wind",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/sampo.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/sampo.json",
+            "spoiler": false
         },
         {
             "ENname": "Hook",
@@ -250,7 +274,8 @@
             "etype": "fire",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/hook.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/hook.json",
+            "spoiler": false
         },
         {
             "ENname": "Qing Que",
@@ -260,7 +285,8 @@
             "etype": "quantum",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/qingque.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/qingque.json",
+            "spoiler": false
         },
         {
             "ENname": "Su Shang",
@@ -270,7 +296,8 @@
             "etype": "physical",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/sushang.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/sushang.json",
+            "spoiler": false
         },
         {
             "ENname": "Yu Kong",
@@ -280,7 +307,8 @@
             "etype": "imaginary",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/yukong.json"
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/yukong.json",
+            "spoiler": true
         }
     ]
 }
