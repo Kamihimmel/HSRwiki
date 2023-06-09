@@ -87,7 +87,7 @@
             "CNname": "新篇章",
             "JAname": "新たな章",
             "DescriptionEN": "Increases the wearer's DEF by [1]%. Increases the DMG of the wearer when they use their Ultimate by [2]% of the wearer's DEF. This effect only applies 1 time per enemy target during each use of the wearer's Ultimate.",
-            "DescriptionCN": "使装备者防御力提高[1%。使装备者施放终结技时造成的伤害值提高，提高数值等同于装备者防御力的[2]%，该效果每次施放终结技时对每个敌方目标仅生效1次。",
+            "DescriptionCN": "使装备者防御力提高[1]%。使装备者施放终结技时造成的伤害值提高，提高数值等同于装备者防御力的[2]%，该效果每次施放终结技时对每个敌方目标仅生效1次。",
             "DescriptionJP": "装備キャラの防御力+[1]%。装備キャラの必殺技のダメージ基礎値が、装備キャラの防御力[2]%分アップする。この効果は必殺技を発動するたび、1体の敵に対して1回まで発動できる。",
             "maxlevel": 5,
             "buffskill": true,
