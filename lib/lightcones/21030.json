@@ -112,7 +112,7 @@
                 "buff",
                 "self",
                 "def",
-                "ultdmg"
+                "ultatk"
             ],
             "effect": [
                 {
@@ -126,11 +126,12 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "ultdmg",
+                    "addtarget": "ultatk",
+                    "multipliertarget": "def",
                     "multiplier": 2,
                     "tag": [
                         "self",
-                        "ultdmg"
+                        "ultatk"
                     ]
                 }
             ]
