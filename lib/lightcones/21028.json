@@ -10,112 +10,131 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
+            "hp": 48,
             "atk": 16.8,
-            "def": 12
+            "def": 18
         },
         {
             "level": "20",
-            "hp": 129,
+            "hp": 185,
             "atk": 64.68,
-            "def": 46.2
+            "def": 69.3
         },
         {
             "level": "20+",
-            "hp": 170,
+            "hp": 242,
             "atk": 84.84,
-            "def": 60.6
+            "def": 90.9
         },
         {
             "level": "40",
-            "hp": 324,
+            "hp": 463,
             "atk": 162.12,
-            "def": 115.8
+            "def": 173.7
         },
         {
             "level": "40+",
-            "hp": 378,
+            "hp": 540,
             "atk": 189,
-            "def": 135
+            "def": 202.5
         },
         {
             "level": "50",
-            "hp": 428,
+            "hp": 612,
             "atk": 214.2,
-            "def": 153
+            "def": 229.5
         },
         {
             "level": "50+",
-            "hp": 482,
+            "hp": 689,
             "atk": 241.08,
-            "def": 172.2
+            "def": 258.3
         },
         {
             "level": "60",
-            "hp": 533,
+            "hp": 761,
             "atk": 266.28,
-            "def": 190.2
+            "def": 285.3
         },
         {
             "level": "60+",
-            "hp": 586,
+            "hp": 838,
             "atk": 293.16,
-            "def": 209.4
+            "def": 314.1
         },
         {
             "level": "70",
-            "hp": 637,
+            "hp": 910,
             "atk": 318.36,
-            "def": 227.4
+            "def": 341.1
         },
         {
             "level": "70+",
-            "hp": 690,
+            "hp": 986,
             "atk": 345.24,
-            "def": 246.6
+            "def": 369.9
         },
         {
             "level": "80",
-            "hp": 741,
+            "hp": 1058,
             "atk": 370.44,
-            "def": 264.6
+            "def": 396.9
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Tiny Light",
+            "CNname": "小小灯火",
+            "JAname": "小さな灯火",
+            "DescriptionEN": "Increases the wearer's Max HP by [1]%. When using Basic ATK or Skill, restores all allies' HP by an amount equal to [2]% of their respective Max HP.",
+            "DescriptionCN": "使装备者的生命上限提高[1]%。施放普攻或战技后，为我方全体回复等同于各自生命上限[2]%的生命值。",
+            "DescriptionJP": "装備キャラの最大HP+[1]%。通常攻撃または戦闘スキルを発動した後、味方全体のHPをそれぞれの最大HP[2]%分回復する。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 16,
+                    "2": 20,
+                    "3": 24,
+                    "4": 28,
+                    "5": 32
+                },
+                {
+                    "1": 2,
+                    "2": 2.5,
+                    "3": 3,
+                    "4": 3.5,
+                    "5": 4
                 }
-            ],
+            ]
+            ,
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "hp",
+                "heal",
+                "allally"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "hp",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "hp"
                     ]
-                }
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 2,
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                }             
             ]
         }
     ]
