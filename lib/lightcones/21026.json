@@ -84,8 +84,8 @@
     "skilldata": [
         {
             "ENname": "Run!",
-            "CNname": "联盟",
-            "JAname": "快溜",
+            "CNname": "快溜",
+            "JAname": "さっさと逃げる",
             "DescriptionEN": "Increases the wearer's ATK by [1]%, and increases their DMG to enemies afflicted with Burn or Bleed by [2]%. This also applies to DoT.",
             "DescriptionCN": "使装备者的攻击力提高[1]%，对处于灼烧或裂伤状态的敌方目标造成的伤害提高[2]%，该效果对持续伤害也会生效。",
             "DescriptionJP": "装備キャラの攻撃力+[1]%、燃焼状態または裂創状態の敵に対する与ダメージ+[2]%、この効果は持続ダメージにも有効。",

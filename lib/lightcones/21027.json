@@ -10,110 +10,135 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 38,
+            "atk": 21.6,
+            "def": 18
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 148,
+            "atk": 83.16,
+            "def": 69.3
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 194,
+            "atk": 109.08,
+            "def": 90.9
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 371,
+            "atk": 208.44,
+            "def": 173.7
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 432,
+            "atk": 243,
+            "def": 202.5
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 490,
+            "atk": 275.4,
+            "def": 229.5
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 551,
+            "atk": 309.96,
+            "def": 258.3
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 609,
+            "atk": 342.36,
+            "def": 285.3
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 670,
+            "atk": 376.92,
+            "def": 314.1
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 728,
+            "atk": 409.32,
+            "def": 341.1
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 789,
+            "atk": 443.88,
+            "def": 369.9
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 847,
+            "atk": 476.28,
+            "def": 396.9
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
+            "ENname": "Get Ready",
+            "CNname": "各就其位",
+            "JAname": "持ち場に着く",
+            "DescriptionEN": "Increases the wearer's DMG by [1]%. For every defeated enemy, the wearer's ATK increases by [2]%, stacking up to [3] time(s).",
             "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "DescriptionJP": "装備キャラの与ダメージ+[1]%。敵を1体倒すごとに、装備キャラの攻撃力+[2]%、この効果は最大で[3]層累積できる。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 12,
+                    "2": 15,
+                    "3": 18,
+                    "4": 21,
+                    "5": 24
+                },
+                {
+                    "1": 4,
+                    "2": 5,
+                    "3": 6,
+                    "4": 7,
+                    "5": 8
+                },
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3
                 }
-            ],
+            ]
+            ,
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "atk",
+                "alldmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "alldmg"
                     ]
                 }
             ]
