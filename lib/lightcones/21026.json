@@ -118,7 +118,7 @@
                 {
                     "type": "buff",
                     "addtarget": "atk",
-                    "multiplier": 10,
+                    "multiplier": 1,
                     "tag": [
                         "self",
                         "atk"
@@ -127,7 +127,7 @@
                 {
                     "type": "buff",
                     "addtarget": "dotatk",
-                    "multiplier": 16,
+                    "multiplier": 2,
                     "tag": [
                         "self",
                         "dotatk"
