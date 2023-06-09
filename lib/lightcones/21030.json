@@ -125,12 +125,10 @@
                     ]
                 },
                 {
-                    "type": "buff",
-                    "addtarget": "ultatk",
+                    "type": "dmg",
                     "multipliertarget": "def",
                     "multiplier": 2,
                     "tag": [
-                        "self",
                         "ultatk"
                     ]
                 }
