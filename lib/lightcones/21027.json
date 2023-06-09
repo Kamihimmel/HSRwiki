@@ -87,7 +87,7 @@
             "CNname": "各就其位",
             "JAname": "持ち場に着く",
             "DescriptionEN": "Increases the wearer's DMG by [1]%. For every defeated enemy, the wearer's ATK increases by [2]%, stacking up to [3] time(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
+            "DescriptionCN": "使装备者造成伤害提高[1]%。每消灭1个敌方目标，装备者的攻击力提高[2]%，该效果最多叠加[3]层。",
             "DescriptionJP": "装備キャラの与ダメージ+[1]%。敵を1体倒すごとに、装備キャラの攻撃力+[2]%、この効果は最大で[3]層累積できる。",
             "maxlevel": 5,
             "buffskill": true,
