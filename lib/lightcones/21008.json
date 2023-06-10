@@ -137,11 +137,11 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "dotdmg",
+                    "addtarget": "dotatk",
                     "multiplier": 2,
                     "tag": [
                         "self",
-                        "dotdmg"
+                        "dotatk"
                     ]
                 }
             ]

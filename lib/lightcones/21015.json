@@ -128,11 +128,11 @@
             "effect": [
                 {
                     "type": "debuff",
-                    "multipliertarget": "Ensnared",
+                    "multipliertarget": "reducedef",
                     "multiplier": 1,
                     "tag": [
                         "singleenemy",
-                        "ensnared"
+                        "reducedef"
                     ]
                 },
                 {
