@@ -10,110 +10,154 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 48,
+            "atk": 26.4,
+            "def": 21
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 185,
+            "atk": 101.64,
+            "def": 80.85
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 242,
+            "atk": 133.32,
+            "def": 106.05
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 463,
+            "atk": 254.76,
+            "def": 202.65
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 540,
+            "atk": 297,
+            "def": 236.25
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 612,
+            "atk": 336.6,
+            "def": 267.75
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 689,
+            "atk": 378.84,
+            "def": 301.35
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 761,
+            "atk": 418.44,
+            "def": 332.85
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 838,
+            "atk": 460.68,
+            "def": 366.45
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 910,
+            "atk": 500.28,
+            "def": 397.95
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 986,
+            "atk": 542.52,
+            "def": 431.55
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 1058,
+            "atk": 582.12,
+            "def": 463.05
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Flowers and Butterflies",
+            "CNname": "花与蝶",
+            "JAname": "花と蝶",
+            "DescriptionEN": "Increases the wearer's CRIT Rate by [1]%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by [2]% and the CRIT DMG of their Ultimate is increased by [3]%. This effect can stack up to 6 time(s).",
+            "DescriptionCN": "使装备者的暴击率提高[1]%。当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高[2]%，同时终结技的暴击伤害提高[3]%，该效果可叠加6层。",
+            "DescriptionJP": "装備キャラの会心率+[1]%。戦闘中に装備キャラの速度が100を超えた時、10超過するにつき、通常攻撃と戦闘スキルの与ダメージ+[2]%、必殺技の会心ダメージ+[3]%、最大で6層累積できる。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 18,
+                    "2": 21,
+                    "3": 24,
+                    "4": 27,
+                    "5": 30
+                },
+                {
+                    "1": 6,
+                    "2": 7,
+                    "3": 8,
+                    "4": 9,
+                    "5": 10
+                },
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "critrate",
+                "normalatk",
+                "skillatk",
+                "ultcritdmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "critrate",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "critrate"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "normalatk",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "normalatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "skillatk",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "skillatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "ultcritdmg",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "ultcritdmg"
                     ]
                 }
             ]

@@ -10,110 +10,144 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 58,
+            "atk": 21.6,
+            "def": 21
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 222,
+            "atk": 83.16,
+            "def": 80.85
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 291,
+            "atk": 109.08,
+            "def": 106.05
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 556,
+            "atk": 208.44,
+            "def": 202.65
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 648,
+            "atk": 243,
+            "def": 236.25
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 734,
+            "atk": 275.4,
+            "def": 267.75
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 827,
+            "atk": 309.96,
+            "def": 301.35
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 913,
+            "atk": 342.36,
+            "def": 332.85
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 1005,
+            "atk": 376.92,
+            "def": 366.45
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 1092,
+            "atk": 409.32,
+            "def": 397.95
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 1184,
+            "atk": 443.88,
+            "def": 431.55
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 1270,
+            "atk": 476.28,
+            "def": 463.05
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Morn, Noon, Dusk, and Night",
+            "CNname": "日有四时",
+            "JAname": "一日は四時あり",
+            "DescriptionEN": "Increases the wearer's Max HP by [1]% and Outgoing Healing by [2]%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to [3]% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
+            "DescriptionCN": "使装备者生命上限提高[1]%，治疗量提高[2]%。当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的[3]%，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。",
+            "DescriptionJP": "装備キャラの最大HP+[1]%、治癒量+[2]%。装備キャラが味方に治癒を行った時、治癒量が記録される。任意の味方が攻撃を行った後、攻撃を受けたランダムな敵1体に対して、装備キャラの属性と同じ属性で、記録された治癒量[3]%分の付加ダメージを与える。このダメージはバフの影響を受けず、ターンが回ってくるたびに1回まで発生する。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 18,
+                    "2": 21,
+                    "3": 24,
+                    "4": 27,
+                    "5": 30
+                },
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                },
+                {
+                    "1": 36,
+                    "2": 42,
+                    "3": 48,
+                    "4": 54,
+                    "5": 60
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "maxhp",
+                "healingbonus",
+                "additionalatk"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "maxhp",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "maxhp"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "healingbonus",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "healingbonus"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "heal",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk",
+                        "additionalatk"
                     ]
                 }
             ]

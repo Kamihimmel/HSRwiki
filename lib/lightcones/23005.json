@@ -10,110 +10,129 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 48,
+            "atk": 21.6,
+            "def": 27
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 185,
+            "atk": 83.16,
+            "def": 103.95
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 242,
+            "atk": 109.08,
+            "def": 136.35
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 463,
+            "atk": 208.44,
+            "def": 260.55
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 540,
+            "atk": 243,
+            "def": 303.75
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 612,
+            "atk": 275.4,
+            "def": 344.25
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 689,
+            "atk": 309.96,
+            "def": 387.45
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 761,
+            "atk": 342.36,
+            "def": 427.95
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 838,
+            "atk": 376.92,
+            "def": 471.15
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 910,
+            "atk": 409.32,
+            "def": 511.65
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 986,
+            "atk": 443.88,
+            "def": 554.85
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 1058,
+            "atk": 476.28,
+            "def": 595.35
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Verdict",
+            "CNname": "决断",
+            "JAname": "決断",
+            "DescriptionEN": "Increases the wearer's DEF by [1]% and Effect Hit Rate by [1]%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra [1]% until the end of the wearer's turn.",
+            "DescriptionCN": "使装备者的防御力提高[1]%，效果命中提高[1]%，同时使自身受到攻击的概率提高。当装备者受到攻击后，防御力额外提高[1]%，持续到自身回合结束。",
+            "DescriptionJP": "装備キャラの防御力+[1]%、効果命中+[1]%。自身が攻撃を受ける確率がアップする。装備キャラが攻撃を受けた後、さらに防御力+[1]%、効果は自身のターンが終了するまで継続。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 24,
+                    "2": 28,
+                    "3": 32,
+                    "4": 36,
+                    "5": 40
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "def",
+                "effecthit"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "def",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "def"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "def"
                     ]
                 }
             ]

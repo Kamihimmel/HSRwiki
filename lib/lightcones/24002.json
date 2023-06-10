@@ -10,110 +10,145 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 48,
+            "atk": 19.2,
+            "def": 24
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 185,
+            "atk": 73.92,
+            "def": 92.4
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 242,
+            "atk": 96.96,
+            "def": 121.2
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 463,
+            "atk": 185.28,
+            "def": 231.6
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 540,
+            "atk": 216,
+            "def": 270
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 612,
+            "atk": 244.8,
+            "def": 306
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 689,
+            "atk": 275.52,
+            "def": 344.4
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 761,
+            "atk": 304.32,
+            "def": 380.4
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 838,
+            "atk": 335.04,
+            "def": 418.8
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 910,
+            "atk": 363.84,
+            "def": 454.8
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 986,
+            "atk": 394.56,
+            "def": 493.2
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 1058,
+            "atk": 423.36,
+            "def": 529.2
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Treasure",
+            "CNname": "珍存",
+            "JAname": "珍蔵",
+            "DescriptionEN": "Increases the wearer's Effect RES by [1]%. If the wearer is attacked and has no Shield, they gain a Shield equal to [2]% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by [3]%.",
+            "DescriptionCN": "使装备者的效果抵抗提高[1]%，当装备者受到攻击后，如果自身未持有护盾，则获得1个等同于装备者[2]%生命上限的护盾，持续2回合。该效果每3回合只能触发1次。如果装备者持有护盾，则使自身受到的伤害降低[3]%。",
+            "DescriptionJP": "装備キャラの効果抵抗+[1]%。装備キャラが攻撃を受けた後、バリアを持っていない場合、装備キャラの最大HP[2]%分の耐久値を持つバリアを1つ獲得する、2ターン継続。この効果は3ターンごとに1回発動できる。装備キャラがバリアを持っている場合、自身の被ダメージ-[3]%。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 8,
+                    "2": 10,
+                    "3": 12,
+                    "4": 14,
+                    "5": 16
+                },
+                {
+                    "1": 16,
+                    "2": 20,
+                    "3": 24,
+                    "4": 28,
+                    "5": 32
+                },
+                {
+                    "1": 12,
+                    "2": 15,
+                    "3": 18,
+                    "4": 21,
+                    "5": 24
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "effectres",
+                "shield",
+                "maxhp",
+                "dmgreduction"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "effectres",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "effectres"
+                    ]
+                },
+                {
+                    "type": "shield",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "maxhp"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "dmgreduction",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "dmgreduction"
                     ]
                 }
             ]

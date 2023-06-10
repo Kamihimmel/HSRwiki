@@ -10,110 +10,110 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 38,
+            "atk": 24,
+            "def": 15
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 148,
+            "atk": 92.4,
+            "def": 57.75
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 194,
+            "atk": 121.2,
+            "def": 75.75
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 371,
+            "atk": 231.6,
+            "def": 144.75
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 432,
+            "atk": 270,
+            "def": 168.75
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 490,
+            "atk": 306,
+            "def": 191.25
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 551,
+            "atk": 344.4,
+            "def": 215.25
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 609,
+            "atk": 380.4,
+            "def": 237.75
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 670,
+            "atk": 418.8,
+            "def": 261.75
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 728,
+            "atk": 454.8,
+            "def": 284.25
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 789,
+            "atk": 493.2,
+            "def": 308.25
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 847,
+            "atk": 529.2,
+            "def": 330.75
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "A Storm Is Coming",
+            "CNname": "风雨将至",
+            "JAname": "風雨、間もなく至る",
+            "DescriptionEN": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by [1]% per point of Energy, up to 160 Energy.",
+            "DescriptionCN": "进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高[1]%，最多计入160点。",
+            "DescriptionJP": "戦闘に入った後、装備キャラの最大EPに応じて、装備キャラの与ダメージをアップする。1EPにつき+[1]%、最大で160までカウントされる。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 0.2,
+                    "2": 0.25,
+                    "3": 0.3,
+                    "4": 0.35,
+                    "5": 0.4
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "alldmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "multipliertarget": "energy",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "alldmg"
                     ]
                 }
             ]
