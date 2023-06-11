@@ -10,110 +10,126 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
+            "hp": 38,
             "atk": 16.8,
-            "def": 12
+            "def": 24
         },
         {
             "level": "20",
-            "hp": 129,
+            "hp": 148,
             "atk": 64.68,
-            "def": 46.2
+            "def": 92.4
         },
         {
             "level": "20+",
-            "hp": 170,
+            "hp": 194,
             "atk": 84.84,
-            "def": 60.6
+            "def": 121.2
         },
         {
             "level": "40",
-            "hp": 324,
+            "hp": 371,
             "atk": 162.12,
-            "def": 115.8
+            "def": 231.6
         },
         {
             "level": "40+",
-            "hp": 378,
+            "hp": 432,
             "atk": 189,
-            "def": 135
+            "def": 270
         },
         {
             "level": "50",
-            "hp": 428,
+            "hp": 490,
             "atk": 214.2,
-            "def": 153
+            "def": 306
         },
         {
             "level": "50+",
-            "hp": 482,
+            "hp": 551,
             "atk": 241.08,
-            "def": 172.2
+            "def": 344.4
         },
         {
             "level": "60",
-            "hp": 533,
+            "hp": 609,
             "atk": 266.28,
-            "def": 190.2
+            "def": 380.4
         },
         {
             "level": "60+",
-            "hp": 586,
+            "hp": 670,
             "atk": 293.16,
-            "def": 209.4
+            "def": 418.8
         },
         {
             "level": "70",
-            "hp": 637,
+            "hp": 728,
             "atk": 318.36,
-            "def": 227.4
+            "def": 454.8
         },
         {
             "level": "70+",
-            "hp": 690,
+            "hp": 789,
             "atk": 345.24,
-            "def": 246.6
+            "def": 493.2
         },
         {
             "level": "80",
-            "hp": 741,
+            "hp": 847,
             "atk": 370.44,
-            "def": 264.6
+            "def": 529.2
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "New Chapter",
+            "CNname": "新篇章",
+            "JAname": "新たな章",
+            "DescriptionEN": "Increases the wearer's DEF by [1]%. Increases the DMG of the wearer when they use their Ultimate by [2]% of the wearer's DEF. This effect only applies 1 time per enemy target during each use of the wearer's Ultimate.",
+            "DescriptionCN": "使装备者防御力提高[1]%。使装备者施放终结技时造成的伤害值提高，提高数值等同于装备者防御力的[2]%，该效果每次施放终结技时对每个敌方目标仅生效1次。",
+            "DescriptionJP": "装備キャラの防御力+[1]%。装備キャラの必殺技のダメージ基礎値が、装備キャラの防御力[2]%分アップする。この効果は必殺技を発動するたび、1体の敵に対して1回まで発動できる。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 16,
+                    "2": 20,
+                    "3": 24,
+                    "4": 28,
+                    "5": 32
+                },
+                {
+                    "1": 60,
+                    "2": 75,
+                    "3": 90,
+                    "4": 105,
+                    "5": 120
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "def",
+                "ultatk"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "def",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "def"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "def",
+                    "multiplier": 2,
+                    "tag": [
+                        "ultatk"
                     ]
                 }
             ]

@@ -10,110 +10,127 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 48,
+            "atk": 26.4,
+            "def": 21
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 185,
+            "atk": 101.64,
+            "def": 80.85
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 242,
+            "atk": 133.32,
+            "def": 106.05
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 463,
+            "atk": 254.76,
+            "def": 202.65
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 540,
+            "atk": 297,
+            "def": 236.25
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 612,
+            "atk": 336.6,
+            "def": 267.75
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 689,
+            "atk": 378.84,
+            "def": 301.35
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 761,
+            "atk": 418.44,
+            "def": 332.85
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 838,
+            "atk": 460.68,
+            "def": 366.45
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 910,
+            "atk": 500.28,
+            "def": 397.95
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 986,
+            "atk": 542.52,
+            "def": 431.55
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 1058,
+            "atk": 582.12,
+            "def": 463.05
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Sweet Dreams",
+            "CNname": "美梦",
+            "JAname": "美しき夢",
+            "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by [2]% for 1 turn(s). This effect can only trigger once every 3 turn(s).",
+            "DescriptionCN": "使装备者的暴击伤害提高[1]%。当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高[2]%，持续1回合。该效果每3回合可以触发1次。",
+            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。装備キャラの通常攻撃または戦闘スキルで、会心が発生しなかった時、自身の会心率+[2]%、1ターン継続。この効果は3ターンごとに1回発動できる。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 30,
+                    "2": 35,
+                    "3": 40,
+                    "4": 45,
+                    "5": 50
+                },
+                {
+                    "1": 36,
+                    "2": 42,
+                    "3": 48,
+                    "4": 54,
+                    "5": 60
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "critdmg",
+                "critrate"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "critdmg",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "critdmg"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "critrate"
                     ]
                 }
             ]

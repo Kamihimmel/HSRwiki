@@ -10,110 +10,140 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 34,
-            "atk": 16.8,
-            "def": 12
+            "hp": 53,
+            "atk": 26.4,
+            "def": 18
         },
         {
             "level": "20",
-            "hp": 129,
-            "atk": 64.68,
-            "def": 46.2
+            "hp": 203,
+            "atk": 101.64,
+            "def": 69.3
         },
         {
             "level": "20+",
-            "hp": 170,
-            "atk": 84.84,
-            "def": 60.6
+            "hp": 267,
+            "atk": 133.32,
+            "def": 90.9
         },
         {
             "level": "40",
-            "hp": 324,
-            "atk": 162.12,
-            "def": 115.8
+            "hp": 510,
+            "atk": 254.76,
+            "def": 173.7
         },
         {
             "level": "40+",
-            "hp": 378,
-            "atk": 189,
-            "def": 135
+            "hp": 594,
+            "atk": 297,
+            "def": 202.5
         },
         {
             "level": "50",
-            "hp": 428,
-            "atk": 214.2,
-            "def": 153
+            "hp": 673,
+            "atk": 336.6,
+            "def": 229.5
         },
         {
             "level": "50+",
-            "hp": 482,
-            "atk": 241.08,
-            "def": 172.2
+            "hp": 758,
+            "atk": 378.84,
+            "def": 258.3
         },
         {
             "level": "60",
-            "hp": 533,
-            "atk": 266.28,
-            "def": 190.2
+            "hp": 837,
+            "atk": 418.44,
+            "def": 285.3
         },
         {
             "level": "60+",
-            "hp": 586,
-            "atk": 293.16,
-            "def": 209.4
+            "hp": 921,
+            "atk": 460.68,
+            "def": 314.1
         },
         {
             "level": "70",
-            "hp": 637,
-            "atk": 318.36,
-            "def": 227.4
+            "hp": 1001,
+            "atk": 500.28,
+            "def": 341.1
         },
         {
             "level": "70+",
-            "hp": 690,
-            "atk": 345.24,
-            "def": 246.6
+            "hp": 1085,
+            "atk": 542.52,
+            "def": 369.9
         },
         {
             "level": "80",
-            "hp": 741,
-            "atk": 370.44,
-            "def": 264.6
+            "hp": 1164,
+            "atk": 582.12,
+            "def": 396.9
         }
     ],
     "skilldata": [
         {
-            "ENname": "Alliance",
-            "CNname": "联盟",
-            "JAname": "同盟",
-            "DescriptionEN": "When the wearer defeats an enemy, increases SPD by [1]% for 2 turn(s).",
-            "DescriptionCN": "使装备者在消灭敌方目标后，速度提高[1]%，持续2回合。",
-            "DescriptionJP": "装備キャラが敵を倒した後、速度+[1]%、2ターン持続。",
+            "ENname": "Thorns",
+            "CNname": "荆棘",
+            "JAname": "いばら",
+            "DescriptionEN": "Increases the wearer's ATK by [1]%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain [2] SPD for 1 turn.",
+            "DescriptionCN": "使装备者的攻击力提高[1]%。当装备者施放攻击后，每击中1名不同的敌方目标，恢复3点能量，每次攻击最多通过该方式恢复3次能量。当装备者施放终结技后，使我方全体速度提高[2]点，持续1回合。",
+            "DescriptionJP": "装備キャラの攻撃力+[1]%。装備キャラが攻撃を行った後、異なる敵に攻撃が命中するごとにEPを3回復する。1回の攻撃で、この効果を通して最大で3回EPを回復できる。装備キャラが必殺技を発動した後、味方全体の速度+[2]、1ターン継続。",
             "maxlevel": 5,
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18
+                    "1": 24,
+                    "2": 28,
+                    "3": 32,
+                    "4": 36,
+                    "5": 40
+                },
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                },
+                {
+                    "default": 5
                 }
             ],
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "atk",
+                "energy",
+                "speedpt"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "atk",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "speed"
+                        "atk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 2,
+                    "tag": [
+                        "allally",
+                        "speedpt"
                     ]
                 }
             ]
