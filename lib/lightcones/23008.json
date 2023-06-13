@@ -140,7 +140,7 @@
                 {
                     "type": "buff",
                     "addtarget": "speedpt",
-                    "multiplier": 1,
+                    "multiplier": 2,
                     "tag": [
                         "allally",
                         "speedpt"

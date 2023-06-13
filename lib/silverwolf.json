@@ -9,7 +9,7 @@
     "rarity": "5",
     "dtaunt": 100,
     "dspeed": 107,
-    "maxenergy": 120,
+    "maxenergy": 110,
     "leveldata": [
         {
             "level": "1",
@@ -292,7 +292,7 @@
             "DescriptionCN": "有[1]%的基础概率使指定敌方单体防御力[2]%，持续3回合，同时对该目标造成等同于银狼[3]%攻击力的量子属性伤害。",
             "DescriptionJP": "[1]%基礎確率で指定した敵単体の防御力[2]%、3ターン継続。その敵に銀狼の攻撃力[3]%分の量子属性ダメージを与える。",
             "stype": "ult",
-            "energy": 120,
+            "energy": 110,
             "maxlevel": 15,
             "buffskill": false,
             "teamskill": false,
