@@ -309,6 +309,28 @@
             "rarity": "4",
             "infourl": "https://hsrwikidata.yunlu18.net/lib/yukong.json",
             "spoiler": true
+        },
+        {
+            "ENname": "Luka",
+            "CNname": "卢卡",
+            "JAname": "ルカ",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/luka.webp",
+            "etype": "physical",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/luka.json",
+            "spoiler": true
+        },
+        {
+            "ENname": "Blade",
+            "CNname": "刃",
+            "JAname": "刃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/blade.webp",
+            "etype": "wind",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "https://hsrwikidata.yunlu18.net/lib/blade.json",
+            "spoiler": true
         }
     ]
 }
