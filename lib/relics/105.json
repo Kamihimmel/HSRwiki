@@ -3,12 +3,12 @@
     "ENname": "Champion of Streetwise BoxingSet",
     "CNname": "街头出身的拳王套装",
     "JAname": "成り上がりチャンピオンセット",
-    "imageurl": "https://hsrwikidata.alicews.com/images/relics/71004.webp",
+    "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71004.webp",
     "set": "4",
-    "head": "https://hsrwikidata.alicews.com/images/relics/IconRelic_105_1.webp",
-    "hands": "https://hsrwikidata.alicews.com/images/relics/IconRelic_105_2.webp",
-    "body": "https://hsrwikidata.alicews.com/images/relics/IconRelic_105_3.webp",
-    "feet": "https://hsrwikidata.alicews.com/images/relics/IconRelic_105_4.webp",
+    "head": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_105_1.webp",
+    "hands": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_105_2.webp",
+    "body": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_105_3.webp",
+    "feet": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_105_4.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

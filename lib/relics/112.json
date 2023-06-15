@@ -3,12 +3,12 @@
     "ENname": "Wastelander of Banditry DesertSet",
     "CNname": "盗匪荒漠的废土客套装",
     "JAname": "荒地で盗みを働く廃土客セット",
-    "imageurl": "https://hsrwikidata.alicews.com/images/relics/71011.webp",
+    "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71011.webp",
     "set": "4",
-    "head": "https://hsrwikidata.alicews.com/images/relics/IconRelic_112_1.webp",
-    "hands": "https://hsrwikidata.alicews.com/images/relics/IconRelic_112_2.webp",
-    "body": "https://hsrwikidata.alicews.com/images/relics/IconRelic_112_3.webp",
-    "feet": "https://hsrwikidata.alicews.com/images/relics/IconRelic_112_4.webp",
+    "head": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_112_1.webp",
+    "hands": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_112_2.webp",
+    "body": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_112_3.webp",
+    "feet": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_112_4.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

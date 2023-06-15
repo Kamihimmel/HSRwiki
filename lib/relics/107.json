@@ -3,12 +3,12 @@
     "ENname": "Firesmith of Lava-ForgingSet",
     "CNname": "熔岩锻铸的火匠套装",
     "JAname": "溶岩で鍛造する火匠セット",
-    "imageurl": "https://hsrwikidata.alicews.com/images/relics/71006.webp",
+    "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71006.webp",
     "set": "4",
-    "head": "https://hsrwikidata.alicews.com/images/relics/IconRelic_107_1.webp",
-    "hands": "https://hsrwikidata.alicews.com/images/relics/IconRelic_107_2.webp",
-    "body": "https://hsrwikidata.alicews.com/images/relics/IconRelic_107_3.webp",
-    "feet": "https://hsrwikidata.alicews.com/images/relics/IconRelic_107_4.webp",
+    "head": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_107_1.webp",
+    "hands": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_107_2.webp",
+    "body": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_107_3.webp",
+    "feet": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_107_4.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",
