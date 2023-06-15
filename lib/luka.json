@@ -86,13 +86,13 @@
     ],
     "skilldata": [
         {
-            "ENname": "Flower Pick",
-            "CNname": "门前清",
-            "JAname": "門前清",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquena.webp",
-            "DescriptionEN": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to [1]% of Qingque's ATK to a single enemy. ",
-            "DescriptionCN": "使用1张当前花色最少的琼玉牌，对指定敌方单体造成等同于青雀[1]%攻击力的量子属性伤害。",
-            "DescriptionJP": "数が一番少ない絵柄の美玉牌を1枚使用し、指定した敵単体に青雀の攻撃力[1]%分の量子属性ダメージを与える。",
+            "ENname": "Direct Punch",
+            "CNname": "直冲拳",
+            "JAname": "直冲拳",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukana.webp",
+            "DescriptionEN": "Deals Physical DMG equal to [1] of Luka's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于卢卡[1]攻击力的物理属性伤害。",
+            "DescriptionJP": "指定した敵単体にルカの攻撃力[1]分の物理ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -115,7 +115,7 @@
             "tags": [
                 "singleatk",
                 "normalatk",
-                "quantumatk"
+                "physicalatk"
             ],
             "effect": [
                 {
@@ -125,19 +125,19 @@
                     "tag": [
                         "singleatk",
                         "normalatk",
-                        "quantumatk"
+                        "physicalatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Cherry on Top!",
-            "CNname": "杠上开花！",
-            "JAname": "嶺上開花！",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquena.webp",
-            "DescriptionEN": "Deals Quantum DMG equal to [1]% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to [2]% of Qingque's ATK to enemies adjacent to it. Cherry on Top! cannot recover Skill Points.",
-            "DescriptionCN": "对指定敌方单体造成等同于青雀[1]%攻击力的量子属性伤害，并对其相邻目标造成等同于青雀[2]%攻击力的量子属性伤害。【杠上开花！】无法恢复战技点。",
-            "DescriptionJP": "指定した敵単体に青雀の攻撃力[1]%分の量子属性ダメージを与え、隣接する敵に青雀の攻撃力[2]%分の量子属性ダメージを与える。「嶺上開花！」はSPを回復できない。",
+            "ENname": "Sky-Shatter Fist",
+            "CNname": "直冲碎天拳",
+            "JAname": "裂地砕天拳",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukana.webp",
+            "DescriptionEN": "Consumes 2 stacks of Fighting Will. First, uses Direct Punch to deal 3 hits, with each hit dealing Physical DMG equal to [1]% of Luka's ATK to a single enemy target. Then, uses Sky-Shatter Fist to deal 1 hit, dealing Physical DMG equal to [2]% of Luka's ATK to the single enemy target.",
+            "DescriptionCN": "消耗2层【斗志】，先使用【直冲拳】施放3段攻击，每段攻击对指定敌方单体造成等同于卢卡[1]%攻击力的物理属性伤害。再使用【碎天拳】施放1段攻击，对指定敌方单体造成等同于卢卡[2]%攻击力的物理属性伤害。",
+            "DescriptionJP": "「闘志」を2層消費し、「裂地拳」で3段の攻撃を行う。1段の攻撃で指定した敵単体にルカの攻撃力[1]%分の物理ダメージを与える。そして「砕天拳」で1段の攻撃を行い、指定した敵単体にルカの攻撃力[2]%分の物理ダメージを与える。 ",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -145,17 +145,6 @@
             "weaknessbreak": 60,
             "energyregen": 20,
             "levelmultiplier": [
-                {
-                    "1": 120,
-                    "2": 144,
-                    "3": 168,
-                    "4": 192,
-                    "5": 216,
-                    "6": 240,
-                    "7": 264,
-                    "8": 288,
-                    "9": 312
-                },
                 {
                     "1": 50,
                     "2": 60,
@@ -169,9 +158,9 @@
                 }
             ],
             "tags": [
-                "blastatk",
+                "singleatk",
                 "normalatk",
-                "quantumatk"
+                "physicalatk"
             ],
             "effect": [
                 {
@@ -181,35 +170,25 @@
                     "tag": [
                         "singleatk",
                         "normalatk",
-                        "quantumatk"
-                    ]
-                },
-                {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 2,
-                    "tag": [
-                        "blastatk",
-                        "normalatk",
-                        "quantumatk"
+                        "physicalatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "A Scoop of Moon",
-            "CNname": "海底捞月",
-            "JAname": "海底撈月",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingqueskill.webp",
-            "DescriptionEN": "Immediately draws 2 jade tile(s) and increases DMG by [1]% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-            "DescriptionCN": "立即抽取2张琼玉牌，使自身造成的伤害提高[1]%，持续至本回合结束。该效果可以叠加4层。施放该战技后，本回合不会结束。",
-            "DescriptionJP": "牌を2枚取り、自身の与ダメージ+[1]%、このターンが終了するまで継続。この効果は最大で4層累積できる。この戦闘スキルを発動した後、ターンは終了しない。",
+            "ENname": "Lacerating Fist",
+            "CNname": "裂伤拳",
+            "JAname": "裂創拳",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukaskill.webp",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of Luka's ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take [2]% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than [3]% of Luka's ATK.",
+            "DescriptionCN": "对指定敌方单体造成等同于卢卡[1]%攻击力的物理属性伤害，随后有100%的基础概率使目标陷入裂伤状态，持续3回合。裂伤状态下，敌方目标每回合开始时受到等同于自身[2]%生命上限的物理属性持续伤害，最多不超过卢卡攻击力的[3]%。",
+            "DescriptionJP": "指定した敵単体にルカの攻撃力[1]%分物理ダメージを与え、100%の基礎確率で敵を裂創状態にする、3ターン継続。裂創状態の敵はターンが回ってくるたびに、自身の最大HP[2]%分の物理持続ダメージを受ける。最大でルカの攻撃力の[3]%を超えない。",
             "stype": "skill",
             "maxlevel": 15,
             "buffskill": true,
             "teamskill": false,
-            "weaknessbreak": 0,
-            "energyregen": 0,
+            "weaknessbreak": 60,
+            "energyregen": 30,
             "levelmultiplier": [
                 {
                     "1": 14,
@@ -230,8 +209,8 @@
                 }
             ],
             "tags": [
-                "buff",
-                "self"
+                "singleatk",
+                "physicalatk"
             ],
             "effect": [
                 {
@@ -246,19 +225,19 @@
             ]
         },
         {
-            "ENname": "A Quartet? Woo-hoo!",
-            "CNname": "四幺暗刻？和！",
-            "JAname": "幺魚暗カン？アガリ！",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingqueult.webp",
-            "DescriptionEN": "Deals Quantum DMG equal to [1]% of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-            "DescriptionCN": "对敌方全体造成等同于青雀[1]%攻击力的量子属性伤害，并获得4张相同花色的琼玉牌。",
-            "DescriptionJP": "敵全体に青雀の攻撃力[1]%分の量子属性ダメージを与え、同じ絵柄の美玉牌を4枚獲得する。",
+            "ENname": "Coup de Grâce",
+            "CNname": "制胜一击 ",
+            "JAname": "勝利の一撃",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukault.webp",
+            "DescriptionEN": "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target's DMG received by [1]% for 3 turn(s). Then, deals Physical DMG equal to [2]% of Luka's ATK to the target.",
+            "DescriptionCN": "获得2层【斗志】，并有100%的基础概率使指定敌方单体受到的伤害提高[1]%，持续3回合，随后对该目标造成等同于卢卡[2]%攻击力的物理属性伤害。",
+            "DescriptionJP": "「闘志」を2層獲得し、100%の基礎確率で指定した敵単体の被ダメージ+[1]%、3ターン継続。指定した敵単体にルカの攻撃力[2]%分の物理ダメージを与える。",
             "stype": "ult",
             "energy": 140,
             "maxlevel": 15,
             "buffskill": false,
             "teamskill": false,
-            "weaknessbreak": 60,
+            "weaknessbreak": 90,
             "energyregen": 5,
             "levelmultiplier": [
                 {
@@ -280,9 +259,9 @@
                 }
             ],
             "tags": [
-                "aoe",
+                "singleatk",
                 "ultatk",
-                "quantumatk"
+                "physicalatk"
             ],
             "effect": [
                 {
@@ -290,21 +269,21 @@
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "aoe",
+                        "singleatk",
                         "ultatk",
-                        "quantumatk"
+                        "physicalatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Celestial Jade",
-            "CNname": "帝垣琼玉",
-            "JAname": "帝垣美玉",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquetalent.webp",
-            "DescriptionEN": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by [1]%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top!.",
-            "DescriptionCN": "我方目标回合开始时，青雀会从3种不同花色的琼玉牌中随机抽取1张，最多持有4张琼玉牌。青雀回合开始时，若持有的琼玉牌数为4且花色相同，青雀消耗所有琼玉牌进入【暗杠】状态。处于【暗杠】状态时无法再次施放战技，同时使自身攻击力提高[1]%，普攻【门前清】强化为【杠上开花！】，【暗杠】状态会在施放【杠上开花！】后结束。",
-            "DescriptionJP": "味方のターンが回ってきた時、青雀は3つの絵柄の美玉牌の中からランダムに1枚取る、手持ちの美玉牌は最大で4枚まで。青雀のターンが回ってきた時、手持ちに同じ絵柄の美玉牌が4枚ある場合、青雀はすべての美玉牌を消費して「暗カン」状態に入る。「暗カン」状態の時は戦闘スキルを発動できず、自身の攻撃力+[1]%、通常攻撃「門前清」が「嶺上開花！」に強化される。「暗カン」状態は「嶺上開花！」を発動した後に終了する。",
+            "ENname": "Flying Sparks",
+            "CNname": "火花四溅",
+            "JAname": "飛び散る火花",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukatalent.webp",
+            "DescriptionEN": "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to [1]% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+            "DescriptionCN": "卢卡在施放普攻和战技后，获得1层【斗志】，最多可持有4层【斗志】。当持有的【斗志】大于等于2层时，普攻变为强化普攻。当强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标时，则使其当前承受的裂伤状态立即产生1次相当于原伤害[1]%的伤害。战斗开始时，卢卡持有1层【斗志】。",
+            "DescriptionJP": "ルカが通常攻撃または戦闘スキルを発動した後、「闘志」を1層獲得する。「闘志」は最大で4層累積できる。「闘志」が2層以上の時、通常攻撃が強化通常攻撃になる。強化通常攻撃の「砕天拳」が裂創状態の敵に命中した時、その敵に付与された裂創状態が、本来のダメージ[1]%分のダメージを発生する。戦闘開始時、ルカは「闘志」を1層獲得する。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
@@ -331,9 +310,7 @@
                 }
             ],
             "tags": [
-                "buff",
-                "self",
-                "atk"
+                "physicalatk"
             ],
             "effect": [
                 {
@@ -341,27 +318,28 @@
                     "addtarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "self",
-                        "atk"
+                        "physicalatk"
                     ]
                 }
             ]
         },
         {
-            "ENname": "Game Solitaire",
-            "CNname": "独弈之乐",
-            "JAname": "独奕の楽しみ",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquetec.webp",
-            "DescriptionEN": "After using Technique, Qingque draws 2 jade tile(s) when the battle starts.",
-            "DescriptionCN": "使用秘技后，进入战斗时青雀会抽取2张琼玉牌。",
-            "DescriptionJP": "秘技を使用した後、戦闘に入る時、青雀は美玉牌を2枚取る。",
+            "ENname": "Anticipator",
+            "CNname": "抢先者",
+            "JAname": "先を行く者",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukatec.webp",
+            "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to [1]% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于卢卡[1]%攻击力的物理属性伤害，并有100%的基础概率使目标陷入与战技相同的裂伤状态。随后卢卡额外获得1层【斗志】。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、ランダムな敵単体にルカの攻撃力[1]%分の物理ダメージを与え、100%の基礎確率でその敵を、戦闘スキルが与えるものと同じ裂創状態にする。そして、ルカは「闘志」をさらに1層獲得する。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
             "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 0,
             "tags": [
-                "buff",
-                "self",
+                "singleatk",
+                "physicalatk",
                 "special"
             ]
         }
@@ -369,37 +347,36 @@
     "tracedata": [
         {
             "tiny": false,
-            "ENname": "Tile Battle",
-            "CNname": "争番",
-            "JAname": "争番",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquet1.webp",
-            "DescriptionEN": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
-            "DescriptionCN": "施放战技时，恢复1个战技点。该效果单场战斗中只能触发1次。",
-            "DescriptionJP": "戦闘スキルを発動した時、SPを1回復する。この効果は一度の戦闘で1回まで発動できる。",
+            "ENname": "Kinetic Overload",
+            "CNname": "动能过载",
+            "JAname": "オーバーロード",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukat1.webp",
+            "DescriptionEN": "When the Skill is used, immediately dispels 1 buff from the enemy target.",
+            "DescriptionCN": "施放战技时，立即解除敌方目标1个增益效果。",
+            "DescriptionJP": "戦闘スキルを発動した時、敵のバフを1つ解除する。",
             "stype": "trace",
             "buffskill": false,
             "teamskill": false,
             "tags": [
-                "skillpointrestore",
-                "self"
+                "singleenemy",
+                "special"
             ]
         },
         {
             "tiny": false,
-            "ENname": "Bide Time",
-            "CNname": "听牌",
-            "JAname": "聴牌",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquet2.webp",
-            "DescriptionEN": "Using the Skill increases DMG Boost effect of attacks by an extra 10%.",
-            "DescriptionCN": "战技使自身造成的伤害提高效果额外提高10%。",
-            "DescriptionJP": "戦闘スキルによる、自身の与ダメージアップ効果がさらに10%アップする。",
+            "ENname": "Cycle Braking",
+            "CNname": "循环制动",
+            "JAname": "循環制動",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukat2.webp",
+            "DescriptionEN": "For every stack of Fighting Will obtained, additionally regenerates 3 Energy.",
+            "DescriptionCN": "每获得1层【斗志】，额外恢复3点能量。",
+            "DescriptionJP": "「闘志」を1層獲得するたび、さらにEPを3回復する。",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "buff",
-                "alldmg",
-                "self"
+                "self",
+                "energy"
             ],
             "effect": [
                 {
@@ -415,20 +392,20 @@
         },
         {
             "tiny": false,
-            "ENname": "Winning Hand",
-            "CNname": "抢杠",
-            "JAname": "チャンカン",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingquet3.webp",
-            "DescriptionEN": "Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK.",
-            "DescriptionCN": "施放强化普攻后，青雀的速度提高10%，持续1回合。",
-            "DescriptionJP": "強化通常攻撃を行った後、青雀の速度+10%、1ターン継続。",
+            "ENname": "Crush Fighting Will",
+            "CNname": "粉碎斗志",
+            "JAname": "闘志粉砕",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukat3.webp",
+            "DescriptionEN": "When using Enhanced Basic ATK, every hit Direct Punch deals has a 50% fixed chance for Luka to use 1 additional hit. This effect does not apply to additional hits generated in this way.",
+            "DescriptionCN": "施放强化普攻时，【直冲拳】的每1段攻击都有50%的固定概率使卢卡额外施放1段攻击。此效果对额外施放的攻击不会生效。",
+            "DescriptionJP": "強化通常攻撃を行った時、1段の「裂地拳」ごとに、50%の固定確率でルカが攻撃をさらに1段行う。追加能力「闘志粉砕」によって行われた「裂地拳」では、この効果は発動しない。",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "speed",
-                "self"
+                "self",
+                "physicalatk"
             ],
             "effect": [
                 {
@@ -444,10 +421,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Quantum DMG +3.2%",
-            "CNname": "量子属性伤害提高 +3.2%",
-            "JAname": "量子属性与ダメージ +3.2%",
-            "ttype": "quantumdmg",
+            "ENname": "Effect Hit +4%",
+            "CNname": "效果命中 +4%",
+            "JAname": "効果命中 +4%",
+            "ttype": "effecthit",
             "DescriptionEN": "A2",
             "DescriptionCN": "A2",
             "DescriptionJP": "A2",
@@ -457,16 +434,16 @@
             "tags": [
                 "buff",
                 "self",
-                "quantumdmg"
+                "effecthit"
             ],
             "effect": [
                 {
                     "type": "buff",
                     "addtarget": "quantumdmg",
-                    "multiplier": 3.2,
+                    "multiplier": 4,
                     "tag": [
                         "self",
-                        "quantumdmg"
+                        "effecthit"
                     ]
                 }
             ]
@@ -560,10 +537,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Quantum DMG +4.8%",
-            "CNname": "量子属性伤害提高 +4.8%",
-            "JAname": "量子属性与ダメージ +4.8%",
-            "ttype": "quantumdmg",
+            "ENname": "Effect Hit +6%",
+            "CNname": "效果命中 +6%",
+            "JAname": "効果命中 +6%",
+            "ttype": "effecthit",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
@@ -573,16 +550,16 @@
             "tags": [
                 "buff",
                 "self",
-                "quantumdmg"
+                "effecthit"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "quantumdmg",
-                    "multiplier": 4.8,
+                    "addtarget": "effecthit",
+                    "multiplier": 6,
                     "tag": [
                         "self",
-                        "quantumdmg"
+                        "effecthit"
                     ]
                 }
             ]
@@ -647,10 +624,10 @@
         },
         {
             "tiny": true,
-            "ENname": "Quantum DMG +6.4%",
-            "CNname": "量子属性伤害提高 +6.4%",
-            "JAname": "量子属性与ダメージ +6.4%",
-            "ttype": "quantumdmg",
+            "ENname": "Effect Hit +8%",
+            "CNname": "效果命中 +8%",
+            "JAname": "効果命中 +8%",
+            "ttype": "effecthit",
             "DescriptionEN": "LV75",
             "DescriptionCN": "LV75",
             "DescriptionJP": "LV75",
@@ -660,16 +637,16 @@
             "tags": [
                 "buff",
                 "self",
-                "quantumdmg"
+                "effecthit"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "quantumdmg",
-                    "multiplier": 6.4,
+                    "addtarget": "effecthit",
+                    "multiplier": 8,
                     "tag": [
                         "self",
-                        "quantumdmg"
+                        "effecthit"
                     ]
                 }
             ]
@@ -736,59 +713,59 @@
     "eidolon": [
         {
             "eidolonnum": 1,
-            "ENname": "Rise Through the Tiles",
-            "CNname": "散勇化骁摸幺鱼",
-            "JAname": "幺魚と戯れる孤兵",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingque1.png",
-            "DescriptionEN": "Ultimate deals 10% more DMG.",
-            "DescriptionCN": "施放终结技造成的伤害提高10%。",
-            "DescriptionJP": "必殺技の与ダメージ+10%。",
+            "ENname": "Fighting Endlessly",
+            "CNname": "争斗不休",
+            "JAname": "止まぬ争い",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luka1.png",
+            "DescriptionEN": "When attacks land on Bleeding enemy targets, Luka's DMG dealt increases by 15% for 2 turn(s).",
+            "DescriptionCN": "击中处于裂伤状态下的敌方目标时，卢卡造成伤害提高15%，持续2回合。",
+            "DescriptionJP": "裂創状態の敵に攻撃が命中した時、ルカの与ダメージ+15%、2ターン継続。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
             "tags": [
                 "buff",
-                "ultatk",
+                "alldmg",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
                     "addtarget": "ultatk",
-                    "multiplier": 10,
+                    "multiplier": 15,
                     "tag": [
                         "self",
-                        "ultatk"
+                        "alldmg"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 2,
-            "ENname": "Sleep on the Tiles",
-            "CNname": "棋枰作枕好入眠",
-            "JAname": "碁盤は枕、快眠の助け",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingque2.png",
-            "DescriptionEN": "Every time Draw Tile is triggered, Qingque immediately regenerates 1 Energy.",
-            "DescriptionCN": "青雀每次触发抽牌时，立即恢复1点能量。",
-            "DescriptionJP": "青雀は牌を取るたびにEPを1回復する。",
+            "ENname": "The Enemy is Weak, I am Strong",
+            "CNname": "敌弱，我强",
+            "JAname": "オレが強い",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luka2.png",
+            "DescriptionEN": "If the Skill hits an enemy target with Physical Weakness, gain 1 stack(s) of Fighting Will.",
+            "DescriptionCN": "若战技击中的敌方目标弱点为物理属性，获得1层【斗志】。",
+            "DescriptionJP": "戦闘スキルが命中した敵に物理の弱点がある場合、「闘志」を1層獲得する。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "energy",
-                "self"
+                "self",
+                "special"
             ]
         },
         {
             "eidolonnum": 3,
-            "ENname": "Strike, Suns Subdued",
-            "CNname": "观琼视茕门前清",
-            "JAname": "流星雷霆<br />山をも砕く",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingqueult.webp",
-            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
-            "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "ENname": "Born for the Ring",
+            "CNname": "为擂台而生",
+            "JAname": "リングに立つため生まれた男",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukaskill.webp",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -800,20 +777,20 @@
         },
         {
             "eidolonnum": 4,
-            "ENname": "Right on the Tiles",
-            "CNname": "帝垣翔鳞和绝张",
-            "JAname": "刃、雲を巻き<br />玉沙に落ちる",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingque4.png",
-            "DescriptionEN": "After this character's Skill is used, there is a 24% fixed chance to gain Autarky, which lasts until the end of the current turn. With Autarky, using Basic ATK or Enhanced Basic ATK immediately launches 1 follow-up attack on the same target, dealing Quantum DMG equal to 100% of the previous Basic ATK (or Enhanced Basic ATK)'s DMG.",
-            "DescriptionCN": "施放战技后，有24%的固定概率获得【不求人】状态，持续至本回合结束。【不求人】状态下，施放普攻或施放强化普攻后立即进行1次追加攻击，对该目标造成等同于普攻或强化普攻伤害100%的量子属性伤害。",
-            "DescriptionJP": "戦闘スキルを発動した後、24%の固定確率で「門前ツモ」状態に入る、このターンが終了するまで継続。「門前ツモ」状態では、通常攻撃または強化通常攻撃を行った後に追加攻撃を1回行い、敵にその通常攻撃または強化通常攻撃のダメージ100%分の量子属性ダメージを与える。",
+            "ENname": "Never Turning Back",
+            "CNname": "百折不回",
+            "JAname": "不撓不屈",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luka4.png",
+            "DescriptionEN": "For every stack of Fighting Will obtained, increases ATK by 5%, stacking up to 4 time(s).",
+            "DescriptionCN": "每获得1层【斗志】，攻击力提高5%，该效果最多叠加4层。",
+            "DescriptionJP": "「闘志」を1層獲得するごとに、攻撃力+5%。この効果は最大で4層累積できる。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "singleenemy",
-                "followupatk",
-                "quantumatk"
+                "buff",
+                "self",
+                "atk"
             ],
             "effect": [
                 {
@@ -821,21 +798,21 @@
                     "multipliertarget": "normalatk",
                     "multiplier": 100,
                     "tag": [
-                        "followupatk",
-                        "quantumatk"
+                        "self",
+                        "atk"
                     ]
                 }
             ]
         },
         {
             "eidolonnum": 5,
-            "ENname": "Gambit for the Tiles",
-            "CNname": "七星流离全不靠",
-            "JAname": "百戦経て捨てし躯<br />生死軽んず",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingqueskill.webp",
-            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
-            "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "ENname": "The Spirit of Wildfire",
+            "CNname": "地火之魂",
+            "JAname": "地炎魂",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukault.webp",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -847,19 +824,19 @@
         },
         {
             "eidolonnum": 6,
-            "ENname": "Prevail Beyond the Tiles",
-            "CNname": "虚心平意候枭卢",
-            "JAname": "百戦経て捨てし躯<br />生死軽んず",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/qingque6.png",
-            "DescriptionEN": "Recovers 1 Skill Point after using Enhanced Basic ATK.",
-            "DescriptionCN": "施放强化普攻后，恢复1个战技点。",
-            "DescriptionJP": "強化通常攻撃を行った後、SPを1回復する。",
+            "ENname": "A Champion's Applause",
+            "CNname": "冠军应得的喝彩",
+            "JAname": "チャンピオンに相応しい喝采",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/luka6.png",
+            "DescriptionEN": "When the Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the Bleed status will immediately deal DMG 1 time equal to 8% of the original DMG for every hit of Direct Punch already used by the current Enhanced Basic ATK.",
+            "DescriptionCN": "施放强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标时，本次强化普攻使用的【直冲拳】每施放过1段攻击，则额外使其当前承受的裂伤状态立即产生1次相当于原伤害8%的伤害。",
+            "DescriptionJP": "強化通常攻撃の「砕天拳」が裂創状態の敵に命中した時、その回の攻撃で「裂地拳」を1段行ったごとに、敵に付与された裂創状態が、さらに本来のダメージ8%分のダメージを1回発生する。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "skillpointrestore",
-                "self"
+                "singleenemy",
+                "physicalatk"
             ]
         }
     ]
