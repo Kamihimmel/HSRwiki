@@ -3,12 +3,12 @@
     "ENname": "Guard of Wuthering SnowSet",
     "CNname": "戍卫风雪的铁卫套装",
     "JAname": "吹雪と対峙する兵士セット",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71005.webp",
+    "imageurl": "https://hsrwikidata.alicews.com/images/relics/71005.webp",
     "set": "4",
-    "head": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_106_1.webp",
-    "hands": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_106_2.webp",
-    "body": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_106_3.webp",
-    "feet": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_106_4.webp",
+    "head": "https://hsrwikidata.alicews.com/images/relics/IconRelic_106_1.webp",
+    "hands": "https://hsrwikidata.alicews.com/images/relics/IconRelic_106_2.webp",
+    "body": "https://hsrwikidata.alicews.com/images/relics/IconRelic_106_3.webp",
+    "feet": "https://hsrwikidata.alicews.com/images/relics/IconRelic_106_4.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

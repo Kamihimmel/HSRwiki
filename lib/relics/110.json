@@ -3,12 +3,12 @@
     "ENname": "Eagle of Twilight LineSet",
     "CNname": "晨昏交界的翔鹰套装",
     "JAname": "昼夜の狭間を翔ける鷹セット",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71009.webp",
+    "imageurl": "https://hsrwikidata.alicews.com/images/relics/71009.webp",
     "set": "4",
-    "head": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_110_1.webp",
-    "hands": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_110_2.webp",
-    "body": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_110_3.webp",
-    "feet": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_110_4.webp",
+    "head": "https://hsrwikidata.alicews.com/images/relics/IconRelic_110_1.webp",
+    "hands": "https://hsrwikidata.alicews.com/images/relics/IconRelic_110_2.webp",
+    "body": "https://hsrwikidata.alicews.com/images/relics/IconRelic_110_3.webp",
+    "feet": "https://hsrwikidata.alicews.com/images/relics/IconRelic_110_4.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",
