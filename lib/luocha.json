@@ -5,11 +5,11 @@
     "imageurl": "https://hsrwikidata.kchlu.com/images/characters/luocha.webp",
     "imagelargeurl": "https://hsrwikidata.kchlu.com/images/characters/luochalarge.webp",
     "etype": "imaginary",
-    "wtype": "nihility",
+    "wtype": "abundance",
     "rarity": "5",
     "dtaunt": 100,
     "dspeed": 101,
-    "maxenergy": 120,
+    "maxenergy": 100,
     "leveldata": [
         {
             "level": "1",
@@ -227,7 +227,7 @@
             "DescriptionCN": "解除敌方全体1个增益效果，并对敌方全体造成等同于罗刹[1]%攻击力的虚数属性伤害，同时使罗刹获得1层【白花之刻】。",
             "DescriptionJP": "敵全体のバフを1つ解除し、敵全体に羅刹の攻撃力[1]%分の虚数属性ダメージを与える。羅刹は「白花の刻」を1層獲得する。",
             "stype": "ult",
-            "energy": 120,
+            "energy": 100,
             "maxlevel": 15,
             "buffskill": false,
             "teamskill": true,

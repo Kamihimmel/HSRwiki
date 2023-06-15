@@ -180,21 +180,21 @@
                     "15": 75
                 },
                 {
-                    "1": 60,
-                    "2": 61.5,
-                    "3": 63,
-                    "4": 64.5,
-                    "5": 66,
-                    "6": 67.5,
-                    "7": 69.38,
-                    "8": 71.25,
-                    "9": 73.13,
-                    "10": 75,
-                    "11": 76.5,
-                    "12": 78,
-                    "13": 79.5,
-                    "14": 81,
-                    "15": 82.5
+                    "1": 72,
+                    "2": 73.8,
+                    "3": 75.6,
+                    "4": 77.4,
+                    "5": 79.2,
+                    "6": 81,
+                    "7": 83.25,
+                    "8": 85.5,
+                    "9": 87.75,
+                    "10": 90,
+                    "11": 91.8,
+                    "12": 93.6,
+                    "13": 95.4,
+                    "14": 97.2,
+                    "15": 99
                 }
             ],
             "tags": [
@@ -274,38 +274,38 @@
                     "default": 100
                 },
                 {
-                    "1": 72,
-                    "2": 73.8,
-                    "3": 75.6,
-                    "4": 77.4,
-                    "5": 79.2,
-                    "6": 81,
-                    "7": 83.25,
-                    "8": 85.5,
-                    "9": 87.75,
-                    "10": 90,
-                    "11": 91.8,
-                    "12": 93.6,
-                    "13": 95.4,
-                    "14": 97.2,
-                    "15": 99
+                    "1": 80,
+                    "2": 82,
+                    "3": 84,
+                    "4": 86,
+                    "5": 88,
+                    "6": 90,
+                    "7": 92.5,
+                    "8": 95,
+                    "9": 97.5,
+                    "10": 100,
+                    "11": 102,
+                    "12": 104,
+                    "13": 106,
+                    "14": 108,
+                    "15": 110
                 },
                 {
-                    "1": 95,
-                    "2": 104.5,
-                    "3": 114,
-                    "4": 123.5,
-                    "5": 133,
-                    "6": 147.25,
-                    "7": 166.25,
-                    "8": 190,
-                    "9": 218.5,
-                    "10": 247,
-                    "11": 259.35,
-                    "12": 271.7,
-                    "13": 284.05,
-                    "14": 296,
-                    "15": 308.75
+                    "1": 115,
+                    "2": 126.5,
+                    "3": 138,
+                    "4": 149.5,
+                    "5": 161,
+                    "6": 178.25,
+                    "7": 201.25,
+                    "8": 230,
+                    "9": 264.5,
+                    "10": 299,
+                    "11": 313.95,
+                    "12": 328.9,
+                    "13": 343.85,
+                    "14": 358.8,
+                    "15": 373.75
                 }
             ],
             "tags": [
@@ -451,9 +451,9 @@
             "CNname": "宽恕无关慈悲",
             "JAname": "許しは慈悲に非ず ",
             "imageurl": "https://hsrwikidata.kchlu.com/images/skills/kafkatec.webp",
-            "DescriptionEN": "Immediately attacks the enemy. After entering battle, deal Lightning DMG equal to 50% of Kafka's ATK to all enemies. In addition, each enemy has a 100% base chance to become Shocked for 3 turn(s).While Shocked, enemies receive Lightning DoT equal to 50% of Kafka's ATK at the beginning of each turn.",
-            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方全体造成等同于卡芙卡50%攻击力的雷属性伤害，同时有100%的基础概率使敌方每个单体目标陷入触电状态，持续3回合。触电状态下，敌方目标每回合开始时受到等同于卡芙卡50%攻击力的雷属性持续伤害。",
-            "DescriptionJP": "敵を攻撃。戦闘に入った後、敵全体にカフカの攻撃力50%分の雷属性ダメージを与え、100%の基礎確率で敵単体それぞれを感電状態にする、3ターン継続。感電状態の敵はターンが回ってくるたびに、カフカの攻撃力50%分の雷属性持続ダメージを受ける。",
+            "DescriptionEN": "Immediately attacks the enemy. After entering battle, deal Lightning DMG equal to 50% of Kafka's ATK to all enemies. In addition, each enemy has a 100% base chance to become Shocked for 3 turn(s).While Shocked, enemies receive Lightning DoT equal to 182% of Kafka's ATK at the beginning of each turn.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方全体造成等同于卡芙卡50%攻击力的雷属性伤害，同时有100%的基础概率使敌方每个单体目标陷入触电状态，持续3回合。触电状态下，敌方目标每回合开始时受到等同于卡芙卡182%攻击力的雷属性持续伤害。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、敵全体にカフカの攻撃力50%分の雷属性ダメージを与え、100%の基礎確率で敵単体それぞれを感電状態にする、3ターン継続。感電状態の敵はターンが回ってくるたびに、カフカの攻撃力182%分の雷属性持続ダメージを受ける。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": true,
@@ -487,7 +487,7 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 50,
+                    "multiplier": 182,
                     "tag": [
                         "aoe",
                         "dotatk",
@@ -504,32 +504,18 @@
             "CNname": "折磨",
             "JAname": "苛み",
             "imageurl": "https://hsrwikidata.kchlu.com/images/skills/kafkat1.webp",
-            "DescriptionEN": "When DoTs immediately deal DMG to enemies due to Kafka's Skill or Ultimate, their DMG multiplier is proportionally increased. The increased proportion is equal to 24% of Kafka's Break Effect, up to a max of 24%.(A2)",
-            "DescriptionCN": "施放战技和终结技使处于持续伤害类负面状态的敌方目标立即产生持续伤害时，伤害倍率按比例提高，提高的比例等同于卡芙卡击破特攻的24%，最高不超过24%。(A2)",
-            "DescriptionJP": "戦闘スキルと必殺技により、持続ダメージ系のデバフがダメージを発生する時、ダメージ倍率がカフカの撃破特効24%分アップする、最大で24%まで。(A2)",
+            "DescriptionEN": "When using Ultimate, instead of immediately receiving DMG from the Shock state, enemy targets will now immediately receive DMG from all currently applied DoT sources.(A2)",
+            "DescriptionCN": "施放终结技时，敌方目标由「其当前的触电状态立即产生伤害」变更为「其当前承受的所有持续伤害类负面状态立即产生伤害」。(A2)",
+            "DescriptionJP": "必殺技を発動した時、敵は「付与された感電状態がダメージを発生する」から「付与されたすべての持続ダメージ系デバフがダメージを発生する」に変更される。(A2)",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "critdmg",
+                "special",
                 "self"
             ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "referencetargetEN": "Kafka's Break Effect",
-                    "referencetargetCN": "卡芙卡击破特攻",
-                    "referencetargetJP": "カフカの撃破特効",
-                    "addtarget": "dotdmgmultiplier",
-                    "multiplier": 24,
-                    "tag": [
-                        "self",
-                        "breakeffect",
-                        "dotdmgmultiplier"
-                    ]
-                }
-            ]
+            "effect": []
         },
         {
             "tiny": false,
@@ -566,9 +552,9 @@
             "CNname": "荆棘",
             "JAname": "いばら",
             "imageurl": "https://hsrwikidata.kchlu.com/images/skills/kafkat3.webp",
-            "DescriptionEN": "Talent has a 20% increased base chance to increase the DoT that the enemies receive. Ultimate has a 20% increased base chance to Shock enemies.(A6)",
-            "DescriptionCN": "天赋使敌方目标受到的持续伤害提高的基础概率提高20%，终结技使敌方目标陷入触电状态的基础概率提高20%。(A6)",
-            "DescriptionJP": "天賦で敵に持続被ダメージアップ効果を与える基礎確率+20%。必殺技で敵を感電状態にする基礎確率+20%。(A6)",
+            "DescriptionEN": "Talent has a 20% increased base chance to increase the DoT that the enemies receive. Ultimate has a 30% increased base chance to Shock enemies.(A6)",
+            "DescriptionCN": "天赋使敌方目标受到的持续伤害提高的基础概率提高20%，终结技使敌方目标陷入触电状态的基础概率提高30%。(A6)",
+            "DescriptionJP": "天賦で敵に持続被ダメージアップ効果を与える基礎確率+20%。必殺技で敵を感電状態にする基礎確率+30%。(A6)",
             "stype": "trace",
             "buffskill": true,
             "teamskill": true,
@@ -876,9 +862,9 @@
             "CNname": "无穷动！无穷",
             "JAname": "無窮に動く！無窮に",
             "imageurl": "https://hsrwikidata.kchlu.com/images/skills/kafka1.webp",
-            "DescriptionEN": "When using Ultimate, instead of immediately receiving DMG from the Shock state, enemies will now immediately receive DMG from all currently applied DoT sources.",
-            "DescriptionCN": "施放终结技时，敌方目标由「其当前的触电状态立即产生伤害」变更为「其当前承受的所有持续伤害类负面状态立即产生伤害」。",
-            "DescriptionJP": "必殺技を発動した時、敵は「付与された感電状態がダメージを発生する」から「付与されたすべての持続ダメージ系デバフがダメージを発生する」に変更される。",
+            "DescriptionEN": "When Kafka's Talent triggers a follow-up attack, there is a 100% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target. For targets already affected by Shock caused by Kafka, the DMG multiplier of their Shock status is increased by 52%.",
+            "DescriptionCN": "天赋触发追加攻击时，有100%的基础概率使受到攻击的敌方目标陷入与终结技相同的触电状态。对于已处于由卡芙卡造成的触电状态的目标，则使其触电状态的伤害倍率提高52%。",
+            "DescriptionJP": "天賦が追加攻撃を触発した時、100%の基礎確率で攻撃を受けた敵を、必殺技が与えるものと同じ感電状態にする。カフカに感電状態を付与された敵の場合、その感電状態のダメージ倍率+52%。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false,
@@ -894,24 +880,24 @@
             "CNname": "狂想者，呜咽",
             "JAname": "狂想者の嗚咽",
             "imageurl": "https://hsrwikidata.kchlu.com/images/skills/kafka2.webp",
-            "DescriptionEN": "Weakness Break Efficiency boosted by 50%.",
-            "DescriptionCN": "弱点击破效率提高50%。",
-            "DescriptionJP": "弱点撃破効率+50%。",
+            "DescriptionEN": "While Kafka is on the field, DoT dealt by all allies increases by 20%.",
+            "DescriptionCN": "卡芙卡在场时，我方全体造成的持续伤害提高20%。",
+            "DescriptionJP": "カフカがフィールド上にいる時、味方全体の持続与ダメージ+20%。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "self"
+                "allally"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "weaknessbreakefficiency",
-                    "multiplier": 50,
+                    "addtarget": "dotatk",
+                    "multiplier": 20,
                     "tag": [
-                        "self",
-                        "weaknessbreakefficiency"
+                        "allally",
+                        "dotatk"
                     ]
                 }
             ]
