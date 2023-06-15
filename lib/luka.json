@@ -90,9 +90,9 @@
             "CNname": "直冲拳",
             "JAname": "直冲拳",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/lukana.webp",
-            "DescriptionEN": "Deals Physical DMG equal to [1] of Luka's ATK to a single enemy.",
-            "DescriptionCN": "对指定敌方单体造成等同于卢卡[1]攻击力的物理属性伤害。",
-            "DescriptionJP": "指定した敵単体にルカの攻撃力[1]分の物理ダメージを与える。",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of Luka's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于卢卡[1]%攻击力的物理属性伤害。",
+            "DescriptionJP": "指定した敵単体にルカの攻撃力[1]%分の物理ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -146,7 +146,7 @@
             "energyregen": 20,
             "levelmultiplier": [
                 {
-                    "1": 50,
+                    "1": 10,
                     "2": 60,
                     "3": 70,
                     "4": 80,
@@ -154,7 +154,18 @@
                     "6": 100,
                     "7": 110,
                     "8": 120,
-                    "9": 130
+                    "9": 26
+                },
+                {
+                    "1": 40,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 104
                 }
             ],
             "tags": [
@@ -190,6 +201,40 @@
             "weaknessbreak": 60,
             "energyregen": 30,
             "levelmultiplier": [
+                {
+                    "1": 14,
+                    "2": 15.4,
+                    "3": 16.8,
+                    "4": 18.2,
+                    "5": 19.6,
+                    "6": 21,
+                    "7": 22.75,
+                    "8": 24.5,
+                    "9": 26.25,
+                    "10": 28,
+                    "11": 29.4,
+                    "12": 30.8,
+                    "13": 32.2,
+                    "14": 33.6,
+                    "15": 35
+                },
+                {
+                    "1": 14,
+                    "2": 15.4,
+                    "3": 16.8,
+                    "4": 18.2,
+                    "5": 19.6,
+                    "6": 21,
+                    "7": 22.75,
+                    "8": 24.5,
+                    "9": 26.25,
+                    "10": 28,
+                    "11": 29.4,
+                    "12": 30.8,
+                    "13": 32.2,
+                    "14": 33.6,
+                    "15": 35
+                },
                 {
                     "1": 14,
                     "2": 15.4,
@@ -256,6 +301,23 @@
                     "13": 224,
                     "14": 232,
                     "15": 240
+                },
+                {
+                    "1": 14,
+                    "2": 15.4,
+                    "3": 16.8,
+                    "4": 18.2,
+                    "5": 19.6,
+                    "6": 21,
+                    "7": 22.75,
+                    "8": 24.5,
+                    "9": 26.25,
+                    "10": 28,
+                    "11": 29.4,
+                    "12": 30.8,
+                    "13": 32.2,
+                    "14": 33.6,
+                    "15": 35
                 }
             ],
             "tags": [
@@ -337,11 +399,41 @@
             "teamskill": false,
             "weaknessbreak": 60,
             "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 36,
+                    "2": 39.6,
+                    "3": 43.2,
+                    "4": 46.8,
+                    "5": 50.4,
+                    "6": 54,
+                    "7": 58.5,
+                    "8": 63,
+                    "9": 67.5,
+                    "10": 72,
+                    "11": 75.6,
+                    "12": 79.2,
+                    "13": 82.8,
+                    "14": 86.4,
+                    "15": 90
+                }
+            ],
             "tags": [
                 "singleatk",
                 "physicalatk",
                 "special"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "physicalatk"
+                    ]
+                }
             ]
+
         }
     ],
     "tracedata": [
@@ -381,11 +473,11 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 10,
+                    "addtarget": "energy",
+                    "multiplier": 3,
                     "tag": [
                         "self",
-                        "alldmg"
+                        "energy"
                     ]
                 }
             ]
