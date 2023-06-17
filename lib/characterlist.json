@@ -314,22 +314,22 @@
             "ENname": "Luka(WIP)",
             "CNname": "卢卡(施工中)",
             "JAname": "ルカ(建設中)",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/luka.webp",
+            "imageurl": "https://hsrwikidata.kchlu.com/images/characters/luka.webp",
             "etype": "physical",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/luka.json",
+            "infourl": "https://hsrwikidata.kchlu.com/lib/luka.json",
             "spoiler": true
         },
         {
             "ENname": "Blade(WIP)",
             "CNname": "刃(施工中)",
             "JAname": "刃(建設中)",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/blade.webp",
+            "imageurl": "https://hsrwikidata.kchlu.com/images/characters/blade.webp",
             "etype": "wind",
             "wtype": "destruction",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/blade.json",
+            "infourl": "https://hsrwikidata.kchlu.com/lib/blade.json",
             "spoiler": true
         }
     ]
