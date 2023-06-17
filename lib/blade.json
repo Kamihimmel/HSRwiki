@@ -90,9 +90,9 @@
             "CNname": "支离剑",
             "JAname": "支離剣",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bladena.webp",
-            "DescriptionEN": "Deals 130% of Blade's ATK as Wind DMG to a target enemy.",
-            "DescriptionCN": "对指定敌方单体造成等同于刃130%攻击力的风属性伤害。",
-            "DescriptionJP": "指定した敵単体に刃の攻撃力130%分の風属性ダメージを与える。",
+            "DescriptionEN": "Deals [1]% of Blade's ATK as Wind DMG to a target enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于刃[1]%攻击力的风属性伤害。",
+            "DescriptionJP": "指定した敵単体に刃の攻撃力[1]%分の風属性ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -135,9 +135,9 @@
             "CNname": "无间剑树",
             "JAname": "無間剣樹",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bladena2.webp",
-            "DescriptionEN": "Consumes HP equal to 10% of Blade's Max HP and deals 52% of Blade's ATK plus 130% of his Max HP as Wind DMG to a single enemy. In addition, deals 26% of Blade's ATK plus 65% of his Max HP as Wind DMG to adjacent targets.If Blade's current HP is insufficient, his HP will be reduced to 1 after using \"Forest of Swords.\"\"Forest of Swords\" cannot regenerate Skill Points.",
-            "DescriptionCN": "消耗等同于刃生命上限10%的生命值，对指定敌方单体造成等同于刃52%攻击力+130%生命上限的风属性伤害，同时对其相邻目标造成等同于刃26%攻击力+65%生命上限的风属性伤害。若当前生命值不足，施放【无间剑树】时刃的当前生命值降低至1点。【无间剑树】无法恢复战技点。",
-            "DescriptionJP": "刃のHPを最大HP10%分消費し、指定した敵単体に刃の攻撃力52%+最大HP130%分の風属性ダメージを与え、隣接する敵に刃の攻撃力26%+最大HP65%分の風属性ダメージを与える。残りHPが足りない場合、「無間剣樹」を発動した時、刃の残りHPが1になる。「無間剣樹」はSPを回復できない。",
+            "DescriptionEN": "Consumes HP equal to 10% of Blade's Max HP and deals [1]% of Blade's ATK plus [2]% of his Max HP as Wind DMG to a single enemy. In addition, deals [3]% of Blade's ATK plus [4]% of his Max HP as Wind DMG to adjacent targets. If Blade's current HP is insufficient, his HP will be reduced to 1 after using \"Forest of Swords.\"\"Forest of Swords\" cannot regenerate Skill Points.",
+            "DescriptionCN": "消耗等同于刃生命上限10%的生命值，对指定敌方单体造成等同于刃[1]%攻击力+[2]%生命上限的风属性伤害，同时对其相邻目标造成等同于刃[3]%攻击力+[4]%生命上限的风属性伤害。若当前生命值不足，施放【无间剑树】时刃的当前生命值降低至1点。【无间剑树】无法恢复战技点。",
+            "DescriptionJP": "刃のHPを最大HP10%分消費し、指定した敵単体に刃の攻撃力[1]%+最大HP[2]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[3]%+最大HP[4]%分の風属性ダメージを与える。残りHPが足りない場合、「無間剣樹」を発動した時、刃の残りHPが1になる。「無間剣樹」はSPを回復できない。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -145,6 +145,17 @@
             "weaknessbreak": 60,
             "energyregen": 30,
             "levelmultiplier": [
+                {
+                    "1": 20,
+                    "2": 24,
+                    "3": 28,
+                    "4": 32,
+                    "5": 36,
+                    "6": 40,
+                    "7": 44,
+                    "8": 58,
+                    "9": 52
+                },
                 {
                     "1": 50,
                     "2": 60,
@@ -155,12 +166,34 @@
                     "7": 110,
                     "8": 120,
                     "9": 130
+                },
+                {
+                    "1": 10,
+                    "2": 12,
+                    "3": 14,
+                    "4": 16,
+                    "5": 18,
+                    "6": 20,
+                    "7": 22,
+                    "8": 24,
+                    "9": 26
+                },
+                {
+                    "1": 25,
+                    "2": 30,
+                    "3": 35,
+                    "4": 40,
+                    "5": 45,
+                    "6": 50,
+                    "7": 55,
+                    "8": 60,
+                    "9": 65
                 }
             ],
             "tags": [
                 "singleatk",
                 "normalatk",
-                "physicalatk"
+                "windatk"   
             ],
             "effect": []
         },
@@ -180,44 +213,30 @@
             "energyregen": 0,
             "levelmultiplier": [
                 {
-                    "1": 60,
-                    "2": 66,
-                    "3": 72,
-                    "4": 78,
-                    "5": 84,
-                    "6": 90,
-                    "7": 97.5,
-                    "8": 105,
-                    "9": 112.5,
-                    "10": 120,
-                    "11": 126,
-                    "12": 132,
-                    "13": 138,
-                    "14": 144,
-                    "15": 150
+                    "default": 30
                 },
                 {
-                    "1": 60,
-                    "2": 66,
-                    "3": 72,
-                    "4": 78,
-                    "5": 84,
-                    "6": 90,
-                    "7": 97.5,
-                    "8": 105,
-                    "9": 112.5,
-                    "10": 120,
-                    "11": 126,
-                    "12": 132,
-                    "13": 138,
-                    "14": 144,
-                    "15": 150
+                    "1": 12,
+                    "2": 14.8,
+                    "3": 17.6,
+                    "4": 20.4,
+                    "5": 23.2,
+                    "6": 26,
+                    "7": 29.5,
+                    "8": 33,
+                    "9": 36.5,
+                    "10": 40,
+                    "11": 42.8,
+                    "12": 45.6,
+                    "13": 48.4,
+                    "14": 51.2,
+                    "15": 54
                 }
             ],
             "tags": [
-                "aoe",
-                "skillatk",
-                "physicalatk"
+                "buff",
+                "self",
+                "alldmg"
             ],
             "effect": []
         },
@@ -226,9 +245,9 @@
             "CNname": "大辟万死",
             "JAname": "大辟万死",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bladeult.webp",
-            "DescriptionEN": "Sets Blade's current HP to 50% of his Max HP and deals to a single enemy Wind DMG equal to the sum of 48% of his ATK, 120% of his Max HP, and 120% of the total HP he had lost in the current battle. At the same time, deal Wind DMG to adjacent targets equal to 24% of his ATK, 60% of his Max HP, and 60% of the HP he had lost in the current battle.After using his Ultimate, the total HP Blade had lost in the current battle will be reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
-            "DescriptionCN": "将刃的当前生命值转化为生命上限的50%，并对敌方单体造成等同于刃48%攻击力+120%生命上限+120%本场战斗中累计的已损失生命值的风属性伤害，同时对其相邻目标造成等同于刃24%攻击力+60%生命上限+60%本场战斗中已损失生命值的风属性伤害。施放终结技后会清空本场战斗中累计的已损失生命值，进行重新累计且最高不超过刃生命上限的90%。",
-            "DescriptionJP": "刃の残りHPを最大HPの50%にし、敵単体に刃の攻撃力48%+最大HP120%+戦闘中失った累計HP120%分の風属性ダメージを与え、隣接する敵に刃の攻撃力24%+最大HP60%+戦闘中失った累計HP60%分の風属性ダメージを与える。必殺技を発動した後、戦闘中失った累計HPのカウントをリセットする。戦闘中失った累計HPのカウントは、刃の最大HPの90%を超えない。",
+            "DescriptionEN": "Sets Blade's current HP to 50% of his Max HP and deals to a single enemy Wind DMG equal to the sum of [1]% of his ATK, [2]% of his Max HP, and [3]% of the total HP he had lost in the current battle. At the same time, deal Wind DMG to adjacent targets equal to [4]% of his ATK, [5]% of his Max HP, and [6]% of the HP he had lost in the current battle. After using his Ultimate, the total HP Blade had lost in the current battle will be reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+            "DescriptionCN": "将刃的当前生命值转化为生命上限的50%，并对敌方单体造成等同于刃[1]%攻击力+[2]%生命上限+[3]%本场战斗中累计的已损失生命值的风属性伤害，同时对其相邻目标造成等同于刃[4]%攻击力+[5]%生命上限+[6]%本场战斗中已损失生命值的风属性伤害。施放终结技后会清空本场战斗中累计的已损失生命值，进行重新累计且最高不超过刃生命上限的90%。",
+            "DescriptionJP": "刃の残りHPを最大HPの50%にし、敵単体に刃の攻撃力[1]%+最大HP[2]%+戦闘中失った累計HP[3]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[4]%+最大HP[5]%+戦闘中失った累計HP[6]%分の風属性ダメージを与える。必殺技を発動した後、戦闘中失った累計HPのカウントをリセットする。戦闘中失った累計HPのカウントは、刃の最大HPの90%を超えない。",
             "stype": "ult",
             "energy": 130,
             "maxlevel": 15,
@@ -238,48 +257,111 @@
             "energyregen": 5,
             "levelmultiplier": [
                 {
-                    "1": 15,
-                    "2": 16,
-                    "3": 17,
-                    "4": 18,
-                    "5": 19,
-                    "6": 20,
-                    "7": 21.25,
-                    "8": 22.5,
-                    "9": 23.75,
-                    "10": 25,
-                    "11": 26,
-                    "12": 27,
-                    "13": 28,
-                    "14": 29,
-                    "15": 30
+                    "1": 24,
+                    "2": 25.6,
+                    "3": 27.2,
+                    "4": 28.8,
+                    "5": 30.4,
+                    "6": 32,
+                    "7": 34,
+                    "8": 36,
+                    "9": 38,
+                    "10": 40,
+                    "11": 41.6,
+                    "12": 43.2,
+                    "13": 44.8,
+                    "14": 46.4,
+                    "15": 48
                 },
                 {
-                    "default": 500
+                    "1": 60,
+                    "2": 64,
+                    "3": 68,
+                    "4": 72,
+                    "5": 76,
+                    "6": 80,
+                    "7": 85,
+                    "8": 90,
+                    "9": 95,
+                    "10": 100,
+                    "11": 104,
+                    "12": 108,
+                    "13": 112,
+                    "14": 116,
+                    "15": 120
                 },
                 {
-                    "1": 96,
-                    "2": 102.4,
-                    "3": 108.8,
-                    "4": 115.2,
-                    "5": 121.6,
-                    "6": 128,
-                    "7": 136,
-                    "8": 144,
-                    "9": 152,
-                    "10": 160,
-                    "11": 166.4,
-                    "12": 172.8,
-                    "13": 179.2,
-                    "14": 185.6,
-                    "15": 192
+                    "1": 60,
+                    "2": 64,
+                    "3": 68,
+                    "4": 72,
+                    "5": 76,
+                    "6": 80,
+                    "7": 85,
+                    "8": 90,
+                    "9": 95,
+                    "10": 100,
+                    "11": 104,
+                    "12": 108,
+                    "13": 112,
+                    "14": 116,
+                    "15": 120
                 },
                 {
-                    "default": 50
+                    "1": 12,
+                    "2": 12.8,
+                    "3": 13.6,
+                    "4": 14.4,
+                    "5": 15.2,
+                    "6": 16,
+                    "7": 17,
+                    "8": 18,
+                    "9": 19,
+                    "10": 20,
+                    "11": 20.8,
+                    "12": 21.6,
+                    "13": 22.4,
+                    "14": 23.2,
+                    "15": 24
+                },
+                {
+                    "1": 30,
+                    "2": 32,
+                    "3": 34,
+                    "4": 36,
+                    "5": 38,
+                    "6": 40,
+                    "7": 42.5,
+                    "8": 45,
+                    "9": 47.5,
+                    "10": 50,
+                    "11": 52,
+                    "12": 54,
+                    "13": 56,
+                    "14": 58,
+                    "15": 60
+                },
+                {
+                    "1": 30,
+                    "2": 32,
+                    "3": 34,
+                    "4": 36,
+                    "5": 38,
+                    "6": 40,
+                    "7": 42.5,
+                    "8": 45,
+                    "9": 47.5,
+                    "10": 50,
+                    "11": 52,
+                    "12": 54,
+                    "13": 56,
+                    "14": 58,
+                    "15": 60
                 }
             ],
             "tags": [
-                "aoe"
+                "aoe",
+                "ultatk"
             ],
             "effect": []
         },
@@ -288,9 +370,9 @@
             "CNname": "倏忽恩赐",
             "JAname": "倏忽の恩賜",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bladetalent.webp",
-            "DescriptionEN": "When Blade's HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains for each ATK is 1.When the maximum Charge stacks is reached, immediately unleash a follow-up attack on all enemies, dealing Wind DMG equal to 55% of Blade's ATK plus 137.5% of Max HP. Then, restore Blade's HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
-            "DescriptionCN": "刃的生命值降低时，获得1层充能，持续3回合，最多叠加5层。该效果每次受到攻击最多叠加1层。当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃55%攻击力+137.5%生命上限的风属性伤害并回复等同于刃生命上限25%的生命值，施放追加攻击后，消耗所有充能。",
-            "DescriptionJP": "刃のHPが減った時、チャージを1層獲得する、3ターン継続、最大で5層累積できる。この効果は攻撃を1回受けるたびに1層まで累積できる。チャージが上限に達した時、敵全体に追加攻撃を1回行い、刃の攻撃力55%+最大HP137.5%分の風属性ダメージを与え、刃の最大HP25%分のHPを回復する。追加攻撃を行った後、すべてのチャージを消費する。",
+            "DescriptionEN": "When Blade's HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains for each ATK is 1. When the maximum Charge stacks is reached, immediately unleash a follow-up attack on all enemies, dealing Wind DMG equal to [1]% of Blade's ATK plus [2]% of Max HP. Then, restore Blade's HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+            "DescriptionCN": "刃的生命值降低时，获得1层充能，持续3回合，最多叠加5层。该效果每次受到攻击最多叠加1层。当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃[1]%攻击力+[2]%生命上限的风属性伤害并回复等同于刃生命上限25%的生命值，施放追加攻击后，消耗所有充能。",
+            "DescriptionJP": "刃のHPが減った時、チャージを1層獲得する、3ターン継続、最大で5層累積できる。この効果は攻撃を1回受けるたびに1層まで累積できる。チャージが上限に達した時、敵全体に追加攻撃を1回行い、刃の攻撃力[1]%+最大HP[2]%分の風属性ダメージを与え、刃の最大HP25%分のHPを回復する。追加攻撃を行った後、すべてのチャージを消費する。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
@@ -299,28 +381,43 @@
             "energyregen": 10,
             "levelmultiplier": [
                 {
-                    "default": 10
+                    "1": 22,
+                    "2": 24.2,
+                    "3": 26.4,
+                    "4": 28.6,
+                    "5": 30.8,
+                    "6": 33,
+                    "7": 35.75,
+                    "8": 38.5,
+                    "9": 41.25,
+                    "10": 44,
+                    "11": 46.2,
+                    "12": 48.4,
+                    "13": 50.6,
+                    "14": 52.8,
+                    "15": 55
                 },
                 {
-                    "1": 80,
-                    "2": 88,
-                    "3": 96,
-                    "4": 104,
-                    "5": 112,
-                    "6": 120,
-                    "7": 130,
-                    "8": 140,
-                    "9": 150,
-                    "10": 160,
-                    "11": 168,
-                    "12": 176,
-                    "13": 184,
-                    "14": 192,
-                    "15": 200
+                    "1": 55,
+                    "2": 60.5,
+                    "3": 66,
+                    "4": 71.5,
+                    "5": 77,
+                    "6": 82.5,
+                    "7": 89.38,
+                    "8": 96.25,
+                    "9": 103.13,
+                    "10": 110,
+                    "11": 115.5,
+                    "12": 121,
+                    "13": 126.5,
+                    "14": 132,
+                    "15": 137.5
                 }
             ],
             "tags": [
-                "buff"
+                "followupatk",
+                "heal"
             ],
             "effect": []
         },
@@ -348,7 +445,7 @@
     "tracedata": [
         {
             "tiny": false,
-            "ENname": "Endless Lifespan",
+            "ENname": "Vita Infinita",
             "CNname": "无尽形寿",
             "JAname": "無尽形寿",
             "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/bladet1.webp",
@@ -358,7 +455,10 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [],
+            "tags": [
+                "buff",
+                "heal"
+            ],
             "effect": []
         },
         {
@@ -375,8 +475,8 @@
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "buff",
-                "self"
+                "self",
+                "heal"
             ]
         },
         {
@@ -393,7 +493,7 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "self"
+                "followupatk"
             ],
             "effect": []
         },
@@ -664,9 +764,9 @@
             "CNname": "生命值 +4%",
             "JAname": "HP +4%",
             "ttype": "hp",
-            "DescriptionEN": "Lv1",
-            "DescriptionCN": "Lv1",
-            "DescriptionJP": "A3",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -694,7 +794,7 @@
             "ENname": "Rejected by Death, Infected With Life",
             "CNname": "泉台歧路，百骸回春",
             "JAname": "冥府の岐路越え 回生せし骸",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/blade1.png",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/blade1.webp",
             "DescriptionEN": "When Blade's current HP drops to 50% or lower of his Max HP, increases Max HP by 20%. Stacks up to 2 time(s).",
             "DescriptionCN": "当前生命值百分比从大于50%降低至小于等于50%时，生命上限提高20%，该效果最多叠加2层。",
             "DescriptionJP": "戦残りHPが50%を超える状態から、50%以下になった時、最大HP+20%、この効果は最大で2層累積可能。",
@@ -711,7 +811,7 @@
             "ENname": "Missed Dreams and Countless Regrets",
             "CNname": "支离旧梦，万端遗恨",
             "JAname": "支離の夢 万事が遺恨",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/blade2.png",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/blade2.webp",
             "DescriptionEN": "When Blade is in the Hellscape state and his current HP is restored, his next attack's DMG increases by 20%.",
             "DescriptionCN": "刃处于【地狱变】状态时，若当前生命值得到回复，则下一次攻击造成的伤害提高20%。",
             "DescriptionJP": "刃が「地獄変」状態の時、HPを回復すると、次の攻撃の与ダメージ+20%。",
@@ -747,7 +847,7 @@
             "ENname": "Ultimate Sword, Hidden Hell",
             "CNname": "剑录大限，地狱变相",
             "JAname": "形寿記せし剣身 地獄変の如く",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/blade4.png",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/blade4.webp",
             "DescriptionEN": "When using Ultimate, if HP is above 50%, deals 100% of the HP loss caused by Ultimate to the enemy and adjacent targets as additional Wind DMG.",
             "DescriptionCN": "施放终结技时，若当前生命值百分比大于50%，则额外对终结技指定敌方单体及其相邻目标造成等同于刃因终结技损失生命值的100%的风属性伤害。",
             "DescriptionJP": "必殺技を発動した時、残りHPが50%を超える場合、さらに敵単体および隣接する敵に、刃が必殺技により失ったHP100%分の風属性ダメージを与える。",
@@ -784,7 +884,7 @@
             "ENname": "A Furious Resurrection",
             "CNname": "命留魂销，复返此身",
             "JAname": "涸れし魂魄 留まりて 此の身に戻る",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/blade6.png",
+            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/blade6.webp",
             "DescriptionEN": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 30% of his Max HP.",
             "DescriptionCN": "充能的层数上限降低至4层。天赋触发追加攻击造成的伤害额外提高，提高数值等同于刃30%的生命上限。",
             "DescriptionJP": "チャージ層数の上限が4層になる。天賦触発による追加攻撃の与ダメージが、さらに刃の最大HP30%分アップする。",
