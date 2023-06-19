@@ -892,17 +892,16 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "energy",
-                "self"
+                "alldmg"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "energy",
-                    "multiplier": 5,
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
                     "tag": [
                         "self",
-                        "energy"
+                        "alldmg"
                     ]
                 }
             ]
