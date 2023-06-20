@@ -414,7 +414,7 @@
                 {
                     "type": "debuff",
                     "multipliertarget": "dotvulnerability",
-                    "multiplier": 2,
+                    "multiplier": 100,
                     "tag": [
                         "dotvulnerability"
                     ]
