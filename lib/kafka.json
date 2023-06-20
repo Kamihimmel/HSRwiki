@@ -411,17 +411,9 @@
                 {
                     "type": "debuff",
                     "multipliertarget": "dotvulnerability",
-                    "multiplier": 2,
+                    "multiplier": 100,
                     "tag": [
                         "dotvulnerability"
-                    ]
-                },
-                {
-                    "type": "debuff",
-                    "addtarget": "dotdmgreceive",
-                    "multiplier": 3,
-                    "tag": [
-                        "dotdmgreceive"
                     ]
                 }
             ]
