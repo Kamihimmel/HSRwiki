@@ -1,6 +1,7 @@
 {
     "data": [
         {
+            "id": "1013",
             "ENname": "Herta",
             "CNname": "黑塔",
             "JAname": "ヘルタ",
@@ -12,6 +13,7 @@
             "spoiler": false
         },
         {
+            "id": "1005",
             "ENname": "Kafka",
             "CNname": "卡芙卡",
             "JAname": "カフカ",
@@ -23,6 +25,7 @@
             "spoiler": true
         },
         {
+            "id": "1209",
             "ENname": "Yan Qing",
             "CNname": "彦卿",
             "JAname": "彦卿",
@@ -34,6 +37,7 @@
             "spoiler": false
         },
         {
+            "id": "1003",
             "ENname": "Himeko",
             "CNname": "姬子",
             "JAname": "姫子",
@@ -45,6 +49,7 @@
             "spoiler": false
         },
         {
+            "id": "1004",
             "ENname": "Welt",
             "CNname": "瓦尔特",
             "JAname": "ヴェルト",
@@ -56,6 +61,7 @@
             "spoiler": false
         },
         {
+            "id": "1006",
             "ENname": "Silver Wolf",
             "CNname": "银狼",
             "JAname": "銀狼",
@@ -67,6 +73,7 @@
             "spoiler": false
         },
         {
+            "id": "1101",
             "ENname": "Bronya",
             "CNname": "布洛妮娅",
             "JAname": "ブローニャ",
@@ -78,6 +85,7 @@
             "spoiler": false
         },
         {
+            "id": "1102",
             "ENname": "Seele",
             "CNname": "希儿",
             "JAname": "ゼーレ",
@@ -89,6 +97,7 @@
             "spoiler": false
         },
         {
+            "id": "1104",
             "ENname": "Gepard",
             "CNname": "杰帕德",
             "JAname": "ジェパード",
@@ -100,6 +109,7 @@
             "spoiler": false
         },
         {
+            "id": "1107",
             "ENname": "Clara",
             "CNname": "克拉拉",
             "JAname": "クラーラ",
@@ -111,6 +121,7 @@
             "spoiler": false
         },
         {
+            "id": "1203",
             "ENname": "Luo Cha",
             "CNname": "罗刹",
             "JAname": "羅刹",
@@ -122,6 +133,7 @@
             "spoiler": false
         },
         {
+            "id": "1204",
             "ENname": "Jing Yuan",
             "CNname": "景元",
             "JAname": "景元",
@@ -133,6 +145,7 @@
             "spoiler": false
         },
         {
+            "id": "1211",
             "ENname": "Bai Lu",
             "CNname": "白露",
             "JAname": "白露",
@@ -144,6 +157,7 @@
             "spoiler": false
         },
         {
+            "id": "8002",
             "ENname": "Trailblazer",
             "CNname": "开拓者",
             "JAname": "開拓者",
@@ -156,6 +170,7 @@
             "spoiler": false
         },
         {
+            "id": "8004",
             "ENname": "Trailblazer",
             "CNname": "开拓者",
             "JAname": "開拓者",
@@ -168,6 +183,7 @@
             "spoiler": false
         },
         {
+            "id": "1001",
             "ENname": "March 7th",
             "CNname": "三月七",
             "JAname": "三月なのか",
@@ -179,6 +195,7 @@
             "spoiler": false
         },
         {
+            "id": "1002",
             "ENname": "Dan Heng",
             "CNname": "丹恒",
             "JAname": "丹恒",
@@ -190,6 +207,7 @@
             "spoiler": false
         },
         {
+            "id": "1008",
             "ENname": "Arlan",
             "CNname": "阿兰",
             "JAname": "アーラン",
@@ -201,6 +219,7 @@
             "spoiler": false
         },
         {
+            "id": "1009",
             "ENname": "Asta",
             "CNname": "艾丝妲",
             "JAname": "アスター",
@@ -212,6 +231,7 @@
             "spoiler": false
         },
         {
+            "id": "1103",
             "ENname": "Serval",
             "CNname": "希露瓦",
             "JAname": "セーバル",
@@ -223,6 +243,7 @@
             "spoiler": false
         },
         {
+            "id": "1105",
             "ENname": "Natasha",
             "CNname": "娜塔莎",
             "JAname": "ナターシャ",
@@ -234,6 +255,7 @@
             "spoiler": false
         },
         {
+            "id": "1202",
             "ENname": "Ting Yun",
             "CNname": "停云",
             "JAname": "停雲",
@@ -245,6 +267,7 @@
             "spoiler": false
         },
         {
+            "id": "1106",
             "ENname": "Pela",
             "CNname": "佩拉",
             "JAname": "ペラ",
@@ -256,6 +279,7 @@
             "spoiler": false
         },
         {
+            "id": "1108",
             "ENname": "Sampo",
             "CNname": "桑博",
             "JAname": "サンポ",
@@ -267,6 +291,7 @@
             "spoiler": false
         },
         {
+            "id": "1109",
             "ENname": "Hook",
             "CNname": "虎克",
             "JAname": "フック",
@@ -278,6 +303,7 @@
             "spoiler": false
         },
         {
+            "id": "1201",
             "ENname": "Qing Que",
             "CNname": "青雀",
             "JAname": "青雀",
@@ -289,6 +315,7 @@
             "spoiler": false
         },
         {
+            "id": "1206",
             "ENname": "Su Shang",
             "CNname": "素裳",
             "JAname": "素裳",
@@ -300,6 +327,7 @@
             "spoiler": false
         },
         {
+            "id": "1207",
             "ENname": "Yu Kong",
             "CNname": "驭空",
             "JAname": "御空",
@@ -311,6 +339,7 @@
             "spoiler": true
         },
         {
+            "id": "9999",
             "ENname": "Luka(WIP)",
             "CNname": "卢卡(施工中)",
             "JAname": "ルカ(建設中)",
@@ -322,6 +351,7 @@
             "spoiler": true
         },
         {
+            "id": "9999",
             "ENname": "Blade(WIP)",
             "CNname": "刃(施工中)",
             "JAname": "刃(建設中)",
