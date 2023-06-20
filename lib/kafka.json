@@ -390,6 +390,9 @@
                     "13": 169.4,
                     "14": 179.2,
                     "15": 189
+                },
+                {
+                    "default" : 100
                 }
             ],
             "tags": [
@@ -414,14 +417,6 @@
                     "multiplier": 2,
                     "tag": [
                         "dotvulnerability"
-                    ]
-                },
-                {
-                    "type": "debuff",
-                    "addtarget": "dotdmgreceive",
-                    "multiplier": 3,
-                    "tag": [
-                        "dotdmgreceive"
                     ]
                 }
             ]
