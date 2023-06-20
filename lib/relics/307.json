@@ -3,10 +3,10 @@
     "ENname": "Talia: Kingdom of BanditrySet",
     "CNname": "盗贼公国塔利亚套装",
     "JAname": "盗賊公国タリアセット",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71018.webp",
+    "imageurl": "images/relics/71018.webp",
     "set": "2",
-    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_307_5.webp",
-    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_307_6.webp",
+    "sphere": "images/relics/IconRelic_307_5.webp",
+    "rope": "images/relics/IconRelic_307_6.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

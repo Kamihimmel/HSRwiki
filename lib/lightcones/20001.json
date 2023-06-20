@@ -3,10 +3,10 @@
     "ENname": "Cornucopia",
     "CNname": "物穰",
     "JAname": "物穣",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20001.png",
+    "imageurl": "images/lightcones/20001.png",
     "wtype": "abundance",
     "rarity": "3",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20001l.webp",
+    "imagelargeurl": "images/lightcones/20001l.webp",
     "leveldata": [
         {
             "level": "1",

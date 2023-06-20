@@ -5,710 +5,710 @@
             "ENname": "Hidden Shadow",
             "CNname": "匿影",
             "JAname": "匿影",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20018.png",
+            "imageurl": "images/lightcones/20018.png",
             "wtype": "nihility",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20018.json"
+            "infourl": "lib/lightcones/20018.json"
         },
         {
             "id": "20016",
             "ENname": "Mutual Demise",
             "CNname": "俱殁",
             "JAname": "倶歿",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20016.png",
+            "imageurl": "images/lightcones/20016.png",
             "wtype": "destruction",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20016.json"
+            "infourl": "lib/lightcones/20016.json"
         },
         {
             "id": "20019",
             "ENname": "Mediation",
             "CNname": "调和",
             "JAname": "同調",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20019.png",
+            "imageurl": "images/lightcones/20019.png",
             "wtype": "harmony",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20019.json"
+            "infourl": "lib/lightcones/20019.json"
         },
         {
             "id": "20015",
             "ENname": "Multiplication",
             "CNname": "蕃息",
             "JAname": "蕃殖",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20015.png",
+            "imageurl": "images/lightcones/20015.png",
             "wtype": "abundance",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20015.json"
+            "infourl": "lib/lightcones/20015.json"
         },
         {
             "id": "20017",
             "ENname": "Pioneering",
             "CNname": "开疆",
             "JAname": "新天地",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20017.png",
+            "imageurl": "images/lightcones/20017.png",
             "wtype": "preservation",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20017.json"
+            "infourl": "lib/lightcones/20017.json"
         },
         {
             "id": "20020",
             "ENname": "Sagacity",
             "CNname": "睿见",
             "JAname": "見識",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20020.png",
+            "imageurl": "images/lightcones/20020.png",
             "wtype": "erudition",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20020.json"
+            "infourl": "lib/lightcones/20020.json"
         },
         {
             "id": "20014",
             "ENname": "Adversarial",
             "CNname": "相抗",
             "JAname": "相抗",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20014.png",
+            "imageurl": "images/lightcones/20014.png",
             "wtype": "thehunt",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20014.json"
+            "infourl": "lib/lightcones/20014.json"
         },
         {
             "id": "21025",
             "ENname": "Past and Future",
             "CNname": "过往未来",
             "JAname": "過去と未来",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21025.png",
+            "imageurl": "images/lightcones/21025.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21025.json"
+            "infourl": "lib/lightcones/21025.json"
         },
         {
             "id": "21024",
             "ENname": "River Flows in Spring",
             "CNname": "春水初生",
             "JAname": "春水に初生する",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21024.png",
+            "imageurl": "images/lightcones/21024.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21024.json"
+            "infourl": "lib/lightcones/21024.json"
         },
         {
             "id": "21023",
             "ENname": "We Are Wildfire",
             "CNname": "我们是地火",
             "JAname": "我ら地炎",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21023.png",
+            "imageurl": "images/lightcones/21023.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21023.json"
+            "infourl": "lib/lightcones/21023.json"
         },
         {
             "id": "21022",
             "ENname": "Fermata",
             "CNname": "延长记号",
             "JAname": "フェルマータ",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21022.png",
+            "imageurl": "images/lightcones/21022.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21022.json"
+            "infourl": "lib/lightcones/21022.json"
         },
         {
             "id": "21021",
             "ENname": "Quid Pro Quo",
             "CNname": "等价交换",
             "JAname": "等価交換",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21021.png",
+            "imageurl": "images/lightcones/21021.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21021.json"
+            "infourl": "lib/lightcones/21021.json"
         },
         {
             "id": "21020",
             "ENname": "Geniuses' Repose",
             "CNname": "天才们的休憩",
             "JAname": "天才たちの休息",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21020.png",
+            "imageurl": "images/lightcones/21020.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21020.json"
+            "infourl": "lib/lightcones/21020.json"
         },
         {
             "id": "21019",
             "ENname": "Under the Blue Sky",
             "CNname": "在蓝天下",
             "JAname": "青空の下で",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21019.png",
+            "imageurl": "images/lightcones/21019.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21019.json"
+            "infourl": "lib/lightcones/21019.json"
         },
         {
             "id": "21018",
             "ENname": "Dance! Dance! Dance!",
             "CNname": "舞！舞！舞！",
             "JAname": "ダンス！ダンス！ダンス！",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21018.png",
+            "imageurl": "images/lightcones/21018.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21018.json"
+            "infourl": "lib/lightcones/21018.json"
         },
         {
             "id": "21017",
             "ENname": "Subscribe for More!",
             "CNname": "点个关注吧！",
             "JAname": "フォローして！",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21017.png",
+            "imageurl": "images/lightcones/21017.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21017.json"
+            "infourl": "lib/lightcones/21017.json"
         },
         {
             "id": "21016",
             "ENname": "Trend of the Universal Market",
             "CNname": "宇宙市场趋势",
             "JAname": "星間市場のトレンド",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21016.png",
+            "imageurl": "images/lightcones/21016.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21016.json"
+            "infourl": "lib/lightcones/21016.json"
         },
         {
             "id": "21015",
             "ENname": "Resolution Shines As Pearls of Sweat",
             "CNname": "决心如汗珠般闪耀",
             "JAname": "決意は汗のように輝く",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21015.png",
+            "imageurl": "images/lightcones/21015.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21015.json"
+            "infourl": "lib/lightcones/21015.json"
         },
         {
             "id": "21014",
             "ENname": "Perfect Timing",
             "CNname": "此时恰好",
             "JAname": "今が丁度",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21014.png",
+            "imageurl": "images/lightcones/21014.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21014.json"
+            "infourl": "lib/lightcones/21014.json"
         },
         {
             "id": "24002",
             "ENname": "Texture of Memories",
             "CNname": "记忆的质料",
             "JAname": "記憶の素材",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/24002.png",
+            "imageurl": "images/lightcones/24002.png",
             "wtype": "preservation",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/24002.json"
+            "infourl": "lib/lightcones/24002.json"
         },
         {
             "id": "24001",
             "ENname": "Cruising in the Stellar Sea",
             "CNname": "星海巡航",
             "JAname": "星海巡航",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/24001.png",
+            "imageurl": "images/lightcones/24001.png",
             "wtype": "thehunt",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/24001.json"
+            "infourl": "lib/lightcones/24001.json"
         },
         {
             "id": "24000",
             "ENname": "On the Fall of an Aeon",
             "CNname": "记一位星神的陨落",
             "JAname": "とある星神の殞落を記す",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/24000.png",
+            "imageurl": "images/lightcones/24000.png",
             "wtype": "destruction",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/24000.json"
+            "infourl": "lib/lightcones/24000.json"
         },
         {
             "id": "23013",
             "ENname": "Time Waits for No One",
             "CNname": "时节不居",
             "JAname": "時節は居らず",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23013.png",
+            "imageurl": "images/lightcones/23013.png",
             "wtype": "abundance",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23013.json"
+            "infourl": "lib/lightcones/23013.json"
         },
         {
             "id": "23012",
             "ENname": "Sleep Like the Dead",
             "CNname": "如泥酣眠",
             "JAname": "泥の如き眠り",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23012.png",
+            "imageurl": "images/lightcones/23012.png",
             "wtype": "thehunt",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23012.json"
+            "infourl": "lib/lightcones/23012.json"
         },
         {
             "id": "23010",
             "ENname": "Before Dawn",
             "CNname": "拂晓之前",
             "JAname": "夜明け前",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23010.png",
+            "imageurl": "images/lightcones/23010.png",
             "wtype": "erudition",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23010.json"
+            "infourl": "lib/lightcones/23010.json"
         },
         {
             "id": "23005",
             "ENname": "Moment of Victory",
             "CNname": "制胜的瞬间",
             "JAname": "勝利の刹那",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23005.png",
+            "imageurl": "images/lightcones/23005.png",
             "wtype": "preservation",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23005.json"
+            "infourl": "lib/lightcones/23005.json"
         },
         {
             "id": "23004",
             "ENname": "In the Name of the World",
             "CNname": "以世界之名",
             "JAname": "世界の名を以て",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23004.png",
+            "imageurl": "images/lightcones/23004.png",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23004.json"
+            "infourl": "lib/lightcones/23004.json"
         },
         {
             "id": "23003",
             "ENname": "But The Battle Isn't Over",
             "CNname": "但战斗还未结束",
             "JAname": "だが戦争は終わらない",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23003.png",
+            "imageurl": "images/lightcones/23003.png",
             "wtype": "harmony",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23003.json"
+            "infourl": "lib/lightcones/23003.json"
         },
         {
             "id": "23002",
             "ENname": "Something Irreplaceable",
             "CNname": "无可取代的东西",
             "JAname": "かけがえのないもの",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23002.png",
+            "imageurl": "images/lightcones/23002.png",
             "wtype": "destruction",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23002.json"
+            "infourl": "lib/lightcones/23002.json"
         },
         {
             "id": "23001",
             "ENname": "In the Night",
             "CNname": "于夜色中",
             "JAname": "夜の帳の中で",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23001.png",
+            "imageurl": "images/lightcones/23001.png",
             "wtype": "thehunt",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23001.json"
+            "infourl": "lib/lightcones/23001.json"
         },
         {
             "id": "23000",
             "ENname": "Night on the Milky Way",
             "CNname": "银河铁道之夜",
             "JAname": "銀河鉄道の夜",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23000.png",
+            "imageurl": "images/lightcones/23000.png",
             "wtype": "erudition",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23000.json"
+            "infourl": "lib/lightcones/23000.json"
         },
         {
             "id": "21034",
             "ENname": "Today Is Another Peaceful Day",
             "CNname": "今日亦是和平的一日",
             "JAname": "今日も平和な一日",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21034.png",
+            "imageurl": "images/lightcones/21034.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21034.json"
+            "infourl": "lib/lightcones/21034.json"
         },
         {
             "id": "21033",
             "ENname": "Nowhere to Run",
             "CNname": "无处可逃",
             "JAname": "逃げ場なし",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21033.png",
+            "imageurl": "images/lightcones/21033.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21033.json"
+            "infourl": "lib/lightcones/21033.json"
         },
         {
             "id": "21032",
             "ENname": "Carve the Moon, Weave the Clouds",
             "CNname": "镂月裁云之意",
             "JAname": "彫月裁雲の意",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21032.png",
+            "imageurl": "images/lightcones/21032.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21032.json"
+            "infourl": "lib/lightcones/21032.json"
         },
         {
             "id": "21031",
             "ENname": "Return to Darkness",
             "CNname": "重返幽冥",
             "JAname": "幽冥に帰す",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21031.png",
+            "imageurl": "images/lightcones/21031.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21031.json"
+            "infourl": "lib/lightcones/21031.json"
         },
         {
             "id": "21030",
             "ENname": "This Is Me!",
             "CNname": "这就是我啦！",
             "JAname": "これがウチだよ！",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21030.png",
+            "imageurl": "images/lightcones/21030.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21030.json"
+            "infourl": "lib/lightcones/21030.json"
         },
         {
             "id": "21029",
             "ENname": "We Will Meet Again",
             "CNname": "后会有期",
             "JAname": "またお会いしましょう",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21029.png",
+            "imageurl": "images/lightcones/21029.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21029.json"
+            "infourl": "lib/lightcones/21029.json"
         },
         {
             "id": "21028",
             "ENname": "Warmth Shortens Cold Nights",
             "CNname": "暖夜不会漫长",
             "JAname": "暖かい夜は長くない",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21028.png",
+            "imageurl": "images/lightcones/21028.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21028.json"
+            "infourl": "lib/lightcones/21028.json"
         },
         {
             "id": "21027",
             "ENname": "The Seriousness of Breakfast",
             "CNname": "早餐的仪式感",
             "JAname": "朝食の儀式感",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21027.png",
+            "imageurl": "images/lightcones/21027.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21027.json"
+            "infourl": "lib/lightcones/21027.json"
         },
         {
             "id": "21026",
             "ENname": "Woof! Walk Time!",
             "CNname": "汪！散步时间！",
             "JAname": "ワン！散歩の時間！",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21026.png",
+            "imageurl": "images/lightcones/21026.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21026.json"
+            "infourl": "lib/lightcones/21026.json"
         },
         {
             "id": "21013",
             "ENname": "Make the World Clamor",
             "CNname": "别让世界静下来",
             "JAname": "この世界に喧噪を",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21013.png",
+            "imageurl": "images/lightcones/21013.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21013.json"
+            "infourl": "lib/lightcones/21013.json"
         },
         {
             "id": "21012",
             "ENname": "A Secret Vow",
             "CNname": "秘密誓心",
             "JAname": "秘密の誓い",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21012.png",
+            "imageurl": "images/lightcones/21012.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21012.json"
+            "infourl": "lib/lightcones/21012.json"
         },
         {
             "id": "21011",
             "ENname": "Planetary Rendezvous",
             "CNname": "与行星相会",
             "JAname": "惑星との出会い",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21011.png",
+            "imageurl": "images/lightcones/21011.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21011.json"
+            "infourl": "lib/lightcones/21011.json"
         },
         {
             "id": "21010",
             "ENname": "Swordplay",
             "CNname": "论剑",
             "JAname": "論剣",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21010.png",
+            "imageurl": "images/lightcones/21010.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21010.json"
+            "infourl": "lib/lightcones/21010.json"
         },
         {
             "id": "21009",
             "ENname": "Landau's Choice",
             "CNname": "朗道的选择",
             "JAname": "ランドゥーの選択",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21009.png",
+            "imageurl": "images/lightcones/21009.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21009.json"
+            "infourl": "lib/lightcones/21009.json"
         },
         {
             "id": "21008",
             "ENname": "Eyes of the Prey",
             "CNname": "猎物的视线",
             "JAname": "獲物の視線",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21008.png",
+            "imageurl": "images/lightcones/21008.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21008.json"
+            "infourl": "lib/lightcones/21008.json"
         },
         {
             "id": "21007",
             "ENname": "Shared Feeling",
             "CNname": "同一种心情",
             "JAname": "同じ気持ち",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21007.png",
+            "imageurl": "images/lightcones/21007.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21007.json"
+            "infourl": "lib/lightcones/21007.json"
         },
         {
             "id": "21006",
             "ENname": "The Birth of the Self",
             "CNname": "「我」的诞生",
             "JAname": "「私」の誕生",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21006.png",
+            "imageurl": "images/lightcones/21006.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21006.json"
+            "infourl": "lib/lightcones/21006.json"
         },
         {
             "id": "21005",
             "ENname": "The Moles Welcome You",
             "CNname": "鼹鼠党欢迎你",
             "JAname": "モグラ党へようこそ",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21005.png",
+            "imageurl": "images/lightcones/21005.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21005.json"
+            "infourl": "lib/lightcones/21005.json"
         },
         {
             "id": "21004",
             "ENname": "Memories of the Past",
             "CNname": "记忆中的模样",
             "JAname": "記憶の中の姿",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21004.png",
+            "imageurl": "images/lightcones/21004.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21004.json"
+            "infourl": "lib/lightcones/21004.json"
         },
         {
             "id": "21003",
             "ENname": "Only Silence Remains",
             "CNname": "唯有沉默",
             "JAname": "沈黙のみ",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21003.png",
+            "imageurl": "images/lightcones/21003.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21003.json"
+            "infourl": "lib/lightcones/21003.json"
         },
         {
             "id": "21002",
             "ENname": "Day One of My New Life",
             "CNname": "余生的第一天",
             "JAname": "余生の初日",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21002.png",
+            "imageurl": "images/lightcones/21002.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21002.json"
+            "infourl": "lib/lightcones/21002.json"
         },
         {
             "id": "21001",
             "ENname": "Good Night and Sleep Well",
             "CNname": "晚安与睡颜",
             "JAname": "おやすみなさいと寝顔",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21001.png",
+            "imageurl": "images/lightcones/21001.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21001.json"
+            "infourl": "lib/lightcones/21001.json"
         },
         {
             "id": "21000",
             "ENname": "Post-Op Conversation",
             "CNname": "一场术后对话",
             "JAname": "手術後の会話",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21000.png",
+            "imageurl": "images/lightcones/21000.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/21000.json"
+            "infourl": "lib/lightcones/21000.json"
         },
         {
             "id": "20013",
             "ENname": "Passkey",
             "CNname": "灵钥",
             "JAname": "霊鍵",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20013.png",
+            "imageurl": "images/lightcones/20013.png",
             "wtype": "erudition",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20013.json"
+            "infourl": "lib/lightcones/20013.json"
         },
         {
             "id": "20012",
             "ENname": "Meshing Cogs",
             "CNname": "轮契",
             "JAname": "輪契",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20012.png",
+            "imageurl": "images/lightcones/20012.png",
             "wtype": "harmony",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20012.json"
+            "infourl": "lib/lightcones/20012.json"
         },
         {
             "id": "20011",
             "ENname": "Loop",
             "CNname": "渊环",
             "JAname": "淵環",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20011.png",
+            "imageurl": "images/lightcones/20011.png",
             "wtype": "nihility",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20011.json"
+            "infourl": "lib/lightcones/20011.json"
         },
         {
             "id": "20010",
             "ENname": "Defense",
             "CNname": "戍御",
             "JAname": "防衛",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20010.png",
+            "imageurl": "images/lightcones/20010.png",
             "wtype": "preservation",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20010.json"
+            "infourl": "lib/lightcones/20010.json"
         },
         {
             "id": "20009",
             "ENname": "Shattered Home",
             "CNname": "乐圮",
             "JAname": "楽壊",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20009.png",
+            "imageurl": "images/lightcones/20009.png",
             "wtype": "destruction",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20009.json"
+            "infourl": "lib/lightcones/20009.json"
         },
         {
             "id": "20008",
             "ENname": "Fine Fruit",
             "CNname": "嘉果",
             "JAname": "嘉果",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20008.png",
+            "imageurl": "images/lightcones/20008.png",
             "wtype": "abundance",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20008.json"
+            "infourl": "lib/lightcones/20008.json"
         },
         {
             "id": "20007",
             "ENname": "Darting Arrow",
             "CNname": "离弦",
             "JAname": "離弦",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20007.png",
+            "imageurl": "images/lightcones/20007.png",
             "wtype": "thehunt",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20007.json"
+            "infourl": "lib/lightcones/20007.json"
         },
         {
             "id": "20006",
             "ENname": "Data Bank",
             "CNname": "智库",
             "JAname": "アーカイブ",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20006.png",
+            "imageurl": "images/lightcones/20006.png",
             "wtype": "erudition",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20006.json"
+            "infourl": "lib/lightcones/20006.json"
         },
         {
             "id": "20005",
             "ENname": "Chorus",
             "CNname": "齐颂",
             "JAname": "斉頌",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20005.png",
+            "imageurl": "images/lightcones/20005.png",
             "wtype": "harmony",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20005.json"
+            "infourl": "lib/lightcones/20005.json"
         },
         {
             "id": "20004",
             "ENname": "Void",
             "CNname": "幽邃",
             "JAname": "幽邃",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20004.png",
+            "imageurl": "images/lightcones/20004.png",
             "wtype": "nihility",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20004.json"
+            "infourl": "lib/lightcones/20004.json"
         },
         {
             "id": "20003",
             "ENname": "Amber",
             "CNname": "琥珀",
             "JAname": "琥珀",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20003.png",
+            "imageurl": "images/lightcones/20003.png",
             "wtype": "preservation",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20003.json"
+            "infourl": "lib/lightcones/20003.json"
         },
         {
             "id": "20002",
             "ENname": "Collapsing Sky",
             "CNname": "天倾",
             "JAname": "天傾",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20002.png",
+            "imageurl": "images/lightcones/20002.png",
             "wtype": "destruction",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20002.json"
+            "infourl": "lib/lightcones/20002.json"
         },
         {
             "id": "20001",
             "ENname": "Cornucopia",
             "CNname": "物穰",
             "JAname": "物穣",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20001.png",
+            "imageurl": "images/lightcones/20001.png",
             "wtype": "abundance",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20001.json"
+            "infourl": "lib/lightcones/20001.json"
         },
         {
             "id": "20000",
             "ENname": "Arrows",
             "CNname": "锋镝",
             "JAname": "矢じり",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20000.png",
+            "imageurl": "images/lightcones/20000.png",
             "wtype": "thehunt",
             "rarity": "3",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/20000.json"
+            "infourl": "lib/lightcones/20000.json"
         },
         {
             "id": "22000",
             "ENname": "Before the Tutorial Mission Starts",
             "CNname": "新手任务开始前",
             "JAname": "初めてのクエストの前に",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/22000.png",
+            "imageurl": "images/lightcones/22000.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/22000.json"
+            "infourl": "lib/lightcones/22000.json"
         },
         {
             "id": "23008",
             "ENname": "Echoes of the Coffin",
             "CNname": "棺的回响",
             "JAname": "棺のこだま",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23008.png",
+            "imageurl": "images/lightcones/23008.png",
             "wtype": "abundance",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23008.json"
+            "infourl": "lib/lightcones/23008.json"
         },
         {
             "id": "23007",
             "ENname": "Incessant Rain",
             "CNname": "雨一直下",
             "JAname": "降りやまぬ雨",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23007.png",
+            "imageurl": "images/lightcones/23007.png",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "https://hsrwikidata.yunlu18.net/lib/lightcones/23007.json"
+            "infourl": "lib/lightcones/23007.json"
         }
     ]
 }

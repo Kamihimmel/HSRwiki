@@ -3,10 +3,10 @@
     "ENname": "Post-Op Conversation",
     "CNname": "一场术后对话",
     "JAname": "手術後の会話",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21000.png",
+    "imageurl": "images/lightcones/21000.png",
     "wtype": "abundance",
     "rarity": "4",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/21000l.webp",
+    "imagelargeurl": "images/lightcones/21000l.webp",
     "leveldata": [
         {
             "level": "1",

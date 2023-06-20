@@ -3,10 +3,10 @@
     "ENname": "Fleet of the AgelessSet",
     "CNname": "不老者的仙舟套装",
     "JAname": "老いぬ者の仙舟セット",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71013.webp",
+    "imageurl": "images/relics/71013.webp",
     "set": "2",
-    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_302_5.webp",
-    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_302_6.webp",
+    "sphere": "images/relics/IconRelic_302_5.webp",
+    "rope": "images/relics/IconRelic_302_6.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

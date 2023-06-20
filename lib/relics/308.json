@@ -3,10 +3,10 @@
     "ENname": "Sprightly VonwacqSet",
     "CNname": "生命的翁瓦克套装",
     "JAname": "生命のウェンワークセット",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/relics/71019.webp",
+    "imageurl": "images/relics/71019.webp",
     "set": "2",
-    "sphere": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_308_5.webp",
-    "rope": "https://hsrwikidata.yunlu18.net/images/relics/IconRelic_308_6.webp",
+    "sphere": "images/relics/IconRelic_308_5.webp",
+    "rope": "images/relics/IconRelic_308_6.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

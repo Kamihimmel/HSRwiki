@@ -3,10 +3,10 @@
     "ENname": "Fine Fruit",
     "CNname": "嘉果",
     "JAname": "嘉果",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20008.png",
+    "imageurl": "images/lightcones/20008.png",
     "wtype": "abundance",
     "rarity": "3",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20008l.webp",
+    "imagelargeurl": "images/lightcones/20008l.webp",
     "leveldata": [
         {
             "level": "1",

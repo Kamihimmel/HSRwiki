@@ -3,10 +3,10 @@
     "ENname": "Echoes of the Coffin",
     "CNname": "棺的回响",
     "JAname": "棺のこだま",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23008.png",
+    "imageurl": "images/lightcones/23008.png",
     "wtype": "abundance",
     "rarity": "5",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23008l.webp",
+    "imagelargeurl": "images/lightcones/23008l.webp",
     "leveldata": [
         {
             "level": "1",

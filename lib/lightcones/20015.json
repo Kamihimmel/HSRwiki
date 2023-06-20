@@ -3,10 +3,10 @@
     "ENname": "Multiplication",
     "CNname": "蕃息",
     "JAname": "蕃殖",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20015.png",
+    "imageurl": "images/lightcones/20015.png",
     "wtype": "abundance",
     "rarity": "3",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20015l.webp",
+    "imagelargeurl": "images/lightcones/20015l.webp",
     "leveldata": [
         {
             "level": "1",

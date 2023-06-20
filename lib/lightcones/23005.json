@@ -3,10 +3,10 @@
     "ENname": "Moment of Victory",
     "CNname": "制胜的瞬间",
     "JAname": "勝利の刹那",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23005.png",
+    "imageurl": "images/lightcones/23005.png",
     "wtype": "preservation",
     "rarity": "5",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/23005l.webp",
+    "imagelargeurl": "images/lightcones/23005l.webp",
     "leveldata": [
         {
             "level": "1",

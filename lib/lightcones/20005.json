@@ -3,10 +3,10 @@
     "ENname": "Chorus",
     "CNname": "齐颂",
     "JAname": "斉頌",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20005.png",
+    "imageurl": "images/lightcones/20005.png",
     "wtype": "harmony",
     "rarity": "3",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/lightcones/20005l.webp",
+    "imagelargeurl": "images/lightcones/20005l.webp",
     "leveldata": [
         {
             "level": "1",

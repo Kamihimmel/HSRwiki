@@ -2,8 +2,8 @@
     "ENname": "Su Shang",
     "CNname": "素裳",
     "JAname": "素裳",
-    "imageurl": "https://hsrwikidata.yunlu18.net/images/characters/sushang.webp",
-    "imagelargeurl": "https://hsrwikidata.yunlu18.net/images/characters/sushanglarge.webp",
+    "imageurl": "images/characters/sushang.webp",
+    "imagelargeurl": "images/characters/sushanglarge.webp",
     "etype": "physical",
     "wtype": "thehunt",
     "rarity": "4",
@@ -101,7 +101,7 @@
             "ENname": "Cloudfencer Art: Starshine",
             "CNname": "云骑剑经 • 素霓",
             "JAname": "雲騎剣経・月虹",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangna.webp",
+            "imageurl": "images/skills/sushangna.webp",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of Sushang's ATK to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于素裳[1]%攻击力的物理属性伤害。",
             "DescriptionJP": "指定した敵単体に素裳の攻撃力[1]%分の物理ダメージを与える。",
@@ -146,7 +146,7 @@
             "ENname": "Cloudfencer Art: Mountainfall",
             "CNname": "云骑剑经 • 山倾",
             "JAname": "雲騎剣経・山傾",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangskill.webp",
+            "imageurl": "images/skills/sushangskill.webp",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of Sushang's ATK to a single enemy. In addition, there is a [2]% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to [3]% of Sushang's ATK to the enemy.\nIf the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
             "DescriptionCN": "对指定敌方单体造成等同于素裳[1]%攻击力的物理属性伤害。同时最后一击后有[2]%概率发动【剑势】，对目标造成等同于素裳[3]%攻击力的物理属性附加伤害。\n若该目标处于弱点击破状态，则【剑势】必定发动。",
             "DescriptionJP": "指定した敵単体に素裳の攻撃力[1]%分の物理ダメージを与える。最後の1ヒットの後に[2]%の確率で「剣勢」を発動し、敵に素裳の攻撃力[3]%分の物理付加ダメージを与える。\n敵が弱点撃破状態である場合、「剣勢」は必ず発動する。",
@@ -219,14 +219,14 @@
                         "additionalatk",
                         "physicalatk"
                     ]
-                }                
+                }
             ]
         },
         {
             "ENname": "Shape of Taixu: Dawn Herald",
             "CNname": "太虚形蕴 • 烛夜",
             "JAname": "太虚形蘊・燭夜",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangult.webp",
+            "imageurl": "images/skills/sushangult.webp",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by [2]% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
             "DescriptionCN": "对指定敌方单体造成等同于素裳[1]%攻击力的物理属性伤害，并使素裳的下一次行动立即提前100%。同时使其攻击力提高[2]%，且施放战技时额外增加2次【剑势】的发动判定，持续2回合。\n通过额外判定发动的【剑势】伤害为原伤害的50%。",
             "DescriptionJP": "指定した敵単体に素裳の攻撃力[1]%分の物理ダメージを与え、素裳の次の行動順が100%早まる。素裳の攻撃力+[2]%、戦闘スキルを発動した時に「剣勢」発動の判定回数+2、2ターン継続。\n追加の判定で発動した「剣勢」のダメージは本来のダメージの50%となる。",
@@ -273,7 +273,7 @@
                     "15": 36
                 },
                 {
-                    "default":100
+                    "default": 100
                 }
             ],
             "tags": [
@@ -302,7 +302,6 @@
                         "actionf"
                     ]
                 },
-
                 {
                     "type": "buff",
                     "addtarget": "atk",
@@ -319,7 +318,7 @@
             "ENname": "Dancing Blade",
             "CNname": "游刃若水",
             "JAname": "游刃若水",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangtalent.webp",
+            "imageurl": "images/skills/sushangtalent.webp",
             "DescriptionEN": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by [1]% for 2 turn(s).",
             "DescriptionCN": "当场上有敌方目标的弱点被击破，素裳的速度提高[1]%，持续2回合。",
             "DescriptionJP": "フィールド上の敵が弱点撃破された時、素裳の速度+[1]%、2ターン継続。",
@@ -367,7 +366,7 @@
             "ENname": "Cloudfencer Art: Warcry",
             "CNname": "云骑剑经 • 叩阵",
             "JAname": "雲騎剣経・叩陣",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangtec.webp",
+            "imageurl": "images/skills/sushangtec.webp",
             "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies.",
             "DescriptionCN": "立即攻击敌人，进入战斗后对敌方全体造成等同于素裳80%攻击力的物理属性伤害。",
             "DescriptionJP": "敵を攻撃。戦闘に入った後、敵全体に素裳の攻撃力80%分の物理ダメージを与える。",
@@ -399,7 +398,7 @@
             "ENname": "Guileless",
             "CNname": "赤子",
             "JAname": "純真",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangt1.webp",
+            "imageurl": "images/skills/sushangt1.webp",
             "DescriptionEN": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
             "DescriptionCN": "若当前生命值百分比小于等于50%，则被敌方目标攻击的概率降低。",
             "DescriptionJP": "残りHPが50%以下の場合、敵に攻撃される確率ダウン。",
@@ -428,7 +427,7 @@
             "ENname": "Riposte",
             "CNname": "逐寇",
             "JAname": "逐寇",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangt2.webp",
+            "imageurl": "images/skills/sushangt2.webp",
             "DescriptionEN": "For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2.5%. Stacks up to 10 time(s).",
             "DescriptionCN": "每发动1次【剑势】，【剑势】造成的伤害提高2.5%，该效果最多叠加10层。",
             "DescriptionJP": "「剣勢」を発動するたび、「剣勢」の与ダメージ+2.5%、最大で10回累積できる。",
@@ -458,7 +457,7 @@
             "ENname": "Vanquisher",
             "CNname": "破敌",
             "JAname": "破敵",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangt3.webp",
+            "imageurl": "images/skills/sushangt3.webp",
             "DescriptionEN": "After using Basic ATK or Skill, if there are enemies on the field with Weakness Break, Sushang's action is Advanced Forward by 15%.",
             "DescriptionCN": "施放普攻或战技后，若场上有敌方目标处于弱点击破状态，则素裳的行动提前15%。",
             "DescriptionJP": "通常攻撃または戦闘スキルを発動した後、フィールド上に弱点撃破状態の敵が存在する場合、素裳の行動順が15%早まる。",
@@ -779,7 +778,7 @@
             "ENname": "Cut With Ease",
             "CNname": "游刃有余",
             "JAname": "游刃有余",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushang1.png",
+            "imageurl": "images/skills/sushang1.png",
             "DescriptionEN": "After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point.",
             "DescriptionCN": "对陷入弱点击破状态的敌方目标施放战技后，恢复1个战技点。",
             "DescriptionJP": "弱点撃破状態の敵に対して戦闘スキルを発動した後、SPを1回復する。",
@@ -797,7 +796,7 @@
             "ENname": "Refine in Toil",
             "CNname": "其身百炼",
             "JAname": "其の身、百煉",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushang2.png",
+            "imageurl": "images/skills/sushang2.png",
             "DescriptionEN": "After triggering Sword Stance, the DMG taken by Sushang is reduced by 20% for 1 turn.",
             "DescriptionCN": "触发【剑势】后，素裳受到的伤害降低20%，持续1回合。",
             "DescriptionJP": "「剣勢」発動後、素裳の被ダメージ-20%、1ターン継続。",
@@ -819,14 +818,14 @@
                         "dmgreceive"
                     ]
                 }
-            ]            
+            ]
         },
         {
             "eidolonnum": 3,
             "ENname": "Rise From Fame",
             "CNname": "传古剑流",
             "JAname": "伝古剣流",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangskill.webp",
+            "imageurl": "images/skills/sushangskill.webp",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
@@ -844,7 +843,7 @@
             "ENname": "Cleave With Heart",
             "CNname": "其心百辟",
             "JAname": "其の心、百闢",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushang4.png",
+            "imageurl": "images/skills/sushang4.png",
             "DescriptionEN": "Sushang's Break Effect increases by 40%.",
             "DescriptionCN": "素裳的击破特攻提高40%。",
             "DescriptionJP": "素裳の撃破特効+40%。",
@@ -873,7 +872,7 @@
             "ENname": "Prevail via Taixu",
             "CNname": "太虚神意",
             "JAname": "太虚神意",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushangult.webp",
+            "imageurl": "images/skills/sushangult.webp",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
             "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
@@ -891,7 +890,7 @@
             "ENname": "Dwell Like Water",
             "CNname": "上善若水",
             "JAname": "上善若水",
-            "imageurl": "https://hsrwikidata.yunlu18.net/images/skills/sushang6.png",
+            "imageurl": "images/skills/sushang6.png",
             "DescriptionEN": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost.",
             "DescriptionCN": "天赋的加速效果可以叠加，最多叠加2层，且进入战斗后素裳立即获得1层天赋的加速效果。",
             "DescriptionJP": "天賦の加速効果が累積できるようになる、最大で2層累積できる。戦闘に入った後、素裳は天賦の加速効果を1層獲得する。",
