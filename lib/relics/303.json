@@ -3,10 +3,10 @@
     "ENname": "Pan-Galactic Commercial EnterpriseSet",
     "CNname": "泛银河商业公司套装",
     "JAname": "汎銀河商事会社セット",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71014.webp",
+    "imageurl": "images/relics/71014.webp",
     "set": "2",
-    "sphere": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_303_5.webp",
-    "rope": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_303_6.webp",
+    "sphere": "images/relics/IconRelic_303_5.webp",
+    "rope": "images/relics/IconRelic_303_6.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

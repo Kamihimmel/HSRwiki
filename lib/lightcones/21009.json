@@ -3,10 +3,10 @@
     "ENname": "Landau's Choice",
     "CNname": "朗道的选择",
     "JAname": "ランドゥーの選択",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/21009.png",
+    "imageurl": "images/lightcones/21009.png",
     "wtype": "preservation",
     "rarity": "4",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/21009l.webp",
+    "imagelargeurl": "images/lightcones/21009l.webp",
     "leveldata": [
         {
             "level": "1",

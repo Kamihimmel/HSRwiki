@@ -3,10 +3,10 @@
     "ENname": "Planetary Rendezvous",
     "CNname": "与行星相会",
     "JAname": "惑星との出会い",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/21011.png",
+    "imageurl": "images/lightcones/21011.png",
     "wtype": "harmony",
     "rarity": "4",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/21011l.webp",
+    "imagelargeurl": "images/lightcones/21011l.webp",
     "leveldata": [
         {
             "level": "1",

@@ -3,85 +3,83 @@
     "ENname": "Nowhere to Run",
     "CNname": "无处可逃",
     "JAname": "逃げ場なし",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/21033.png",
+    "imageurl": "images/lightcones/21033.png",
     "wtype": "destruction",
     "rarity": "4",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/21033l.webp",
+    "imagelargeurl": "images/lightcones/21033l.webp",
     "leveldata": [
-        [
-            {
-                "level": "1",
-                "hp": 43,
-                "atk": 24,
-                "def": 12
-            },
-            {
-                "level": "20",
-                "hp": 166,
-                "atk": 92.4,
-                "def": 46.2
-            },
-            {
-                "level": "20+",
-                "hp": 218,
-                "atk": 121.2,
-                "def": 60.6
-            },
-            {
-                "level": "40",
-                "hp": 417,
-                "atk": 231.6,
-                "def": 115.8
-            },
-            {
-                "level": "40+",
-                "hp": 486,
-                "atk": 270,
-                "def": 135
-            },
-            {
-                "level": "50",
-                "hp": 551,
-                "atk": 306,
-                "def": 153
-            },
-            {
-                "level": "50+",
-                "hp": 620,
-                "atk": 344.4,
-                "def": 172.2
-            },
-            {
-                "level": "60",
-                "hp": 685,
-                "atk": 380.4,
-                "def": 190.2
-            },
-            {
-                "level": "60+",
-                "hp": 754,
-                "atk": 418.8,
-                "def": 209.4
-            },
-            {
-                "level": "70",
-                "hp": 819,
-                "atk": 454.8,
-                "def": 227.4
-            },
-            {
-                "level": "70+",
-                "hp": 888,
-                "atk": 493.2,
-                "def": 246.6
-            },
-            {
-                "level": "80",
-                "hp": 953,
-                "atk": 529.2,
-                "def": 264.6
-            }
-        ]
+        {
+            "level": "1",
+            "hp": 43,
+            "atk": 24,
+            "def": 12
+        },
+        {
+            "level": "20",
+            "hp": 166,
+            "atk": 92.4,
+            "def": 46.2
+        },
+        {
+            "level": "20+",
+            "hp": 218,
+            "atk": 121.2,
+            "def": 60.6
+        },
+        {
+            "level": "40",
+            "hp": 417,
+            "atk": 231.6,
+            "def": 115.8
+        },
+        {
+            "level": "40+",
+            "hp": 486,
+            "atk": 270,
+            "def": 135
+        },
+        {
+            "level": "50",
+            "hp": 551,
+            "atk": 306,
+            "def": 153
+        },
+        {
+            "level": "50+",
+            "hp": 620,
+            "atk": 344.4,
+            "def": 172.2
+        },
+        {
+            "level": "60",
+            "hp": 685,
+            "atk": 380.4,
+            "def": 190.2
+        },
+        {
+            "level": "60+",
+            "hp": 754,
+            "atk": 418.8,
+            "def": 209.4
+        },
+        {
+            "level": "70",
+            "hp": 819,
+            "atk": 454.8,
+            "def": 227.4
+        },
+        {
+            "level": "70+",
+            "hp": 888,
+            "atk": 493.2,
+            "def": 246.6
+        },
+        {
+            "level": "80",
+            "hp": 953,
+            "atk": 529.2,
+            "def": 264.6
+        }
     ],
     "skilldata": [
         {

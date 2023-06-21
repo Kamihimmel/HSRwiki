@@ -3,10 +3,10 @@
     "ENname": "Meshing Cogs",
     "CNname": "轮契",
     "JAname": "輪契",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/20012.png",
+    "imageurl": "images/lightcones/20012.png",
     "wtype": "harmony",
     "rarity": "3",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/20012l.webp",
+    "imagelargeurl": "images/lightcones/20012l.webp",
     "leveldata": [
         {
             "level": "1",

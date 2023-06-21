@@ -3,10 +3,10 @@
     "ENname": "Mediation",
     "CNname": "调和",
     "JAname": "同調",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/20019.png",
+    "imageurl": "images/lightcones/20019.png",
     "wtype": "harmony",
     "rarity": "3",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/20019l.webp",
+    "imagelargeurl": "images/lightcones/20019l.webp",
     "leveldata": [
         {
             "level": "1",

@@ -3,12 +3,12 @@
     "ENname": "Musketeer of Wild WheatSet",
     "CNname": "野穗伴行的快枪手套装",
     "JAname": "草の穂ガンマンセット",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71001.webp",
+    "imageurl": "images/relics/71001.webp",
     "set": "4",
-    "head": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_102_1.webp",
-    "hands": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_102_2.webp",
-    "body": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_102_3.webp",
-    "feet": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_102_4.webp",
+    "head": "images/relics/IconRelic_102_1.webp",
+    "hands": "images/relics/IconRelic_102_2.webp",
+    "body": "images/relics/IconRelic_102_3.webp",
+    "feet": "images/relics/IconRelic_102_4.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

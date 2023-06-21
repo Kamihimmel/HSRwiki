@@ -3,10 +3,10 @@
     "ENname": "Perfect Timing",
     "CNname": "此时恰好",
     "JAname": "今が丁度",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/21014.png",
+    "imageurl": "images/lightcones/21014.png",
     "wtype": "abundance",
     "rarity": "4",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/21014l.webp",
+    "imagelargeurl": "images/lightcones/21014l.webp",
     "leveldata": [
         {
             "level": "1",

@@ -3,10 +3,10 @@
     "ENname": "Before Dawn",
     "CNname": "拂晓之前",
     "JAname": "夜明け前",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/23010.png",
+    "imageurl": "images/lightcones/23010.png",
     "wtype": "erudition",
     "rarity": "5",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/23010l.webp",
+    "imagelargeurl": "images/lightcones/23010l.webp",
     "leveldata": [
         {
             "level": "1",

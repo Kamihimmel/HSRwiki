@@ -3,10 +3,10 @@
     "ENname": "Cruising in the Stellar Sea",
     "CNname": "星海巡航",
     "JAname": "星海巡航",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/24001.png",
+    "imageurl": "images/lightcones/24001.png",
     "wtype": "thehunt",
     "rarity": "5",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/24001l.webp",
+    "imagelargeurl": "images/lightcones/24001l.webp",
     "leveldata": [
         {
             "level": "1",

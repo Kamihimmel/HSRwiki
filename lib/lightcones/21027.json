@@ -3,10 +3,10 @@
     "ENname": "The Seriousness of Breakfast",
     "CNname": "早餐的仪式感",
     "JAname": "朝食の儀式感",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/21027.png",
+    "imageurl": "images/lightcones/21027.png",
     "wtype": "erudition",
     "rarity": "4",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/21027l.webp",
+    "imagelargeurl": "images/lightcones/21027l.webp",
     "leveldata": [
         {
             "level": "1",
@@ -114,8 +114,7 @@
                     "4": 3,
                     "5": 3
                 }
-            ]
-            ,
+            ],
             "tags": [
                 "buff",
                 "self",

@@ -3,10 +3,10 @@
     "ENname": "We Are Wildfire",
     "CNname": "我们是地火",
     "JAname": "我ら地炎",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/21023.png",
+    "imageurl": "images/lightcones/21023.png",
     "wtype": "preservation",
     "rarity": "4",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/21023l.webp",
+    "imagelargeurl": "images/lightcones/21023l.webp",
     "leveldata": [
         {
             "level": "1",

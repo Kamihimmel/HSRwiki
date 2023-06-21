@@ -3,10 +3,10 @@
     "ENname": "Shared Feeling",
     "CNname": "同一种心情",
     "JAname": "同じ気持ち",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/21007.png",
+    "imageurl": "images/lightcones/21007.png",
     "wtype": "abundance",
     "rarity": "4",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/21007l.webp",
+    "imagelargeurl": "images/lightcones/21007l.webp",
     "leveldata": [
         {
             "level": "1",

@@ -3,10 +3,10 @@
     "ENname": "Texture of Memories",
     "CNname": "记忆的质料",
     "JAname": "記憶の素材",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/24002.png",
+    "imageurl": "images/lightcones/24002.png",
     "wtype": "preservation",
     "rarity": "5",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/24002l.webp",
+    "imagelargeurl": "images/lightcones/24002l.webp",
     "leveldata": [
         {
             "level": "1",

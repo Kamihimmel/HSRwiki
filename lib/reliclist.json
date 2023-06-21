@@ -5,180 +5,180 @@
             "ENname": "Inert SalsottoSet",
             "CNname": "停止转动的萨尔索图套装",
             "JAname": "自転が止まったサルソットセット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71017.webp",
+            "imageurl": "images/relics/71017.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/306.json"
+            "infourl": "lib/relics/306.json"
         },
         {
             "id": "304",
             "ENname": "Belobog of the ArchitectsSet",
             "CNname": "筑城者的贝洛伯格套装",
             "JAname": "建創者のベロブルグセット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71015.webp",
+            "imageurl": "images/relics/71015.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/304.json"
+            "infourl": "lib/relics/304.json"
         },
         {
             "id": "107",
             "ENname": "Firesmith of Lava-ForgingSet",
             "CNname": "熔岩锻铸的火匠套装",
             "JAname": "溶岩で鍛造する火匠セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71006.webp",
+            "imageurl": "images/relics/71006.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/107.json"
+            "infourl": "lib/relics/107.json"
         },
         {
             "id": "305",
             "ENname": "Celestial DifferentiatorSet",
             "CNname": "星体差分机套装",
             "JAname": "天体階差機関セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71016.webp",
+            "imageurl": "images/relics/71016.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/305.json"
+            "infourl": "lib/relics/305.json"
         },
         {
             "id": "112",
             "ENname": "Wastelander of Banditry DesertSet",
             "CNname": "盗匪荒漠的废土客套装",
             "JAname": "荒地で盗みを働く廃土客セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71011.webp",
+            "imageurl": "images/relics/71011.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/112.json"
+            "infourl": "lib/relics/112.json"
         },
         {
             "id": "301",
             "ENname": "Space Sealing StationSet",
             "CNname": "太空封印站套装",
             "JAname": "宇宙封印ステーションセット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71012.webp",
+            "imageurl": "images/relics/71012.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/301.json"
+            "infourl": "lib/relics/301.json"
         },
         {
             "id": "303",
             "ENname": "Pan-Galactic Commercial EnterpriseSet",
             "CNname": "泛银河商业公司套装",
             "JAname": "汎銀河商事会社セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71014.webp",
+            "imageurl": "images/relics/71014.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/303.json"
+            "infourl": "lib/relics/303.json"
         },
         {
             "id": "108",
             "ENname": "Genius of Brilliant StarsSet",
             "CNname": "繁星璀璨的天才套装",
             "JAname": "星の如く輝く天才セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71007.webp",
+            "imageurl": "images/relics/71007.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/108.json"
+            "infourl": "lib/relics/108.json"
         },
         {
             "id": "302",
             "ENname": "Fleet of the AgelessSet",
             "CNname": "不老者的仙舟套装",
             "JAname": "老いぬ者の仙舟セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71013.webp",
+            "imageurl": "images/relics/71013.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/302.json"
+            "infourl": "lib/relics/302.json"
         },
         {
             "id": "307",
             "ENname": "Talia: Kingdom of BanditrySet",
             "CNname": "盗贼公国塔利亚套装",
             "JAname": "盗賊公国タリアセット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71018.webp",
+            "imageurl": "images/relics/71018.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/307.json"
+            "infourl": "lib/relics/307.json"
         },
         {
             "id": "103",
             "ENname": "Knight of Purity PalaceSet",
             "CNname": "净庭教宗的圣骑士套装",
             "JAname": "純庭教会の聖騎士セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71002.webp",
+            "imageurl": "images/relics/71002.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/103.json"
+            "infourl": "lib/relics/103.json"
         },
         {
             "id": "104",
             "ENname": "Hunter of Glacial ForestSet",
             "CNname": "密林卧雪的猎人套装",
             "JAname": "雪の密林の狩人セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71003.webp",
+            "imageurl": "images/relics/71003.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/104.json"
+            "infourl": "lib/relics/104.json"
         },
         {
             "id": "101",
             "ENname": "Passerby of Wandering CloudSet",
             "CNname": "云无留迹的过客套装",
             "JAname": "流雲無痕の過客セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71000.webp",
+            "imageurl": "images/relics/71000.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/101.json"
+            "infourl": "lib/relics/101.json"
         },
         {
             "id": "102",
             "ENname": "Musketeer of Wild WheatSet",
             "CNname": "野穗伴行的快枪手套装",
             "JAname": "草の穂ガンマンセット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71001.webp",
+            "imageurl": "images/relics/71001.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/102.json"
+            "infourl": "lib/relics/102.json"
         },
         {
             "id": "111",
             "ENname": "Thief of Shooting MeteorSet",
             "CNname": "流星追迹的怪盗套装",
             "JAname": "流星の跡を追う怪盗セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71010.webp",
+            "imageurl": "images/relics/71010.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/111.json"
+            "infourl": "lib/relics/111.json"
         },
         {
             "id": "308",
             "ENname": "Sprightly VonwacqSet",
             "CNname": "生命的翁瓦克套装",
             "JAname": "生命のウェンワークセット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71019.webp",
+            "imageurl": "images/relics/71019.webp",
             "set": "2",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/308.json"
+            "infourl": "lib/relics/308.json"
         },
         {
             "id": "109",
             "ENname": "Band of Sizzling ThunderSet",
             "CNname": "激奏雷电的乐队套装",
             "JAname": "雷鳴轟くバンドセット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71008.webp",
+            "imageurl": "images/relics/71008.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/109.json"
+            "infourl": "lib/relics/109.json"
         },
         {
             "id": "110",
             "ENname": "Eagle of Twilight LineSet",
             "CNname": "晨昏交界的翔鹰套装",
             "JAname": "昼夜の狭間を翔ける鷹セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71009.webp",
+            "imageurl": "images/relics/71009.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/110.json"
+            "infourl": "lib/relics/110.json"
         },
         {
             "id": "105",
             "ENname": "Champion of Streetwise BoxingSet",
             "CNname": "街头出身的拳王套装",
             "JAname": "成り上がりチャンピオンセット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71004.webp",
+            "imageurl": "images/relics/71004.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/105.json"
+            "infourl": "lib/relics/105.json"
         },
         {
             "id": "106",
             "ENname": "Guard of Wuthering SnowSet",
             "CNname": "戍卫风雪的铁卫套装",
             "JAname": "吹雪と対峙する兵士セット",
-            "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71005.webp",
+            "imageurl": "images/relics/71005.webp",
             "set": "4",
-            "infourl": "https://hsrwikidata.kchlu.com/lib/relics/106.json"
+            "infourl": "lib/relics/106.json"
         }
     ]
 }

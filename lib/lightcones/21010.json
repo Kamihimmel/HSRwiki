@@ -3,10 +3,10 @@
     "ENname": "Swordplay",
     "CNname": "论剑",
     "JAname": "論剣",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/21010.png",
+    "imageurl": "images/lightcones/21010.png",
     "wtype": "thehunt",
     "rarity": "4",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/21010l.webp",
+    "imagelargeurl": "images/lightcones/21010l.webp",
     "leveldata": [
         {
             "level": "1",

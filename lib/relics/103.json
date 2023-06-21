@@ -3,12 +3,12 @@
     "ENname": "Knight of Purity PalaceSet",
     "CNname": "净庭教宗的圣骑士套装",
     "JAname": "純庭教会の聖騎士セット",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/relics/71002.webp",
+    "imageurl": "images/relics/71002.webp",
     "set": "4",
-    "head": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_103_1.webp",
-    "hands": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_103_2.webp",
-    "body": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_103_3.webp",
-    "feet": "https://hsrwikidata.kchlu.com/images/relics/IconRelic_103_4.webp",
+    "head": "images/relics/IconRelic_103_1.webp",
+    "hands": "images/relics/IconRelic_103_2.webp",
+    "body": "images/relics/IconRelic_103_3.webp",
+    "feet": "images/relics/IconRelic_103_4.webp",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

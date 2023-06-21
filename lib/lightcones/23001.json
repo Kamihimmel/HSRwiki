@@ -3,10 +3,10 @@
     "ENname": "In the Night",
     "CNname": "于夜色中",
     "JAname": "夜の帳の中で",
-    "imageurl": "https://hsrwikidata.kchlu.com/images/lightcones/23001.png",
+    "imageurl": "images/lightcones/23001.png",
     "wtype": "thehunt",
     "rarity": "5",
-    "imagelargeurl": "https://hsrwikidata.kchlu.com/images/lightcones/23001l.webp",
+    "imagelargeurl": "images/lightcones/23001l.webp",
     "leveldata": [
         {
             "level": "1",
