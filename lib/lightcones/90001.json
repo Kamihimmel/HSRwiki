@@ -1,0 +1,136 @@
+{
+    "id": "90001",
+    "ENname": "Patience Is All You Need",
+    "CNname": "只需等待",
+    "JAname": "待つのみ",
+    "imageurl": "images/lightcones/90001.webp",
+    "imagelargeurl": "images/lightcones/90001l.webp",
+    "wtype": "nihility",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 26.4,
+            "def": 21
+        },
+        {
+            "level": "20",
+            "hp": 185,
+            "atk": 101.64,
+            "def": 80.85
+        },
+        {
+            "level": "20+",
+            "hp": 242,
+            "atk": 133.32,
+            "def": 106.05
+        },
+        {
+            "level": "40",
+            "hp": 463,
+            "atk": 254.76,
+            "def": 202.65
+        },
+        {
+            "level": "40+",
+            "hp": 540,
+            "atk": 297,
+            "def": 236.25
+        },
+        {
+            "level": "50",
+            "hp": 612,
+            "atk": 336.6,
+            "def": 267.75
+        },
+        {
+            "level": "50+",
+            "hp": 689,
+            "atk": 378.84,
+            "def": 301.35
+        },
+        {
+            "level": "60",
+            "hp": 761,
+            "atk": 418.44,
+            "def": 332.85
+        },
+        {
+            "level": "60+",
+            "hp": 838,
+            "atk": 460.68,
+            "def": 366.45
+        },
+        {
+            "level": "70",
+            "hp": 910,
+            "atk": 500.28,
+            "def": 397.95
+        },
+        {
+            "level": "70+",
+            "hp": 986,
+            "atk": 542.52,
+            "def": 431.55
+        },
+        {
+            "level": "80",
+            "hp": 1058,
+            "atk": 582.12,
+            "def": 463.05
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Spider Web",
+            "CNname": "蜘蛛的网",
+            "JAname": "蜘蛛の巣",
+            "DescriptionEN": "Increases DMG dealt by the wearer by [1]%. After every attack launched by wearer, their SPD is increased by [2]%, stacking up to [3] times.If the wearer hits an enemy target that is not afflicted by the Erode effect, there is a 100% base chance to apply Erode to the target. Enemies afflicted with Erode are considered to be Shocked and will receive Lightning DoT at the start of each turn equal to [4]% of the wearer's ATK, lasting for [5] turn(s).",
+            "DescriptionCN": "使装备者造成的伤害提高[1]%。装备者每次施放攻击后，速度提高[2]%，最多叠加[3]层。当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有100%的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者[4]%攻击力的雷属性持续伤害，持续[5]回合。",
+            "DescriptionJP": "装備キャラの与ダメージ+[1]%。装備キャラが攻撃を行った後、速度+[2]%、最大で[3]層累積できる。装備キャラの攻撃が的に命中した時、その敵が「遊糸」状態でない場合、100%の基礎確率で敵を「遊糸」状態にする。敵が「遊糸」状態の時、感電状態と見なされる。「遊糸」状態の敵はターンが回ってくるたびに、装備キャラの攻撃力[4]%分の雷属性持続ダメージを受ける、[5]ターン継続。",
+            "maxlevel": 5,
+            "buffskill": false,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 24,
+                    "2": 28,
+                    "3": 32,
+                    "4": 36,
+                    "5": 40
+                },
+                {
+                    "1": 4.8,
+                    "2": 5.6,
+                    "3": 6.4,
+                    "4": 7.2,
+                    "5": 8
+                },
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3
+                },
+                {
+                    "1": 48,
+                    "2": 56,
+                    "3": 64,
+                    "4": 72,
+                    "5": 80
+                },
+                {
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 1,
+                    "5": 1
+                }
+            ],
+            "tags": [],
+            "effect": []
+        }
+    ]
+}

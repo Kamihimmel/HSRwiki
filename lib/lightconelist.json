@@ -780,6 +780,28 @@
             "rarity": "5",
             "infourl": "lib/lightcones/23007.json",
             "spoiler": false
+        },
+        {
+            "id": "90001",
+            "ENname": "Patience Is All You Need",
+            "CNname": "只需等待",
+            "JAname": "待つのみ",
+            "imageurl": "images/lightcones/90001.webp",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/lightcones/90001.json",
+            "spoiler": true
+        },
+        {
+            "id": "90002",
+            "ENname": "The Unreachable Side",
+            "CNname": "到不了的彼岸",
+            "JAname": "着かない彼岸",
+            "imageurl": "images/lightcones/90002.webp",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/lightcones/90002.json",
+            "spoiler": true
         }
     ]
 }

@@ -1,0 +1,122 @@
+{
+    "id": "90002",
+    "ENname": "The Unreachable Side",
+    "CNname": "到不了的彼岸",
+    "JAname": "着かない彼岸",
+    "imageurl": "images/lightcones/90002.webp",
+    "imagelargeurl": "images/lightcones/90002l.webp",
+    "wtype": "destruction",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 58,
+            "atk": 26.4,
+            "def": 15
+        },
+        {
+            "level": "20",
+            "hp": 222,
+            "atk": 101.64,
+            "def": 57.75
+        },
+        {
+            "level": "20+",
+            "hp": 291,
+            "atk": 133.32,
+            "def": 75.75
+        },
+        {
+            "level": "40",
+            "hp": 556,
+            "atk": 254.76,
+            "def": 144.75
+        },
+        {
+            "level": "40+",
+            "hp": 648,
+            "atk": 297,
+            "def": 168.75
+        },
+        {
+            "level": "50",
+            "hp": 734,
+            "atk": 336.6,
+            "def": 191.25
+        },
+        {
+            "level": "50+",
+            "hp": 827,
+            "atk": 378.84,
+            "def": 215.25
+        },
+        {
+            "level": "60",
+            "hp": 913,
+            "atk": 418.44,
+            "def": 237.75
+        },
+        {
+            "level": "60+",
+            "hp": 1005,
+            "atk": 460.68,
+            "def": 261.75
+        },
+        {
+            "level": "70",
+            "hp": 1092,
+            "atk": 500.28,
+            "def": 284.25
+        },
+        {
+            "level": "70+",
+            "hp": 1184,
+            "atk": 542.52,
+            "def": 308.25
+        },
+        {
+            "level": "80",
+            "hp": 1270,
+            "atk": 582.12,
+            "def": 330.75
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Unfulfilled Yearning",
+            "CNname": "不得",
+            "JAname": "ならぬ",
+            "DescriptionEN": "Increases the wearer's CRIT rate by [1]% and increases their Max HP by [2]%. When the wearer is attacked or consumes their own HP, their DMG increases by [3]%. This effect is removed after the wearer uses an attack.",
+            "DescriptionCN": "使装备者的暴击率提高[1]%，生命上限提高[2]%。当装备者受到攻击或装备者消耗自身生命值后，造成的伤害提高[3]%，该效果在装备者施放攻击后解除。",
+            "DescriptionJP": "装備キャラの会心率+[1]%、最大HP+[2]%。装備キャラが攻撃を受ける、または自身のHPを消費すると、与ダメージ+[3]%、この効果は装備キャラが攻撃を行った後に解除される。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 18,
+                    "2": 21,
+                    "3": 24,
+                    "4": 27,
+                    "5": 30
+                },
+                {
+                    "1": 18,
+                    "2": 21,
+                    "3": 24,
+                    "4": 27,
+                    "5": 30
+                },
+                {
+                    "1": 24,
+                    "2": 28,
+                    "3": 32,
+                    "4": 36,
+                    "5": 40
+                }
+            ],
+            "tags": [],
+            "effect": []
+        }
+    ]
+}

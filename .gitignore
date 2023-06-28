@@ -1,1 +1,4 @@
+.vscode
+
 crawler/venv
+__pycache__
