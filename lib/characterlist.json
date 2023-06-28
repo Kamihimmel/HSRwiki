@@ -336,7 +336,7 @@
             "wtype": "harmony",
             "rarity": "4",
             "infourl": "lib/yukong.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "9999",
