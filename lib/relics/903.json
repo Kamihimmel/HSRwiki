@@ -1,0 +1,24 @@
+{
+    "id": "903",
+    "ENname": "Rutilant Arena",
+    "CNname": "繁星竞技场",
+    "JAname": "星々の競技場",
+    "imageurl": "images/relics/903.webp",
+    "set": "2",
+    "sphere": "images/relics/IconRelic_903_5.webp",
+    "rope": "images/relics/IconRelic_903_6.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%.",
+            "DescriptionCN": "使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。",
+            "DescriptionJP": "装備キャラの会心率+8%。装備キャラの会心率が70%以上の場合、通常攻撃と戦闘スキルの与ダメージ+20%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [],
+            "effect": []
+        }
+    ]
+}

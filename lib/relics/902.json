@@ -1,0 +1,38 @@
+{
+    "id": "902",
+    "ENname": "Messenger Traversing Hackerspace",
+    "CNname": "骇域漫游的信使",
+    "JAname": "仮想空間を漫遊するメッセンジャー",
+    "imageurl": "images/relics/902.webp",
+    "set": "4",
+    "head": "images/relics/IconRelic_902_1.webp",
+    "hands": "images/relics/IconRelic_902_2.webp",
+    "body": "images/relics/IconRelic_902_3.webp",
+    "feet": "images/relics/IconRelic_902_4.webp",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases SPD by 6%.",
+            "DescriptionCN": "速度提高6%。",
+            "DescriptionJP": "速度+6%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [],
+            "effect": []
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turns. This effect cannot be stacked.",
+            "DescriptionCN": "当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。",
+            "DescriptionJP": "装備キャラが味方に対して必殺技を発動した時、味方全体の速度+12%、1ターン継続、この効果は累積できない。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [],
+            "effect": []
+        }
+    ]
+}
