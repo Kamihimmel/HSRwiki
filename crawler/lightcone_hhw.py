@@ -6,6 +6,8 @@ import re
 import requests
 import sys
 
+import util
+
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
@@ -72,18 +74,6 @@ def append_level(soup_dict):
     print('append leveldata, count: %s' % len(leveldata))
 
 '''
-util function start
-'''
-def is_buff_skill(desc):
-    return ' increases ' in desc or ' increase ' in desc or ' gain ' in desc
-
-def is_team_skill(desc):
-    return False
-'''
-util function end
-'''
-
-'''
 skill start
 '''
 def append_skill_name(cur_skill, skill_dict, index):
@@ -123,8 +113,8 @@ def append_skill_attr(cur_skill, skill_dict, index):
     maxlevel = 0
     if trs[2].contents[0].contents[0].name == 'input':
        maxlevel = int(trs[2].contents[0].contents[0].attrs['max']) 
-    buffskill = is_buff_skill(cur_skill['DescriptionEN'])
-    teamskill = is_team_skill(cur_skill['DescriptionEN'])
+    buffskill = util.is_buff_skill(cur_skill['DescriptionEN'])
+    teamskill = util.is_team_skill(cur_skill['DescriptionEN'])
     cur_skill['maxlevel'] = maxlevel
     cur_skill['buffskill'] = buffskill
     cur_skill['teamskill'] = teamskill
@@ -210,7 +200,7 @@ def genrate_json(lightcone):
             exit(1)
     with open(base_dir + '/lib/lightconelist.json', 'r', encoding='utf-8') as f:
         lightcone_info = json.load(f)
-        result['id'] = list(filter(lambda i: i['ENname'].lower().replace(' ', '-') == lightcone, lightcone_info['data']))[0]['id']
+        result['id'] = list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == lightcone, lightcone_info['data']))[0]['id']
     append_name(soup_dict)
     append_image(lightcone, result['id'])
     append_image_large(lightcone, result['id'])

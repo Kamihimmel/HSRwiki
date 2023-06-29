@@ -10,15 +10,17 @@ srs_assets_url = 'https://starrailstation.com/assets'
 ua = UserAgent()
 
 def is_buff_skill(desc):
-    return ' extended ' in desc \
-        or ' extend ' in desc \
-        or ' increases ' in desc \
-        or ' increase ' in desc \
-        or ' gain ' in desc \
+    lower_desc = desc.lower()
+    return 'extended' in lower_desc \
+        or 'extend' in lower_desc \
+        or 'increases' in lower_desc \
+        or 'increase' in lower_desc \
+        or 'gain' in lower_desc \
         or re.match(r'.*\+\d+(\.\d+)?%.*', desc) is not None
 
 def is_team_skill(desc):
-    return ' all enemies' in desc
+    lower_desc = desc.lower()
+    return 'all enemies' in lower_desc
 
 def format_percent_number(num):
     num = float(round(num * 100, 2))
@@ -26,8 +28,11 @@ def format_percent_number(num):
         num = int(num)
     return num
 
+def clean_name(name):
+    return re.sub(r'\?|!|,|\'|\"', '', name.replace(' ', '-').lower())
+
 def download_skill_image(character, skill_name, skill_type, base_dir):
-    name = re.sub(r'\?|!|,|\'|\"', '', skill_name.replace(' ', '-').lower())
+    name = clean_name(skill_name)
     dir = 'images/skills/%s' % character.replace('-', '')
     path = '%s/%s-%s.webp' % (dir, name, skill_type)
     if not os.path.exists(base_dir + '/' + dir):
