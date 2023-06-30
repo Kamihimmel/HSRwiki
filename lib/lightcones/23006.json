@@ -4,7 +4,7 @@
     "CNname": "只需等待",
     "JAname": "待つのみ",
     "imageurl": "images/lightcones/23006.png",
-    "imagelargeurl": "images/lightcones/23006l.webp",
+    "imagelargeurl": "images/lightcones/23006l.png",
     "wtype": "nihility",
     "rarity": "5",
     "leveldata": [
@@ -16,79 +16,79 @@
         },
         {
             "level": "20",
-            "hp": 185,
+            "hp": 184.8,
             "atk": 101.64,
             "def": 80.85
         },
         {
             "level": "20+",
-            "hp": 242,
+            "hp": 242.4,
             "atk": 133.32,
             "def": 106.05
         },
         {
             "level": "30",
-            "hp": 314,
-            "atk": 172,
-            "def": 137
+            "hp": 314.4,
+            "atk": 172.92,
+            "def": 137.55
         },
         {
             "level": "30+",
-            "hp": 391,
-            "atk": 215,
-            "def": 171
+            "hp": 391.2,
+            "atk": 215.16,
+            "def": 171.15
         },
         {
             "level": "40",
-            "hp": 463,
+            "hp": 463.2,
             "atk": 254.76,
             "def": 202.65
         },
         {
             "level": "40+",
-            "hp": 540,
-            "atk": 297,
+            "hp": 540.0,
+            "atk": 297.0,
             "def": 236.25
         },
         {
             "level": "50",
-            "hp": 612,
+            "hp": 612.0,
             "atk": 336.6,
             "def": 267.75
         },
         {
             "level": "50+",
-            "hp": 689,
+            "hp": 688.8,
             "atk": 378.84,
             "def": 301.35
         },
         {
             "level": "60",
-            "hp": 761,
+            "hp": 760.8,
             "atk": 418.44,
             "def": 332.85
         },
         {
             "level": "60+",
-            "hp": 838,
+            "hp": 837.6,
             "atk": 460.68,
             "def": 366.45
         },
         {
             "level": "70",
-            "hp": 910,
+            "hp": 909.6,
             "atk": 500.28,
             "def": 397.95
         },
         {
             "level": "70+",
-            "hp": 986,
+            "hp": 986.4,
             "atk": 542.52,
             "def": 431.55
         },
         {
             "level": "80",
-            "hp": 1058,
+            "hp": 1058.4,
             "atk": 582.12,
             "def": 463.05
         }
@@ -98,13 +98,20 @@
             "ENname": "Spider Web",
             "CNname": "蜘蛛的网",
             "JAname": "蜘蛛の巣",
-            "DescriptionEN": "Increases DMG dealt by the wearer by [1]%. After every attack launched by wearer, their SPD is increased by [2]%, stacking up to [3] times.If the wearer hits an enemy target that is not afflicted by the Erode effect, there is a 100% base chance to apply Erode to the target. Enemies afflicted with Erode are considered to be Shocked and will receive Lightning DoT at the start of each turn equal to [4]% of the wearer's ATK, lasting for [5] turn(s).",
-            "DescriptionCN": "使装备者造成的伤害提高[1]%。装备者每次施放攻击后，速度提高[2]%，最多叠加[3]层。当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有100%的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者[4]%攻击力的雷属性持续伤害，持续[5]回合。",
-            "DescriptionJP": "装備キャラの与ダメージ+[1]%。装備キャラが攻撃を行った後、速度+[2]%、最大で[3]層累積できる。装備キャラの攻撃が的に命中した時、その敵が「遊糸」状態でない場合、100%の基礎確率で敵を「遊糸」状態にする。敵が「遊糸」状態の時、感電状態と見なされる。「遊糸」状態の敵はターンが回ってくるたびに、装備キャラの攻撃力[4]%分の雷属性持続ダメージを受ける、[5]ターン継続。",
+            "DescriptionEN": "Increases DMG dealt by the wearer by [2]%. After every attack launched by wearer, their SPD increases by [3]%, stacking up to [4] times.If the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to [1]% of the wearer's ATK, lasting for [5] turn(s).",
+            "DescriptionCN": "使装备者造成的伤害提高[2]%。装备者每次施放攻击后，速度提高[3]%，最多叠加[4]层。当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有100%的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者[1]%攻击力的雷属性持续伤害，持续[5]回合。",
+            "DescriptionJP": "装備キャラの与ダメージ+[2]%。装備キャラが攻撃を行った後、速度+[3]%、最大で[4]層累積できる。装備キャラの攻撃が敵に命中した時、その敵が「遊糸」状態でない場合、100%の基礎確率で敵を「遊糸」状態にする。敵が「遊糸」状態の時、感電状態と見なされる。「遊糸」状態の敵はターンが回ってくるたびに、装備キャラの攻撃力[1]%分の雷属性持続ダメージを受ける、[5]ターン継続。",
             "maxlevel": 5,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
+                {
+                    "1": 60,
+                    "2": 70,
+                    "3": 80,
+                    "4": 90,
+                    "5": 100
+                },
                 {
                     "1": 24,
                     "2": 28,
@@ -125,13 +132,6 @@
                     "3": 3,
                     "4": 3,
                     "5": 3
-                },
-                {
-                    "1": 48,
-                    "2": 56,
-                    "3": 64,
-                    "4": 72,
-                    "5": 80
                 },
                 {
                     "1": 1,

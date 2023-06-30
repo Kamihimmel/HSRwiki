@@ -57,7 +57,12 @@ def format_percent_number(num):
         num = int(num)
     return num
 
-def clean_desc(desc):
+def clean_desc_srs(desc):
     desc = re.sub(r'(<nobr>#)(\d+)(\[\w+\])(%?)(</nobr>)', r'[\2]\4', desc)
     desc = desc.replace('<br />', ' ')
+    return re.sub(r'</?\w+[^>]*?>', '', desc)
+
+def clean_desc_yatta(desc):
+    desc = re.sub(r'(<unbreak>#)(\d+)(\[\w+\])(%?)(</unbreak>)', r'[\2]\4', desc)
+    desc = desc.replace('\\n', '')
     return re.sub(r'</?\w+[^>]*?>', '', desc)

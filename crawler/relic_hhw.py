@@ -121,8 +121,8 @@ def genrate_json(relic):
             print('fetch failed, please try again')
             exit(1)
     with open(base_dir + '/lib/reliclist.json', 'r', encoding='utf-8') as f:
-        lightcone_info = json.load(f)
-        result['id'] = list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == relic, lightcone_info['data']))[0]['id']
+        relic_info = json.load(f)
+        result['id'] = list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == relic, relic_info['data']))[0]['id']
     append_name(soup_dict)
     append_image(relic, result['id'])
     append_basic(relic, result['id'], soup_dict)
