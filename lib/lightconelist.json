@@ -782,25 +782,25 @@
             "spoiler": false
         },
         {
-            "id": "90001",
+            "id": "23006",
             "ENname": "Patience Is All You Need(WIP)",
             "CNname": "只需等待(施工中)",
             "JAname": "待つのみ(建設中)",
-            "imageurl": "images/lightcones/90001.webp",
+            "imageurl": "images/lightcones/23006.png",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "lib/lightcones/90001.json",
+            "infourl": "lib/lightcones/23006.json",
             "spoiler": true
         },
         {
-            "id": "90002",
+            "id": "23009",
             "ENname": "The Unreachable Side(WIP)",
             "CNname": "到不了的彼岸(施工中)",
             "JAname": "着かない彼岸(建設中)",
-            "imageurl": "images/lightcones/90002.webp",
+            "imageurl": "images/lightcones/23009.png",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "lib/lightcones/90002.json",
+            "infourl": "lib/lightcones/23009.json",
             "spoiler": true
         }
     ]

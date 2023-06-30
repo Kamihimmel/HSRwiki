@@ -201,43 +201,43 @@
             "spoiler": false
         },
         {
-            "id": "901",
+            "id": "113",
             "ENname": "Longevous Disciple(WIP)",
             "CNname": "宝命长存的莳者(施工中)",
             "JAname": "宝命長存の蒔者(建設中)",
-            "imageurl": "images/relics/901.webp",
+            "imageurl": "images/relics/71020.png",
             "set": "4",
-            "infourl": "lib/relics/901.json",
+            "infourl": "lib/relics/113.json",
             "spoiler": true
         },
         {
-            "id": "902",
+            "id": "114",
             "ENname": "Messenger Traversing Hackerspace(WIP)",
             "CNname": "骇域漫游的信使(施工中)",
             "JAname": "仮想空間を漫遊するメッセンジャー(建設中)",
-            "imageurl": "images/relics/902.webp",
+            "imageurl": "images/relics/71021.png",
             "set": "4",
-            "infourl": "lib/relics/902.json",
+            "infourl": "lib/relics/114.json",
             "spoiler": true
         },
         {
-            "id": "903",
+            "id": "309",
             "ENname": "Rutilant Arena(WIP)",
             "CNname": "繁星竞技场(施工中)",
             "JAname": "星々の競技場(建設中)",
-            "imageurl": "images/relics/903.webp",
+            "imageurl": "images/relics/71022.png",
             "set": "2",
-            "infourl": "lib/relics/903.json",
+            "infourl": "lib/relics/309.json",
             "spoiler": true
         },
         {
-            "id": "904",
+            "id": "310",
             "ENname": "Broken Keel(WIP)",
             "CNname": "折断的龙骨(施工中)",
             "JAname": "折れた竜骨(建設中)",
-            "imageurl": "images/relics/904.webp",
+            "imageurl": "images/relics/71023.png",
             "set": "2",
-            "infourl": "lib/relics/904.json",
+            "infourl": "lib/relics/310.json",
             "spoiler": true
         }
     ]

@@ -1,12 +1,12 @@
 {
-    "id": "904",
+    "id": "310",
     "ENname": "Broken Keel",
     "CNname": "折断的龙骨",
     "JAname": "折れた竜骨",
-    "imageurl": "images/relics/904.webp",
+    "imageurl": "images/relics/71023.png",
     "set": "2",
-    "sphere": "images/relics/IconRelic_904_5.webp",
-    "rope": "images/relics/IconRelic_904_6.webp",
+    "sphere": "images/relics/IconRelic_310_5.png",
+    "rope": "images/relics/IconRelic_310_6.png",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

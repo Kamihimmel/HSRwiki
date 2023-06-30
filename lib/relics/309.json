@@ -1,12 +1,12 @@
 {
-    "id": "903",
+    "id": "309",
     "ENname": "Rutilant Arena",
     "CNname": "繁星竞技场",
     "JAname": "星々の競技場",
-    "imageurl": "images/relics/903.webp",
+    "imageurl": "images/relics/71022.png",
     "set": "2",
-    "sphere": "images/relics/IconRelic_903_5.webp",
-    "rope": "images/relics/IconRelic_903_6.webp",
+    "sphere": "images/relics/IconRelic_309_5.png",
+    "rope": "images/relics/IconRelic_309_6.png",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

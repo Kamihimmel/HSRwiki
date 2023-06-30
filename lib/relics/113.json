@@ -1,14 +1,14 @@
 {
-    "id": "901",
+    "id": "113",
     "ENname": "Longevous Disciple",
     "CNname": "宝命长存的莳者",
     "JAname": "宝命長存の蒔者",
-    "imageurl": "images/relics/901.webp",
+    "imageurl": "images/relics/71020.png",
     "set": "4",
-    "head": "images/relics/IconRelic_901_1.webp",
-    "hands": "images/relics/IconRelic_901_2.webp",
-    "body": "images/relics/IconRelic_901_3.webp",
-    "feet": "images/relics/IconRelic_901_4.webp",
+    "head": "images/relics/IconRelic_113_1.png",
+    "hands": "images/relics/IconRelic_113_2.png",
+    "body": "images/relics/IconRelic_113_3.png",
+    "feet": "images/relics/IconRelic_113_4.png",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

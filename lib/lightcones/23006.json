@@ -1,10 +1,10 @@
 {
-    "id": "90001",
+    "id": "23006",
     "ENname": "Patience Is All You Need",
     "CNname": "只需等待",
     "JAname": "待つのみ",
-    "imageurl": "images/lightcones/90001.webp",
-    "imagelargeurl": "images/lightcones/90001l.webp",
+    "imageurl": "images/lightcones/23006.png",
+    "imagelargeurl": "images/lightcones/23006l.webp",
     "wtype": "nihility",
     "rarity": "5",
     "leveldata": [
@@ -25,6 +25,18 @@
             "hp": 242,
             "atk": 133.32,
             "def": 106.05
+        },
+        {
+            "level": "30",
+            "hp": 314,
+            "atk": 172,
+            "def": 137
+        },
+        {
+            "level": "30+",
+            "hp": 391,
+            "atk": 215,
+            "def": 171
         },
         {
             "level": "40",

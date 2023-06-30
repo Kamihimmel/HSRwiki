@@ -1,14 +1,14 @@
 {
-    "id": "902",
+    "id": "114",
     "ENname": "Messenger Traversing Hackerspace",
     "CNname": "骇域漫游的信使",
     "JAname": "仮想空間を漫遊するメッセンジャー",
-    "imageurl": "images/relics/902.webp",
+    "imageurl": "images/relics/71021.png",
     "set": "4",
-    "head": "images/relics/IconRelic_902_1.webp",
-    "hands": "images/relics/IconRelic_902_2.webp",
-    "body": "images/relics/IconRelic_902_3.webp",
-    "feet": "images/relics/IconRelic_902_4.webp",
+    "head": "images/relics/IconRelic_114_1.png",
+    "hands": "images/relics/IconRelic_114_2.png",
+    "body": "images/relics/IconRelic_114_3.png",
+    "feet": "images/relics/IconRelic_114_4.png",
     "skilldata": [
         {
             "ENname": "2 Set Effect",

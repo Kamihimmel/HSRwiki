@@ -1,10 +1,10 @@
 {
-    "id": "90002",
+    "id": "23009",
     "ENname": "The Unreachable Side",
     "CNname": "到不了的彼岸",
     "JAname": "着かない彼岸",
-    "imageurl": "images/lightcones/90002.webp",
-    "imagelargeurl": "images/lightcones/90002l.webp",
+    "imageurl": "images/lightcones/23009.png",
+    "imagelargeurl": "images/lightcones/23009l.webp",
     "wtype": "destruction",
     "rarity": "5",
     "leveldata": [
@@ -25,6 +25,18 @@
             "hp": 291,
             "atk": 133.32,
             "def": 75.75
+        },
+        {
+            "level": "30",
+            "hp": 377,
+            "atk": 172,
+            "def": 98
+        },
+        {
+            "level": "30+",
+            "hp": 469,
+            "atk": 215,
+            "def": 122
         },
         {
             "level": "40",
