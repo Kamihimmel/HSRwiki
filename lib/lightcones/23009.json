@@ -4,91 +4,91 @@
     "CNname": "到不了的彼岸",
     "JAname": "着かない彼岸",
     "imageurl": "images/lightcones/23009.png",
-    "imagelargeurl": "images/lightcones/23009l.webp",
+    "imagelargeurl": "images/lightcones/23009l.png",
     "wtype": "destruction",
     "rarity": "5",
     "leveldata": [
         {
             "level": "1",
-            "hp": 58,
+            "hp": 57.6,
             "atk": 26.4,
             "def": 15
         },
         {
             "level": "20",
-            "hp": 222,
+            "hp": 221.76,
             "atk": 101.64,
             "def": 57.75
         },
         {
             "level": "20+",
-            "hp": 291,
+            "hp": 290.88,
             "atk": 133.32,
             "def": 75.75
         },
         {
             "level": "30",
-            "hp": 377,
-            "atk": 172,
-            "def": 98
+            "hp": 377.28,
+            "atk": 172.92,
+            "def": 98.25
         },
         {
             "level": "30+",
-            "hp": 469,
-            "atk": 215,
-            "def": 122
+            "hp": 469.44,
+            "atk": 215.16,
+            "def": 122.25
         },
         {
             "level": "40",
-            "hp": 556,
+            "hp": 555.84,
             "atk": 254.76,
             "def": 144.75
         },
         {
             "level": "40+",
-            "hp": 648,
-            "atk": 297,
+            "hp": 648.0,
+            "atk": 297.0,
             "def": 168.75
         },
         {
             "level": "50",
-            "hp": 734,
+            "hp": 734.4,
             "atk": 336.6,
             "def": 191.25
         },
         {
             "level": "50+",
-            "hp": 827,
+            "hp": 826.56,
             "atk": 378.84,
             "def": 215.25
         },
         {
             "level": "60",
-            "hp": 913,
+            "hp": 912.96,
             "atk": 418.44,
             "def": 237.75
         },
         {
             "level": "60+",
-            "hp": 1005,
+            "hp": 1005.12,
             "atk": 460.68,
             "def": 261.75
         },
         {
             "level": "70",
-            "hp": 1092,
+            "hp": 1091.52,
             "atk": 500.28,
             "def": 284.25
         },
         {
             "level": "70+",
-            "hp": 1184,
+            "hp": 1183.68,
             "atk": 542.52,
             "def": 308.25
         },
         {
             "level": "80",
-            "hp": 1270,
+            "hp": 1270.08,
             "atk": 582.12,
             "def": 330.75
         }
