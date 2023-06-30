@@ -141,8 +141,42 @@
                     "5": 1
                 }
             ],
-            "tags": [],
-            "effect": []
+            "tags": [
+                "buff",
+                "self",
+                "alldmg",
+                "speed",
+                "dotatk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                },
+                {
+                    "type": "dotatk",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "lightningatk",
+                        "dotatk"
+                    ]
+                }
+            ]
         }
     ]
 }

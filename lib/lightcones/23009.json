@@ -127,8 +127,42 @@
                     "5": 40
                 }
             ],
-            "tags": [],
-            "effect": []
+            "tags": [
+                "buff",
+                "self",
+                "critrate",
+                "maxhp",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "maxhp"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
         }
     ]
 }
