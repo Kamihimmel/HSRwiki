@@ -885,7 +885,7 @@
             "ENname": "Never Turning Back",
             "CNname": "百折不回",
             "JAname": "不撓不屈",
-            "imageurl": "images/skills/luka4.webp",
+            "imageurl": "images/skills/luka4.png",
             "DescriptionEN": "For every stack of Fighting Will obtained, increases ATK by 5%, stacking up to 4 time(s).",
             "DescriptionCN": "每获得1层【斗志】，攻击力提高5%，该效果最多叠加4层。",
             "DescriptionJP": "「闘志」を1層獲得するごとに、攻撃力+5%。この効果は最大で4層累積できる。",
