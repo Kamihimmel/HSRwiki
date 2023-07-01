@@ -221,8 +221,9 @@ def append_trace_name_and_desc(cur_trace, trace_dict, index):
         else:
             name = trace['name']
             desc = util.clean_desc_yatta(trace['description'])
-            for k, v in trace['params'].items():
-                desc = desc.replace('[%s]' % k, str(util.format_percent_number(v[0]) if '[%s]%%' % k in desc else v[0]))
+            if 'params' in trace and trace['params'] is not None:
+                for k, v in trace['params'].items():
+                    desc = desc.replace('[%s]' % k, str(util.format_percent_number(v[0]) if '[%s]%%' % k in desc else v[0]))
         cur_trace[name_lang_mapping[lang]] = name
         print('append trace %s name: %s' % (lang, name))
         trace_desc['Description' + lang] = desc
