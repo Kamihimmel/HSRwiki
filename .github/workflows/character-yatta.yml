@@ -6,6 +6,9 @@ name: Run character yatta
 on:
   schedule:
     - cron:  '30 0 * * *'
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -24,18 +27,24 @@ jobs:
         python -m pip install --upgrade pip
         cd crawler
         pip install -r requirements.txt
+        apt update
+        apt install -y jq
     - name: Run
       run: |
         cd crawler
-        python character_yatta.py kafka
-        python character_yatta.py luka
-        python character_yatta.py blade
+        for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/'); do
+          python character_yatta.py $c
+        done
   check:
     runs-on: ubuntu-latest
     steps:
+    - name: Install tools
+      run: |
+        apt update
+        apt install -y tree jq
     - name: Check result
       run: |
         tree crawler/yatta
-        diff crawler/yatta/lib/kafka.json lib/kafka.json
-        diff crawler/yatta/lib/luka.json lib/luka.json
-        diff crawler/yatta/lib/blade.json lib/blade.json
+        for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/'); do
+          diff crawler/yatta/lib/${c}.json lib/${c}.json
+        done
