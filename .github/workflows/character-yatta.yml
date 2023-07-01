@@ -30,11 +30,14 @@ jobs:
     - name: Run
       run: |
         cd crawler
-        mkdir -p yatta/lib yatta/lib/images/characters yatta/lib/images/skills
+        mkdir -p yatta/lib yatta/images/characters yatta/images/skills
+        tree
         for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/'); do
           python character_yatta.py $c
         done
   check:
+    needs:
+      - build
     runs-on: ubuntu-latest
     steps:
     - name: Check result
