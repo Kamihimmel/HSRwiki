@@ -385,6 +385,7 @@ def generate_json(character):
     for lang in languages:
         url = 'https://api.yatta.top/hsr/v2/%s/avatar/%s' % (lang, result['id'])
         res = requests.get(url, headers={'User-Agent': ua.random}, timeout=10)
+        print('response: %s' % res.content)
         data = json.loads(res.content)
         if data is None or 'response' not in data or data['response'] != 200:
             print('fetch failed, please try again')
@@ -396,8 +397,8 @@ def generate_json(character):
     append_basic(data_dict)
     append_level(data_dict)
     append_skill(c, data_dict, exist_dict)
-    append_trace(character, data_dict, exist_dict)
-    append_eidolon(character, data_dict, exist_dict)
+    append_trace(c, data_dict, exist_dict)
+    append_eidolon(c, data_dict, exist_dict)
     with open(base_dir + '/crawler/yatta/lib/' + c + '.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(result, ensure_ascii=False, skipkeys=True, indent=4))
 
