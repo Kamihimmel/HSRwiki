@@ -29,20 +29,18 @@ jobs:
         pip install -r requirements.txt
     - name: Run
       run: |
-        cd crawler
+        cd ${GITHUB_WORKSPACE}/crawler
         mkdir -p yatta/lib yatta/images/characters yatta/images/skills
         tree
         for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/'); do
           python character_yatta.py $c
+          echo '------------------------------------------------'
         done
-  check:
-    needs:
-      - build
-    runs-on: ubuntu-latest
-    steps:
     - name: Check result
       run: |
-        tree crawler/yatta
+        cd ${GITHUB_WORKSPACE}/crawler
+        tree yatta
         for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/'); do
           diff crawler/yatta/lib/${c}.json lib/${c}.json
+          echo '------------------------------------------------'
         done
