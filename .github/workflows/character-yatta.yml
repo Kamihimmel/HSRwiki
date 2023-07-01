@@ -41,6 +41,9 @@ jobs:
         cd ${GITHUB_WORKSPACE}/crawler
         tree yatta
         for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/'); do
+          echo -e "\033[32m diff yatta/lib/${c,,}.json ../lib/${c,,}.json \033[0m"
           diff yatta/lib/${c,,}.json ../lib/${c,,}.json
+          [ 0 -eq $? ] && echo "${c,,}: same" || echo "${c,,}: changed"
           echo '------------------------------------------------'
         done
+        exit 0
