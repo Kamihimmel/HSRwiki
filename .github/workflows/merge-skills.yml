@@ -9,10 +9,11 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
+    if: ${{ !contains(github.event.head_commit.message, '[update skill list]') }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -24,4 +25,15 @@ jobs:
       run: |
         cd ${GITHUB_WORKSPACE}/crawler
         python merge_skills.py
-
+    - name: Check
+      run: |
+        cd ${GITHUB_WORKSPACE}
+        cat lib/skilllist.json| jq -r ".data[].characterid" | uniq -c
+    - name: Update
+      run: |
+        cd ${GITHUB_WORKSPACE}
+        git checkout main
+        git pull
+        git add lib/skilllist.json
+        git commit -m "[update skill list] ${GITHUB_RUN_ID}"
+        git push
