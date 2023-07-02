@@ -30,7 +30,7 @@ jobs:
         cd ${GITHUB_WORKSPACE}/crawler
         tree
         for c in $(cat ../lib/reliclist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/g'); do
-          python lightcone_yatta.py ${c,,}
+          python relic_yatta.py ${c,,}
           echo '------------------------------------------------'
         done
     - name: Check result
