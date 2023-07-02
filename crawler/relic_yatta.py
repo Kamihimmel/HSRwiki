@@ -28,7 +28,7 @@ def append_name(data_dict):
 def append_image(relic_icon):
     path = 'images/relics/%s.png' % relic_icon
     result['imageurl'] = path
-    with open(base_dir + '/' + path, 'wb') as f:
+    with open(base_dir + '/crawler/yatta/' + path, 'wb') as f:
         url = 'https://api.yatta.top/hsr/assets/UI/relic/%s.png' % relic_icon
         res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
         f.write(res.content)
@@ -46,7 +46,7 @@ def append_basic(data_dict):
         icon = v['icon']
         path = 'images/relics/%s.png' % icon
         result[re.sub(r'^.*?\s+', '', part)] = path
-        with open(base_dir + '/' + path, 'wb') as f:
+        with open(base_dir + '/crawler/yatta/' + path, 'wb') as f:
             url = 'https://api.yatta.top/hsr/assets/UI/relic/%s.png' % icon
             res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
             f.write(res.content)
@@ -80,27 +80,34 @@ def append_skill_attr(cur_skill, skill_dict, index):
     print('append skill buffskill: %s, teamskill: %s' % (buffskill, teamskill))
 
 
-def append_skill_tags(cur_skill, skill_dict, index):
-    tags = []
-    cur_skill['tags'] = tags
+def append_skill_tags(cur_skill, exist_skill):
+    cur_skill['tags'] = exist_skill['tags'] if 'tags' in exist_skill else []
 
 
-def append_skill_effect(cur_skill, skill_dict, index):
-    effect = []
-    cur_skill['effect'] = effect
+def append_skill_effect(cur_skill, exist_skill):
+    cur_skill['effect'] = exist_skill['effect'] if 'effect' in exist_skill else []
 
 
-def append_skill(data_dict):
+def compare_skill(s, d):
+    if 'id' in s and 'id' in d:
+        return s['id'] == d['id']
+    return s['ENname'] == d['ENname']
+
+
+def append_skill(data_dict, exist_dict):
     skilldata = []
     skill_dict = {}
     for lang in languages:
         skill_dict[lang] = data_dict[lang]['skillList']
+    exist_skills = exist_dict['skilldata']
     for key in skill_dict['EN'].keys():
         cur_skill = {}
         append_skill_name_and_desc(cur_skill, skill_dict, key)
         append_skill_attr(cur_skill, skill_dict, key)
-        append_skill_tags(cur_skill, skill_dict, key)
-        append_skill_effect(cur_skill, skill_dict, key)
+        find = list(filter(lambda s: compare_skill(s, cur_skill), exist_skills))
+        exist_skill = find[0] if len(find) > 0 else {}
+        append_skill_tags(cur_skill, exist_skill)
+        append_skill_effect(cur_skill, exist_skill)
         skilldata.append(cur_skill)
     result['skilldata'] = skilldata
     print('append skilldata, count: %s' % len(skilldata))
@@ -113,10 +120,13 @@ skill end
 
 # main function
 def generate_json(relic):
+    util.prepare_dirs('yatta', base_dir)
     print('generate lib json from yatta for: %s' % relic)
     with open(base_dir + '/lib/reliclist.json', 'r', encoding='utf-8') as f:
         relic_info = json.load(f)
         result['id'] = list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == relic.lower(), relic_info['data']))[0]['id']
+    with open(base_dir + '/lib/relics/%s.json' % result['id'], 'r', encoding='utf-8') as f:
+        exist_dict = json.load(f)
     data_dict = {}
     for lang in languages:
         url = 'https://api.yatta.top/hsr/v2/%s/relic/%s' % (lang, result['id'])
@@ -127,10 +137,10 @@ def generate_json(relic):
             exit(1)
         data_dict[lang] = data['data']
     append_name(data_dict)
-    append_image(data_dict[lang]['icon'])
+    append_image(data_dict['EN']['icon'])
     append_basic(data_dict)
-    append_skill(data_dict)
-    with open(base_dir + '/lib/relics/' + result['id'] + '.json', 'w', encoding='utf-8') as f:
+    append_skill(data_dict, exist_dict)
+    with open(base_dir + '/crawler/yatta//lib/relics/' + result['id'] + '.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(result, ensure_ascii=False, skipkeys=True, indent=4))
 
 
