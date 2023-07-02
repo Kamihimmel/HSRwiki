@@ -29,7 +29,7 @@ jobs:
       run: |
         cd ${GITHUB_WORKSPACE}/crawler
         tree
-        for c in $(cat ../lib/lightconelist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/'); do
+        for c in $(cat ../lib/lightconelist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/g'); do
           python lightcone_yatta.py ${c,,}
           echo '------------------------------------------------'
         done

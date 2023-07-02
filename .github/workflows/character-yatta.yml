@@ -30,7 +30,7 @@ jobs:
         cd ${GITHUB_WORKSPACE}/crawler
         mkdir -p yatta/lib yatta/images/characters yatta/images/skills
         tree
-        for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/'); do
+        for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/g'); do
           python character_yatta.py ${c,,}
           echo '------------------------------------------------'
         done
