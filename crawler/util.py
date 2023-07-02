@@ -8,6 +8,7 @@ from fake_useragent import UserAgent
 
 srs_assets_url = 'https://starrailstation.com/assets'
 yatta_icon_url = 'https://api.yatta.top/hsr/assets/UI/%s/%s.%s'
+dirs = ['', '/lib', '/images', '/images/characters', '/images/skills', '/images/lightcones', '/images/relics']
 ua = UserAgent()
 
 
@@ -85,3 +86,9 @@ def clean_desc_yatta(desc):
     desc = re.sub(r'(<unbreak>#)(\d+)(\[\w+\])(%?)(</unbreak>)', r'[\2]\4', desc)
     desc = desc.replace('\\n', ' ')
     return re.sub(r'</?\w+[^>]*?>', '', desc)
+
+def prepare_dirs(source, base_dir):
+    for d in dirs:
+        path = '%s/crawler/%s%s' % (base_dir, source, d)
+        if not os.path.exists(path):
+            os.mkdir(path)

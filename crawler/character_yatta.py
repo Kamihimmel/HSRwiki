@@ -374,6 +374,7 @@ eidolon end
 
 # main function
 def generate_json(character):
+    util.prepare_dirs('yatta', base_dir)
     print('generate lib json from yatta for: %s' % character)
     c = character.lower().replace('-', '')
     with open(base_dir + '/lib/characterlist.json', 'r', encoding='utf-8') as f:
