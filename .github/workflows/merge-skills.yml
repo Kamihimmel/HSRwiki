@@ -32,6 +32,8 @@ jobs:
     - name: Update
       run: |
         cd ${GITHUB_WORKSPACE}
+        git config --global user.email "shengwu.code@gmail.com"
+        git config --global user.name "workflow-${GITHUB_RUN_ID}"
         git checkout main
         git pull
         git add lib/skilllist.json
