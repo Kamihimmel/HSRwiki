@@ -25,7 +25,7 @@ def append_name(data_dict):
 def append_image(lightcone_id):
     path = 'images/lightcones/%s.png' % lightcone_id
     result['imageurl'] = path
-    with open(base_dir + '/' + path, 'wb') as f:
+    with open(base_dir + '/crawler/yatta/' + path, 'wb') as f:
         url = 'https://api.yatta.top/hsr/assets/UI/equipment/medium/%s.png' % lightcone_id
         res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
         f.write(res.content)
@@ -35,7 +35,7 @@ def append_image(lightcone_id):
 def append_image_large(lightcone_id):
     path = 'images/lightcones/%sl.png' % lightcone_id
     result['imagelargeurl'] = path
-    with open(base_dir + '/' + path, 'wb') as f:
+    with open(base_dir + '/crawler/yatta/' + path, 'wb') as f:
         url = 'https://api.yatta.top/hsr/assets/UI/equipment/large/%s.png' % lightcone_id
         res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
         f.write(res.content)
@@ -120,28 +120,35 @@ def append_skill_levelmultiplier(cur_skill, skill_dict):
     print('append skill levelmultiplier, count: %s' % len(levelmultiplier))
 
 
-def append_skill_tags(cur_skill, skill_dict):
-    tags = []
-    cur_skill['tags'] = tags
+def append_skill_tags(cur_skill, exist_skill):
+    cur_skill['tags'] = exist_skill['tags'] if 'tags' in exist_skill else []
 
 
-def append_skill_effect(cur_skill, skill_dict):
-    effect = []
-    cur_skill['effect'] = effect
+def append_skill_effect(cur_skill, exist_skill):
+    cur_skill['effect'] = exist_skill['effect'] if 'effect' in exist_skill else []
 
 
-def append_skill(data_dict):
+def compare_skill(s, d):
+    if 'id' in s and 'id' in d:
+        return s['id'] == d['id']
+    return s['ENname'] == d['ENname']
+
+
+def append_skill(data_dict, exist_dict):
     skilldata = []
     skill_dict = {}
     for lang in languages:
         skill_dict[lang] = data_dict[lang]['skill']
+    exist_skills = exist_dict['skilldata']
     cur_skill = {}
     append_skill_name(cur_skill, skill_dict)
     append_skill_desc(cur_skill, skill_dict)
     append_skill_attr(cur_skill, skill_dict)
     append_skill_levelmultiplier(cur_skill, skill_dict)
-    append_skill_tags(cur_skill, skill_dict)
-    append_skill_effect(cur_skill, skill_dict)
+    find = list(filter(lambda s: compare_skill(s, cur_skill), exist_skills))
+    exist_skill = find[0] if len(find) > 0 else {}
+    append_skill_tags(cur_skill, exist_skill)
+    append_skill_effect(cur_skill, exist_skill)
     skilldata.append(cur_skill)
     result['skilldata'] = skilldata
     print('append skilldata, count: %s' % len(skilldata))
@@ -154,14 +161,18 @@ skill end
 
 # main function
 def generate_json(lightcone):
+    util.prepare_dirs('yatta', base_dir)
     print('generate lib json from yatta for: %s' % lightcone)
     with open(base_dir + '/lib/lightconelist.json', 'r', encoding='utf-8') as f:
         lightcone_info = json.load(f)
         result['id'] = list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == lightcone.lower(), lightcone_info['data']))[0]['id']
+    with open(base_dir + '/lib/lightcones/%s.json' % result['id'], 'r', encoding='utf-8') as f:
+        exist_dict = json.load(f)
     data_dict = {}
     for lang in languages:
         url = 'https://api.yatta.top/hsr/v2/%s/equipment/%s' % (lang, result['id'])
         res = requests.get(url, headers={'User-Agent': ua.random}, timeout=10)
+        print('response: %s' % res.content)
         data = json.loads(res.content)
         if data is None or 'response' not in data or data['response'] != 200:
             print('fetch failed, please try again')
@@ -172,8 +183,8 @@ def generate_json(lightcone):
     append_image_large(result['id'])
     append_basic(data_dict)
     append_level(data_dict)
-    append_skill(data_dict)
-    with open(base_dir + '/lib/lightcones/' + result['id'] + '.json', 'w', encoding='utf-8') as f:
+    append_skill(data_dict, exist_dict)
+    with open(base_dir + '/crawler/yatta/lib/lightcones/' + result['id'] + '.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(result, ensure_ascii=False, skipkeys=True, indent=4))
 
 

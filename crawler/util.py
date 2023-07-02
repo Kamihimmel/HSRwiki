@@ -8,7 +8,7 @@ from fake_useragent import UserAgent
 
 srs_assets_url = 'https://starrailstation.com/assets'
 yatta_icon_url = 'https://api.yatta.top/hsr/assets/UI/%s/%s.%s'
-dirs = ['', '/lib', '/images', '/images/characters', '/images/skills', '/images/lightcones', '/images/relics']
+dirs = ['', '/lib', '/lib/lightcones', '/lib/relics', '/images', '/images/characters', '/images/skills', '/images/lightcones', '/images/relics']
 ua = UserAgent()
 
 
