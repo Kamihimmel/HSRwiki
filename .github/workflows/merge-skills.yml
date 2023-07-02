@@ -28,14 +28,15 @@ jobs:
     - name: Check
       run: |
         cd ${GITHUB_WORKSPACE}
-        cat lib/skilllist.json| jq -r ".data[].characterid" | uniq -c
+        cat lib/skilllist.json | jq -r ".data[].characterid" | uniq -c
     - name: Update
       run: |
         cd ${GITHUB_WORKSPACE}
         git config --global user.email "shengwu.code@gmail.com"
         git config --global user.name "workflow-${GITHUB_RUN_ID}"
-        git checkout main
-        git pull
+        r=$(git diff --exit-code lib/skilllist.json || echo)
+        [ -z "$r" ] && echo "no change" && exit 0
+        echo $r
         git add lib/skilllist.json
         git commit -m "[update skill list] ${GITHUB_RUN_ID}"
         git push

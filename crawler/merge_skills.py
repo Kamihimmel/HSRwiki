@@ -16,6 +16,7 @@ for f in os.listdir(base_dir + '/lib'):
             for s in data['skilldata']:
                 d = {'characterid': data['id']}
                 skills.append(d | s)
+skills.sort(key=lambda sk: sk['characterid'])
 result = {'data': skills}
 with open(base_dir + '/lib/skilllist.json', 'w', encoding='utf-8') as f:
     f.write(json.dumps(result, ensure_ascii=False, skipkeys=True, indent=4))
