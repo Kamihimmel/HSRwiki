@@ -13,7 +13,7 @@ from fake_useragent import UserAgent
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # absolute path of repo dir
 languages = ['EN', 'CN', 'JP']
-name_lang_mapping = {'EN': 'ENname', 'CN': 'CNname', 'JP': 'JAname'} # why does it start with JA for JP localization?
+name_lang_mapping = {'EN': 'ENname', 'CN': 'CNname', 'JP': 'JAname'}
 set_effect_mapping = {'EN': ' Set Effect', 'CN': '件套装效果', 'JP': 'セット効果'}
 ua = UserAgent() # required for non-browser http request, or you will get a response code of 403
 result = {}
@@ -105,6 +105,7 @@ def append_skill(soup_dict):
         append_skill_effect(cur_skill, skill_dict, i)
         skilldata.append(cur_skill)
     result['skilldata'] = skilldata
+    print('append skilldata, count: %s' % len(skilldata))
 '''
 skill end
 '''

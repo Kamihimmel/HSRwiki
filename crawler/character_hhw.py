@@ -13,7 +13,7 @@ from fake_useragent import UserAgent
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # absolute path of repo dir
 languages = ['EN', 'CN', 'JP']
-name_lang_mapping = {'EN': 'ENname', 'CN': 'CNname', 'JP': 'JAname'} # why does it start with JA for JP localization?
+name_lang_mapping = {'EN': 'ENname', 'CN': 'CNname', 'JP': 'JAname'}
 stype_mapping = {'ultimate': 'ult', 'basicatk': 'basicattack'}
 ua = UserAgent() # required for non-browser http request, or you will get a response code of 403
 result = {}
@@ -92,11 +92,11 @@ def append_skill_name(cur_skill, skill_dict, index):
         cur_skill[name_lang_mapping[lang]] = skill_name.split(' - ')[0]
         if lang == 'EN':
             full_skill_name = skill_name
-    print('append skill %s name: %s' % (lang, cur_skill[name_lang_mapping[lang]]))
+        print('append skill %s name: %s' % (lang, cur_skill[name_lang_mapping[lang]]))
     cur_skill['full_skill_name'] = full_skill_name # store skill tags temporarily
 
 def append_skill_image(character, cur_skill):
-    path = util.download_skill_image(character, cur_skill['ENname'], 'skill', base_dir)
+    path = util.download_hhw_skill_image(character, cur_skill['ENname'], 'skill', base_dir)
     cur_skill['imageurl'] = path
     print('append skill image: %s' % path)
 
@@ -229,6 +229,7 @@ def append_skill(character, soup_dict):
         del cur_skill['placeholder_order']
         skilldata.append(cur_skill)
     result['skilldata'] = skilldata
+    print('append skilldata, count: %s' % len(skilldata))
 '''
 skill end
 '''
@@ -278,7 +279,7 @@ def append_trace_attr(character, cur_trace):
     if cur_trace['tiny'] == True:
         cur_trace['ttype'] = re.match(r'^(.*?)(?:\s+Rate)?\s+(increases|decreases).*', cur_trace['ENname']).group(1).lower().replace(' ', '')
     else:
-        path = util.download_skill_image(character, cur_trace['ENname'], 'trace', base_dir)
+        path = util.download_hhw_skill_image(character, cur_trace['ENname'], 'trace', base_dir)
         cur_trace['imageurl'] = path
         print('append trace image: %s' % path)
     cur_trace['stype'] = 'trace'
@@ -308,6 +309,7 @@ def append_trace(character, soup_dict):
         append_trace_effect(cur_trace, trace_dict, i)
         tracedata.append(cur_trace)
     result['tracedata'] = tracedata
+    print('append tracedata, count: %s' % len(tracedata))
 '''
 trace end
 '''
@@ -322,7 +324,7 @@ def append_eidolon_name(cur_eidolon, eidolon_dict, index):
         print('append eidolon %s name: %s' % (lang, cur_eidolon[name_lang_mapping[lang]]))
 
 def append_eidolon_image(character, cur_eidolon):
-    path = util.download_skill_image(character, cur_eidolon['ENname'], 'eidolon', base_dir)
+    path = util.download_hhw_skill_image(character, cur_eidolon['ENname'], 'eidolon', base_dir)
     cur_eidolon['imageurl'] = path
     print('append eidolon image: %s' % path)
 
@@ -362,6 +364,7 @@ def append_eidolon(character, soup_dict):
         append_eidolon_effect(cur_eidolon, eidolon_dict, i)
         eidolon.append(cur_eidolon)
     result['eidolon'] = eidolon
+    print('append eidolon, count: %s' % len(eidolon))
 '''
 eidolon end
 '''
