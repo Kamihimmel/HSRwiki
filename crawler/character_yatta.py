@@ -125,9 +125,17 @@ def append_skill_attr(cur_skill, skill_dict, index):
     teamskill = util.is_team_skill(cur_skill['DescriptionEN'])
     weaknessbreak = skill_en['weaknessBreak']['one'] if skill_en['weaknessBreak'] is not None \
                                                         and 'one' in skill_en['weaknessBreak'] and skill_en['weaknessBreak']['one'] is not None else 0
+    if weaknessbreak == 0:
+        weaknessbreak = skill_en['weaknessBreak']['all'] if skill_en['weaknessBreak'] is not None \
+                                                        and 'all' in skill_en['weaknessBreak'] and skill_en['weaknessBreak']['all'] is not None else 0
     energyregen = skill_en['skillPoints']['base'] if skill_en['skillPoints'] is not None \
                                                      and 'base' in skill_en['skillPoints'] and skill_en['skillPoints']['base'] is not None else 0
+    energyneed = skill_en['skillPoints']['need'] if skill_en['skillPoints'] is not None \
+                                                     and 'need' in skill_en['skillPoints'] and skill_en['skillPoints']['need'] is not None else 0
     cur_skill['stype'] = stype_mapping[stype] if stype in stype_mapping else stype
+    if energyneed > 0:
+        cur_skill['energy'] = energyneed
+        print('append skill energy need: %s' % energyneed)
     cur_skill['maxlevel'] = maxlevel
     cur_skill['buffskill'] = buffskill
     cur_skill['teamskill'] = teamskill
