@@ -22,24 +22,12 @@ def append_name(data_dict):
         print('append %s name: %s' % (lang, result[name_lang_mapping[lang]]))
 
 
-def append_image(lightcone_id):
-    path = 'images/lightcones/%s.png' % lightcone_id
-    result['imageurl'] = path
-    with open(base_dir + '/crawler/yatta/' + path, 'wb') as f:
-        url = 'https://api.yatta.top/hsr/assets/UI/equipment/medium/%s.png' % lightcone_id
-        res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
-        f.write(res.content)
+def append_image(lightcone_id, size):
+    img_ext = 'png'
+    path = 'images/lightcones/%s%s' % (lightcone_id, 'l' if size == 'large' else '')
+    util.download_yatta_image('crawler/yatta/' + path, 'equipment', size + '/' + lightcone_id, img_ext, base_dir)
+    result['imagelargeurl' if size == 'large' else 'imageurl'] = '%s.%s' % (path, img_ext)
     print('append image: %s' % path)
-
-
-def append_image_large(lightcone_id):
-    path = 'images/lightcones/%sl.png' % lightcone_id
-    result['imagelargeurl'] = path
-    with open(base_dir + '/crawler/yatta/' + path, 'wb') as f:
-        url = 'https://api.yatta.top/hsr/assets/UI/equipment/large/%s.png' % lightcone_id
-        res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
-        f.write(res.content)
-    print('append large image: %s' % path)
 
 
 def append_basic(data_dict):
@@ -97,7 +85,6 @@ def append_skill_desc(cur_skill, skill_dict):
 
 
 def append_skill_attr(cur_skill, skill_dict):
-    skill_en = skill_dict['EN']
     buffskill = util.is_buff_skill(cur_skill['DescriptionEN'])
     teamskill = util.is_team_skill(cur_skill['DescriptionEN'])
     cur_skill['maxlevel'] = 5
@@ -165,13 +152,15 @@ def generate_json(lightcone):
     print('generate lib json from yatta for: %s' % lightcone)
     with open(base_dir + '/lib/lightconelist.json', 'r', encoding='utf-8') as f:
         lightcone_info = json.load(f)
-        result['id'] = list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == lightcone.lower(), lightcone_info['data']))[0]['id']
+        result['id'] = list(
+            filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == lightcone.lower(),
+                   lightcone_info['data']))[0]['id']
     with open(base_dir + '/lib/lightcones/%s.json' % result['id'], 'r', encoding='utf-8') as f:
         exist_dict = json.load(f)
     data_dict = {}
     for lang in languages:
         url = 'https://api.yatta.top/hsr/v2/%s/equipment/%s' % (lang, result['id'])
-        res = requests.get(url, headers={'User-Agent': ua.random}, timeout=10)
+        res = requests.get(url, headers={'User-Agent': ua.edge}, timeout=(10, 30))
         print('response: %s' % res.content)
         data = json.loads(res.content)
         if data is None or 'response' not in data or data['response'] != 200:
@@ -179,8 +168,8 @@ def generate_json(lightcone):
             exit(1)
         data_dict[lang] = data['data']
     append_name(data_dict)
-    append_image(result['id'])
-    append_image_large(result['id'])
+    append_image(result['id'], 'medium')
+    append_image(result['id'], 'large')
     append_basic(data_dict)
     append_level(data_dict)
     append_skill(data_dict, exist_dict)

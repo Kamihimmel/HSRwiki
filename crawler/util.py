@@ -8,7 +8,8 @@ from fake_useragent import UserAgent
 
 srs_assets_url = 'https://starrailstation.com/assets'
 yatta_icon_url = 'https://api.yatta.top/hsr/assets/UI/%s/%s.%s'
-dirs = ['', '/lib', '/lib/lightcones', '/lib/relics', '/images', '/images/characters', '/images/skills', '/images/lightcones', '/images/relics']
+dirs = ['', '/lib', '/lib/lightcones', '/lib/relics', '/images', '/images/characters', '/images/skills',
+        '/images/lightcones', '/images/relics']
 ua = UserAgent()
 
 
@@ -46,7 +47,7 @@ def download_hhw_skill_image(character, skill_name, skill_type, base_dir):
         os.mkdir(base_dir + '/' + dir)
     with open(base_dir + '/' + path, 'wb') as f:
         url = 'https://hsr.honeyhunterworld.com/img/%s/%s-%s_icon.webp' % (skill_type, name, skill_type)
-        res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
+        res = requests.get(url, headers={'User-Agent': ua.edge}, timeout=(10, 30))
         f.write(res.content)
     return path
 
@@ -55,7 +56,7 @@ def download_srs_image(path, asset_id, img_type, base_dir):
     path = '%s.%s' % (path, img_type)
     with open(base_dir + '/' + path, 'wb') as f:
         url = '%s/%s.%s' % (srs_assets_url, asset_id, img_type)
-        res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
+        res = requests.get(url, headers={'User-Agent': ua.edge}, timeout=(10, 30))
         f.write(res.content)
     return path
 
@@ -64,16 +65,10 @@ def download_yatta_image(path, img_type, icon, img_ext, base_dir):
     path = '%s.%s' % (path, img_ext)
     with open(base_dir + '/' + path, 'wb') as f:
         url = yatta_icon_url % (img_type, icon, img_ext)
-        res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
-        f.write(res.content)
+        res = requests.get(url, headers={'User-Agent': ua.edge}, timeout=(10, 30))
+        if res is not None and res.content is not None and len(res.content) > 0:
+            f.write(res.content)
     return path
-
-
-def format_percent_number(num):
-    num = float(round(num * 100, 2))
-    if num == int(num):
-        num = int(num)
-    return num
 
 
 def clean_desc_srs(desc):
@@ -86,6 +81,7 @@ def clean_desc_yatta(desc):
     desc = re.sub(r'(<unbreak>#)(\d+)(\[\w+\])(%?)(</unbreak>)', r'[\2]\4', desc)
     desc = desc.replace('\\n', ' ')
     return re.sub(r'</?\w+[^>]*?>', '', desc)
+
 
 def prepare_dirs(source, base_dir):
     for d in dirs:

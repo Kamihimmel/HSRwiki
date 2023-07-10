@@ -124,14 +124,18 @@ def append_skill_attr(cur_skill, skill_dict, index):
     buffskill = util.is_buff_skill(cur_skill['DescriptionEN'])
     teamskill = util.is_team_skill(cur_skill['DescriptionEN'])
     weaknessbreak = skill_en['weaknessBreak']['one'] if skill_en['weaknessBreak'] is not None \
-                                                        and 'one' in skill_en['weaknessBreak'] and skill_en['weaknessBreak']['one'] is not None else 0
+                                                        and 'one' in skill_en['weaknessBreak'] and \
+                                                        skill_en['weaknessBreak']['one'] is not None else 0
     if weaknessbreak == 0:
         weaknessbreak = skill_en['weaknessBreak']['all'] if skill_en['weaknessBreak'] is not None \
-                                                        and 'all' in skill_en['weaknessBreak'] and skill_en['weaknessBreak']['all'] is not None else 0
+                                                            and 'all' in skill_en['weaknessBreak'] and \
+                                                            skill_en['weaknessBreak']['all'] is not None else 0
     energyregen = skill_en['skillPoints']['base'] if skill_en['skillPoints'] is not None \
-                                                     and 'base' in skill_en['skillPoints'] and skill_en['skillPoints']['base'] is not None else 0
+                                                     and 'base' in skill_en['skillPoints'] and skill_en['skillPoints'][
+                                                         'base'] is not None else 0
     energyneed = skill_en['skillPoints']['need'] if skill_en['skillPoints'] is not None \
-                                                     and 'need' in skill_en['skillPoints'] and skill_en['skillPoints']['need'] is not None else 0
+                                                    and 'need' in skill_en['skillPoints'] and skill_en['skillPoints'][
+                                                        'need'] is not None else 0
     cur_skill['stype'] = stype_mapping[stype] if stype in stype_mapping else stype
     if energyneed > 0:
         cur_skill['energy'] = energyneed
@@ -231,7 +235,8 @@ def append_trace_name_and_desc(cur_trace, trace_dict, index):
             desc = util.clean_desc_yatta(trace['description'])
             if 'params' in trace and trace['params'] is not None:
                 for k, v in trace['params'].items():
-                    desc = desc.replace('[%s]' % k, str(util.format_percent_number(v[0]) if '[%s]%%' % k in desc else v[0]))
+                    desc = desc.replace('[%s]' % k,
+                                        str(util.format_percent_number(v[0]) if '[%s]%%' % k in desc else v[0]))
         cur_trace[name_lang_mapping[lang]] = name
         print('append trace %s name: %s' % (lang, name))
         trace_desc['Description' + lang] = desc
@@ -254,7 +259,8 @@ def append_trace_attr(character, cur_trace, trace_dict, index):
     cur_trace['stype'] = 'trace'
     cur_trace['buffskill'] = util.is_buff_skill(cur_trace['ENname'])
     cur_trace['teamskill'] = util.is_team_skill(cur_trace['ENname'])
-    print('append skill stype: %s, buffskill: %s, teamskill: %s' % (cur_trace['stype'], cur_trace['buffskill'], cur_trace['teamskill']))
+    print('append skill stype: %s, buffskill: %s, teamskill: %s' % (
+        cur_trace['stype'], cur_trace['buffskill'], cur_trace['teamskill']))
 
 
 def append_trace_tags(cur_trace, exist_trace):
@@ -328,13 +334,16 @@ def append_eidolon_attr(cur_eidolon, eidolon_dict, index):
         params = eidolon_dict[lang][index]['params']
         if params is not None:
             for i in range(0, len(params)):
-                desc = desc.replace('[%s]' % (i + 1), str(util.format_percent_number(params[i]) if '[%s]%%' % (i + 1) in desc else params[i]))
+                desc = desc.replace('[%s]' % (i + 1),
+                                    str(util.format_percent_number(params[i]) if '[%s]%%' % (i + 1) in desc else params[
+                                        i]))
         cur_eidolon['Description' + lang] = desc
         print('append eidolon %s desc: %s' % (lang, desc))
     cur_eidolon['stype'] = 'eidolon'
     cur_eidolon['buffskill'] = util.is_buff_skill(cur_eidolon['DescriptionEN'])
     cur_eidolon['teamskill'] = util.is_team_skill(cur_eidolon['DescriptionEN'])
-    print('append eidolon stype: %s, buffskill: %s, teamskill: %s' % (cur_eidolon['stype'], cur_eidolon['buffskill'], cur_eidolon['teamskill']))
+    print('append eidolon stype: %s, buffskill: %s, teamskill: %s' % (
+        cur_eidolon['stype'], cur_eidolon['buffskill'], cur_eidolon['teamskill']))
 
 
 def append_eidolon_tags(cur_eidolon, exist_eidolon):
@@ -387,13 +396,16 @@ def generate_json(character):
     c = character.lower().replace('-', '')
     with open(base_dir + '/lib/characterlist.json', 'r', encoding='utf-8') as f:
         character_info = json.load(f)
-        result['id'] = list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '') == c, character_info['data']))[0]['id']
+        result['id'] = \
+            list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '') == c,
+                        character_info['data']))[
+                0]['id']
     with open(base_dir + '/lib/%s.json' % c, 'r', encoding='utf-8') as f:
         exist_dict = json.load(f)
     data_dict = {}
     for lang in languages:
         url = 'https://api.yatta.top/hsr/v2/%s/avatar/%s' % (lang, result['id'])
-        res = requests.get(url, headers={'User-Agent': ua.random}, timeout=10)
+        res = requests.get(url, headers={'User-Agent': ua.edge}, timeout=(10, 30))
         print('response: %s' % res.content)
         data = json.loads(res.content)
         if data is None or 'response' not in data or data['response'] != 200:

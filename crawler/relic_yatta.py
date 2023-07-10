@@ -26,12 +26,10 @@ def append_name(data_dict):
 
 
 def append_image(relic_icon):
-    path = 'images/relics/%s.png' % relic_icon
-    result['imageurl'] = path
-    with open(base_dir + '/crawler/yatta/' + path, 'wb') as f:
-        url = 'https://api.yatta.top/hsr/assets/UI/relic/%s.png' % relic_icon
-        res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
-        f.write(res.content)
+    img_ext = 'png'
+    path = 'images/relics/%s' % relic_icon
+    util.download_yatta_image('crawler/yatta/' + path, 'relic', relic_icon, img_ext, base_dir)
+    result['imageurl'] = '%s.%s' % (path, img_ext)
     print('append image: %s' % path)
 
 
@@ -44,12 +42,10 @@ def append_basic(data_dict):
         p = k.lower()
         part = part_mapping[p] if p in part_mapping else p
         icon = v['icon']
-        path = 'images/relics/%s.png' % icon
-        result[re.sub(r'^.*?\s+', '', part)] = path
-        with open(base_dir + '/crawler/yatta/' + path, 'wb') as f:
-            url = 'https://api.yatta.top/hsr/assets/UI/relic/%s.png' % icon
-            res = requests.get(url, headers={'User-Agent': ua.random}, timeout=30)
-            f.write(res.content)
+        img_ext = 'png'
+        path = 'images/relics/%s' % icon
+        util.download_yatta_image('crawler/yatta/' + path, 'relic', icon, img_ext, base_dir)
+        result[re.sub(r'^.*?\s+', '', part)] = '%s.%s' % (path, img_ext)
         print('append %s image: %s' % (part, path))
 
 
@@ -124,13 +120,15 @@ def generate_json(relic):
     print('generate lib json from yatta for: %s' % relic)
     with open(base_dir + '/lib/reliclist.json', 'r', encoding='utf-8') as f:
         relic_info = json.load(f)
-        result['id'] = list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == relic.lower(), relic_info['data']))[0]['id']
+        result['id'] = list(
+            filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == relic.lower(),
+                   relic_info['data']))[0]['id']
     with open(base_dir + '/lib/relics/%s.json' % result['id'], 'r', encoding='utf-8') as f:
         exist_dict = json.load(f)
     data_dict = {}
     for lang in languages:
         url = 'https://api.yatta.top/hsr/v2/%s/relic/%s' % (lang, result['id'])
-        res = requests.get(url, headers={'User-Agent': ua.random}, timeout=10)
+        res = requests.get(url, headers={'User-Agent': ua.edge}, timeout=(10, 30))
         data = json.loads(res.content)
         if data is None or 'response' not in data or data['response'] != 200:
             print('fetch failed, please try again')
