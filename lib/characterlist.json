@@ -340,9 +340,9 @@
         },
         {
             "id": "1111",
-            "ENname": "Luka(WIP)",
-            "CNname": "卢卡(施工中)",
-            "JAname": "ルカ(建設中)",
+            "ENname": "Luka",
+            "CNname": "卢卡",
+            "JAname": "ルカ",
             "imageurl": "images/characters/luka.png",
             "etype": "physical",
             "wtype": "nihility",
