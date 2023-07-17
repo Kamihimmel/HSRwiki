@@ -299,7 +299,6 @@
             "tags": [
                 "singleatk",
                 "skillatk",
-                "followupatk",
                 "physicalatk"
             ],
             "effect": [
@@ -335,7 +334,7 @@
                     "multipliertarget": "atk",
                     "multiplier": 4,
                     "tag": [
-                        "dotpatk",
+                        "dotatk",
                         "physicalatk"
                     ]
                 }
