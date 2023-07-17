@@ -978,7 +978,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "multipliertarget": "atk",
+                    "addtarget": "atk",
                     "multiplier": 5,
                     "tag": [
                         "self",
