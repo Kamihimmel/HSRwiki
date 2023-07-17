@@ -202,7 +202,7 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 1,
+                    "multiplier": 2,
                     "tag": [
                         "singleatk",
                         "normalatk",
@@ -294,23 +294,6 @@
                     "13": 388.7,
                     "14": 405.6,
                     "15": 422.5
-                },
-                {
-                    "1": 3,
-                    "2": 3,
-                    "3": 3,
-                    "4": 3,
-                    "5": 3,
-                    "6": 3,
-                    "7": 3,
-                    "8": 3,
-                    "9": 3,
-                    "10": 3,
-                    "11": 3,
-                    "12": 3,
-                    "13": 3,
-                    "14": 3,
-                    "15": 3
                 }
             ],
             "tags": [
@@ -331,12 +314,28 @@
                     ]
                 },
                 {
-                    "type": "dmg",
-                    "multipliertarget": "hp",
+                    "type": "debuff",
+                    "multipliertarget": "bleed",
                     "multiplier": 2,
                     "tag": [
-                        "singleatk",
-                        "followupatk",
+                        "bleed"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "hp",
+                    "multiplier": 3,
+                    "tag": [
+                        "dotatk",
+                        "physicalatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "dotpatk",
                         "physicalatk"
                     ]
                 }
@@ -348,9 +347,9 @@
             "CNname": "制胜一击",
             "JAname": "勝利の一撃",
             "imageurl": "images/skills/luka-111103.png",
-            "DescriptionEN": "Receives [5] stack(s) of Fighting Will, with a [2]% base chance to increase a single enemy target's DMG received by [3]% for [4] turn(s). Then, deals Physical DMG equal to [1]% of Luka's ATK to the target.",
-            "DescriptionCN": "获得[5]层【斗志】，并有[2]%的基础概率使指定敌方单体受到的伤害提高[3]%，持续[4]回合，随后对该目标造成等同于卢卡[1]%攻击力的物理属性伤害。",
-            "DescriptionJP": "「闘志」を[5]層獲得し、[2]%の基礎確率で指定した敵単体の被ダメージ+[3]%、[4]ターン継続。指定した敵単体にルカの攻撃力[1]%分の物理ダメージを与える。",
+            "DescriptionEN": "Receives 2 stack(s) of Fighting Will, with a [2]% base chance to increase a single enemy target's DMG received by [3]% for 3 turn(s). Then, deals Physical DMG equal to [1]% of Luka's ATK to the target.",
+            "DescriptionCN": "获得2层【斗志】，并有[2]%的基础概率使指定敌方单体受到的伤害提高[3]%，持续3回合，随后对该目标造成等同于卢卡[1]%攻击力的物理属性伤害。",
+            "DescriptionJP": "「闘志」を2層獲得し、[2]%の基礎確率で指定した敵単体の被ダメージ+[3]%、3ターン継続。指定した敵単体にルカの攻撃力[1]%分の物理ダメージを与える。",
             "stype": "ult",
             "energy": 130,
             "maxlevel": 15,
@@ -377,21 +376,7 @@
                     "15": 396
                 },
                 {
-                    "1": 100,
-                    "2": 100,
-                    "3": 100,
-                    "4": 100,
-                    "5": 100,
-                    "6": 100,
-                    "7": 100,
-                    "8": 100,
-                    "9": 100,
-                    "10": 100,
-                    "11": 100,
-                    "12": 100,
-                    "13": 100,
-                    "14": 100,
-                    "15": 100
+                    "default": 100
                 },
                 {
                     "1": 12,
@@ -409,40 +394,6 @@
                     "13": 22.4,
                     "14": 23.2,
                     "15": 24
-                },
-                {
-                    "1": 3,
-                    "2": 3,
-                    "3": 3,
-                    "4": 3,
-                    "5": 3,
-                    "6": 3,
-                    "7": 3,
-                    "8": 3,
-                    "9": 3,
-                    "10": 3,
-                    "11": 3,
-                    "12": 3,
-                    "13": 3,
-                    "14": 3,
-                    "15": 3
-                },
-                {
-                    "1": 2,
-                    "2": 2,
-                    "3": 2,
-                    "4": 2,
-                    "5": 2,
-                    "6": 2,
-                    "7": 2,
-                    "8": 2,
-                    "9": 2,
-                    "10": 2,
-                    "11": 2,
-                    "12": 2,
-                    "13": 2,
-                    "14": 2,
-                    "15": 2
                 }
             ],
             "tags": [
@@ -454,16 +405,24 @@
                 {
                     "type": "debuff",
                     "multipliertarget": "dmgreceive",
-                    "multiplier": 1,
+                    "multiplier": 2,
                     "tag": [
                         "singleenemy",
                         "dmgreceive"
                     ]
                 },
                 {
+                    "type": "debuff",
+                    "multipliertarget": "dmgreceive",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk"
+                    ]
+                },
+                {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 2,
+                    "multiplier": 1,
                     "tag": [
                         "singleatk",
                         "ultatk",
@@ -478,9 +437,9 @@
             "CNname": "火花四溅",
             "JAname": "飛び散る火花",
             "imageurl": "images/skills/luka-111104.png",
-            "DescriptionEN": "After Luka uses his Basic ATK or Skill, he receives [1] stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to [2]% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
-            "DescriptionCN": "卢卡在施放普攻和战技后，获得[1]层【斗志】，最多可持有4层【斗志】。当持有的【斗志】大于等于2层时，普攻【直冲拳】强化为【直冲碎天拳】。当强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标后，则使其当前承受的裂伤状态立即产生1次相当于原伤害[2]%的伤害。战斗开始时，卢卡持有1层【斗志】。",
-            "DescriptionJP": "ルカが通常攻撃または戦闘スキルを発動した後、「闘志」を[1]層獲得する。「闘志」は最大で4層累積できる。「闘志」が2層以上の時、通常攻撃「裂地拳」が「裂地砕天拳」に強化される。強化通常攻撃の「砕天拳」が裂創状態の敵に命中した後、その敵に付与された裂創状態が、本来のダメージ[2]%分のダメージを発生する。戦闘開始時、ルカは「闘志」を1層獲得する。",
+            "DescriptionEN": "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to [1]% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+            "DescriptionCN": "卢卡在施放普攻和战技后，获得1层【斗志】，最多可持有4层【斗志】。当持有的【斗志】大于等于2层时，普攻【直冲拳】强化为【直冲碎天拳】。当强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标后，则使其当前承受的裂伤状态立即产生1次相当于原伤害[1]%的伤害。战斗开始时，卢卡持有1层【斗志】。",
+            "DescriptionJP": "ルカが通常攻撃または戦闘スキルを発動した後、「闘志」を1層獲得する。「闘志」は最大で4層累積できる。「闘志」が2層以上の時、通常攻撃「裂地拳」が「裂地砕天拳」に強化される。強化通常攻撃の「砕天拳」が裂創状態の敵に命中した後、その敵に付与された裂創状態が、本来のダメージ[1]%分のダメージを発生する。戦闘開始時、ルカは「闘志」を1層獲得する。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": false,
@@ -488,23 +447,6 @@
             "weaknessbreak": 0,
             "energyregen": 0,
             "levelmultiplier": [
-                {
-                    "1": 1,
-                    "2": 1,
-                    "3": 1,
-                    "4": 1,
-                    "5": 1,
-                    "6": 1,
-                    "7": 1,
-                    "8": 1,
-                    "9": 1,
-                    "10": 1,
-                    "11": 1,
-                    "12": 1,
-                    "13": 1,
-                    "14": 1,
-                    "15": 1
-                },
                 {
                     "1": 68,
                     "2": 69.7,
@@ -528,8 +470,8 @@
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "atk",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
                         "physicalatk"
@@ -559,9 +501,17 @@
             ],
             "effect": [
                 {
+                    "type": "debuff",
+                    "multipliertarget": "bleed",
+                    "multiplier": 100,
+                    "tag": [
+                        "bleed"
+                    ]
+                },
+                {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 26,
+                    "multiplier": 50,
                     "tag": [
                         "singleatk",
                         "physicalatk"
@@ -587,8 +537,7 @@
             "tags": [
                 "singleenemy",
                 "special"
-            ],
-            "effect": []
+            ]
         },
         {
             "id": "1111102",
@@ -636,17 +585,6 @@
                 "buff",
                 "self",
                 "physicalatk"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "speed",
-                    "multiplier": 10,
-                    "tag": [
-                        "self",
-                        "speed"
-                    ]
-                }
             ]
         },
         {
@@ -972,7 +910,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "ultatk",
+                    "addtarget": "alldmg",
                     "multiplier": 15,
                     "tag": [
                         "self",
@@ -997,8 +935,8 @@
             "tags": [
                 "self",
                 "special"
-            ],
-            "effect": []
+            ]
+            
         },
         {
             "id": "111103",
@@ -1017,8 +955,7 @@
                 "buff",
                 "special",
                 "self"
-            ],
-            "effect": []
+            ]
         },
         {
             "id": "111104",
@@ -1040,9 +977,9 @@
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "normalatk",
-                    "multiplier": 100,
+                    "type": "buff",
+                    "multipliertarget": "atk",
+                    "multiplier": 5,
                     "tag": [
                         "self",
                         "atk"
@@ -1067,8 +1004,7 @@
                 "buff",
                 "special",
                 "self"
-            ],
-            "effect": []
+            ]
         },
         {
             "id": "111106",
@@ -1087,7 +1023,17 @@
                 "singleenemy",
                 "physicalatk"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "normalatk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "normalatk"
+                    ]
+                }
+            ]
         }
     ]
 }
