@@ -17,8 +17,40 @@
             "DescriptionJP": "装備キャラの会心率+8%。装備キャラの会心率が70%以上の時、通常攻撃と戦闘スキルの与ダメージ+20%。",
             "buffskill": true,
             "teamskill": false,
-            "tags": [],
-            "effect": []
+            "tags": [
+                "critrate",
+                "normalatk",
+                "skillatk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "normalatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "normalatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "skillatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "skillatk"
+                    ]
+                }
+            ]
         }
     ]
 }

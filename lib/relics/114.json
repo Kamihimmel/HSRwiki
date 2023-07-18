@@ -19,8 +19,20 @@
             "DescriptionJP": "速度+6%。",
             "buffskill": true,
             "teamskill": false,
-            "tags": [],
-            "effect": []
+            "tags": [
+                "speed"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
+            ]
         },
         {
             "ENname": "4 Set Effect",
@@ -31,8 +43,20 @@
             "DescriptionJP": "装備キャラが味方に対して必殺技を発動した時、味方全体の速度+12%、1ターン継続。この効果は累積できない。",
             "buffskill": true,
             "teamskill": false,
-            "tags": [],
-            "effect": []
+            "tags": [
+                "allally"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 12,
+                    "tag": [
+                        "allally",
+                        "speed"
+                    ]
+                }
+            ]
         }
     ]
 }

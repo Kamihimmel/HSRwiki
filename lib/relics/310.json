@@ -17,8 +17,30 @@
             "DescriptionJP": "装備キャラの効果抵抗+10%。装備キャラの効果抵抗が30%以上の時、味方全体の会心ダメージ+10%。",
             "buffskill": true,
             "teamskill": false,
-            "tags": [],
-            "effect": []
+            "tags": [
+                "effectres",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "normalatk",
+                    "multiplier": 10,
+                    "tag": [
+                        "allally",
+                        "critdmg"
+                    ]
+                }
+            ]
         }
     ]
 }

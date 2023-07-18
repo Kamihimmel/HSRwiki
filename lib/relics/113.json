@@ -19,8 +19,20 @@
             "DescriptionJP": "最大HP+12%。",
             "buffskill": true,
             "teamskill": false,
-            "tags": [],
-            "effect": []
+            "tags": [
+                "maxhp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 12,
+                    "tag": [
+                        "self",
+                        "maxhp"
+                    ]
+                }
+            ]
         },
         {
             "ENname": "4 Set Effect",
@@ -31,8 +43,20 @@
             "DescriptionJP": "装備キャラが攻撃を受ける、または味方によってHPを消費させられた後、会心率+8%、2ターン継続。この効果は最大で2層累積できる。",
             "buffskill": true,
             "teamskill": false,
-            "tags": [],
-            "effect": []
+            "tags": [
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
         }
     ]
 }
