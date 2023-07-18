@@ -231,7 +231,7 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 2,
+                    "multiplier": 3,
                     "tag": [
                         "blastatk",
                         "skillatk",
@@ -245,7 +245,7 @@
                     "referencetargetCN": "当前承受的所有持续伤害",
                     "referencetargetJP": "付与された全持続ダメージ",
                     "multipliertarget": "dmg",
-                    "multiplier": 3,
+                    "multiplier": 2,
                     "tag": [
                         "dotatk"
                     ]
@@ -287,21 +287,7 @@
                     "15": 96
                 },
                 {
-                    "1": 100,
-                    "2": 100,
-                    "3": 100,
-                    "4": 100,
-                    "5": 100,
-                    "6": 100,
-                    "7": 100,
-                    "8": 100,
-                    "9": 100,
-                    "10": 100,
-                    "11": 100,
-                    "12": 100,
-                    "13": 100,
-                    "14": 100,
-                    "15": 100
+                    "default": 100
                 },
                 {
                     "1": 2,
@@ -387,7 +373,7 @@
                     "referencetargetCN": "触电持续伤害",
                     "referencetargetJP": "感電持続ダメージ",
                     "multipliertarget": "dmg",
-                    "multiplier": 3,
+                    "multiplier": 5,
                     "tag": [
                         "aoe",
                         "dotatk",
@@ -560,8 +546,7 @@
                 "buff",
                 "special",
                 "self"
-            ],
-            "effect": []
+            ]
         },
         {
             "id": "1005102",
@@ -610,8 +595,7 @@
                 "buff",
                 "special",
                 "self"
-            ],
-            "effect": []
+            ]
         },
         {
             "id": "1005201",
@@ -933,7 +917,26 @@
                 "special",
                 "self"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "dotdmg",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy",
+                        "dotdmg"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "dotatk",
+                    "multiplier": 30,
+                    "tag": [
+                        "self",
+                        "dotatk"
+                    ]
+                }
+            ]
         },
         {
             "id": "100502",
@@ -981,8 +984,7 @@
                 "buff",
                 "special",
                 "self"
-            ],
-            "effect": []
+            ]
         },
         {
             "id": "100504",
@@ -1002,7 +1004,17 @@
                 "special",
                 "self"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "buff",
+                    "multipliertarget": "energy",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
         },
         {
             "id": "100505",
@@ -1021,8 +1033,7 @@
                 "buff",
                 "special",
                 "self"
-            ],
-            "effect": []
+            ]
         },
         {
             "id": "100506",
@@ -1041,7 +1052,17 @@
                 "self",
                 "buff"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "buff",
+                    "multipliertarget": "dotdmg",
+                    "multiplier": 156,
+                    "tag": [
+                        "dotdmg",
+                        "shocked"
+                    ]
+                }
+            ]
         }
     ]
 }
