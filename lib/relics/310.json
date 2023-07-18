@@ -33,7 +33,7 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "normalatk",
+                    "addtarget": "critdmg",
                     "multiplier": 10,
                     "tag": [
                         "allally",
