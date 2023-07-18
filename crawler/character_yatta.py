@@ -166,12 +166,14 @@ def append_skill_levelmultiplier(cur_skill, skill_dict, index):
     print('append skill levelmultiplier, count: %s' % len(levelmultiplier))
 
 
-def append_skill_tags(cur_skill, skill_dict, index, exist_skill):
-    cur_skill['tags'] = exist_skill['tags'] if 'tags' in exist_skill else []
+def append_skill_tags(cur_skill, exist_skill):
+    if 'tags' in exist_skill and len(exist_skill['tags']) > 0:
+        cur_skill['tags'] = exist_skill['tags']
 
 
-def append_skill_effect(cur_skill, skill_dict, index, exist_skill):
-    cur_skill['effect'] = exist_skill['effect'] if 'effect' in exist_skill else []
+def append_skill_effect(cur_skill, exist_skill):
+    if 'effect' in exist_skill and len(exist_skill['effect']) > 0:
+        cur_skill['effect'] = exist_skill['effect']
 
 
 def compare_skill(s, d):
@@ -201,8 +203,8 @@ def append_skill(character, data_dict, exist_dict):
         append_skill_levelmultiplier(cur_skill, skill_dict, i)
         find = list(filter(lambda s: compare_skill(s, cur_skill), exist_skills))
         exist_skill = find[0] if len(find) > 0 else {}
-        append_skill_tags(cur_skill, skill_dict, i, exist_skill)
-        append_skill_effect(cur_skill, skill_dict, i, exist_skill)
+        append_skill_tags(cur_skill, exist_skill)
+        append_skill_effect(cur_skill, exist_skill)
         skilldata.append(cur_skill)
     result['skilldata'] = skilldata
     print('append skilldata, count: %s' % len(skilldata))
@@ -264,11 +266,13 @@ def append_trace_attr(character, cur_trace, trace_dict, index):
 
 
 def append_trace_tags(cur_trace, exist_trace):
-    cur_trace['tags'] = exist_trace['tags'] if 'tags' in exist_trace else []
+    if 'tags' in exist_trace and len(exist_trace['tags']) > 0:
+        cur_trace['tags'] = exist_trace['tags']
 
 
 def append_trace_effect(cur_trace, exist_trace):
-    cur_trace['effect'] = exist_trace['effect'] if 'effect' in exist_trace else []
+    if 'effect' in exist_trace and len(exist_trace['effect']) > 0:
+        cur_trace['effect'] = exist_trace['effect']
 
 
 def compare_trace(s, d):
@@ -347,11 +351,13 @@ def append_eidolon_attr(cur_eidolon, eidolon_dict, index):
 
 
 def append_eidolon_tags(cur_eidolon, exist_eidolon):
-    cur_eidolon['tags'] = exist_eidolon['tags'] if 'tags' in exist_eidolon else []
+    if 'tags' in exist_eidolon and len(exist_eidolon['tags']) > 0:
+        cur_eidolon['tags'] = exist_eidolon['tags']
 
 
 def append_eidolon_effect(cur_eidolon, exist_eidolon):
-    cur_eidolon['effect'] = exist_eidolon['effect'] if 'effect' in exist_eidolon else []
+    if 'effect' in exist_eidolon and len(exist_eidolon['effect']) > 0:
+        cur_eidolon['effect'] = exist_eidolon['effect']
 
 
 def compare_eidolon(s, d):
