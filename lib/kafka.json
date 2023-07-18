@@ -287,7 +287,21 @@
                     "15": 96
                 },
                 {
-                    "default": 100
+                    "1": 100,
+                    "2": 100,
+                    "3": 100,
+                    "4": 100,
+                    "5": 100,
+                    "6": 100,
+                    "7": 100,
+                    "8": 100,
+                    "9": 100,
+                    "10": 100,
+                    "11": 100,
+                    "12": 100,
+                    "13": 100,
+                    "14": 100,
+                    "15": 100
                 },
                 {
                     "1": 2,
@@ -400,7 +414,7 @@
             "imageurl": "images/skills/kafka-100504.png",
             "DescriptionEN": "After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to [1]% of her ATK to that target, with a [2]% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target for [3] turns. This effect can only be triggered 1 time per turn.",
             "DescriptionCN": "当卡芙卡的队友对敌方目标施放普攻后，卡芙卡立即发动追加攻击，对该目标造成等同于卡芙卡[1]%攻击力的雷属性伤害，并有[2]%的基础概率使受到攻击的敌方目标陷入与终结技相同的触电状态，持续[3]回合，该效果每回合只能触发1次。",
-            "DescriptionJP": "カフカのチームメイトが敵に通常攻撃を行うと、カフカは追加攻撃を行い、その敵にカフカの攻撃力[1]%分の雷属性ダメージを与え、更に[2]%の基礎確率で攻撃を受けた敵を必殺技と同じ感電状態にする、[3]ターン継続。この効果はターンが回って来るたびに1回発動できる。",
+            "DescriptionJP": "カフカ以外の味方が敵に通常攻撃を行った後、カフカは追加攻撃を行い、その敵にカフカの攻撃力[1]%分の雷属性ダメージを与え、[2]%の基礎確率で攻撃を受けた敵を必殺技が与えるものと同じ感電状態にする、[3]ターン継続。この効果はターンが回って来るたびに1回まで発動できる。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": false,
@@ -535,7 +549,7 @@
             "ENname": "Torture",
             "CNname": "折磨",
             "JAname": "苛み",
-            "DescriptionEN": "When the Ultimate is used, enemy targets will now immediately receive DMG from all currently applied DoT sources instead of immediately receiving DMG from the currently applied Shock state.",
+            "DescriptionEN": "When the Ultimate is used, enemy targets will now receive DMG immediately from all currently applied DoT sources instead of just receiving DMG immediately from the currently applied Shock state.",
             "DescriptionCN": "施放终结技时，敌方目标由「其当前承受的触电状态立即产生伤害」变更为「其当前承受的所有持续伤害类负面状态立即产生伤害」。",
             "DescriptionJP": "必殺技を発動した時、敵は「付与された感電状態がダメージを発生する」から「付与されたすべての持続ダメージ系デバフがダメージを発生する」に変更される。",
             "imageurl": "images/skills/kafka-1005101.png",

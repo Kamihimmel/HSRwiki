@@ -77,11 +77,13 @@ def append_skill_attr(cur_skill, skill_dict, index):
 
 
 def append_skill_tags(cur_skill, exist_skill):
-    cur_skill['tags'] = exist_skill['tags'] if 'tags' in exist_skill else []
+    if 'tags' in exist_skill and len(exist_skill['tags']) > 0:
+        cur_skill['tags'] = exist_skill['tags']
 
 
 def append_skill_effect(cur_skill, exist_skill):
-    cur_skill['effect'] = exist_skill['effect'] if 'effect' in exist_skill else []
+    if 'effect' in exist_skill and len(exist_skill['effect']) > 0:
+        cur_skill['effect'] = exist_skill['effect']
 
 
 def compare_skill(s, d):
