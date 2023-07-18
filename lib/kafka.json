@@ -924,7 +924,7 @@
                     "multiplier": 100,
                     "tag": [
                         "allenemy",
-                        "dotdmg"
+                        "dotatk"
                     ]
                 },
                 {
@@ -1058,7 +1058,7 @@
                     "addtarget": "dotatk",
                     "multiplier": 156,
                     "tag": [
-                        "dotdmg",
+                        "dotatk",
                         "shocked"
                     ]
                 }
