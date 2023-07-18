@@ -920,7 +920,7 @@
             "effect": [
                 {
                     "type": "debuff",
-                    "multipliertarget": "dotdmg",
+                    "multipliertarget": "dotatk",
                     "multiplier": 100,
                     "tag": [
                         "allenemy",
@@ -1007,7 +1007,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "multipliertarget": "energy",
+                    "addtarget": "energy",
                     "multiplier": 2,
                     "tag": [
                         "self",
@@ -1055,7 +1055,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "multipliertarget": "dotdmg",
+                    "addtarget": "dotatk",
                     "multiplier": 156,
                     "tag": [
                         "dotdmg",
