@@ -7299,9 +7299,9 @@
             "CNname": "无间剑树",
             "JAname": "無間剣樹",
             "imageurl": "images/skills/blade-120508.png",
-            "DescriptionEN": "Consumes HP equal to [1]% of Blade's Max HP and deals Wind DMG equal to the sum of [2]% of his ATK and [4]% of his Max HP to a single enemy. In addition, deals Wind DMG equal to the sum of [3]% of Blade's ATK and [5]% of his Max HP to adjacent targets. If Blade's current HP is insufficient, his HP will be reduced to 1 when using Forest of Swords. Forest of Swords cannot regenerate Skill Points.",
-            "DescriptionCN": "消耗等同于刃生命上限[1]%的生命值，对指定敌方单体造成等同于刃[2]%攻击力+[4]%生命上限的风属性伤害，同时对其相邻目标造成等同于刃[3]%攻击力+[5]%生命上限的风属性伤害。 若当前生命值不足，施放【无间剑树】时刃的当前生命值降低至1点。 【无间剑树】无法恢复战技点。",
-            "DescriptionJP": "刃のHPを最大HP[1]%分消費し、指定した敵単体に刃の攻撃力[2]%+最大HP[4]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[3]%+最大HP[5]%分の風属性ダメージを与える。 残りHPが足りない場合、「無間剣樹」を発動した時、刃の残りHPが1になる。 「無間剣樹」はSPを回復できない。",
+            "DescriptionEN": "Consumes HP equal to 10% of Blade's Max HP and deals Wind DMG equal to the sum of [2]% of his ATK and [4]% of his Max HP to a single enemy. In addition, deals Wind DMG equal to the sum of [3]% of Blade's ATK and [5]% of his Max HP to adjacent targets. If Blade's current HP is insufficient, his HP will be reduced to 1 when using Forest of Swords. Forest of Swords cannot regenerate Skill Points.",
+            "DescriptionCN": "消耗等同于刃生命上限10%的生命值，对指定敌方单体造成等同于刃[2]%攻击力+[4]%生命上限的风属性伤害，同时对其相邻目标造成等同于刃[3]%攻击力+[5]%生命上限的风属性伤害。 若当前生命值不足，施放【无间剑树】时刃的当前生命值降低至1点。 【无间剑树】无法恢复战技点。",
+            "DescriptionJP": "刃のHPを最大HP10%分消費し、指定した敵単体に刃の攻撃力[2]%+最大HP[4]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[3]%+最大HP[5]%分の風属性ダメージを与える。 残りHPが足りない場合、「無間剣樹」を発動した時、刃の残りHPが1になる。 「無間剣樹」はSPを回復できない。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -7310,15 +7310,7 @@
             "energyregen": 30,
             "levelmultiplier": [
                 {
-                    "1": 10,
-                    "2": 10,
-                    "3": 10,
-                    "4": 10,
-                    "5": 10,
-                    "6": 10,
-                    "7": 10,
-                    "8": 10,
-                    "9": 10
+                    "default": 10
                 },
                 {
                     "1": 20,
@@ -7370,7 +7362,43 @@
                 "normalatk",
                 "windatk"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 4,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                }
+            ]
         },
         {
             "characterid": "1205",
@@ -7379,9 +7407,9 @@
             "CNname": "地狱变",
             "JAname": "地獄変",
             "imageurl": "images/skills/blade-120502.png",
-            "DescriptionEN": "Consumes HP equal to [1]% of Blade's Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by [4]%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for [2] turn(s). If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn.",
-            "DescriptionCN": "消耗等同于刃生命上限[1]%的生命值，进入【地狱变】状态。 处于【地狱变】状态时无法施放战技，同时使自身造成的伤害提高[4]%，普攻【支离剑】强化为【无间剑树】，持续[2]回合。 若当前生命值不足，施放战技时刃的当前生命值降低至1点。 该战技无法恢复能量。施放该战技后，本回合不会结束。",
-            "DescriptionJP": "刃のHPを最大HP[1]%分消費して「地獄変」状態に入る。 「地獄変」状態では戦闘スキルを発動できず、自身の与ダメージ+[4]%、通常攻撃「支離剣」が「無間剣樹」に強化される、[2]ターン継続。 残りHPが足りない場合、戦闘スキルを発動した時、刃の残りHPが1になる。 この戦闘スキルはEPを回復できない。この戦闘スキルを発動した後、ターンは終了しない。",
+            "DescriptionEN": "Consumes HP equal to 30% of Blade's Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by [1]%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn.",
+            "DescriptionCN": "消耗等同于刃生命上限30%的生命值，进入【地狱变】状态。 处于【地狱变】状态时无法施放战技，同时使自身造成的伤害提高[1]%，普攻【支离剑】强化为【无间剑树】，持续3回合。 若当前生命值不足，施放战技时刃的当前生命值降低至1点。 该战技无法恢复能量。施放该战技后，本回合不会结束。",
+            "DescriptionJP": "刃のHPを最大HP30%分消費して「地獄変」状態に入る。 「地獄変」状態では戦闘スキルを発動できず、自身の与ダメージ+[1]%、通常攻撃「支離剣」が「無間剣樹」に強化される、3ターン継続。 残りHPが足りない場合、戦闘スキルを発動した時、刃の残りHPが1になる。 この戦闘スキルはEPを回復できない。この戦闘スキルを発動した後、ターンは終了しない。",
             "stype": "skill",
             "maxlevel": 15,
             "buffskill": true,
@@ -7390,55 +7418,7 @@
             "energyregen": 0,
             "levelmultiplier": [
                 {
-                    "1": 30,
-                    "2": 30,
-                    "3": 30,
-                    "4": 30,
-                    "5": 30,
-                    "6": 30,
-                    "7": 30,
-                    "8": 30,
-                    "9": 30,
-                    "10": 30,
-                    "11": 30,
-                    "12": 30,
-                    "13": 30,
-                    "14": 30,
-                    "15": 30
-                },
-                {
-                    "1": 3,
-                    "2": 3,
-                    "3": 3,
-                    "4": 3,
-                    "5": 3,
-                    "6": 3,
-                    "7": 3,
-                    "8": 3,
-                    "9": 3,
-                    "10": 3,
-                    "11": 3,
-                    "12": 3,
-                    "13": 3,
-                    "14": 3,
-                    "15": 3
-                },
-                {
-                    "1": 1,
-                    "2": 1,
-                    "3": 1,
-                    "4": 1,
-                    "5": 1,
-                    "6": 1,
-                    "7": 1,
-                    "8": 1,
-                    "9": 1,
-                    "10": 1,
-                    "11": 1,
-                    "12": 1,
-                    "13": 1,
-                    "14": 1,
-                    "15": 1
+                    "default": 30
                 },
                 {
                     "1": 12,
@@ -7463,7 +7443,17 @@
                 "self",
                 "alldmg"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
         },
         {
             "characterid": "1205",
@@ -7472,9 +7462,9 @@
             "CNname": "大辟万死",
             "JAname": "大辟万死",
             "imageurl": "images/skills/blade-120503.png",
-            "DescriptionEN": "Sets Blade's current HP to 50% of his Max HP and deals to a single enemy Wind DMG equal to the sum of [1]% of his ATK, [2]% of his Max HP, and [5]% of the total HP he has lost in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of [3]% of his ATK, [4]% of his Max HP, and [6]% of the total HP he has lost in the current battle. The total HP Blade has lost in the current battle is capped at [7]% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
-            "DescriptionCN": "将刃的当前生命值转化为生命上限的50%，并对敌方单体造成等同于刃[1]%攻击力+[2]%生命上限+[5]%本场战斗中累计已损失生命值的风属性伤害，同时对其相邻目标造成等同于刃[3]%攻击力+[4]%生命上限+[6]%本场战斗中累计已损失生命值的风属性伤害。 本场战斗中累计已损失生命值最高不超过刃生命上限的[7]%，施放终结技后会清空并进行重新累计。",
-            "DescriptionJP": "刃の残りHPを最大HPの50%にし、敵単体に刃の攻撃力[1]%+最大HP[2]%+戦闘中失った累計HP[5]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[3]%+最大HP[4]%+戦闘中失った累計HP[6]%分の風属性ダメージを与える。 戦闘中失った累計HPのカウントは、刃の最大HPの[7]%を超えず、必殺技を発動した後にリセットされる。",
+            "DescriptionEN": "Sets Blade's current HP to 50% of his Max HP and deals to a single enemy Wind DMG equal to the sum of [1]% of his ATK, [2]% of his Max HP, and [3]% of the total HP he has lost in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of [4]% of his ATK, [5]% of his Max HP, and [6]% of the total HP he has lost in the current battle. The total HP Blade has lost in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+            "DescriptionCN": "将刃的当前生命值转化为生命上限的50%，并对敌方单体造成等同于刃[1]%攻击力+[2]%生命上限+[3]%本场战斗中累计已损失生命值的风属性伤害，同时对其相邻目标造成等同于刃[4]%攻击力+[5]%生命上限+[6]%本场战斗中累计已损失生命值的风属性伤害。 本场战斗中累计已损失生命值最高不超过刃生命上限的90%，施放终结技后会清空并进行重新累计。",
+            "DescriptionJP": "刃の残りHPを最大HPの50%にし、敵単体に刃の攻撃力[1]%+最大HP[2]%+戦闘中失った累計HP[3]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[4]%+最大HP[5]%+戦闘中失った累計HP[6]%分の風属性ダメージを与える。 戦闘中失った累計HPのカウントは、刃の最大HPの90%を超えず、必殺技を発動した後にリセットされる。",
             "stype": "ult",
             "energy": 130,
             "maxlevel": 15,
@@ -7499,6 +7489,23 @@
                     "13": 44.8,
                     "14": 46.4,
                     "15": 48
+                },
+                {
+                    "1": 60,
+                    "2": 64,
+                    "3": 68,
+                    "4": 72,
+                    "5": 76,
+                    "6": 80,
+                    "7": 85,
+                    "8": 90,
+                    "9": 95,
+                    "10": 100,
+                    "11": 104,
+                    "12": 108,
+                    "13": 112,
+                    "14": 116,
+                    "15": 120
                 },
                 {
                     "1": 60,
@@ -7552,23 +7559,6 @@
                     "15": 48
                 },
                 {
-                    "1": 60,
-                    "2": 64,
-                    "3": 68,
-                    "4": 72,
-                    "5": 76,
-                    "6": 80,
-                    "7": 85,
-                    "8": 90,
-                    "9": 95,
-                    "10": 100,
-                    "11": 104,
-                    "12": 108,
-                    "13": 112,
-                    "14": 116,
-                    "15": 120
-                },
-                {
                     "1": 24,
                     "2": 25.6,
                     "3": 27.2,
@@ -7584,30 +7574,68 @@
                     "13": 44.8,
                     "14": 46.4,
                     "15": 48
-                },
-                {
-                    "1": 90,
-                    "2": 90,
-                    "3": 90,
-                    "4": 90,
-                    "5": 90,
-                    "6": 90,
-                    "7": 90,
-                    "8": 90,
-                    "9": 90,
-                    "10": 90,
-                    "11": 90,
-                    "12": 90,
-                    "13": 90,
-                    "14": 90,
-                    "15": 90
                 }
             ],
             "tags": [
                 "aoe",
                 "ultatk"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "losthp",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "allenemy",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 5,
+                    "tag": [
+                        "allenemy",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "losthp",
+                    "multiplier": 6,
+                    "tag": [
+                        "allenemy",
+                        "windatk"
+                    ]
+                }
+            ]
         },
         {
             "characterid": "1205",
@@ -7626,23 +7654,6 @@
             "weaknessbreak": 30,
             "energyregen": 10,
             "levelmultiplier": [
-                {
-                    "1": 3,
-                    "2": 3,
-                    "3": 3,
-                    "4": 3,
-                    "5": 3,
-                    "6": 3,
-                    "7": 3,
-                    "8": 3,
-                    "9": 3,
-                    "10": 3,
-                    "11": 3,
-                    "12": 3,
-                    "13": 3,
-                    "14": 3,
-                    "15": 3
-                },
                 {
                     "1": 22,
                     "2": 24.2,
@@ -7699,7 +7710,37 @@
                 "followupatk",
                 "heal"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "allenemy",
+                        "windatk",
+                        "followupatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 3,
+                    "tag": [
+                        "allenemy",
+                        "windatk",
+                        "followupatk"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 2,
+                    "tag": [
+                        "heal",
+                        "maxhp"
+                    ]
+                }
+            ]
         },
         {
             "characterid": "1205",
@@ -7718,9 +7759,20 @@
             "weaknessbreak": 60,
             "energyregen": 0,
             "tags": [
-                "buff"
+                "windatk",
+                "allenemy"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 40,
+                    "tag": [
+                        "allenemy",
+                        "windatk"
+                    ]
+                }
+            ]
         },
         {
             "characterid": "1206",
