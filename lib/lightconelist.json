@@ -790,7 +790,7 @@
             "wtype": "nihility",
             "rarity": "5",
             "infourl": "lib/lightcones/23006.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "23009",
@@ -798,10 +798,10 @@
             "CNname": "到不了的彼岸",
             "JAname": "着かない彼岸",
             "imageurl": "images/lightcones/23009.png",
-            "wtype": "nihility",
+            "wtype": "destruction",
             "rarity": "5",
             "infourl": "lib/lightcones/23009.json",
-            "spoiler": true
+            "spoiler": false
         }
     ]
 }
