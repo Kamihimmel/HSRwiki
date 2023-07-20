@@ -38,6 +38,7 @@ jobs:
         cd ${GITHUB_WORKSPACE}/crawler
         tree yatta
         for c in $(cat ../lib/reliclist.json| jq -r '.data[]|select(.spoiler==true)|.id'); do
+          [ ! -f yatta/lib/relics/${c,,}.json ] && continue
           echo -e "\033[32mdiff yatta/lib/relics/${c,,}.json ../lib/relics/${c,,}.json\033[0m"
           (diff yatta/lib/relics/${c,,}.json ../lib/relics/${c,,}.json) || true
           echo '------------------------------------------------'
