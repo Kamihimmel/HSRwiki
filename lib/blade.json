@@ -1,9 +1,10 @@
 {
+    "id": "1205",
     "ENname": "Blade",
     "CNname": "刃",
     "JAname": "刃",
-    "imageurl": "images/characters/blade.webp",
-    "imagelargeurl": "images/characters/bladelarge.webp",
+    "imageurl": "images/characters/blade.png",
+    "imagelargeurl": "images/characters/bladelarge.png",
     "etype": "wind",
     "wtype": "destruction",
     "rarity": "5",
@@ -13,83 +14,96 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 185,
+            "hp": 184.8,
             "atk": 73.92,
             "def": 66
         },
         {
             "level": "20",
-            "hp": 360,
+            "hp": 360.36,
             "atk": 144.14,
             "def": 128.7
         },
         {
             "level": "20+",
-            "hp": 434,
+            "hp": 434.28,
             "atk": 173.71,
             "def": 155.1
         },
         {
+            "level": "30",
+            "hp": 526.68,
+            "atk": 210.67,
+            "def": 188.1
+        },
+        {
+            "level": "30+",
+            "hp": 600.6,
+            "atk": 240.24,
+            "def": 214.5
+        },
+        {
             "level": "40",
-            "hp": 693,
+            "hp": 693.0,
             "atk": 277.2,
             "def": 247.5
         },
         {
             "level": "40+",
-            "hp": 767,
+            "hp": 766.92,
             "atk": 306.77,
             "def": 273.9
         },
         {
             "level": "50",
-            "hp": 859,
+            "hp": 859.32,
             "atk": 343.73,
             "def": 306.9
         },
         {
             "level": "50+",
-            "hp": 933,
+            "hp": 933.24,
             "atk": 373.3,
             "def": 333.3
         },
         {
             "level": "60",
-            "hp": 1026,
+            "hp": 1025.64,
             "atk": 410.26,
             "def": 366.3
         },
         {
             "level": "60+",
-            "hp": 1100,
+            "hp": 1099.56,
             "atk": 439.82,
             "def": 392.7
         },
         {
             "level": "70",
-            "hp": 1192,
+            "hp": 1191.96,
             "atk": 476.78,
             "def": 425.7
         },
         {
             "level": "70+",
-            "hp": 1266,
+            "hp": 1265.88,
             "atk": 506.35,
             "def": 452.1
         },
         {
             "level": "80",
-            "hp": 1358,
+            "hp": 1358.28,
             "atk": 543.31,
             "def": 485.1
         }
     ],
     "skilldata": [
         {
+            "id": "120501",
             "ENname": "Shard Sword",
             "CNname": "支离剑",
             "JAname": "支離剣",
-            "imageurl": "images/skills/bladena.webp",
+            "imageurl": "images/skills/blade-120501.png",
             "DescriptionEN": "Deals [1]% of Blade's ATK as Wind DMG to a target enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于刃[1]%攻击力的风属性伤害。",
             "DescriptionJP": "指定した敵単体に刃の攻撃力[1]%分の風属性ダメージを与える。",
@@ -131,13 +145,14 @@
             ]
         },
         {
+            "id": "120508",
             "ENname": "Forest of Swords",
             "CNname": "无间剑树",
             "JAname": "無間剣樹",
-            "imageurl": "images/skills/bladena2.webp",
-            "DescriptionEN": "Consumes HP equal to 10% of Blade's Max HP and deals [1]% of Blade's ATK plus [2]% of his Max HP as Wind DMG to a single enemy. In addition, deals [3]% of Blade's ATK plus [4]% of his Max HP as Wind DMG to adjacent targets. If Blade's current HP is insufficient, his HP will be reduced to 1 after using \"Forest of Swords.\"\"Forest of Swords\" cannot regenerate Skill Points.",
-            "DescriptionCN": "消耗等同于刃生命上限10%的生命值，对指定敌方单体造成等同于刃[1]%攻击力+[2]%生命上限的风属性伤害，同时对其相邻目标造成等同于刃[3]%攻击力+[4]%生命上限的风属性伤害。若当前生命值不足，施放【无间剑树】时刃的当前生命值降低至1点。【无间剑树】无法恢复战技点。",
-            "DescriptionJP": "刃のHPを最大HP10%分消費し、指定した敵単体に刃の攻撃力[1]%+最大HP[2]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[3]%+最大HP[4]%分の風属性ダメージを与える。残りHPが足りない場合、「無間剣樹」を発動した時、刃の残りHPが1になる。「無間剣樹」はSPを回復できない。",
+            "imageurl": "images/skills/blade-120508.png",
+            "DescriptionEN": "Consumes HP equal to [1]% of Blade's Max HP and deals Wind DMG equal to the sum of [2]% of his ATK and [4]% of his Max HP to a single enemy. In addition, deals Wind DMG equal to the sum of [3]% of Blade's ATK and [5]% of his Max HP to adjacent targets. If Blade's current HP is insufficient, his HP will be reduced to 1 when using Forest of Swords. Forest of Swords cannot regenerate Skill Points.",
+            "DescriptionCN": "消耗等同于刃生命上限[1]%的生命值，对指定敌方单体造成等同于刃[2]%攻击力+[4]%生命上限的风属性伤害，同时对其相邻目标造成等同于刃[3]%攻击力+[5]%生命上限的风属性伤害。 若当前生命值不足，施放【无间剑树】时刃的当前生命值降低至1点。 【无间剑树】无法恢复战技点。",
+            "DescriptionJP": "刃のHPを最大HP[1]%分消費し、指定した敵単体に刃の攻撃力[2]%+最大HP[4]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[3]%+最大HP[5]%分の風属性ダメージを与える。 残りHPが足りない場合、「無間剣樹」を発動した時、刃の残りHPが1になる。 「無間剣樹」はSPを回復できない。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -146,6 +161,17 @@
             "energyregen": 30,
             "levelmultiplier": [
                 {
+                    "1": 10,
+                    "2": 10,
+                    "3": 10,
+                    "4": 10,
+                    "5": 10,
+                    "6": 10,
+                    "7": 10,
+                    "8": 10,
+                    "9": 10
+                },
+                {
                     "1": 20,
                     "2": 24,
                     "3": 28,
@@ -153,8 +179,19 @@
                     "5": 36,
                     "6": 40,
                     "7": 44,
-                    "8": 58,
+                    "8": 48,
                     "9": 52
+                },
+                {
+                    "1": 8,
+                    "2": 9.6,
+                    "3": 11.2,
+                    "4": 12.8,
+                    "5": 14.4,
+                    "6": 16,
+                    "7": 17.6,
+                    "8": 19.2,
+                    "9": 20.8
                 },
                 {
                     "1": 50,
@@ -168,26 +205,15 @@
                     "9": 130
                 },
                 {
-                    "1": 10,
-                    "2": 12,
-                    "3": 14,
-                    "4": 16,
-                    "5": 18,
-                    "6": 20,
-                    "7": 22,
-                    "8": 24,
-                    "9": 26
-                },
-                {
-                    "1": 25,
-                    "2": 30,
-                    "3": 35,
-                    "4": 40,
-                    "5": 45,
-                    "6": 50,
-                    "7": 55,
-                    "8": 60,
-                    "9": 65
+                    "1": 20,
+                    "2": 24,
+                    "3": 28,
+                    "4": 32,
+                    "5": 36,
+                    "6": 40,
+                    "7": 44,
+                    "8": 48,
+                    "9": 52
                 }
             ],
             "tags": [
@@ -195,16 +221,53 @@
                 "normalatk",
                 "windatk"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 4,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                }
+            ]
         },
         {
+            "id": "120502",
             "ENname": "Hellscape",
             "CNname": "地狱变",
             "JAname": "地獄変",
-            "imageurl": "images/skills/bladeskill.webp",
-            "DescriptionEN": "Consumes HP equal to 30% of Blade's Max HP to enter \"Hellscape.\"When \"Hellscape\" is active, his Skill cannot be used. Increases his DMG dealt by 54% and enhances his Basic ATK \"Shard Sword\" to \"Forest of Swords\" for 3 turn(s).If Blade's current HP is insufficient, his HP will be reduced to 1 after using this Skill.This Skill does not regenerate Energy. Using this Skill does not end the turn.",
-            "DescriptionCN": "消耗等同于刃生命上限30%的生命值，进入【地狱变】状态。处于【地狱变】状态时无法施放战技，同时使自身造成的伤害提高54%，普攻【支离剑】强化为【无间剑树】，持续3回合。若当前生命值不足，施放战技时刃的当前生命值降低至1点。该战技无法恢复能量。施放该战技后，本回合不会结束。",
-            "DescriptionJP": "刃のHPを最大HP30%分消費して「地獄変」状態に入る。「地獄変」状態では戦闘スキルを発動できず、自身の与ダメージ+54%、通常攻撃「支離剣」が「無間剣樹」に強化される、3ターン継続。残りHPが足りない場合、戦闘スキルを発動した時、刃の残りHPが1になる。この戦闘スキルはEPを回復できない。この戦闘スキルを発動した後、ターンは終了しない。",
+            "imageurl": "images/skills/blade-120502.png",
+            "DescriptionEN": "Consumes HP equal to [1]% of Blade's Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by [4]%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for [2] turn(s). If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn.",
+            "DescriptionCN": "消耗等同于刃生命上限[1]%的生命值，进入【地狱变】状态。 处于【地狱变】状态时无法施放战技，同时使自身造成的伤害提高[4]%，普攻【支离剑】强化为【无间剑树】，持续[2]回合。 若当前生命值不足，施放战技时刃的当前生命值降低至1点。 该战技无法恢复能量。施放该战技后，本回合不会结束。",
+            "DescriptionJP": "刃のHPを最大HP[1]%分消費して「地獄変」状態に入る。 「地獄変」状態では戦闘スキルを発動できず、自身の与ダメージ+[4]%、通常攻撃「支離剣」が「無間剣樹」に強化される、[2]ターン継続。 残りHPが足りない場合、戦闘スキルを発動した時、刃の残りHPが1になる。 この戦闘スキルはEPを回復できない。この戦闘スキルを発動した後、ターンは終了しない。",
             "stype": "skill",
             "maxlevel": 15,
             "buffskill": true,
@@ -213,7 +276,55 @@
             "energyregen": 0,
             "levelmultiplier": [
                 {
-                    "default": 30
+                    "1": 30,
+                    "2": 30,
+                    "3": 30,
+                    "4": 30,
+                    "5": 30,
+                    "6": 30,
+                    "7": 30,
+                    "8": 30,
+                    "9": 30,
+                    "10": 30,
+                    "11": 30,
+                    "12": 30,
+                    "13": 30,
+                    "14": 30,
+                    "15": 30
+                },
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3,
+                    "6": 3,
+                    "7": 3,
+                    "8": 3,
+                    "9": 3,
+                    "10": 3,
+                    "11": 3,
+                    "12": 3,
+                    "13": 3,
+                    "14": 3,
+                    "15": 3
+                },
+                {
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 1,
+                    "5": 1,
+                    "6": 1,
+                    "7": 1,
+                    "8": 1,
+                    "9": 1,
+                    "10": 1,
+                    "11": 1,
+                    "12": 1,
+                    "13": 1,
+                    "14": 1,
+                    "15": 1
                 },
                 {
                     "1": 12,
@@ -238,21 +349,32 @@
                 "self",
                 "alldmg"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
         },
         {
+            "id": "120503",
             "ENname": "Death Sentence",
             "CNname": "大辟万死",
             "JAname": "大辟万死",
-            "imageurl": "images/skills/bladeult.webp",
-            "DescriptionEN": "Sets Blade's current HP to 50% of his Max HP and deals to a single enemy Wind DMG equal to the sum of [1]% of his ATK, [2]% of his Max HP, and [3]% of the total HP he had lost in the current battle. At the same time, deal Wind DMG to adjacent targets equal to [4]% of his ATK, [5]% of his Max HP, and [6]% of the HP he had lost in the current battle. After using his Ultimate, the total HP Blade had lost in the current battle will be reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
-            "DescriptionCN": "将刃的当前生命值转化为生命上限的50%，并对敌方单体造成等同于刃[1]%攻击力+[2]%生命上限+[3]%本场战斗中累计的已损失生命值的风属性伤害，同时对其相邻目标造成等同于刃[4]%攻击力+[5]%生命上限+[6]%本场战斗中已损失生命值的风属性伤害。施放终结技后会清空本场战斗中累计的已损失生命值，进行重新累计且最高不超过刃生命上限的90%。",
-            "DescriptionJP": "刃の残りHPを最大HPの50%にし、敵単体に刃の攻撃力[1]%+最大HP[2]%+戦闘中失った累計HP[3]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[4]%+最大HP[5]%+戦闘中失った累計HP[6]%分の風属性ダメージを与える。必殺技を発動した後、戦闘中失った累計HPのカウントをリセットする。戦闘中失った累計HPのカウントは、刃の最大HPの90%を超えない。",
+            "imageurl": "images/skills/blade-120503.png",
+            "DescriptionEN": "Sets Blade's current HP to 50% of his Max HP and deals to a single enemy Wind DMG equal to the sum of [1]% of his ATK, [2]% of his Max HP, and [5]% of the total HP he has lost in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of [3]% of his ATK, [4]% of his Max HP, and [6]% of the total HP he has lost in the current battle. The total HP Blade has lost in the current battle is capped at [7]% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+            "DescriptionCN": "将刃的当前生命值转化为生命上限的50%，并对敌方单体造成等同于刃[1]%攻击力+[2]%生命上限+[5]%本场战斗中累计已损失生命值的风属性伤害，同时对其相邻目标造成等同于刃[3]%攻击力+[4]%生命上限+[6]%本场战斗中累计已损失生命值的风属性伤害。 本场战斗中累计已损失生命值最高不超过刃生命上限的[7]%，施放终结技后会清空并进行重新累计。",
+            "DescriptionJP": "刃の残りHPを最大HPの50%にし、敵単体に刃の攻撃力[1]%+最大HP[2]%+戦闘中失ったHPの累計[5]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力[3]%+最大HP[4]%+戦闘中失ったHPの累計[6]%分の風属性ダメージを与える。 戦闘中失ったHPの累計のカウントは、刃の最大HPの[7]%を超えず、必殺技を発動した後にリセットされる。",
             "stype": "ult",
             "energy": 130,
             "maxlevel": 15,
-            "buffskill": true,
-            "teamskill": true,
+            "buffskill": false,
+            "teamskill": false,
             "weaknessbreak": 60,
             "energyregen": 5,
             "levelmultiplier": [
@@ -291,6 +413,40 @@
                     "15": 120
                 },
                 {
+                    "1": 9.6,
+                    "2": 10.24,
+                    "3": 10.88,
+                    "4": 11.52,
+                    "5": 12.16,
+                    "6": 12.8,
+                    "7": 13.6,
+                    "8": 14.4,
+                    "9": 15.2,
+                    "10": 16,
+                    "11": 16.64,
+                    "12": 17.28,
+                    "13": 17.92,
+                    "14": 18.56,
+                    "15": 19.2
+                },
+                {
+                    "1": 24,
+                    "2": 25.6,
+                    "3": 27.2,
+                    "4": 28.8,
+                    "5": 30.4,
+                    "6": 32,
+                    "7": 34,
+                    "8": 36,
+                    "9": 38,
+                    "10": 40,
+                    "11": 41.6,
+                    "12": 43.2,
+                    "13": 44.8,
+                    "14": 46.4,
+                    "15": 48
+                },
+                {
                     "1": 60,
                     "2": 64,
                     "3": 68,
@@ -308,78 +464,134 @@
                     "15": 120
                 },
                 {
-                    "1": 12,
-                    "2": 12.8,
-                    "3": 13.6,
-                    "4": 14.4,
-                    "5": 15.2,
-                    "6": 16,
-                    "7": 17,
-                    "8": 18,
-                    "9": 19,
-                    "10": 20,
-                    "11": 20.8,
-                    "12": 21.6,
-                    "13": 22.4,
-                    "14": 23.2,
-                    "15": 24
+                    "1": 24,
+                    "2": 25.6,
+                    "3": 27.2,
+                    "4": 28.8,
+                    "5": 30.4,
+                    "6": 32,
+                    "7": 34,
+                    "8": 36,
+                    "9": 38,
+                    "10": 40,
+                    "11": 41.6,
+                    "12": 43.2,
+                    "13": 44.8,
+                    "14": 46.4,
+                    "15": 48
                 },
                 {
-                    "1": 30,
-                    "2": 32,
-                    "3": 34,
-                    "4": 36,
-                    "5": 38,
-                    "6": 40,
-                    "7": 42.5,
-                    "8": 45,
-                    "9": 47.5,
-                    "10": 50,
-                    "11": 52,
-                    "12": 54,
-                    "13": 56,
-                    "14": 58,
-                    "15": 60
-                },
-                {
-                    "1": 30,
-                    "2": 32,
-                    "3": 34,
-                    "4": 36,
-                    "5": 38,
-                    "6": 40,
-                    "7": 42.5,
-                    "8": 45,
-                    "9": 47.5,
-                    "10": 50,
-                    "11": 52,
-                    "12": 54,
-                    "13": 56,
-                    "14": 58,
-                    "15": 60
+                    "1": 90,
+                    "2": 90,
+                    "3": 90,
+                    "4": 90,
+                    "5": 90,
+                    "6": 90,
+                    "7": 90,
+                    "8": 90,
+                    "9": 90,
+                    "10": 90,
+                    "11": 90,
+                    "12": 90,
+                    "13": 90,
+                    "14": 90,
+                    "15": 90
                 }
             ],
             "tags": [
                 "aoe",
                 "ultatk"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "losthp",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "allenemy",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 5,
+                    "tag": [
+                        "allenemy",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "losthp",
+                    "multiplier": 6,
+                    "tag": [
+                        "allenemy",
+                        "windatk"
+                    ]
+                }
+            ]
         },
         {
+            "id": "120504",
             "ENname": "Shuhu's Gift",
             "CNname": "倏忽恩赐",
             "JAname": "倏忽の恩賜",
-            "imageurl": "images/skills/bladetalent.webp",
-            "DescriptionEN": "When Blade's HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains for each ATK is 1. When the maximum Charge stacks is reached, immediately unleash a follow-up attack on all enemies, dealing Wind DMG equal to [1]% of Blade's ATK plus [2]% of Max HP. Then, restore Blade's HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
-            "DescriptionCN": "刃的生命值降低时，获得1层充能，持续3回合，最多叠加5层。该效果每次受到攻击最多叠加1层。当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃[1]%攻击力+[2]%生命上限的风属性伤害并回复等同于刃生命上限25%的生命值，施放追加攻击后，消耗所有充能。",
-            "DescriptionJP": "刃のHPが減った時、チャージを1層獲得する、3ターン継続、最大で5層累積できる。この効果は攻撃を1回受けるたびに1層まで累積できる。チャージが上限に達した時、敵全体に追加攻撃を1回行い、刃の攻撃力[1]%+最大HP[2]%分の風属性ダメージを与え、刃の最大HP25%分のHPを回復する。追加攻撃を行った後、すべてのチャージを消費する。",
+            "imageurl": "images/skills/blade-120504.png",
+            "DescriptionEN": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked. When Charge stack reaches maximum, immediately launches a follow-up attack on all enemies, dealing Wind DMG equal to [2]% of Blade's ATK plus [4]% of his Max HP. At the same time, restores Blade's HP by [3]% of his Max HP. After the follow-up attack, all Charges are consumed.",
+            "DescriptionCN": "刃受到伤害或消耗生命值时，获得1层充能，最多叠加5层。该效果每次受到攻击最多叠加1层。 当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃[2]%攻击力+[4]%生命上限的风属性伤害并回复等同于刃生命上限[3]%的生命值，施放追加攻击后，消耗所有充能。",
+            "DescriptionJP": "刃がダメージを受ける、またはHPを消費した時、チャージを1層獲得する。チャージは最大で5層累積できる。この効果は攻撃を1回受けるたびに1層まで累積できる。 チャージが上限に達した時、敵全体に追加攻撃を1回行い、刃の攻撃力[2]%+最大HP[4]%分の風属性ダメージを与え、刃の最大HP[3]%分のHPを回復する。追加攻撃を行った後、すべてのチャージを消費する。",
             "stype": "talent",
             "maxlevel": 15,
             "buffskill": true,
-            "teamskill": false,
+            "teamskill": true,
             "weaknessbreak": 30,
             "energyregen": 10,
             "levelmultiplier": [
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3,
+                    "6": 3,
+                    "7": 3,
+                    "8": 3,
+                    "9": 3,
+                    "10": 3,
+                    "11": 3,
+                    "12": 3,
+                    "13": 3,
+                    "14": 3,
+                    "15": 3
+                },
                 {
                     "1": 22,
                     "2": 24.2,
@@ -398,6 +610,23 @@
                     "15": 55
                 },
                 {
+                    "1": 25,
+                    "2": 25,
+                    "3": 25,
+                    "4": 25,
+                    "5": 25,
+                    "6": 25,
+                    "7": 25,
+                    "8": 25,
+                    "9": 25,
+                    "10": 25,
+                    "11": 25,
+                    "12": 25,
+                    "13": 25,
+                    "14": 25,
+                    "15": 25
+                },
+                {
                     "1": 55,
                     "2": 60.5,
                     "3": 66,
@@ -406,7 +635,7 @@
                     "6": 82.5,
                     "7": 89.38,
                     "8": 96.25,
-                    "9": 103.13,
+                    "9": 103.12,
                     "10": 110,
                     "11": 115.5,
                     "12": 121,
@@ -419,122 +648,177 @@
                 "followupatk",
                 "heal"
             ],
-            "effect": []
-        },
-        {
-            "ENname": "Karma Wind",
-            "CNname": "业途风",
-            "JAname": "業途風",
-            "imageurl": "images/skills/bladetec.webp",
-            "DescriptionEN": "Immediately attacks the enemy. After entering battle, consumes 20% of Blade's Max HP while also dealing Wind DMG equal to 40% of his Max HP to all enemies.If Blade's current HP is insufficient, his HP will be reduced to 1 after using this Skill.",
-            "DescriptionCN": "立即攻击敌人，进入战斗后消耗等同于刃生命上限20%的生命值，同时对敌方全体造成等同于刃生命上限40%的风属性伤害。若当前生命值不足，施放秘技时刃的当前生命值降低至1点。",
-            "DescriptionJP": "敵を攻撃。戦闘に入った後、刃の最大HP20%分のHPを消費し、敵全体に刃の最大HP40%分の風属性ダメージを与える。残りHPが足りない場合、秘技を発動した時、刃の残りHPが1になる。",
-            "stype": "technique",
-            "maxlevel": 0,
-            "buffskill": false,
-            "teamskill": false,
-            "weaknessbreak": 60,
-            "energyregen": 0,
-            "levelmultiplier": [],
-            "tags": [
-                "buff"
-            ],
-            "effect": []
-        }
-    ],
-    "tracedata": [
-        {
-            "tiny": false,
-            "ENname": "Vita Infinita",
-            "CNname": "无尽形寿",
-            "JAname": "無尽形寿",
-            "imageurl": "images/skills/bladet1.webp",
-            "DescriptionEN": "When Blade's current HP is 50% of Max HP or lower, Incoming Healing increases by 20%.",
-            "DescriptionCN": "刃的当前生命值百分比小于等于生命上限的50%时，受到治疗时的回复量提高20%。",
-            "DescriptionJP": "刃の残りHPが50%未満の時、治癒を受けた時の回復量+20%。",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "heal"
-            ],
-            "effect": []
-        },
-        {
-            "tiny": false,
-            "ENname": "Neverending Deaths",
-            "CNname": "吞忍百死",
-            "JAname": "百死耐忍",
-            "imageurl": "images/skills/bladet2.webp",
-            "DescriptionEN": "When Blade hits an enemy with Weakness Break using \"Forest of Swords,\" he restores HP by 5% of Max HP plus 100.",
-            "DescriptionCN": "【无间剑树】击中被弱点击破的敌方目标时，刃回复等同于自身5%生命上限+100的生命值。",
-            "DescriptionJP": "「無間剣樹」が弱点撃破状態の敵に命中すると、刃はHPを5%+100回復する。",
-            "stype": "trace",
-            "maxlevel": 15,
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "self",
-                "heal"
-            ]
-        },
-        {
-            "tiny": false,
-            "ENname": "Cyclone of Destruction",
-            "CNname": "坏劫隳亡",
-            "JAname": "壊劫滅亡",
-            "imageurl": "images/skills/bladet3.webp",
-            "DescriptionEN": "DMG dealt by Talent's follow-up attack increases by 20%.",
-            "DescriptionCN": "天赋施放的追加攻击伤害提高20%。",
-            "DescriptionJP": "天賦で触発する追加攻撃の与ダメージ+20%。",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "followupatk"
-            ],
-            "effect": []
-        },
-        {
-            "tiny": true,
-            "ENname": "Effect RES +4%",
-            "CNname": "效果抵抗 +4%",
-            "JAname": "効果抵抗 +4%",
-            "ttype": "icedmg",
-            "DescriptionEN": "A2",
-            "DescriptionCN": "A2",
-            "DescriptionJP": "A2",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "effectres"
-            ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "effectres",
-                    "multiplier": 4,
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
                     "tag": [
-                        "self",
-                        "effectres"
+                        "allenemy",
+                        "windatk",
+                        "followupatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 3,
+                    "tag": [
+                        "allenemy",
+                        "windatk",
+                        "followupatk"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 2,
+                    "tag": [
+                        "heal",
+                        "maxhp"
                     ]
                 }
             ]
         },
         {
+            "id": "120507",
+            "ENname": "Karma Wind",
+            "CNname": "业途风",
+            "JAname": "業途風",
+            "imageurl": "images/skills/blade-120507.png",
+            "DescriptionEN": "Immediately attacks the enemy. After entering combat, consumes 20% of Blade's Max HP while dealing Wind DMG equal to 40% of his Max HP to all enemies. If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后消耗等同于刃生命上限20%的生命值，同时对敌方全体造成等同于刃生命上限40%的风属性伤害。 若当前生命值不足，施放秘技时刃的当前生命值降低至1点。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、刃の最大HP20%分のHPを消費し、敵全体に刃の最大HP40%分の風属性ダメージを与える。 残りHPが足りない場合、秘技を発動した時、刃の残りHPが1になる。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": false,
+            "teamskill": true,
+            "weaknessbreak": 60,
+            "energyregen": 0,
+            "tags": [
+                "windatk",
+                "allenemy"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 40,
+                    "tag": [
+                        "allenemy",
+                        "windatk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "id": "1205101",
+            "tiny": false,
+            "ENname": "Vita Infinita",
+            "CNname": "无尽形寿",
+            "JAname": "無尽形寿",
+            "DescriptionEN": "When Blade's current HP is at 50% of Max HP or lower, Incoming Healing increases by 20%.",
+            "DescriptionCN": "刃的当前生命值百分比小于等于生命上限的50%时，受到治疗时的回复量提高20%。",
+            "DescriptionJP": "刃の残りHPが50%以下の時、治癒を受けた時の回復量+20%。",
+            "imageurl": "images/skills/blade-1205101.png",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "heal"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "heal",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1205102",
+            "tiny": false,
+            "ENname": "Neverending Deaths",
+            "CNname": "吞忍百死",
+            "JAname": "百死耐忍",
+            "DescriptionEN": "If Blade hits a Weakness Broken enemy after using Forest of Swords, he will restore HP equal to 5% of his Max HP plus 100.",
+            "DescriptionCN": "施放【无间剑树】后，若击中处于弱点击破状态的敌方目标，刃回复等同于自身5%生命上限+100的生命值。",
+            "DescriptionJP": "「無間剣樹」を発動した後、弱点撃破状態の敵に命中した場合、刃は自身の最大HP5%+100のHPを回復する。",
+            "imageurl": "images/skills/blade-1205102.png",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "self",
+                "heal"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                },
+                {
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 100,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1205103",
+            "tiny": false,
+            "ENname": "Cyclone of Destruction",
+            "CNname": "坏劫隳亡",
+            "JAname": "壊劫滅亡",
+            "DescriptionEN": "DMG dealt by Talent's follow-up attack increases by 20%.",
+            "DescriptionCN": "天赋施放的追加攻击伤害提高20%。",
+            "DescriptionJP": "天賦による追加攻撃の与ダメージ+20%。",
+            "imageurl": "images/skills/blade-1205103.png",
+            "stype": "trace",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "followupatk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "followupatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "buff",
+                        "followupatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1205201",
             "tiny": true,
-            "ENname": "HP +4%",
-            "CNname": "生命值 +4%",
-            "JAname": "HP +4%",
+            "ENname": "Max HP increases by 4%",
+            "CNname": "生命值上限提高4%",
+            "JAname": "最大HP+4%",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
             "ttype": "hp",
-            "DescriptionEN": "A3",
-            "DescriptionCN": "A3",
-            "DescriptionJP": "A3",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -556,14 +840,15 @@
             ]
         },
         {
+            "id": "1205202",
             "tiny": true,
-            "ENname": "CRIT Rate +2.7%",
-            "CNname": "暴击率 +2.7%",
-            "JAname": "会心率 +2.7%",
+            "ENname": "CRIT Rate increases by 2.7%",
+            "CNname": "暴击率提高2.7%",
+            "JAname": "会心率+2.7%",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
             "ttype": "critrate",
-            "DescriptionEN": "A3",
-            "DescriptionCN": "A3",
-            "DescriptionJP": "A3",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -585,14 +870,15 @@
             ]
         },
         {
+            "id": "1205203",
             "tiny": true,
-            "ENname": "HP +6%",
-            "CNname": "生命值 +6%",
-            "JAname": "HP +6%",
+            "ENname": "Max HP increases by 4%",
+            "CNname": "生命值上限提高4%",
+            "JAname": "最大HP+4%",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
             "ttype": "hp",
-            "DescriptionEN": "A4",
-            "DescriptionCN": "A4",
-            "DescriptionJP": "A4",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -605,7 +891,7 @@
                 {
                     "type": "buff",
                     "addtarget": "hp",
-                    "multiplier": 6,
+                    "multiplier": 4,
                     "tag": [
                         "self",
                         "hp"
@@ -614,14 +900,15 @@
             ]
         },
         {
+            "id": "1205204",
             "tiny": true,
-            "ENname": "Effect RES +6%",
-            "CNname": "效果抵抗 +6%",
-            "JAname": "効果抵抗 +6%",
+            "ENname": "Effect RES increases by 4%",
+            "CNname": "效果抵抗提高4%",
+            "JAname": "効果抵抗+4%",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
             "ttype": "effectres",
-            "DescriptionEN": "A5",
-            "DescriptionCN": "A5",
-            "DescriptionJP": "A5",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -634,7 +921,7 @@
                 {
                     "type": "buff",
                     "addtarget": "effectres",
-                    "multiplier": 6,
+                    "multiplier": 4,
                     "tag": [
                         "self",
                         "effectres"
@@ -643,14 +930,15 @@
             ]
         },
         {
+            "id": "1205205",
             "tiny": true,
-            "ENname": "HP +6%",
-            "CNname": "生命值 +6%",
-            "JAname": "HP +6%",
+            "ENname": "Max HP increases by 6%",
+            "CNname": "生命值上限提高6%",
+            "JAname": "最大HP+6%",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
             "ttype": "hp",
-            "DescriptionEN": "A5",
-            "DescriptionCN": "A5",
-            "DescriptionJP": "A5",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -672,14 +960,15 @@
             ]
         },
         {
+            "id": "1205206",
             "tiny": true,
-            "ENname": "CRIT Rate +4%",
-            "CNname": "暴击率 +4%",
-            "JAname": "会心率 +4%",
+            "ENname": "CRIT Rate increases by 4%",
+            "CNname": "暴击率提高4%",
+            "JAname": "会心率+4%",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
             "ttype": "critrate",
-            "DescriptionEN": "A6",
-            "DescriptionCN": "A6",
-            "DescriptionJP": "A6",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -701,14 +990,45 @@
             ]
         },
         {
+            "id": "1205207",
             "tiny": true,
-            "ENname": "Effect RES +8%",
-            "CNname": "效果抵抗 +8%",
-            "JAname": "効果抵抗 +8%",
+            "ENname": "Max HP increases by 6%",
+            "CNname": "生命值上限提高6%",
+            "JAname": "最大HP+6%",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "ttype": "hp",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1205208",
+            "tiny": true,
+            "ENname": "Effect RES increases by 6%",
+            "CNname": "效果抵抗提高6%",
+            "JAname": "効果抵抗+6%",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
             "ttype": "effectres",
-            "DescriptionEN": "LV75",
-            "DescriptionCN": "LV75",
-            "DescriptionJP": "LV75",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -721,7 +1041,7 @@
                 {
                     "type": "buff",
                     "addtarget": "effectres",
-                    "multiplier": 8,
+                    "multiplier": 6,
                     "tag": [
                         "self",
                         "effectres"
@@ -730,14 +1050,45 @@
             ]
         },
         {
+            "id": "1205209",
             "tiny": true,
-            "ENname": "HP +8%",
-            "CNname": "生命值 +8%",
-            "JAname": "HP +8%",
-            "ttype": "hp",
+            "ENname": "CRIT Rate increases by 5.3%",
+            "CNname": "暴击率提高5.3%",
+            "JAname": "会心率+5.3%",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "ttype": "critrate",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1205210",
+            "tiny": true,
+            "ENname": "Max HP increases by 8%",
+            "CNname": "生命值上限提高8%",
+            "JAname": "最大HP+8%",
             "DescriptionEN": "LV80",
             "DescriptionCN": "LV80",
             "DescriptionJP": "LV80",
+            "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -751,35 +1102,6 @@
                     "type": "buff",
                     "addtarget": "hp",
                     "multiplier": 8,
-                    "tag": [
-                        "self",
-                        "hp"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "HP +4%",
-            "CNname": "生命值 +4%",
-            "JAname": "HP +4%",
-            "ttype": "hp",
-            "DescriptionEN": "LV1",
-            "DescriptionCN": "LV1",
-            "DescriptionJP": "LV1",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "hp"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "hp",
-                    "multiplier": 4,
                     "tag": [
                         "self",
                         "hp"
@@ -790,46 +1112,70 @@
     ],
     "eidolon": [
         {
+            "id": "120501",
             "eidolonnum": 1,
-            "ENname": "Rejected by Death, Infected With Life",
-            "CNname": "泉台歧路，百骸回春",
-            "JAname": "冥府の岐路越え 回生せし骸",
-            "imageurl": "images/skills/blade1.webp",
-            "DescriptionEN": "When Blade's current HP drops to 50% or lower of his Max HP, increases Max HP by 20%. Stacks up to 2 time(s).",
-            "DescriptionCN": "当前生命值百分比从大于50%降低至小于等于50%时，生命上限提高20%，该效果最多叠加2层。",
-            "DescriptionJP": "戦残りHPが50%を超える状態から、50%以下になった時、最大HP+20%、この効果は最大で2層累積可能。",
+            "ENname": "Blade Cuts the Deepest in Hell",
+            "CNname": "剑录大限，地狱变相",
+            "JAname": "形寿記せし剣身 地獄変の如く",
+            "imageurl": "images/skills/blade-e1.png",
+            "DescriptionEN": "Blade's Ultimate deals additionally increased DMG to a single enemy target, with the increased amount equal to 150% of Blade's total HP loss in the current battle. The total HP Blade has lost in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+            "DescriptionCN": "终结技对指定敌方单体造成的伤害额外提高，提高数值等同于刃150%本场战斗中累计的已损失生命值。 本场战斗中累计已损失生命值最高不超过刃生命上限的90%，施放终结技后会清空并进行重新累计。",
+            "DescriptionJP": "指定した敵単体に対する必殺技の与ダメージが、刃の戦闘中失ったHPの累計150%分アップする。 戦闘中失ったHPの累計のカウントは、刃の最大HPの90%を超えず、必殺技を発動した後にリセットされる。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "self"
+                "ultatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "losthp",
+                    "multiplier": 150,
+                    "tag": [
+                        "alldmg",
+                        "ultatk"
+                    ]
+                }
             ]
         },
         {
+            "id": "120502",
             "eidolonnum": 2,
-            "ENname": "Missed Dreams and Countless Regrets",
+            "ENname": "Ten Thousand Sorrows From One Broken Dream",
             "CNname": "支离旧梦，万端遗恨",
-            "JAname": "支離の夢 万事が遺恨",
-            "imageurl": "images/skills/blade2.webp",
-            "DescriptionEN": "When Blade is in the Hellscape state and his current HP is restored, his next attack's DMG increases by 20%.",
-            "DescriptionCN": "刃处于【地狱变】状态时，若当前生命值得到回复，则下一次攻击造成的伤害提高20%。",
-            "DescriptionJP": "刃が「地獄変」状態の時、HPを回復すると、次の攻撃の与ダメージ+20%。",
+            "JAname": "支離の旧夢 万事が遺恨",
+            "imageurl": "images/skills/blade-e2.png",
+            "DescriptionEN": "When Blade is in the Hellscape state, his CRIT Rate increases by 15%.",
+            "DescriptionCN": "刃处于【地狱变】状态时，暴击率提高15%。",
+            "DescriptionJP": "刃が「地獄変」状態の時、会心率+15%。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
                 "self"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
         },
         {
+            "id": "120503",
             "eidolonnum": 3,
-            "ENname": "Smelting Ores and Quenching Sabers",
+            "ENname": "Hardened Blade Bleeds Coldest Shade",
             "CNname": "冶炼玄钢，铣淬寒芒",
             "JAname": "鍛造されし玄鋼 寒光放つ",
-            "imageurl": "images/skills/bladeult.webp",
+            "imageurl": "images/skills/blade-e3.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
@@ -843,30 +1189,42 @@
             ]
         },
         {
+            "id": "120504",
             "eidolonnum": 4,
-            "ENname": "Ultimate Sword, Hidden Hell",
-            "CNname": "剑录大限，地狱变相",
-            "JAname": "形寿記せし剣身 地獄変の如く",
-            "imageurl": "images/skills/blade4.webp",
-            "DescriptionEN": "When using Ultimate, if HP is above 50%, deals 100% of the HP loss caused by Ultimate to the enemy and adjacent targets as additional Wind DMG.",
-            "DescriptionCN": "施放终结技时，若当前生命值百分比大于50%，则额外对终结技指定敌方单体及其相邻目标造成等同于刃因终结技损失生命值的100%的风属性伤害。",
-            "DescriptionJP": "必殺技を発動した時、残りHPが50%を超える場合、さらに敵単体および隣接する敵に、刃が必殺技により失ったHP100%分の風属性ダメージを与える。",
+            "ENname": "Rejected by Death, Infected With Life",
+            "CNname": "泉台歧路，百骸回春",
+            "JAname": "冥府の岐路越え 回生せし骸",
+            "imageurl": "images/skills/blade-e4.png",
+            "DescriptionEN": "When Blade's current HP drops to 50% or lower of his Max HP, increases his Max HP by 20%. Stacks up to 2 time(s).",
+            "DescriptionCN": "当前生命值百分比从大于50%降低至小于等于50%时，生命上限提高20%，该效果最多叠加2层。",
+            "DescriptionJP": "残りHPが50%を超える状態から、50%以下になった時、最大HP+20%、この効果は最大で2層累積できる。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
-                "dmgreduction",
+                "maxhp",
                 "self"
             ],
-            "effect": []
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                }
+            ]
         },
         {
+            "id": "120505",
             "eidolonnum": 5,
-            "ENname": "Death Sentence, Facing Karma",
+            "ENname": "Death By Ten Lords' Gaze",
             "CNname": "十王判死，业镜悬照",
             "JAname": "十王の大辟 懸かり照らす業鏡",
-            "imageurl": "images/skills/bladeskill.webp",
+            "imageurl": "images/skills/blade-e5.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
             "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
@@ -880,18 +1238,32 @@
             ]
         },
         {
+            "id": "120506",
             "eidolonnum": 6,
-            "ENname": "A Furious Resurrection",
+            "ENname": "Reborn Into an Empty Husk",
             "CNname": "命留魂销，复返此身",
-            "JAname": "涸れし魂魄 留まりて 此の身に戻る",
-            "imageurl": "images/skills/blade6.webp",
-            "DescriptionEN": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 30% of his Max HP.",
-            "DescriptionCN": "充能的层数上限降低至4层。天赋触发追加攻击造成的伤害额外提高，提高数值等同于刃30%的生命上限。",
-            "DescriptionJP": "チャージ層数の上限が4層になる。天賦触発による追加攻撃の与ダメージが、さらに刃の最大HP30%分アップする。",
+            "JAname": "涸れし魂魄留まりて 此の身に戻る",
+            "imageurl": "images/skills/blade-e6.png",
+            "DescriptionEN": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 50% of his Max HP.",
+            "DescriptionCN": "充能的层数上限降低至4层。天赋触发追加攻击造成的伤害额外提高，提高数值等同于刃50%的生命上限。",
+            "DescriptionJP": "チャージ層数の上限が4層になる。天賦による追加攻撃の与ダメージが、さらに刃の最大HP50%分アップする。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
-            "tags": []
+            "tags": [
+                "buff",
+                "followupatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 50,
+                    "tag": [
+                        "followupatk"
+                    ]
+                }
+            ]
         }
     ]
 }

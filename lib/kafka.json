@@ -1,9 +1,10 @@
 {
+    "id": "1005",
     "ENname": "Kafka",
     "CNname": "卡芙卡",
     "JAname": "カフカ",
-    "imageurl": "images/characters/kafka.webp",
-    "imagelargeurl": "images/characters/kafkalarge.webp",
+    "imageurl": "images/characters/kafka.png",
+    "imagelargeurl": "images/characters/kafkalarge.png",
     "etype": "lightning",
     "wtype": "nihility",
     "rarity": "5",
@@ -13,83 +14,96 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 148,
+            "hp": 147.84,
             "atk": 92.4,
             "def": 66
         },
         {
             "level": "20",
-            "hp": 288,
+            "hp": 288.29,
             "atk": 180.18,
             "def": 128.7
         },
         {
             "level": "20+",
-            "hp": 347,
+            "hp": 347.42,
             "atk": 217.14,
             "def": 155.1
         },
         {
+            "level": "30",
+            "hp": 421.34,
+            "atk": 263.34,
+            "def": 188.1
+        },
+        {
+            "level": "30+",
+            "hp": 480.48,
+            "atk": 300.3,
+            "def": 214.5
+        },
+        {
             "level": "40",
-            "hp": 554,
+            "hp": 554.4,
             "atk": 346.5,
             "def": 247.5
         },
         {
             "level": "40+",
-            "hp": 614,
+            "hp": 613.54,
             "atk": 383.46,
             "def": 273.9
         },
         {
             "level": "50",
-            "hp": 687,
+            "hp": 687.46,
             "atk": 429.66,
             "def": 306.9
         },
         {
             "level": "50+",
-            "hp": 747,
+            "hp": 746.59,
             "atk": 466.62,
             "def": 333.3
         },
         {
             "level": "60",
-            "hp": 821,
+            "hp": 820.51,
             "atk": 512.82,
             "def": 366.3
         },
         {
             "level": "60+",
-            "hp": 880,
+            "hp": 879.65,
             "atk": 549.78,
             "def": 392.7
         },
         {
             "level": "70",
-            "hp": 954,
+            "hp": 953.57,
             "atk": 595.98,
             "def": 425.7
         },
         {
             "level": "70+",
-            "hp": 1013,
+            "hp": 1012.7,
             "atk": 632.94,
             "def": 452.1
         },
         {
             "level": "80",
-            "hp": 1087,
+            "hp": 1086.62,
             "atk": 679.14,
             "def": 485.1
         }
     ],
     "skilldata": [
         {
+            "id": "100501",
             "ENname": "Midnight Tumult",
             "CNname": "夜间喧嚣不止",
             "JAname": "止まない夜の喧騒",
-            "imageurl": "images/skills/kafkana.webp",
+            "imageurl": "images/skills/kafka-100501.png",
             "DescriptionEN": "Deals Lightning DMG equal to [1]% of Kafka's ATK to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于卡芙卡[1]%攻击力的雷属性伤害。",
             "DescriptionJP": "指定した敵単体にカフカの攻撃力[1]%分の雷属性ダメージを与える。",
@@ -131,18 +145,19 @@
             ]
         },
         {
+            "id": "100502",
             "ENname": "Caressing Moonlight",
             "CNname": "月光摩挲连绵",
             "JAname": "月明かりが撫でる連綿",
-            "imageurl": "images/skills/kafkaskill.webp",
-            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Kafka's ATK to a target enemy and Lightning DMG equal to [2]% of Kafka's ATK to enemies adjacent to it.If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to [3]% of their original DMG.",
-            "DescriptionCN": "对指定敌方单体造成等同于卡芙卡[1]%攻击力的雷属性伤害，同时对其相邻目标造成等同于卡芙卡[2]%攻击力的雷属性伤害。若指定敌方单体处于持续伤害状态，其当前承受的所有持续伤害立即产生相当于原伤害[3]%的伤害。",
-            "DescriptionJP": "指定した敵単体にカフカの攻撃力[1]%分の雷属性ダメージを与え、隣接する敵にカフカの攻撃力[2]%分の雷属性ダメージを与える。指定した敵が持続ダメージ状態である場合、付与された全持続ダメージ状態が、本来のダメージ[3]%分のダメージを発生する。",
+            "imageurl": "images/skills/kafka-100502.png",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Kafka's ATK to a target enemy and Lightning DMG equal to [3]% of Kafka's ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to [2]% of their original DMG.",
+            "DescriptionCN": "对指定敌方单体造成等同于卡芙卡[1]%攻击力的雷属性伤害，同时对其相邻目标造成等同于卡芙卡[3]%攻击力的雷属性伤害。 若指定敌方单体处于持续伤害状态，其当前承受的所有持续伤害立即产生相当于原伤害[2]%的伤害。",
+            "DescriptionJP": "指定した敵単体にカフカの攻撃力[1]%分の雷属性ダメージを与え、隣接する敵にカフカの攻撃力[3]%分の雷属性ダメージを与える。 指定した敵が持続ダメージ状態である場合、付与された全持続ダメージ状態が、本来のダメージ[2]%分のダメージを発生する。",
             "stype": "skill",
             "maxlevel": 15,
             "buffskill": false,
             "teamskill": false,
-            "weaknessbreak": 30,
+            "weaknessbreak": 60,
             "energyregen": 30,
             "levelmultiplier": [
                 {
@@ -163,6 +178,23 @@
                     "15": 200
                 },
                 {
+                    "1": 60,
+                    "2": 61.5,
+                    "3": 63,
+                    "4": 64.5,
+                    "5": 66,
+                    "6": 67.5,
+                    "7": 69.38,
+                    "8": 71.25,
+                    "9": 73.12,
+                    "10": 75,
+                    "11": 76.5,
+                    "12": 78,
+                    "13": 79.5,
+                    "14": 81,
+                    "15": 82.5
+                },
+                {
                     "1": 30,
                     "2": 33,
                     "3": 36,
@@ -178,23 +210,6 @@
                     "13": 69,
                     "14": 72,
                     "15": 75
-                },
-                {
-                    "1": 60,
-                    "2": 61.5,
-                    "3": 63,
-                    "4": 64.5,
-                    "5": 66,
-                    "6": 67.5,
-                    "7": 69.38,
-                    "8": 71.25,
-                    "9": 73.13,
-                    "10": 75,
-                    "11": 76.5,
-                    "12": 78,
-                    "13": 79.5,
-                    "14": 81,
-                    "15": 82.5
                 }
             ],
             "tags": [
@@ -216,7 +231,7 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 2,
+                    "multiplier": 3,
                     "tag": [
                         "blastatk",
                         "skillatk",
@@ -230,7 +245,7 @@
                     "referencetargetCN": "当前承受的所有持续伤害",
                     "referencetargetJP": "付与された全持続ダメージ",
                     "multipliertarget": "dmg",
-                    "multiplier": 3,
+                    "multiplier": 2,
                     "tag": [
                         "dotatk"
                     ]
@@ -238,18 +253,19 @@
             ]
         },
         {
+            "id": "100503",
             "ENname": "Twilight Trill",
             "CNname": "悲剧尽头的颤音",
             "JAname": "悲劇最果ての顫音",
-            "imageurl": "images/skills/kafkault.webp",
-            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Kafka's ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to [3]% of the DoT. Shock lasts for 2 turn(s).While Shocked, enemies receive Lightning DoT equal to [4]% of Kafka's ATK at the beginning of each turn.",
-            "DescriptionCN": "对敌方全体造成等同于卡芙卡[1]%攻击力的雷属性伤害，有100%的基础概率使受到攻击的敌方目标陷入触电状态，并使其当前承受的触电状态立即产生相当于原伤害[3]%的伤害。触电状态持续2回合。触电状态下，敌方目标每回合开始时受到等同于卡芙卡[4]%攻击力的雷属性持续伤害。",
-            "DescriptionJP": "敵全体にカフカの攻撃力[1]%分の雷属性ダメージを与え、100%の基礎確率で攻撃を受けた敵を感電状態にし、付与された感電状態が本来のダメージ[3]%分のダメージを発生する。感電状態は2ターン継続。感電状態の敵はターンが回ってくるたびに、カフカの攻撃力[4]%分の雷属性持続ダメージを受ける。",
+            "imageurl": "images/skills/kafka-100503.png",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Kafka's ATK to all enemies, with a [2]% base chance for enemies hit to become Shocked and immediately take DMG equal to [5]% of the DoT. Shock lasts for [3] turn(s). While Shocked, enemies receive Lightning DoT equal to [4]% of Kafka's ATK at the beginning of each turn.",
+            "DescriptionCN": "对敌方全体造成等同于卡芙卡[1]%攻击力的雷属性伤害，有[2]%的基础概率使受到攻击的敌方目标陷入触电状态，并使其当前承受的触电状态立即产生相当于原伤害[5]%的伤害。触电状态持续[3]回合。 触电状态下，敌方目标每回合开始时受到等同于卡芙卡[4]%攻击力的雷属性持续伤害。",
+            "DescriptionJP": "敵全体にカフカの攻撃力[1]%分の雷属性ダメージを与え、[2]%の基礎確率で攻撃を受けた敵を感電状態にし、付与された感電状態が本来のダメージ[5]%分のダメージを発生する。感電状態は[3]ターン継続。 感電状態の敵はターンが回ってくるたびに、カフカの攻撃力[4]%分の雷属性持続ダメージを受ける。",
             "stype": "ult",
             "energy": 120,
             "maxlevel": 15,
             "buffskill": false,
-            "teamskill": false,
+            "teamskill": true,
             "weaknessbreak": 60,
             "energyregen": 5,
             "levelmultiplier": [
@@ -271,7 +287,55 @@
                     "15": 96
                 },
                 {
-                    "default": 100
+                    "1": 100,
+                    "2": 100,
+                    "3": 100,
+                    "4": 100,
+                    "5": 100,
+                    "6": 100,
+                    "7": 100,
+                    "8": 100,
+                    "9": 100,
+                    "10": 100,
+                    "11": 100,
+                    "12": 100,
+                    "13": 100,
+                    "14": 100,
+                    "15": 100
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2,
+                    "6": 2,
+                    "7": 2,
+                    "8": 2,
+                    "9": 2,
+                    "10": 2,
+                    "11": 2,
+                    "12": 2,
+                    "13": 2,
+                    "14": 2,
+                    "15": 2
+                },
+                {
+                    "1": 116,
+                    "2": 126.88,
+                    "3": 137.75,
+                    "4": 148.62,
+                    "5": 159.5,
+                    "6": 175.81,
+                    "7": 197.56,
+                    "8": 224.75,
+                    "9": 257.38,
+                    "10": 290,
+                    "11": 304.14,
+                    "12": 318.27,
+                    "13": 332.41,
+                    "14": 346.55,
+                    "15": 360.69
                 },
                 {
                     "1": 80,
@@ -289,23 +353,6 @@
                     "13": 106,
                     "14": 108,
                     "15": 110
-                },
-                {
-                    "1": 116,
-                    "2": 126.88,
-                    "3": 137.75,
-                    "4": 148.63,
-                    "5": 159.5,
-                    "6": 175.81,
-                    "7": 197.56,
-                    "8": 224.75,
-                    "9": 257.38,
-                    "10": 290,
-                    "11": 304.14,
-                    "12": 318.28,
-                    "13": 332.41,
-                    "14": 346.55,
-                    "15": 360.69
                 }
             ],
             "tags": [
@@ -340,7 +387,7 @@
                     "referencetargetCN": "触电持续伤害",
                     "referencetargetJP": "感電持続ダメージ",
                     "multipliertarget": "dmg",
-                    "multiplier": 3,
+                    "multiplier": 5,
                     "tag": [
                         "aoe",
                         "dotatk",
@@ -360,16 +407,17 @@
             ]
         },
         {
+            "id": "100504",
             "ENname": "Gentle but Cruel",
             "CNname": "温柔亦同残酷",
             "JAname": "優しさもまた残酷",
-            "imageurl": "images/skills/kafkatalent.webp",
-            "DescriptionEN": "After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to [1]% of her ATK to that target, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target for 2 turns. This effect can only be triggered 1 time per turn.",
-            "DescriptionCN": "当卡芙卡的队友对敌方目标施放普攻后，卡芙卡立即发动追加攻击，对该目标造成等同于卡芙卡[1]%攻击力的雷属性伤害，并有100%的基础概率使受到攻击的敌方目标陷入与终结技相同的触电状态，持续2回合，该效果每回合只能触发1次。",
-            "DescriptionJP": "カフカのチームメイトが敵に通常攻撃を行うと、カフカは追加攻撃を行い、その敵にカフカの攻撃力[1]%分の雷属性ダメージを与え、更に100%の基礎確率で攻撃を受けた敵を必殺技と同じ感電状態にする、2ターン継続。この効果はターンが回って来るたびに1回発動できる。",
+            "imageurl": "images/skills/kafka-100504.png",
+            "DescriptionEN": "After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to [1]% of her ATK to that target, with a [2]% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target for [3] turns. This effect can only be triggered 1 time per turn.",
+            "DescriptionCN": "当卡芙卡的队友对敌方目标施放普攻后，卡芙卡立即发动追加攻击，对该目标造成等同于卡芙卡[1]%攻击力的雷属性伤害，并有[2]%的基础概率使受到攻击的敌方目标陷入与终结技相同的触电状态，持续[3]回合，该效果每回合只能触发1次。",
+            "DescriptionJP": "カフカ以外の味方が敵に通常攻撃を行った後、カフカは追加攻撃を行い、その敵にカフカの攻撃力[1]%分の雷属性ダメージを与え、[2]%の基礎確率で攻撃を受けた敵を必殺技が与えるものと同じ感電状態にする、[3]ターン継続。この効果はターンが回って来るたびに1回まで発動できる。",
             "stype": "talent",
             "maxlevel": 15,
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "weaknessbreak": 30,
             "energyregen": 10,
@@ -392,7 +440,38 @@
                     "15": 189
                 },
                 {
-                    "default" : 100
+                    "1": 100,
+                    "2": 100,
+                    "3": 100,
+                    "4": 100,
+                    "5": 100,
+                    "6": 100,
+                    "7": 100,
+                    "8": 100,
+                    "9": 100,
+                    "10": 100,
+                    "11": 100,
+                    "12": 100,
+                    "13": 100,
+                    "14": 100,
+                    "15": 100
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2,
+                    "6": 2,
+                    "7": 2,
+                    "8": 2,
+                    "9": 2,
+                    "10": 2,
+                    "11": 2,
+                    "12": 2,
+                    "13": 2,
+                    "14": 2,
+                    "15": 2
                 }
             ],
             "tags": [
@@ -422,16 +501,17 @@
             ]
         },
         {
+            "id": "100507",
             "ENname": "Mercy Is Not Forgiveness",
             "CNname": "宽恕无关慈悲",
-            "JAname": "許しは慈悲に非ず ",
-            "imageurl": "images/skills/kafkatec.webp",
-            "DescriptionEN": "Immediately attacks the enemy. After entering battle, deal Lightning DMG equal to 50% of Kafka's ATK to all enemies. In addition, each enemy has a 100% base chance to become Shocked for 2 turn(s).",
+            "JAname": "許しは慈悲に非ず",
+            "imageurl": "images/skills/kafka-100507.png",
+            "DescriptionEN": "Immediately attacks all enemies within a set range. After entering battle, deals Lightning DMG equal to 50% of Kafka's ATK to all enemies, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate on every enemy target for 2 turn(s).",
             "DescriptionCN": "立即攻击一定范围内的所有敌人，进入战斗后对敌方全体造成等同于卡芙卡50%攻击力的雷属性伤害，同时有100%的基础概率使敌方每个单体目标陷入与终结技相同的触电状态，持续2回合。",
-            "DescriptionJP": "敵を攻撃。戦闘に入った後、敵全体にカフカの攻撃力50%分の雷属性ダメージを与え、100%の基礎確率で敵単体それぞれを感電状態にする、2ターン継続。",
+            "DescriptionJP": "一定範囲内のすべての敵を攻撃。戦闘に入った後、敵全体にカフカの攻撃力50%分の雷属性ダメージを与え、100%の基礎確率で敵単体それぞれを、必殺技が与えるものと同じ感電状態にする、2ターン継続。",
             "stype": "technique",
             "maxlevel": 0,
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": true,
             "weaknessbreak": 60,
             "energyregen": 0,
@@ -464,36 +544,37 @@
     ],
     "tracedata": [
         {
+            "id": "1005101",
             "tiny": false,
             "ENname": "Torture",
             "CNname": "折磨",
             "JAname": "苛み",
-            "imageurl": "images/skills/kafkat1.webp",
-            "DescriptionEN": "When using Ultimate, instead of immediately receiving DMG from the Shock state, enemy targets will now immediately receive DMG from all currently applied DoT sources.(A2)",
-            "DescriptionCN": "施放终结技时，敌方目标由「其当前的触电状态立即产生伤害」变更为「其当前承受的所有持续伤害类负面状态立即产生伤害」。(A2)",
-            "DescriptionJP": "必殺技を発動した時、敵は「付与された感電状態がダメージを発生する」から「付与されたすべての持続ダメージ系デバフがダメージを発生する」に変更される。(A2)",
+            "DescriptionEN": "When the Ultimate is used, enemy targets will now receive DMG immediately from all currently applied DoT sources instead of just receiving DMG immediately from the currently applied Shock state.",
+            "DescriptionCN": "施放终结技时，敌方目标由「其当前承受的触电状态立即产生伤害」变更为「其当前承受的所有持续伤害类负面状态立即产生伤害」。",
+            "DescriptionJP": "必殺技を発動した時、敵は「付与された感電状態がダメージを発生する」から「付与されたすべての持続ダメージ系デバフがダメージを発生する」に変更される。",
+            "imageurl": "images/skills/kafka-1005101.png",
             "stype": "trace",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
                 "buff",
                 "special",
                 "self"
-            ],
-            "effect": []
+            ]
         },
         {
+            "id": "1005102",
             "tiny": false,
             "ENname": "Plunder",
             "CNname": "掠夺",
             "JAname": "略奪",
-            "imageurl": "images/skills/kafkat2.webp",
-            "DescriptionEN": "If an enemy is defeated while Shocked, Kafka additionally regenerates 5 Energy.(A4)",
-            "DescriptionCN": "触电状态下的敌方目标被消灭时，卡芙卡额外恢复5点能量。(A4)",
-            "DescriptionJP": "感電状態の敵が倒された時、カフカはさらにEPを5回復する。(A4)",
+            "DescriptionEN": "If an enemy is defeated while Shocked, Kafka additionally regenerates 5 Energy.",
+            "DescriptionCN": "触电状态下的敌方目标被消灭时，卡芙卡额外恢复5点能量。",
+            "DescriptionJP": "感電状態の敵が倒された時、カフカはさらにEPを5回復する。",
+            "imageurl": "images/skills/kafka-1005102.png",
             "stype": "trace",
-            "buffskill": true,
-            "teamskill": true,
+            "buffskill": false,
+            "teamskill": false,
             "tags": [
                 "buff",
                 "energy",
@@ -512,17 +593,18 @@
             ]
         },
         {
+            "id": "1005103",
             "tiny": false,
             "ENname": "Thorns",
             "CNname": "荆棘",
             "JAname": "いばら",
-            "imageurl": "images/skills/kafkat3.webp",
-            "DescriptionEN": "The base chance for Ultimate, Technique, or the follow-up attack triggered by the Talent to inflict Shock increases by 30%.(A6)",
-            "DescriptionCN": "终结技、秘技与天赋触发的追加攻击使敌方目标陷入的触电状态的基础概率提高30%。(A6)",
-            "DescriptionJP": "必殺技、秘技、天賦による追加攻撃が敵に感電状態を付与する基礎確率+30%。(A6)",
+            "DescriptionEN": "The base chance for Ultimate, Technique, or the follow-up attack triggered by the Talent to inflict Shock increases by 30%.",
+            "DescriptionCN": "终结技、秘技与天赋触发的追加攻击使敌方目标陷入的触电状态的基础概率提高30%。",
+            "DescriptionJP": "必殺技、秘技、天賦による追加攻撃が敵に感電状態を付与する基礎確率+30%。",
+            "imageurl": "images/skills/kafka-1005103.png",
             "stype": "trace",
-            "buffskill": true,
-            "teamskill": true,
+            "buffskill": false,
+            "teamskill": false,
             "tags": [
                 "buff",
                 "special",
@@ -530,246 +612,15 @@
             ]
         },
         {
+            "id": "1005201",
             "tiny": true,
-            "ENname": "Break Effect +5.3%",
-            "CNname": "击破特攻 +5.3%",
-            "JAname": "撃破特効 +5.3%",
-            "ttype": "breakeffect",
-            "DescriptionEN": "A2",
-            "DescriptionCN": "A2",
-            "DescriptionJP": "A2",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "breakeffect"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "breakeffect",
-                    "multiplier": 5.3,
-                    "tag": [
-                        "self",
-                        "breakeffect"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "ATK +4%",
-            "CNname": "攻击力 +4%",
-            "JAname": "攻撃力 +4%",
-            "ttype": "atk",
-            "DescriptionEN": "A3",
-            "DescriptionCN": "A3",
-            "DescriptionJP": "A3",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "ATK",
-                    "multiplier": 4,
-                    "tag": [
-                        "self",
-                        "atk"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "HP +4%",
-            "CNname": "生命值 +4%",
-            "JAname": "HP +4%",
-            "ttype": "hp",
-            "DescriptionEN": "A3",
-            "DescriptionCN": "A3",
-            "DescriptionJP": "A3",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "hp"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "hp",
-                    "multiplier": 4,
-                    "tag": [
-                        "self",
-                        "hp"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "ATK +6%",
-            "CNname": "攻击力 +6%",
-            "JAname": "攻撃力 +6%",
-            "ttype": "atk",
-            "DescriptionEN": "A4",
-            "DescriptionCN": "A4",
-            "DescriptionJP": "A4",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 6,
-                    "tag": [
-                        "self",
-                        "atk"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "Break Effect +8%",
-            "CNname": "击破特攻 +8%",
-            "JAname": "撃破特効 +8%",
-            "ttype": "breakeffect",
-            "DescriptionEN": "A5",
-            "DescriptionCN": "A5",
-            "DescriptionJP": "A5",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "breakeffect"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "breakeffect",
-                    "multiplier": 8,
-                    "tag": [
-                        "self",
-                        "breakeffect"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "ATK +6%",
-            "CNname": "攻击力 +6%",
-            "JAname": "攻撃力 +6%",
-            "ttype": "atk",
-            "DescriptionEN": "A5",
-            "DescriptionCN": "A5",
-            "DescriptionJP": "A5",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 6,
-                    "tag": [
-                        "self",
-                        "atk"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "HP +6%",
-            "CNname": "生命值 +6%",
-            "JAname": "HP +6%",
-            "ttype": "hp",
-            "DescriptionEN": "A6",
-            "DescriptionCN": "A6",
-            "DescriptionJP": "A6",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "hp"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "hp",
-                    "multiplier": 6,
-                    "tag": [
-                        "self",
-                        "hp"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "Break Effect +10.7%",
-            "CNname": "击破特攻 +10.7%",
-            "JAname": "撃破特効 +10.7%",
-            "ttype": "breakeffect",
-            "DescriptionEN": "LV75",
-            "DescriptionCN": "LV75",
-            "DescriptionJP": "LV75",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "breakeffect"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "breakeffect",
-                    "multiplier": 10.7,
-                    "tag": [
-                        "self",
-                        "breakeffect"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "ATK +4%",
-            "CNname": "攻击力 +4%",
-            "JAname": "攻撃力 +4%",
-            "ttype": "atk",
+            "ENname": "ATK increases by 4%",
+            "CNname": "攻击力提高4%",
+            "JAname": "攻撃力+4%",
             "DescriptionEN": "LV1",
             "DescriptionCN": "LV1",
             "DescriptionJP": "LV1",
+            "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -781,7 +632,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "ATK",
+                    "addtarget": "atk",
                     "multiplier": 4,
                     "tag": [
                         "self",
@@ -791,14 +642,255 @@
             ]
         },
         {
+            "id": "1005202",
             "tiny": true,
-            "ENname": "ATK +8%",
-            "CNname": "攻击力 +8%",
-            "JAname": "攻撃力 +8%",
+            "ENname": "Effect Hit Rate increases by 4%",
+            "CNname": "效果命中提高4%",
+            "JAname": "効果命中+4%",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "ttype": "effecthit",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1005203",
+            "tiny": true,
+            "ENname": "ATK increases by 4%",
+            "CNname": "攻击力提高4%",
+            "JAname": "攻撃力+4%",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
             "ttype": "atk",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1005204",
+            "tiny": true,
+            "ENname": "Max HP increases by 4%",
+            "CNname": "生命值上限提高4%",
+            "JAname": "最大HP+4%",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "ttype": "hp",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1005205",
+            "tiny": true,
+            "ENname": "ATK increases by 6%",
+            "CNname": "攻击力提高6%",
+            "JAname": "攻撃力+6%",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "ttype": "atk",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1005206",
+            "tiny": true,
+            "ENname": "Effect Hit Rate increases by 6%",
+            "CNname": "效果命中提高6%",
+            "JAname": "効果命中+6%",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "ttype": "effecthit",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1005207",
+            "tiny": true,
+            "ENname": "ATK increases by 6%",
+            "CNname": "攻击力提高6%",
+            "JAname": "攻撃力+6%",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "ttype": "atk",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1005208",
+            "tiny": true,
+            "ENname": "Max HP increases by 6%",
+            "CNname": "生命值上限提高6%",
+            "JAname": "最大HP+6%",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "ttype": "hp",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1005209",
+            "tiny": true,
+            "ENname": "Effect Hit Rate increases by 8%",
+            "CNname": "效果命中提高8%",
+            "JAname": "効果命中+8%",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "ttype": "effecthit",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1005210",
+            "tiny": true,
+            "ENname": "ATK increases by 8%",
+            "CNname": "攻击力提高8%",
+            "JAname": "攻撃力+8%",
             "DescriptionEN": "LV80",
             "DescriptionCN": "LV80",
             "DescriptionJP": "LV80",
+            "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -822,29 +914,51 @@
     ],
     "eidolon": [
         {
+            "id": "100501",
             "eidolonnum": 1,
             "ENname": "Da Capo",
             "CNname": "无穷动！无穷",
             "JAname": "無窮に動く！無窮に",
-            "imageurl": "images/skills/kafka1.webp",
+            "imageurl": "images/skills/kafka-e1.png",
             "DescriptionEN": "When the Talent triggers a follow-up attack, there is a 100% base chance to increase the DoT received by the target by 30% for 2 turn(s).",
             "DescriptionCN": "天赋触发追加攻击时，有100%的基础概率使目标受到的持续伤害提高30%，持续2回合。",
             "DescriptionJP": "天賦効果により追加攻撃を行う時、100%の基礎確率でターゲットの持続被ダメージ+30%、2ターン継続。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
                 "special",
                 "self"
+            ],
+            "effect": [
+                {
+                    "type": "debuff",
+                    "multipliertarget": "dotatk",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy",
+                        "dotatk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "dotatk",
+                    "multiplier": 30,
+                    "tag": [
+                        "self",
+                        "dotatk"
+                    ]
+                }
             ]
         },
         {
+            "id": "100502",
             "eidolonnum": 2,
             "ENname": "Fortississimo",
             "CNname": "狂想者，呜咽",
             "JAname": "狂想者の嗚咽",
-            "imageurl": "images/skills/kafka2.webp",
+            "imageurl": "images/skills/kafka-e2.png",
             "DescriptionEN": "While Kafka is on the field, DoT dealt by all allies increases by 25%.",
             "DescriptionCN": "卡芙卡在场时，我方全体造成的持续伤害提高25%。",
             "DescriptionJP": "カフカがフィールド上にいる時、味方全体の持続与ダメージ+25%。",
@@ -868,12 +982,13 @@
             ]
         },
         {
+            "id": "100503",
             "eidolonnum": 3,
             "ENname": "Capriccio",
             "CNname": "我赞美，即兴",
             "JAname": "即興の賛美",
-            "imageurl": "images/skills/kafkaskill.webp",
-            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "imageurl": "images/skills/kafka-e3.png",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
             "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
             "stype": "eidolon",
@@ -886,30 +1001,43 @@
             ]
         },
         {
+            "id": "100504",
             "eidolonnum": 4,
             "ENname": "Recitativo",
             "CNname": "把宣叙呈献给",
             "JAname": "この叙唱を",
-            "imageurl": "images/skills/kafka4.webp",
-            "DescriptionEN": "When an enemy target receives DMG due to Shock inflicted by Kafka, Kafka additionally regenerates 2 Energy.",
-            "DescriptionCN": "当敌方目标受到由卡芙卡造成的触电伤害时，额外为卡芙卡回复2点能量。",
-            "DescriptionJP": "敵がカフカによる感電ダメージを受ける時、カフカはさらにEPを2回復する。",
+            "imageurl": "images/skills/kafka-e4.png",
+            "DescriptionEN": "When an enemy target takes DMG from the Shock status inflicted by Kafka, Kafka additionally regenerates 2 Energy.",
+            "DescriptionCN": "当敌方目标承受的由卡芙卡造成的触电状态产生伤害时，额外为卡芙卡恢复2点能量。",
+            "DescriptionJP": "カフカが敵に付与した感電状態がダメージを発生する時、カフカのEPをさらに2回復する。",
             "stype": "eidolon",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
                 "buff",
                 "special",
                 "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
             ]
         },
         {
+            "id": "100505",
             "eidolonnum": 5,
             "ENname": "Doloroso",
             "CNname": "只有今晚奏鸣",
             "JAname": "今晩だけの奏鳴",
-            "imageurl": "images/skills/kafkault.webp",
-            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+            "imageurl": "images/skills/kafka-e5.png",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
             "stype": "eidolon",
@@ -922,12 +1050,13 @@
             ]
         },
         {
+            "id": "100506",
             "eidolonnum": 6,
             "ENname": "Leggiero",
             "CNname": "回旋，悄悄地",
             "JAname": "回る、静かに",
-            "imageurl": "images/skills/kafka6.webp",
-            "DescriptionEN": "The DMG multiplier for Shock DMG dealt by Ultimate, Technique, or the follow-up attack triggered by the Talent increases by 156%, and extends the duration of Shock on the enemy target by 1 turn(s).",
+            "imageurl": "images/skills/kafka-e6.png",
+            "DescriptionEN": "The DMG multiplier for Shock DMG dealt by Ultimate, Technique, or the follow-up attack triggered by Talent increases by 156%, and extends the duration of Shock on the enemy target by 1 turn(s).",
             "DescriptionCN": "终结技、秘技与天赋触发的追加攻击使敌方目标陷入的触电状态的伤害倍率提高156%，并使触电状态的持续时间增加1回合。",
             "DescriptionJP": "必殺技、秘技、天賦による追加攻撃が敵に付与する感電状態のダメージ倍率+156%、感電状態の継続時間+1ターン。",
             "stype": "eidolon",
@@ -936,6 +1065,17 @@
             "tags": [
                 "self",
                 "buff"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "dotatk",
+                    "multiplier": 156,
+                    "tag": [
+                        "dotatk",
+                        "shocked"
+                    ]
+                }
             ]
         }
     ]

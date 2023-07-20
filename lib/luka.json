@@ -1,9 +1,10 @@
 {
+    "id": "1111",
     "ENname": "Luka",
     "CNname": "卢卡",
     "JAname": "ルカ",
-    "imageurl": "images/characters/luka.webp",
-    "imagelargeurl": "images/characters/lukalarge.webp",
+    "imageurl": "images/characters/luka.png",
+    "imagelargeurl": "images/characters/lukalarge.png",
     "etype": "physical",
     "wtype": "nihility",
     "rarity": "4",
@@ -13,83 +14,96 @@
     "leveldata": [
         {
             "level": "1",
-            "hp": 125,
+            "hp": 124.8,
             "atk": 79.2,
             "def": 66
         },
         {
             "level": "20",
-            "hp": 243,
+            "hp": 243.36,
             "atk": 154.44,
             "def": 128.7
         },
         {
             "level": "20+",
-            "hp": 293,
+            "hp": 293.28,
             "atk": 186.12,
             "def": 155.1
         },
         {
+            "level": "30",
+            "hp": 355.68,
+            "atk": 225.72,
+            "def": 188.1
+        },
+        {
+            "level": "30+",
+            "hp": 405.6,
+            "atk": 257.4,
+            "def": 214.5
+        },
+        {
             "level": "40",
-            "hp": 468,
-            "atk": 297,
+            "hp": 468.0,
+            "atk": 297.0,
             "def": 247.5
         },
         {
             "level": "40+",
-            "hp": 517,
+            "hp": 517.92,
             "atk": 328.68,
             "def": 273.9
         },
         {
             "level": "50",
-            "hp": 580,
+            "hp": 580.32,
             "atk": 368.28,
             "def": 306.9
         },
         {
             "level": "50+",
-            "hp": 630,
+            "hp": 630.24,
             "atk": 399.96,
             "def": 333.3
         },
         {
             "level": "60",
-            "hp": 693,
+            "hp": 692.64,
             "atk": 439.56,
             "def": 366.3
         },
         {
             "level": "60+",
-            "hp": 743,
+            "hp": 742.56,
             "atk": 471.24,
             "def": 392.7
         },
         {
             "level": "70",
-            "hp": 805,
+            "hp": 804.96,
             "atk": 510.84,
             "def": 425.7
         },
         {
             "level": "70+",
-            "hp": 855,
+            "hp": 854.88,
             "atk": 542.52,
             "def": 452.1
         },
         {
             "level": "80",
-            "hp": 917,
+            "hp": 917.28,
             "atk": 582.12,
             "def": 485.1
         }
     ],
     "skilldata": [
         {
+            "id": "111101",
             "ENname": "Direct Punch",
             "CNname": "直冲拳",
-            "JAname": "直冲拳",
-            "imageurl": "images/skills/lukana.webp",
+            "JAname": "裂地拳",
+            "imageurl": "images/skills/luka-111101.png",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of Luka's ATK to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于卢卡[1]%攻击力的物理属性伤害。",
             "DescriptionJP": "指定した敵単体にルカの攻撃力[1]%分の物理ダメージを与える。",
@@ -131,13 +145,14 @@
             ]
         },
         {
+            "id": "111108",
             "ENname": "Sky-Shatter Fist",
             "CNname": "直冲碎天拳",
             "JAname": "裂地砕天拳",
-            "imageurl": "images/skills/lukana.webp",
-            "DescriptionEN": "Consumes 2 stacks of Fighting Will. First, uses Direct Punch to deal 3 hits, with each hit dealing Physical DMG equal to [1]% of Luka's ATK to a single enemy target. Then, uses Sky-Shatter Fist to deal 1 hit, dealing Physical DMG equal to [2]% of Luka's ATK to the single enemy target.",
-            "DescriptionCN": "消耗2层【斗志】，先使用【直冲拳】施放3段攻击，每段攻击对指定敌方单体造成等同于卢卡[1]%攻击力的物理属性伤害。再使用【碎天拳】施放1段攻击，对指定敌方单体造成等同于卢卡[2]%攻击力的物理属性伤害。",
-            "DescriptionJP": "「闘志」を2層消費し、「裂地拳」で3段の攻撃を行う。1段の攻撃で指定した敵単体にルカの攻撃力[1]%分の物理ダメージを与える。そして「砕天拳」で1段の攻撃を行い、指定した敵単体にルカの攻撃力[2]%分の物理ダメージを与える。 ",
+            "imageurl": "images/skills/luka-111108.png",
+            "DescriptionEN": "Consumes 2 stacks of Fighting Will. First, uses Direct Punch to deal 3 hits, with each hit dealing Physical DMG equal to [1]% of Luka's ATK to a single enemy target. Then, uses Rising Uppercut to deal 1 hit, dealing Physical DMG equal to [2]% of Luka's ATK to the single enemy target.",
+            "DescriptionCN": "消耗2层【斗志】，先使用【直冲拳】施放3段攻击，每段攻击对指定敌方单体造成等同于卢卡[1]%攻击力的物理属性伤害。 再使用【碎天拳】施放1段攻击，对指定敌方单体造成等同于卢卡[2]%攻击力的物理属性伤害。",
+            "DescriptionJP": "「闘志」を2層消費し、「裂地拳」で3段の攻撃を行う。1段の攻撃で指定した敵単体にルカの攻撃力[1]%分の物理ダメージを与える。 そして「砕天拳」で1段の攻撃を行い、指定した敵単体にルカの攻撃力[2]%分の物理ダメージを与える。",
             "stype": "basicattack",
             "maxlevel": 9,
             "buffskill": false,
@@ -187,7 +202,7 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 1,
+                    "multiplier": 2,
                     "tag": [
                         "singleatk",
                         "normalatk",
@@ -197,16 +212,17 @@
             ]
         },
         {
+            "id": "111102",
             "ENname": "Lacerating Fist",
             "CNname": "裂伤拳",
             "JAname": "裂創拳",
-            "imageurl": "images/skills/lukaskill.webp",
-            "DescriptionEN": "Deals Physical DMG equal to [1]% of Luka's ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take [2]% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than [3]% of Luka's ATK.",
-            "DescriptionCN": "对指定敌方单体造成等同于卢卡[1]%攻击力的物理属性伤害，随后有100%的基础概率使目标陷入裂伤状态，持续3回合。裂伤状态下，敌方目标每回合开始时受到等同于自身[2]%生命上限的物理属性持续伤害，最多不超过卢卡攻击力的[3]%。",
-            "DescriptionJP": "指定した敵単体にルカの攻撃力[1]%分物理ダメージを与え、100%の基礎確率で敵を裂創状態にする、3ターン継続。裂創状態の敵はターンが回ってくるたびに、自身の最大HP[2]%分の物理持続ダメージを受ける。最大でルカの攻撃力の[3]%を超えない。",
+            "imageurl": "images/skills/luka-111102.png",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of Luka's ATK to a single enemy target. In addition, there is a [2]% base chance to inflict Bleed on them, lasting for [5] turn(s). While Bleeding, the enemy will take [3]% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than [4]% of Luka's ATK.",
+            "DescriptionCN": "对指定敌方单体造成等同于卢卡[1]%攻击力的物理属性伤害，随后有[2]%的基础概率使目标陷入裂伤状态，持续[5]回合。 裂伤状态下，敌方目标每回合开始时受到等同于自身[3]%生命上限的物理属性持续伤害，最多不超过卢卡攻击力的[4]%。",
+            "DescriptionJP": "指定した敵単体にルカの攻撃力[1]%分の物理ダメージを与え、[2]%の基礎確率で敵を裂創状態にする、[5]ターン継続。 裂創状態の敵はターンが回ってくるたびに、自身の最大HP[3]%分の物理持続ダメージを受ける。最大でルカの攻撃力の[4]%を超えない。",
             "stype": "skill",
             "maxlevel": 15,
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "weaknessbreak": 60,
             "energyregen": 30,
@@ -229,44 +245,77 @@
                     "15": 150
                 },
                 {
-                    "1": 16,
-                    "2": 16,
-                    "3": 16,
-                    "4": 16,
-                    "5": 16,
-                    "6": 16,
-                    "7": 16,
-                    "8": 16,
-                    "9": 16,
-                    "10": 16,
-                    "11": 16,
-                    "12": 16,
-                    "13": 16,
-                    "14": 16,
-                    "15": 16
+                    "1": 100,
+                    "2": 100,
+                    "3": 100,
+                    "4": 100,
+                    "5": 100,
+                    "6": 100,
+                    "7": 100,
+                    "8": 100,
+                    "9": 100,
+                    "10": 100,
+                    "11": 100,
+                    "12": 100,
+                    "13": 100,
+                    "14": 100,
+                    "15": 100
                 },
                 {
-                    "1": 115,
-                    "2": 126.5,
-                    "3": 138,
-                    "4": 149.5,
-                    "5": 161,
-                    "6": 178.25,
-                    "7": 201.25,
-                    "8": 230,
-                    "9": 264.5,
-                    "10": 299,
-                    "11": 313.95,
-                    "12": 328.9,
-                    "13": 343.85,
-                    "14": 358.8,
-                    "15": 373.75
+                    "1": 24,
+                    "2": 24,
+                    "3": 24,
+                    "4": 24,
+                    "5": 24,
+                    "6": 24,
+                    "7": 24,
+                    "8": 24,
+                    "9": 24,
+                    "10": 24,
+                    "11": 24,
+                    "12": 24,
+                    "13": 24,
+                    "14": 24,
+                    "15": 24
+                },
+                {
+                    "1": 130,
+                    "2": 143,
+                    "3": 156,
+                    "4": 169,
+                    "5": 182,
+                    "6": 201.5,
+                    "7": 227.5,
+                    "8": 260,
+                    "9": 299,
+                    "10": 338,
+                    "11": 354.9,
+                    "12": 371.8,
+                    "13": 388.7,
+                    "14": 405.6,
+                    "15": 422.5
+                },
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3,
+                    "6": 3,
+                    "7": 3,
+                    "8": 3,
+                    "9": 3,
+                    "10": 3,
+                    "11": 3,
+                    "12": 3,
+                    "13": 3,
+                    "14": 3,
+                    "15": 3
                 }
             ],
             "tags": [
                 "singleatk",
                 "skillatk",
-                "followupatk",
                 "physicalatk"
             ],
             "effect": [
@@ -281,50 +330,50 @@
                     ]
                 },
                 {
-                    "type": "dmg",
-                    "multipliertarget": "hp",
+                    "type": "debuff",
+                    "multipliertarget": "bleed",
                     "multiplier": 2,
                     "tag": [
-                        "singleatk",
-                        "followupatk",
+                        "bleed"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "hp",
+                    "multiplier": 3,
+                    "tag": [
+                        "dotatk",
+                        "physicalatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "dotatk",
                         "physicalatk"
                     ]
                 }
             ]
         },
         {
+            "id": "111103",
             "ENname": "Coup de Grâce",
-            "CNname": "制胜一击 ",
+            "CNname": "制胜一击",
             "JAname": "勝利の一撃",
-            "imageurl": "images/skills/lukault.webp",
-            "DescriptionEN": "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target's DMG received by [1]% for 3 turn(s). Then, deals Physical DMG equal to [2]% of Luka's ATK to the target.",
-            "DescriptionCN": "获得2层【斗志】，并有100%的基础概率使指定敌方单体受到的伤害提高[1]%，持续3回合，随后对该目标造成等同于卢卡[2]%攻击力的物理属性伤害。",
-            "DescriptionJP": "「闘志」を2層獲得し、100%の基礎確率で指定した敵単体の被ダメージ+[1]%、3ターン継続。指定した敵単体にルカの攻撃力[2]%分の物理ダメージを与える。",
+            "imageurl": "images/skills/luka-111103.png",
+            "DescriptionEN": "Receives [5] stack(s) of Fighting Will, with a [2]% base chance to increase a single enemy target's DMG received by [3]% for [4] turn(s). Then, deals Physical DMG equal to [1]% of Luka's ATK to the target.",
+            "DescriptionCN": "获得[5]层【斗志】，并有[2]%的基础概率使指定敌方单体受到的伤害提高[3]%，持续[4]回合，随后对该目标造成等同于卢卡[1]%攻击力的物理属性伤害。",
+            "DescriptionJP": "「闘志」を[5]層獲得し、[2]%の基礎確率で指定した敵単体の被ダメージ+[3]%、[4]ターン継続。その後、指定した敵単体にルカの攻撃力[1]%分の物理ダメージを与える。",
             "stype": "ult",
-            "energy": 140,
+            "energy": 130,
             "maxlevel": 15,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "weaknessbreak": 90,
             "energyregen": 5,
             "levelmultiplier": [
-                {
-                    "1": 9,
-                    "2": 9.6,
-                    "3": 10.2,
-                    "4": 10.8,
-                    "5": 11.4,
-                    "6": 12,
-                    "7": 12.75,
-                    "8": 13.5,
-                    "9": 14.25,
-                    "10": 15,
-                    "11": 15.6,
-                    "12": 16.2,
-                    "13": 16.8,
-                    "14": 17.4,
-                    "15": 18
-                },
                 {
                     "1": 198,
                     "2": 211.2,
@@ -341,6 +390,74 @@
                     "13": 369.6,
                     "14": 382.8,
                     "15": 396
+                },
+                {
+                    "1": 100,
+                    "2": 100,
+                    "3": 100,
+                    "4": 100,
+                    "5": 100,
+                    "6": 100,
+                    "7": 100,
+                    "8": 100,
+                    "9": 100,
+                    "10": 100,
+                    "11": 100,
+                    "12": 100,
+                    "13": 100,
+                    "14": 100,
+                    "15": 100
+                },
+                {
+                    "1": 12,
+                    "2": 12.8,
+                    "3": 13.6,
+                    "4": 14.4,
+                    "5": 15.2,
+                    "6": 16,
+                    "7": 17,
+                    "8": 18,
+                    "9": 19,
+                    "10": 20,
+                    "11": 20.8,
+                    "12": 21.6,
+                    "13": 22.4,
+                    "14": 23.2,
+                    "15": 24
+                },
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3,
+                    "6": 3,
+                    "7": 3,
+                    "8": 3,
+                    "9": 3,
+                    "10": 3,
+                    "11": 3,
+                    "12": 3,
+                    "13": 3,
+                    "14": 3,
+                    "15": 3
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2,
+                    "6": 2,
+                    "7": 2,
+                    "8": 2,
+                    "9": 2,
+                    "10": 2,
+                    "11": 2,
+                    "12": 2,
+                    "13": 2,
+                    "14": 2,
+                    "15": 2
                 }
             ],
             "tags": [
@@ -352,16 +469,24 @@
                 {
                     "type": "debuff",
                     "multipliertarget": "dmgreceive",
-                    "multiplier": 1,
+                    "multiplier": 2,
                     "tag": [
                         "singleenemy",
                         "dmgreceive"
                     ]
                 },
                 {
+                    "type": "debuff",
+                    "multipliertarget": "dmgreceive",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk"
+                    ]
+                },
+                {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 2,
+                    "multiplier": 1,
                     "tag": [
                         "singleatk",
                         "ultatk",
@@ -371,20 +496,38 @@
             ]
         },
         {
+            "id": "111104",
             "ENname": "Flying Sparks",
             "CNname": "火花四溅",
             "JAname": "飛び散る火花",
-            "imageurl": "images/skills/lukatalent.webp",
-            "DescriptionEN": "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to [1]% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
-            "DescriptionCN": "卢卡在施放普攻和战技后，获得1层【斗志】，最多可持有4层【斗志】。当持有的【斗志】大于等于2层时，普攻变为强化普攻。当强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标时，则使其当前承受的裂伤状态立即产生1次相当于原伤害[1]%的伤害。战斗开始时，卢卡持有1层【斗志】。",
-            "DescriptionJP": "ルカが通常攻撃または戦闘スキルを発動した後、「闘志」を1層獲得する。「闘志」は最大で4層累積できる。「闘志」が2層以上の時、通常攻撃が強化通常攻撃になる。強化通常攻撃の「砕天拳」が裂創状態の敵に命中した時、その敵に付与された裂創状態が、本来のダメージ[1]%分のダメージを発生する。戦闘開始時、ルカは「闘志」を1層獲得する。",
+            "imageurl": "images/skills/luka-111104.png",
+            "DescriptionEN": "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" he receives [1] stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to [2]% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+            "DescriptionCN": "卢卡在施放普攻【直冲拳】和战技【裂伤拳】后，获得[1]层【斗志】，最多可持有4层【斗志】。当持有的【斗志】大于等于2层时，普攻【直冲拳】强化为【直冲碎天拳】。当强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标后，则使其当前承受的裂伤状态立即产生1次相当于原伤害[2]%的伤害。战斗开始时，卢卡持有1层【斗志】。",
+            "DescriptionJP": "ルカが通常攻撃「裂地拳」または戦闘スキル「裂創拳」を発動した後、「闘志」を[1]層獲得する。「闘志」は最大で4層累積できる。「闘志」が2層以上の時、通常攻撃「裂地拳」が「裂地砕天拳」に強化される。強化通常攻撃の「砕天拳」が裂創状態の敵に命中した後、その敵に付与された裂創状態が、本来のダメージ[2]%分のダメージを発生する。戦闘開始時、ルカは「闘志」を1層獲得する。",
             "stype": "talent",
             "maxlevel": 15,
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "weaknessbreak": 0,
             "energyregen": 0,
             "levelmultiplier": [
+                {
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 1,
+                    "5": 1,
+                    "6": 1,
+                    "7": 1,
+                    "8": 1,
+                    "9": 1,
+                    "10": 1,
+                    "11": 1,
+                    "12": 1,
+                    "13": 1,
+                    "14": 1,
+                    "15": 1
+                },
                 {
                     "1": 68,
                     "2": 69.7,
@@ -392,7 +535,7 @@
                     "4": 73.1,
                     "5": 74.8,
                     "6": 76.5,
-                    "7": 78.63,
+                    "7": 78.62,
                     "8": 80.75,
                     "9": 82.88,
                     "10": 85,
@@ -408,8 +551,8 @@
             ],
             "effect": [
                 {
-                    "type": "buff",
-                    "addtarget": "atk",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
                         "physicalatk"
@@ -418,16 +561,17 @@
             ]
         },
         {
+            "id": "111107",
             "ENname": "Anticipator",
             "CNname": "抢先者",
             "JAname": "先を行く者",
-            "imageurl": "images/skills/lukatec.webp",
-            "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to 26% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.",
-            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于卢卡26%攻击力的物理属性伤害，并有100%的基础概率使目标陷入与战技相同的裂伤状态。随后卢卡额外获得1层【斗志】。",
-            "DescriptionJP": "敵を攻撃。戦闘に入った後、ランダムな敵単体にルカの攻撃力26%分の物理ダメージを与え、100%の基礎確率でその敵を、戦闘スキルが与えるものと同じ裂創状態にする。そして、ルカは「闘志」をさらに1層獲得する。",
+            "imageurl": "images/skills/luka-111107.png",
+            "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to 50% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.",
+            "DescriptionCN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于卢卡50%攻击力的物理属性伤害，并有100%的基础概率使目标陷入与战技相同的裂伤状态。随后卢卡额外获得1层【斗志】。",
+            "DescriptionJP": "敵を攻撃。戦闘に入った後、ランダムな敵単体にルカの攻撃力50%分の物理ダメージを与え、100%の基礎確率でその敵を、戦闘スキルが与えるものと同じ裂創状態にする。その後、ルカは「闘志」をさらに1層獲得する。",
             "stype": "technique",
             "maxlevel": 0,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "weaknessbreak": 60,
             "energyregen": 0,
@@ -438,9 +582,17 @@
             ],
             "effect": [
                 {
+                    "type": "debuff",
+                    "multipliertarget": "bleed",
+                    "multiplier": 100,
+                    "tag": [
+                        "bleed"
+                    ]
+                },
+                {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 26,
+                    "multiplier": 50,
                     "tag": [
                         "singleatk",
                         "physicalatk"
@@ -451,14 +603,15 @@
     ],
     "tracedata": [
         {
+            "id": "1111101",
             "tiny": false,
             "ENname": "Kinetic Overload",
             "CNname": "动能过载",
             "JAname": "オーバーロード",
-            "imageurl": "images/skills/lukat1.webp",
             "DescriptionEN": "When the Skill is used, immediately dispels 1 buff from the enemy target.",
             "DescriptionCN": "施放战技时，立即解除敌方目标1个增益效果。",
             "DescriptionJP": "戦闘スキルを発動した時、敵のバフを1つ解除する。",
+            "imageurl": "images/skills/luka-1111101.png",
             "stype": "trace",
             "buffskill": false,
             "teamskill": false,
@@ -468,16 +621,17 @@
             ]
         },
         {
+            "id": "1111102",
             "tiny": false,
             "ENname": "Cycle Braking",
             "CNname": "循环制动",
             "JAname": "循環制動",
-            "imageurl": "images/skills/lukat2.webp",
             "DescriptionEN": "For every stack of Fighting Will obtained, additionally regenerates 3 Energy.",
             "DescriptionCN": "每获得1层【斗志】，额外恢复3点能量。",
             "DescriptionJP": "「闘志」を1層獲得するたび、さらにEPを3回復する。",
+            "imageurl": "images/skills/luka-1111102.png",
             "stype": "trace",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
                 "self",
@@ -496,72 +650,34 @@
             ]
         },
         {
+            "id": "1111103",
             "tiny": false,
             "ENname": "Crush Fighting Will",
             "CNname": "粉碎斗志",
             "JAname": "闘志粉砕",
-            "imageurl": "images/skills/lukat3.webp",
             "DescriptionEN": "When using Enhanced Basic ATK, every hit Direct Punch deals has a 50% fixed chance for Luka to use 1 additional hit. This effect does not apply to additional hits generated in this way.",
             "DescriptionCN": "施放强化普攻时，【直冲拳】的每1段攻击都有50%的固定概率使卢卡额外施放1段攻击。此效果对额外施放的攻击不会生效。",
-            "DescriptionJP": "強化通常攻撃を行った時、1段の「裂地拳」ごとに、50%の固定確率でルカが攻撃をさらに1段行う。追加能力「闘志粉砕」によって行われた「裂地拳」では、この効果は発動しない。",
+            "DescriptionJP": "強化通常攻撃を行った時、1段の「裂地拳」ごとに、50%の固定確率でルカが「裂地拳」をさらに1段行う。追加能力「闘志粉砕」によって行われた「裂地拳」では、この効果は発動しない。",
+            "imageurl": "images/skills/luka-1111103.png",
             "stype": "trace",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
                 "buff",
                 "self",
                 "physicalatk"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "speed",
-                    "multiplier": 10,
-                    "tag": [
-                        "self",
-                        "speed"
-                    ]
-                }
             ]
         },
         {
+            "id": "1111201",
             "tiny": true,
-            "ENname": "Effect Hit +4%",
-            "CNname": "效果命中 +4%",
-            "JAname": "効果命中 +4%",
-            "ttype": "effecthit",
-            "DescriptionEN": "A2",
-            "DescriptionCN": "A2",
-            "DescriptionJP": "A2",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "effecthit"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "quantumdmg",
-                    "multiplier": 4,
-                    "tag": [
-                        "self",
-                        "effecthit"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "ATK +4%",
-            "CNname": "攻击力 +4%",
-            "JAname": "攻撃力 +4%",
+            "ENname": "ATK increases by 4%",
+            "CNname": "攻击力提高4%",
+            "JAname": "攻撃力+4%",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
             "ttype": "atk",
-            "DescriptionEN": "A3",
-            "DescriptionCN": "A3",
-            "DescriptionJP": "A3",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -583,14 +699,75 @@
             ]
         },
         {
+            "id": "1111202",
             "tiny": true,
-            "ENname": "DEF +5%",
-            "CNname": "防御力 +5%",
-            "JAname": "防御力 +5%",
-            "ttype": "def",
+            "ENname": "Effect Hit Rate increases by 4%",
+            "CNname": "效果命中提高4%",
+            "JAname": "効果命中+4%",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "ttype": "effecthit",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effecthit"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effecthit"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1111203",
+            "tiny": true,
+            "ENname": "ATK increases by 4%",
+            "CNname": "攻击力提高4%",
+            "JAname": "攻撃力+4%",
             "DescriptionEN": "A3",
             "DescriptionCN": "A3",
             "DescriptionJP": "A3",
+            "ttype": "atk",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "ATK",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1111204",
+            "tiny": true,
+            "ENname": "DEF increases by 5%",
+            "CNname": "防御力提高5%",
+            "JAname": "防御力+5%",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "ttype": "def",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -612,14 +789,15 @@
             ]
         },
         {
+            "id": "1111205",
             "tiny": true,
-            "ENname": "ATK +6%",
-            "CNname": "攻击力 +6%",
-            "JAname": "攻撃力 +6%",
-            "ttype": "atk",
+            "ENname": "ATK increases by 6%",
+            "CNname": "攻击力提高6%",
+            "JAname": "攻撃力+6%",
             "DescriptionEN": "A4",
             "DescriptionCN": "A4",
             "DescriptionJP": "A4",
+            "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -641,14 +819,15 @@
             ]
         },
         {
+            "id": "1111206",
             "tiny": true,
-            "ENname": "Effect Hit +6%",
-            "CNname": "效果命中 +6%",
-            "JAname": "効果命中 +6%",
-            "ttype": "effecthit",
+            "ENname": "Effect Hit Rate increases by 6%",
+            "CNname": "效果命中提高6%",
+            "JAname": "効果命中+6%",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
+            "ttype": "effecthit",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -670,14 +849,15 @@
             ]
         },
         {
+            "id": "1111207",
             "tiny": true,
-            "ENname": "ATK +6%",
-            "CNname": "攻击力 +6%",
-            "JAname": "攻撃力 +6%",
-            "ttype": "atk",
+            "ENname": "ATK increases by 6%",
+            "CNname": "攻击力提高6%",
+            "JAname": "攻撃力+6%",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
+            "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -699,14 +879,15 @@
             ]
         },
         {
+            "id": "1111208",
             "tiny": true,
-            "ENname": "DEF +7.5%",
-            "CNname": "防御力 +7.5%",
-            "JAname": "防御力 +7.5%",
-            "ttype": "def",
+            "ENname": "DEF increases by 7.5%",
+            "CNname": "防御力提高7.5%",
+            "JAname": "防御力+7.5%",
             "DescriptionEN": "A6",
             "DescriptionCN": "A6",
             "DescriptionJP": "A6",
+            "ttype": "def",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -728,14 +909,15 @@
             ]
         },
         {
+            "id": "1111209",
             "tiny": true,
-            "ENname": "Effect Hit +8%",
-            "CNname": "效果命中 +8%",
-            "JAname": "効果命中 +8%",
-            "ttype": "effecthit",
+            "ENname": "Effect Hit Rate increases by 8%",
+            "CNname": "效果命中提高8%",
+            "JAname": "効果命中+8%",
             "DescriptionEN": "LV75",
             "DescriptionCN": "LV75",
             "DescriptionJP": "LV75",
+            "ttype": "effecthit",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -757,43 +939,15 @@
             ]
         },
         {
+            "id": "1111210",
             "tiny": true,
-            "ENname": "ATK +4%",
-            "CNname": "攻击力 +4%",
-            "JAname": "攻撃力 +4%",
-            "ttype": "atk",
-            "DescriptionEN": "LV1",
-            "DescriptionCN": "LV1",
-            "DescriptionJP": "LV1",
-            "stype": "trace",
-            "buffskill": true,
-            "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
-            "effect": [
-                {
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 4,
-                    "tag": [
-                        "self",
-                        "atk"
-                    ]
-                }
-            ]
-        },
-        {
-            "tiny": true,
-            "ENname": "ATK +8%",
-            "CNname": "攻击力 +8%",
-            "JAname": "攻撃力 +8%",
-            "ttype": "atk",
+            "ENname": "ATK increases by 8%",
+            "CNname": "攻击力提高8%",
+            "JAname": "攻撃力+8%",
             "DescriptionEN": "LV80",
             "DescriptionCN": "LV80",
             "DescriptionJP": "LV80",
+            "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -817,16 +971,17 @@
     ],
     "eidolon": [
         {
+            "id": "111101",
             "eidolonnum": 1,
             "ENname": "Fighting Endlessly",
             "CNname": "争斗不休",
             "JAname": "止まぬ争い",
-            "imageurl": "images/skills/luka1.webp",
-            "DescriptionEN": "When attacks land on Bleeding enemy targets, Luka's DMG dealt increases by 15% for 2 turn(s).",
-            "DescriptionCN": "击中处于裂伤状态下的敌方目标时，卢卡造成伤害提高15%，持续2回合。",
-            "DescriptionJP": "裂創状態の敵に攻撃が命中した時、ルカの与ダメージ+15%、2ターン継続。",
+            "imageurl": "images/skills/luka-e1.png",
+            "DescriptionEN": "When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by 15% for 2 turn(s).",
+            "DescriptionCN": "当卢卡行动时，若指定的敌方目标处于裂伤状态，卢卡造成的伤害提高15%，持续2回合。",
+            "DescriptionJP": "ルカが行動する時、指定した敵が裂創状態の場合、ルカの与ダメージ+15%、2ターン継続。",
             "stype": "eidolon",
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "tags": [
                 "buff",
@@ -836,7 +991,7 @@
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "ultatk",
+                    "addtarget": "alldmg",
                     "multiplier": 15,
                     "tag": [
                         "self",
@@ -846,14 +1001,15 @@
             ]
         },
         {
+            "id": "111102",
             "eidolonnum": 2,
             "ENname": "The Enemy is Weak, I am Strong",
             "CNname": "敌弱，我强",
             "JAname": "オレが強い",
-            "imageurl": "images/skills/luka2.webp",
+            "imageurl": "images/skills/luka-e2.png",
             "DescriptionEN": "If the Skill hits an enemy target with Physical Weakness, gain 1 stack(s) of Fighting Will.",
             "DescriptionCN": "若战技击中的敌方目标弱点为物理属性，获得1层【斗志】。",
-            "DescriptionJP": "戦闘スキルが命中した敵に物理の弱点がある場合、「闘志」を1層獲得する。",
+            "DescriptionJP": "物理の弱点がある敵に戦闘スキルが命中した場合、「闘志」を1層獲得する。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
@@ -863,11 +1019,12 @@
             ]
         },
         {
+            "id": "111103",
             "eidolonnum": 3,
             "ENname": "Born for the Ring",
             "CNname": "为擂台而生",
             "JAname": "リングに立つため生まれた男",
-            "imageurl": "images/skills/lukaskill.webp",
+            "imageurl": "images/skills/luka-e3.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
             "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
@@ -881,11 +1038,12 @@
             ]
         },
         {
+            "id": "111104",
             "eidolonnum": 4,
             "ENname": "Never Turning Back",
             "CNname": "百折不回",
             "JAname": "不撓不屈",
-            "imageurl": "images/skills/luka4.webp",
+            "imageurl": "images/skills/luka-e4.png",
             "DescriptionEN": "For every stack of Fighting Will obtained, increases ATK by 5%, stacking up to 4 time(s).",
             "DescriptionCN": "每获得1层【斗志】，攻击力提高5%，该效果最多叠加4层。",
             "DescriptionJP": "「闘志」を1層獲得するごとに、攻撃力+5%。この効果は最大で4層累積できる。",
@@ -899,9 +1057,9 @@
             ],
             "effect": [
                 {
-                    "type": "dmg",
-                    "multipliertarget": "normalatk",
-                    "multiplier": 100,
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 5,
                     "tag": [
                         "self",
                         "atk"
@@ -910,11 +1068,12 @@
             ]
         },
         {
+            "id": "111105",
             "eidolonnum": 5,
             "ENname": "The Spirit of Wildfire",
             "CNname": "地火之魂",
             "JAname": "地炎魂",
-            "imageurl": "images/skills/lukault.webp",
+            "imageurl": "images/skills/luka-e5.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
@@ -928,20 +1087,32 @@
             ]
         },
         {
+            "id": "111106",
             "eidolonnum": 6,
             "ENname": "A Champion's Applause",
             "CNname": "冠军应得的喝彩",
             "JAname": "チャンピオンに相応しい喝采",
-            "imageurl": "images/skills/luka6.webp",
-            "DescriptionEN": "When the Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the Bleed status will immediately deal DMG 1 time equal to 8% of the original DMG for every hit of Direct Punch already used by the current Enhanced Basic ATK.",
-            "DescriptionCN": "施放强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标时，本次强化普攻使用的【直冲拳】每施放过1段攻击，则额外使其当前承受的裂伤状态立即产生1次相当于原伤害8%的伤害。",
-            "DescriptionJP": "強化通常攻撃の「砕天拳」が裂創状態の敵に命中した時、その回の攻撃で「裂地拳」を1段行ったごとに、敵に付与された裂創状態が、さらに本来のダメージ8%分のダメージを1回発生する。",
+            "imageurl": "images/skills/luka-e6.png",
+            "DescriptionEN": "After the Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG 1 time equal to 8% of the original DMG for every hit of Direct Punch already unleashed during the current Enhanced Basic ATK.",
+            "DescriptionCN": "施放强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标后，本次强化普攻使用的【直冲拳】每施放过1段攻击，则额外使其当前承受的裂伤状态立即产生1次相当于原伤害8%的伤害。",
+            "DescriptionJP": "強化通常攻撃の「砕天拳」が裂創状態の敵に命中した後、その回の攻撃で「裂地拳」を1段行ったごとに、敵に付与された裂創状態が、さらに本来のダメージ8%分のダメージを1回発生する。",
             "stype": "eidolon",
-            "buffskill": true,
+            "buffskill": false,
             "teamskill": false,
             "tags": [
                 "singleenemy",
                 "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "normalatk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "normalatk"
+                    ]
+                }
             ]
         }
     ]

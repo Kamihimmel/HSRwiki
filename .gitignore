@@ -1,0 +1,9 @@
+.vscode
+.idea
+
+crawler/venv
+crawler/temp
+crawler/hhw
+crawler/srs
+crawler/yatta
+__pycache__

@@ -1,0 +1,46 @@
+{
+    "id": "310",
+    "ENname": "Broken Keel",
+    "CNname": "折断的龙骨",
+    "JAname": "折れた竜骨",
+    "imageurl": "images/relics/71023.png",
+    "set": "2",
+    "sphere": "images/relics/IconRelic_310_5.png",
+    "rope": "images/relics/IconRelic_310_6.png",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%.",
+            "DescriptionCN": "使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。",
+            "DescriptionJP": "装備キャラの効果抵抗+10%。装備キャラの効果抵抗が30%以上の時、味方全体の会心ダメージ+10%。",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "effectres",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 10,
+                    "tag": [
+                        "allally",
+                        "critdmg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

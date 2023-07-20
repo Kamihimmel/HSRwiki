@@ -8,7 +8,8 @@
             "imageurl": "images/lightcones/20018.png",
             "wtype": "nihility",
             "rarity": "3",
-            "infourl": "lib/lightcones/20018.json"
+            "infourl": "lib/lightcones/20018.json",
+            "spoiler": false
         },
         {
             "id": "20016",
@@ -18,7 +19,8 @@
             "imageurl": "images/lightcones/20016.png",
             "wtype": "destruction",
             "rarity": "3",
-            "infourl": "lib/lightcones/20016.json"
+            "infourl": "lib/lightcones/20016.json",
+            "spoiler": false
         },
         {
             "id": "20019",
@@ -28,7 +30,8 @@
             "imageurl": "images/lightcones/20019.png",
             "wtype": "harmony",
             "rarity": "3",
-            "infourl": "lib/lightcones/20019.json"
+            "infourl": "lib/lightcones/20019.json",
+            "spoiler": false
         },
         {
             "id": "20015",
@@ -38,7 +41,8 @@
             "imageurl": "images/lightcones/20015.png",
             "wtype": "abundance",
             "rarity": "3",
-            "infourl": "lib/lightcones/20015.json"
+            "infourl": "lib/lightcones/20015.json",
+            "spoiler": false
         },
         {
             "id": "20017",
@@ -48,7 +52,8 @@
             "imageurl": "images/lightcones/20017.png",
             "wtype": "preservation",
             "rarity": "3",
-            "infourl": "lib/lightcones/20017.json"
+            "infourl": "lib/lightcones/20017.json",
+            "spoiler": false
         },
         {
             "id": "20020",
@@ -58,7 +63,8 @@
             "imageurl": "images/lightcones/20020.png",
             "wtype": "erudition",
             "rarity": "3",
-            "infourl": "lib/lightcones/20020.json"
+            "infourl": "lib/lightcones/20020.json",
+            "spoiler": false
         },
         {
             "id": "20014",
@@ -68,7 +74,8 @@
             "imageurl": "images/lightcones/20014.png",
             "wtype": "thehunt",
             "rarity": "3",
-            "infourl": "lib/lightcones/20014.json"
+            "infourl": "lib/lightcones/20014.json",
+            "spoiler": false
         },
         {
             "id": "21025",
@@ -78,7 +85,8 @@
             "imageurl": "images/lightcones/21025.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "lib/lightcones/21025.json"
+            "infourl": "lib/lightcones/21025.json",
+            "spoiler": false
         },
         {
             "id": "21024",
@@ -88,7 +96,8 @@
             "imageurl": "images/lightcones/21024.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "lib/lightcones/21024.json"
+            "infourl": "lib/lightcones/21024.json",
+            "spoiler": false
         },
         {
             "id": "21023",
@@ -98,7 +107,8 @@
             "imageurl": "images/lightcones/21023.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "lib/lightcones/21023.json"
+            "infourl": "lib/lightcones/21023.json",
+            "spoiler": false
         },
         {
             "id": "21022",
@@ -108,7 +118,8 @@
             "imageurl": "images/lightcones/21022.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "lib/lightcones/21022.json"
+            "infourl": "lib/lightcones/21022.json",
+            "spoiler": false
         },
         {
             "id": "21021",
@@ -118,7 +129,8 @@
             "imageurl": "images/lightcones/21021.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "lib/lightcones/21021.json"
+            "infourl": "lib/lightcones/21021.json",
+            "spoiler": false
         },
         {
             "id": "21020",
@@ -128,7 +140,8 @@
             "imageurl": "images/lightcones/21020.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "lib/lightcones/21020.json"
+            "infourl": "lib/lightcones/21020.json",
+            "spoiler": false
         },
         {
             "id": "21019",
@@ -138,7 +151,8 @@
             "imageurl": "images/lightcones/21019.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "lib/lightcones/21019.json"
+            "infourl": "lib/lightcones/21019.json",
+            "spoiler": false
         },
         {
             "id": "21018",
@@ -148,7 +162,8 @@
             "imageurl": "images/lightcones/21018.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "lib/lightcones/21018.json"
+            "infourl": "lib/lightcones/21018.json",
+            "spoiler": false
         },
         {
             "id": "21017",
@@ -158,7 +173,8 @@
             "imageurl": "images/lightcones/21017.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "lib/lightcones/21017.json"
+            "infourl": "lib/lightcones/21017.json",
+            "spoiler": false
         },
         {
             "id": "21016",
@@ -168,7 +184,8 @@
             "imageurl": "images/lightcones/21016.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "lib/lightcones/21016.json"
+            "infourl": "lib/lightcones/21016.json",
+            "spoiler": false
         },
         {
             "id": "21015",
@@ -178,7 +195,8 @@
             "imageurl": "images/lightcones/21015.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "lib/lightcones/21015.json"
+            "infourl": "lib/lightcones/21015.json",
+            "spoiler": false
         },
         {
             "id": "21014",
@@ -188,7 +206,8 @@
             "imageurl": "images/lightcones/21014.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "lib/lightcones/21014.json"
+            "infourl": "lib/lightcones/21014.json",
+            "spoiler": false
         },
         {
             "id": "24002",
@@ -198,7 +217,8 @@
             "imageurl": "images/lightcones/24002.png",
             "wtype": "preservation",
             "rarity": "5",
-            "infourl": "lib/lightcones/24002.json"
+            "infourl": "lib/lightcones/24002.json",
+            "spoiler": false
         },
         {
             "id": "24001",
@@ -208,7 +228,8 @@
             "imageurl": "images/lightcones/24001.png",
             "wtype": "thehunt",
             "rarity": "5",
-            "infourl": "lib/lightcones/24001.json"
+            "infourl": "lib/lightcones/24001.json",
+            "spoiler": false
         },
         {
             "id": "24000",
@@ -218,7 +239,8 @@
             "imageurl": "images/lightcones/24000.png",
             "wtype": "destruction",
             "rarity": "5",
-            "infourl": "lib/lightcones/24000.json"
+            "infourl": "lib/lightcones/24000.json",
+            "spoiler": false
         },
         {
             "id": "23013",
@@ -228,7 +250,8 @@
             "imageurl": "images/lightcones/23013.png",
             "wtype": "abundance",
             "rarity": "5",
-            "infourl": "lib/lightcones/23013.json"
+            "infourl": "lib/lightcones/23013.json",
+            "spoiler": false
         },
         {
             "id": "23012",
@@ -238,7 +261,8 @@
             "imageurl": "images/lightcones/23012.png",
             "wtype": "thehunt",
             "rarity": "5",
-            "infourl": "lib/lightcones/23012.json"
+            "infourl": "lib/lightcones/23012.json",
+            "spoiler": false
         },
         {
             "id": "23010",
@@ -248,7 +272,8 @@
             "imageurl": "images/lightcones/23010.png",
             "wtype": "erudition",
             "rarity": "5",
-            "infourl": "lib/lightcones/23010.json"
+            "infourl": "lib/lightcones/23010.json",
+            "spoiler": false
         },
         {
             "id": "23005",
@@ -258,7 +283,8 @@
             "imageurl": "images/lightcones/23005.png",
             "wtype": "preservation",
             "rarity": "5",
-            "infourl": "lib/lightcones/23005.json"
+            "infourl": "lib/lightcones/23005.json",
+            "spoiler": false
         },
         {
             "id": "23004",
@@ -268,7 +294,8 @@
             "imageurl": "images/lightcones/23004.png",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "lib/lightcones/23004.json"
+            "infourl": "lib/lightcones/23004.json",
+            "spoiler": false
         },
         {
             "id": "23003",
@@ -278,7 +305,8 @@
             "imageurl": "images/lightcones/23003.png",
             "wtype": "harmony",
             "rarity": "5",
-            "infourl": "lib/lightcones/23003.json"
+            "infourl": "lib/lightcones/23003.json",
+            "spoiler": false
         },
         {
             "id": "23002",
@@ -288,7 +316,8 @@
             "imageurl": "images/lightcones/23002.png",
             "wtype": "destruction",
             "rarity": "5",
-            "infourl": "lib/lightcones/23002.json"
+            "infourl": "lib/lightcones/23002.json",
+            "spoiler": false
         },
         {
             "id": "23001",
@@ -298,7 +327,8 @@
             "imageurl": "images/lightcones/23001.png",
             "wtype": "thehunt",
             "rarity": "5",
-            "infourl": "lib/lightcones/23001.json"
+            "infourl": "lib/lightcones/23001.json",
+            "spoiler": false
         },
         {
             "id": "23000",
@@ -308,7 +338,8 @@
             "imageurl": "images/lightcones/23000.png",
             "wtype": "erudition",
             "rarity": "5",
-            "infourl": "lib/lightcones/23000.json"
+            "infourl": "lib/lightcones/23000.json",
+            "spoiler": false
         },
         {
             "id": "21034",
@@ -318,7 +349,8 @@
             "imageurl": "images/lightcones/21034.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "lib/lightcones/21034.json"
+            "infourl": "lib/lightcones/21034.json",
+            "spoiler": false
         },
         {
             "id": "21033",
@@ -328,7 +360,8 @@
             "imageurl": "images/lightcones/21033.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "lib/lightcones/21033.json"
+            "infourl": "lib/lightcones/21033.json",
+            "spoiler": false
         },
         {
             "id": "21032",
@@ -338,7 +371,8 @@
             "imageurl": "images/lightcones/21032.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "lib/lightcones/21032.json"
+            "infourl": "lib/lightcones/21032.json",
+            "spoiler": false
         },
         {
             "id": "21031",
@@ -348,7 +382,8 @@
             "imageurl": "images/lightcones/21031.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "lib/lightcones/21031.json"
+            "infourl": "lib/lightcones/21031.json",
+            "spoiler": false
         },
         {
             "id": "21030",
@@ -358,7 +393,8 @@
             "imageurl": "images/lightcones/21030.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "lib/lightcones/21030.json"
+            "infourl": "lib/lightcones/21030.json",
+            "spoiler": false
         },
         {
             "id": "21029",
@@ -368,7 +404,8 @@
             "imageurl": "images/lightcones/21029.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "lib/lightcones/21029.json"
+            "infourl": "lib/lightcones/21029.json",
+            "spoiler": false
         },
         {
             "id": "21028",
@@ -378,7 +415,8 @@
             "imageurl": "images/lightcones/21028.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "lib/lightcones/21028.json"
+            "infourl": "lib/lightcones/21028.json",
+            "spoiler": false
         },
         {
             "id": "21027",
@@ -388,7 +426,8 @@
             "imageurl": "images/lightcones/21027.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "lib/lightcones/21027.json"
+            "infourl": "lib/lightcones/21027.json",
+            "spoiler": false
         },
         {
             "id": "21026",
@@ -398,7 +437,8 @@
             "imageurl": "images/lightcones/21026.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "lib/lightcones/21026.json"
+            "infourl": "lib/lightcones/21026.json",
+            "spoiler": false
         },
         {
             "id": "21013",
@@ -408,7 +448,8 @@
             "imageurl": "images/lightcones/21013.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "lib/lightcones/21013.json"
+            "infourl": "lib/lightcones/21013.json",
+            "spoiler": false
         },
         {
             "id": "21012",
@@ -418,7 +459,8 @@
             "imageurl": "images/lightcones/21012.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "lib/lightcones/21012.json"
+            "infourl": "lib/lightcones/21012.json",
+            "spoiler": false
         },
         {
             "id": "21011",
@@ -428,7 +470,8 @@
             "imageurl": "images/lightcones/21011.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "lib/lightcones/21011.json"
+            "infourl": "lib/lightcones/21011.json",
+            "spoiler": false
         },
         {
             "id": "21010",
@@ -438,7 +481,8 @@
             "imageurl": "images/lightcones/21010.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "lib/lightcones/21010.json"
+            "infourl": "lib/lightcones/21010.json",
+            "spoiler": false
         },
         {
             "id": "21009",
@@ -448,7 +492,8 @@
             "imageurl": "images/lightcones/21009.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "lib/lightcones/21009.json"
+            "infourl": "lib/lightcones/21009.json",
+            "spoiler": false
         },
         {
             "id": "21008",
@@ -458,7 +503,8 @@
             "imageurl": "images/lightcones/21008.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "lib/lightcones/21008.json"
+            "infourl": "lib/lightcones/21008.json",
+            "spoiler": false
         },
         {
             "id": "21007",
@@ -468,7 +514,8 @@
             "imageurl": "images/lightcones/21007.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "lib/lightcones/21007.json"
+            "infourl": "lib/lightcones/21007.json",
+            "spoiler": false
         },
         {
             "id": "21006",
@@ -478,7 +525,8 @@
             "imageurl": "images/lightcones/21006.png",
             "wtype": "erudition",
             "rarity": "4",
-            "infourl": "lib/lightcones/21006.json"
+            "infourl": "lib/lightcones/21006.json",
+            "spoiler": false
         },
         {
             "id": "21005",
@@ -488,7 +536,8 @@
             "imageurl": "images/lightcones/21005.png",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "lib/lightcones/21005.json"
+            "infourl": "lib/lightcones/21005.json",
+            "spoiler": false
         },
         {
             "id": "21004",
@@ -498,7 +547,8 @@
             "imageurl": "images/lightcones/21004.png",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "lib/lightcones/21004.json"
+            "infourl": "lib/lightcones/21004.json",
+            "spoiler": false
         },
         {
             "id": "21003",
@@ -508,7 +558,8 @@
             "imageurl": "images/lightcones/21003.png",
             "wtype": "thehunt",
             "rarity": "4",
-            "infourl": "lib/lightcones/21003.json"
+            "infourl": "lib/lightcones/21003.json",
+            "spoiler": false
         },
         {
             "id": "21002",
@@ -518,7 +569,8 @@
             "imageurl": "images/lightcones/21002.png",
             "wtype": "preservation",
             "rarity": "4",
-            "infourl": "lib/lightcones/21002.json"
+            "infourl": "lib/lightcones/21002.json",
+            "spoiler": false
         },
         {
             "id": "21001",
@@ -528,7 +580,8 @@
             "imageurl": "images/lightcones/21001.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "lib/lightcones/21001.json"
+            "infourl": "lib/lightcones/21001.json",
+            "spoiler": false
         },
         {
             "id": "21000",
@@ -538,7 +591,8 @@
             "imageurl": "images/lightcones/21000.png",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "lib/lightcones/21000.json"
+            "infourl": "lib/lightcones/21000.json",
+            "spoiler": false
         },
         {
             "id": "20013",
@@ -548,7 +602,8 @@
             "imageurl": "images/lightcones/20013.png",
             "wtype": "erudition",
             "rarity": "3",
-            "infourl": "lib/lightcones/20013.json"
+            "infourl": "lib/lightcones/20013.json",
+            "spoiler": false
         },
         {
             "id": "20012",
@@ -558,7 +613,8 @@
             "imageurl": "images/lightcones/20012.png",
             "wtype": "harmony",
             "rarity": "3",
-            "infourl": "lib/lightcones/20012.json"
+            "infourl": "lib/lightcones/20012.json",
+            "spoiler": false
         },
         {
             "id": "20011",
@@ -568,7 +624,8 @@
             "imageurl": "images/lightcones/20011.png",
             "wtype": "nihility",
             "rarity": "3",
-            "infourl": "lib/lightcones/20011.json"
+            "infourl": "lib/lightcones/20011.json",
+            "spoiler": false
         },
         {
             "id": "20010",
@@ -578,7 +635,8 @@
             "imageurl": "images/lightcones/20010.png",
             "wtype": "preservation",
             "rarity": "3",
-            "infourl": "lib/lightcones/20010.json"
+            "infourl": "lib/lightcones/20010.json",
+            "spoiler": false
         },
         {
             "id": "20009",
@@ -588,7 +646,8 @@
             "imageurl": "images/lightcones/20009.png",
             "wtype": "destruction",
             "rarity": "3",
-            "infourl": "lib/lightcones/20009.json"
+            "infourl": "lib/lightcones/20009.json",
+            "spoiler": false
         },
         {
             "id": "20008",
@@ -598,7 +657,8 @@
             "imageurl": "images/lightcones/20008.png",
             "wtype": "abundance",
             "rarity": "3",
-            "infourl": "lib/lightcones/20008.json"
+            "infourl": "lib/lightcones/20008.json",
+            "spoiler": false
         },
         {
             "id": "20007",
@@ -608,7 +668,8 @@
             "imageurl": "images/lightcones/20007.png",
             "wtype": "thehunt",
             "rarity": "3",
-            "infourl": "lib/lightcones/20007.json"
+            "infourl": "lib/lightcones/20007.json",
+            "spoiler": false
         },
         {
             "id": "20006",
@@ -618,7 +679,8 @@
             "imageurl": "images/lightcones/20006.png",
             "wtype": "erudition",
             "rarity": "3",
-            "infourl": "lib/lightcones/20006.json"
+            "infourl": "lib/lightcones/20006.json",
+            "spoiler": false
         },
         {
             "id": "20005",
@@ -628,7 +690,8 @@
             "imageurl": "images/lightcones/20005.png",
             "wtype": "harmony",
             "rarity": "3",
-            "infourl": "lib/lightcones/20005.json"
+            "infourl": "lib/lightcones/20005.json",
+            "spoiler": false
         },
         {
             "id": "20004",
@@ -638,7 +701,8 @@
             "imageurl": "images/lightcones/20004.png",
             "wtype": "nihility",
             "rarity": "3",
-            "infourl": "lib/lightcones/20004.json"
+            "infourl": "lib/lightcones/20004.json",
+            "spoiler": false
         },
         {
             "id": "20003",
@@ -648,7 +712,8 @@
             "imageurl": "images/lightcones/20003.png",
             "wtype": "preservation",
             "rarity": "3",
-            "infourl": "lib/lightcones/20003.json"
+            "infourl": "lib/lightcones/20003.json",
+            "spoiler": false
         },
         {
             "id": "20002",
@@ -658,7 +723,8 @@
             "imageurl": "images/lightcones/20002.png",
             "wtype": "destruction",
             "rarity": "3",
-            "infourl": "lib/lightcones/20002.json"
+            "infourl": "lib/lightcones/20002.json",
+            "spoiler": false
         },
         {
             "id": "20001",
@@ -668,7 +734,8 @@
             "imageurl": "images/lightcones/20001.png",
             "wtype": "abundance",
             "rarity": "3",
-            "infourl": "lib/lightcones/20001.json"
+            "infourl": "lib/lightcones/20001.json",
+            "spoiler": false
         },
         {
             "id": "20000",
@@ -678,7 +745,8 @@
             "imageurl": "images/lightcones/20000.png",
             "wtype": "thehunt",
             "rarity": "3",
-            "infourl": "lib/lightcones/20000.json"
+            "infourl": "lib/lightcones/20000.json",
+            "spoiler": false
         },
         {
             "id": "22000",
@@ -688,7 +756,8 @@
             "imageurl": "images/lightcones/22000.png",
             "wtype": "nihility",
             "rarity": "4",
-            "infourl": "lib/lightcones/22000.json"
+            "infourl": "lib/lightcones/22000.json",
+            "spoiler": false
         },
         {
             "id": "23008",
@@ -698,7 +767,8 @@
             "imageurl": "images/lightcones/23008.png",
             "wtype": "abundance",
             "rarity": "5",
-            "infourl": "lib/lightcones/23008.json"
+            "infourl": "lib/lightcones/23008.json",
+            "spoiler": false
         },
         {
             "id": "23007",
@@ -708,7 +778,30 @@
             "imageurl": "images/lightcones/23007.png",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "lib/lightcones/23007.json"
+            "infourl": "lib/lightcones/23007.json",
+            "spoiler": false
+        },
+        {
+            "id": "23006",
+            "ENname": "Patience Is All You Need",
+            "CNname": "只需等待",
+            "JAname": "待つのみ",
+            "imageurl": "images/lightcones/23006.png",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23006.json",
+            "spoiler": false
+        },
+        {
+            "id": "23009",
+            "ENname": "The Unreachable Side",
+            "CNname": "到不了的彼岸",
+            "JAname": "着かない彼岸",
+            "imageurl": "images/lightcones/23009.png",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23009.json",
+            "spoiler": false
         }
     ]
 }
