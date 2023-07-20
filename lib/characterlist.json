@@ -22,7 +22,7 @@
             "wtype": "nihility",
             "rarity": "5",
             "infourl": "lib/kafka.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1209",
@@ -348,7 +348,7 @@
             "wtype": "nihility",
             "rarity": "4",
             "infourl": "lib/luka.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1205",
@@ -360,7 +360,7 @@
             "wtype": "destruction",
             "rarity": "5",
             "infourl": "lib/blade.json",
-            "spoiler": true
+            "spoiler": false
         }
     ]
 }
