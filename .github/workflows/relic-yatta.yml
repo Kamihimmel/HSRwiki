@@ -36,12 +36,10 @@ jobs:
     - name: Check result
       run: |
         cd ${GITHUB_WORKSPACE}/crawler
-        tree yatta
+        [ -d yatta ] && tree yatta
         for c in $(cat ../lib/reliclist.json| jq -r '.data[]|select(.spoiler==true)|.id'); do
-          if [ -f yatta/lib/relics/${c,,}.json ]; then
-            echo -e "\033[32mdiff yatta/lib/relics/${c,,}.json ../lib/relics/${c,,}.json\033[0m"
-            (diff yatta/lib/relics/${c,,}.json ../lib/relics/${c,,}.json) || true
-            echo '------------------------------------------------'
-          fi
+          echo -e "\033[32mdiff yatta/lib/relics/${c,,}.json ../lib/relics/${c,,}.json\033[0m"
+          (diff yatta/lib/relics/${c,,}.json ../lib/relics/${c,,}.json) || true
+          echo '------------------------------------------------'
         done
         exit 0

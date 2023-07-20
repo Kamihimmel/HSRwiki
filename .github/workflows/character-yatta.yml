@@ -37,12 +37,10 @@ jobs:
     - name: Check result
       run: |
         cd ${GITHUB_WORKSPACE}/crawler
-        tree yatta
+        [ -d yatta ] && tree yatta
         for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/g'); do
-          if [ -f yatta/lib/${c,,}.json ]; then
-            echo -e "\033[32mdiff yatta/lib/${c,,}.json ../lib/${c,,}.json\033[0m"
-            (diff yatta/lib/${c,,}.json ../lib/${c,,}.json) || true
-            echo '------------------------------------------------'
-          fi
+          echo -e "\033[32mdiff yatta/lib/${c,,}.json ../lib/${c,,}.json\033[0m"
+          (diff yatta/lib/${c,,}.json ../lib/${c,,}.json) || true
+          echo '------------------------------------------------'
         done
         exit 0

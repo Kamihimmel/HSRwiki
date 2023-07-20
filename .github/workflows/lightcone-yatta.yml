@@ -36,12 +36,10 @@ jobs:
     - name: Check result
       run: |
         cd ${GITHUB_WORKSPACE}/crawler
-        tree yatta
+        [ -d yatta ] && tree yatta
         for c in $(cat ../lib/lightconelist.json| jq -r '.data[]|select(.spoiler==true)|.id'); do
-          if [ -f yatta/lib/lightcones/${c,,}.json ]; then
-            echo -e "\033[32mdiff yatta/lib/lightcones/${c,,}.json ../lib/lightcones/${c,,}.json\033[0m"
-            (diff yatta/lib/lightcones/${c,,}.json ../lib/lightcones/${c,,}.json) || true
-            echo '------------------------------------------------'
-          fi
+          echo -e "\033[32mdiff yatta/lib/lightcones/${c,,}.json ../lib/lightcones/${c,,}.json\033[0m"
+          (diff yatta/lib/lightcones/${c,,}.json ../lib/lightcones/${c,,}.json) || true
+          echo '------------------------------------------------'
         done
         exit 0
