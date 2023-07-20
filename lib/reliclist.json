@@ -208,7 +208,7 @@
             "imageurl": "images/relics/71020.png",
             "set": "4",
             "infourl": "lib/relics/113.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "114",
@@ -218,7 +218,7 @@
             "imageurl": "images/relics/71021.png",
             "set": "4",
             "infourl": "lib/relics/114.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "309",
@@ -228,7 +228,7 @@
             "imageurl": "images/relics/71022.png",
             "set": "2",
             "infourl": "lib/relics/309.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "310",
@@ -238,7 +238,7 @@
             "imageurl": "images/relics/71023.png",
             "set": "2",
             "infourl": "lib/relics/310.json",
-            "spoiler": true
+            "spoiler": false
         }
     ]
 }
