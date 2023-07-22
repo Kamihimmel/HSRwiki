@@ -128,7 +128,7 @@ def append_skill(data_dict, exist_dict):
     skill_dict = {}
     for lang in languages:
         skill_dict[lang] = data_dict[lang]['skill']
-    exist_skills = exist_dict['skilldata']
+    exist_skills = exist_dict['skilldata'] if 'skilldata' in exist_dict else {}
     cur_skill = {}
     append_skill_name(cur_skill, skill_dict)
     append_skill_desc(cur_skill, skill_dict)
@@ -149,16 +149,18 @@ skill end
 
 
 # main function
-def generate_json(lightcone):
+def generate_json(lightcone_id):
     util.prepare_dirs('yatta', base_dir)
-    print('generate lib json from yatta for: %s' % lightcone)
+    result['id'] = lightcone_id
     with open(base_dir + '/lib/lightconelist.json', 'r', encoding='utf-8') as f:
         lightcone_info = json.load(f)
-        result['id'] = list(
-            filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == lightcone.lower(),
-                   lightcone_info['data']))[0]['id']
-    with open(base_dir + '/lib/lightcones/%s.json' % result['id'], 'r', encoding='utf-8') as f:
-        exist_dict = json.load(f)
+        lightcone = list(filter(lambda i: i['id'] == lightcone_id, lightcone_info['data']))[0]['ENname']
+    print('generate lib json from yatta for: %s %s' % (lightcone_id, lightcone))
+    exist_dict = {}
+    exist_path = base_dir + '/lib/lightcones/%s.json' % lightcone_id
+    if os.path.exists(exist_path):
+        with open(exist_path, 'r', encoding='utf-8') as f:
+            exist_dict = json.load(f)
     data_dict = {}
     for lang in languages:
         url = 'https://api.yatta.top/hsr/v2/%s/equipment/%s' % (lang, result['id'])

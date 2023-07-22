@@ -97,7 +97,7 @@ def append_skill(data_dict, exist_dict):
     skill_dict = {}
     for lang in languages:
         skill_dict[lang] = data_dict[lang]['skillList']
-    exist_skills = exist_dict['skilldata']
+    exist_skills = exist_dict['skilldata'] if 'skilldata' in exist_dict else {}
     for key in skill_dict['EN'].keys():
         cur_skill = {}
         append_skill_name_and_desc(cur_skill, skill_dict, key)
@@ -117,16 +117,18 @@ skill end
 
 
 # main function
-def generate_json(relic):
+def generate_json(relic_id):
     util.prepare_dirs('yatta', base_dir)
-    print('generate lib json from yatta for: %s' % relic)
+    result['id'] = relic_id
     with open(base_dir + '/lib/reliclist.json', 'r', encoding='utf-8') as f:
         relic_info = json.load(f)
-        result['id'] = list(
-            filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '-') == relic.lower(),
-                   relic_info['data']))[0]['id']
-    with open(base_dir + '/lib/relics/%s.json' % result['id'], 'r', encoding='utf-8') as f:
-        exist_dict = json.load(f)
+        relic = list(filter(lambda i: i['id'] == relic_id, relic_info['data']))[0]['ENname']
+    print('generate lib json from yatta for: %s %s' % (relic_id, relic))
+    exist_dict = {}
+    exist_path = base_dir + '/lib/relics/%s.json' % relic_id
+    if os.path.exists(exist_path):
+        with open(exist_path, 'r', encoding='utf-8') as f:
+            exist_dict = json.load(f)
     data_dict = {}
     for lang in languages:
         url = 'https://api.yatta.top/hsr/v2/%s/relic/%s' % (lang, result['id'])
@@ -140,7 +142,7 @@ def generate_json(relic):
     append_image(data_dict['EN']['icon'])
     append_basic(data_dict)
     append_skill(data_dict, exist_dict)
-    with open(base_dir + '/crawler/yatta//lib/relics/' + result['id'] + '.json', 'w', encoding='utf-8') as f:
+    with open(base_dir + '/crawler/yatta/lib/relics/' + result['id'] + '.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(result, ensure_ascii=False, skipkeys=True, indent=4))
 
 
