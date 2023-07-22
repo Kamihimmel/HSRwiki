@@ -1,0 +1,139 @@
+{
+    "id": "24003",
+    "ENname": "Solitary Healing",
+    "CNname": "孤独的疗愈",
+    "JAname": "孤独の癒し",
+    "imageurl": "images/lightcones/24003.png",
+    "imagelargeurl": "images/lightcones/24003l.png",
+    "wtype": "nihility",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 24,
+            "def": 18
+        },
+        {
+            "level": "20",
+            "hp": 184.8,
+            "atk": 92.4,
+            "def": 69.3
+        },
+        {
+            "level": "20+",
+            "hp": 242.4,
+            "atk": 121.2,
+            "def": 90.9
+        },
+        {
+            "level": "30",
+            "hp": 314.4,
+            "atk": 157.2,
+            "def": 117.9
+        },
+        {
+            "level": "30+",
+            "hp": 391.2,
+            "atk": 195.6,
+            "def": 146.7
+        },
+        {
+            "level": "40",
+            "hp": 463.2,
+            "atk": 231.6,
+            "def": 173.7
+        },
+        {
+            "level": "40+",
+            "hp": 540.0,
+            "atk": 270.0,
+            "def": 202.5
+        },
+        {
+            "level": "50",
+            "hp": 612.0,
+            "atk": 306.0,
+            "def": 229.5
+        },
+        {
+            "level": "50+",
+            "hp": 688.8,
+            "atk": 344.4,
+            "def": 258.3
+        },
+        {
+            "level": "60",
+            "hp": 760.8,
+            "atk": 380.4,
+            "def": 285.3
+        },
+        {
+            "level": "60+",
+            "hp": 837.6,
+            "atk": 418.8,
+            "def": 314.1
+        },
+        {
+            "level": "70",
+            "hp": 909.6,
+            "atk": 454.8,
+            "def": 341.1
+        },
+        {
+            "level": "70+",
+            "hp": 986.4,
+            "atk": 493.2,
+            "def": 369.9
+        },
+        {
+            "level": "80",
+            "hp": 1058.4,
+            "atk": 529.2,
+            "def": 396.9
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Chaos Elixir",
+            "CNname": "混沌灵药",
+            "JAname": "混沌の霊薬",
+            "DescriptionEN": "Increases the wearer's Break Effect by [1]%. When the wearer unleashes their Ultimate, increases the DoT dealt by [2]% for [3] turn(s). Defeating the target suffering from the wearer's DoT allows the wearer to regenerate [4] Energy.",
+            "DescriptionCN": "装备者的击破特攻提高[1]%。当装备者施放终结技时，造成的持续伤害提高[2]%，持续[3]回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复[4]点能量。",
+            "DescriptionJP": "装備キャラの撃破特効+[1]%。装備キャラが必殺技を発動した時の与ダメージ+[2]%、[3]ターン継続。装備キャラによる持続ダメージを与えられた敵が倒された時、装備キャラのEPを[4]回復。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 20,
+                    "2": 25,
+                    "3": 30,
+                    "4": 35,
+                    "5": 40
+                },
+                {
+                    "1": 24,
+                    "2": 30,
+                    "3": 36,
+                    "4": 42,
+                    "5": 48
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                },
+                {
+                    "1": 4,
+                    "2": 5,
+                    "3": 6,
+                    "4": 7,
+                    "5": 8
+                }
+            ]
+        }
+    ]
+}

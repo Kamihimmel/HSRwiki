@@ -1,0 +1,146 @@
+{
+    "id": "23011",
+    "ENname": "She Already Shut Her Eyes",
+    "CNname": "她已闭上双眼",
+    "JAname": "閉ざした瞳",
+    "imageurl": "images/lightcones/23011.png",
+    "imagelargeurl": "images/lightcones/23011l.png",
+    "wtype": "preservation",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 57.6,
+            "atk": 21.6,
+            "def": 21
+        },
+        {
+            "level": "20",
+            "hp": 221.76,
+            "atk": 83.16,
+            "def": 80.85
+        },
+        {
+            "level": "20+",
+            "hp": 290.88,
+            "atk": 109.08,
+            "def": 106.05
+        },
+        {
+            "level": "30",
+            "hp": 377.28,
+            "atk": 141.48,
+            "def": 137.55
+        },
+        {
+            "level": "30+",
+            "hp": 469.44,
+            "atk": 176.04,
+            "def": 171.15
+        },
+        {
+            "level": "40",
+            "hp": 555.84,
+            "atk": 208.44,
+            "def": 202.65
+        },
+        {
+            "level": "40+",
+            "hp": 648.0,
+            "atk": 243.0,
+            "def": 236.25
+        },
+        {
+            "level": "50",
+            "hp": 734.4,
+            "atk": 275.4,
+            "def": 267.75
+        },
+        {
+            "level": "50+",
+            "hp": 826.56,
+            "atk": 309.96,
+            "def": 301.35
+        },
+        {
+            "level": "60",
+            "hp": 912.96,
+            "atk": 342.36,
+            "def": 332.85
+        },
+        {
+            "level": "60+",
+            "hp": 1005.12,
+            "atk": 376.92,
+            "def": 366.45
+        },
+        {
+            "level": "70",
+            "hp": 1091.52,
+            "atk": 409.32,
+            "def": 397.95
+        },
+        {
+            "level": "70+",
+            "hp": 1183.68,
+            "atk": 443.88,
+            "def": 431.55
+        },
+        {
+            "level": "80",
+            "hp": 1270.08,
+            "atk": 476.28,
+            "def": 463.05
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Vision",
+            "CNname": "视界",
+            "JAname": "視界",
+            "DescriptionEN": "Increases the wearer's Max HP by [1]% and Energy Regeneration Rate by [4]%. When the wearer's HP is reduced, all allies' DMG dealt increases by [2]%, for [5] turn(s). At the start of every wave, restores HP to all allies equal to [3]% of the respective HP difference between each characters' Max HP and their current HP.",
+            "DescriptionCN": "使装备者的生命上限提高[1]%，能量恢复效率提高[4]%。当装备者的生命值降低时，使我方全体造成的伤害提高[2]%，持续[5]回合。 每个波次开始时，为我方全体回复等同于各自已损失生命值[3]%的生命值。",
+            "DescriptionJP": "装備キャラの最大HP+[1]%、EP回復効率+[4]%。装備キャラのHPが減った時、味方全体の与ダメージ+[2]%、[5]ターン継続。 ウェーブが回ってくるたびに、味方全体のHPを失ったHPの[3]%分回復する。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 24,
+                    "2": 28,
+                    "3": 32,
+                    "4": 36,
+                    "5": 40
+                },
+                {
+                    "1": 9,
+                    "2": 10.5,
+                    "3": 12,
+                    "4": 13.5,
+                    "5": 15
+                },
+                {
+                    "1": 80,
+                    "2": 85,
+                    "3": 90,
+                    "4": 95,
+                    "5": 100
+                },
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                }
+            ]
+        }
+    ]
+}
