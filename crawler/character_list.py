@@ -21,6 +21,7 @@ path_maping = {
     'priest': 'abundance',
     'shaman': 'harmony',
 }
+skip_ids = ['8001', '8003']
 ua = UserAgent()  # required for non-browser http request, or you will get a response code of 403
 util.prepare_dirs('yatta', base_dir)
 
@@ -45,7 +46,7 @@ for c in exist_list:
     exist_ids.append(c['id'])
 
 for k in data_dict['en']:
-    if k in exist_ids:
+    if k in exist_ids or k in skip_ids:
         continue
     result = {}
     result['id'] = k
