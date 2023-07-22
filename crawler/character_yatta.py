@@ -399,7 +399,10 @@ eidolon end
 def generate_json(character_id):
     util.prepare_dirs('yatta', base_dir)
     result['id'] = character_id
-    with open(base_dir + '/lib/characterlist.json', 'r', encoding='utf-8') as f:
+    exist_list = base_dir + '/crawler/yatta/lib/characterlist.json'
+    if not os.path.exists(exist_list):
+        exist_list = base_dir + '/lib/characterlist.json'
+    with open(exist_list, 'r', encoding='utf-8') as f:
         character_info = json.load(f)
         character = list(filter(lambda i: i['id'] == character_id, character_info['data']))[0]['ENname']
     print('generate lib json from yatta for: %s %s' % (character_id, character))

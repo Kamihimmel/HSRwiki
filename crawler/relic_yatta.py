@@ -120,7 +120,10 @@ skill end
 def generate_json(relic_id):
     util.prepare_dirs('yatta', base_dir)
     result['id'] = relic_id
-    with open(base_dir + '/lib/reliclist.json', 'r', encoding='utf-8') as f:
+    exist_list = base_dir + '/crawler/yatta/lib/reliclist.json'
+    if not os.path.exists(exist_list):
+        exist_list = base_dir + '/lib/reliclist.json'
+    with open(exist_list, 'r', encoding='utf-8') as f:
         relic_info = json.load(f)
         relic = list(filter(lambda i: i['id'] == relic_id, relic_info['data']))[0]['ENname']
     print('generate lib json from yatta for: %s %s' % (relic_id, relic))

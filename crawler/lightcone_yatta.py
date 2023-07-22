@@ -152,7 +152,10 @@ skill end
 def generate_json(lightcone_id):
     util.prepare_dirs('yatta', base_dir)
     result['id'] = lightcone_id
-    with open(base_dir + '/lib/lightconelist.json', 'r', encoding='utf-8') as f:
+    exist_list = base_dir + '/crawler/yatta/lib/lightconelist.json'
+    if not os.path.exists(exist_list):
+        exist_list = base_dir + '/lib/lightconelist.json'
+    with open(exist_list, 'r', encoding='utf-8') as f:
         lightcone_info = json.load(f)
         lightcone = list(filter(lambda i: i['id'] == lightcone_id, lightcone_info['data']))[0]['ENname']
     print('generate lib json from yatta for: %s %s' % (lightcone_id, lightcone))
