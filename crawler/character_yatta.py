@@ -25,9 +25,9 @@ def append_name(data_dict):
         print('append %s name: %s' % (lang, result[name_lang_mapping[lang]]))
 
 
-def append_image(character, character_id, size):
+def append_image(character_id, size):
     img_ext = 'png'
-    path = 'images/characters/%s%s' % (character.lower(), 'large' if size == 'large' else '')
+    path = 'images/characters/%s%s' % (character_id, '-large' if size == 'large' else '')
     util.download_yatta_image('crawler/yatta/' + path, 'avatar', size + '/' + character_id, img_ext, base_dir)
     result['imagelargeurl' if size == 'large' else 'imageurl'] = '%s.%s' % (path, img_ext)
     print('append image: %s' % path)
@@ -97,9 +97,9 @@ def append_skill_name(cur_skill, skill_dict, index):
         print('append skill %s name: %s' % (lang, cur_skill[name_lang_mapping[lang]]))
 
 
-def append_skill_image(character, cur_skill, skill_dict, index):
+def append_skill_image(character_id, cur_skill, skill_dict, index):
     img_ext = 'png'
-    path = 'images/skills/%s-%s' % (character, cur_skill['id'])
+    path = 'images/skills/%s-%s' % (character_id, cur_skill['id'])
     util.download_yatta_image('crawler/yatta/' + path, 'skill', skill_dict['EN'][index]['icon'], img_ext, base_dir)
     cur_skill['imageurl'] = '%s.%s' % (path, img_ext)
     print('append skill image: %s' % path)
@@ -182,7 +182,7 @@ def compare_skill(s, d):
     return s['ENname'] == d['ENname']
 
 
-def append_skill(character, data_dict, exist_dict):
+def append_skill(character_id, data_dict, exist_dict):
     skilldata = []
     skill_dict = {}
     for lang in languages:
@@ -193,11 +193,11 @@ def append_skill(character, data_dict, exist_dict):
                 v['id'] = k
                 skills.append(v)
         skill_dict[lang] = skills
-    exist_skills = exist_dict['skilldata']
+    exist_skills = exist_dict['skilldata'] if 'skilldata' in exist_dict else {}
     for i in range(0, len(skill_dict['EN'])):
         cur_skill = {'id': skill_dict['EN'][i]['id']}
         append_skill_name(cur_skill, skill_dict, i)
-        append_skill_image(character, cur_skill, skill_dict, i)
+        append_skill_image(character_id, cur_skill, skill_dict, i)
         append_skill_desc(cur_skill, skill_dict, i)
         append_skill_attr(cur_skill, skill_dict, i)
         append_skill_levelmultiplier(cur_skill, skill_dict, i)
@@ -247,14 +247,14 @@ def append_trace_name_and_desc(cur_trace, trace_dict, index):
         print('append trace %s desc: %s' % (k, v))
 
 
-def append_trace_attr(character, cur_trace, trace_dict, index):
+def append_trace_attr(character_id, cur_trace, trace_dict, index):
     if cur_trace['tiny']:
         ttype = re.match(r'^(.*?)\s+(increases|decreases).*', cur_trace['ENname']).group(1).lower().replace(' ', '')
         cur_trace['ttype'] = ttype_mapping[ttype] if ttype in ttype_mapping else ttype
         print('append trace ttype: %s' % cur_trace['ttype'])
     else:
         img_ext = 'png'
-        path = 'images/skills/%s-%s' % (character, cur_trace['id'])
+        path = 'images/skills/%s-%s' % (character_id, cur_trace['id'])
         util.download_yatta_image('crawler/yatta/' + path, 'skill', trace_dict['EN'][index]['icon'], img_ext, base_dir)
         cur_trace['imageurl'] = '%s.%s' % (path, img_ext)
         print('append trace image: %s' % path)
@@ -285,7 +285,7 @@ def compare_trace(s, d):
     return False
 
 
-def append_trace(character, data_dict, exist_dict):
+def append_trace(character_id, data_dict, exist_dict):
     tracedata = []
     trace_dict = {}
     for lang in languages:
@@ -294,12 +294,12 @@ def append_trace(character, data_dict, exist_dict):
         for ss in sub_skills.values():
             skills.append(ss)
         trace_dict[lang] = skills
-    exist_traces = exist_dict['tracedata']
+    exist_traces = exist_dict['tracedata'] if 'tracedata' in exist_dict else {}
     trace_cnt = len(list(trace_dict['EN']))
     for i in range(0, trace_cnt):
         cur_trace = {'id': str(trace_dict['EN'][i]['id']), 'tiny': not trace_dict['EN'][i]['pointType'] == 'Special'}
         append_trace_name_and_desc(cur_trace, trace_dict, i)
-        append_trace_attr(character, cur_trace, trace_dict, i)
+        append_trace_attr(character_id, cur_trace, trace_dict, i)
         find = list(filter(lambda s: compare_trace(s, cur_trace), exist_traces))
         exist_trace = find[0] if len(find) > 0 else {}
         append_trace_tags(cur_trace, exist_trace)
@@ -324,9 +324,9 @@ def append_eidolon_name(cur_eidolon, eidolon_dict, index):
         print('append eidolon %s name: %s' % (lang, cur_eidolon[name_lang_mapping[lang]]))
 
 
-def append_eidolon_image(character, cur_eidolon, eidolon_dict, index):
+def append_eidolon_image(character_id, cur_eidolon, eidolon_dict, index):
     img_ext = 'png'
-    path = 'images/skills/%s-e%s' % (character, cur_eidolon['eidolonnum'])
+    path = 'images/skills/%s-e%s' % (character_id, cur_eidolon['eidolonnum'])
     util.download_yatta_image('crawler/yatta/' + path, 'skill', eidolon_dict['EN'][index]['icon'], img_ext, base_dir)
     cur_eidolon['imageurl'] = '%s.%s' % (path, img_ext)
     print('append eidolon image: %s' % path)
@@ -366,7 +366,7 @@ def compare_eidolon(s, d):
     return s['eidolonnum'] == d['eidolonnum']
 
 
-def append_eidolon(character, data_dict, exist_dict):
+def append_eidolon(character_id, data_dict, exist_dict):
     eidolon = []
     eidolon_dict = {}
     for lang in languages:
@@ -374,12 +374,12 @@ def append_eidolon(character, data_dict, exist_dict):
         for v in data_dict[lang]['eidolons'].values():
             eidolons.append(v)
         eidolon_dict[lang] = eidolons
-    exist_eidolons = exist_dict['eidolon']
+    exist_eidolons = exist_dict['eidolon'] if 'eidolon' in exist_dict else {}
     eidolon_cnt = len(list(eidolon_dict['EN']))
     for i in range(0, eidolon_cnt):
         cur_eidolon = {'id': str(eidolon_dict['EN'][i]['id']), 'eidolonnum': eidolon_dict['EN'][i]['rank']}
         append_eidolon_name(cur_eidolon, eidolon_dict, i)
-        append_eidolon_image(character, cur_eidolon, eidolon_dict, i)
+        append_eidolon_image(character_id, cur_eidolon, eidolon_dict, i)
         append_eidolon_attr(cur_eidolon, eidolon_dict, i)
         find = list(filter(lambda s: compare_eidolon(s, cur_eidolon), exist_eidolons))
         exist_eidolon = find[0] if len(find) > 0 else {}
@@ -396,18 +396,18 @@ eidolon end
 
 
 # main function
-def generate_json(character):
+def generate_json(character_id):
     util.prepare_dirs('yatta', base_dir)
-    print('generate lib json from yatta for: %s' % character)
-    c = character.lower().replace('-', '')
+    result['id'] = character_id
     with open(base_dir + '/lib/characterlist.json', 'r', encoding='utf-8') as f:
         character_info = json.load(f)
-        result['id'] = \
-            list(filter(lambda i: i['ENname'].replace('(WIP)', '').lower().replace(' ', '') == c,
-                        character_info['data']))[
-                0]['id']
-    with open(base_dir + '/lib/%s.json' % c, 'r', encoding='utf-8') as f:
-        exist_dict = json.load(f)
+        character = list(filter(lambda i: i['id'] == character_id, character_info['data']))[0]['ENname']
+    print('generate lib json from yatta for: %s %s' % (character_id, character))
+    exist_dict = {}
+    exist_path = base_dir + '/lib/%s.json' % character_id
+    if os.path.exists(exist_path):
+        with open(exist_path, 'r', encoding='utf-8') as f:
+            exist_dict = json.load(f)
     data_dict = {}
     for lang in languages:
         url = 'https://api.yatta.top/hsr/v2/%s/avatar/%s' % (lang, result['id'])
@@ -419,14 +419,14 @@ def generate_json(character):
             exit(1)
         data_dict[lang] = data['data']
     append_name(data_dict)
-    append_image(c, result['id'], 'medium')
-    append_image(c, result['id'], 'large')
+    append_image(character_id, 'medium')
+    append_image(character_id, 'large')
     append_basic(data_dict)
     append_level(data_dict)
-    append_skill(c, data_dict, exist_dict)
-    append_trace(c, data_dict, exist_dict)
-    append_eidolon(c, data_dict, exist_dict)
-    with open(base_dir + '/crawler/yatta/lib/' + c + '.json', 'w', encoding='utf-8') as f:
+    append_skill(character_id, data_dict, exist_dict)
+    append_trace(character_id, data_dict, exist_dict)
+    append_eidolon(character_id, data_dict, exist_dict)
+    with open(base_dir + '/crawler/yatta/lib/characters/' + result['id'] + '.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(result, ensure_ascii=False, skipkeys=True, indent=4))
 
 
