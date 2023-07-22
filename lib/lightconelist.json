@@ -802,6 +802,39 @@
             "rarity": "5",
             "infourl": "lib/lightcones/23009.json",
             "spoiler": false
+        },
+        {
+            "id": "23011",
+            "ENname": "She Already Shut Her Eyes(WIP)",
+            "CNname": "她已闭上双眼(施工中)",
+            "JAname": "閉ざした瞳(建設中)",
+            "imageurl": "images/lightcones/23011.png",
+            "wtype": "preservation",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23011.json",
+            "spoiler": true
+        },
+        {
+            "id": "23015",
+            "ENname": "Brighter Than the Sun(WIP)",
+            "CNname": "比阳光更明亮的(施工中)",
+            "JAname": "陽光より輝くもの(建設中)",
+            "imageurl": "images/lightcones/23015.png",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23015.json",
+            "spoiler": true
+        },
+        {
+            "id": "24003",
+            "ENname": "Solitary Healing(WIP)",
+            "CNname": "孤独的疗愈(施工中)",
+            "JAname": "孤独の癒し(建設中)",
+            "imageurl": "images/lightcones/24003.png",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/lightcones/24003.json",
+            "spoiler": true
         }
     ]
 }
