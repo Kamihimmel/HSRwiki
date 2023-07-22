@@ -29,8 +29,9 @@ jobs:
     - name: Run
       run: |
         cd ${GITHUB_WORKSPACE}/crawler
-        tree
-        for c in $(cat ../lib/lightconelist.json| jq -r '.data[]|select(.spoiler==true)|.id'); do
+        python lightcone_list.py
+        echo '------------------------------------------------'
+        for c in $(cat yatta/lib/lightconelist.json | jq -r '.data[]|select(.spoiler==true)|.id'); do
           python lightcone_yatta.py ${c,,}
           echo '------------------------------------------------'
         done

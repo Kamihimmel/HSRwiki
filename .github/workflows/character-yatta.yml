@@ -29,9 +29,9 @@ jobs:
     - name: Run
       run: |
         cd ${GITHUB_WORKSPACE}/crawler
-        mkdir -p yatta/lib yatta/images/characters yatta/images/skills
-        tree
-        for c in $(cat ../lib/characterlist.json| jq -r '.data[]|select(.spoiler==true)|.id'); do
+        python character_list.py
+        echo '------------------------------------------------'
+        for c in $(cat yatta/lib/characterlist.json | jq -r '.data[]|select(.spoiler==true)|.id'); do
           python character_yatta.py ${c,,}
           echo '------------------------------------------------'
         done
