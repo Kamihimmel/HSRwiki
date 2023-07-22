@@ -157,18 +157,6 @@
             "spoiler": false
         },
         {
-            "id": "8001",
-            "ENname": "Trailblazer",
-            "CNname": "开拓者",
-            "JAname": "開拓者",
-            "imageurl": "images/characters/8001.png",
-            "etype": "physical",
-            "wtype": "destruction",
-            "rarity": "5",
-            "infourl": "lib/characters/8001.json",
-            "spoiler": false
-        },
-        {
             "id": "8002",
             "ENname": "Trailblazer",
             "CNname": "开拓者",
@@ -179,18 +167,6 @@
             "wtype": "destruction",
             "rarity": "5",
             "infourl": "lib/mc.json",
-            "spoiler": false
-        },
-        {
-            "id": "8003",
-            "ENname": "Trailblazer",
-            "CNname": "开拓者",
-            "JAname": "開拓者",
-            "imageurl": "images/characters/8003.png",
-            "etype": "fire",
-            "wtype": "preservation",
-            "rarity": "5",
-            "infourl": "lib/characters/8003.json",
             "spoiler": false
         },
         {
