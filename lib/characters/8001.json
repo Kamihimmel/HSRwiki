@@ -1,0 +1,1051 @@
+{
+    "id": "8001",
+    "ENname": "Trailblazer",
+    "CNname": "开拓者",
+    "JAname": "開拓者",
+    "imageurl": "images/characters/8001.png",
+    "imagelargeurl": "images/characters/8001-large.png",
+    "etype": "physical",
+    "wtype": "destruction",
+    "rarity": "5",
+    "dtaunt": 125,
+    "dspeed": 100,
+    "maxenergy": 120,
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 163.68,
+            "atk": 84.48,
+            "def": 62.7
+        },
+        {
+            "level": "20",
+            "hp": 319.18,
+            "atk": 164.74,
+            "def": 122.27
+        },
+        {
+            "level": "20+",
+            "hp": 384.65,
+            "atk": 198.53,
+            "def": 147.34
+        },
+        {
+            "level": "30",
+            "hp": 466.49,
+            "atk": 240.77,
+            "def": 178.69
+        },
+        {
+            "level": "30+",
+            "hp": 531.96,
+            "atk": 274.56,
+            "def": 203.77
+        },
+        {
+            "level": "40",
+            "hp": 613.8,
+            "atk": 316.8,
+            "def": 235.12
+        },
+        {
+            "level": "40+",
+            "hp": 679.27,
+            "atk": 350.59,
+            "def": 260.2
+        },
+        {
+            "level": "50",
+            "hp": 761.11,
+            "atk": 392.83,
+            "def": 291.55
+        },
+        {
+            "level": "50+",
+            "hp": 826.58,
+            "atk": 426.62,
+            "def": 316.63
+        },
+        {
+            "level": "60",
+            "hp": 908.42,
+            "atk": 468.86,
+            "def": 347.99
+        },
+        {
+            "level": "60+",
+            "hp": 973.9,
+            "atk": 502.66,
+            "def": 373.06
+        },
+        {
+            "level": "70",
+            "hp": 1055.74,
+            "atk": 544.9,
+            "def": 404.41
+        },
+        {
+            "level": "70+",
+            "hp": 1121.21,
+            "atk": 578.69,
+            "def": 429.5
+        },
+        {
+            "level": "80",
+            "hp": 1203.05,
+            "atk": 620.93,
+            "def": 460.85
+        }
+    ],
+    "skilldata": [
+        {
+            "id": "800101",
+            "ENname": "Farewell Hit",
+            "CNname": "再见安打",
+            "JAname": "サヨナラ安打",
+            "imageurl": "images/skills/8001-800101.png",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of the Trailblazer's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于开拓者[1]%攻击力的物理属性伤害。",
+            "DescriptionJP": "指定した敵単体に開拓者の攻撃力[1]%分の物理ダメージを与える。",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 30,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800102",
+            "ENname": "RIP Home Run",
+            "CNname": "安息全垒打",
+            "JAname": "安息ホームラン",
+            "imageurl": "images/skills/8001-800102.png",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
+            "DescriptionCN": "对指定敌方单体及其相邻目标造成等同于开拓者[1]%攻击力的物理属性伤害。",
+            "DescriptionJP": "指定した敵単体および隣接する敵に開拓者の攻撃力[1]%分の物理ダメージを与える。",
+            "stype": "skill",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 62.5,
+                    "2": 68.75,
+                    "3": 75,
+                    "4": 81.25,
+                    "5": 87.5,
+                    "6": 93.75,
+                    "7": 101.56,
+                    "8": 109.38,
+                    "9": 117.19,
+                    "10": 125,
+                    "11": 131.25,
+                    "12": 137.5,
+                    "13": 143.75,
+                    "14": 150,
+                    "15": 156.25
+                }
+            ],
+            "tags": [
+                "blastatk",
+                "skillatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "blastatk",
+                        "skillatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800103",
+            "ENname": "Stardust Ace",
+            "CNname": "星尘王牌",
+            "JAname": "スターダストエース",
+            "imageurl": "images/skills/8001-800103.png",
+            "DescriptionEN": "Choose between two attack modes to deliver a full strike. Blowout: Farewell Hit deals Physical DMG equal to [1]% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG equal to [2]% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to [3]% of the Trailblazer's ATK to enemies adjacent to it.",
+            "DescriptionCN": "在两种攻击模式中选择其一挥出全力一击。 【全胜•再见安打】：对指定敌方单体造成等同于开拓者[1]%攻击力的物理属性伤害。 【全胜•安息全垒打】：对指定敌方单体造成等同于开拓者[2]%攻击力的物理属性伤害，并对其相邻目标造成等同于开拓者[3]%攻击力的物理属性伤害。",
+            "DescriptionJP": "2つの攻撃モードの内の1つを選択し全力のバッティングをお見舞いする。 「全勝・サヨナラ安打」：指定した敵単体に開拓者の攻撃力[1]%分の物理ダメージを与える。 「全勝・安息ホームラン」：指定した敵単体に開拓者の攻撃力[2]%分の物理ダメージを与え、隣接する敵に開拓者の攻撃力[3]%分の物理ダメージを与える。",
+            "stype": "ult",
+            "energy": 120,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 0,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 300,
+                    "2": 315,
+                    "3": 330,
+                    "4": 345,
+                    "5": 360,
+                    "6": 375,
+                    "7": 393.75,
+                    "8": 412.5,
+                    "9": 431.25,
+                    "10": 450,
+                    "11": 465,
+                    "12": 480,
+                    "13": 495,
+                    "14": 510,
+                    "15": 525
+                },
+                {
+                    "1": 180,
+                    "2": 189,
+                    "3": 198,
+                    "4": 207,
+                    "5": 216,
+                    "6": 225,
+                    "7": 236.25,
+                    "8": 247.5,
+                    "9": 258.75,
+                    "10": 270,
+                    "11": 279,
+                    "12": 288,
+                    "13": 297,
+                    "14": 306,
+                    "15": 315
+                },
+                {
+                    "1": 108,
+                    "2": 113.4,
+                    "3": 118.8,
+                    "4": 124.2,
+                    "5": 129.6,
+                    "6": 135,
+                    "7": 141.75,
+                    "8": 148.5,
+                    "9": 155.25,
+                    "10": 162,
+                    "11": 167.4,
+                    "12": 172.8,
+                    "13": 178.2,
+                    "14": 183.6,
+                    "15": 189
+                }
+            ]
+        },
+        {
+            "id": "800108",
+            "ENname": "Blowout: Farewell Hit",
+            "CNname": "全胜•再见安打",
+            "JAname": "全勝・サヨナラ安打",
+            "imageurl": "images/skills/8001-800108.png",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of the Trailblazer's ATK to a single enemy.",
+            "DescriptionCN": "对指定敌方单体造成等同于开拓者[1]%攻击力的物理属性伤害。",
+            "DescriptionJP": "指定した敵単体に開拓者の攻撃力[1]%分の物理ダメージを与える。",
+            "stype": "ult",
+            "energy": 120,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 90,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 300,
+                    "2": 315,
+                    "3": 330,
+                    "4": 345,
+                    "5": 360,
+                    "6": 375,
+                    "7": 393.75,
+                    "8": 412.5,
+                    "9": 431.25,
+                    "10": 450,
+                    "11": 465,
+                    "12": 480,
+                    "13": 495,
+                    "14": 510,
+                    "15": 525
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "ultatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800109",
+            "ENname": "Blowout: RIP Home Run",
+            "CNname": "全胜•安息全垒打",
+            "JAname": "全勝・安息ホームラン",
+            "imageurl": "images/skills/8001-800109.png",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of Trailblazer's ATK to a single enemy and Physical DMG equal to [2]% of Trailblazer's ATK to enemies adjacent to it.",
+            "DescriptionCN": "对指定敌方单体造成等同于开拓者[1]%攻击力的物理属性伤害，同时对其相邻目标造成等同于开拓者[2]%攻击力的物理属性伤害。",
+            "DescriptionJP": "指定した敵単体に開拓者の攻撃力[1]%分の物理ダメージを与え、隣接する敵に開拓者の攻撃力[2]%分の物理ダメージを与える。",
+            "stype": "ult",
+            "energy": 120,
+            "maxlevel": 15,
+            "buffskill": false,
+            "teamskill": false,
+            "weaknessbreak": 60,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 180,
+                    "2": 189,
+                    "3": 198,
+                    "4": 207,
+                    "5": 216,
+                    "6": 225,
+                    "7": 236.25,
+                    "8": 247.5,
+                    "9": 258.75,
+                    "10": 270,
+                    "11": 279,
+                    "12": 288,
+                    "13": 297,
+                    "14": 306,
+                    "15": 315
+                },
+                {
+                    "1": 108,
+                    "2": 113.4,
+                    "3": 118.8,
+                    "4": 124.2,
+                    "5": 129.6,
+                    "6": 135,
+                    "7": 141.75,
+                    "8": 148.5,
+                    "9": 155.25,
+                    "10": 162,
+                    "11": 167.4,
+                    "12": 172.8,
+                    "13": 178.2,
+                    "14": 183.6,
+                    "15": 189
+                }
+            ],
+            "tags": [
+                "blastatk",
+                "ultatk",
+                "physicalatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "physicalatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "ultatk",
+                        "physicalatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800104",
+            "ENname": "Perfect Pickoff",
+            "CNname": "牵制盗垒",
+            "JAname": "盗塁牽制",
+            "imageurl": "images/skills/8001-800104.png",
+            "DescriptionEN": "Each time after this character inflicts Weakness Break on an enemy, ATK increases by [1]%. This effect stacks up to [2] time(s).",
+            "DescriptionCN": "每次击破敌方目标的弱点后，攻击力提高[1]%，该效果最多叠加[2]层。",
+            "DescriptionJP": "敵を弱点撃破した後、攻撃力+[1]%、最大で[2]回累積できる。",
+            "stype": "talent",
+            "maxlevel": 15,
+            "buffskill": true,
+            "teamskill": false,
+            "weaknessbreak": 15,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 10,
+                    "2": 11,
+                    "3": 12,
+                    "4": 13,
+                    "5": 14,
+                    "6": 15,
+                    "7": 16.25,
+                    "8": 17.5,
+                    "9": 18.75,
+                    "10": 20,
+                    "11": 21,
+                    "12": 22,
+                    "13": 23,
+                    "14": 24,
+                    "15": 25
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2,
+                    "6": 2,
+                    "7": 2,
+                    "8": 2,
+                    "9": 2,
+                    "10": 2,
+                    "11": 2,
+                    "12": 2,
+                    "13": 2,
+                    "14": 2,
+                    "15": 2
+                }
+            ],
+            "tags": [
+                "buff",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800107",
+            "ENname": "Immortal Third Strike",
+            "CNname": "不灭三振",
+            "JAname": "不滅三振",
+            "imageurl": "images/skills/8001-800107.png",
+            "DescriptionEN": "Immediately heals all allies for 15% of their respective Max HP after using this Technique.",
+            "DescriptionCN": "使用秘技后立即为我方全体回复等同于各自生命上限15%的生命值。",
+            "DescriptionJP": "秘技を使用した後、味方全体のHPをそれぞれの最大HP15%分回復する。",
+            "stype": "technique",
+            "maxlevel": 0,
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "allally",
+                "heal"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 15,
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tracedata": [
+        {
+            "id": "8001101",
+            "tiny": false,
+            "ENname": "Ready for Battle",
+            "CNname": "蓄势",
+            "JAname": "力溜め",
+            "DescriptionEN": "At the start of the battle, immediately regenerates 15 Energy.",
+            "DescriptionCN": "战斗开始时，立即恢复15点能量。",
+            "DescriptionJP": "戦闘開始時、EPを15回復する。",
+            "imageurl": "images/skills/8001-8001101.png",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001102",
+            "tiny": false,
+            "ENname": "Perseverance",
+            "CNname": "坚韧",
+            "JAname": "堅靭",
+            "DescriptionEN": "Each Talent stack increases the Trailblazer's DEF by 10%.",
+            "DescriptionCN": "天赋的效果每层同时使开拓者的防御力提高10%。",
+            "DescriptionJP": "天賦効果1層につき、開拓者の防御力+10%。",
+            "imageurl": "images/skills/8001-8001102.png",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "def",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001103",
+            "tiny": false,
+            "ENname": "Fighting Will",
+            "CNname": "斗志",
+            "JAname": "闘志",
+            "DescriptionEN": "When using Skill or Ultimate \"Blowout: RIP Home Run\", DMG dealt to the target enemy is increased by 25%.",
+            "DescriptionCN": "施放战技或终结技【全胜•安息全垒打】时，对指定敌方目标造成的伤害提高25%。",
+            "DescriptionJP": "戦闘スキルまたは必殺技「全勝・安息ホームラン」を発動した時、指定した敵に対して与ダメージ+25%。",
+            "imageurl": "images/skills/8001-8001103.png",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 25,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001201",
+            "tiny": true,
+            "ENname": "ATK increases by 4%",
+            "CNname": "攻击力提高4%",
+            "JAname": "攻撃力+4%",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "ttype": "atk",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false
+        },
+        {
+            "id": "8001202",
+            "tiny": true,
+            "ENname": "Max HP increases by 4%",
+            "CNname": "生命值上限提高4%",
+            "JAname": "最大HP+4%",
+            "DescriptionEN": "A2",
+            "DescriptionCN": "A2",
+            "DescriptionJP": "A2",
+            "ttype": "hp",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001203",
+            "tiny": true,
+            "ENname": "ATK increases by 4%",
+            "CNname": "攻击力提高4%",
+            "JAname": "攻撃力+4%",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "ttype": "atk",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001204",
+            "tiny": true,
+            "ENname": "DEF increases by 5%",
+            "CNname": "防御力提高5%",
+            "JAname": "防御力+5%",
+            "DescriptionEN": "A3",
+            "DescriptionCN": "A3",
+            "DescriptionJP": "A3",
+            "ttype": "def",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001205",
+            "tiny": true,
+            "ENname": "ATK increases by 6%",
+            "CNname": "攻击力提高6%",
+            "JAname": "攻撃力+6%",
+            "DescriptionEN": "A4",
+            "DescriptionCN": "A4",
+            "DescriptionJP": "A4",
+            "ttype": "atk",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001206",
+            "tiny": true,
+            "ENname": "Max HP increases by 6%",
+            "CNname": "生命值上限提高6%",
+            "JAname": "最大HP+6%",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "ttype": "hp",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001207",
+            "tiny": true,
+            "ENname": "ATK increases by 6%",
+            "CNname": "攻击力提高6%",
+            "JAname": "攻撃力+6%",
+            "DescriptionEN": "A5",
+            "DescriptionCN": "A5",
+            "DescriptionJP": "A5",
+            "ttype": "atk",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001208",
+            "tiny": true,
+            "ENname": "DEF increases by 7.5%",
+            "CNname": "防御力提高7.5%",
+            "JAname": "防御力+7.5%",
+            "DescriptionEN": "A6",
+            "DescriptionCN": "A6",
+            "DescriptionJP": "A6",
+            "ttype": "def",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001209",
+            "tiny": true,
+            "ENname": "Max HP increases by 8%",
+            "CNname": "生命值上限提高8%",
+            "JAname": "最大HP+8%",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
+            "ttype": "hp",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8001210",
+            "tiny": true,
+            "ENname": "ATK increases by 8%",
+            "CNname": "攻击力提高8%",
+            "JAname": "攻撃力+8%",
+            "DescriptionEN": "LV80",
+            "DescriptionCN": "LV80",
+            "DescriptionJP": "LV80",
+            "ttype": "atk",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "tiny": true,
+            "ENname": "ATK +4%",
+            "CNname": "攻击力 +4%",
+            "JAname": "攻撃力 +4%",
+            "ttype": "atk",
+            "DescriptionEN": "LV1",
+            "DescriptionCN": "LV1",
+            "DescriptionJP": "LV1",
+            "stype": "trace",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
+        }
+    ],
+    "eidolon": [
+        {
+            "id": "800101",
+            "eidolonnum": 1,
+            "ENname": "A Falling Star",
+            "CNname": "坠临万界的星芒",
+            "JAname": "万界に墜臨した星芒",
+            "imageurl": "images/skills/8001-e1.png",
+            "DescriptionEN": "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra Energy. This effect can only be triggered once per attack.",
+            "DescriptionCN": "施放终结技消灭敌方目标时，开拓者额外恢复10点能量，该效果每次攻击只能触发1次。",
+            "DescriptionJP": "必殺技で敵を倒した時、さらに開拓者のEPを10回復する。この効果は1回の攻撃で1回まで発動できる。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "addtarget": "energy",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800102",
+            "eidolonnum": 2,
+            "ENname": "An Unwilling Host",
+            "CNname": "因缘假合的人身",
+            "JAname": "縁の下假合した人身",
+            "imageurl": "images/skills/8001-e2.png",
+            "DescriptionEN": "Attacking enemies with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK.",
+            "DescriptionCN": "施放攻击后，若击中的敌方目标弱点为物理属性，则回复等同于开拓者5%攻击力的生命值。",
+            "DescriptionJP": "攻撃を行った後、攻撃が命中した敵の弱点が物理の場合、開拓者の攻撃力5%分のHPを回復する。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "heal",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "heal",
+                    "multipliertarget": "atk",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800103",
+            "eidolonnum": 3,
+            "ENname": "A Leading Whisper",
+            "CNname": "揭示前路的言灵",
+            "JAname": "前路を示す言霊",
+            "imageurl": "images/skills/8001-e3.png",
+            "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "DescriptionCN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+            "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "id": "800104",
+            "eidolonnum": 4,
+            "ENname": "A Destructing Glance",
+            "CNname": "凝眸毁灭的瞬间",
+            "JAname": "毀滅の瞬間を凝視する瞳",
+            "imageurl": "images/skills/8001-e4.png",
+            "DescriptionEN": "When attacking an enemy with Weakness Break, CRIT Rate is increased by 25%.",
+            "DescriptionCN": "击中处于弱点击破状态的敌方目标时，暴击率提高25%。",
+            "DescriptionJP": "弱点撃破状態の敵に攻撃が命中した時、会心率+25%。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 25,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800105",
+            "eidolonnum": 5,
+            "ENname": "A Surviving Hope",
+            "CNname": "劫余重生的希望",
+            "JAname": "災劫に燃える再生の希望",
+            "imageurl": "images/skills/8001-e5.png",
+            "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "DescriptionCN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+            "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+            "stype": "eidolon",
+            "buffskill": false,
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]
+        },
+        {
+            "id": "800106",
+            "eidolonnum": 6,
+            "ENname": "A Trailblazing Will",
+            "CNname": "拓宇行天的意志",
+            "JAname": "拓宇行天の意志",
+            "imageurl": "images/skills/8001-e6.png",
+            "DescriptionEN": "The Trailblazer's Talent is also triggered when they defeat an enemy.",
+            "DescriptionCN": "开拓者消灭敌方目标时，也会触发天赋。",
+            "DescriptionJP": "開拓者が敵を倒した時も、天賦が発動する。",
+            "stype": "eidolon",
+            "buffskill": true,
+            "teamskill": false,
+            "tags": [
+                "special",
+                "self"
+            ]
+        }
+    ]
+}
