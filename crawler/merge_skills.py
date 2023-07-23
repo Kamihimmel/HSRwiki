@@ -4,13 +4,12 @@ import json
 import os
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ignores = ['skilllist.json', 'lightconelist.json', 'reliclist.json', 'characterlist.json', 'lightcones', 'relics']
 
 skills = []
-for f in os.listdir(base_dir + '/lib'):
-    if f in ignores or not os.path.exists(base_dir + '/lib/' + f):
-        continue
-    with open(base_dir + '/lib/' + f, 'r', encoding='utf-8') as j:
+with open(base_dir + '/lib/characterlist.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)['data']
+for d in data:
+    with open(base_dir + '/' + d['infourl'], 'r', encoding='utf-8') as j:
         data = json.load(j)
         if 'skilldata' in data and data['skilldata'] is not None:
             for s in data['skilldata']:

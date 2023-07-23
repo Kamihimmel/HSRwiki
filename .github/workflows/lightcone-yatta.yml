@@ -9,7 +9,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
 
 jobs:
   build:
@@ -28,18 +29,25 @@ jobs:
     - name: Run
       run: |
         cd ${GITHUB_WORKSPACE}/crawler
-        tree
-        for c in $(cat ../lib/lightconelist.json| jq -r '.data[]|select(.spoiler==true)|.ENname' | sed s'/(WIP)//g' | sed s'/ /-/g'); do
+        python lightcone_list.py
+        echo '------------------------------------------------'
+        for c in $(cat yatta/lib/lightconelist.json | jq -r '.data[]|select(.spoiler==true)|.id'); do
           python lightcone_yatta.py ${c,,}
           echo '------------------------------------------------'
         done
     - name: Check result
       run: |
-        cd ${GITHUB_WORKSPACE}/crawler
-        tree yatta
-        for c in $(cat ../lib/lightconelist.json| jq -r '.data[]|select(.spoiler==true)|.id'); do
-          echo -e "\033[32mdiff yatta/lib/lightcones/${c,,}.json ../lib/lightcones/${c,,}.json\033[0m"
-          (diff yatta/lib/lightcones/${c,,}.json ../lib/lightcones/${c,,}.json) || true
-          echo '------------------------------------------------'
-        done
-        exit 0
+        if [ -d crawler/yatta ]; then
+          tree crawler/yatta
+          cp -r crawler/yatta/* ./
+        fi
+        r=$(git diff --exit-code . || echo)
+        [ -z "$r" ] && echo "no change" || exit 0
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v5
+      with:
+        draft: true
+        delete-branch: true
+        base: main
+        branch: update-lightcone-workflow-${{ github.run_id }}
+        title: '[Update Lightcone] ${{ github.run_id }}'

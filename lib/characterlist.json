@@ -22,7 +22,7 @@
             "wtype": "nihility",
             "rarity": "5",
             "infourl": "lib/kafka.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1209",
@@ -348,7 +348,7 @@
             "wtype": "nihility",
             "rarity": "4",
             "infourl": "lib/luka.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1205",
@@ -360,6 +360,42 @@
             "wtype": "destruction",
             "rarity": "5",
             "infourl": "lib/blade.json",
+            "spoiler": false
+        },
+        {
+            "id": "1110",
+            "ENname": "Lynx(WIP)",
+            "CNname": "玲可(施工中)",
+            "JAname": "リンクス(建設中)",
+            "imageurl": "images/characters/1110.png",
+            "etype": "quantum",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "lib/characters/1110.json",
+            "spoiler": true
+        },
+        {
+            "id": "1208",
+            "ENname": "Fu Xuan(WIP)",
+            "CNname": "符玄(施工中)",
+            "JAname": "符玄(建設中)",
+            "imageurl": "images/characters/1208.png",
+            "etype": "quantum",
+            "wtype": "preservation",
+            "rarity": "5",
+            "infourl": "lib/characters/1208.json",
+            "spoiler": true
+        },
+        {
+            "id": "1213",
+            "ENname": "Dan Heng • Imbibitor Lunae(WIP)",
+            "CNname": "丹恒•饮月(施工中)",
+            "JAname": "丹恒・飲月(建設中)",
+            "imageurl": "images/characters/1213.png",
+            "etype": "imaginary",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/characters/1213.json",
             "spoiler": true
         }
     ]
