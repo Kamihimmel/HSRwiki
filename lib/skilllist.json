@@ -7928,7 +7928,7 @@
                 {
                     "type": "buff",
                     "addtarget": "alldmg",
-                    "multiplier": 1,
+                    "multiplier": 4,
                     "tag": [
                         "self",
                         "alldmg"
