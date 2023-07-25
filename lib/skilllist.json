@@ -7813,6 +7813,24 @@
                         "singleatk",
                         "windatk"
                     ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 5,
+                    "tag": [
+                        "singleatk",
+                        "windatk"
+                    ]
                 }
             ]
         },
