@@ -225,26 +225,9 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 1,
-                    "tag": [
-                        "singleatk",
-                        "windatk"
-                    ]
-                },
-                {
-                    "type": "dmg",
-                    "multipliertarget": "maxhp",
-                    "multiplier": 3,
-                    "tag": [
-                        "singleatk",
-                        "windatk"
-                    ]
-                },
-                {
-                    "type": "dmg",
-                    "multipliertarget": "atk",
                     "multiplier": 2,
                     "tag": [
+                        "singleatk",
                         "windatk"
                     ]
                 },
