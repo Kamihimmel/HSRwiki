@@ -1,0 +1,35 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: get-icons
+
+on:
+  schedule:
+    - cron:  '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run
+        run: |
+          RES_REPO_DIR="../StarRailRes"
+          CP_DIRS="avatar character element path property relic skill"
+          git clone https://github.com/Mar-7th/StarRailRes.git ../StarRailRes
+          for d in $(echo $CP_DIRS); do
+            cp -f -r ${RES_REPO_DIR}/icon/${d}/* starrailres/icon/${d}/
+          done
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          draft: false
+          delete-branch: true
+          base: main
+          branch: update-icon-workflow-${{ github.run_id }}
+          title: '[Update Icon] ${{ github.run_id }}'
