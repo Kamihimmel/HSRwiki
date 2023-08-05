@@ -14,16 +14,15 @@ client = AcsClient(os.getenv('CDN_ACCESS_KEY_ID'), os.getenv('CDN_ACCESS_KEY_SEC
 folder_path = '.'
 
 # 遍历目录并上传文件到 OSS
-for root, _, files in os.walk(folder_path):
+for root, dirs, files in os.walk(folder_path):
     # 忽略隐藏文件夹
-    files = [f for f in files if not f[0] == '.']
     dirs[:] = [d for d in dirs if not d[0] == '.']
-
+    
     for file in files:
         # 忽略隐藏文件
         if file.startswith('.'):
             continue
-
+            
         local_file = os.path.join(root, file)
         oss_file = os.path.relpath(local_file, folder_path).replace('\\', '/')
         print(f'Uploading {local_file} to {oss_file}')  # 添加调试信息
