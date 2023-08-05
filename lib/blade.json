@@ -225,7 +225,7 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 1,
+                    "multiplier": 2,
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -234,7 +234,7 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "maxhp",
-                    "multiplier": 3,
+                    "multiplier": 4,
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -243,15 +243,16 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 2,
+                    "multiplier": 3,
                     "tag": [
+                        "singleatk",
                         "windatk"
                     ]
                 },
                 {
                     "type": "dmg",
                     "multipliertarget": "maxhp",
-                    "multiplier": 4,
+                    "multiplier": 5,
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -353,7 +354,7 @@
                 {
                     "type": "buff",
                     "addtarget": "alldmg",
-                    "multiplier": 1,
+                    "multiplier": 4,
                     "tag": [
                         "self",
                         "alldmg"

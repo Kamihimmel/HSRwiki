@@ -942,7 +942,7 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "maxhp",
-                    "multiplier": 48,
+                    "multiplier": 40,
                     "tag": [
                         "additionalatk",
                         "physicalatk"

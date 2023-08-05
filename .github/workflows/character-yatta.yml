@@ -46,7 +46,7 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5
       with:
-        draft: true
+        draft: false
         delete-branch: true
         base: main
         branch: update-character-workflow-${{ github.run_id }}
