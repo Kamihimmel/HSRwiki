@@ -17,10 +17,10 @@ folder_path = '.'
 for root, _, files in os.walk(folder_path):
     for file in files:
         local_file = os.path.join(root, file)
-        oss_file = local_file.replace(folder_path, '').replace('\\', '/')
-        if oss_file.startswith('/'):
-            oss_file = oss_file[1:]
+        oss_file = os.path.relpath(local_file, folder_path).replace('\\', '/')
+        print(f'Uploading {local_file} to {oss_file}')  # 添加调试信息
         bucket.put_object_from_file(oss_file, local_file)
+
 
 # 刷新 CDN 缓存
 request = RefreshObjectCachesRequest.RefreshObjectCachesRequest()
