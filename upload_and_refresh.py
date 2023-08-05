@@ -11,7 +11,7 @@ bucket = oss2.Bucket(auth, os.getenv('OSS_ENDPOINT'), os.getenv('OSS_BUCKET'))
 client = AcsClient(os.getenv('CDN_ACCESS_KEY_ID'), os.getenv('CDN_ACCESS_KEY_SECRET'), 'cn-beijing')
 
 # Jenkins workspace 目录路径
-folder_path = os.getenv('WORKSPACE')
+folder_path = '.'
 
 # 遍历目录并上传文件到 OSS
 for root, _, files in os.walk(folder_path):
