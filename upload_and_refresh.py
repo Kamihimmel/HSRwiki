@@ -25,7 +25,8 @@ for root, _, files in os.walk(folder_path):
 # 刷新 CDN 缓存
 request = RefreshObjectCachesRequest.RefreshObjectCachesRequest()
 request.set_accept_format('json')
-request.set_ObjectPath(f"https://{os.getenv('CDN_DOMAIN')}/")
+# request.set_ObjectPath(f"https://{os.getenv('CDN_DOMAIN')}/")
+request.set_ObjectPath('https://hsrwikidata.kchlu.com/')
 response = client.do_action_with_exception(request)
 
 print(str(response, encoding='utf-8'))
