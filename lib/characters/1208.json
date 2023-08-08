@@ -9,102 +9,102 @@
     "wtype": "preservation",
     "rarity": "5",
     "dtaunt": 150,
-    "dspeed": 105,
+    "dspeed": 100,
     "maxenergy": 135,
     "leveldata": [
         {
             "level": "1",
-            "hp": 179.52,
-            "atk": 68.64,
-            "def": 49.5
+            "hp": 200.64,
+            "atk": 63.36,
+            "def": 82.5
         },
         {
             "level": "20",
-            "hp": 350.06,
-            "atk": 133.85,
-            "def": 96.53
-        },
-        {
-            "level": "20+",
-            "hp": 421.87,
-            "atk": 161.3,
-            "def": 116.32
-        },
-        {
-            "level": "30",
-            "hp": 511.63,
-            "atk": 195.62,
-            "def": 141.07
-        },
-        {
-            "level": "30+",
-            "hp": 583.44,
-            "atk": 223.08,
+            "hp": 391.25,
+            "atk": 123.55,
             "def": 160.88
         },
         {
+            "level": "20+",
+            "hp": 471.5,
+            "atk": 148.9,
+            "def": 193.88
+        },
+        {
+            "level": "30",
+            "hp": 571.82,
+            "atk": 180.58,
+            "def": 235.12
+        },
+        {
+            "level": "30+",
+            "hp": 652.08,
+            "atk": 205.92,
+            "def": 268.12
+        },
+        {
             "level": "40",
-            "hp": 673.2,
-            "atk": 257.4,
-            "def": 185.62
+            "hp": 752.4,
+            "atk": 237.6,
+            "def": 309.38
         },
         {
             "level": "40+",
-            "hp": 745.01,
-            "atk": 284.86,
-            "def": 205.43
+            "hp": 832.66,
+            "atk": 262.94,
+            "def": 342.38
         },
         {
             "level": "50",
-            "hp": 834.77,
-            "atk": 319.18,
-            "def": 230.18
+            "hp": 932.98,
+            "atk": 294.62,
+            "def": 383.62
         },
         {
             "level": "50+",
-            "hp": 906.58,
-            "atk": 346.63,
-            "def": 249.97
+            "hp": 1013.23,
+            "atk": 319.97,
+            "def": 416.62
         },
         {
             "level": "60",
-            "hp": 996.34,
-            "atk": 380.95,
-            "def": 274.73
+            "hp": 1113.55,
+            "atk": 351.65,
+            "def": 457.88
         },
         {
             "level": "60+",
-            "hp": 1068.14,
-            "atk": 408.41,
-            "def": 294.52
+            "hp": 1193.81,
+            "atk": 376.99,
+            "def": 490.88
         },
         {
             "level": "70",
-            "hp": 1157.9,
-            "atk": 442.73,
-            "def": 319.27
+            "hp": 1294.13,
+            "atk": 408.67,
+            "def": 532.12
         },
         {
             "level": "70+",
-            "hp": 1229.71,
-            "atk": 470.18,
-            "def": 339.08
+            "hp": 1374.38,
+            "atk": 434.02,
+            "def": 565.12
         },
         {
             "level": "80",
-            "hp": 1319.47,
-            "atk": 504.5,
-            "def": 363.83
+            "hp": 1474.7,
+            "atk": 465.7,
+            "def": 606.38
         }
     ],
     "skilldata": [
         {
             "id": "120801",
-            "ENname": "Star Strike",
+            "ENname": "Novaburst",
             "CNname": "始击岁星",
             "JAname": "始撃歳星",
             "imageurl": "images/skills/1208-120801.png",
-            "DescriptionEN": "Deals Quantum DMG equal to [1]% of the Fu Xuan's Max HP to a single enemy.",
+            "DescriptionEN": "Deals Quantum DMG equal to [1]% of Fu Xuan's Max HP to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于符玄[1]%生命上限的量子属性伤害。",
             "DescriptionJP": "指定した敵単体に符玄の最大HPの[1]%分の量子属性ダメージを与える。",
             "stype": "basicattack",
@@ -129,13 +129,13 @@
         },
         {
             "id": "120802",
-            "ENname": "Astronomical Wonder",
+            "ENname": "Known by Stars, Shown by Hearts",
             "CNname": "太微行棋，灵台示影",
             "JAname": "太微の行棋、影示す霊台",
             "imageurl": "images/skills/1208-120802.png",
-            "DescriptionEN": "Activates Matrix of Prescience. Fu Xuan's allies will Apportion [1]% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for [3] turn(s). All allies affected by Matrix of Prescience gain the Knowledge effect, which increases their respective Max HP by [4]% of Fu Xuan's Max HP, and increases CRIT Rate by [5]%. When Fu Xuan is downed, the Matrix of Prescience will alos be dispelled.",
+            "DescriptionEN": "Activates Matrix of Prescience. Other team members will Apportion [1]% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for [3] turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by [4]% of Fu Xuan's Max HP, and increases CRIT Rate by [5]%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
             "DescriptionCN": "开启【穷观阵】，使符玄队友所承受的未受护盾抵挡之前的伤害的[1]%分摊给符玄，持续[3]回合。 处于【穷观阵】的我方全体获得【鉴知】。【鉴知】状态下的我方目标生命上限提高，提高数值等同于符玄生命上限的[4]%，暴击率提高[5]%。 当符玄陷入无法战斗状态时，【穷观阵】也会被解除。",
-            "DescriptionJP": "",
+            "DescriptionJP": "「窮観の陣」を起動し、符玄以外の味方が受ける、バリアに防がれる前のダメージの[1]%を符玄が分担する、[3]ターン継続。 「窮観の陣」の中にいる味方全体が「鑑知」を得る。「鑑知」状態の味方の最大HPが、符玄の最大HPの[4]%分アップし、会心率+[5]%。 符玄が戦闘不能状態になった時、「窮観の陣」は解除される。",
             "stype": "skill",
             "maxlevel": 15,
             "buffskill": true,
@@ -144,21 +144,21 @@
             "energyregen": 30,
             "levelmultiplier": [
                 {
-                    "1": 70,
-                    "2": 70,
-                    "3": 70,
-                    "4": 70,
-                    "5": 70,
-                    "6": 70,
-                    "7": 70,
-                    "8": 70,
-                    "9": 70,
-                    "10": 70,
-                    "11": 70,
-                    "12": 70,
-                    "13": 70,
-                    "14": 70,
-                    "15": 70
+                    "1": 65,
+                    "2": 65,
+                    "3": 65,
+                    "4": 65,
+                    "5": 65,
+                    "6": 65,
+                    "7": 65,
+                    "8": 65,
+                    "9": 65,
+                    "10": 65,
+                    "11": 65,
+                    "12": 65,
+                    "13": 65,
+                    "14": 65,
+                    "15": 65
                 },
                 {
                     "1": 0,
@@ -232,7 +232,7 @@
         },
         {
             "id": "120803",
-            "ENname": "Ultimate Evolution",
+            "ENname": "Woes of Many Morphed to One",
             "CNname": "天律大衍，历劫归一",
             "JAname": "天律大衍、歴劫帰一",
             "imageurl": "images/skills/1208-120803.png",
@@ -248,27 +248,27 @@
             "energyregen": 5,
             "levelmultiplier": [
                 {
-                    "1": 81,
-                    "2": 86.4,
-                    "3": 91.8,
-                    "4": 97.2,
-                    "5": 102.6,
-                    "6": 108,
-                    "7": 114.75,
-                    "8": 121.5,
-                    "9": 128.25,
-                    "10": 135,
-                    "11": 140.4,
-                    "12": 145.8,
-                    "13": 151.2,
-                    "14": 156.6,
-                    "15": 162
+                    "1": 60,
+                    "2": 64,
+                    "3": 68,
+                    "4": 72,
+                    "5": 76,
+                    "6": 80,
+                    "7": 85,
+                    "8": 90,
+                    "9": 95,
+                    "10": 100,
+                    "11": 104,
+                    "12": 108,
+                    "13": 112,
+                    "14": 116,
+                    "15": 120
                 }
             ]
         },
         {
             "id": "120804",
-            "ENname": "After Woe Comes Weal",
+            "ENname": "Bleak Breeds Bliss",
             "CNname": "乾清坤夷，否极泰来",
             "JAname": "乾坤清夷、一陽来復",
             "imageurl": "images/skills/1208-120804.png",
@@ -283,21 +283,21 @@
             "energyregen": 0,
             "levelmultiplier": [
                 {
-                    "1": 6,
-                    "2": 6.6,
-                    "3": 7.2,
-                    "4": 7.8,
-                    "5": 8.4,
-                    "6": 9,
-                    "7": 9.75,
-                    "8": 10.5,
-                    "9": 11.25,
-                    "10": 12,
-                    "11": 12.6,
-                    "12": 13.2,
-                    "13": 13.8,
-                    "14": 14.4,
-                    "15": 15
+                    "1": 10,
+                    "2": 10.8,
+                    "3": 11.6,
+                    "4": 12.4,
+                    "5": 13.2,
+                    "6": 14,
+                    "7": 15,
+                    "8": 16,
+                    "9": 17,
+                    "10": 18,
+                    "11": 18.8,
+                    "12": 19.6,
+                    "13": 20.4,
+                    "14": 21.2,
+                    "15": 22
                 },
                 {
                     "1": 50,
@@ -337,13 +337,13 @@
         },
         {
             "id": "120807",
-            "ENname": "Shield of Faith",
+            "ENname": "Of Fortune Comes Fate",
             "CNname": "岁记否泰，固守四郭",
             "JAname": "否泰記す四郭固",
             "imageurl": "images/skills/1208-120807.png",
-            "DescriptionEN": "After the Technique is used, all team members receive a Barrier, lasting for 20 seconds. This Barrier can block all enemy attacks, and the team will not enter battle. Entering battle when the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle for 2 turn(s).",
+            "DescriptionEN": "After the Technique is used, all team members receive a Barrier, lasting for 20 seconds. This Barrier can block all enemy attacks, and the team will not enter battle when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for 2 turn(s).",
             "DescriptionCN": "使用秘技后，我方全体获得持续20秒的屏障。该屏障可抵挡敌人的所有攻击，不会进入战斗。屏障持续期间进入战斗时符玄自动开启【穷观阵】，持续2回合。",
-            "DescriptionJP": "",
+            "DescriptionJP": "秘技を使用した後、味方全体は20秒間継続するバリアを獲得する。このバリアは敵のすべての攻撃を防ぎ、敵の攻撃を受けても戦闘に入らない。バリア継続期間中、戦闘に入る時、符玄は自動で「窮観の陣」を起動する、2ターン継続。",
             "stype": "technique",
             "maxlevel": 0,
             "buffskill": false,
@@ -373,9 +373,9 @@
             "ENname": "Dun Jia Divination",
             "CNname": "遁甲星舆",
             "JAname": "奇門遁甲",
-            "DescriptionEN": "When Fu Xuan's Ultimate is used, heals all other allies by 5% of Fu Xuan's Max HP + 80 HP.",
-            "DescriptionCN": "施放终结技时为我方其他目标回复等同于符玄5%生命上限+80的生命值。",
-            "DescriptionJP": "必殺技を発動した時、符玄以外の味方のHPを、符玄の最大HPの5%+80回復する。",
+            "DescriptionEN": "When Fu Xuan's Ultimate is used, heals all other allies by 5% of Fu Xuan's Max HP + 133.",
+            "DescriptionCN": "施放终结技时为我方其他目标回复等同于符玄5%生命上限+133的生命值。",
+            "DescriptionJP": "必殺技を発動した時、符玄以外の味方のHPを、符玄の最大HPの5%+133回復する。",
             "imageurl": "images/skills/1208-1208102.png",
             "stype": "trace",
             "buffskill": false,
@@ -387,9 +387,9 @@
             "ENname": "Liu Ren Divination",
             "CNname": "六壬兆堪",
             "JAname": "六壬神課",
-            "DescriptionEN": "If enemies attempt to apply Crowd Control debuffs to allies while the Matrix of Prescience is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. Upon reactivating the Matrix of Prescience, the number of times this effect can be triggered will be refreshed.",
+            "DescriptionEN": "If enemies attempt to apply Crowd Control debuffs to allies while the Matrix of Prescience is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. Upon reactivating Matrix of Prescience, the number of times this effect can be triggered will be refreshed.",
             "DescriptionCN": "【穷观阵】开启时，若敌方目标对我方施加了控制类负面状态，则我方全体抵抗本次行动中敌方目标施加的所有控制类负面状态。该效果可以触发1次。再次开启【穷观阵】后将刷新效果可触发次数。",
-            "DescriptionJP": "",
+            "DescriptionJP": "「窮観の陣」が起動している時、敵が味方に行動制限系デバフを付与する場合、味方全体がその行動中に付与されるすべての行動制限系デバフを抵抗する。この効果は1回まで発動できる。再度「窮観の陣」を起動すると、発動回数がリセットされる。",
             "imageurl": "images/skills/1208-1208103.png",
             "stype": "trace",
             "buffskill": false,
@@ -544,9 +544,9 @@
             "CNname": "司危",
             "JAname": "司危",
             "imageurl": "images/skills/1208-e1.png",
-            "DescriptionEN": "Knowledge increases CRIT DMG by 25%.",
-            "DescriptionCN": "【鉴知】使暴击伤害提高25%。",
-            "DescriptionJP": "「鑑知」状態の味方の会心ダメージ+25%。",
+            "DescriptionEN": "All units with Knowledge increase their CRIT DMG by 30%.",
+            "DescriptionCN": "【鉴知】使暴击伤害提高30%。",
+            "DescriptionJP": "「鑑知」状態の味方の会心ダメージ+30%。",
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false
@@ -586,9 +586,9 @@
             "CNname": "格泽",
             "JAname": "格澤",
             "imageurl": "images/skills/1208-e4.png",
-            "DescriptionEN": "When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 8 Energy.",
-            "DescriptionCN": "当处于【穷观阵】的我方其他目标受到攻击后，符玄恢复8点能量。",
-            "DescriptionJP": "「窮観の陣」の中にいる符玄以外の味方が攻撃を受けた後、符玄はEPを8回復する。",
+            "DescriptionEN": "When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 5 Energy.",
+            "DescriptionCN": "当处于【穷观阵】的我方其他目标受到攻击后，符玄恢复5点能量。",
+            "DescriptionJP": "「窮観の陣」の中にいる符玄以外の味方が攻撃を受けた後、符玄はEPを5回復する。",
             "stype": "eidolon",
             "buffskill": false,
             "teamskill": false
