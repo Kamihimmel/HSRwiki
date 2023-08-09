@@ -272,7 +272,7 @@
             "CNname": "龙力自在",
             "JAname": "龍力自在",
             "imageurl": "images/skills/1213-121302.png",
-            "DescriptionEN": "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill. Enhancing Basic ATK \"Beneficent Lotus\" 1 time transforms Basic ATK into \"Transcendence\". Enhancing Basic ATK \"Beneficent Lotus\" 2 times transforms Basic ATK into \"Divine Spear.\" Enhancing Basic ATK \"Beneficent Lotus\" 3 times transforms Basic ATK into \"Fulgurant Leap.\" When unleashing Divine Spear or Fulgurant Leap, 1 stack of Dominating Roar is gained before every hit (starting from the fourth hit). Each stack of Dominating Roar increases Dan Heng • Imbibitor Lunae's CRIT DMG by [1]%, for a max of [2] stacks. These stacks last until the end of his turn.",
+            "DescriptionEN": "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill. Enhancing Basic ATK \"Beneficent Lotus\" 1 time transforms Basic ATK into \"Transcendence.\" Enhancing Basic ATK \"Beneficent Lotus\" 2 times transforms Basic ATK into \"Divine Spear.\" Enhancing Basic ATK \"Beneficent Lotus\" 3 times transforms Basic ATK into \"Fulgurant Leap.\" When unleashing Divine Spear or Fulgurant Leap, 1 stack of Dominating Roar is gained before every hit (starting from the fourth hit). Each stack of Dominating Roar increases Dan Heng • Imbibitor Lunae's CRIT DMG by [1]%, for a max of [2] stacks. These stacks last until the end of his turn.",
             "DescriptionCN": "使普攻的效果得到强化，最多可连续强化3次，施放本技能不消耗战技点且不视为使用战技。 强化1次，【泽芝】变为【瞬华】。 强化2次，【泽芝】变为【天矢阴】。 强化3次，【泽芝】变为【盘拏耀跃】。 施放【天矢阴】或【盘拏耀跃】时，从第4段攻击开始每段攻击前获得1层【叱咤】，使丹恒•饮月的暴击伤害提高[1]%，该效果最多叠加[2]层，持续至自身回合结束。",
             "DescriptionJP": "通常攻撃を強化する。最大で3回まで強化できる。このスキルを発動する時、SPを消費せず、戦闘スキルを発動したとも見なされない。 1回強化、「水華」が「瞬華」に強化される。 2回強化、「水華」が「天矢陰」に強化される。 3回強化、「水華」が「躍動せし耀鱗」に強化される。 「天矢陰」または「躍動せし耀鱗」を発動した時、4段目以降の攻撃の前に、それぞれ「叱咤」を1層獲得し、丹恒・飲月の会心ダメージ+[1]%。この効果は最大で[2]層累積でき、自身のターンが終了するまで継続。",
             "stype": "skill",
@@ -478,7 +478,7 @@
         {
             "id": "1213101",
             "tiny": false,
-            "ENname": "Concealed Star",
+            "ENname": "Star Veil",
             "CNname": "伏辰",
             "JAname": "伏辰",
             "DescriptionEN": "At the start of the battle, immediately regenerates 15 Energy.",
@@ -492,7 +492,7 @@
         {
             "id": "1213102",
             "tiny": false,
-            "ENname": "Reining in the Flood",
+            "ENname": "Aqua Reign",
             "CNname": "修禹",
             "JAname": "修禹",
             "DescriptionEN": "Increases the chance to resist Crowd Control debuffs by 35%.",
@@ -506,7 +506,7 @@
         {
             "id": "1213103",
             "tiny": false,
-            "ENname": "Stirring Dragon, Unveiled Legend",
+            "ENname": "Jolt Anew",
             "CNname": "起蛰",
             "JAname": "啓蟄",
             "DescriptionEN": "This character's CRIT Rate increases by 12% when dealing DMG to enemy targets with Imaginary Weakness.",
@@ -662,7 +662,7 @@
         {
             "id": "121301",
             "eidolonnum": 1,
-            "ENname": "Tether the Sky",
+            "ENname": "Tethered to Sky",
             "CNname": "萦天",
             "JAname": "縈天",
             "imageurl": "images/skills/1213-e1.png",
@@ -676,7 +676,7 @@
         {
             "id": "121302",
             "eidolonnum": 2,
-            "ENname": "Banners of Dominion",
+            "ENname": "Imperium On Cloud Nine",
             "CNname": "九斿",
             "JAname": "九旒",
             "imageurl": "images/skills/1213-e2.png",
@@ -690,7 +690,7 @@
         {
             "id": "121303",
             "eidolonnum": 3,
-            "ENname": "Cumulus Pennants",
+            "ENname": "Clothed in Clouds",
             "CNname": "云旂",
             "JAname": "雲旗",
             "imageurl": "images/skills/1213-e3.png",
@@ -704,7 +704,7 @@
         {
             "id": "121304",
             "eidolonnum": 4,
-            "ENname": "Outbound Dragonling",
+            "ENname": "Zephyr's Bliss",
             "CNname": "嘲风",
             "JAname": "嘲風",
             "imageurl": "images/skills/1213-e4.png",
@@ -718,7 +718,7 @@
         {
             "id": "121305",
             "eidolonnum": 5,
-            "ENname": "Lofty Hubris",
+            "ENname": "Fall is the Pride",
             "CNname": "偃蹇",
             "JAname": "凌雲",
             "imageurl": "images/skills/1213-e5.png",
@@ -732,7 +732,7 @@
         {
             "id": "121306",
             "eidolonnum": 6,
-            "ENname": "The Divine Dragon Returns",
+            "ENname": "Reign, Returned",
             "CNname": "见谯",
             "JAname": "黄龍",
             "imageurl": "images/skills/1213-e6.png",

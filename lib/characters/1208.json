@@ -272,7 +272,7 @@
             "CNname": "乾清坤夷，否极泰来",
             "JAname": "乾坤清夷、一陽来復",
             "imageurl": "images/skills/1208-120804.png",
-            "DescriptionEN": "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take [1]% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to [2]% or less of her Max HP. This effect will restore her HP by [3]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect can be triggered 1 time per battle by default, and can possess up to 2 trigger counts maximum.",
+            "DescriptionEN": "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take [1]% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to [2]% or less of her Max HP. This effect will restore her HP by [3]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
             "DescriptionCN": "当符玄处于可战斗状态时，为我方全体附加【避厄】。【避厄】状态下的我方目标受到的伤害降低[1]%。 当符玄当前生命值百分比小于等于[2]%时触发生命回复，使自身回复等同于已损失生命值[3]%的生命值，受到致命攻击时无法触发该效果。该效果初始拥有1次触发次数，最多可拥有2次触发次数。",
             "DescriptionJP": "符玄が戦闘可能状態の時、味方全体に「避邪」を付与する。「避邪」状態の味方の被ダメージ-[1]%。 符玄の残りHP割合が[2]%以下になった時、自身の失ったHP[3]%分のHPを回復する。HPが0になる攻撃を受けた時、この効果は発動できない。この効果の初期発動回数は1回、発動回数は最大で2回まで累積できる。",
             "stype": "talent",
@@ -356,7 +356,7 @@
         {
             "id": "1208101",
             "tiny": false,
-            "ENname": "Tai Yi Divination",
+            "ENname": "Taiyi, the Macroscopic",
             "CNname": "太乙式盘",
             "JAname": "太乙神数",
             "DescriptionEN": "When Matrix of Prescience is active, Fu Xuan will regenerate 20 extra Energy when she uses her Skill.",
@@ -370,7 +370,7 @@
         {
             "id": "1208102",
             "tiny": false,
-            "ENname": "Dun Jia Divination",
+            "ENname": "Dunjia, the Metamystic",
             "CNname": "遁甲星舆",
             "JAname": "奇門遁甲",
             "DescriptionEN": "When Fu Xuan's Ultimate is used, heals all other allies by 5% of Fu Xuan's Max HP + 133.",
@@ -384,7 +384,7 @@
         {
             "id": "1208103",
             "tiny": false,
-            "ENname": "Liu Ren Divination",
+            "ENname": "Liuren, the Sexagenary",
             "CNname": "六壬兆堪",
             "JAname": "六壬神課",
             "DescriptionEN": "If enemies attempt to apply Crowd Control debuffs to allies while the Matrix of Prescience is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. Upon reactivating Matrix of Prescience, the number of times this effect can be triggered will be refreshed.",
@@ -540,7 +540,7 @@
         {
             "id": "120801",
             "eidolonnum": 1,
-            "ENname": "Cycle of Life and Death",
+            "ENname": "Dominus Mortis",
             "CNname": "司危",
             "JAname": "司危",
             "imageurl": "images/skills/1208-e1.png",
@@ -554,7 +554,7 @@
         {
             "id": "120802",
             "eidolonnum": 2,
-            "ENname": "Ominous Omen",
+            "ENname": "Optimus Felix",
             "CNname": "柔兆",
             "JAname": "柔兆",
             "imageurl": "images/skills/1208-e2.png",
@@ -568,7 +568,7 @@
         {
             "id": "120803",
             "eidolonnum": 3,
-            "ENname": "Duty Deity",
+            "ENname": "Apex Nexus",
             "CNname": "直符",
             "JAname": "直符",
             "imageurl": "images/skills/1208-e3.png",
@@ -596,7 +596,7 @@
         {
             "id": "120805",
             "eidolonnum": 5,
-            "ENname": "True Diviner",
+            "ENname": "Arbiter Primus",
             "CNname": "计神",
             "JAname": "計神",
             "imageurl": "images/skills/1208-e5.png",
@@ -610,7 +610,7 @@
         {
             "id": "120806",
             "eidolonnum": 6,
-            "ENname": "Salvation",
+            "ENname": "Omnia Vita",
             "CNname": "种陵",
             "JAname": "種陵",
             "imageurl": "images/skills/1208-e6.png",
