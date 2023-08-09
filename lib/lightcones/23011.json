@@ -95,7 +95,7 @@
     ],
     "skilldata": [
         {
-            "ENname": "Vision",
+            "ENname": "Cosmological Horizon",
             "CNname": "视界",
             "JAname": "視界",
             "DescriptionEN": "Increases the wearer's Max HP by [1]% and Energy Regeneration Rate by [4]%. When the wearer's HP is reduced, all allies' DMG dealt increases by [2]%, for [5] turn(s). At the start of every wave, restores HP to all allies equal to [3]% of the respective HP difference between each characters' Max HP and their current HP.",

@@ -95,7 +95,7 @@
     ],
     "skilldata": [
         {
-            "ENname": "To the Death",
+            "ENname": "Defiant Till Death",
             "CNname": "抵死",
             "JAname": "必死",
             "DescriptionEN": "Increases the wearer's CRIT Rate by [1]%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call for [2] turns. Each stack of Dragon's Call increases the wearer's ATK by [4]% and Energy Regeneration Rate by [5]%. Dragon's Call can be stacked up to [3] times.",
