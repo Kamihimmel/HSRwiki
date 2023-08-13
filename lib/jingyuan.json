@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "120401",
             "ENname": "Glistening Light",
             "CNname": "石火流光",
             "JAname": "電光石火",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "120402",
             "ENname": "Rifting Zenith",
             "CNname": "紫霄震曜",
             "JAname": "紫霄の雷鳴",
@@ -195,6 +197,7 @@
             ]
         },
         {
+            "id": "120403",
             "ENname": "Lightbringer",
             "CNname": "吾身光明",
             "JAname": "我が身の輝き",
@@ -247,6 +250,7 @@
             ]
         },
         {
+            "id": "120404",
             "ENname": "Prana Extirpated",
             "CNname": "斩勘神形",
             "JAname": "退魔の形神",
@@ -315,6 +319,7 @@
             ]
         },
         {
+            "id": "120407",
             "ENname": "Spirit Invocation",
             "CNname": "摄召威灵",
             "JAname": "摂召威霊",
@@ -335,6 +340,7 @@
     ],
     "tracedata": [
         {
+            "id": "1204101",
             "tiny": false,
             "ENname": "Battalia Crush",
             "CNname": "破阵",
@@ -364,6 +370,7 @@
             ]
         },
         {
+            "id": "1204102",
             "tiny": false,
             "ENname": "Savant Providence",
             "CNname": "绸缪",
@@ -393,6 +400,7 @@
             ]
         },
         {
+            "id": "1204103",
             "tiny": false,
             "ENname": "War Marshal",
             "CNname": "遣将",
@@ -422,6 +430,7 @@
             ]
         },
         {
+            "id": "1204202",
             "tiny": true,
             "ENname": "CRIT Rate +2.7%",
             "CNname": "暴击率 +2.7%",
@@ -451,6 +460,7 @@
             ]
         },
         {
+            "id": "1204203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -480,6 +490,7 @@
             ]
         },
         {
+            "id": "1204203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -509,6 +520,7 @@
             ]
         },
         {
+            "id": "1204205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -538,6 +550,7 @@
             ]
         },
         {
+            "id": "1204206",
             "tiny": true,
             "ENname": "CRIT Rate +4%",
             "CNname": "暴击率 +4%",
@@ -567,6 +580,7 @@
             ]
         },
         {
+            "id": "1204206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -596,6 +610,7 @@
             ]
         },
         {
+            "id": "1204208",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -625,6 +640,7 @@
             ]
         },
         {
+            "id": "1204209",
             "tiny": true,
             "ENname": "CRIT Rate +5.3%",
             "CNname": "暴击率 +5.3%",
@@ -654,6 +670,7 @@
             ]
         },
         {
+            "id": "1204201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -683,6 +700,7 @@
             ]
         },
         {
+            "id": "1204210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -714,6 +732,7 @@
     ],
     "eidolon": [
         {
+            "id": "120401",
             "eidolonnum": 1,
             "ENname": "Slash, Seas Split",
             "CNname": "星流霆击碎昆冈",
@@ -732,6 +751,7 @@
             ]
         },
         {
+            "id": "120402",
             "eidolonnum": 2,
             "ENname": "Swing, Skies Squashed",
             "CNname": "戎戈动地开天阵",
@@ -778,6 +798,7 @@
             ]
         },
         {
+            "id": "120403",
             "eidolonnum": 3,
             "ENname": "Strike, Suns Subdued",
             "CNname": "移锋惊电冲霄汉",
@@ -796,6 +817,7 @@
             ]
         },
         {
+            "id": "120404",
             "eidolonnum": 4,
             "ENname": "Spin, Stars Sieged",
             "CNname": "刃卷横云落玉沙",
@@ -814,6 +836,7 @@
             ]
         },
         {
+            "id": "120405",
             "eidolonnum": 5,
             "ENname": "Stride, Spoils Seized",
             "CNname": "百战弃躯轻死生",
@@ -832,6 +855,7 @@
             ]
         },
         {
+            "id": "120406",
             "eidolonnum": 6,
             "ENname": "Sweep, Souls Slain",
             "CNname": "威灵有应破敌雠",

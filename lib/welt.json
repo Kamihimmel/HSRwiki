@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "100401",
             "ENname": "Gravity Suppression",
             "CNname": "重力压制",
             "JAname": "重力制圧",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "100402",
             "ENname": "Edge of the Void",
             "CNname": "虚空断界",
             "JAname": "虚空断界",
@@ -244,6 +246,7 @@
             ]
         },
         {
+            "id": "100403",
             "ENname": "Synthetic Black Hole",
             "CNname": "拟似黑洞",
             "JAname": "疑似ブラックホール",
@@ -348,6 +351,7 @@
             ]
         },
         {
+            "id": "100404",
             "ENname": "Time Distortion",
             "CNname": "时空扭曲",
             "JAname": "時空の歪み",
@@ -397,6 +401,7 @@
             ]
         },
         {
+            "id": "100407",
             "ENname": "Gravitational Imprisonment",
             "CNname": "画地为牢",
             "JAname": "画地為牢",
@@ -449,6 +454,7 @@
     ],
     "tracedata": [
         {
+            "id": "1004101",
             "tiny": false,
             "ENname": "Retribution",
             "CNname": "惩戒",
@@ -487,6 +493,7 @@
             ]
         },
         {
+            "id": "1004102",
             "tiny": false,
             "ENname": "Judgment",
             "CNname": "审判",
@@ -517,6 +524,7 @@
             ]
         },
         {
+            "id": "1004103",
             "tiny": false,
             "ENname": "Punishment",
             "CNname": "裁决",
@@ -546,6 +554,7 @@
             ]
         },
         {
+            "id": "1004202",
             "tiny": true,
             "ENname": "Imaginary DMG +3.2%",
             "CNname": "虚数属性伤害提高 +3.2%",
@@ -575,6 +584,7 @@
             ]
         },
         {
+            "id": "1004203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -604,6 +614,7 @@
             ]
         },
         {
+            "id": "1004203",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -633,6 +644,7 @@
             ]
         },
         {
+            "id": "1004205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -662,6 +674,7 @@
             ]
         },
         {
+            "id": "1004206",
             "tiny": true,
             "ENname": "Imaginary DMG +4.8%",
             "CNname": "虚数属性伤害提高 +4.8%",
@@ -691,6 +704,7 @@
             ]
         },
         {
+            "id": "1004206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -720,6 +734,7 @@
             ]
         },
         {
+            "id": "1004208",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -749,6 +764,7 @@
             ]
         },
         {
+            "id": "1004209",
             "tiny": true,
             "ENname": "Imaginary DMG +6.4%",
             "CNname": "虚数属性伤害提高 +6.4%",
@@ -778,6 +794,7 @@
             ]
         },
         {
+            "id": "1004210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -807,6 +824,7 @@
             ]
         },
         {
+            "id": "1004201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -838,6 +856,7 @@
     ],
     "eidolon": [
         {
+            "id": "100401",
             "eidolonnum": 1,
             "ENname": "Legacy of Honor",
             "CNname": "名的传承",
@@ -912,6 +931,7 @@
             ]
         },
         {
+            "id": "100402",
             "eidolonnum": 2,
             "ENname": "Conflux of Stars",
             "CNname": "星的凝聚",
@@ -941,6 +961,7 @@
             ]
         },
         {
+            "id": "100403",
             "eidolonnum": 3,
             "ENname": "Prayer of Peace",
             "CNname": "和平的祈愿",
@@ -959,6 +980,7 @@
             ]
         },
         {
+            "id": "100404",
             "eidolonnum": 4,
             "ENname": "Appellation of Justice",
             "CNname": "义的名号",
@@ -977,6 +999,7 @@
             ]
         },
         {
+            "id": "100405",
             "eidolonnum": 5,
             "ENname": "Power of Kindness",
             "CNname": "善的力量",
@@ -995,6 +1018,7 @@
             ]
         },
         {
+            "id": "100406",
             "eidolonnum": 6,
             "ENname": "Prospect of Glory",
             "CNname": "光明的未来",

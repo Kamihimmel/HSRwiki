@@ -89,6 +89,7 @@
     ],
     "skilldata": [
         {
+            "id": "800201",
             "ENname": "Farewell Hit",
             "CNname": "再见安打",
             "JAname": "サヨナラ安打",
@@ -134,6 +135,7 @@
             ]
         },
         {
+            "id": "800202",
             "ENname": "RIP Home Run",
             "CNname": "安息全垒打",
             "JAname": "安息ホームラン",
@@ -185,9 +187,10 @@
             ]
         },
         {
-            "ENname": "Stardust Ace(Blowout: Farewell Hit)",
-            "CNname": "星尘王牌【全胜•再见安打】",
-            "JAname": "スターダストエース「全勝・サヨナラ安打」",
+            "id": "800208",
+            "ENname": "Blowout: Farewell Hit",
+            "CNname": "全胜•再见安打",
+            "JAname": "全勝・サヨナラ安打",
             "imageurl": "images/skills/mcult.webp",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of the Trailblazer's ATK to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于开拓者[1]%攻击力的物理属性伤害。",
@@ -237,9 +240,10 @@
             ]
         },
         {
-            "ENname": "Stardust Ace(Blowout: RIP Home Run)",
-            "CNname": "星尘王牌【全胜•安息全垒打】",
-            "JAname": "スターダストエース「全勝・安息ホームラン」",
+            "id": "800209",
+            "ENname": "Blowout: RIP Home Run",
+            "CNname": "全胜•安息全垒打",
+            "JAname": "全勝・安息ホームラン",
             "imageurl": "images/skills/mcult.webp",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of Trailblazer's ATK to a single enemy and Physical DMG equal to [2]% of Trailblazer's ATK to enemies adjacent to it.",
             "DescriptionCN": "对指定敌方单体造成等同于开拓者[1]%攻击力的物理属性伤害，同时对其相邻目标造成等同于开拓者[2]%攻击力的物理属性伤害。",
@@ -316,6 +320,7 @@
             ]
         },
         {
+            "id": "800204",
             "ENname": "Perfect Pickoff",
             "CNname": "牵制盗垒",
             "JAname": "盗塁牽制",
@@ -365,6 +370,7 @@
             ]
         },
         {
+            "id": "800207",
             "ENname": "Immortal Third Strike",
             "CNname": "不灭三振",
             "JAname": "不滅三振",
@@ -395,6 +401,7 @@
     ],
     "tracedata": [
         {
+            "id": "8002101",
             "tiny": false,
             "ENname": "Ready for Battle",
             "CNname": "蓄势",
@@ -424,6 +431,7 @@
             ]
         },
         {
+            "id": "8002102",
             "tiny": false,
             "ENname": "Perseverance",
             "CNname": "坚韧",
@@ -453,6 +461,7 @@
             ]
         },
         {
+            "id": "8002103",
             "tiny": false,
             "ENname": "Fighting Will",
             "CNname": "斗志",
@@ -482,6 +491,7 @@
             ]
         },
         {
+            "id": "8002202",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -511,6 +521,7 @@
             ]
         },
         {
+            "id": "8002203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -540,6 +551,7 @@
             ]
         },
         {
+            "id": "8002203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -569,6 +581,7 @@
             ]
         },
         {
+            "id": "8002205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -598,6 +611,7 @@
             ]
         },
         {
+            "id": "8002206",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -627,6 +641,7 @@
             ]
         },
         {
+            "id": "8002206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -656,6 +671,7 @@
             ]
         },
         {
+            "id": "8002206",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -685,6 +701,7 @@
             ]
         },
         {
+            "id": "8002209",
             "tiny": true,
             "ENname": "HP +8%",
             "CNname": "生命值 +8%",
@@ -714,6 +731,7 @@
             ]
         },
         {
+            "id": "8002210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -743,6 +761,7 @@
             ]
         },
         {
+            "id": "8002201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -774,6 +793,7 @@
     ],
     "eidolon": [
         {
+            "id": "800201",
             "eidolonnum": 1,
             "ENname": "A Falling Star",
             "CNname": "坠临万界的星芒",
@@ -803,6 +823,7 @@
             ]
         },
         {
+            "id": "800202",
             "eidolonnum": 2,
             "ENname": "An Unwilling Host",
             "CNname": "因缘假合的人身",
@@ -831,6 +852,7 @@
             ]
         },
         {
+            "id": "800203",
             "eidolonnum": 3,
             "ENname": "A Leading Whisper",
             "CNname": "揭示前路的言灵",
@@ -849,6 +871,7 @@
             ]
         },
         {
+            "id": "800204",
             "eidolonnum": 4,
             "ENname": "A Destructing Glance",
             "CNname": "凝眸毁灭的瞬间",
@@ -878,6 +901,7 @@
             ]
         },
         {
+            "id": "800205",
             "eidolonnum": 5,
             "ENname": "A Surviving Hope",
             "CNname": "劫余重生的希望",
@@ -896,6 +920,7 @@
             ]
         },
         {
+            "id": "800206",
             "eidolonnum": 6,
             "ENname": "A Trailblazing Will",
             "CNname": "拓宇行天的意志",

@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "110201",
             "ENname": "Thwack",
             "CNname": "强袭",
             "JAname": "強襲",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "110202",
             "ENname": "Sheathed Blade",
             "CNname": "归刃",
             "JAname": "還刃",
@@ -195,6 +197,7 @@
             ]
         },
         {
+            "id": "110203",
             "ENname": "Butterfly Flurry",
             "CNname": "乱蝶",
             "JAname": "乱れ蝶",
@@ -247,6 +250,7 @@
             ]
         },
         {
+            "id": "110204",
             "ENname": "Resurgence",
             "CNname": "再现",
             "JAname": "再現",
@@ -295,6 +299,7 @@
             ]
         },
         {
+            "id": "110207",
             "ENname": "Phantom Illusion",
             "CNname": "幻身",
             "JAname": "幻身",
@@ -315,6 +320,7 @@
     ],
     "tracedata": [
         {
+            "id": "1102101",
             "tiny": false,
             "ENname": "Nightshade",
             "CNname": "夜行",
@@ -344,6 +350,7 @@
             ]
         },
         {
+            "id": "1102102",
             "tiny": false,
             "ENname": "Lacerate",
             "CNname": "割裂",
@@ -374,6 +381,7 @@
             ]
         },
         {
+            "id": "1102103",
             "tiny": false,
             "ENname": "Rippling Waves",
             "CNname": "涟漪",
@@ -403,6 +411,7 @@
             ]
         },
         {
+            "id": "1102202",
             "tiny": true,
             "ENname": "CRIT DMG +5.3%",
             "CNname": "暴击伤害 +5.3%",
@@ -432,6 +441,7 @@
             ]
         },
         {
+            "id": "1102203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -461,6 +471,7 @@
             ]
         },
         {
+            "id": "1102205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -490,6 +501,7 @@
             ]
         },
         {
+            "id": "1102206",
             "tiny": true,
             "ENname": "CRIT DMG +8%",
             "CNname": "暴击伤害 +8%",
@@ -519,6 +531,7 @@
             ]
         },
         {
+            "id": "1102208",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -548,6 +561,7 @@
             ]
         },
         {
+            "id": "1102209",
             "tiny": true,
             "ENname": "CRIT DMG +10.7%",
             "CNname": "暴击伤害 +10.7%",
@@ -577,6 +591,7 @@
             ]
         },
         {
+            "id": "1102210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -606,6 +621,7 @@
             ]
         },
         {
+            "id": "1102201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -635,6 +651,7 @@
             ]
         },
         {
+            "id": "1102203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -664,6 +681,7 @@
             ]
         },
         {
+            "id": "1102206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -695,6 +713,7 @@
     ],
     "eidolon": [
         {
+            "id": "110201",
             "eidolonnum": 1,
             "ENname": "Extirpating Slash",
             "CNname": "斩尽",
@@ -724,6 +743,7 @@
             ]
         },
         {
+            "id": "110202",
             "eidolonnum": 2,
             "ENname": "Dancing Butterfly",
             "CNname": "蝶舞",
@@ -742,6 +762,7 @@
             ]
         },
         {
+            "id": "110203",
             "eidolonnum": 3,
             "ENname": "Dazzling Tumult",
             "CNname": "缭乱",
@@ -760,6 +781,7 @@
             ]
         },
         {
+            "id": "110204",
             "eidolonnum": 4,
             "ENname": "Flitting Phantasm",
             "CNname": "缭乱",
@@ -789,6 +811,7 @@
             ]
         },
         {
+            "id": "110205",
             "eidolonnum": 5,
             "ENname": "Piercing Shards",
             "CNname": "锋锐",
@@ -807,6 +830,7 @@
             ]
         },
         {
+            "id": "110206",
             "eidolonnum": 6,
             "ENname": "Shattering Shambles",
             "CNname": "离析",

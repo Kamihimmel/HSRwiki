@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "100601",
             "ENname": "System Warning",
             "CNname": "|系统警告|",
             "JAname": "|システム警告|",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "100602",
             "ENname": "Allow Changes?",
             "CNname": "是否允许更改？",
             "JAname": "変更を許可しますか？",
@@ -285,6 +287,7 @@
             ]
         },
         {
+            "id": "100603",
             "ENname": "User Banned",
             "CNname": "|账号已封禁|",
             "JAname": "|アカウントがBANされた|",
@@ -392,6 +395,7 @@
             ]
         },
         {
+            "id": "100604",
             "ENname": "Awaiting System Response...",
             "CNname": "等待程序响应…",
             "JAname": "プログラム応答なし…",
@@ -538,6 +542,7 @@
             ]
         },
         {
+            "id": "100607",
             "ENname": "Force Quit Program",
             "CNname": "|强制结束进程|",
             "JAname": "|プロセス強制終了|",
@@ -570,6 +575,7 @@
     ],
     "tracedata": [
         {
+            "id": "1006101",
             "tiny": false,
             "ENname": "Generate",
             "CNname": "生成",
@@ -587,6 +593,7 @@
             ]
         },
         {
+            "id": "1006102",
             "tiny": false,
             "ENname": "Inject",
             "CNname": "注入",
@@ -604,12 +611,13 @@
             ]
         },
         {
+            "id": "1006103",
             "tiny": false,
             "ENname": "Side Note",
             "CNname": "旁注",
             "JAname": "アノテーション",
             "imageurl": "images/skills/silverwolft3.webp",
-            "DescriptionEN": "When using Skill, if there are 3 or more debuff(s) affecting the enemy, the Skill decreases the enemy's All-Type RES by an additional 3%.",
+            "DescriptionEN": "If there are 3 or more debuff(s) affecting the enemy when the Skill is used, then the Skill decreases the enemy's All-Type RES by an additional 3%.",
             "DescriptionCN": "施放战技时，若敌方目标的负面效果数量大于等于3个，则战技使目标全属性抗性降低的效果额外降低3%。",
             "DescriptionJP": "戦闘スキルを発動した時、敵にあるデバフが3つ以上の場合、戦闘スキルによる敵の全属性耐性ダウン効果がさらに3%ダウンする。",
             "stype": "trace",
@@ -632,6 +640,7 @@
             ]
         },
         {
+            "id": "1006201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -661,6 +670,7 @@
             ]
         },
         {
+            "id": "1006210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -690,6 +700,7 @@
             ]
         },
         {
+            "id": "1006202",
             "tiny": true,
             "ENname": "Effect Hit +4%",
             "CNname": "效果命中 +4%",
@@ -719,6 +730,7 @@
             ]
         },
         {
+            "id": "1006203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -748,6 +760,7 @@
             ]
         },
         {
+            "id": "1006203",
             "tiny": true,
             "ENname": "Quantum DMG +3.2%",
             "CNname": "量子属性伤害提高 +3.2%",
@@ -777,6 +790,7 @@
             ]
         },
         {
+            "id": "1006205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -806,6 +820,7 @@
             ]
         },
         {
+            "id": "1006206",
             "tiny": true,
             "ENname": "Effect Hit +6%",
             "CNname": "效果命中 +6%",
@@ -835,6 +850,7 @@
             ]
         },
         {
+            "id": "1006206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -864,6 +880,7 @@
             ]
         },
         {
+            "id": "1006208",
             "tiny": true,
             "ENname": "Quantum DMG +4.8%",
             "CNname": "量子属性伤害提高 +4.8%",
@@ -893,6 +910,7 @@
             ]
         },
         {
+            "id": "1006206",
             "tiny": true,
             "ENname": "Effect Hit +8%",
             "CNname": "效果命中 +8%",
@@ -924,6 +942,7 @@
     ],
     "eidolon": [
         {
+            "id": "100601",
             "eidolonnum": 1,
             "ENname": "Social Engineering",
             "CNname": "社会工程",
@@ -953,6 +972,7 @@
             ]
         },
         {
+            "id": "100602",
             "eidolonnum": 2,
             "ENname": "Zombie Network",
             "CNname": "僵尸网络",
@@ -982,6 +1002,7 @@
             ]
         },
         {
+            "id": "100603",
             "eidolonnum": 3,
             "ENname": "Payload",
             "CNname": "攻击载荷",
@@ -1000,6 +1021,7 @@
             ]
         },
         {
+            "id": "100604",
             "eidolonnum": 4,
             "ENname": "Bounce Attack",
             "CNname": "反弹端口",
@@ -1028,6 +1050,7 @@
             ]
         },
         {
+            "id": "100605",
             "eidolonnum": 5,
             "ENname": "Brute Force Attack",
             "CNname": "暴力破解",
@@ -1046,6 +1069,7 @@
             ]
         },
         {
+            "id": "100606",
             "eidolonnum": 6,
             "ENname": "Overlay Network",
             "CNname": "重叠网络",

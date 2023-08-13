@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "100801",
             "ENname": "Lightning Rush",
             "CNname": "如雷疾行",
             "JAname": "疾行する雷の如し",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "100802",
             "ENname": "Shackle Breaker",
             "CNname": "禁锢解除",
             "JAname": "禁錮解除",
@@ -195,6 +197,7 @@
             ]
         },
         {
+            "id": "100803",
             "ENname": "Frenzied Punishment",
             "CNname": "狂者制裁",
             "JAname": "狂者の制裁",
@@ -274,6 +277,7 @@
             ]
         },
         {
+            "id": "100804",
             "ENname": "Pain and Anger",
             "CNname": "至痛至怒",
             "JAname": "痛みと怒りの極み",
@@ -323,6 +327,7 @@
             ]
         },
         {
+            "id": "100807",
             "ENname": "Swift Harvest",
             "CNname": "极速收割",
             "JAname": "特急ハーベスト",
@@ -354,6 +359,7 @@
     ],
     "tracedata": [
         {
+            "id": "1008101",
             "tiny": false,
             "ENname": "Revival",
             "CNname": "苏生",
@@ -382,6 +388,7 @@
             ]
         },
         {
+            "id": "1008102",
             "tiny": false,
             "ENname": "Endurance",
             "CNname": "坚忍",
@@ -411,6 +418,7 @@
             ]
         },
         {
+            "id": "1008103",
             "tiny": false,
             "ENname": "Repel",
             "CNname": "抗御",
@@ -440,6 +448,7 @@
             ]
         },
         {
+            "id": "1008205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -469,6 +478,7 @@
             ]
         },
         {
+            "id": "1008206",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -498,6 +508,7 @@
             ]
         },
         {
+            "id": "1008206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -527,6 +538,7 @@
             ]
         },
         {
+            "id": "1008202",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -556,6 +568,7 @@
             ]
         },
         {
+            "id": "1008203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -585,6 +598,7 @@
             ]
         },
         {
+            "id": "1008203",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -614,6 +628,7 @@
             ]
         },
         {
+            "id": "1008208",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -643,6 +658,7 @@
             ]
         },
         {
+            "id": "1008209",
             "tiny": true,
             "ENname": "Effect RES +8%",
             "CNname": "效果抵抗 +8%",
@@ -672,6 +688,7 @@
             ]
         },
         {
+            "id": "1008210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -701,6 +718,7 @@
             ]
         },
         {
+            "id": "1008201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -732,6 +750,7 @@
     ],
     "eidolon": [
         {
+            "id": "100801",
             "eidolonnum": 1,
             "ENname": "To the Bitter End",
             "CNname": "万死不辞",
@@ -761,6 +780,7 @@
             ]
         },
         {
+            "id": "100802",
             "eidolonnum": 2,
             "ENname": "Breaking Free",
             "CNname": "除制去缚",
@@ -778,6 +798,7 @@
             ]
         },
         {
+            "id": "100803",
             "eidolonnum": 3,
             "ENname": "Power Through",
             "CNname": "重剑强攻",
@@ -796,6 +817,7 @@
             ]
         },
         {
+            "id": "100804",
             "eidolonnum": 4,
             "ENname": "Turn the Tables",
             "CNname": "绝处反击",
@@ -824,6 +846,7 @@
             ]
         },
         {
+            "id": "100805",
             "eidolonnum": 5,
             "ENname": "Hammer and Tongs",
             "CNname": "全力倾注",
@@ -842,6 +865,7 @@
             ]
         },
         {
+            "id": "100806",
             "eidolonnum": 6,
             "ENname": "Self-Sacrifice",
             "CNname": "以身作引",

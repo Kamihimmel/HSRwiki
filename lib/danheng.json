@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "100201",
             "ENname": "Cloudlancer Art: North Wind",
             "CNname": "云骑枪术•朔风",
             "JAname": "雲騎槍術・朔風",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "100202",
             "ENname": "Cloudlancer Art: Torrent",
             "CNname": "云骑枪术•疾雨",
             "JAname": "雲騎槍術・疾雨",
@@ -207,6 +209,7 @@
             ]
         },
         {
+            "id": "100203",
             "ENname": "Ethereal Dream",
             "CNname": "洞天幻化，长梦一觉",
             "JAname": "洞天幻化、長夢一覚",
@@ -284,6 +287,7 @@
             ]
         },
         {
+            "id": "100204",
             "ENname": "Superiority of Reach",
             "CNname": "寸长寸强",
             "JAname": "寸長寸強",
@@ -332,6 +336,7 @@
             ]
         },
         {
+            "id": "100207",
             "ENname": "Splitting Spearhead",
             "CNname": "破敌锋芒",
             "JAname": "破敵の矛先",
@@ -363,6 +368,7 @@
     ],
     "tracedata": [
         {
+            "id": "1002101",
             "tiny": false,
             "ENname": "Hidden Dragon",
             "CNname": "潜龙",
@@ -392,6 +398,7 @@
             ]
         },
         {
+            "id": "1002103",
             "tiny": false,
             "ENname": "High Gale",
             "CNname": "罡风",
@@ -422,6 +429,7 @@
             ]
         },
         {
+            "id": "1002102",
             "tiny": false,
             "ENname": "Faster Than Light",
             "CNname": "绝影",
@@ -451,6 +459,7 @@
             ]
         },
         {
+            "id": "1002202",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -480,6 +489,7 @@
             ]
         },
         {
+            "id": "1002203",
             "tiny": true,
             "ENname": "Wind DMG +3.2%",
             "CNname": "风属性伤害提高 +3.2%",
@@ -509,6 +519,7 @@
             ]
         },
         {
+            "id": "1002208",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -538,6 +549,7 @@
             ]
         },
         {
+            "id": "1002209",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -567,6 +579,7 @@
             ]
         },
         {
+            "id": "1002210",
             "tiny": true,
             "ENname": "Wind DMG +6.4%",
             "CNname": "风属性伤害提高 +6.4%",
@@ -596,6 +609,7 @@
             ]
         },
         {
+            "id": "1002205",
             "tiny": true,
             "ENname": "Wind DMG +4.8%",
             "CNname": "风属性伤害提高 +4.8%",
@@ -625,6 +639,7 @@
             ]
         },
         {
+            "id": "1002206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -654,6 +669,7 @@
             ]
         },
         {
+            "id": "1002201",
             "tiny": true,
             "ENname": "Wind DMG +3.2%",
             "CNname": "风属性伤害提高 +3.2%",
@@ -683,6 +699,7 @@
             ]
         },
         {
+            "id": "1002203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -712,6 +729,7 @@
             ]
         },
         {
+            "id": "1002206",
             "tiny": true,
             "ENname": "Wind DMG +4.8%",
             "CNname": "风属性伤害提高 +4.8%",
@@ -743,6 +761,7 @@
     ],
     "eidolon": [
         {
+            "id": "100201",
             "eidolonnum": 1,
             "ENname": "The Higher You Fly, the Harder You Fall",
             "CNname": "穷高极天，亢盈难久",
@@ -772,6 +791,7 @@
             ]
         },
         {
+            "id": "100202",
             "eidolonnum": 2,
             "ENname": "Quell the Venom Octet, Quench the Vice O'Flame",
             "CNname": "威制八毒，灭却炎烟",
@@ -790,6 +810,7 @@
             ]
         },
         {
+            "id": "100203",
             "eidolonnum": 3,
             "ENname": "Seen and Unseen",
             "CNname": "幽明变化，自在蟠跃",
@@ -808,6 +829,7 @@
             ]
         },
         {
+            "id": "100204",
             "eidolonnum": 4,
             "ENname": "Roaring Dragon and Soaring Sun",
             "CNname": "奋迅三昧，如日空居",
@@ -837,6 +859,7 @@
             ]
         },
         {
+            "id": "100205",
             "eidolonnum": 5,
             "ENname": "A Drop of Rain Feeds a Torrent",
             "CNname": "一渧天水，六虚洪流",
@@ -855,6 +878,7 @@
             ]
         },
         {
+            "id": "100206",
             "eidolonnum": 6,
             "ENname": "The Troubled Soul Lies in Wait",
             "CNname": "须绳缚身，沉潜勿用",

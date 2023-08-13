@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "100101",
             "ENname": "Frigid Cold Arrow",
             "CNname": "极寒的弓矢",
             "JAname": "極寒の弓矢",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "100102",
             "ENname": "The Power of Cuteness",
             "CNname": "可爱即是正义",
             "JAname": "可愛いは正義",
@@ -233,6 +235,7 @@
             ]
         },
         {
+            "id": "100103",
             "ENname": "Glacial Cascade",
             "CNname": "冰刻箭雨之时",
             "JAname": "氷刻矢雨の時",
@@ -326,6 +329,7 @@
             ]
         },
         {
+            "id": "100104",
             "ENname": "Girl Power",
             "CNname": "少女的特权",
             "JAname": "少女の特権",
@@ -377,6 +381,7 @@
             ]
         },
         {
+            "id": "100107",
             "ENname": "Freezing Beauty",
             "CNname": "冻人的瞬间",
             "JAname": "凍る瞬間",
@@ -419,6 +424,7 @@
     ],
     "tracedata": [
         {
+            "id": "1001103",
             "tiny": false,
             "ENname": "Ice Spell",
             "CNname": "冰咒",
@@ -436,6 +442,7 @@
             ]
         },
         {
+            "id": "1001101",
             "tiny": false,
             "ENname": "Purify",
             "CNname": "纯洁",
@@ -454,6 +461,7 @@
             ]
         },
         {
+            "id": "1001102",
             "tiny": false,
             "ENname": "Reinforce",
             "CNname": "加护",
@@ -468,6 +476,7 @@
             "tags": []
         },
         {
+            "id": "1001208",
             "tiny": true,
             "ENname": "Ice DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -497,6 +506,7 @@
             ]
         },
         {
+            "id": "1001209",
             "tiny": true,
             "ENname": "Ice DMG +6.4%",
             "CNname": "冰属性伤害提高 +6.4%",
@@ -526,6 +536,7 @@
             ]
         },
         {
+            "id": "1001210",
             "tiny": true,
             "ENname": "DEF +10%",
             "CNname": "防御力 +10%",
@@ -555,6 +566,7 @@
             ]
         },
         {
+            "id": "1001201",
             "tiny": true,
             "ENname": "Ice DMG +3.2%",
             "CNname": "冰属性伤害提高 +3.2%",
@@ -584,6 +596,7 @@
             ]
         },
         {
+            "id": "1001202",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -613,6 +626,7 @@
             ]
         },
         {
+            "id": "1001203",
             "tiny": true,
             "ENname": "Ice DMG +3.2%",
             "CNname": "冰属性伤害提高 +3.2%",
@@ -642,6 +656,7 @@
             ]
         },
         {
+            "id": "1001205",
             "tiny": true,
             "ENname": "Ice DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -671,6 +686,7 @@
             ]
         },
         {
+            "id": "1001206",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -700,6 +716,7 @@
             ]
         },
         {
+            "id": "1001203",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -729,6 +746,7 @@
             ]
         },
         {
+            "id": "1001206",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -760,6 +778,7 @@
     ],
     "eidolon": [
         {
+            "id": "100101",
             "eidolonnum": 1,
             "ENname": "Memory of You",
             "CNname": "记忆中的你",
@@ -789,6 +808,7 @@
             ]
         },
         {
+            "id": "100102",
             "eidolonnum": 2,
             "ENname": "Memory of It",
             "CNname": "记忆中的它",
@@ -824,6 +844,7 @@
             ]
         },
         {
+            "id": "100103",
             "eidolonnum": 3,
             "ENname": "Memory of Everything",
             "CNname": "记忆中的一切",
@@ -842,6 +863,7 @@
             ]
         },
         {
+            "id": "100104",
             "eidolonnum": 4,
             "ENname": "Never Forfeit Again",
             "CNname": "不愿再失去",
@@ -872,6 +894,7 @@
             ]
         },
         {
+            "id": "100105",
             "eidolonnum": 5,
             "ENname": "Never Forget Again",
             "CNname": "不想再忘却",
@@ -890,6 +913,7 @@
             ]
         },
         {
+            "id": "100106",
             "eidolonnum": 6,
             "ENname": "Just Like This, Always...",
             "CNname": "就这样，一直…",

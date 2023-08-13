@@ -99,11 +99,12 @@
     ],
     "skilldata": [
         {
+            "id": "121101",
             "ENname": "Diagnostic Kick",
             "CNname": "望 、闻、问…蹴！",
             "JAname": "望・聞・問…蹴！",
             "imageurl": "images/skills/bailuna.webp",
-            "DescriptionEN": "Deals Lightning DMG equal to [1] of Bailu's ATK to a single enemy.",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Bailu's ATK to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于白露[1]%攻击力的雷属性伤害。",
             "DescriptionJP": "指定した敵単体に白露の攻撃力[1]%分の雷属性ダメージを与える。",
             "stype": "basicattack",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "121102",
             "ENname": "Singing Among Clouds",
             "CNname": "云吟乍涌坠珠露",
             "JAname": "雲吟乍然、零れる珠露",
@@ -220,6 +222,7 @@
             ]
         },
         {
+            "id": "121103",
             "ENname": "Felicitous Thunderleap",
             "CNname": "匏蛟跃渊先雷音",
             "JAname": "雷鳴率いる躍渊の蛟龍",
@@ -295,6 +298,7 @@
             ]
         },
         {
+            "id": "121104",
             "ENname": "Gourdful of Elixir",
             "CNname": "奔走悬壶济世长",
             "JAname": "懸壺済世",
@@ -423,6 +427,7 @@
             ]
         },
         {
+            "id": "121107",
             "ENname": "Saunter in the Rain",
             "CNname": "徜徉灵泽病恙短",
             "JAname": "恙病を払拭せし、徜徉する霊澤",
@@ -443,6 +448,7 @@
     ],
     "tracedata": [
         {
+            "id": "1211101",
             "tiny": false,
             "ENname": "Qihuang Analects",
             "CNname": "岐黄精义",
@@ -471,6 +477,7 @@
             ]
         },
         {
+            "id": "1211103",
             "tiny": false,
             "ENname": "Aquatic Benediction",
             "CNname": "鳞渊福泽",
@@ -500,6 +507,7 @@
             ]
         },
         {
+            "id": "1211102",
             "tiny": false,
             "ENname": "Vidyadhara Ichor Lines",
             "CNname": "持明龙脉",
@@ -514,6 +522,7 @@
             "tags": []
         },
         {
+            "id": "1211202",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -543,6 +552,7 @@
             ]
         },
         {
+            "id": "1211203",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -572,6 +582,7 @@
             ]
         },
         {
+            "id": "1211203",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -601,6 +612,7 @@
             ]
         },
         {
+            "id": "1211205",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -630,6 +642,7 @@
             ]
         },
         {
+            "id": "1211206",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -659,6 +672,7 @@
             ]
         },
         {
+            "id": "1211206",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -688,6 +702,7 @@
             ]
         },
         {
+            "id": "1211208",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -717,6 +732,7 @@
             ]
         },
         {
+            "id": "1211209",
             "tiny": true,
             "ENname": "DEF +10%",
             "CNname": "防御力 +10%",
@@ -746,6 +762,7 @@
             ]
         },
         {
+            "id": "1211201",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -775,6 +792,7 @@
             ]
         },
         {
+            "id": "1211210",
             "tiny": true,
             "ENname": "HP +8%",
             "CNname": "生命值 +8%",
@@ -806,6 +824,7 @@
     ],
     "eidolon": [
         {
+            "id": "121101",
             "eidolonnum": 1,
             "ENname": "Ambrosial Aqua",
             "CNname": "百脉甘津宁神久",
@@ -833,6 +852,7 @@
             ]
         },
         {
+            "id": "121102",
             "eidolonnum": 2,
             "ENname": "Sylphic Slumber",
             "CNname": "壶中洞天云螭眠",
@@ -862,6 +882,7 @@
             ]
         },
         {
+            "id": "121103",
             "eidolonnum": 3,
             "ENname": "Omniscient Opulence",
             "CNname": "掌间乾坤便通玄",
@@ -880,6 +901,7 @@
             ]
         },
         {
+            "id": "121104",
             "eidolonnum": 4,
             "ENname": "Evil Excision",
             "CNname": "肘后备急除外障",
@@ -908,6 +930,7 @@
             ]
         },
         {
+            "id": "121105",
             "eidolonnum": 5,
             "ENname": "Waning Worries",
             "CNname": "方定一倾浣俗尘",
@@ -926,6 +949,7 @@
             ]
         },
         {
+            "id": "121106",
             "eidolonnum": 6,
             "ENname": "Drooling Drop of Draconic Divinity",
             "CNname": "龙漦吐哺胜金丹",

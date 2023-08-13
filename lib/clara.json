@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "110701",
             "ENname": "I Want to Help",
             "CNname": "我也想帮上忙",
             "JAname": "クラーラもお手伝いします",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "110702",
             "ENname": "Svarog Watches Over You",
             "CNname": "史瓦罗在看着你",
             "JAname": "スヴァローグが見てる",
@@ -222,6 +224,7 @@
             ]
         },
         {
+            "id": "110703",
             "ENname": "Promise, Not Command",
             "CNname": "是约定不是命令",
             "JAname": "命令じゃなくて約束",
@@ -328,6 +331,7 @@
             ]
         },
         {
+            "id": "110704",
             "ENname": "Because We're Family",
             "CNname": "因为我们是家人",
             "JAname": "家族なんだから",
@@ -392,6 +396,7 @@
             ]
         },
         {
+            "id": "110707",
             "ENname": "A Small Price for Victory",
             "CNname": "胜利的小小代价",
             "JAname": "勝利の小さな対価",
@@ -429,6 +434,7 @@
     ],
     "tracedata": [
         {
+            "id": "1107102",
             "tiny": false,
             "ENname": "Under Protection",
             "CNname": "守护",
@@ -458,6 +464,7 @@
             ]
         },
         {
+            "id": "1107101",
             "tiny": false,
             "ENname": "Kinship",
             "CNname": "家人",
@@ -476,6 +483,7 @@
             ]
         },
         {
+            "id": "1107103",
             "tiny": false,
             "ENname": "Revenge",
             "CNname": "复仇",
@@ -505,6 +513,7 @@
             ]
         },
         {
+            "id": "1107205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -534,6 +543,7 @@
             ]
         },
         {
+            "id": "1107206",
             "tiny": true,
             "ENname": "Physical DMG +4.8%",
             "CNname": "物理属性伤害提高 +4.8%",
@@ -563,6 +573,7 @@
             ]
         },
         {
+            "id": "1107206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -592,6 +603,7 @@
             ]
         },
         {
+            "id": "1107202",
             "tiny": true,
             "ENname": "Physical DMG +3.2%",
             "CNname": "物理属性伤害提高 +3.2%",
@@ -621,6 +633,7 @@
             ]
         },
         {
+            "id": "1107203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -650,6 +663,7 @@
             ]
         },
         {
+            "id": "1107203",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -679,6 +693,7 @@
             ]
         },
         {
+            "id": "1107208",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -708,6 +723,7 @@
             ]
         },
         {
+            "id": "1107209",
             "tiny": true,
             "ENname": "Physical DMG +6.4%",
             "CNname": "物理属性伤害提高 +6.4%",
@@ -737,6 +753,7 @@
             ]
         },
         {
+            "id": "1107210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -766,6 +783,7 @@
             ]
         },
         {
+            "id": "1107201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -797,6 +815,7 @@
     ],
     "eidolon": [
         {
+            "id": "110701",
             "eidolonnum": 1,
             "ENname": "A Tall Figure",
             "CNname": "高大的背影",
@@ -814,6 +833,7 @@
             ]
         },
         {
+            "id": "110702",
             "eidolonnum": 2,
             "ENname": "A Tight Embrace",
             "CNname": "紧紧的拥抱",
@@ -841,6 +861,7 @@
             ]
         },
         {
+            "id": "110703",
             "eidolonnum": 3,
             "ENname": "Cold Steel Armor",
             "CNname": "冰冷的钢甲",
@@ -859,6 +880,7 @@
             ]
         },
         {
+            "id": "110704",
             "eidolonnum": 4,
             "ENname": "Family's Warmth",
             "CNname": "家人的温暖",
@@ -888,6 +910,7 @@
             ]
         },
         {
+            "id": "110705",
             "eidolonnum": 5,
             "ENname": "A Small Promise",
             "CNname": "小小的承诺",
@@ -906,6 +929,7 @@
             ]
         },
         {
+            "id": "110706",
             "eidolonnum": 6,
             "ENname": "Long Company",
             "CNname": "长久的陪伴",
