@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "110801",
             "ENname": "Dazzling Blades",
             "CNname": "酷炫的刀花",
             "JAname": "眩い刃紋",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "110802",
             "ENname": "Ricochet Love",
             "CNname": "反复横跳的爱",
             "JAname": "反復横跳びの愛",
@@ -221,6 +223,7 @@
             ]
         },
         {
+            "id": "110803",
             "ENname": "Surprise Present",
             "CNname": "惊喜礼盒",
             "JAname": "サプライズボックス",
@@ -311,6 +314,7 @@
             ]
         },
         {
+            "id": "110804",
             "ENname": "Windtorn Dagger",
             "CNname": "撕风的匕首",
             "JAname": "風を切り裂く匕首",
@@ -372,6 +376,7 @@
             ]
         },
         {
+            "id": "110807",
             "ENname": "Shining Bright",
             "CNname": "你最闪亮",
             "JAname": "一番の輝きをあなたへ",
@@ -404,6 +409,7 @@
     ],
     "tracedata": [
         {
+            "id": "1108102",
             "tiny": false,
             "ENname": "Defensive Position",
             "CNname": "后手",
@@ -432,6 +438,7 @@
             ]
         },
         {
+            "id": "1108103",
             "tiny": false,
             "ENname": "Spice Up",
             "CNname": "加料",
@@ -460,6 +467,7 @@
             ]
         },
         {
+            "id": "1108101",
             "tiny": false,
             "ENname": "Trap",
             "CNname": "圈套",
@@ -477,6 +485,7 @@
             ]
         },
         {
+            "id": "1108205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -506,6 +515,7 @@
             ]
         },
         {
+            "id": "1108206",
             "tiny": true,
             "ENname": "Effect Hit +6%",
             "CNname": "效果命中 +6%",
@@ -535,6 +545,7 @@
             ]
         },
         {
+            "id": "1108206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -564,6 +575,7 @@
             ]
         },
         {
+            "id": "1108208",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -593,6 +605,7 @@
             ]
         },
         {
+            "id": "1108209",
             "tiny": true,
             "ENname": "Effect Hit +8%",
             "CNname": "效果命中 +8%",
@@ -622,6 +635,7 @@
             ]
         },
         {
+            "id": "1108202",
             "tiny": true,
             "ENname": "Effect Hit +4%",
             "CNname": "效果命中 +4%",
@@ -651,6 +665,7 @@
             ]
         },
         {
+            "id": "1108203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -680,6 +695,7 @@
             ]
         },
         {
+            "id": "1108203",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -709,6 +725,7 @@
             ]
         },
         {
+            "id": "1108201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -738,6 +755,7 @@
             ]
         },
         {
+            "id": "1108210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -769,6 +787,7 @@
     ],
     "eidolon": [
         {
+            "id": "110801",
             "eidolonnum": 1,
             "ENname": "Rising Love",
             "CNname": "加码的爱",
@@ -786,6 +805,7 @@
             ]
         },
         {
+            "id": "110802",
             "eidolonnum": 2,
             "ENname": "Infectious Enthusiasm",
             "CNname": "热情会传染",
@@ -803,6 +823,7 @@
             ]
         },
         {
+            "id": "110803",
             "eidolonnum": 3,
             "ENname": "Big Money!",
             "CNname": "大数字！",
@@ -821,6 +842,7 @@
             ]
         },
         {
+            "id": "110804",
             "eidolonnum": 4,
             "ENname": "The Deeper the Love, the Stronger the Hate",
             "CNname": "爱之深，恨之切",
@@ -850,6 +872,7 @@
             ]
         },
         {
+            "id": "110805",
             "eidolonnum": 5,
             "ENname": "Huuuuge Money!",
             "CNname": "超大数字！",
@@ -868,6 +891,7 @@
             ]
         },
         {
+            "id": "110806",
             "eidolonnum": 6,
             "ENname": "Increased Spending",
             "CNname": "消费升级",

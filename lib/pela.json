@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "110601",
             "ENname": "Frost Shot",
             "CNname": "冰点射击",
             "JAname": "氷点狙撃",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "110602",
             "ENname": "Frostbite",
             "CNname": "低温妨害",
             "JAname": "低温妨害",
@@ -194,6 +196,7 @@
             ]
         },
         {
+            "id": "110603",
             "ENname": "Zone Suppression",
             "CNname": "领域压制",
             "JAname": "領域制圧",
@@ -284,6 +287,7 @@
             ]
         },
         {
+            "id": "110604",
             "ENname": "Data Collecting",
             "CNname": "数据采集",
             "JAname": "データ採取",
@@ -331,6 +335,7 @@
             ]
         },
         {
+            "id": "110607",
             "ENname": "Preemptive Strike",
             "CNname": "先发制人",
             "JAname": "先手必勝",
@@ -373,6 +378,7 @@
     ],
     "tracedata": [
         {
+            "id": "1106101",
             "tiny": false,
             "ENname": "Bash",
             "CNname": "痛击",
@@ -402,6 +408,7 @@
             ]
         },
         {
+            "id": "1106102",
             "tiny": false,
             "ENname": "The Secret Strategy",
             "CNname": "秘策",
@@ -432,6 +439,7 @@
             ]
         },
         {
+            "id": "1106103",
             "tiny": false,
             "ENname": "Wipe Out",
             "CNname": "追歼",
@@ -461,6 +469,7 @@
             ]
         },
         {
+            "id": "1106202",
             "tiny": true,
             "ENname": "ATK 4%",
             "CNname": "攻击力 +4%",
@@ -490,6 +499,7 @@
             ]
         },
         {
+            "id": "1106203",
             "tiny": true,
             "ENname": "Ice DMG +3.2%",
             "CNname": "冰属性伤害提高 +3.2%",
@@ -519,6 +529,7 @@
             ]
         },
         {
+            "id": "1106203",
             "tiny": true,
             "ENname": "Effect Hit +4%",
             "CNname": "效果命中 +4%",
@@ -548,6 +559,7 @@
             ]
         },
         {
+            "id": "1106205",
             "tiny": true,
             "ENname": "Ice DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -577,6 +589,7 @@
             ]
         },
         {
+            "id": "1106206",
             "tiny": true,
             "ENname": "ATK 6%",
             "CNname": "攻击力 +6%",
@@ -606,6 +619,7 @@
             ]
         },
         {
+            "id": "1106206",
             "tiny": true,
             "ENname": "Ice DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -635,6 +649,7 @@
             ]
         },
         {
+            "id": "1106208",
             "tiny": true,
             "ENname": "Effect Hit +6%",
             "CNname": "效果命中 +6%",
@@ -664,6 +679,7 @@
             ]
         },
         {
+            "id": "1106209",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -693,6 +709,7 @@
             ]
         },
         {
+            "id": "1106201",
             "tiny": true,
             "ENname": "Ice DMG +3.2%",
             "CNname": "冰属性伤害提高 +3.2%",
@@ -722,6 +739,7 @@
             ]
         },
         {
+            "id": "1106210",
             "tiny": true,
             "ENname": "Ice DMG +6.4%",
             "CNname": "冰属性伤害提高 +6.4%",
@@ -753,6 +771,7 @@
     ],
     "eidolon": [
         {
+            "id": "110601",
             "eidolonnum": 1,
             "ENname": "Victory Report",
             "CNname": "胜利反馈",
@@ -782,6 +801,7 @@
             ]
         },
         {
+            "id": "110602",
             "eidolonnum": 2,
             "ENname": "Adamant Charge",
             "CNname": "疾进不止",
@@ -811,6 +831,7 @@
             ]
         },
         {
+            "id": "110603",
             "eidolonnum": 3,
             "ENname": "Suppressive Force",
             "CNname": "压制升级",
@@ -829,6 +850,7 @@
             ]
         },
         {
+            "id": "110604",
             "eidolonnum": 4,
             "ENname": "Full Analysis",
             "CNname": "完全剖析",
@@ -858,6 +880,7 @@
             ]
         },
         {
+            "id": "110605",
             "eidolonnum": 5,
             "ENname": "Absolute Jeopardy",
             "CNname": "零度妨害",
@@ -876,6 +899,7 @@
             ]
         },
         {
+            "id": "110606",
             "eidolonnum": 6,
             "ENname": "Feeble Pursuit",
             "CNname": "疲弱追击",

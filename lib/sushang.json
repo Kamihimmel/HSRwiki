@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "120601",
             "ENname": "Cloudfencer Art: Starshine",
             "CNname": "云骑剑经 • 素霓",
             "JAname": "雲騎剣経・月虹",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "120602",
             "ENname": "Cloudfencer Art: Mountainfall",
             "CNname": "云骑剑经 • 山倾",
             "JAname": "雲騎剣経・山傾",
@@ -224,6 +226,7 @@
             ]
         },
         {
+            "id": "120603",
             "ENname": "Shape of Taixu: Dawn Herald",
             "CNname": "太虚形蕴 • 烛夜",
             "JAname": "太虚形蘊・燭夜",
@@ -316,6 +319,7 @@
             ]
         },
         {
+            "id": "120604",
             "ENname": "Dancing Blade",
             "CNname": "游刃若水",
             "JAname": "游刃若水",
@@ -364,6 +368,7 @@
             ]
         },
         {
+            "id": "120607",
             "ENname": "Cloudfencer Art: Warcry",
             "CNname": "云骑剑经 • 叩阵",
             "JAname": "雲騎剣経・叩陣",
@@ -395,6 +400,7 @@
     ],
     "tracedata": [
         {
+            "id": "1206101",
             "tiny": false,
             "ENname": "Guileless",
             "CNname": "赤子",
@@ -424,6 +430,7 @@
             ]
         },
         {
+            "id": "1206102",
             "tiny": false,
             "ENname": "Riposte",
             "CNname": "逐寇",
@@ -454,6 +461,7 @@
             ]
         },
         {
+            "id": "1206103",
             "tiny": false,
             "ENname": "Vanquisher",
             "CNname": "破敌",
@@ -483,6 +491,7 @@
             ]
         },
         {
+            "id": "1206202",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -512,6 +521,7 @@
             ]
         },
         {
+            "id": "1206203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -541,6 +551,7 @@
             ]
         },
         {
+            "id": "1206208",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -570,6 +581,7 @@
             ]
         },
         {
+            "id": "1206210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -599,6 +611,7 @@
             ]
         },
         {
+            "id": "1206209",
             "tiny": true,
             "ENname": "HP +8%",
             "CNname": "生命值 +8%",
@@ -628,6 +641,7 @@
             ]
         },
         {
+            "id": "1206205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -657,6 +671,7 @@
             ]
         },
         {
+            "id": "1206206",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -686,6 +701,7 @@
             ]
         },
         {
+            "id": "1206201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -715,6 +731,7 @@
             ]
         },
         {
+            "id": "1206203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -744,6 +761,7 @@
             ]
         },
         {
+            "id": "1206206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -775,6 +793,7 @@
     ],
     "eidolon": [
         {
+            "id": "120601",
             "eidolonnum": 1,
             "ENname": "Cut With Ease",
             "CNname": "游刃有余",
@@ -793,6 +812,7 @@
             ]
         },
         {
+            "id": "120602",
             "eidolonnum": 2,
             "ENname": "Refine in Toil",
             "CNname": "其身百炼",
@@ -822,6 +842,7 @@
             ]
         },
         {
+            "id": "120603",
             "eidolonnum": 3,
             "ENname": "Rise From Fame",
             "CNname": "传古剑流",
@@ -840,6 +861,7 @@
             ]
         },
         {
+            "id": "120604",
             "eidolonnum": 4,
             "ENname": "Cleave With Heart",
             "CNname": "其心百辟",
@@ -869,6 +891,7 @@
             ]
         },
         {
+            "id": "120605",
             "eidolonnum": 5,
             "ENname": "Prevail via Taixu",
             "CNname": "太虚神意",
@@ -887,6 +910,7 @@
             ]
         },
         {
+            "id": "120606",
             "eidolonnum": 6,
             "ENname": "Dwell Like Water",
             "CNname": "上善若水",

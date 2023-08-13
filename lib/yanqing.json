@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "120901",
             "ENname": "Frost Thorn",
             "CNname": "霜锋点寒芒",
             "JAname": "寒光刺す霜鋒",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "120902",
             "ENname": "Darting Ironthorn",
             "CNname": "遥击三尺水",
             "JAname": "三尺秋水",
@@ -195,6 +197,7 @@
             ]
         },
         {
+            "id": "120903",
             "ENname": "Butterfly Flurry",
             "CNname": "快雨燕相逐",
             "JAname": "快雨に戯れる燕",
@@ -285,6 +288,7 @@
             ]
         },
         {
+            "id": "120904",
             "ENname": "The One True Sword",
             "CNname": "呼剑如影",
             "JAname": "呼影剣",
@@ -439,6 +443,7 @@
             ]
         },
         {
+            "id": "120907",
             "ENname": "The One True Sword",
             "CNname": "御剑真诀",
             "JAname": "御剣真訣",
@@ -470,6 +475,7 @@
     ],
     "tracedata": [
         {
+            "id": "1209101",
             "tiny": false,
             "ENname": "Icing on the Kick",
             "CNname": "颁冰",
@@ -498,6 +504,7 @@
             ]
         },
         {
+            "id": "1209102",
             "tiny": false,
             "ENname": "Frost Favors the Brave",
             "CNname": "凌霜",
@@ -528,6 +535,7 @@
             ]
         },
         {
+            "id": "1209103",
             "tiny": false,
             "ENname": "Gentle Blade",
             "CNname": "轻吕",
@@ -557,6 +565,7 @@
             ]
         },
         {
+            "id": "1209202",
             "tiny": true,
             "ENname": "ICE DMG +3.2%",
             "CNname": "冰属性伤害提高 +3.2%",
@@ -586,6 +595,7 @@
             ]
         },
         {
+            "id": "1209203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -615,6 +625,7 @@
             ]
         },
         {
+            "id": "1209205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -644,6 +655,7 @@
             ]
         },
         {
+            "id": "1209206",
             "tiny": true,
             "ENname": "ICE DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -673,6 +685,7 @@
             ]
         },
         {
+            "id": "1209208",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -702,6 +715,7 @@
             ]
         },
         {
+            "id": "1209209",
             "tiny": true,
             "ENname": "ICE DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -731,6 +745,7 @@
             ]
         },
         {
+            "id": "1209210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -760,6 +775,7 @@
             ]
         },
         {
+            "id": "1209201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -789,6 +805,7 @@
             ]
         },
         {
+            "id": "1209203",
             "tiny": true,
             "ENname": "HP +5%",
             "CNname": "生命值 +4%",
@@ -818,6 +835,7 @@
             ]
         },
         {
+            "id": "1209206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -849,6 +867,7 @@
     ],
     "eidolon": [
         {
+            "id": "120901",
             "eidolonnum": 1,
             "ENname": "Svelte Saber",
             "CNname": "素刃",
@@ -877,6 +896,7 @@
             ]
         },
         {
+            "id": "120902",
             "eidolonnum": 2,
             "ENname": "Supine Serenade",
             "CNname": "空明",
@@ -906,6 +926,7 @@
             ]
         },
         {
+            "id": "120903",
             "eidolonnum": 3,
             "ENname": "Sword Savant",
             "CNname": "剑胎",
@@ -924,6 +945,7 @@
             ]
         },
         {
+            "id": "120904",
             "eidolonnum": 4,
             "ENname": "Searing Sting",
             "CNname": "霜厉",
@@ -953,6 +975,7 @@
             ]
         },
         {
+            "id": "120905",
             "eidolonnum": 5,
             "ENname": "Surging Strife",
             "CNname": "武骨",
@@ -971,6 +994,7 @@
             ]
         },
         {
+            "id": "120906",
             "eidolonnum": 6,
             "ENname": "Swift Swoop",
             "CNname": "自在",

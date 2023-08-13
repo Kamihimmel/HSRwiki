@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "120101",
             "ENname": "Flower Pick",
             "CNname": "门前清",
             "JAname": "門前清",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "120108",
             "ENname": "Cherry on Top!",
             "CNname": "杠上开花！",
             "JAname": "嶺上開花！",
@@ -210,6 +212,7 @@
             ]
         },
         {
+            "id": "120102",
             "ENname": "A Scoop of Moon",
             "CNname": "海底捞月",
             "JAname": "海底撈月",
@@ -259,6 +262,7 @@
             ]
         },
         {
+            "id": "120103",
             "ENname": "A Quartet? Woo-hoo!",
             "CNname": "四幺暗刻？和！",
             "JAname": "幺魚暗カン？アガリ！",
@@ -311,6 +315,7 @@
             ]
         },
         {
+            "id": "120104",
             "ENname": "Celestial Jade",
             "CNname": "帝垣琼玉",
             "JAname": "帝垣美玉",
@@ -361,6 +366,7 @@
             ]
         },
         {
+            "id": "120107",
             "ENname": "Game Solitaire",
             "CNname": "独弈之乐",
             "JAname": "独奕の楽しみ",
@@ -381,6 +387,7 @@
     ],
     "tracedata": [
         {
+            "id": "1201101",
             "tiny": false,
             "ENname": "Tile Battle",
             "CNname": "争番",
@@ -398,6 +405,7 @@
             ]
         },
         {
+            "id": "1201102",
             "tiny": false,
             "ENname": "Bide Time",
             "CNname": "听牌",
@@ -427,6 +435,7 @@
             ]
         },
         {
+            "id": "1201103",
             "tiny": false,
             "ENname": "Winning Hand",
             "CNname": "抢杠",
@@ -456,6 +465,7 @@
             ]
         },
         {
+            "id": "1201202",
             "tiny": true,
             "ENname": "Quantum DMG +3.2%",
             "CNname": "量子属性伤害提高 +3.2%",
@@ -485,6 +495,7 @@
             ]
         },
         {
+            "id": "1201203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -514,6 +525,7 @@
             ]
         },
         {
+            "id": "1201203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -543,6 +555,7 @@
             ]
         },
         {
+            "id": "1201205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -572,6 +585,7 @@
             ]
         },
         {
+            "id": "1201206",
             "tiny": true,
             "ENname": "Quantum DMG +4.8%",
             "CNname": "量子属性伤害提高 +4.8%",
@@ -601,6 +615,7 @@
             ]
         },
         {
+            "id": "1201206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -630,6 +645,7 @@
             ]
         },
         {
+            "id": "1201208",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -659,6 +675,7 @@
             ]
         },
         {
+            "id": "1201209",
             "tiny": true,
             "ENname": "Quantum DMG +6.4%",
             "CNname": "量子属性伤害提高 +6.4%",
@@ -688,6 +705,7 @@
             ]
         },
         {
+            "id": "1201201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -717,6 +735,7 @@
             ]
         },
         {
+            "id": "1201210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -748,6 +767,7 @@
     ],
     "eidolon": [
         {
+            "id": "120101",
             "eidolonnum": 1,
             "ENname": "Rise Through the Tiles",
             "CNname": "散勇化骁摸幺鱼",
@@ -777,6 +797,7 @@
             ]
         },
         {
+            "id": "120102",
             "eidolonnum": 2,
             "ENname": "Sleep on the Tiles",
             "CNname": "棋枰作枕好入眠",
@@ -794,6 +815,7 @@
             ]
         },
         {
+            "id": "120103",
             "eidolonnum": 3,
             "ENname": "Strike, Suns Subdued",
             "CNname": "观琼视茕门前清",
@@ -812,6 +834,7 @@
             ]
         },
         {
+            "id": "120104",
             "eidolonnum": 4,
             "ENname": "Right on the Tiles",
             "CNname": "帝垣翔鳞和绝张",
@@ -841,6 +864,7 @@
             ]
         },
         {
+            "id": "120105",
             "eidolonnum": 5,
             "ENname": "Gambit for the Tiles",
             "CNname": "七星流离全不靠",
@@ -859,6 +883,7 @@
             ]
         },
         {
+            "id": "120106",
             "eidolonnum": 6,
             "ENname": "Prevail Beyond the Tiles",
             "CNname": "虚心平意候枭卢",

@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "110301",
             "ENname": "Roaring Thunderclap",
             "CNname": "雷鸣音阶",
             "JAname": "雷鳴音階",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "110302",
             "ENname": "Lightning Flash",
             "CNname": "电光石火间",
             "JAname": "スパーク",
@@ -261,6 +263,7 @@
             ]
         },
         {
+            "id": "110303",
             "ENname": "Here Comes the Mechanical Fever",
             "CNname": "机械热潮登场！",
             "JAname": "機械ブーム登場！",
@@ -313,6 +316,7 @@
             ]
         },
         {
+            "id": "110304",
             "ENname": "Galvanic Chords",
             "CNname": "燃情和弦",
             "JAname": "情熱コード",
@@ -364,6 +368,7 @@
             ]
         },
         {
+            "id": "110307",
             "ENname": "Good Night, Belobog",
             "CNname": "晚安，贝洛伯格",
             "JAname": "おやすみ、ベロブルグ",
@@ -416,6 +421,7 @@
     ],
     "tracedata": [
         {
+            "id": "1103101",
             "tiny": false,
             "ENname": "Rock 'n' Roll",
             "CNname": "摇滚",
@@ -443,6 +449,7 @@
             ]
         },
         {
+            "id": "1103102",
             "tiny": false,
             "ENname": "String Vibration",
             "CNname": "电音",
@@ -471,6 +478,7 @@
             ]
         },
         {
+            "id": "1103103",
             "tiny": false,
             "ENname": "Mania",
             "CNname": "狂热",
@@ -500,6 +508,7 @@
             ]
         },
         {
+            "id": "1103202",
             "tiny": true,
             "ENname": "Effect Hit +4%",
             "CNname": "效果命中 +4%",
@@ -529,6 +538,7 @@
             ]
         },
         {
+            "id": "1103203",
             "tiny": true,
             "ENname": "CRIT Rate +2.7%",
             "CNname": "暴击率 +2.7%",
@@ -558,6 +568,7 @@
             ]
         },
         {
+            "id": "1103203",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -587,6 +598,7 @@
             ]
         },
         {
+            "id": "1103205",
             "tiny": true,
             "ENname": "CRIT Rate +4%",
             "CNname": "暴击率 +4%",
@@ -616,6 +628,7 @@
             ]
         },
         {
+            "id": "1103206",
             "tiny": true,
             "ENname": "Effect Hit +6%",
             "CNname": "效果命中 +6%",
@@ -645,6 +658,7 @@
             ]
         },
         {
+            "id": "1103206",
             "tiny": true,
             "ENname": "CRIT Rate +4%",
             "CNname": "暴击率 +4%",
@@ -674,6 +688,7 @@
             ]
         },
         {
+            "id": "1103208",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -703,6 +718,7 @@
             ]
         },
         {
+            "id": "1103209",
             "tiny": true,
             "ENname": "Effect Hit +8%",
             "CNname": "效果命中 +8%",
@@ -732,6 +748,7 @@
             ]
         },
         {
+            "id": "1103201",
             "tiny": true,
             "ENname": "CRIT Rate +2.7%",
             "CNname": "暴击率 +2.7%",
@@ -761,6 +778,7 @@
             ]
         },
         {
+            "id": "1103210",
             "tiny": true,
             "ENname": "CRIT Rate +5.3%",
             "CNname": "暴击率 +5.3%",
@@ -792,6 +810,7 @@
     ],
     "eidolon": [
         {
+            "id": "110301",
             "eidolonnum": 1,
             "ENname": "Echo Chamber",
             "CNname": "余音绕梁",
@@ -820,6 +839,7 @@
             ]
         },
         {
+            "id": "110302",
             "eidolonnum": 2,
             "ENname": "Encore!",
             "CNname": "安可！",
@@ -848,6 +868,7 @@
             ]
         },
         {
+            "id": "110303",
             "eidolonnum": 3,
             "ENname": "Listen, the Heartbeat of the Gears",
             "CNname": "听，齿轮的心跳",
@@ -866,6 +887,7 @@
             ]
         },
         {
+            "id": "110304",
             "eidolonnum": 4,
             "ENname": "Make Some Noise!",
             "CNname": "制造噪音吧！",
@@ -895,6 +917,7 @@
             ]
         },
         {
+            "id": "110305",
             "eidolonnum": 5,
             "ENname": "Belobog's Loudest Roar!",
             "CNname": "贝洛伯格最强音！",
@@ -913,6 +936,7 @@
             ]
         },
         {
+            "id": "110306",
             "eidolonnum": 6,
             "ENname": "This Song Rocks to Heaven!",
             "CNname": "这一曲，贯穿天穹！",

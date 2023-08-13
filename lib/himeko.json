@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "100301",
             "ENname": "Sawblade Tuning",
             "CNname": "武装调律",
             "JAname": "武装調律",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "100302",
             "ENname": "Molten Detonation",
             "CNname": "熔核爆裂",
             "JAname": "溶核爆裂",
@@ -221,6 +223,7 @@
             ]
         },
         {
+            "id": "100303",
             "ENname": "Heavenly Flare",
             "CNname": "天坠之火",
             "JAname": "天墜の火",
@@ -286,6 +289,7 @@
             ]
         },
         {
+            "id": "100304",
             "ENname": "Victory Rush",
             "CNname": "乘胜追击",
             "JAname": "乗勝追撃",
@@ -337,6 +341,7 @@
             ]
         },
         {
+            "id": "100307",
             "ENname": "Incomplete Combustion",
             "CNname": "不完全燃烧",
             "JAname": "不完全燃焼",
@@ -384,6 +389,7 @@
     ],
     "tracedata": [
         {
+            "id": "1003102",
             "tiny": false,
             "ENname": "Magma",
             "CNname": "灼热",
@@ -412,6 +418,7 @@
             ]
         },
         {
+            "id": "1003103",
             "tiny": false,
             "ENname": "Benchmark",
             "CNname": "道标",
@@ -441,6 +448,7 @@
             ]
         },
         {
+            "id": "1003101",
             "tiny": false,
             "ENname": "Starfire",
             "CNname": "星火",
@@ -479,6 +487,7 @@
             ]
         },
         {
+            "id": "1003205",
             "tiny": true,
             "ENname": "Fire DMG +4.8%",
             "CNname": "火属性伤害提高 +4.8%",
@@ -508,6 +517,7 @@
             ]
         },
         {
+            "id": "1003206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -537,6 +547,7 @@
             ]
         },
         {
+            "id": "1003206",
             "tiny": true,
             "ENname": "Fire DMG +4.8%",
             "CNname": "火属性伤害提高 +4.8%",
@@ -566,6 +577,7 @@
             ]
         },
         {
+            "id": "1003208",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -595,6 +607,7 @@
             ]
         },
         {
+            "id": "1003209",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -624,6 +637,7 @@
             ]
         },
         {
+            "id": "1003202",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -653,6 +667,7 @@
             ]
         },
         {
+            "id": "1003203",
             "tiny": true,
             "ENname": "Fire DMG +3.2%",
             "CNname": "火属性伤害提高 +3.2%",
@@ -682,6 +697,7 @@
             ]
         },
         {
+            "id": "1003203",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -711,6 +727,7 @@
             ]
         },
         {
+            "id": "1003201",
             "tiny": true,
             "ENname": "Fire DMG +3.2%",
             "CNname": "火属性伤害提高 +3.2%",
@@ -740,6 +757,7 @@
             ]
         },
         {
+            "id": "1003210",
             "tiny": true,
             "ENname": "Fire DMG +6.4%",
             "CNname": "火属性伤害提高 +6.4%",
@@ -771,6 +789,7 @@
     ],
     "eidolon": [
         {
+            "id": "100301",
             "eidolonnum": 1,
             "ENname": "Childhood",
             "CNname": "童年",
@@ -799,6 +818,7 @@
             ]
         },
         {
+            "id": "100302",
             "eidolonnum": 2,
             "ENname": "Convergence",
             "CNname": "邂逅",
@@ -827,6 +847,7 @@
             ]
         },
         {
+            "id": "100303",
             "eidolonnum": 3,
             "ENname": "Poised",
             "CNname": "自我",
@@ -845,6 +866,7 @@
             ]
         },
         {
+            "id": "100304",
             "eidolonnum": 4,
             "ENname": "Dedication",
             "CNname": "投入",
@@ -862,6 +884,7 @@
             ]
         },
         {
+            "id": "100305",
             "eidolonnum": 5,
             "ENname": "Aspiration",
             "CNname": "梦想",
@@ -880,6 +903,7 @@
             ]
         },
         {
+            "id": "100306",
             "eidolonnum": 6,
             "ENname": "Trailblaze!",
             "CNname": "开拓！",

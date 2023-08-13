@@ -87,6 +87,7 @@
     ],
     "skilldata": [
         {
+            "id": "101301",
             "ENname": "What Are You Looking At?",
             "CNname": "看什么看",
             "JAname": "何見てるの？",
@@ -132,6 +133,7 @@
             ]
         },
         {
+            "id": "101302",
             "ENname": "One-Time Offer",
             "CNname": "一锤子买卖",
             "JAname": "一度限りの取引",
@@ -195,6 +197,7 @@
             ]
         },
         {
+            "id": "101303",
             "ENname": "It's Magic, I Added Some Magic",
             "CNname": "是魔法，我加了魔法",
             "JAname": "私がかけた魔法だよ",
@@ -247,6 +250,7 @@
             ]
         },
         {
+            "id": "101304",
             "ENname": "Fine, I'll Do It Myself",
             "CNname": "还是我来吧",
             "JAname": "やっぱり私がやる",
@@ -298,6 +302,7 @@
             ]
         },
         {
+            "id": "101307",
             "ENname": "It Can Still Be Optimized",
             "CNname": "可以优化一下",
             "JAname": "改善すべきだよ",
@@ -329,6 +334,7 @@
     ],
     "tracedata": [
         {
+            "id": "1013101",
             "tiny": false,
             "ENname": "Efficiency",
             "CNname": "效率",
@@ -358,6 +364,7 @@
             ]
         },
         {
+            "id": "1013103",
             "tiny": false,
             "ENname": "Icing",
             "CNname": "冰结",
@@ -387,6 +394,7 @@
             ]
         },
         {
+            "id": "1013102",
             "tiny": false,
             "ENname": "Puppet",
             "CNname": "人偶",
@@ -416,6 +424,7 @@
             ]
         },
         {
+            "id": "1013202",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -445,6 +454,7 @@
             ]
         },
         {
+            "id": "1013203",
             "tiny": true,
             "ENname": "Ice DMG +3.2%",
             "CNname": "冰属性伤害提高 +3.2%",
@@ -474,6 +484,7 @@
             ]
         },
         {
+            "id": "1013203",
             "tiny": true,
             "ENname": "CRIT Rate +2.7%",
             "CNname": "暴击率 +2.7%",
@@ -503,6 +514,7 @@
             ]
         },
         {
+            "id": "1013206",
             "tiny": true,
             "ENname": "CRIT Rate +4%",
             "CNname": "暴击率 +4%",
@@ -532,14 +544,15 @@
             ]
         },
         {
+            "id": "1013209",
             "tiny": true,
             "ENname": "DEF +10%",
             "CNname": "防御力 +10%",
             "JAname": "防御力 +10%",
             "ttype": "def",
-            "DescriptionEN": "75",
-            "DescriptionCN": "75",
-            "DescriptionJP": "75",
+            "DescriptionEN": "LV75",
+            "DescriptionCN": "LV75",
+            "DescriptionJP": "LV75",
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
@@ -561,6 +574,7 @@
             ]
         },
         {
+            "id": "1013205",
             "tiny": true,
             "ENname": "Ice DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -590,6 +604,7 @@
             ]
         },
         {
+            "id": "1013206",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -619,6 +634,7 @@
             ]
         },
         {
+            "id": "1013206",
             "tiny": true,
             "ENname": "Ice DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -648,6 +664,7 @@
             ]
         },
         {
+            "id": "1013201",
             "tiny": true,
             "ENname": "Ice DMG +3.2%",
             "CNname": "冰属性伤害提高 +3.2%",
@@ -677,6 +694,7 @@
             ]
         },
         {
+            "id": "1013210",
             "tiny": true,
             "ENname": "Ice DMG +6.4%",
             "CNname": "冰属性伤害提高 +6.4%",
@@ -708,6 +726,7 @@
     ],
     "eidolon": [
         {
+            "id": "101301",
             "eidolonnum": 1,
             "ENname": "Kick You When You're Down",
             "CNname": "落井当下石",
@@ -738,6 +757,7 @@
             ]
         },
         {
+            "id": "101302",
             "eidolonnum": 2,
             "ENname": "Keep the Ball Rolling",
             "CNname": "得胜必追击",
@@ -766,6 +786,7 @@
             ]
         },
         {
+            "id": "101303",
             "eidolonnum": 3,
             "ENname": "That's the Kind of Girl I Am",
             "CNname": "我就是这样女子",
@@ -784,6 +805,7 @@
             ]
         },
         {
+            "id": "101304",
             "eidolonnum": 4,
             "ENname": "Hit Where It Hurts",
             "CNname": "打人要打脸",
@@ -813,6 +835,7 @@
             ]
         },
         {
+            "id": "101305",
             "eidolonnum": 5,
             "ENname": "Stride, Spoils Seized",
             "CNname": "骂人不留口",
@@ -831,6 +854,7 @@
             ]
         },
         {
+            "id": "101306",
             "eidolonnum": 6,
             "ENname": "No One Can Betray Me",
             "CNname": "世上没人能负我",

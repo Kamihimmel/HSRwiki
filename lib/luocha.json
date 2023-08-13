@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "120301",
             "ENname": "Thorns of the Abyss",
             "CNname": "黑渊的棘刺",
             "JAname": "黒淵の棘",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "120302",
             "ENname": "Prayer of Abyss Flower",
             "CNname": "白花的祈望",
             "JAname": "白花の祈望",
@@ -220,6 +222,7 @@
             ]
         },
         {
+            "id": "120303",
             "ENname": "Death Wish",
             "CNname": "归葬的遂愿",
             "JAname": "帰葬の成就",
@@ -276,6 +279,7 @@
             ]
         },
         {
+            "id": "120304",
             "ENname": "Cycle of Life",
             "CNname": "生息的轮转",
             "JAname": "生命の輪廻",
@@ -352,6 +356,7 @@
             ]
         },
         {
+            "id": "120307",
             "ENname": "Mercy of a Fool",
             "CNname": "愚者的悲悯",
             "JAname": "愚者の悲哀",
@@ -374,6 +379,7 @@
     ],
     "tracedata": [
         {
+            "id": "1203102",
             "tiny": false,
             "ENname": "Sanctified",
             "CNname": "浇灌尘身",
@@ -412,6 +418,7 @@
             ]
         },
         {
+            "id": "1203103",
             "tiny": false,
             "ENname": "Through the Valley",
             "CNname": "行过幽谷",
@@ -441,6 +448,7 @@
             ]
         },
         {
+            "id": "1203101",
             "tiny": false,
             "ENname": "Cleansing Revival",
             "CNname": "浸池苏生",
@@ -459,6 +467,7 @@
             ]
         },
         {
+            "id": "1203202",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -488,6 +497,7 @@
             ]
         },
         {
+            "id": "1203203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -517,6 +527,7 @@
             ]
         },
         {
+            "id": "1203203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -546,6 +557,7 @@
             ]
         },
         {
+            "id": "1203205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -575,6 +587,7 @@
             ]
         },
         {
+            "id": "1203206",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -604,6 +617,7 @@
             ]
         },
         {
+            "id": "1203206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -633,6 +647,7 @@
             ]
         },
         {
+            "id": "1203208",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -662,6 +677,7 @@
             ]
         },
         {
+            "id": "1203209",
             "tiny": true,
             "ENname": "HP +8%",
             "CNname": "生命值 +8%",
@@ -691,6 +707,7 @@
             ]
         },
         {
+            "id": "1203210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -720,6 +737,7 @@
             ]
         },
         {
+            "id": "1203201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -751,6 +769,7 @@
     ],
     "eidolon": [
         {
+            "id": "120301",
             "eidolonnum": 1,
             "ENname": "Ablution of the Quick",
             "CNname": "濯洗生者",
@@ -780,6 +799,7 @@
             ]
         },
         {
+            "id": "120302",
             "eidolonnum": 2,
             "ENname": "Bestowal From the Pure",
             "CNname": "净庭赐礼",
@@ -815,6 +835,7 @@
             ]
         },
         {
+            "id": "120303",
             "eidolonnum": 3,
             "ENname": "Surveyal by the Fool",
             "CNname": "愚人试探",
@@ -833,6 +854,7 @@
             ]
         },
         {
+            "id": "120304",
             "eidolonnum": 4,
             "ENname": "Judgment via the King",
             "CNname": "荆冠审判",
@@ -860,6 +882,7 @@
             ]
         },
         {
+            "id": "120305",
             "eidolonnum": 5,
             "ENname": "Cicatrix 'Neath the Pain",
             "CNname": "受难之痕",
@@ -878,6 +901,7 @@
             ]
         },
         {
+            "id": "120306",
             "eidolonnum": 6,
             "ENname": "Reunion With the Dust",
             "CNname": "皆归尘土",

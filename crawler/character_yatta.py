@@ -108,7 +108,7 @@ def append_skill_image(character_id, cur_skill, skill_dict, index):
 def append_skill_desc(cur_skill, skill_dict, index):
     for lang in languages:
         desc = cur_skill['Description' + lang] = util.clean_desc_yatta(skill_dict[lang][index]['description'])
-        if skill_dict[lang][index]['maxLevel'] <= 1:
+        if skill_dict[lang][index]['maxLevel'] <= 1 and skill_dict[lang][index]['params']:
             for k, v in skill_dict[lang][index]['params'].items():
                 desc = desc.replace('[%s]' % k, str(util.format_percent_number(v[0]) if '[%s]%%' % k in desc else v[0]))
         cur_skill['Description' + lang] = desc
@@ -404,10 +404,10 @@ def generate_json(character_id):
         exist_list = base_dir + '/lib/characterlist.json'
     with open(exist_list, 'r', encoding='utf-8') as f:
         character_info = json.load(f)
-        character = list(filter(lambda i: i['id'] == character_id, character_info['data']))[0]['ENname']
-    print('generate lib json from yatta for: %s %s' % (character_id, character))
+        character = list(filter(lambda i: i['id'] == character_id, character_info['data']))[0]
+    print('generate lib json from yatta for: %s %s' % (character_id, character['ENname']))
     exist_dict = {}
-    exist_path = base_dir + '/lib/%s.json' % character_id
+    exist_path = base_dir + '/' + character['infourl']
     if os.path.exists(exist_path):
         with open(exist_path, 'r', encoding='utf-8') as f:
             exist_dict = json.load(f)

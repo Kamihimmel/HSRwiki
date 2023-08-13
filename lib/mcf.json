@@ -89,6 +89,7 @@
     ],
     "skilldata": [
         {
+            "id": "800401",
             "ENname": "Ice-Breaking Light",
             "CNname": "穿彻坚冰的烈芒",
             "JAname": "堅氷を貫く烈火",
@@ -134,6 +135,7 @@
             ]
         },
         {
+            "id": "800401",
             "ENname": "Ice-Breaking Light",
             "CNname": "穿彻坚冰的烈芒",
             "JAname": "堅氷を貫く烈火",
@@ -200,6 +202,7 @@
             ]
         },
         {
+            "id": "800402",
             "ENname": "Ever-Burning Amber",
             "CNname": "炽燃不灭的琥珀",
             "JAname": "不滅のアンバー",
@@ -262,6 +265,7 @@
             ]
         },
         {
+            "id": "800403",
             "ENname": "War-Flaming Lance",
             "CNname": "陷阵无回的炎枪",
             "JAname": "陥陣無帰の炎槍",
@@ -341,6 +345,7 @@
             ]
         },
         {
+            "id": "800404",
             "ENname": "Treasure of the Architects",
             "CNname": "筑城者遗宝",
             "JAname": "やっぱり私がやる",
@@ -413,6 +418,7 @@
             ]
         },
         {
+            "id": "800407",
             "ENname": "Call of the Guardian",
             "CNname": "守护者召令",
             "JAname": "守護者命令",
@@ -450,6 +456,7 @@
     ],
     "tracedata": [
         {
+            "id": "8004103",
             "tiny": false,
             "ENname": "Action Beats Overthinking",
             "CNname": "行胜思",
@@ -489,6 +496,7 @@
             ]
         },
         {
+            "id": "8004101",
             "tiny": false,
             "ENname": "The Strong Defend the Weak",
             "CNname": "强援弱",
@@ -518,6 +526,7 @@
             ]
         },
         {
+            "id": "8004102",
             "tiny": false,
             "ENname": "Unwavering Gallantry",
             "CNname": "生先死",
@@ -547,6 +556,7 @@
             ]
         },
         {
+            "id": "8004208",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -576,6 +586,7 @@
             ]
         },
         {
+            "id": "8004209",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -605,6 +616,7 @@
             ]
         },
         {
+            "id": "8004210",
             "tiny": true,
             "ENname": "DEF +10%",
             "CNname": "防御力 +10%",
@@ -634,6 +646,7 @@
             ]
         },
         {
+            "id": "8004201",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -663,6 +676,7 @@
             ]
         },
         {
+            "id": "8004202",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -692,6 +706,7 @@
             ]
         },
         {
+            "id": "8004203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -721,6 +736,7 @@
             ]
         },
         {
+            "id": "8004205",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -750,6 +766,7 @@
             ]
         },
         {
+            "id": "8004206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -779,6 +796,7 @@
             ]
         },
         {
+            "id": "8004203",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -808,6 +826,7 @@
             ]
         },
         {
+            "id": "8004206",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -839,6 +858,7 @@
     ],
     "eidolon": [
         {
+            "id": "800401",
             "eidolonnum": 1,
             "ENname": "Earth-Shaking Resonance",
             "CNname": "大地芯髓的鸣动",
@@ -858,6 +878,7 @@
             "effect": []
         },
         {
+            "id": "800402",
             "eidolonnum": 2,
             "ENname": "Time-Defying Tenacity",
             "CNname": "古老寒铁的坚守",
@@ -892,6 +913,7 @@
             ]
         },
         {
+            "id": "800403",
             "eidolonnum": 3,
             "ENname": "Trail-Blazing Blueprint",
             "CNname": "砌造未来的蓝图",
@@ -910,6 +932,7 @@
             ]
         },
         {
+            "id": "800404",
             "eidolonnum": 4,
             "ENname": "Nation-Building Oath",
             "CNname": "驻留文明的誓言",
@@ -929,6 +952,7 @@
             "effect": []
         },
         {
+            "id": "800405",
             "eidolonnum": 5,
             "ENname": "Spirit-Warming Flame",
             "CNname": "点燃光焰的勇气",
@@ -947,6 +971,7 @@
             ]
         },
         {
+            "id": "800406",
             "eidolonnum": 6,
             "ENname": "City-Forging Bulwarks",
             "CNname": "永屹城垣的壁垒",

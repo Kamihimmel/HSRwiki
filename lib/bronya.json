@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "110101",
             "ENname": "Windrider Bullet",
             "CNname": "驭风的子弹",
             "JAname": "疾風の弾丸",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "110102",
             "ENname": "Combat Redeployment",
             "CNname": "作战再部署",
             "JAname": "作戦再展開",
@@ -196,6 +198,7 @@
             ]
         },
         {
+            "id": "110103",
             "ENname": "The Belobog March",
             "CNname": "贝洛伯格进行曲",
             "JAname": "ベロブルグ行進曲",
@@ -304,6 +307,7 @@
             ]
         },
         {
+            "id": "110104",
             "ENname": "Leading the Way",
             "CNname": "先人一步",
             "JAname": "先人一歩",
@@ -352,6 +356,7 @@
             ]
         },
         {
+            "id": "110107",
             "ENname": "Banner of Command",
             "CNname": "在旗帜下",
             "JAname": "旗の下で",
@@ -383,12 +388,13 @@
     ],
     "tracedata": [
         {
+            "id": "1101101",
             "tiny": false,
             "ENname": "Command",
             "CNname": "号令",
             "JAname": "号令",
             "imageurl": "images/skills/bronyat1.webp",
-            "DescriptionEN": "The CRIT Rate for Basic ATK increases to 100%",
+            "DescriptionEN": "The CRIT Rate for Basic ATK increases to 100%.",
             "DescriptionCN": "普攻的暴击率提高至100%。",
             "DescriptionJP": "通常攻撃の会心率が100%まで上がる。",
             "stype": "trace",
@@ -412,6 +418,7 @@
             ]
         },
         {
+            "id": "1101102",
             "tiny": false,
             "ENname": "Battlefield",
             "CNname": "阵地",
@@ -442,6 +449,7 @@
             ]
         },
         {
+            "id": "1101103",
             "tiny": false,
             "ENname": "Military Might",
             "CNname": "军势",
@@ -471,6 +479,7 @@
             ]
         },
         {
+            "id": "1101202",
             "tiny": true,
             "ENname": "CRIT DMG +5.3%",
             "CNname": "暴击伤害 +5.3%",
@@ -500,6 +509,7 @@
             ]
         },
         {
+            "id": "1101203",
             "tiny": true,
             "ENname": "Wind DMG +3.2%",
             "CNname": "风属性伤害提高 +3.2%",
@@ -529,6 +539,7 @@
             ]
         },
         {
+            "id": "1101205",
             "tiny": true,
             "ENname": "Wind DMG +4.8%",
             "CNname": "风属性伤害提高 +4.8%",
@@ -558,6 +569,7 @@
             ]
         },
         {
+            "id": "1101206",
             "tiny": true,
             "ENname": "CRIT DMG +8%",
             "CNname": "暴击伤害 +8%",
@@ -587,6 +599,7 @@
             ]
         },
         {
+            "id": "1101208",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -616,6 +629,7 @@
             ]
         },
         {
+            "id": "1101209",
             "tiny": true,
             "ENname": "CRIT DMG +10.7%",
             "CNname": "暴击伤害 +10.7%",
@@ -645,6 +659,7 @@
             ]
         },
         {
+            "id": "1101210",
             "tiny": true,
             "ENname": "Wind DMG +6.4%",
             "CNname": "风属性伤害提高 +6.4%",
@@ -674,6 +689,7 @@
             ]
         },
         {
+            "id": "1101201",
             "tiny": true,
             "ENname": "Wind DMG +3.2%",
             "CNname": "风属性伤害提高 +3.2%",
@@ -703,6 +719,7 @@
             ]
         },
         {
+            "id": "1101203",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -732,6 +749,7 @@
             ]
         },
         {
+            "id": "1101206",
             "tiny": true,
             "ENname": "Wind DMG +4.8%",
             "CNname": "风属性伤害提高 +4.8%",
@@ -763,6 +781,7 @@
     ],
     "eidolon": [
         {
+            "id": "110101",
             "eidolonnum": 1,
             "ENname": "Hone Your Strength",
             "CNname": "养精蓄锐",
@@ -781,6 +800,7 @@
             ]
         },
         {
+            "id": "110102",
             "eidolonnum": 2,
             "ENname": "Quick March",
             "CNname": "快速行军",
@@ -810,6 +830,7 @@
             ]
         },
         {
+            "id": "110103",
             "eidolonnum": 3,
             "ENname": "Bombardment",
             "CNname": "鼓炮齐鸣",
@@ -828,6 +849,7 @@
             ]
         },
         {
+            "id": "110104",
             "eidolonnum": 4,
             "ENname": "Take by Surprise",
             "CNname": "攻其不备",
@@ -870,6 +892,7 @@
             ]
         },
         {
+            "id": "110105",
             "eidolonnum": 5,
             "ENname": "Unstoppable",
             "CNname": "所向克捷",
@@ -888,6 +911,7 @@
             ]
         },
         {
+            "id": "110106",
             "eidolonnum": 6,
             "ENname": "Piercing Rainbow",
             "CNname": "气贯长虹",

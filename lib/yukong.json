@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "120701",
             "ENname": "Arrowslinger",
             "CNname": "流镝",
             "JAname": "流鏑",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "120702",
             "ENname": "Emboldening Salvo",
             "CNname": "天阙鸣弦",
             "JAname": "天宮に鳴り響む弦",
@@ -194,6 +196,7 @@
             ]
         },
         {
+            "id": "120703",
             "ENname": "Diving Kestrel",
             "CNname": "贯云饮羽",
             "JAname": "貫雲箭",
@@ -301,6 +304,7 @@
             ]
         },
         {
+            "id": "120704",
             "ENname": "Seven Layers, One Arrow",
             "CNname": "箭彻七札",
             "JAname": "徹札矢",
@@ -364,6 +368,7 @@
             ]
         },
         {
+            "id": "120707",
             "ENname": "Chasing the Wind",
             "CNname": "云鸢逐风",
             "JAname": "風追う雲鳶",
@@ -386,6 +391,7 @@
     ],
     "tracedata": [
         {
+            "id": "1207102",
             "tiny": false,
             "ENname": "Bowmaster",
             "CNname": "迟彝",
@@ -415,12 +421,13 @@
             ]
         },
         {
+            "id": "1207103",
             "tiny": false,
             "ENname": "Majestas",
             "CNname": "气壮",
             "JAname": "気壮",
             "imageurl": "images/skills/yukongt2.webp",
-            "DescriptionEN": "When Roaring Bowstrings is active, Yukong regenerates 2 additional Energy every time an ally takes action.",
+            "DescriptionEN": "When \"Roaring Bowstrings\" is active, Yukong regenerates 2 additional Energy every time an ally takes action.",
             "DescriptionCN": "持有【鸣弦号令】时，每当我方目标行动后，驭空将额外恢复2点能量。",
             "DescriptionJP": "「鳴弦号令」がある時、味方が行動した後、御空はEPを2回復する。",
             "stype": "trace",
@@ -443,6 +450,7 @@
             ]
         },
         {
+            "id": "1207101",
             "tiny": false,
             "ENname": "Archerion",
             "CNname": "襄尺",
@@ -460,6 +468,7 @@
             ]
         },
         {
+            "id": "1207205",
             "tiny": true,
             "ENname": "Imaginary DMG +4.8%",
             "CNname": "虚数属性伤害提高 +4.8%",
@@ -489,6 +498,7 @@
             ]
         },
         {
+            "id": "1207206",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -518,6 +528,7 @@
             ]
         },
         {
+            "id": "1207208",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -547,6 +558,7 @@
             ]
         },
         {
+            "id": "1207209",
             "tiny": true,
             "ENname": "HP +8%",
             "CNname": "生命值 +8%",
@@ -576,6 +588,7 @@
             ]
         },
         {
+            "id": "1207210",
             "tiny": true,
             "ENname": "Imaginary DMG +6.4%",
             "CNname": "虚数属性伤害提高 +6.4%",
@@ -605,6 +618,7 @@
             ]
         },
         {
+            "id": "1207202",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -634,6 +648,7 @@
             ]
         },
         {
+            "id": "1207203",
             "tiny": true,
             "ENname": "Imaginary DMG +3.2%",
             "CNname": "虚数属性伤害提高 +3.2%",
@@ -663,6 +678,7 @@
             ]
         },
         {
+            "id": "1207201",
             "tiny": true,
             "ENname": "Imaginary DMG +3.2%",
             "CNname": "虚数属性伤害提高 +3.2%",
@@ -692,6 +708,7 @@
             ]
         },
         {
+            "id": "1207203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -721,6 +738,7 @@
             ]
         },
         {
+            "id": "1207206",
             "tiny": true,
             "ENname": "Imaginary DMG +4.8%",
             "CNname": "虚数属性伤害提高 +4.8%",
@@ -752,6 +770,7 @@
     ],
     "eidolon": [
         {
+            "id": "120701",
             "eidolonnum": 1,
             "ENname": "Aerial Marshal",
             "CNname": "天舶飞将，枕弧待战",
@@ -781,6 +800,7 @@
             ]
         },
         {
+            "id": "120702",
             "eidolonnum": 2,
             "ENname": "Skyward Command",
             "CNname": "青霄驰骋，驱驭苍穹",
@@ -809,6 +829,7 @@
             ]
         },
         {
+            "id": "120703",
             "eidolonnum": 3,
             "ENname": "Torrential Fusillade",
             "CNname": "危弓未辍，执射不宁",
@@ -827,6 +848,7 @@
             ]
         },
         {
+            "id": "120704",
             "eidolonnum": 4,
             "ENname": "Zephyrean Echoes",
             "CNname": "百里闻风，九曲响镝",
@@ -856,6 +878,7 @@
             ]
         },
         {
+            "id": "120705",
             "eidolonnum": 5,
             "ENname": "August Deadshot",
             "CNname": "井仪贯侯，疾羽参连",
@@ -874,6 +897,7 @@
             ]
         },
         {
+            "id": "120706",
             "eidolonnum": 6,
             "ENname": "Bowstring Thunderclap",
             "CNname": "弦栝如雷，铣珧激荡",

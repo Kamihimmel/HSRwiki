@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "110401",
             "ENname": "Fist of Conviction",
             "CNname": "一意之拳",
             "JAname": "一意の拳",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "110402",
             "ENname": "Daunting Smite",
             "CNname": "震慑之击",
             "JAname": "震撼の一撃",
@@ -234,6 +236,7 @@
             ]
         },
         {
+            "id": "110403",
             "ENname": "Enduring Bulwark",
             "CNname": "永屹之壁",
             "JAname": "永屹の壁",
@@ -310,6 +313,7 @@
             ]
         },
         {
+            "id": "110404",
             "ENname": "Unyielding Will",
             "CNname": "不屈之身",
             "JAname": "不屈の体躯",
@@ -361,6 +365,7 @@
             ]
         },
         {
+            "id": "110407",
             "ENname": "Comradery",
             "CNname": "有情之证",
             "JAname": "仁心の証",
@@ -400,6 +405,7 @@
     ],
     "tracedata": [
         {
+            "id": "1104103",
             "tiny": false,
             "ENname": "Fighting Spirit",
             "CNname": "战意",
@@ -417,6 +423,7 @@
             ]
         },
         {
+            "id": "1104101",
             "tiny": false,
             "ENname": "Integrity",
             "CNname": "刚正",
@@ -435,12 +442,13 @@
             ]
         },
         {
+            "id": "1104102",
             "tiny": false,
             "ENname": "Commander",
             "CNname": "统领",
             "JAname": "統率",
             "imageurl": "images/skills/gepardt3.webp",
-            "DescriptionEN": "When Unyielding Will is triggered, Gepard's Energy will be restored to 100%.",
+            "DescriptionEN": "When \"Unyielding Will\" is triggered, Gepard's Energy will be restored to 100%.",
             "DescriptionCN": "【不屈之身】触发后，杰帕德的能量立即恢复至100%。",
             "DescriptionJP": "「不屈の体躯」を発動した後、ジェパードのEPを100％まで回復する。",
             "stype": "trace",
@@ -452,6 +460,7 @@
             ]
         },
         {
+            "id": "1104208",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -481,6 +490,7 @@
             ]
         },
         {
+            "id": "1104209",
             "tiny": true,
             "ENname": "Effect RES +8%",
             "CNname": "效果抵抗 +8%",
@@ -510,6 +520,7 @@
             ]
         },
         {
+            "id": "1104210",
             "tiny": true,
             "ENname": "Ice DMG +6.4%",
             "CNname": "冰属性伤害提高 +6.4%",
@@ -539,6 +550,7 @@
             ]
         },
         {
+            "id": "1104201",
             "tiny": true,
             "ENname": "Ice DMG +3.2%",
             "CNname": "冰属性伤害提高 +3.2%",
@@ -568,6 +580,7 @@
             ]
         },
         {
+            "id": "1104202",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -597,6 +610,7 @@
             ]
         },
         {
+            "id": "1104203",
             "tiny": true,
             "ENname": "Ice DMG +3.2%",
             "CNname": "冰属性伤害提高 +3.2%",
@@ -626,6 +640,7 @@
             ]
         },
         {
+            "id": "1104205",
             "tiny": true,
             "ENname": "Ice DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -655,6 +670,7 @@
             ]
         },
         {
+            "id": "1104206",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -684,6 +700,7 @@
             ]
         },
         {
+            "id": "1104203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -713,6 +730,7 @@
             ]
         },
         {
+            "id": "1104206",
             "tiny": true,
             "ENname": "Ice DMG +4.8%",
             "CNname": "冰属性伤害提高 +4.8%",
@@ -744,6 +762,7 @@
     ],
     "eidolon": [
         {
+            "id": "110401",
             "eidolonnum": 1,
             "ENname": "Due Diligence",
             "CNname": "恪尽职守",
@@ -772,6 +791,7 @@
             ]
         },
         {
+            "id": "110402",
             "eidolonnum": 2,
             "ENname": "Lingering Cold",
             "CNname": "余寒",
@@ -799,6 +819,7 @@
             ]
         },
         {
+            "id": "110403",
             "eidolonnum": 3,
             "ENname": "Never Surrender",
             "CNname": "永不陷落",
@@ -817,6 +838,7 @@
             ]
         },
         {
+            "id": "110404",
             "eidolonnum": 4,
             "ENname": "Faith Moves Mountains",
             "CNname": "精诚所至",
@@ -846,6 +868,7 @@
             ]
         },
         {
+            "id": "110405",
             "eidolonnum": 5,
             "ENname": "Cold Iron Fist",
             "CNname": "拳似寒铁",
@@ -864,6 +887,7 @@
             ]
         },
         {
+            "id": "110406",
             "eidolonnum": 6,
             "ENname": "Unyielding Resolve",
             "CNname": "不屈的决意",

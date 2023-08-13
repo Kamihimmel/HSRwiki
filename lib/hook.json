@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "110901",
             "ENname": "Hehe! Don't Get Burned!",
             "CNname": "喂！小心火烛",
             "JAname": "おい！火の元に気をつけな",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "110902",
             "ENname": "Hey! Remember Hook?",
             "CNname": "嘿！记得虎克吗",
             "JAname": "おい！フックを覚えてるか？",
@@ -233,6 +235,7 @@
             ]
         },
         {
+            "id": "110902",
             "ENname": "Hey! Remember Hook?",
             "CNname": "嘿！记得虎克吗",
             "JAname": "おい！フックを覚えてるか？",
@@ -349,6 +352,7 @@
             ]
         },
         {
+            "id": "110903",
             "ENname": "Boom! Here Comes the Fire!",
             "CNname": "轰！飞来焰火",
             "JAname": "ドカン！飛んでけ花火！",
@@ -401,6 +405,7 @@
             ]
         },
         {
+            "id": "110904",
             "ENname": "Ha! Oil to the Flames!",
             "CNname": "哈！火上浇油",
             "JAname": "はっ！火に油を注ぐ",
@@ -463,6 +468,7 @@
             ]
         },
         {
+            "id": "110907",
             "ENname": "Ack! Look at This Mess!",
             "CNname": "哎！瞧这一团糟",
             "JAname": "ほら！滅茶苦茶になってる",
@@ -524,6 +530,7 @@
     ],
     "tracedata": [
         {
+            "id": "1109101",
             "tiny": false,
             "ENname": "Innocence",
             "CNname": "童真",
@@ -552,6 +559,7 @@
             ]
         },
         {
+            "id": "1109102",
             "tiny": false,
             "ENname": "Naivete",
             "CNname": "无邪",
@@ -582,6 +590,7 @@
             ]
         },
         {
+            "id": "1109103",
             "tiny": false,
             "ENname": "Playing With Fire",
             "CNname": "玩火",
@@ -619,6 +628,7 @@
             ]
         },
         {
+            "id": "1109202",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -648,6 +658,7 @@
             ]
         },
         {
+            "id": "1109203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -677,6 +688,7 @@
             ]
         },
         {
+            "id": "1109203",
             "tiny": true,
             "ENname": "CRIT DMG +5.3%",
             "CNname": "暴击伤害 +5.3%",
@@ -706,6 +718,7 @@
             ]
         },
         {
+            "id": "1109205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -735,6 +748,7 @@
             ]
         },
         {
+            "id": "1109206",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -764,6 +778,7 @@
             ]
         },
         {
+            "id": "1109206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -793,6 +808,7 @@
             ]
         },
         {
+            "id": "1109208",
             "tiny": true,
             "ENname": "CRIT DMG +8%",
             "CNname": "暴击伤害 +8%",
@@ -822,6 +838,7 @@
             ]
         },
         {
+            "id": "1109209",
             "tiny": true,
             "ENname": "HP +8%",
             "CNname": "生命值 +8%",
@@ -851,6 +868,7 @@
             ]
         },
         {
+            "id": "1109210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -880,6 +898,7 @@
             ]
         },
         {
+            "id": "1109201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -911,6 +930,7 @@
     ],
     "eidolon": [
         {
+            "id": "110901",
             "eidolonnum": 1,
             "ENname": "Early to Bed, Early to Rise",
             "CNname": "早睡早起很健康",
@@ -939,6 +959,7 @@
             ]
         },
         {
+            "id": "110902",
             "eidolonnum": 2,
             "ENname": "Happy Tummy, Happy Body",
             "CNname": "吃好喝好长身体",
@@ -956,6 +977,7 @@
             ]
         },
         {
+            "id": "110903",
             "eidolonnum": 3,
             "ENname": "Don't Be Picky, Nothing's Icky",
             "CNname": "不挑不选全都要",
@@ -974,6 +996,7 @@
             ]
         },
         {
+            "id": "110904",
             "eidolonnum": 4,
             "ENname": "It's Okay to Not Know",
             "CNname": "稀里糊涂没关系",
@@ -1003,6 +1026,7 @@
             ]
         },
         {
+            "id": "110905",
             "eidolonnum": 5,
             "ENname": "Let the Moles' Deeds Be Known",
             "CNname": "好事留名鼹鼠党",
@@ -1021,6 +1045,7 @@
             ]
         },
         {
+            "id": "110906",
             "eidolonnum": 6,
             "ENname": "Always Ready to Punch and Kick",
             "CNname": "随时准备打坏人",

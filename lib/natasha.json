@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "110501",
             "ENname": "Behind the Kindness",
             "CNname": "仁慈的背面",
             "JAname": "慈心の裏側",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "110502",
             "ENname": "Love, Heal, and Choose",
             "CNname": "爱，救护与抉择",
             "JAname": "愛、救済と選択",
@@ -272,6 +274,7 @@
             ]
         },
         {
+            "id": "110503",
             "ENname": "Gift of Rebirth",
             "CNname": "新生之礼",
             "JAname": "新生の礼",
@@ -347,6 +350,7 @@
             ]
         },
         {
+            "id": "110504",
             "ENname": "Innervation",
             "CNname": "生机焕发",
             "JAname": "生命の輝き",
@@ -395,6 +399,7 @@
             ]
         },
         {
+            "id": "110507",
             "ENname": "Hypnosis Research",
             "CNname": "催眠研习",
             "JAname": "催眠研究",
@@ -435,6 +440,7 @@
     ],
     "tracedata": [
         {
+            "id": "1105101",
             "tiny": false,
             "ENname": "Soothe",
             "CNname": "舒缓",
@@ -453,6 +459,7 @@
             ]
         },
         {
+            "id": "1105102",
             "tiny": false,
             "ENname": "Healer",
             "CNname": "医者",
@@ -481,6 +488,7 @@
             ]
         },
         {
+            "id": "1105103",
             "tiny": false,
             "ENname": "Recuperation",
             "CNname": "调理",
@@ -495,6 +503,7 @@
             "tags": []
         },
         {
+            "id": "1105202",
             "tiny": true,
             "ENname": "Effect RES +4%",
             "CNname": "效果抵抗 +4%",
@@ -524,6 +533,7 @@
             ]
         },
         {
+            "id": "1105203",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -553,6 +563,7 @@
             ]
         },
         {
+            "id": "1105203",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -582,6 +593,7 @@
             ]
         },
         {
+            "id": "1105205",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -611,6 +623,7 @@
             ]
         },
         {
+            "id": "1105206",
             "tiny": true,
             "ENname": "Effect RES +6%",
             "CNname": "效果抵抗 +6%",
@@ -640,6 +653,7 @@
             ]
         },
         {
+            "id": "1105206",
             "tiny": true,
             "ENname": "HP +6%",
             "CNname": "生命值 +6%",
@@ -669,6 +683,7 @@
             ]
         },
         {
+            "id": "1105208",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -698,6 +713,7 @@
             ]
         },
         {
+            "id": "1105209",
             "tiny": true,
             "ENname": "Effect RES +8%",
             "CNname": "效果抵抗 +8%",
@@ -727,6 +743,7 @@
             ]
         },
         {
+            "id": "1105201",
             "tiny": true,
             "ENname": "HP +4%",
             "CNname": "生命值 +4%",
@@ -756,6 +773,7 @@
             ]
         },
         {
+            "id": "1105210",
             "tiny": true,
             "ENname": "HP +8%",
             "CNname": "生命值 +8%",
@@ -787,6 +805,7 @@
     ],
     "eidolon": [
         {
+            "id": "110501",
             "eidolonnum": 1,
             "ENname": "Pharmacology Expertise",
             "CNname": "遍识药理",
@@ -822,6 +841,7 @@
             ]
         },
         {
+            "id": "110502",
             "eidolonnum": 2,
             "ENname": "Clinical Research",
             "CNname": "临床研学",
@@ -857,6 +877,7 @@
             ]
         },
         {
+            "id": "110503",
             "eidolonnum": 3,
             "ENname": "The Right Cure",
             "CNname": "对症下药",
@@ -875,6 +896,7 @@
             ]
         },
         {
+            "id": "110504",
             "eidolonnum": 4,
             "ENname": "Miracle Cure",
             "CNname": "妙手回春",
@@ -904,6 +926,7 @@
             ]
         },
         {
+            "id": "110505",
             "eidolonnum": 5,
             "ENname": "Preventive Treatment",
             "CNname": "医治未病",
@@ -922,6 +945,7 @@
             ]
         },
         {
+            "id": "110506",
             "eidolonnum": 6,
             "ENname": "Doctor's Grace",
             "CNname": "医者仁心",

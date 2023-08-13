@@ -99,6 +99,7 @@
     ],
     "skilldata": [
         {
+            "id": "120201",
             "ENname": "Dislodged",
             "CNname": "逐客令",
             "JAname": "逐客令",
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "id": "120202",
             "ENname": "Soothing Melody",
             "CNname": "祥音和韵",
             "JAname": "祥音和韻",
@@ -240,6 +242,7 @@
             ]
         },
         {
+            "id": "120203",
             "ENname": "Amidst the Rejoicing Clouds",
             "CNname": "庆云光覆仪祷",
             "JAname": "慶雲光覆儀祷",
@@ -304,6 +307,7 @@
             ]
         },
         {
+            "id": "120204",
             "ENname": "Violet Sparknado",
             "CNname": "紫电扶摇",
             "JAname": "揺れる紫電",
@@ -355,6 +359,7 @@
             ]
         },
         {
+            "id": "120207",
             "ENname": "Gentle Breeze",
             "CNname": "惠风和畅",
             "JAname": "恵風和暢",
@@ -386,6 +391,7 @@
     ],
     "tracedata": [
         {
+            "id": "1202101",
             "tiny": false,
             "ENname": "Nourished Joviality",
             "CNname": "驻晴",
@@ -415,6 +421,7 @@
             ]
         },
         {
+            "id": "1202103",
             "tiny": false,
             "ENname": "Jubilant Passage",
             "CNname": "亨通",
@@ -446,6 +453,7 @@
             ]
         },
         {
+            "id": "1202102",
             "tiny": false,
             "ENname": "Knell Subdual",
             "CNname": "止厄",
@@ -475,6 +483,7 @@
             ]
         },
         {
+            "id": "1202202",
             "tiny": true,
             "ENname": "DEF +5%",
             "CNname": "防御力 +5%",
@@ -504,6 +513,7 @@
             ]
         },
         {
+            "id": "1202203",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -533,6 +543,7 @@
             ]
         },
         {
+            "id": "1202208",
             "tiny": true,
             "ENname": "Lightning DMG +4.8%",
             "CNname": "雷属性伤害提高 +4.8%",
@@ -562,6 +573,7 @@
             ]
         },
         {
+            "id": "1202209",
             "tiny": true,
             "ENname": "DEF +10%",
             "CNname": "防御力 +10%",
@@ -591,6 +603,7 @@
             ]
         },
         {
+            "id": "1202210",
             "tiny": true,
             "ENname": "ATK +8%",
             "CNname": "攻击力 +8%",
@@ -620,6 +633,7 @@
             ]
         },
         {
+            "id": "1202205",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -649,6 +663,7 @@
             ]
         },
         {
+            "id": "1202206",
             "tiny": true,
             "ENname": "DEF +7.5%",
             "CNname": "防御力 +7.5%",
@@ -678,6 +693,7 @@
             ]
         },
         {
+            "id": "1202201",
             "tiny": true,
             "ENname": "ATK +4%",
             "CNname": "攻击力 +4%",
@@ -707,6 +723,7 @@
             ]
         },
         {
+            "id": "1202203",
             "tiny": true,
             "ENname": "Lightning DMG +3.2%",
             "CNname": "雷属性伤害提高 +3.2%",
@@ -736,6 +753,7 @@
             ]
         },
         {
+            "id": "1202206",
             "tiny": true,
             "ENname": "ATK +6%",
             "CNname": "攻击力 +6%",
@@ -767,6 +785,7 @@
     ],
     "eidolon": [
         {
+            "id": "120201",
             "eidolonnum": 1,
             "ENname": "Windfall of Lucky Springs",
             "CNname": "春风得意，时运驰骋",
@@ -796,6 +815,7 @@
             ]
         },
         {
+            "id": "120202",
             "eidolonnum": 2,
             "ENname": "Gainfully Gives, Givingly Gains",
             "CNname": "君子惠渥，晏笑承之",
@@ -825,6 +845,7 @@
             ]
         },
         {
+            "id": "120203",
             "eidolonnum": 3,
             "ENname": "Halcyon Bequest",
             "CNname": "青丘遗泽",
@@ -843,6 +864,7 @@
             ]
         },
         {
+            "id": "120204",
             "eidolonnum": 4,
             "ENname": "Jovial Versatility",
             "CNname": "鸣火机变，度时察势",
@@ -860,6 +882,7 @@
             ]
         },
         {
+            "id": "120205",
             "eidolonnum": 5,
             "ENname": "Sauntering Coquette",
             "CNname": "绥绥狐魅",
@@ -878,6 +901,7 @@
             ]
         },
         {
+            "id": "120206",
             "eidolonnum": 6,
             "ENname": "Peace Brings Wealth to All",
             "CNname": "和气生财，泽盈四方",
