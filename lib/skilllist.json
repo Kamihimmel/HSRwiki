@@ -2,6 +2,7 @@
     "data": [
         {
             "characterid": "1001",
+            "id": "100101",
             "ENname": "Frigid Cold Arrow",
             "CNname": "极寒的弓矢",
             "JAname": "極寒の弓矢",
@@ -48,6 +49,7 @@
         },
         {
             "characterid": "1001",
+            "id": "100102",
             "ENname": "The Power of Cuteness",
             "CNname": "可爱即是正义",
             "JAname": "可愛いは正義",
@@ -138,6 +140,7 @@
         },
         {
             "characterid": "1001",
+            "id": "100103",
             "ENname": "Glacial Cascade",
             "CNname": "冰刻箭雨之时",
             "JAname": "氷刻矢雨の時",
@@ -232,6 +235,7 @@
         },
         {
             "characterid": "1001",
+            "id": "100104",
             "ENname": "Girl Power",
             "CNname": "少女的特权",
             "JAname": "少女の特権",
@@ -284,6 +288,7 @@
         },
         {
             "characterid": "1001",
+            "id": "100107",
             "ENname": "Freezing Beauty",
             "CNname": "冻人的瞬间",
             "JAname": "凍る瞬間",
@@ -325,6 +330,7 @@
         },
         {
             "characterid": "1002",
+            "id": "100201",
             "ENname": "Cloudlancer Art: North Wind",
             "CNname": "云骑枪术•朔风",
             "JAname": "雲騎槍術・朔風",
@@ -371,6 +377,7 @@
         },
         {
             "characterid": "1002",
+            "id": "100202",
             "ENname": "Cloudlancer Art: Torrent",
             "CNname": "云骑枪术•疾雨",
             "JAname": "雲騎槍術・疾雨",
@@ -435,6 +442,7 @@
         },
         {
             "characterid": "1002",
+            "id": "100203",
             "ENname": "Ethereal Dream",
             "CNname": "洞天幻化，长梦一觉",
             "JAname": "洞天幻化、長夢一覚",
@@ -513,6 +521,7 @@
         },
         {
             "characterid": "1002",
+            "id": "100204",
             "ENname": "Superiority of Reach",
             "CNname": "寸长寸强",
             "JAname": "寸長寸強",
@@ -562,6 +571,7 @@
         },
         {
             "characterid": "1002",
+            "id": "100207",
             "ENname": "Splitting Spearhead",
             "CNname": "破敌锋芒",
             "JAname": "破敵の矛先",
@@ -592,6 +602,7 @@
         },
         {
             "characterid": "1003",
+            "id": "100301",
             "ENname": "Sawblade Tuning",
             "CNname": "武装调律",
             "JAname": "武装調律",
@@ -638,6 +649,7 @@
         },
         {
             "characterid": "1003",
+            "id": "100302",
             "ENname": "Molten Detonation",
             "CNname": "熔核爆裂",
             "JAname": "溶核爆裂",
@@ -716,6 +728,7 @@
         },
         {
             "characterid": "1003",
+            "id": "100303",
             "ENname": "Heavenly Flare",
             "CNname": "天坠之火",
             "JAname": "天墜の火",
@@ -782,6 +795,7 @@
         },
         {
             "characterid": "1003",
+            "id": "100304",
             "ENname": "Victory Rush",
             "CNname": "乘胜追击",
             "JAname": "乗勝追撃",
@@ -834,6 +848,7 @@
         },
         {
             "characterid": "1003",
+            "id": "100307",
             "ENname": "Incomplete Combustion",
             "CNname": "不完全燃烧",
             "JAname": "不完全燃焼",
@@ -880,6 +895,7 @@
         },
         {
             "characterid": "1004",
+            "id": "100401",
             "ENname": "Gravity Suppression",
             "CNname": "重力压制",
             "JAname": "重力制圧",
@@ -926,6 +942,7 @@
         },
         {
             "characterid": "1004",
+            "id": "100402",
             "ENname": "Edge of the Void",
             "CNname": "虚空断界",
             "JAname": "虚空断界",
@@ -1027,6 +1044,7 @@
         },
         {
             "characterid": "1004",
+            "id": "100403",
             "ENname": "Synthetic Black Hole",
             "CNname": "拟似黑洞",
             "JAname": "疑似ブラックホール",
@@ -1132,6 +1150,7 @@
         },
         {
             "characterid": "1004",
+            "id": "100404",
             "ENname": "Time Distortion",
             "CNname": "时空扭曲",
             "JAname": "時空の歪み",
@@ -1182,6 +1201,7 @@
         },
         {
             "characterid": "1004",
+            "id": "100407",
             "ENname": "Gravitational Imprisonment",
             "CNname": "画地为牢",
             "JAname": "画地為牢",
@@ -1681,6 +1701,7 @@
         },
         {
             "characterid": "1006",
+            "id": "100601",
             "ENname": "System Warning",
             "CNname": "|系统警告|",
             "JAname": "|システム警告|",
@@ -1727,6 +1748,7 @@
         },
         {
             "characterid": "1006",
+            "id": "100602",
             "ENname": "Allow Changes?",
             "CNname": "是否允许更改？",
             "JAname": "変更を許可しますか？",
@@ -1869,6 +1891,7 @@
         },
         {
             "characterid": "1006",
+            "id": "100603",
             "ENname": "User Banned",
             "CNname": "|账号已封禁|",
             "JAname": "|アカウントがBANされた|",
@@ -1977,6 +2000,7 @@
         },
         {
             "characterid": "1006",
+            "id": "100604",
             "ENname": "Awaiting System Response...",
             "CNname": "等待程序响应…",
             "JAname": "プログラム応答なし…",
@@ -2124,6 +2148,7 @@
         },
         {
             "characterid": "1006",
+            "id": "100607",
             "ENname": "Force Quit Program",
             "CNname": "|强制结束进程|",
             "JAname": "|プロセス強制終了|",
@@ -2155,6 +2180,7 @@
         },
         {
             "characterid": "1008",
+            "id": "100801",
             "ENname": "Lightning Rush",
             "CNname": "如雷疾行",
             "JAname": "疾行する雷の如し",
@@ -2201,6 +2227,7 @@
         },
         {
             "characterid": "1008",
+            "id": "100802",
             "ENname": "Shackle Breaker",
             "CNname": "禁锢解除",
             "JAname": "禁錮解除",
@@ -2253,6 +2280,7 @@
         },
         {
             "characterid": "1008",
+            "id": "100803",
             "ENname": "Frenzied Punishment",
             "CNname": "狂者制裁",
             "JAname": "狂者の制裁",
@@ -2333,6 +2361,7 @@
         },
         {
             "characterid": "1008",
+            "id": "100804",
             "ENname": "Pain and Anger",
             "CNname": "至痛至怒",
             "JAname": "痛みと怒りの極み",
@@ -2383,6 +2412,7 @@
         },
         {
             "characterid": "1008",
+            "id": "100807",
             "ENname": "Swift Harvest",
             "CNname": "极速收割",
             "JAname": "特急ハーベスト",
@@ -2413,6 +2443,7 @@
         },
         {
             "characterid": "1009",
+            "id": "100901",
             "ENname": "Spectrum Beam",
             "CNname": "光谱射线",
             "JAname": "スペクトル光線",
@@ -2459,6 +2490,7 @@
         },
         {
             "characterid": "1009",
+            "id": "100902",
             "ENname": "Meteor Storm",
             "CNname": "流星群落",
             "JAname": "スターフォール",
@@ -2535,6 +2567,7 @@
         },
         {
             "characterid": "1009",
+            "id": "100903",
             "ENname": "Astral Blessing",
             "CNname": "星空祝言",
             "JAname": "星空祝言",
@@ -2587,6 +2620,7 @@
         },
         {
             "characterid": "1009",
+            "id": "100904",
             "ENname": "Astrometry",
             "CNname": "天象学",
             "JAname": "天象学",
@@ -2636,6 +2670,7 @@
         },
         {
             "characterid": "1009",
+            "id": "100907",
             "ENname": "Miracle Flash",
             "CNname": "灵光一现",
             "JAname": "着想の一閃",
@@ -2667,6 +2702,7 @@
         },
         {
             "characterid": "1013",
+            "id": "101301",
             "ENname": "What Are You Looking At?",
             "CNname": "看什么看",
             "JAname": "何見てるの？",
@@ -2713,6 +2749,7 @@
         },
         {
             "characterid": "1013",
+            "id": "101302",
             "ENname": "One-Time Offer",
             "CNname": "一锤子买卖",
             "JAname": "一度限りの取引",
@@ -2777,6 +2814,7 @@
         },
         {
             "characterid": "1013",
+            "id": "101303",
             "ENname": "It's Magic, I Added Some Magic",
             "CNname": "是魔法，我加了魔法",
             "JAname": "私がかけた魔法だよ",
@@ -2830,6 +2868,7 @@
         },
         {
             "characterid": "1013",
+            "id": "101304",
             "ENname": "Fine, I'll Do It Myself",
             "CNname": "还是我来吧",
             "JAname": "やっぱり私がやる",
@@ -2882,6 +2921,7 @@
         },
         {
             "characterid": "1013",
+            "id": "101307",
             "ENname": "It Can Still Be Optimized",
             "CNname": "可以优化一下",
             "JAname": "改善すべきだよ",
@@ -2912,6 +2952,7 @@
         },
         {
             "characterid": "1101",
+            "id": "110101",
             "ENname": "Windrider Bullet",
             "CNname": "驭风的子弹",
             "JAname": "疾風の弾丸",
@@ -2958,6 +2999,7 @@
         },
         {
             "characterid": "1101",
+            "id": "110102",
             "ENname": "Combat Redeployment",
             "CNname": "作战再部署",
             "JAname": "作戦再展開",
@@ -3011,6 +3053,7 @@
         },
         {
             "characterid": "1101",
+            "id": "110103",
             "ENname": "The Belobog March",
             "CNname": "贝洛伯格进行曲",
             "JAname": "ベロブルグ行進曲",
@@ -3120,6 +3163,7 @@
         },
         {
             "characterid": "1101",
+            "id": "110104",
             "ENname": "Leading the Way",
             "CNname": "先人一步",
             "JAname": "先人一歩",
@@ -3169,6 +3213,7 @@
         },
         {
             "characterid": "1101",
+            "id": "110107",
             "ENname": "Banner of Command",
             "CNname": "在旗帜下",
             "JAname": "旗の下で",
@@ -3199,6 +3244,7 @@
         },
         {
             "characterid": "1102",
+            "id": "110201",
             "ENname": "Thwack",
             "CNname": "强袭",
             "JAname": "強襲",
@@ -3245,6 +3291,7 @@
         },
         {
             "characterid": "1102",
+            "id": "110202",
             "ENname": "Sheathed Blade",
             "CNname": "归刃",
             "JAname": "還刃",
@@ -3297,6 +3344,7 @@
         },
         {
             "characterid": "1102",
+            "id": "110203",
             "ENname": "Butterfly Flurry",
             "CNname": "乱蝶",
             "JAname": "乱れ蝶",
@@ -3350,6 +3398,7 @@
         },
         {
             "characterid": "1102",
+            "id": "110204",
             "ENname": "Resurgence",
             "CNname": "再现",
             "JAname": "再現",
@@ -3399,6 +3448,7 @@
         },
         {
             "characterid": "1102",
+            "id": "110207",
             "ENname": "Phantom Illusion",
             "CNname": "幻身",
             "JAname": "幻身",
@@ -3418,6 +3468,7 @@
         },
         {
             "characterid": "1103",
+            "id": "110301",
             "ENname": "Roaring Thunderclap",
             "CNname": "雷鸣音阶",
             "JAname": "雷鳴音階",
@@ -3464,6 +3515,7 @@
         },
         {
             "characterid": "1103",
+            "id": "110302",
             "ENname": "Lightning Flash",
             "CNname": "电光石火间",
             "JAname": "スパーク",
@@ -3582,6 +3634,7 @@
         },
         {
             "characterid": "1103",
+            "id": "110303",
             "ENname": "Here Comes the Mechanical Fever",
             "CNname": "机械热潮登场！",
             "JAname": "機械ブーム登場！",
@@ -3635,6 +3688,7 @@
         },
         {
             "characterid": "1103",
+            "id": "110304",
             "ENname": "Galvanic Chords",
             "CNname": "燃情和弦",
             "JAname": "情熱コード",
@@ -3687,6 +3741,7 @@
         },
         {
             "characterid": "1103",
+            "id": "110307",
             "ENname": "Good Night, Belobog",
             "CNname": "晚安，贝洛伯格",
             "JAname": "おやすみ、ベロブルグ",
@@ -3738,6 +3793,7 @@
         },
         {
             "characterid": "1104",
+            "id": "110401",
             "ENname": "Fist of Conviction",
             "CNname": "一意之拳",
             "JAname": "一意の拳",
@@ -3784,6 +3840,7 @@
         },
         {
             "characterid": "1104",
+            "id": "110402",
             "ENname": "Daunting Smite",
             "CNname": "震慑之击",
             "JAname": "震撼の一撃",
@@ -3875,6 +3932,7 @@
         },
         {
             "characterid": "1104",
+            "id": "110403",
             "ENname": "Enduring Bulwark",
             "CNname": "永屹之壁",
             "JAname": "永屹の壁",
@@ -3952,6 +4010,7 @@
         },
         {
             "characterid": "1104",
+            "id": "110404",
             "ENname": "Unyielding Will",
             "CNname": "不屈之身",
             "JAname": "不屈の体躯",
@@ -4004,6 +4063,7 @@
         },
         {
             "characterid": "1104",
+            "id": "110407",
             "ENname": "Comradery",
             "CNname": "有情之证",
             "JAname": "仁心の証",
@@ -4042,6 +4102,7 @@
         },
         {
             "characterid": "1105",
+            "id": "110501",
             "ENname": "Behind the Kindness",
             "CNname": "仁慈的背面",
             "JAname": "慈心の裏側",
@@ -4088,6 +4149,7 @@
         },
         {
             "characterid": "1105",
+            "id": "110502",
             "ENname": "Love, Heal, and Choose",
             "CNname": "爱，救护与抉择",
             "JAname": "愛、救済と選択",
@@ -4217,6 +4279,7 @@
         },
         {
             "characterid": "1105",
+            "id": "110503",
             "ENname": "Gift of Rebirth",
             "CNname": "新生之礼",
             "JAname": "新生の礼",
@@ -4293,6 +4356,7 @@
         },
         {
             "characterid": "1105",
+            "id": "110504",
             "ENname": "Innervation",
             "CNname": "生机焕发",
             "JAname": "生命の輝き",
@@ -4342,6 +4406,7 @@
         },
         {
             "characterid": "1105",
+            "id": "110507",
             "ENname": "Hypnosis Research",
             "CNname": "催眠研习",
             "JAname": "催眠研究",
@@ -4381,6 +4446,7 @@
         },
         {
             "characterid": "1106",
+            "id": "110601",
             "ENname": "Frost Shot",
             "CNname": "冰点射击",
             "JAname": "氷点狙撃",
@@ -4427,6 +4493,7 @@
         },
         {
             "characterid": "1106",
+            "id": "110602",
             "ENname": "Frostbite",
             "CNname": "低温妨害",
             "JAname": "低温妨害",
@@ -4478,6 +4545,7 @@
         },
         {
             "characterid": "1106",
+            "id": "110603",
             "ENname": "Zone Suppression",
             "CNname": "领域压制",
             "JAname": "領域制圧",
@@ -4569,6 +4637,7 @@
         },
         {
             "characterid": "1106",
+            "id": "110604",
             "ENname": "Data Collecting",
             "CNname": "数据采集",
             "JAname": "データ採取",
@@ -4617,6 +4686,7 @@
         },
         {
             "characterid": "1106",
+            "id": "110607",
             "ENname": "Preemptive Strike",
             "CNname": "先发制人",
             "JAname": "先手必勝",
@@ -4658,6 +4728,7 @@
         },
         {
             "characterid": "1107",
+            "id": "110701",
             "ENname": "I Want to Help",
             "CNname": "我也想帮上忙",
             "JAname": "クラーラもお手伝いします",
@@ -4704,6 +4775,7 @@
         },
         {
             "characterid": "1107",
+            "id": "110702",
             "ENname": "Svarog Watches Over You",
             "CNname": "史瓦罗在看着你",
             "JAname": "スヴァローグが見てる",
@@ -4783,6 +4855,7 @@
         },
         {
             "characterid": "1107",
+            "id": "110703",
             "ENname": "Promise, Not Command",
             "CNname": "是约定不是命令",
             "JAname": "命令じゃなくて約束",
@@ -4890,6 +4963,7 @@
         },
         {
             "characterid": "1107",
+            "id": "110704",
             "ENname": "Because We're Family",
             "CNname": "因为我们是家人",
             "JAname": "家族なんだから",
@@ -4955,6 +5029,7 @@
         },
         {
             "characterid": "1107",
+            "id": "110707",
             "ENname": "A Small Price for Victory",
             "CNname": "胜利的小小代价",
             "JAname": "勝利の小さな対価",
@@ -4991,6 +5066,7 @@
         },
         {
             "characterid": "1108",
+            "id": "110801",
             "ENname": "Dazzling Blades",
             "CNname": "酷炫的刀花",
             "JAname": "眩い刃紋",
@@ -5037,6 +5113,7 @@
         },
         {
             "characterid": "1108",
+            "id": "110802",
             "ENname": "Ricochet Love",
             "CNname": "反复横跳的爱",
             "JAname": "反復横跳びの愛",
@@ -5115,6 +5192,7 @@
         },
         {
             "characterid": "1108",
+            "id": "110803",
             "ENname": "Surprise Present",
             "CNname": "惊喜礼盒",
             "JAname": "サプライズボックス",
@@ -5206,6 +5284,7 @@
         },
         {
             "characterid": "1108",
+            "id": "110804",
             "ENname": "Windtorn Dagger",
             "CNname": "撕风的匕首",
             "JAname": "風を切り裂く匕首",
@@ -5268,6 +5347,7 @@
         },
         {
             "characterid": "1108",
+            "id": "110807",
             "ENname": "Shining Bright",
             "CNname": "你最闪亮",
             "JAname": "一番の輝きをあなたへ",
@@ -5299,6 +5379,7 @@
         },
         {
             "characterid": "1109",
+            "id": "110901",
             "ENname": "Hehe! Don't Get Burned!",
             "CNname": "喂！小心火烛",
             "JAname": "おい！火の元に気をつけな",
@@ -5345,6 +5426,7 @@
         },
         {
             "characterid": "1109",
+            "id": "110902",
             "ENname": "Hey! Remember Hook?",
             "CNname": "嘿！记得虎克吗",
             "JAname": "おい！フックを覚えてるか？",
@@ -5435,6 +5517,7 @@
         },
         {
             "characterid": "1109",
+            "id": "110902",
             "ENname": "Hey! Remember Hook?",
             "CNname": "嘿！记得虎克吗",
             "JAname": "おい！フックを覚えてるか？",
@@ -5552,6 +5635,7 @@
         },
         {
             "characterid": "1109",
+            "id": "110903",
             "ENname": "Boom! Here Comes the Fire!",
             "CNname": "轰！飞来焰火",
             "JAname": "ドカン！飛んでけ花火！",
@@ -5605,6 +5689,7 @@
         },
         {
             "characterid": "1109",
+            "id": "110904",
             "ENname": "Ha! Oil to the Flames!",
             "CNname": "哈！火上浇油",
             "JAname": "はっ！火に油を注ぐ",
@@ -5668,6 +5753,7 @@
         },
         {
             "characterid": "1109",
+            "id": "110907",
             "ENname": "Ack! Look at This Mess!",
             "CNname": "哎！瞧这一团糟",
             "JAname": "ほら！滅茶苦茶になってる",
@@ -6579,6 +6665,7 @@
         },
         {
             "characterid": "1201",
+            "id": "120101",
             "ENname": "Flower Pick",
             "CNname": "门前清",
             "JAname": "門前清",
@@ -6625,6 +6712,7 @@
         },
         {
             "characterid": "1201",
+            "id": "120108",
             "ENname": "Cherry on Top!",
             "CNname": "杠上开花！",
             "JAname": "嶺上開花！",
@@ -6692,6 +6780,7 @@
         },
         {
             "characterid": "1201",
+            "id": "120102",
             "ENname": "A Scoop of Moon",
             "CNname": "海底捞月",
             "JAname": "海底撈月",
@@ -6742,6 +6831,7 @@
         },
         {
             "characterid": "1201",
+            "id": "120103",
             "ENname": "A Quartet? Woo-hoo!",
             "CNname": "四幺暗刻？和！",
             "JAname": "幺魚暗カン？アガリ！",
@@ -6795,6 +6885,7 @@
         },
         {
             "characterid": "1201",
+            "id": "120104",
             "ENname": "Celestial Jade",
             "CNname": "帝垣琼玉",
             "JAname": "帝垣美玉",
@@ -6846,6 +6937,7 @@
         },
         {
             "characterid": "1201",
+            "id": "120107",
             "ENname": "Game Solitaire",
             "CNname": "独弈之乐",
             "JAname": "独奕の楽しみ",
@@ -6865,6 +6957,7 @@
         },
         {
             "characterid": "1202",
+            "id": "120201",
             "ENname": "Dislodged",
             "CNname": "逐客令",
             "JAname": "逐客令",
@@ -6911,6 +7004,7 @@
         },
         {
             "characterid": "1202",
+            "id": "120202",
             "ENname": "Soothing Melody",
             "CNname": "祥音和韵",
             "JAname": "祥音和韻",
@@ -7008,6 +7102,7 @@
         },
         {
             "characterid": "1202",
+            "id": "120203",
             "ENname": "Amidst the Rejoicing Clouds",
             "CNname": "庆云光覆仪祷",
             "JAname": "慶雲光覆儀祷",
@@ -7073,6 +7168,7 @@
         },
         {
             "characterid": "1202",
+            "id": "120204",
             "ENname": "Violet Sparknado",
             "CNname": "紫电扶摇",
             "JAname": "揺れる紫電",
@@ -7125,6 +7221,7 @@
         },
         {
             "characterid": "1202",
+            "id": "120207",
             "ENname": "Gentle Breeze",
             "CNname": "惠风和畅",
             "JAname": "恵風和暢",
@@ -7155,6 +7252,7 @@
         },
         {
             "characterid": "1203",
+            "id": "120301",
             "ENname": "Thorns of the Abyss",
             "CNname": "黑渊的棘刺",
             "JAname": "黒淵の棘",
@@ -7201,6 +7299,7 @@
         },
         {
             "characterid": "1203",
+            "id": "120302",
             "ENname": "Prayer of Abyss Flower",
             "CNname": "白花的祈望",
             "JAname": "白花の祈望",
@@ -7278,6 +7377,7 @@
         },
         {
             "characterid": "1203",
+            "id": "120303",
             "ENname": "Death Wish",
             "CNname": "归葬的遂愿",
             "JAname": "帰葬の成就",
@@ -7335,6 +7435,7 @@
         },
         {
             "characterid": "1203",
+            "id": "120304",
             "ENname": "Cycle of Life",
             "CNname": "生息的轮转",
             "JAname": "生命の輪廻",
@@ -7412,6 +7513,7 @@
         },
         {
             "characterid": "1203",
+            "id": "120307",
             "ENname": "Mercy of a Fool",
             "CNname": "愚者的悲悯",
             "JAname": "愚者の悲哀",
@@ -7433,6 +7535,7 @@
         },
         {
             "characterid": "1204",
+            "id": "120401",
             "ENname": "Glistening Light",
             "CNname": "石火流光",
             "JAname": "電光石火",
@@ -7479,6 +7582,7 @@
         },
         {
             "characterid": "1204",
+            "id": "120402",
             "ENname": "Rifting Zenith",
             "CNname": "紫霄震曜",
             "JAname": "紫霄の雷鳴",
@@ -7531,6 +7635,7 @@
         },
         {
             "characterid": "1204",
+            "id": "120403",
             "ENname": "Lightbringer",
             "CNname": "吾身光明",
             "JAname": "我が身の輝き",
@@ -7584,6 +7689,7 @@
         },
         {
             "characterid": "1204",
+            "id": "120404",
             "ENname": "Prana Extirpated",
             "CNname": "斩勘神形",
             "JAname": "退魔の形神",
@@ -7653,6 +7759,7 @@
         },
         {
             "characterid": "1204",
+            "id": "120407",
             "ENname": "Spirit Invocation",
             "CNname": "摄召威灵",
             "JAname": "摂召威霊",
@@ -8292,6 +8399,7 @@
         },
         {
             "characterid": "1206",
+            "id": "120601",
             "ENname": "Cloudfencer Art: Starshine",
             "CNname": "云骑剑经 • 素霓",
             "JAname": "雲騎剣経・月虹",
@@ -8338,6 +8446,7 @@
         },
         {
             "characterid": "1206",
+            "id": "120602",
             "ENname": "Cloudfencer Art: Mountainfall",
             "CNname": "云骑剑经 • 山倾",
             "JAname": "雲騎剣経・山傾",
@@ -8419,6 +8528,7 @@
         },
         {
             "characterid": "1206",
+            "id": "120603",
             "ENname": "Shape of Taixu: Dawn Herald",
             "CNname": "太虚形蕴 • 烛夜",
             "JAname": "太虚形蘊・燭夜",
@@ -8512,6 +8622,7 @@
         },
         {
             "characterid": "1206",
+            "id": "120604",
             "ENname": "Dancing Blade",
             "CNname": "游刃若水",
             "JAname": "游刃若水",
@@ -8561,6 +8672,7 @@
         },
         {
             "characterid": "1206",
+            "id": "120607",
             "ENname": "Cloudfencer Art: Warcry",
             "CNname": "云骑剑经 • 叩阵",
             "JAname": "雲騎剣経・叩陣",
@@ -8591,6 +8703,7 @@
         },
         {
             "characterid": "1207",
+            "id": "120701",
             "ENname": "Arrowslinger",
             "CNname": "流镝",
             "JAname": "流鏑",
@@ -8637,6 +8750,7 @@
         },
         {
             "characterid": "1207",
+            "id": "120702",
             "ENname": "Emboldening Salvo",
             "CNname": "天阙鸣弦",
             "JAname": "天宮に鳴り響む弦",
@@ -8688,6 +8802,7 @@
         },
         {
             "characterid": "1207",
+            "id": "120703",
             "ENname": "Diving Kestrel",
             "CNname": "贯云饮羽",
             "JAname": "貫雲箭",
@@ -8796,6 +8911,7 @@
         },
         {
             "characterid": "1207",
+            "id": "120704",
             "ENname": "Seven Layers, One Arrow",
             "CNname": "箭彻七札",
             "JAname": "徹札矢",
@@ -8860,6 +8976,7 @@
         },
         {
             "characterid": "1207",
+            "id": "120707",
             "ENname": "Chasing the Wind",
             "CNname": "云鸢逐风",
             "JAname": "風追う雲鳶",
@@ -9139,6 +9256,7 @@
         },
         {
             "characterid": "1209",
+            "id": "120901",
             "ENname": "Frost Thorn",
             "CNname": "霜锋点寒芒",
             "JAname": "寒光刺す霜鋒",
@@ -9185,6 +9303,7 @@
         },
         {
             "characterid": "1209",
+            "id": "120902",
             "ENname": "Darting Ironthorn",
             "CNname": "遥击三尺水",
             "JAname": "三尺秋水",
@@ -9237,6 +9356,7 @@
         },
         {
             "characterid": "1209",
+            "id": "120903",
             "ENname": "Butterfly Flurry",
             "CNname": "快雨燕相逐",
             "JAname": "快雨に戯れる燕",
@@ -9328,6 +9448,7 @@
         },
         {
             "characterid": "1209",
+            "id": "120904",
             "ENname": "The One True Sword",
             "CNname": "呼剑如影",
             "JAname": "呼影剣",
@@ -9483,6 +9604,7 @@
         },
         {
             "characterid": "1209",
+            "id": "120907",
             "ENname": "The One True Sword",
             "CNname": "御剑真诀",
             "JAname": "御剣真訣",
@@ -9513,11 +9635,12 @@
         },
         {
             "characterid": "1211",
+            "id": "121101",
             "ENname": "Diagnostic Kick",
             "CNname": "望 、闻、问…蹴！",
             "JAname": "望・聞・問…蹴！",
             "imageurl": "images/skills/bailuna.webp",
-            "DescriptionEN": "Deals Lightning DMG equal to [1] of Bailu's ATK to a single enemy.",
+            "DescriptionEN": "Deals Lightning DMG equal to [1]% of Bailu's ATK to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于白露[1]%攻击力的雷属性伤害。",
             "DescriptionJP": "指定した敵単体に白露の攻撃力[1]%分の雷属性ダメージを与える。",
             "stype": "basicattack",
@@ -9559,6 +9682,7 @@
         },
         {
             "characterid": "1211",
+            "id": "121102",
             "ENname": "Singing Among Clouds",
             "CNname": "云吟乍涌坠珠露",
             "JAname": "雲吟乍然、零れる珠露",
@@ -9636,6 +9760,7 @@
         },
         {
             "characterid": "1211",
+            "id": "121103",
             "ENname": "Felicitous Thunderleap",
             "CNname": "匏蛟跃渊先雷音",
             "JAname": "雷鳴率いる躍渊の蛟龍",
@@ -9712,6 +9837,7 @@
         },
         {
             "characterid": "1211",
+            "id": "121104",
             "ENname": "Gourdful of Elixir",
             "CNname": "奔走悬壶济世长",
             "JAname": "懸壺済世",
@@ -9841,6 +9967,7 @@
         },
         {
             "characterid": "1211",
+            "id": "121107",
             "ENname": "Saunter in the Rain",
             "CNname": "徜徉灵泽病恙短",
             "JAname": "恙病を払拭せし、徜徉する霊澤",
@@ -10243,6 +10370,7 @@
         },
         {
             "characterid": "8002",
+            "id": "800201",
             "ENname": "Farewell Hit",
             "CNname": "再见安打",
             "JAname": "サヨナラ安打",
@@ -10289,6 +10417,7 @@
         },
         {
             "characterid": "8002",
+            "id": "800202",
             "ENname": "RIP Home Run",
             "CNname": "安息全垒打",
             "JAname": "安息ホームラン",
@@ -10341,9 +10470,10 @@
         },
         {
             "characterid": "8002",
-            "ENname": "Stardust Ace(Blowout: Farewell Hit)",
-            "CNname": "星尘王牌【全胜•再见安打】",
-            "JAname": "スターダストエース「全勝・サヨナラ安打」",
+            "id": "800208",
+            "ENname": "Blowout: Farewell Hit",
+            "CNname": "全胜•再见安打",
+            "JAname": "全勝・サヨナラ安打",
             "imageurl": "images/skills/mcult.webp",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of the Trailblazer's ATK to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于开拓者[1]%攻击力的物理属性伤害。",
@@ -10394,9 +10524,10 @@
         },
         {
             "characterid": "8002",
-            "ENname": "Stardust Ace(Blowout: RIP Home Run)",
-            "CNname": "星尘王牌【全胜•安息全垒打】",
-            "JAname": "スターダストエース「全勝・安息ホームラン」",
+            "id": "800209",
+            "ENname": "Blowout: RIP Home Run",
+            "CNname": "全胜•安息全垒打",
+            "JAname": "全勝・安息ホームラン",
             "imageurl": "images/skills/mcult.webp",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of Trailblazer's ATK to a single enemy and Physical DMG equal to [2]% of Trailblazer's ATK to enemies adjacent to it.",
             "DescriptionCN": "对指定敌方单体造成等同于开拓者[1]%攻击力的物理属性伤害，同时对其相邻目标造成等同于开拓者[2]%攻击力的物理属性伤害。",
@@ -10474,6 +10605,7 @@
         },
         {
             "characterid": "8002",
+            "id": "800204",
             "ENname": "Perfect Pickoff",
             "CNname": "牵制盗垒",
             "JAname": "盗塁牽制",
@@ -10524,6 +10656,7 @@
         },
         {
             "characterid": "8002",
+            "id": "800207",
             "ENname": "Immortal Third Strike",
             "CNname": "不灭三振",
             "JAname": "不滅三振",
@@ -10553,6 +10686,7 @@
         },
         {
             "characterid": "8004",
+            "id": "800401",
             "ENname": "Ice-Breaking Light",
             "CNname": "穿彻坚冰的烈芒",
             "JAname": "堅氷を貫く烈火",
@@ -10599,6 +10733,7 @@
         },
         {
             "characterid": "8004",
+            "id": "800401",
             "ENname": "Ice-Breaking Light",
             "CNname": "穿彻坚冰的烈芒",
             "JAname": "堅氷を貫く烈火",
@@ -10666,6 +10801,7 @@
         },
         {
             "characterid": "8004",
+            "id": "800402",
             "ENname": "Ever-Burning Amber",
             "CNname": "炽燃不灭的琥珀",
             "JAname": "不滅のアンバー",
@@ -10729,6 +10865,7 @@
         },
         {
             "characterid": "8004",
+            "id": "800403",
             "ENname": "War-Flaming Lance",
             "CNname": "陷阵无回的炎枪",
             "JAname": "陥陣無帰の炎槍",
@@ -10809,6 +10946,7 @@
         },
         {
             "characterid": "8004",
+            "id": "800404",
             "ENname": "Treasure of the Architects",
             "CNname": "筑城者遗宝",
             "JAname": "やっぱり私がやる",
@@ -10882,6 +11020,7 @@
         },
         {
             "characterid": "8004",
+            "id": "800407",
             "ENname": "Call of the Guardian",
             "CNname": "守护者召令",
             "JAname": "守護者命令",
