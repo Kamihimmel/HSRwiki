@@ -31,7 +31,7 @@ def append_image(lightcone_id, size):
 
 
 def append_basic(data_dict):
-    result['wtype'] = data_dict['EN']['types']['pathType']['name'].lower()
+    result['wtype'] = data_dict['EN']['types']['pathType']['name'].lower().replace(' ', '')
     result['rarity'] = str(data_dict['EN']['rank'])
     print('append wtype: %s, rarity: %s' % (result['wtype'], result['rarity']))
 
