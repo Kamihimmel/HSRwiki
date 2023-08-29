@@ -397,6 +397,42 @@
             "rarity": "5",
             "infourl": "lib/characters/1213.json",
             "spoiler": true
+        },
+        {
+            "id": "1112",
+            "ENname": "Topaz and Numby(WIP)",
+            "CNname": "托帕&账账(施工中)",
+            "JAname": "トパーズ&カブ(建設中)",
+            "imageurl": "images/characters/1112.png",
+            "etype": "fire",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "lib/characters/1112.json",
+            "spoiler": true
+        },
+        {
+            "id": "1210",
+            "ENname": "Guinaifen(WIP)",
+            "CNname": "桂乃芬(施工中)",
+            "JAname": "桂乃芬(建設中)",
+            "imageurl": "images/characters/1210.png",
+            "etype": "fire",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "lib/characters/1210.json",
+            "spoiler": true
+        },
+        {
+            "id": "1212",
+            "ENname": "Jingliu(WIP)",
+            "CNname": "镜流(施工中)",
+            "JAname": "鏡流(建設中)",
+            "imageurl": "images/characters/1212.png",
+            "etype": "ice",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/characters/1212.json",
+            "spoiler": true
         }
     ]
 }
