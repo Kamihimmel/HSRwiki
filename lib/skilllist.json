@@ -10959,6 +10959,23 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                }
             ]
         },
         {
@@ -10994,6 +11011,23 @@
                     "13": 130,
                     "14": 130,
                     "15": 130
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
                 }
             ]
         },
@@ -11048,6 +11082,33 @@
                     "14": 30,
                     "15": 30
                 }
+            ],
+            "tags": [
+                "blastatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                }
             ]
         },
         {
@@ -11101,6 +11162,33 @@
                     "14": 90,
                     "15": 90
                 }
+            ],
+            "tags": [
+                "blastatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                }
             ]
         },
         {
@@ -11153,6 +11241,22 @@
                     "13": 4,
                     "14": 4,
                     "15": 4
+                }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
                 }
             ]
         },
@@ -11242,6 +11346,33 @@
                     "14": 3,
                     "15": 3
                 }
+            ],
+            "tags": [
+                "blastatk",
+                "ultatk",
+                "skillpointre"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "ultatk",
+                        "imaginaryatk"
+                    ]
+                }
             ]
         },
         {
@@ -11295,6 +11426,22 @@
                     "14": 6,
                     "15": 6
                 }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
             ]
         },
         {
@@ -11312,7 +11459,23 @@
             "buffskill": true,
             "teamskill": true,
             "weaknessbreak": 0,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": [
+                "imaginaryatk",
+                "allenemy",
+                "skillpointre"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 120,
+                    "tag": [
+                        "allenemy",
+                        "imaginaryatk"
+                    ]
+                }
+            ]
         },
         {
             "characterid": "8002",
