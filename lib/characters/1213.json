@@ -1020,7 +1020,7 @@
                 {
                     "type": "buff",
                     "addtarget": "imaginarydmg",
-                    "multiplier": 4.8,
+                    "multiplier": 6.4,
                     "tag": [
                         "self",
                         "imaginarydmg"
