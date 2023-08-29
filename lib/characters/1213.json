@@ -125,7 +125,24 @@
                     "8": 120,
                     "9": 130
                 }
-            ]
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                }
+            ]            
         },
         {
             "id": "121308",
@@ -160,7 +177,24 @@
                     "14": 130,
                     "15": 130
                 }
-            ]
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                }
+            ]                        
         },
         {
             "id": "121310",
@@ -212,7 +246,34 @@
                     "14": 30,
                     "15": 30
                 }
-            ]
+            ],
+            "tags": [
+                "blastatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                }                
+            ]                        
         },
         {
             "id": "121312",
@@ -264,7 +325,34 @@
                     "14": 90,
                     "15": 90
                 }
-            ]
+            ],
+            "tags": [
+                "blastatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                }                
+            ]                      
         },
         {
             "id": "121302",
@@ -316,7 +404,23 @@
                     "14": 4,
                     "15": 4
                 }
-            ]
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]            
         },
         {
             "id": "121303",
@@ -403,7 +507,34 @@
                     "14": 3,
                     "15": 3
                 }
-            ]
+            ],
+            "tags": [
+                "blastatk",
+                "ultatk",
+                "skillpointre"
+            ],            
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "imaginaryatk"
+                    ]
+                },
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "ultatk",
+                        "imaginaryatk"
+                    ]
+                }
+            ]     
         },
         {
             "id": "121304",
@@ -455,6 +586,22 @@
                     "14": 6,
                     "15": 6
                 }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
             ]
         },
         {
@@ -471,7 +618,23 @@
             "buffskill": true,
             "teamskill": true,
             "weaknessbreak": 0,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": [
+                "imaginaryatk",
+                "allenemy",
+                "skillpointre"
+            ],
+            "effect": [
+                {
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 120,
+                    "tag": [
+                        "allenemy",
+                        "imaginaryatk"
+                    ]
+                }
+            ]            
         }
     ],
     "tracedata": [
@@ -487,7 +650,23 @@
             "imageurl": "images/skills/1213-1213101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1213102",
@@ -501,7 +680,23 @@
             "imageurl": "images/skills/1213-1213102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "controlresist",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "controlresist",
+                    "multiplier": 35,
+                    "tag": [
+                        "self",
+                        "controlresist"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1213103",
@@ -515,7 +710,23 @@
             "imageurl": "images/skills/1213-1213103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critdmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 24,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1213201",
@@ -529,7 +740,23 @@
             "ttype": "imaginarydmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "imaginarydmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "imaginarydmg"
+                    ]
+                }
+            ]    
         },
         {
             "id": "1213202",
@@ -543,7 +770,23 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]    
         },
         {
             "id": "1213203",
@@ -557,7 +800,23 @@
             "ttype": "imaginarydmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "imaginarydmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "imaginarydmg"
+                    ]
+                }
+            ]    
         },
         {
             "id": "1213204",
@@ -571,7 +830,23 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1213205",
@@ -585,7 +860,23 @@
             "ttype": "imaginarydmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "imaginarydmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "imaginarydmg"
+                    ]
+                }
+            ]    
         },
         {
             "id": "1213206",
@@ -599,7 +890,23 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]    
         },
         {
             "id": "1213207",
@@ -613,7 +920,23 @@
             "ttype": "imaginarydmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "imaginarydmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "imaginarydmg"
+                    ]
+                }
+            ]    
         },
         {
             "id": "1213208",
@@ -627,7 +950,23 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1213209",
@@ -641,7 +980,23 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]    
         },
         {
             "id": "1213210",
@@ -655,7 +1010,23 @@
             "ttype": "imaginarydmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "imaginarydmg"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "imaginarydmg"
+                    ]
+                }
+            ]    
         }
     ],
     "eidolon": [
@@ -671,7 +1042,12 @@
             "DescriptionJP": "「亢心」の累積可能層数+4。1段の攻撃を行うたびに「亢心」を1層獲得できるようになる。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]            
         },
         {
             "id": "121302",
@@ -685,7 +1061,22 @@
             "DescriptionJP": "必殺技を発動した後、丹恒・飲月の行動順が100%早まり、さらに「逆鱗」を1獲得する。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "skillpointre",
+                "actionf"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 100,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                }
+            ]            
         },
         {
             "id": "121303",
@@ -699,7 +1090,12 @@
             "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]            
         },
         {
             "id": "121304",
@@ -713,7 +1109,12 @@
             "DescriptionJP": "「叱咤」のバフ効果が、自身の次のターンが終了するまで継続するようになる。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]            
         },
         {
             "id": "121305",
@@ -727,7 +1128,12 @@
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]            
         },
         {
             "id": "121306",
@@ -741,7 +1147,23 @@
             "DescriptionJP": "丹恒・飲月以外の味方が必殺技を発動した後、丹恒・飲月が発動する次の「躍動せし耀鱗」の虚数属性耐性貫通+20%。この効果は最大で3層累積できる。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "imaginarypen",
+                "self"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "imaginarypen",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "imaginarypen"
+                    ]
+                }
+            ]            
         }
     ]
 }
