@@ -835,6 +835,28 @@
             "rarity": "5",
             "infourl": "lib/lightcones/24003.json",
             "spoiler": true
+        },
+        {
+            "id": "23014",
+            "ENname": "I Shall Be My Own Sword(WIP)",
+            "CNname": "此身为剑(施工中)",
+            "JAname": "この身は剣なり(建設中)",
+            "imageurl": "images/lightcones/23014.png",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23014.json",
+            "spoiler": true
+        },
+        {
+            "id": "23016",
+            "ENname": "Worrisome, Blissful(WIP)",
+            "CNname": "烦恼着，幸福着(施工中)",
+            "JAname": "悩んで笑って(建設中)",
+            "imageurl": "images/lightcones/23016.png",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23016.json",
+            "spoiler": true
         }
     ]
 }

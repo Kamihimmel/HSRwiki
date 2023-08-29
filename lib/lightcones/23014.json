@@ -1,0 +1,139 @@
+{
+    "id": "23014",
+    "ENname": "I Shall Be My Own Sword",
+    "CNname": "此身为剑",
+    "JAname": "この身は剣なり",
+    "imageurl": "images/lightcones/23014.png",
+    "imagelargeurl": "images/lightcones/23014l.png",
+    "wtype": "destruction",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 52.8,
+            "atk": 28.8,
+            "def": 15
+        },
+        {
+            "level": "20",
+            "hp": 203.28,
+            "atk": 110.88,
+            "def": 57.75
+        },
+        {
+            "level": "20+",
+            "hp": 266.64,
+            "atk": 145.44,
+            "def": 75.75
+        },
+        {
+            "level": "30",
+            "hp": 345.84,
+            "atk": 188.64,
+            "def": 98.25
+        },
+        {
+            "level": "30+",
+            "hp": 430.32,
+            "atk": 234.72,
+            "def": 122.25
+        },
+        {
+            "level": "40",
+            "hp": 509.52,
+            "atk": 277.92,
+            "def": 144.75
+        },
+        {
+            "level": "40+",
+            "hp": 594.0,
+            "atk": 324.0,
+            "def": 168.75
+        },
+        {
+            "level": "50",
+            "hp": 673.2,
+            "atk": 367.2,
+            "def": 191.25
+        },
+        {
+            "level": "50+",
+            "hp": 757.68,
+            "atk": 413.28,
+            "def": 215.25
+        },
+        {
+            "level": "60",
+            "hp": 836.88,
+            "atk": 456.48,
+            "def": 237.75
+        },
+        {
+            "level": "60+",
+            "hp": 921.36,
+            "atk": 502.56,
+            "def": 261.75
+        },
+        {
+            "level": "70",
+            "hp": 1000.56,
+            "atk": 545.76,
+            "def": 284.25
+        },
+        {
+            "level": "70+",
+            "hp": 1085.04,
+            "atk": 591.84,
+            "def": 308.25
+        },
+        {
+            "level": "80",
+            "hp": 1164.24,
+            "atk": 635.04,
+            "def": 330.75
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "With This Evening Jade",
+            "CNname": "执此宵玉",
+            "JAname": "この宵玉を執り",
+            "DescriptionEN": "Increases the wearer's Skill DMG by [1]%. When using their Ultimate, immediately regenerates [2] Energy and increases the wearer's CRIT DMG by [3]% for [4] turn(s).",
+            "DescriptionCN": "使装备者战技造成的伤害提高[1]%。施放终结技时，立即恢复[2]点能量，并使装备者的暴击伤害提高[3]%，持续[4]回合。",
+            "DescriptionJP": "装備キャラの戦闘スキルの与ダメージ+[1]%。必殺技を発動した時、EPを[2]回復し、装備キャラの会心ダメージ+[3]%、[4]ターン継続。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 30,
+                    "2": 35,
+                    "3": 40,
+                    "4": 45,
+                    "5": 50
+                },
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                },
+                {
+                    "1": 36,
+                    "2": 42,
+                    "3": 48,
+                    "4": 54,
+                    "5": 60
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                }
+            ]
+        }
+    ]
+}

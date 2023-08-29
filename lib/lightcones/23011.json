@@ -95,12 +95,12 @@
     ],
     "skilldata": [
         {
-            "ENname": "Cosmological Horizon",
+            "ENname": "Visioscape",
             "CNname": "视界",
             "JAname": "視界",
-            "DescriptionEN": "Increases the wearer's Max HP by [1]% and Energy Regeneration Rate by [4]%. When the wearer's HP is reduced, all allies' DMG dealt increases by [2]%, for [5] turn(s). At the start of every wave, restores HP to all allies equal to [3]% of the respective HP difference between each characters' Max HP and their current HP.",
+            "DescriptionEN": "Increases the wearer's Max HP by [1]% and Energy Regeneration Rate by [4]%. When the wearer's HP is reduced, all allies' DMG dealt increases by [2]%, for [5] turn(s). At the start of every wave, restores HP to all allies by an amount equal to [3]% of their respective lost HP.",
             "DescriptionCN": "使装备者的生命上限提高[1]%，能量恢复效率提高[4]%。当装备者的生命值降低时，使我方全体造成的伤害提高[2]%，持续[5]回合。 每个波次开始时，为我方全体回复等同于各自已损失生命值[3]%的生命值。",
-            "DescriptionJP": "装備キャラの最大HP+[1]%、EP回復効率+[4]%。装備キャラのHPが減った時、味方全体の与ダメージ+[2]%、[5]ターン継続。 ウェーブが回ってくるたびに、味方全体のHPを失ったHPの[3]%分回復する。",
+            "DescriptionJP": "装備キャラの最大HP+[1]%、EP回復効率+[4]%。装備キャラのHPが減った時、味方全体の与ダメージ+[2]%、[5]ターン継続。 各ウェーブ開始時、味方全体のHPを失ったHPの[3]%分回復する。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
