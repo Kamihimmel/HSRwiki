@@ -816,14 +816,14 @@
         },
         {
             "id": "23015",
-            "ENname": "Brighter Than the Sun(WIP)",
-            "CNname": "比阳光更明亮的(施工中)",
-            "JAname": "陽光より輝くもの(建設中)",
+            "ENname": "Brighter Than the Sun",
+            "CNname": "比阳光更明亮的",
+            "JAname": "陽光より輝くもの",
             "imageurl": "images/lightcones/23015.png",
             "wtype": "destruction",
             "rarity": "5",
             "infourl": "lib/lightcones/23015.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "24003",

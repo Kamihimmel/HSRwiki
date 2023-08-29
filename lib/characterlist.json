@@ -388,15 +388,15 @@
         },
         {
             "id": "1213",
-            "ENname": "Dan Heng • Imbibitor Lunae(WIP)",
-            "CNname": "丹恒•饮月(施工中)",
-            "JAname": "丹恒・飲月(建設中)",
+            "ENname": "Dan Heng • Imbibitor Lunae",
+            "CNname": "丹恒•饮月",
+            "JAname": "丹恒・飲月",
             "imageurl": "images/characters/1213.png",
             "etype": "imaginary",
             "wtype": "destruction",
             "rarity": "5",
             "infourl": "lib/characters/1213.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1112",
