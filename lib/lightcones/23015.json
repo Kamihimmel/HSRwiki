@@ -140,7 +140,43 @@
                     "4": 9,
                     "5": 10
                 }
-            ]
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "critrate",
+                "atk",
+                "energyregen"
+            ],
+            "effect": [
+                {
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                },
+                {
+                    "type": "buff",
+                    "addtarget": "energyregen",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "energyregen"
+                    ]
+                }
+            ]            
         }
     ]
 }
