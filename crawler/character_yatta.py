@@ -35,8 +35,8 @@ def append_image(character_id, size):
 
 def append_basic(data_dict):
     data_en = data_dict['EN']
-    result['etype'] = data_en['types']['combatType']['name'].lower()
-    result['wtype'] = data_en['types']['pathType']['name'].lower()
+    result['etype'] = data_en['types']['combatType']['name'].lower().replace(' ', '')
+    result['wtype'] = data_en['types']['pathType']['name'].lower().replace(' ', '')
     result['rarity'] = str(data_en['rank'])
     print('append etype: %s, wtype: %s, rarity: %s' % (result['etype'], result['wtype'], result['rarity']))
 
