@@ -146,7 +146,7 @@
                 "self",
                 "critrate",
                 "atk",
-                "energyregen"
+                "energyregenrate"
             ],
             "effect": [
                 {
@@ -169,11 +169,11 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "energyregen",
+                    "addtarget": "energyregenrate",
                     "multiplier": 5,
                     "tag": [
                         "self",
-                        "energyregen"
+                        "energyregenrate"
                     ]
                 }
             ]            
