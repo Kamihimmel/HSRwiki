@@ -97,8 +97,8 @@
         {
             "ENname": "Defiant Till Death",
             "CNname": "抵死",
-            "JAname": "必死",
-            "DescriptionEN": "Increases the wearer's CRIT Rate by [1]%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call for [2] turns. Each stack of Dragon's Call increases the wearer's ATK by [4]% and Energy Regeneration Rate by [5]%. Dragon's Call can be stacked up to [3] times.",
+            "JAname": "この命に代えてでも",
+            "DescriptionEN": "Increases the wearer's CRIT Rate by [1]%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call, lasting for [2] turns. Each stack of Dragon's Call increases the wearer's ATK by [4]% and Energy Regeneration Rate by [5]%. Dragon's Call can be stacked up to [3] times.",
             "DescriptionCN": "使装备者的暴击率提高[1]%。当装备者施放普攻时，获得1层【龙吟】，持续[2]回合。每层【龙吟】使装备者的攻击力提高[4]%，能量恢复效率提高[5]%。【龙吟】最多叠加[3]层。",
             "DescriptionJP": "装備キャラの会心率+[1]%。装備キャラが通常攻撃を行った時、「龍吟」を1層獲得する、[2]ターン継続。「龍吟」1層につき、装備キャラの攻撃力+[4]%、EP回復効率+[5]%。「龍吟」は最大で[3]層累積できる。",
             "maxlevel": 5,

@@ -1,0 +1,139 @@
+{
+    "id": "23016",
+    "ENname": "Worrisome, Blissful",
+    "CNname": "烦恼着，幸福着",
+    "JAname": "悩んで笑って",
+    "imageurl": "images/lightcones/23016.png",
+    "imagelargeurl": "images/lightcones/23016l.png",
+    "wtype": "the hunt",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 26.4,
+            "def": 21
+        },
+        {
+            "level": "20",
+            "hp": 184.8,
+            "atk": 101.64,
+            "def": 80.85
+        },
+        {
+            "level": "20+",
+            "hp": 242.4,
+            "atk": 133.32,
+            "def": 106.05
+        },
+        {
+            "level": "30",
+            "hp": 314.4,
+            "atk": 172.92,
+            "def": 137.55
+        },
+        {
+            "level": "30+",
+            "hp": 391.2,
+            "atk": 215.16,
+            "def": 171.15
+        },
+        {
+            "level": "40",
+            "hp": 463.2,
+            "atk": 254.76,
+            "def": 202.65
+        },
+        {
+            "level": "40+",
+            "hp": 540.0,
+            "atk": 297.0,
+            "def": 236.25
+        },
+        {
+            "level": "50",
+            "hp": 612.0,
+            "atk": 336.6,
+            "def": 267.75
+        },
+        {
+            "level": "50+",
+            "hp": 688.8,
+            "atk": 378.84,
+            "def": 301.35
+        },
+        {
+            "level": "60",
+            "hp": 760.8,
+            "atk": 418.44,
+            "def": 332.85
+        },
+        {
+            "level": "60+",
+            "hp": 837.6,
+            "atk": 460.68,
+            "def": 366.45
+        },
+        {
+            "level": "70",
+            "hp": 909.6,
+            "atk": 500.28,
+            "def": 397.95
+        },
+        {
+            "level": "70+",
+            "hp": 986.4,
+            "atk": 542.52,
+            "def": 431.55
+        },
+        {
+            "level": "80",
+            "hp": 1058.4,
+            "atk": 582.12,
+            "def": 463.05
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "One At A Time",
+            "CNname": "一个一个来",
+            "JAname": "順番にね！",
+            "DescriptionEN": "Increase the wearer's CRIT Rate by [1]% and DMG from follow-up attacks by [2]%. After the wearer unleashes a follow-up attack, apply the Tame state to the target, stacking up to [4] stacks. When allies hit enemy targets under the Tame state, every Tame stack will increase the CRIT DMG received by [3]%.",
+            "DescriptionCN": "使装备者暴击率提高[1]%，追加攻击造成的伤害提高[2]%。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加[4]层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高[3]%。",
+            "DescriptionJP": "装備キャラの会心率+[1]%、追加攻撃の与ダメージ+[2]%。装備キャラが追加攻撃を行うと、敵を「従順」状態にする。この効果は最大で[4]層累積できる。味方が「従順」状態の敵に攻撃する時、「従順」1層につき与える会心ダメージ+[3]%。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 18,
+                    "2": 21,
+                    "3": 24,
+                    "4": 27,
+                    "5": 30
+                },
+                {
+                    "1": 30,
+                    "2": 35,
+                    "3": 40,
+                    "4": 45,
+                    "5": 50
+                },
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                }
+            ]
+        }
+    ]
+}
