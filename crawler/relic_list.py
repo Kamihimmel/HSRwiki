@@ -2,12 +2,15 @@
 
 import json
 import os
+import re
 import requests
 import sys
 
 import util
 
 from fake_useragent import UserAgent
+
+from crawler.relic_yatta import part_mapping
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # absolute path of repo dir
 languages = ['en', 'cn', 'jp']
@@ -48,6 +51,19 @@ for k in data_dict['en']:
     util.download_yatta_image('crawler/yatta/' + path, 'relic', data_en[k]['icon'], img_ext, base_dir)
     result['imageurl'] = '%s.%s' % (path, img_ext)
     result['set'] = '2' if data_en[k]['isPlanarSuit'] else '4'
+    url = 'https://api.yatta.top/hsr/v2/en/relic/%s' % result['id']
+    res = requests.get(url, headers={'User-Agent': ua.edge}, timeout=(10, 30))
+    relic_data = json.loads(res.content)
+    if relic_data and 'response' in relic_data and relic_data['response'] == 200:
+        suite = relic_data['data']['suite']
+        for suiteKey, suiteValue in suite.items():
+            p = suiteKey.lower()
+            part = part_mapping[p] if p in part_mapping else p
+            icon = suiteValue['icon']
+            img_ext = 'png'
+            path = 'images/relics/%s' % icon
+            util.download_yatta_image('crawler/yatta/' + path, 'relic', icon, img_ext, base_dir)
+            result[re.sub(r'^.*?\s+', '', part)] = '%s.%s' % (path, img_ext)
     result['infourl'] = 'lib/relics/%s.json' % k
     result['spoiler'] = data_en[k]['beta'] if 'beta' in data_en[k] else False
     if result['spoiler']:

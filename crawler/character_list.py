@@ -57,6 +57,9 @@ for k in data_dict['en']:
     path = 'images/characters/%s' % k
     util.download_yatta_image('crawler/yatta/' + path, 'avatar', data_en[k]['icon'], img_ext, base_dir)
     result['imageurl'] = '%s.%s' % (path, img_ext)
+    path = 'images/characters/%s-large' % k
+    util.download_yatta_image('crawler/yatta/' + path, 'avatar', 'large/' + data_en[k]['icon'], img_ext, base_dir)
+    result['imagelargeurl'] = '%s.%s' % (path, img_ext)
     result['etype'] = data_en[k]['types']['combatType'].lower()
     result['wtype'] = path_maping[data_en[k]['types']['pathType'].lower()]
     result['rarity'] = str(data_en[k]['rank'])
