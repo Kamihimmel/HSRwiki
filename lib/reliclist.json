@@ -7,6 +7,8 @@
             "JAname": "自転が止まったサルソットセット",
             "imageurl": "images/relics/71017.webp",
             "set": "2",
+            "sphere": "images/relics/IconRelic_306_5.webp",
+            "rope": "images/relics/IconRelic_306_6.webp",
             "infourl": "lib/relics/306.json",
             "spoiler": false
         },
@@ -17,6 +19,8 @@
             "JAname": "建創者のベロブルグセット",
             "imageurl": "images/relics/71015.webp",
             "set": "2",
+            "sphere": "images/relics/IconRelic_304_5.webp",
+            "rope": "images/relics/IconRelic_304_6.webp",
             "infourl": "lib/relics/304.json",
             "spoiler": false
         },
@@ -27,6 +31,10 @@
             "JAname": "溶岩で鍛造する火匠セット",
             "imageurl": "images/relics/71006.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_107_1.webp",
+            "hands": "images/relics/IconRelic_107_2.webp",
+            "body": "images/relics/IconRelic_107_3.webp",
+            "feet": "images/relics/IconRelic_107_4.webp",
             "infourl": "lib/relics/107.json",
             "spoiler": false
         },
@@ -37,6 +45,8 @@
             "JAname": "天体階差機関セット",
             "imageurl": "images/relics/71016.webp",
             "set": "2",
+            "sphere": "images/relics/IconRelic_305_5.webp",
+            "rope": "images/relics/IconRelic_305_6.webp",
             "infourl": "lib/relics/305.json",
             "spoiler": false
         },
@@ -47,6 +57,10 @@
             "JAname": "荒地で盗みを働く廃土客セット",
             "imageurl": "images/relics/71011.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_112_1.webp",
+            "hands": "images/relics/IconRelic_112_2.webp",
+            "body": "images/relics/IconRelic_112_3.webp",
+            "feet": "images/relics/IconRelic_112_4.webp",
             "infourl": "lib/relics/112.json",
             "spoiler": false
         },
@@ -57,6 +71,8 @@
             "JAname": "宇宙封印ステーションセット",
             "imageurl": "images/relics/71012.webp",
             "set": "2",
+            "sphere": "images/relics/IconRelic_301_5.webp",
+            "rope": "images/relics/IconRelic_301_6.webp",
             "infourl": "lib/relics/301.json",
             "spoiler": false
         },
@@ -67,6 +83,8 @@
             "JAname": "汎銀河商事会社セット",
             "imageurl": "images/relics/71014.webp",
             "set": "2",
+            "sphere": "images/relics/IconRelic_303_5.webp",
+            "rope": "images/relics/IconRelic_303_6.webp",
             "infourl": "lib/relics/303.json",
             "spoiler": false
         },
@@ -77,6 +95,10 @@
             "JAname": "星の如く輝く天才セット",
             "imageurl": "images/relics/71007.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_108_1.webp",
+            "hands": "images/relics/IconRelic_108_2.webp",
+            "body": "images/relics/IconRelic_108_3.webp",
+            "feet": "images/relics/IconRelic_108_4.webp",
             "infourl": "lib/relics/108.json",
             "spoiler": false
         },
@@ -87,6 +109,8 @@
             "JAname": "老いぬ者の仙舟セット",
             "imageurl": "images/relics/71013.webp",
             "set": "2",
+            "sphere": "images/relics/IconRelic_302_5.webp",
+            "rope": "images/relics/IconRelic_302_6.webp",
             "infourl": "lib/relics/302.json",
             "spoiler": false
         },
@@ -97,6 +121,8 @@
             "JAname": "盗賊公国タリアセット",
             "imageurl": "images/relics/71018.webp",
             "set": "2",
+            "sphere": "images/relics/IconRelic_307_5.webp",
+            "rope": "images/relics/IconRelic_307_6.webp",
             "infourl": "lib/relics/307.json",
             "spoiler": false
         },
@@ -107,6 +133,10 @@
             "JAname": "純庭教会の聖騎士セット",
             "imageurl": "images/relics/71002.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_103_1.webp",
+            "hands": "images/relics/IconRelic_103_2.webp",
+            "body": "images/relics/IconRelic_103_3.webp",
+            "feet": "images/relics/IconRelic_103_4.webp",
             "infourl": "lib/relics/103.json",
             "spoiler": false
         },
@@ -117,6 +147,10 @@
             "JAname": "雪の密林の狩人セット",
             "imageurl": "images/relics/71003.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_104_1.webp",
+            "hands": "images/relics/IconRelic_104_2.webp",
+            "body": "images/relics/IconRelic_104_3.webp",
+            "feet": "images/relics/IconRelic_104_4.webp",
             "infourl": "lib/relics/104.json",
             "spoiler": false
         },
@@ -127,6 +161,10 @@
             "JAname": "流雲無痕の過客セット",
             "imageurl": "images/relics/71000.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_101_1.webp",
+            "hands": "images/relics/IconRelic_101_2.webp",
+            "body": "images/relics/IconRelic_101_3.webp",
+            "feet": "images/relics/IconRelic_101_4.webp",
             "infourl": "lib/relics/101.json",
             "spoiler": false
         },
@@ -137,6 +175,10 @@
             "JAname": "草の穂ガンマンセット",
             "imageurl": "images/relics/71001.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_102_1.webp",
+            "hands": "images/relics/IconRelic_102_2.webp",
+            "body": "images/relics/IconRelic_102_3.webp",
+            "feet": "images/relics/IconRelic_102_4.webp",
             "infourl": "lib/relics/102.json",
             "spoiler": false
         },
@@ -147,6 +189,10 @@
             "JAname": "流星の跡を追う怪盗セット",
             "imageurl": "images/relics/71010.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_111_1.webp",
+            "hands": "images/relics/IconRelic_111_2.webp",
+            "body": "images/relics/IconRelic_111_3.webp",
+            "feet": "images/relics/IconRelic_111_4.webp",
             "infourl": "lib/relics/111.json",
             "spoiler": false
         },
@@ -157,6 +203,8 @@
             "JAname": "生命のウェンワークセット",
             "imageurl": "images/relics/71019.webp",
             "set": "2",
+            "sphere": "images/relics/IconRelic_308_5.webp",
+            "rope": "images/relics/IconRelic_308_6.webp",
             "infourl": "lib/relics/308.json",
             "spoiler": false
         },
@@ -167,6 +215,10 @@
             "JAname": "雷鳴轟くバンドセット",
             "imageurl": "images/relics/71008.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_109_1.webp",
+            "hands": "images/relics/IconRelic_109_2.webp",
+            "body": "images/relics/IconRelic_109_3.webp",
+            "feet": "images/relics/IconRelic_109_4.webp",
             "infourl": "lib/relics/109.json",
             "spoiler": false
         },
@@ -177,6 +229,10 @@
             "JAname": "昼夜の狭間を翔ける鷹セット",
             "imageurl": "images/relics/71009.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_110_1.webp",
+            "hands": "images/relics/IconRelic_110_2.webp",
+            "body": "images/relics/IconRelic_110_3.webp",
+            "feet": "images/relics/IconRelic_110_4.webp",
             "infourl": "lib/relics/110.json",
             "spoiler": false
         },
@@ -187,6 +243,10 @@
             "JAname": "成り上がりチャンピオンセット",
             "imageurl": "images/relics/71004.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_105_1.webp",
+            "hands": "images/relics/IconRelic_105_2.webp",
+            "body": "images/relics/IconRelic_105_3.webp",
+            "feet": "images/relics/IconRelic_105_4.webp",
             "infourl": "lib/relics/105.json",
             "spoiler": false
         },
@@ -197,6 +257,10 @@
             "JAname": "吹雪と対峙する兵士セット",
             "imageurl": "images/relics/71005.webp",
             "set": "4",
+            "head": "images/relics/IconRelic_106_1.webp",
+            "hands": "images/relics/IconRelic_106_2.webp",
+            "body": "images/relics/IconRelic_106_3.webp",
+            "feet": "images/relics/IconRelic_106_4.webp",
             "infourl": "lib/relics/106.json",
             "spoiler": false
         },
@@ -207,6 +271,10 @@
             "JAname": "宝命長存の蒔者",
             "imageurl": "images/relics/71020.png",
             "set": "4",
+            "head": "images/relics/IconRelic_113_1.png",
+            "hands": "images/relics/IconRelic_113_2.png",
+            "body": "images/relics/IconRelic_113_3.png",
+            "feet": "images/relics/IconRelic_113_4.png",
             "infourl": "lib/relics/113.json",
             "spoiler": false
         },
@@ -217,6 +285,10 @@
             "JAname": "仮想空間を漫遊するメッセンジャー",
             "imageurl": "images/relics/71021.png",
             "set": "4",
+            "head": "images/relics/IconRelic_114_1.png",
+            "hands": "images/relics/IconRelic_114_2.png",
+            "body": "images/relics/IconRelic_114_3.png",
+            "feet": "images/relics/IconRelic_114_4.png",
             "infourl": "lib/relics/114.json",
             "spoiler": false
         },
@@ -227,6 +299,8 @@
             "JAname": "星々の競技場",
             "imageurl": "images/relics/71022.png",
             "set": "2",
+            "sphere": "images/relics/IconRelic_309_5.png",
+            "rope": "images/relics/IconRelic_309_6.png",
             "infourl": "lib/relics/309.json",
             "spoiler": false
         },
@@ -237,6 +311,8 @@
             "JAname": "折れた竜骨",
             "imageurl": "images/relics/71023.png",
             "set": "2",
+            "sphere": "images/relics/IconRelic_310_5.png",
+            "rope": "images/relics/IconRelic_310_6.png",
             "infourl": "lib/relics/310.json",
             "spoiler": false
         }
