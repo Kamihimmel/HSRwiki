@@ -4626,6 +4626,7 @@
                 },
                 {
                     "type": "debuff",
+                    "addtarget": "reducedef",
                     "multipliertarget": "def",
                     "multiplier": 3,
                     "tag": [
