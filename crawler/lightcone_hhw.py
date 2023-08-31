@@ -188,7 +188,7 @@ skill end
 '''
 
 # main function
-def genrate_json(lightcone):
+def generate_json(lightcone):
     print('generate lib json from honeyhunterworld for: %s' % lightcone)
     soup_dict = {}
     for lang in languages:
@@ -212,4 +212,4 @@ def genrate_json(lightcone):
 
 
 if __name__ == '__main__':
-    genrate_json(sys.argv[1])
+    generate_json(sys.argv[1])

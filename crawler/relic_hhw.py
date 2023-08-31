@@ -111,7 +111,7 @@ skill end
 '''
 
 # main function
-def genrate_json(relic):
+def generate_json(relic):
     print('generate lib json from honeyhunterworld for: %s' % relic)
     soup_dict = {}
     for lang in languages:
@@ -133,4 +133,4 @@ def genrate_json(relic):
 
 
 if __name__ == '__main__':
-    genrate_json(sys.argv[1])
+    generate_json(sys.argv[1])

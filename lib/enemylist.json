@@ -1,0 +1,1723 @@
+{
+    "data": [
+        {
+            "id": "123",
+            "ENname": "Baryon",
+            "CNname": "重子",
+            "JAname": "バリオン",
+            "category": "Antimatter Legion",
+            "imageurl": "images/enemies/123.png",
+            "imagelargeurl": "images/enemies/123-large.png",
+            "etype": "minion",
+            "weakness": [
+                "ice",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "127",
+            "ENname": "Antibaryon",
+            "CNname": "反重子",
+            "JAname": "反バリオン",
+            "category": "Antimatter Legion",
+            "imageurl": "images/enemies/127.png",
+            "imagelargeurl": "images/enemies/127-large.png",
+            "etype": "minion",
+            "weakness": [
+                "physical",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "126",
+            "ENname": "Voidranger: Reaver",
+            "CNname": "虚卒•掠夺者",
+            "JAname": "ヴォイドレンジャー・略奪",
+            "category": "Antimatter Legion",
+            "imageurl": "images/enemies/126.png",
+            "imagelargeurl": "images/enemies/126-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "lightning"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "130",
+            "ENname": "Voidranger: Distorter",
+            "CNname": "虚卒•篡改者",
+            "JAname": "ヴォイドレンジャー・改ざん",
+            "category": "Antimatter Legion",
+            "imageurl": "images/enemies/130.png",
+            "imagelargeurl": "images/enemies/130-large.png",
+            "etype": "normal",
+            "weakness": [
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "129",
+            "ENname": "Voidranger: Eliminator",
+            "CNname": "虚卒•抹消者",
+            "JAname": "ヴォイドレンジャー・抹消",
+            "category": "Antimatter Legion",
+            "imageurl": "images/enemies/129.png",
+            "imagelargeurl": "images/enemies/129-large.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "ice",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "128",
+            "ENname": "Voidranger: Trampler",
+            "CNname": "虚卒•践踏者",
+            "JAname": "ヴォイドレンジャー・蹂躙",
+            "category": "Antimatter Legion",
+            "imageurl": "images/enemies/128.png",
+            "imagelargeurl": "images/enemies/128-large.png",
+            "etype": "elite",
+            "weakness": [
+                "physical",
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "1261",
+            "ENname": "Phantylia the Undying",
+            "CNname": "不死神实•幻胧",
+            "JAname": "不死の神実・幻朧",
+            "category": "Antimatter Legion",
+            "imageurl": "images/enemies/1261.gif",
+            "imagelargeurl": "images/enemies/1261-large.png",
+            "etype": "boss",
+            "weakness": [
+                "lightning",
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "87",
+            "ENname": "Silvermane Soldier",
+            "CNname": "银鬃近卫",
+            "JAname": "シルバーメイン・近衛",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/87.png",
+            "imagelargeurl": "images/enemies/87-large.png",
+            "etype": "normal",
+            "weakness": [
+                "wind",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "86",
+            "ENname": "Silvermane Gunner",
+            "CNname": "银鬃射手",
+            "JAname": "シルバーメイン・狙撃手",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/86.png",
+            "imagelargeurl": "images/enemies/86-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "ice"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "88",
+            "ENname": "Vagrant",
+            "CNname": "流浪者",
+            "JAname": "流浪者",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/88.png",
+            "imagelargeurl": "images/enemies/88-large.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "ice",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "90",
+            "ENname": "Silvermane Cannoneer",
+            "CNname": "银鬃炮手",
+            "JAname": "シルバーメイン・砲兵",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/90.png",
+            "imagelargeurl": "images/enemies/90-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "ice",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "89",
+            "ENname": "Silvermane Lieutenant",
+            "CNname": "银鬃尉官",
+            "JAname": "シルバーメイン・尉官",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/89.png",
+            "imagelargeurl": "images/enemies/89-large.png",
+            "etype": "elite",
+            "weakness": [
+                "physical",
+                "ice",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "92",
+            "ENname": "Gepard",
+            "CNname": "杰帕德",
+            "JAname": "ジェパード",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/92.png",
+            "imagelargeurl": "images/enemies/92-large.png",
+            "etype": "boss",
+            "weakness": [
+                "physical",
+                "lightning",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 40,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "91",
+            "ENname": "Cocolia",
+            "CNname": "可可利亚",
+            "JAname": "カカリア",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/91.png",
+            "imagelargeurl": "images/enemies/91-large.png",
+            "etype": "boss",
+            "weakness": [
+                "fire",
+                "lightning",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 40,
+                "fire": 0,
+                "ice": 60,
+                "lightning": 0,
+                "wind": 40,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "94",
+            "ENname": "Svarog",
+            "CNname": "史瓦罗",
+            "JAname": "スヴァローグ",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/94.png",
+            "imagelargeurl": "images/enemies/94-large.png",
+            "etype": "boss",
+            "weakness": [
+                "fire",
+                "lightning",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "93",
+            "ENname": "Bronya",
+            "CNname": "布洛妮娅",
+            "JAname": "ブローニャ",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/93.png",
+            "imagelargeurl": "images/enemies/93-large.png",
+            "etype": "boss",
+            "weakness": [
+                "physical",
+                "fire",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "96",
+            "ENname": "Cocolia, Mother of Deception",
+            "CNname": "可可利亚，虚妄之母",
+            "JAname": "カカリア・虚妄の母",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/96.png",
+            "imagelargeurl": "images/enemies/96-large.png",
+            "etype": "boss",
+            "weakness": [
+                "fire",
+                "lightning",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 40,
+                "fire": 0,
+                "ice": 60,
+                "lightning": 0,
+                "wind": 40,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "95",
+            "ENname": "Automaton Hound",
+            "CNname": "自动机兵•战犬",
+            "JAname": "自動機兵・サバーカ",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/95.png",
+            "imagelargeurl": "images/enemies/95-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "lightning"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "99",
+            "ENname": "Automaton Spider",
+            "CNname": "自动机兵•蜘蛛",
+            "JAname": "自動機兵・パウーク",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/99.png",
+            "imagelargeurl": "images/enemies/99-large.png",
+            "etype": "normal",
+            "weakness": [
+                "lightning",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "98",
+            "ENname": "Automaton Beetle",
+            "CNname": "自动机兵•甲虫",
+            "JAname": "自動機兵・ジューク",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/98.png",
+            "imagelargeurl": "images/enemies/98-large.png",
+            "etype": "normal",
+            "weakness": [
+                "lightning",
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "97",
+            "ENname": "Automaton Grizzly",
+            "CNname": "自动机兵•灰熊",
+            "JAname": "自動機兵・グリズリー",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/97.png",
+            "imagelargeurl": "images/enemies/97-large.png",
+            "etype": "elite",
+            "weakness": [
+                "fire",
+                "ice",
+                "lightning"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "101",
+            "ENname": "Automaton Direwolf",
+            "CNname": "自动机兵•齿狼",
+            "JAname": "自動機兵・ヴォルク",
+            "category": "Jarilo-VI",
+            "imageurl": "images/enemies/101.png",
+            "imagelargeurl": "images/enemies/101-large.png",
+            "etype": "elite",
+            "weakness": [
+                "ice",
+                "lightning",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "105",
+            "ENname": "Cloud Knights Patroller",
+            "CNname": "云骑巡防士卒",
+            "JAname": "雲騎軍・見廻兵士",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/105.png",
+            "imagelargeurl": "images/enemies/105-large.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "107",
+            "ENname": "Mara-Struck Soldier",
+            "CNname": "魔阴身士卒",
+            "JAname": "魔陰の身・兵卒",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/107.png",
+            "imagelargeurl": "images/enemies/107-large.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "ice",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 40,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "110",
+            "ENname": "Disciples of Sanctus Medicus: Shape Shifter",
+            "CNname": "「药王秘传」炼形者",
+            "JAname": "薬王秘伝・鍛錬者",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/110.png",
+            "imagelargeurl": "images/enemies/110-large.png",
+            "etype": "elite",
+            "weakness": [
+                "ice",
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 40,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "109",
+            "ENname": "Entranced Ingenium: Obedient Dracolion",
+            "CNname": "入魔机巧 • 率从狻猊",
+            "JAname": "入魔機巧・統率狻猊",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/109.png",
+            "imagelargeurl": "images/enemies/109-large.png",
+            "etype": "minion",
+            "weakness": [
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "113",
+            "ENname": "Entranced Ingenium: Golden Cloud Toad",
+            "CNname": "入魔机巧 • 浓云金蟾",
+            "JAname": "入魔機巧・黒雲金ガマ",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/113.png",
+            "imagelargeurl": "images/enemies/113-large.png",
+            "etype": "minion",
+            "weakness": [
+                "lightning",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "112",
+            "ENname": "Entranced Ingenium: Illumination Dragonfish",
+            "CNname": "入魔机巧 • 灯昼龙鱼",
+            "JAname": "入魔機巧・灯火龍魚",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/112.png",
+            "imagelargeurl": "images/enemies/112-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "lightning",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "111",
+            "ENname": "Aurumaton Gatekeeper",
+            "CNname": "金人司阍",
+            "JAname": "金人門番",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/111.png",
+            "imagelargeurl": "images/enemies/111-large.png",
+            "etype": "elite",
+            "weakness": [
+                "lightning",
+                "wind",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 40
+            }
+        },
+        {
+            "id": "1262",
+            "ENname": "Cloud Knight Lieutenant: Yanqing",
+            "CNname": "云骑骁卫•彦卿",
+            "JAname": "雲騎驍衛・彦卿",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/1262.png",
+            "imagelargeurl": "images/enemies/1262-large.png",
+            "etype": "boss",
+            "weakness": [
+                "lightning",
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 40,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "713",
+            "ENname": "Abundant Ebon Deer",
+            "CNname": "丰饶玄鹿",
+            "JAname": "豊穣の玄鹿",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/713.png",
+            "imagelargeurl": "images/enemies/713-large.png",
+            "etype": "boss",
+            "weakness": [
+                "fire",
+                "ice",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 40,
+                "wind": 40,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "1253",
+            "ENname": "The Ascended",
+            "CNname": "承露天人",
+            "JAname": "承露天人",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/1253.png",
+            "imagelargeurl": "images/enemies/1253-large.png",
+            "etype": "elite",
+            "weakness": [
+                "physical",
+                "ice",
+                "lightning"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 40,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "1256",
+            "ENname": "Abundance Sprite: Golden Hound",
+            "CNname": "丰饶灵兽•娄金",
+            "JAname": "豊穣の霊獣・婁金",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/1256.png",
+            "imagelargeurl": "images/enemies/1256-large.png",
+            "etype": "normal",
+            "weakness": [
+                "ice",
+                "lightning",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "1255",
+            "ENname": "Abundance Sprite: Wooden Lupus",
+            "CNname": "丰饶灵兽•奎木",
+            "JAname": "豊穣の霊獣・奎木",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/1255.png",
+            "imagelargeurl": "images/enemies/1255-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "fire",
+                "ice",
+                "lightning",
+                "wind",
+                "quantum",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "1254",
+            "ENname": "Disciples of Sanctus Medicus: Ballistarius",
+            "CNname": "「药王秘传」器元士",
+            "JAname": "薬王秘伝・器元士",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/1254.png",
+            "imagelargeurl": "images/enemies/1254-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "ice",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "1257",
+            "ENname": "Abundance Sprite: Malefic Ape",
+            "CNname": "丰饶灵兽•长右",
+            "JAname": "豊穣の霊獣・長右",
+            "category": "The Xianzhou Luofu",
+            "imageurl": "images/enemies/1257.png",
+            "imagelargeurl": "images/enemies/1257-large.png",
+            "etype": "elite",
+            "weakness": [
+                "fire",
+                "ice",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "100",
+            "ENname": "Everwinter Shadewalker",
+            "CNname": "永冬灾影",
+            "JAname": "永冬の災影",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/100.png",
+            "imagelargeurl": "images/enemies/100-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "fire",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 40,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "103",
+            "ENname": "Incineration Shadewalker",
+            "CNname": "火焚灾影",
+            "JAname": "焚火の災影",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/103.png",
+            "imagelargeurl": "images/enemies/103-large.png",
+            "etype": "normal",
+            "weakness": [
+                "ice",
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 40,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "102",
+            "ENname": "Searing Prowler",
+            "CNname": "炽燃徘徊者",
+            "JAname": "灼焔徘徊者",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/102.png",
+            "imagelargeurl": "images/enemies/102-large.png",
+            "etype": "elite",
+            "weakness": [
+                "ice",
+                "lightning",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 40,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "106",
+            "ENname": "Frigid Prowler",
+            "CNname": "深寒徘徊者",
+            "JAname": "冷寒徘徊者",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/106.png",
+            "imagelargeurl": "images/enemies/106-large.png",
+            "etype": "elite",
+            "weakness": [
+                "fire",
+                "lightning",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 40,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "104",
+            "ENname": "Thunderspawn",
+            "CNname": "鸣雷造物",
+            "JAname": "雷の造物",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/104.png",
+            "imagelargeurl": "images/enemies/104-large.png",
+            "etype": "minion",
+            "weakness": [
+                "physical",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 40,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "108",
+            "ENname": "Windspawn",
+            "CNname": "巽风造物",
+            "JAname": "風の造物",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/108.png",
+            "imagelargeurl": "images/enemies/108-large.png",
+            "etype": "minion",
+            "weakness": [
+                "fire",
+                "lightning"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 40,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "114",
+            "ENname": "Flamespawn",
+            "CNname": "炎华造物",
+            "JAname": "炎の造物",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/114.png",
+            "imagelargeurl": "images/enemies/114-large.png",
+            "etype": "minion",
+            "weakness": [
+                "physical",
+                "ice"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 40,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "117",
+            "ENname": "Frostspawn",
+            "CNname": "霜晶造物",
+            "JAname": "霜の造物",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/117.png",
+            "imagelargeurl": "images/enemies/117-large.png",
+            "etype": "minion",
+            "weakness": [
+                "fire",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 40,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "116",
+            "ENname": "Imaginary Weaver",
+            "CNname": "虚数织叶者",
+            "JAname": "虚数の葉を織る者",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/116.png",
+            "imagelargeurl": "images/enemies/116-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "fire",
+                "ice",
+                "lightning",
+                "wind",
+                "quantum",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "122",
+            "ENname": "Ice Out of Space",
+            "CNname": "外宇宙之冰",
+            "JAname": "宇宙からの氷",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/122.png",
+            "imagelargeurl": "images/enemies/122-large.png",
+            "etype": "elite",
+            "weakness": [
+                "fire",
+                "wind",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 40,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "121",
+            "ENname": "Blaze Out of Space",
+            "CNname": "外宇宙之炎",
+            "JAname": "宇宙からの炎",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/121.png",
+            "imagelargeurl": "images/enemies/121-large.png",
+            "etype": "elite",
+            "weakness": [
+                "physical",
+                "fire",
+                "ice",
+                "lightning",
+                "wind",
+                "quantum",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "125",
+            "ENname": "Guardian Shadow",
+            "CNname": "守护者之影",
+            "JAname": "守護者の影",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/125.png",
+            "imagelargeurl": "images/enemies/125-large.png",
+            "etype": "elite",
+            "weakness": [
+                "physical",
+                "wind",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "124",
+            "ENname": "Decaying Shadow",
+            "CNname": "蚕食者之影",
+            "JAname": "蚕食者の影",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/124.png",
+            "imagelargeurl": "images/enemies/124-large.png",
+            "etype": "elite",
+            "weakness": [
+                "fire",
+                "lightning",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "132",
+            "ENname": "Stormbringer",
+            "CNname": "兴风者",
+            "JAname": "ストーム",
+            "category": "Fragmentum Monsters",
+            "imageurl": "images/enemies/132.png",
+            "imagelargeurl": "images/enemies/132-large.png",
+            "etype": "elite",
+            "weakness": [
+                "fire",
+                "ice",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 40,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "118",
+            "ENname": "Sequence Trotter",
+            "CNname": "序列扑满",
+            "JAname": "序列プーマン",
+            "category": "Simulated Universe",
+            "imageurl": "images/enemies/118.png",
+            "imagelargeurl": "images/enemies/118-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "quantum",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "115",
+            "ENname": "Stellaron Hunter: Kafka",
+            "CNname": "「星核猎手」卡芙卡",
+            "JAname": "「星核ハンター」カフカ",
+            "category": "Stellaron Hunters",
+            "imageurl": "images/enemies/115.png",
+            "imagelargeurl": "images/enemies/115-large.png",
+            "etype": "boss",
+            "weakness": [
+                "physical",
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 40,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "119",
+            "ENname": "Warp Trotter",
+            "CNname": "次元扑满",
+            "JAname": "次元プーマン",
+            "category": "Cosmos",
+            "imageurl": "images/enemies/119.png",
+            "imagelargeurl": "images/enemies/119-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "quantum",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "769",
+            "ENname": "Ice Edge",
+            "CNname": "冰锋",
+            "JAname": "氷刃",
+            "category": "Other",
+            "imageurl": "images/enemies/769.png",
+            "imagelargeurl": "images/enemies/769-large.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "lightning"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "766",
+            "ENname": "Lance of the Eternal Freeze",
+            "CNname": "无尽寒冬之槊",
+            "JAname": "無尽なる冬の槊",
+            "category": "Other",
+            "imageurl": "images/enemies/766.png",
+            "imagelargeurl": "images/enemies/766-large.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "lightning"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "824",
+            "ENname": "Auxiliary Robot Arm Unit",
+            "CNname": "辅助机械臂单元",
+            "JAname": "マニピュレーターユニット",
+            "category": "Other",
+            "imageurl": "images/enemies/824.png",
+            "imagelargeurl": "images/enemies/824-large.png",
+            "etype": "normal",
+            "weakness": [
+                "lightning",
+                "wind",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "1311",
+            "ENname": "Flying Sword",
+            "CNname": "飞剑",
+            "JAname": "飛剣",
+            "category": "Other",
+            "imageurl": "images/enemies/1311.png",
+            "imagelargeurl": "images/enemies/1311-large.png",
+            "etype": "normal",
+            "weakness": [
+                "lightning",
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 40,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "717",
+            "ENname": "Twig of Wintry Wind",
+            "CNname": "肃风之杪",
+            "JAname": "厳風の梢",
+            "category": "Other",
+            "imageurl": "images/enemies/717.png",
+            "imagelargeurl": "images/enemies/717-large.png",
+            "etype": "normal",
+            "weakness": [
+                "ice",
+                "quantum",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "716",
+            "ENname": "Twig of Marple Leaf",
+            "CNname": "缃叶之杪",
+            "JAname": "黄葉の梢",
+            "category": "Other",
+            "imageurl": "images/enemies/716.png",
+            "imagelargeurl": "images/enemies/716-large.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "715",
+            "ENname": "Twig of Glorious Blooms",
+            "CNname": "繁花之杪",
+            "JAname": "万花の梢",
+            "category": "Other",
+            "imageurl": "images/enemies/715.png",
+            "imagelargeurl": "images/enemies/715-large.png",
+            "etype": "normal",
+            "weakness": [
+                "ice",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "714",
+            "ENname": "Twig of Lavish Fruits",
+            "CNname": "嘉实之杪",
+            "JAname": "嘉実の梢",
+            "category": "Other",
+            "imageurl": "images/enemies/714.png",
+            "imagelargeurl": "images/enemies/714-large.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "quantum",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "1252",
+            "ENname": "Shadow Jackhyena",
+            "CNname": "狈影",
+            "JAname": "狽影",
+            "category": "Other",
+            "imageurl": "images/enemies/1252.png",
+            "imagelargeurl": "images/enemies/1252.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "fire",
+                "ice",
+                "lightning",
+                "wind",
+                "quantum",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "784",
+            "ENname": "Trotter of Destruction",
+            "CNname": "毁灭扑满",
+            "JAname": "壊滅プーマン",
+            "category": "Other",
+            "imageurl": "images/enemies/784.png",
+            "imagelargeurl": "images/enemies/784-large.png",
+            "etype": "normal",
+            "weakness": [
+                "ice",
+                "wind",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "1083",
+            "ENname": "Trotter of Abundance",
+            "CNname": "丰饶扑满",
+            "JAname": "豊穣プーマン",
+            "category": "Other",
+            "imageurl": "images/enemies/1083.png",
+            "imagelargeurl": "images/enemies/1083-large.png",
+            "etype": "normal",
+            "weakness": [
+                "physical",
+                "lightning",
+                "quantum"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 20
+            }
+        },
+        {
+            "id": "785",
+            "ENname": "Trotter of Preservation",
+            "CNname": "存护扑满",
+            "JAname": "存護プーマン",
+            "category": "Other",
+            "imageurl": "images/enemies/785.png",
+            "imagelargeurl": "images/enemies/785-large.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "ice",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "1239",
+            "ENname": "Abundance Lotus",
+            "CNname": "丰饶玄莲",
+            "JAname": "豊穣の玄蓮",
+            "category": "Other",
+            "imageurl": "images/enemies/1239.gif",
+            "imagelargeurl": "images/enemies/1239-large.gif",
+            "etype": "normal",
+            "weakness": [
+                "wind",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 20,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "1240",
+            "ENname": "Destruction Lotus",
+            "CNname": "破灭玄莲",
+            "JAname": "破滅の玄蓮",
+            "category": "Other",
+            "imageurl": "images/enemies/1240.gif",
+            "imagelargeurl": "images/enemies/1240-large.gif",
+            "etype": "normal",
+            "weakness": [
+                "lightning",
+                "quantum",
+                "imaginary"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 20,
+                "ice": 20,
+                "lightning": 0,
+                "wind": 20,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "1279",
+            "ENname": "Engine of Creation",
+            "CNname": "造物引擎",
+            "JAname": "造物エンジン",
+            "category": "Other",
+            "imageurl": "images/enemies/1279.png",
+            "imagelargeurl": "images/enemies/1279-large.png",
+            "etype": "elite",
+            "weakness": [],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "131",
+            "ENname": "Doomsday Beast",
+            "CNname": "末日兽",
+            "JAname": "終末獣",
+            "category": "Other",
+            "imageurl": "images/enemies/131.png",
+            "imagelargeurl": "images/enemies/131.png",
+            "etype": "boss",
+            "weakness": [
+                "physical",
+                "fire",
+                "ice",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 0,
+                "wind": 0,
+                "quantum": 0,
+                "imaginary": 0
+            }
+        },
+        {
+            "id": "762",
+            "ENname": "Disaster's Right Hand",
+            "CNname": "灾虐的右手",
+            "JAname": "厄災の右手",
+            "category": "Other",
+            "imageurl": "images/enemies/762.png",
+            "imagelargeurl": "images/enemies/762.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "ice"
+            ],
+            "resistence": {
+                "physical": 20,
+                "fire": 0,
+                "ice": 0,
+                "lightning": 20,
+                "wind": 20,
+                "quantum": 20,
+                "imaginary": 40
+            }
+        },
+        {
+            "id": "760",
+            "ENname": "Antimatter Engine",
+            "CNname": "反物质引擎",
+            "JAname": "反物質エンジン",
+            "category": "Other",
+            "imageurl": "images/enemies/760.png",
+            "imagelargeurl": "images/enemies/760.png",
+            "etype": "elite",
+            "weakness": [
+                "physical",
+                "fire"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 40,
+                "imaginary": 40
+            }
+        },
+        {
+            "id": "761",
+            "ENname": "Dawn's Left Hand",
+            "CNname": "黎明的左手",
+            "JAname": "黎明の左手",
+            "category": "Other",
+            "imageurl": "images/enemies/761.png",
+            "imagelargeurl": "images/enemies/761.png",
+            "etype": "normal",
+            "weakness": [
+                "fire",
+                "wind"
+            ],
+            "resistence": {
+                "physical": 0,
+                "fire": 0,
+                "ice": 20,
+                "lightning": 20,
+                "wind": 0,
+                "quantum": 40,
+                "imaginary": 20
+            }
+        }
+    ]
+}

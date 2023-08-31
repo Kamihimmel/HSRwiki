@@ -370,7 +370,7 @@ eidolon end
 '''
 
 # main function
-def genrate_json(character):
+def generate_json(character):
     print('generate lib json from honeyhunterworld for: %s' % character)
     soup_dict = {}
     for lang in languages:
@@ -393,4 +393,4 @@ def genrate_json(character):
 
 
 if __name__ == '__main__':
-    genrate_json(sys.argv[1])
+    generate_json(sys.argv[1])
