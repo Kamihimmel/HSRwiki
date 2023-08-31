@@ -137,6 +137,7 @@
                     "type": "buff",
                     "addtarget": "normalatk",
                     "multiplier": 2,
+                    "maxstack": 6,
                     "tag": [
                         "self",
                         "normalatk"
@@ -146,6 +147,7 @@
                     "type": "buff",
                     "addtarget": "skillatk",
                     "multiplier": 2,
+                    "maxstack": 6,
                     "tag": [
                         "self",
                         "skillatk"
@@ -155,6 +157,7 @@
                     "type": "buff",
                     "addtarget": "ultcritdmg",
                     "multiplier": 3,
+                    "maxstack": 6,
                     "tag": [
                         "self",
                         "ultcritdmg"
