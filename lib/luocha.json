@@ -922,7 +922,7 @@
                 {
                     "type": "debuff",
                     "addtarget": "allres",
-                    "multiplier": -20,
+                    "multiplier": 20,
                     "tag": [
                         "allenemy",
                         "allres"
