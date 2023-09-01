@@ -8009,6 +8009,7 @@
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
+                    "maxstack": 10,
                     "tag": [
                         "aoe",
                         "followupatk",
