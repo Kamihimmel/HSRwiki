@@ -17,7 +17,7 @@ for d in data:
                 d = {'characterid': data['id']}
                 for field in fields:
                     if field in s:
-                    d[field] = s[field]
+                        d[field] = s[field]
                 skills.append(d)
 skills.sort(key=lambda sk: sk['characterid'])
 result = {'data': skills}
