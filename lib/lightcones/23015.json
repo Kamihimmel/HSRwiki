@@ -150,6 +150,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 1,
@@ -159,6 +160,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 4,
@@ -168,6 +170,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "buff",
                     "addtarget": "energyregenrate",
                     "multiplier": 5,
@@ -176,7 +179,7 @@
                         "energyregenrate"
                     ]
                 }
-            ]            
+            ]
         }
     ]
 }

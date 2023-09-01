@@ -133,6 +133,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -219,6 +220,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -229,6 +231,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 3,
@@ -239,6 +242,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "dmg",
                     "referencetarget": "dotatk",
                     "referencetargetEN": "all DoTs currently",
@@ -362,6 +366,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -372,6 +377,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "multipliertarget": "shocked",
                     "multiplier": 2,
@@ -381,6 +387,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "dmg",
                     "referencetarget": "dotatk",
                     "referencetargetEN": "DoT Shocked",
@@ -395,6 +402,7 @@
                     ]
                 },
                 {
+                    "iid": "4",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 4,
@@ -481,6 +489,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -491,6 +500,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "multipliertarget": "dotvulnerability",
                     "multiplier": 2,
@@ -522,6 +532,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 50,
@@ -531,6 +542,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "multipliertarget": "shocked",
                     "multiplier": 100,
@@ -582,6 +594,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "energy",
                     "multiplier": 5,
@@ -631,6 +644,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 4,
@@ -661,6 +675,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effecthit",
                     "multiplier": 4,
@@ -691,6 +706,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 4,
@@ -721,6 +737,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "hp",
                     "multiplier": 4,
@@ -751,6 +768,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 6,
@@ -781,6 +799,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effecthit",
                     "multiplier": 6,
@@ -811,6 +830,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 6,
@@ -841,6 +861,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "hp",
                     "multiplier": 6,
@@ -871,6 +892,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effecthit",
                     "multiplier": 8,
@@ -901,6 +923,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 8,
@@ -933,6 +956,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "debuff",
                     "addtarget": "dotdmgreceive",
                     "multiplier": 30,
@@ -962,6 +986,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "dotatk",
                     "multiplier": 20,
@@ -1011,6 +1036,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "energy",
                     "multiplier": 2,
@@ -1059,6 +1085,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "dotatk",
                     "multiplier": 156,

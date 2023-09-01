@@ -117,6 +117,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "hp",
                     "multiplier": 1,
@@ -126,6 +127,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "heal",
                     "multipliertarget": "maxhp",
                     "multiplier": 2,

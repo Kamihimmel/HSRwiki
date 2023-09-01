@@ -136,6 +136,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "def",
                     "multiplier": 1,
@@ -145,6 +146,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "multipliertarget": "burn",
                     "multiplier": 2,
@@ -154,6 +156,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "dmg",
                     "multipliertarget": "def",
                     "multiplier": 3,

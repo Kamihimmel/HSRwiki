@@ -24,6 +24,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 8,
@@ -33,6 +34,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "normalatk",
                     "multiplier": 20,
@@ -42,6 +44,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "buff",
                     "addtarget": "skillatk",
                     "multiplier": 20,

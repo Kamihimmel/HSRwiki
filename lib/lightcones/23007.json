@@ -121,6 +121,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effecthit",
                     "multiplier": 1,
@@ -130,6 +131,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 2,
@@ -139,6 +141,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "debuff",
                     "multipliertarget": "vulnerability",
                     "multiplier": 3,
@@ -147,6 +150,7 @@
                     ]
                 },
                 {
+                    "iid": "4",
                     "type": "debuff",
                     "addtarget": "dmgreceive",
                     "multiplier": 2,

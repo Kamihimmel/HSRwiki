@@ -107,6 +107,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "heal",
                     "multipliertarget": "maxhp",
                     "multiplier": 1,

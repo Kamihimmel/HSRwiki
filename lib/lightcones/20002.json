@@ -109,6 +109,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "skillatk",
                     "multiplier": 1,
@@ -118,6 +119,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "normalatk",
                     "multiplier": 1,

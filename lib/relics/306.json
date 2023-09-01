@@ -25,6 +25,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 8,
@@ -34,6 +35,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "ultatk",
                     "multiplier": 15,
@@ -43,6 +45,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "buff",
                     "addtarget": "followupatk",
                     "multiplier": 15,

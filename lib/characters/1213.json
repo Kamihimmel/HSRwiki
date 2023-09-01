@@ -133,6 +133,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -142,7 +143,7 @@
                         "imaginaryatk"
                     ]
                 }
-            ]            
+            ]
         },
         {
             "id": "121308",
@@ -185,6 +186,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -194,7 +196,7 @@
                         "imaginaryatk"
                     ]
                 }
-            ]                        
+            ]
         },
         {
             "id": "121310",
@@ -254,6 +256,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -264,6 +267,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 2,
@@ -272,8 +276,8 @@
                         "normalatk",
                         "imaginaryatk"
                     ]
-                }                
-            ]                        
+                }
+            ]
         },
         {
             "id": "121312",
@@ -333,6 +337,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -343,6 +348,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 2,
@@ -351,8 +357,8 @@
                         "normalatk",
                         "imaginaryatk"
                     ]
-                }                
-            ]                      
+                }
+            ]
         },
         {
             "id": "121302",
@@ -412,6 +418,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critdmg",
                     "multiplier": 1,
@@ -420,7 +427,7 @@
                         "critdmg"
                     ]
                 }
-            ]            
+            ]
         },
         {
             "id": "121303",
@@ -512,9 +519,10 @@
                 "blastatk",
                 "ultatk",
                 "skillpointre"
-            ],            
+            ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -525,6 +533,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 2,
@@ -534,7 +543,7 @@
                         "imaginaryatk"
                     ]
                 }
-            ]     
+            ]
         },
         {
             "id": "121304",
@@ -594,6 +603,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 1,
@@ -627,6 +637,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 120,
@@ -635,7 +646,7 @@
                         "imaginaryatk"
                     ]
                 }
-            ]            
+            ]
         }
     ],
     "tracedata": [
@@ -659,6 +670,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "energy",
                     "multiplier": 15,
@@ -667,7 +679,7 @@
                         "energy"
                     ]
                 }
-            ]            
+            ]
         },
         {
             "id": "1213102",
@@ -689,6 +701,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "controlresist",
                     "multiplier": 35,
@@ -697,7 +710,7 @@
                         "controlresist"
                     ]
                 }
-            ]            
+            ]
         },
         {
             "id": "1213103",
@@ -719,6 +732,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critdmg",
                     "multiplier": 24,
@@ -727,7 +741,7 @@
                         "critdmg"
                     ]
                 }
-            ]            
+            ]
         },
         {
             "id": "1213201",
@@ -749,6 +763,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "imaginarydmg",
                     "multiplier": 3.2,
@@ -757,7 +772,7 @@
                         "imaginarydmg"
                     ]
                 }
-            ]    
+            ]
         },
         {
             "id": "1213202",
@@ -779,6 +794,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 2.7,
@@ -787,7 +803,7 @@
                         "critrate"
                     ]
                 }
-            ]    
+            ]
         },
         {
             "id": "1213203",
@@ -809,6 +825,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "imaginarydmg",
                     "multiplier": 3.2,
@@ -817,7 +834,7 @@
                         "imaginarydmg"
                     ]
                 }
-            ]    
+            ]
         },
         {
             "id": "1213204",
@@ -839,6 +856,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "hp",
                     "multiplier": 4,
@@ -869,6 +887,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "imaginarydmg",
                     "multiplier": 4.8,
@@ -877,7 +896,7 @@
                         "imaginarydmg"
                     ]
                 }
-            ]    
+            ]
         },
         {
             "id": "1213206",
@@ -899,6 +918,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 4,
@@ -907,7 +927,7 @@
                         "critrate"
                     ]
                 }
-            ]    
+            ]
         },
         {
             "id": "1213207",
@@ -929,6 +949,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "imaginarydmg",
                     "multiplier": 4.8,
@@ -937,7 +958,7 @@
                         "imaginarydmg"
                     ]
                 }
-            ]    
+            ]
         },
         {
             "id": "1213208",
@@ -959,6 +980,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "hp",
                     "multiplier": 6,
@@ -967,7 +989,7 @@
                         "hp"
                     ]
                 }
-            ]            
+            ]
         },
         {
             "id": "1213209",
@@ -989,6 +1011,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 5.3,
@@ -997,7 +1020,7 @@
                         "critrate"
                     ]
                 }
-            ]    
+            ]
         },
         {
             "id": "1213210",
@@ -1019,6 +1042,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "imaginarydmg",
                     "multiplier": 6.4,
@@ -1027,7 +1051,7 @@
                         "imaginarydmg"
                     ]
                 }
-            ]    
+            ]
         }
     ],
     "eidolon": [
@@ -1048,7 +1072,7 @@
                 "buff",
                 "special",
                 "self"
-            ]            
+            ]
         },
         {
             "id": "121302",
@@ -1069,6 +1093,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "actionf",
                     "multiplier": 100,
@@ -1077,7 +1102,7 @@
                         "actionf"
                     ]
                 }
-            ]            
+            ]
         },
         {
             "id": "121303",
@@ -1096,7 +1121,7 @@
                 "buff",
                 "special",
                 "self"
-            ]            
+            ]
         },
         {
             "id": "121304",
@@ -1115,7 +1140,7 @@
                 "buff",
                 "special",
                 "self"
-            ]            
+            ]
         },
         {
             "id": "121305",
@@ -1134,7 +1159,7 @@
                 "buff",
                 "special",
                 "self"
-            ]            
+            ]
         },
         {
             "id": "121306",
@@ -1156,6 +1181,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "imaginarypen",
                     "multiplier": 20,
@@ -1164,7 +1190,7 @@
                         "imaginarypen"
                     ]
                 }
-            ]            
+            ]
         }
     ]
 }

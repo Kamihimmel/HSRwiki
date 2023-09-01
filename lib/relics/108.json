@@ -24,6 +24,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "quantumdmg",
                     "multiplier": 10,
@@ -50,6 +51,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "ignoredef",
                     "multiplier": 10,
@@ -59,6 +61,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "ignoredef",
                     "multiplier": 10,

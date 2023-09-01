@@ -127,6 +127,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "debuff",
                     "multipliertarget": "reducedef",
                     "multiplier": 1,
@@ -136,6 +137,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "multipliertarget": "def",
                     "multiplier": 2,
