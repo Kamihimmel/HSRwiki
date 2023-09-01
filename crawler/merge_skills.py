@@ -18,7 +18,7 @@ for d in data:
                 if 'tags' not in s or 'effect' not in s:
                     continue
                 effect_list = list(
-                    filter(lambda e: 'type' in e and (e['type'] == 'buff' or e['type'] == 'debuff'), s['effect']))
+                    filter(lambda e: 'type' in e and 'iid' in e and (e['type'] == 'buff' or e['type'] == 'debuff'), s['effect']))
                 if len(effect_list) == 0:
                     continue
                 d = {'characterid': data['id']}
