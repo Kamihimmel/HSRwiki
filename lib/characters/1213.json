@@ -597,6 +597,7 @@
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 1,
+                    "maxstack": 6,
                     "tag": [
                         "self",
                         "alldmg"
