@@ -226,6 +226,7 @@
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -235,6 +236,7 @@
                     "type": "dmg",
                     "multipliertarget": "maxhp",
                     "multiplier": 4,
+                    "group": "1",
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -244,6 +246,7 @@
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 3,
+                    "group": "2",
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -253,6 +256,7 @@
                     "type": "dmg",
                     "multipliertarget": "maxhp",
                     "multiplier": 5,
+                    "group": "2",
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -508,6 +512,7 @@
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
+                    "group": "1",
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -517,6 +522,7 @@
                     "type": "dmg",
                     "multipliertarget": "maxhp",
                     "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -525,7 +531,8 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "losthp",
-                    "multiplier": 3,
+                    "multiplier": 5,
+                    "group": "1",
                     "tag": [
                         "singleatk",
                         "windatk"
@@ -534,7 +541,8 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 4,
+                    "multiplier": 3,
+                    "group": "2",
                     "tag": [
                         "allenemy",
                         "windatk"
@@ -543,7 +551,8 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "maxhp",
-                    "multiplier": 5,
+                    "multiplier": 4,
+                    "group": "2",
                     "tag": [
                         "allenemy",
                         "windatk"
@@ -553,6 +562,7 @@
                     "type": "dmg",
                     "multipliertarget": "losthp",
                     "multiplier": 6,
+                    "group": "2",
                     "tag": [
                         "allenemy",
                         "windatk"
@@ -653,7 +663,8 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "atk",
-                    "multiplier": 1,
+                    "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "allenemy",
                         "windatk",
@@ -663,7 +674,8 @@
                 {
                     "type": "dmg",
                     "multipliertarget": "maxhp",
-                    "multiplier": 3,
+                    "multiplier": 4,
+                    "group": "1",
                     "tag": [
                         "allenemy",
                         "windatk",
@@ -673,7 +685,7 @@
                 {
                     "type": "heal",
                     "multipliertarget": "maxhp",
-                    "multiplier": 2,
+                    "multiplier": 3,
                     "tag": [
                         "heal",
                         "maxhp"
@@ -765,6 +777,7 @@
                     "type": "heal",
                     "multipliertarget": "maxhp",
                     "multiplier": 5,
+                    "group": "1",
                     "tag": [
                         "self",
                         "heal"
@@ -774,6 +787,7 @@
                     "type": "heal",
                     "multipliertarget": "",
                     "multiplier": 100,
+                    "group": "1",
                     "tag": [
                         "self",
                         "heal"
