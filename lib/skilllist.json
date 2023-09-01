@@ -888,7 +888,8 @@
                     "addtarget": "firedmgreceive",
                     "multiplier": 2,
                     "tag": [
-                        "firedmgreceive"
+                        "firedmgreceive",
+                        "allenemy"
                     ]
                 }
             ]
