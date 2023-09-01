@@ -927,27 +927,18 @@
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "buff",
+                "debuff",
                 "special",
-                "self"
+                "singleenemy"
             ],
             "effect": [
                 {
                     "type": "debuff",
-                    "multipliertarget": "dotatk",
-                    "multiplier": 100,
-                    "tag": [
-                        "allenemy",
-                        "dotatk"
-                    ]
-                },
-                {
-                    "type": "buff",
-                    "addtarget": "dotatk",
+                    "addtarget": "dotdmgreceive",
                     "multiplier": 30,
                     "tag": [
-                        "self",
-                        "dotatk"
+                        "singleenemy",
+                        "dotdmgreceive"
                     ]
                 }
             ]
