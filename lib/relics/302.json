@@ -19,15 +19,15 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "maxhp"
+                "hp"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "maxhp",
+                    "addtarget": "hp",
                     "multiplier": 12,
                     "tag": [
-                        "maxhp",
+                        "hp",
                         "self"
                     ]
                 },

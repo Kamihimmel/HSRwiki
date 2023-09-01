@@ -463,15 +463,15 @@
             "tags": [
                 "buff",
                 "allally",
-                "maxhp"
+                "hp"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "maxhp",
+                    "addtarget": "hp",
                     "multiplier": 10,
                     "tag": [
-                        "maxhp"
+                        "hp"
                     ]
                 }
             ]

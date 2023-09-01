@@ -118,18 +118,18 @@
             "tags": [
                 "buff",
                 "self",
-                "maxhp",
+                "hp",
                 "healingbonus",
                 "additionalatk"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "maxhp",
+                    "addtarget": "hp",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "maxhp"
+                        "hp"
                     ]
                 },
                 {

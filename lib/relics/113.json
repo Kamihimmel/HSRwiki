@@ -20,16 +20,16 @@
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "maxhp"
+                "hp"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "maxhp",
+                    "addtarget": "hp",
                     "multiplier": 12,
                     "tag": [
                         "self",
-                        "maxhp"
+                        "hp"
                     ]
                 }
             ]

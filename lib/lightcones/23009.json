@@ -131,7 +131,7 @@
                 "buff",
                 "self",
                 "critrate",
-                "maxhp",
+                "hp",
                 "alldmg"
             ],
             "effect": [
@@ -146,11 +146,11 @@
                 },
                 {
                     "type": "buff",
-                    "addtarget": "maxhp",
+                    "addtarget": "hp",
                     "multiplier": 2,
                     "tag": [
                         "self",
-                        "maxhp"
+                        "hp"
                     ]
                 },
                 {

@@ -1204,17 +1204,18 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "maxhp",
+                "hp",
                 "self"
             ],
             "effect": [
                 {
                     "type": "buff",
-                    "addtarget": "maxhp",
+                    "addtarget": "hp",
                     "multiplier": 20,
+                    "maxstack": 2,
                     "tag": [
                         "self",
-                        "heal"
+                        "hp"
                     ]
                 }
             ]
