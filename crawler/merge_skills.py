@@ -4,7 +4,8 @@ import json
 import os
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-fields = ['id', 'ENname', 'CNname', 'JAname', 'stype', 'maxlevel', 'weaknessbreak', 'energyregen', 'levelmultiplier', 'tags', 'effect']
+fields = ['id', 'ENname', 'CNname', 'JAname', 'stype', 'maxlevel', 'weaknessbreak', 'energyregen', 'levelmultiplier',
+          'tags']
 
 skills = []
 with open(base_dir + '/lib/characterlist.json', 'r', encoding='utf-8') as f:
@@ -14,10 +15,17 @@ for d in data:
         data = json.load(j)
         if 'skilldata' in data and data['skilldata'] is not None:
             for s in data['skilldata']:
+                if 'tags' not in s or 'effect' not in s:
+                    continue
+                effect_list = list(
+                    filter(lambda e: 'type' in e and (e['type'] == 'buff' or e['type'] == 'debuff'), s['effect']))
+                if len(effect_list) == 0:
+                    continue
                 d = {'characterid': data['id']}
                 for field in fields:
                     if field in s:
                         d[field] = s[field]
+                d['effect'] = effect_list
                 skills.append(d)
 skills.sort(key=lambda sk: sk['characterid'])
 result = {'data': skills}
