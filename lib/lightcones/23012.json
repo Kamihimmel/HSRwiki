@@ -116,6 +116,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critdmg",
                     "multiplier": 1,
@@ -125,6 +126,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 2,

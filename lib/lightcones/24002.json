@@ -125,6 +125,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 1,
@@ -134,6 +135,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "shield",
                     "multipliertarget": "maxhp",
                     "multiplier": 2,
@@ -143,6 +145,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "buff",
                     "addtarget": "dmgreduction",
                     "multiplier": 3,

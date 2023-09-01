@@ -133,6 +133,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -207,6 +208,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -217,6 +219,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -227,6 +230,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "debuff",
                     "multipliertarget": "reducespeed",
                     "multiplier": 2,
@@ -235,6 +239,7 @@
                     ]
                 },
                 {
+                    "iid": "4",
                     "type": "debuff",
                     "addtarget": "speed",
                     "multiplier": 3,
@@ -313,6 +318,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -323,6 +329,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "multipliertarget": "imprison",
                     "multiplier": 4,
@@ -331,6 +338,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "debuff",
                     "addtarget": "actiond",
                     "multiplier": 2,
@@ -340,6 +348,7 @@
                     ]
                 },
                 {
+                    "iid": "4",
                     "type": "debuff",
                     "addtarget": "speed",
                     "multiplier": 3,
@@ -390,6 +399,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -424,6 +434,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "debuff",
                     "multipliertarget": "imprison",
                     "multiplier": 100,
@@ -432,6 +443,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "addtarget": "actiond",
                     "multiplier": 20,
@@ -441,6 +453,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "debuff",
                     "addtarget": "speed",
                     "multiplier": -10,
@@ -473,6 +486,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "debuff",
                     "multipliertarget": "vulnerability",
                     "multiplier": 100,
@@ -482,6 +496,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "addtarget": "dmgreceive",
                     "multiplier": 12,
@@ -513,6 +528,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "energy",
                     "multiplier": 10,
@@ -543,6 +559,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 20,
@@ -573,6 +590,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "imaginarydmg",
                     "multiplier": 3.2,
@@ -603,6 +621,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 4,
@@ -633,6 +652,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 4,
@@ -663,6 +683,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 6,
@@ -693,6 +714,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "imaginarydmg",
                     "multiplier": 4.8,
@@ -723,6 +745,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 6,
@@ -753,6 +776,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 6,
@@ -783,6 +807,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "imaginarydmg",
                     "multiplier": 6.4,
@@ -813,6 +838,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 8,
@@ -843,6 +869,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 4,
@@ -911,6 +938,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -920,6 +948,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 2,
@@ -950,6 +979,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "energy",
                     "multiplier": 3,

@@ -133,6 +133,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -224,6 +225,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -234,6 +236,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 2,
@@ -244,6 +247,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "debuff",
                     "multipliertarget": "shocked",
                     "multiplier": 3,
@@ -252,6 +256,7 @@
                     ]
                 },
                 {
+                    "iid": "4",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 4,
@@ -304,6 +309,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -356,6 +362,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -389,6 +396,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 50,
@@ -398,6 +406,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "multipliertarget": "shocked",
                     "multiplier": 100,
@@ -407,6 +416,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 50,
@@ -439,6 +449,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "shocked",
                     "multiplier": 20,
@@ -467,6 +478,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "energy",
                     "multiplier": 15,
@@ -497,6 +509,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 20,
@@ -527,6 +540,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effecthit",
                     "multiplier": 4,
@@ -557,6 +571,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 2.7,
@@ -587,6 +602,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 4,
@@ -617,6 +633,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 4,
@@ -647,6 +664,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effecthit",
                     "multiplier": 6,
@@ -677,6 +695,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 4,
@@ -707,6 +726,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 6,
@@ -737,6 +757,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effecthit",
                     "multiplier": 8,
@@ -767,6 +788,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 2.7,
@@ -797,6 +819,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 5.3,
@@ -828,6 +851,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "normalatk",
                     "multiplier": 60,
@@ -857,6 +881,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "energy",
                     "multiplier": 4,
@@ -906,6 +931,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "debuff",
                     "addtarget": "shocked",
                     "multiplier": 100,
@@ -955,6 +981,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 30,

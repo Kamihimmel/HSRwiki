@@ -108,6 +108,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "multipliertarget": "energy",
                     "multiplier": 1,

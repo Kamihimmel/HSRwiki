@@ -133,6 +133,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -206,6 +207,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -215,6 +217,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "debuff",
                     "multipliertarget": "frozen",
                     "multiplier": 2,
@@ -224,6 +227,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 3,
@@ -293,6 +297,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "shield",
                     "multipliertarget": "def",
                     "multiplier": 1,
@@ -302,6 +307,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "shield",
                     "multipliertarget": "",
                     "multiplier": 2,
@@ -353,6 +359,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "revive",
                     "multipliertarget": "maxhp",
                     "multiplier": 1,
@@ -385,6 +392,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "shield",
                     "multipliertarget": "def",
                     "multiplier": 24,
@@ -393,6 +401,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "shield",
                     "multipliertarget": "",
                     "multiplier": 150,
@@ -479,6 +488,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "def",
                     "multiplier": 7.5,
@@ -509,6 +519,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 8,
@@ -539,6 +550,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "icedmg",
                     "multiplier": 6.4,
@@ -569,6 +581,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "icedmg",
                     "multiplier": 3.2,
@@ -599,6 +612,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 4,
@@ -629,6 +643,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "icedmg",
                     "multiplier": 3.2,
@@ -659,6 +674,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "icedmg",
                     "multiplier": 4.8,
@@ -689,6 +705,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 6,
@@ -719,6 +736,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "def",
                     "multiplier": 5,
@@ -749,6 +767,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "icedmg",
                     "multiplier": 4.8,
@@ -780,6 +799,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "frozen",
                     "multiplier": 35,
@@ -809,6 +829,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "debuff",
                     "multipliertarget": "speed",
                     "multiplier": 20,
@@ -857,6 +878,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 20,
@@ -906,6 +928,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "actionf",
                     "multiplier": 100,
@@ -915,6 +938,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "heal",
                     "multipliertarget": "maxhp",
                     "multiplier": 50,

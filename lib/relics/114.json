@@ -24,6 +24,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "speed",
                     "multiplier": 6,
@@ -48,6 +49,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "speed",
                     "multiplier": 12,

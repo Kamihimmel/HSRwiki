@@ -120,6 +120,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 1,
@@ -129,6 +130,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "energy",
                     "multiplier": 3,
@@ -138,6 +140,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "buff",
                     "addtarget": "speedpt",
                     "multiplier": 2,

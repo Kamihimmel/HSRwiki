@@ -23,6 +23,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 10,
@@ -32,6 +33,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "critdmg",
                     "multiplier": 10,

@@ -23,6 +23,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "energyregenrate",
                     "multiplier": 5,
@@ -32,6 +33,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "actionf",
                     "multiplier": 40,

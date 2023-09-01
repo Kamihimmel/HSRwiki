@@ -24,6 +24,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "winddmg",
                     "multiplier": 10,
@@ -50,6 +51,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "actionf",
                     "multiplier": 25,

@@ -24,6 +24,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "icedmg",
                     "multiplier": 10,
@@ -50,6 +51,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "critdmg",
                     "multiplier": 25,

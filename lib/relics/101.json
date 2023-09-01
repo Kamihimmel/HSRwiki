@@ -24,6 +24,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "healingbonus",
                     "multiplier": 10,

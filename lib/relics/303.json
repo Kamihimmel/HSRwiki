@@ -23,6 +23,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "effecthit",
                     "multiplier": 10,
@@ -32,6 +33,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "referencetarget": "effecthit",
                     "referencetargetEN": "Effect Hit",

@@ -150,6 +150,7 @@
             ],
             "effect": [
                 {
+                    "iid": "1",
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 2,
@@ -159,6 +160,7 @@
                     ]
                 },
                 {
+                    "iid": "2",
                     "type": "buff",
                     "addtarget": "speed",
                     "multiplier": 3,
@@ -168,6 +170,7 @@
                     ]
                 },
                 {
+                    "iid": "3",
                     "type": "dotatk",
                     "addtarget": "atk",
                     "multiplier": 1,
