@@ -283,7 +283,6 @@
                     "iid": "3",
                     "type": "debuff",
                     "addtarget": "reducedef",
-                    "multipliertarget": "def",
                     "multiplier": 3,
                     "tag": [
                         "allenemy",
