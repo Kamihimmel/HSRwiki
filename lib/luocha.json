@@ -207,6 +207,7 @@
                     "type": "heal",
                     "multipliertarget": "atk",
                     "multiplier": 1,
+                    "group": "1",
                     "tag": [
                         "singleally",
                         "heal"
@@ -217,6 +218,7 @@
                     "type": "heal",
                     "multipliertarget": "",
                     "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "singleally",
                         "heal"
@@ -344,6 +346,7 @@
                     "type": "heal",
                     "multipliertarget": "atk",
                     "multiplier": 1,
+                    "group": "1",
                     "tag": [
                         "singleally",
                         "heal"
@@ -354,6 +357,7 @@
                     "type": "heal",
                     "multipliertarget": "",
                     "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "singleally",
                         "heal"
@@ -408,6 +412,7 @@
                     "type": "heal",
                     "multipliertarget": "atk",
                     "multiplier": 7,
+                    "group": "1",
                     "tag": [
                         "self",
                         "heal"
@@ -418,6 +423,7 @@
                     "type": "heal",
                     "multipliertarget": "",
                     "multiplier": 93,
+                    "group": "1",
                     "tag": [
                         "self",
                         "heal"
