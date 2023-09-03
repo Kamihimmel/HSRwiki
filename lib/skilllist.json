@@ -1612,7 +1612,9 @@
                     "referencetargetCN": "布洛妮娅",
                     "referencetargetJP": "ブローニャ",
                     "addtarget": "critdmg",
+                    "multipliertarget": "critdmg",
                     "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "allally",
                         "critdmg"
@@ -1623,6 +1625,7 @@
                     "type": "buff",
                     "addtarget": "critdmg",
                     "multiplier": 3,
+                    "group": "1",
                     "tag": [
                         "allally",
                         "critdmg"
