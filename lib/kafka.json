@@ -405,7 +405,7 @@
                     "referencetargetEN": "DoT Shocked",
                     "referencetargetCN": "触电持续伤害",
                     "referencetargetJP": "感電持続ダメージ",
-                    "multipliertarget": "dotdmg",
+                    "multipliertarget": "shockeddotdmg",
                     "multiplier": 5,
                     "tag": [
                         "aoe",
@@ -427,13 +427,13 @@
                 {
                     "iid": "5",
                     "type": "buff",
-                    "addtarget": "shockdotdmg",
-                    "multipliertarget": "shockdotdmg",
+                    "addtarget": "shockeddotdmg",
+                    "multipliertarget": "shockeddotdmg",
                     "multiplier": 5,
                     "multipliervalue": "1",
                     "tag": [
                         "self",
-                        "shockdotdmg"
+                        "shockeddotdmg"
                     ]
                 }
             ]
