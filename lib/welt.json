@@ -235,7 +235,7 @@
                     "multipliertarget": "reducespeed",
                     "multiplier": 2,
                     "tag": [
-                        "singleenemy"
+                        "singleenemy",
                         "reducespeed"
                     ]
                 },
