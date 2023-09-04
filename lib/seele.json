@@ -911,6 +911,7 @@
                 {
                     "iid": "1",
                     "type": "dmg",
+                    "referencelevel": "110203",
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
