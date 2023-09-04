@@ -384,11 +384,11 @@
                 {
                     "iid": "2",
                     "type": "debuff",
-                    "addtarget": "def",
+                    "addtarget": "reducedef",
                     "multiplier": 2,
                     "tag": [
                         "singleenemy",
-                        "def"
+                        "reducedef"
                     ]
                 },
                 {
