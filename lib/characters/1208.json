@@ -125,6 +125,24 @@
                     "8": 60,
                     "9": 65
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "quantumatk"
+                    ]
+                }
             ]
         },
         {
@@ -228,6 +246,34 @@
                     "14": 14.4,
                     "15": 15
                 }
+            ],
+            "tags": [
+                "buff",
+                "allally",
+                "maxhp",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "allally",
+                        "hp"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 5,
+                    "tag": [
+                        "allally",
+                        "critrate"
+                    ]
+                }
             ]
         },
         {
@@ -263,6 +309,24 @@
                     "13": 112,
                     "14": 116,
                     "15": 120
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "ultatk",
+                        "quantumatk"
+                    ]
                 }
             ]
         },
