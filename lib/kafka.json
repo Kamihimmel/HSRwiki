@@ -264,7 +264,8 @@
                     "tag": [
                         "self",
                         "alldotdmg"
-                    ]
+                    ],
+                    "hide": true
                 }
             ]
         },
@@ -434,7 +435,8 @@
                     "tag": [
                         "self",
                         "shockeddotdmg"
-                    ]
+                    ],
+                    "hide": true
                 }
             ]
         },

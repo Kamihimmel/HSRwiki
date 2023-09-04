@@ -179,6 +179,7 @@
                     "15": 130
                 }
             ],
+            "referencelevel": "121301",
             "tags": [
                 "singleatk",
                 "normalatk",
@@ -249,6 +250,7 @@
                     "15": 30
                 }
             ],
+            "referencelevel": "121301",
             "tags": [
                 "blastatk",
                 "normalatk",
@@ -330,6 +332,7 @@
                     "15": 90
                 }
             ],
+            "referencelevel": "121301",
             "tags": [
                 "blastatk",
                 "normalatk",
@@ -422,6 +425,7 @@
                     "type": "buff",
                     "addtarget": "critdmg",
                     "multiplier": 1,
+                    "maxstack": 4,
                     "tag": [
                         "self",
                         "critdmg"
@@ -1068,10 +1072,43 @@
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 5,
+                    "2": 5.5,
+                    "3": 6,
+                    "4": 6.5,
+                    "5": 7,
+                    "6": 7.5,
+                    "7": 8.12,
+                    "8": 8.75,
+                    "9": 9.38,
+                    "10": 10,
+                    "11": 10.5,
+                    "12": 11,
+                    "13": 11.5,
+                    "14": 12,
+                    "15": 12.5
+                }
+            ],
+            "referencelevel": "121304",
             "tags": [
                 "buff",
                 "special",
                 "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "maxstack": 4,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                }
             ]
         },
         {
@@ -1185,6 +1222,7 @@
                     "type": "buff",
                     "addtarget": "imaginarypen",
                     "multiplier": 20,
+                    "maxstack": 3,
                     "tag": [
                         "self",
                         "imaginarypen"
