@@ -218,185 +218,24 @@
         },
         {
             "characterid": "1002",
-            "id": "100203",
-            "ENname": "Ethereal Dream",
-            "CNname": "洞天幻化，长梦一觉",
-            "JAname": "洞天幻化、長夢一覚",
-            "stype": "ult",
-            "maxlevel": 15,
-            "weaknessbreak": 90,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "1": 240,
-                    "2": 256,
-                    "3": 272,
-                    "4": 288,
-                    "5": 304,
-                    "6": 320,
-                    "7": 340,
-                    "8": 360,
-                    "9": 380,
-                    "10": 400,
-                    "11": 416,
-                    "12": 432,
-                    "13": 448,
-                    "14": 464,
-                    "15": 480
-                },
-                {
-                    "1": 72,
-                    "2": 76.8,
-                    "3": 81.6,
-                    "4": 86.4,
-                    "5": 91.2,
-                    "6": 96,
-                    "7": 102,
-                    "8": 108,
-                    "9": 114,
-                    "10": 120,
-                    "11": 124.8,
-                    "12": 129.6,
-                    "13": 134.4,
-                    "14": 139.2,
-                    "15": 144
-                }
-            ],
+            "id": "100206",
+            "ENname": "The Troubled Soul Lies in Wait",
+            "CNname": "须绳缚身，沉潜勿用",
+            "JAname": "今生縄縛\n解く時急く勿れ",
+            "stype": "eidolon",
             "tags": [
-                "singleatk",
-                "ultatk",
-                "windatk"
-            ],
-            "effect": [
-                {
-                    "iid": "2",
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 2,
-                    "tag": [
-                        "ultatk"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1002",
-            "id": "100204",
-            "ENname": "Superiority of Reach",
-            "CNname": "寸长寸强",
-            "JAname": "寸長寸強",
-            "stype": "talent",
-            "maxlevel": 15,
-            "levelmultiplier": [
-                {
-                    "1": 18,
-                    "2": 19.8,
-                    "3": 21.6,
-                    "4": 23.4,
-                    "5": 25.2,
-                    "6": 27,
-                    "7": 29.25,
-                    "8": 31.5,
-                    "9": 33.75,
-                    "10": 36,
-                    "11": 37.8,
-                    "12": 39.6,
-                    "13": 41.4,
-                    "14": 43.2,
-                    "15": 45
-                }
-            ],
-            "tags": [
-                "buff",
-                "self",
-                "windpen"
+                "debuff",
+                "speed"
             ],
             "effect": [
                 {
                     "iid": "1",
-                    "type": "buff",
-                    "addtarget": "windpen",
-                    "multiplier": 1,
+                    "type": "debuff",
+                    "multipliertarget": "speed",
+                    "multiplier": 8,
                     "tag": [
-                        "self",
-                        "windpen"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1002",
-            "id": "100207",
-            "ENname": "Splitting Spearhead",
-            "CNname": "破敌锋芒",
-            "JAname": "破敵の矛先",
-            "stype": "technique",
-            "maxlevel": 0,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 40,
-                    "tag": [
-                        "self",
-                        "atk"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1003",
-            "id": "100303",
-            "ENname": "Heavenly Flare",
-            "CNname": "天坠之火",
-            "JAname": "天墜の火",
-            "stype": "ult",
-            "maxlevel": 15,
-            "weaknessbreak": 60,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "1": 138,
-                    "2": 147.2,
-                    "3": 156.4,
-                    "4": 165.6,
-                    "5": 174.8,
-                    "6": 184,
-                    "7": 195.5,
-                    "8": 207,
-                    "9": 218.5,
-                    "10": 230,
-                    "11": 239.2,
-                    "12": 248.4,
-                    "13": 257.6,
-                    "14": 266.8,
-                    "15": 276
-                },
-                {
-                    "default": 5
-                }
-            ],
-            "tags": [
-                "aoe",
-                "ultatk",
-                "fireatk",
-                "energy"
-            ],
-            "effect": [
-                {
-                    "iid": "2",
-                    "type": "buff",
-                    "addtarget": "energy",
-                    "multiplier": 2,
-                    "tag": [
-                        "self",
-                        "energy"
+                        "speed",
+                        "singleenemy"
                     ]
                 }
             ]
@@ -425,15 +264,6 @@
             ],
             "effect": [
                 {
-                    "iid": "1",
-                    "type": "debuff",
-                    "multipliertarget": "firevulnerability",
-                    "multiplier": 1,
-                    "tag": [
-                        "firevulnerability"
-                    ]
-                },
-                {
                     "iid": "2",
                     "type": "debuff",
                     "addtarget": "firedmgreceive",
@@ -446,79 +276,26 @@
             ]
         },
         {
-            "characterid": "1004",
-            "id": "100402",
-            "ENname": "Edge of the Void",
-            "CNname": "虚空断界",
-            "JAname": "虚空断界",
-            "stype": "skill",
-            "maxlevel": 15,
-            "weaknessbreak": 30,
-            "energyregen": 10,
-            "levelmultiplier": [
-                {
-                    "1": 36,
-                    "2": 39.6,
-                    "3": 43.2,
-                    "4": 46.8,
-                    "5": 50.4,
-                    "6": 54,
-                    "7": 58.5,
-                    "8": 63,
-                    "9": 67.5,
-                    "10": 72,
-                    "11": 75.6,
-                    "12": 79.2,
-                    "13": 82.8,
-                    "14": 86.4,
-                    "15": 90
-                },
-                {
-                    "1": 65,
-                    "2": 66,
-                    "3": 67,
-                    "4": 68,
-                    "5": 69,
-                    "6": 70,
-                    "7": 71.25,
-                    "8": 72.5,
-                    "9": 73.75,
-                    "10": 75,
-                    "11": 76,
-                    "12": 77,
-                    "13": 78,
-                    "14": 79,
-                    "15": 80
-                },
-                {
-                    "default": -10
-                }
-            ],
+            "characterid": "1003",
+            "id": "1003101",
+            "ENname": "Starfire",
+            "CNname": "星火",
+            "JAname": "星火",
+            "stype": "trace",
             "tags": [
-                "bounce",
-                "skillatk",
-                "imaginaryatk",
-                "debuff",
-                "speed"
+                "buff",
+                "self",
+                "followupatk"
             ],
             "effect": [
                 {
-                    "iid": "3",
+                    "iid": "1",
                     "type": "debuff",
-                    "multipliertarget": "reducespeed",
-                    "multiplier": 2,
+                    "multipliertarget": "burn",
+                    "multiplier": 50,
                     "tag": [
-                        "reducespeed"
-                    ]
-                },
-                {
-                    "iid": "4",
-                    "type": "debuff",
-                    "addtarget": "speed",
-                    "multiplier": 3,
-                    "tag": [
-                        "bounce",
-                        "speed"
+                        "allenemy",
+                        "burn"
                     ]
                 }
             ]
@@ -665,6 +442,41 @@
             ]
         },
         {
+            "characterid": "1004",
+            "id": "1004101",
+            "ENname": "Retribution",
+            "CNname": "惩戒",
+            "JAname": "懲戒",
+            "stype": "trace",
+            "tags": [
+                "debuff",
+                "allenemy",
+                "dmgreceive"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "vulnerability",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy",
+                        "vulnerability"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": 12,
+                    "tag": [
+                        "allenemy",
+                        "dmgreceive"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "1005",
             "id": "100503",
             "ENname": "Twilight Trill",
@@ -781,86 +593,6 @@
         },
         {
             "characterid": "1005",
-            "id": "100504",
-            "ENname": "Gentle but Cruel",
-            "CNname": "温柔亦同残酷",
-            "JAname": "優しさもまた残酷",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 30,
-            "energyregen": 10,
-            "levelmultiplier": [
-                {
-                    "1": 42,
-                    "2": 51.8,
-                    "3": 61.6,
-                    "4": 71.4,
-                    "5": 81.2,
-                    "6": 91,
-                    "7": 103.25,
-                    "8": 115.5,
-                    "9": 127.75,
-                    "10": 140,
-                    "11": 149.8,
-                    "12": 159.6,
-                    "13": 169.4,
-                    "14": 179.2,
-                    "15": 189
-                },
-                {
-                    "1": 100,
-                    "2": 100,
-                    "3": 100,
-                    "4": 100,
-                    "5": 100,
-                    "6": 100,
-                    "7": 100,
-                    "8": 100,
-                    "9": 100,
-                    "10": 100,
-                    "11": 100,
-                    "12": 100,
-                    "13": 100,
-                    "14": 100,
-                    "15": 100
-                },
-                {
-                    "1": 2,
-                    "2": 2,
-                    "3": 2,
-                    "4": 2,
-                    "5": 2,
-                    "6": 2,
-                    "7": 2,
-                    "8": 2,
-                    "9": 2,
-                    "10": 2,
-                    "11": 2,
-                    "12": 2,
-                    "13": 2,
-                    "14": 2,
-                    "15": 2
-                }
-            ],
-            "tags": [
-                "aoe",
-                "followupatk",
-                "lightningatk"
-            ],
-            "effect": [
-                {
-                    "iid": "2",
-                    "type": "debuff",
-                    "multipliertarget": "dotvulnerability",
-                    "multiplier": 2,
-                    "tag": [
-                        "dotvulnerability"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1005",
             "id": "100507",
             "ENname": "Mercy Is Not Forgiveness",
             "CNname": "宽恕无关慈悲",
@@ -883,6 +615,55 @@
                     "tag": [
                         "allenemy",
                         "shocked"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1005",
+            "id": "100501",
+            "ENname": "Da Capo",
+            "CNname": "无穷动！无穷",
+            "JAname": "無窮に動く！無窮に",
+            "stype": "eidolon",
+            "tags": [
+                "debuff",
+                "special",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "dotdmgreceive",
+                    "multiplier": 30,
+                    "tag": [
+                        "singleenemy",
+                        "dotdmgreceive"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1005",
+            "id": "100502",
+            "ENname": "Fortississimo",
+            "CNname": "狂想者，呜咽",
+            "JAname": "狂想者の嗚咽",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "dotatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "allally",
+                        "dotatk"
                     ]
                 }
             ]
@@ -1262,47 +1043,50 @@
             ]
         },
         {
-            "characterid": "1008",
-            "id": "100804",
-            "ENname": "Pain and Anger",
-            "CNname": "至痛至怒",
-            "JAname": "痛みと怒りの極み",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 30,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "1": 36,
-                    "2": 39.6,
-                    "3": 43.2,
-                    "4": 46.8,
-                    "5": 50.4,
-                    "6": 54,
-                    "7": 58.5,
-                    "8": 63,
-                    "9": 67.5,
-                    "10": 72,
-                    "11": 75.6,
-                    "12": 79.2,
-                    "13": 82.8,
-                    "14": 86.4,
-                    "15": 90
-                }
-            ],
+            "characterid": "1006",
+            "id": "1006103",
+            "ENname": "Side Note",
+            "CNname": "旁注",
+            "JAname": "アノテーション",
+            "stype": "trace",
             "tags": [
-                "buff",
-                "self"
+                "debuff",
+                "reduceallres"
             ],
             "effect": [
                 {
                     "iid": "1",
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 1,
+                    "type": "debuff",
+                    "addtarget": "allres",
+                    "multiplier": 3,
                     "tag": [
-                        "self",
-                        "alldmg"
+                        "singleenemy",
+                        "allres"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1006",
+            "id": "100602",
+            "ENname": "Zombie Network",
+            "CNname": "僵尸网络",
+            "JAname": "ボットネット",
+            "stype": "eidolon",
+            "tags": [
+                "debuff",
+                "allenemy",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "effectres",
+                    "multiplier": 20,
+                    "tag": [
+                        "allenemy",
+                        "effectres"
                     ]
                 }
             ]
@@ -1400,77 +1184,52 @@
             ]
         },
         {
-            "characterid": "1013",
-            "id": "101302",
-            "ENname": "One-Time Offer",
-            "CNname": "一锤子买卖",
-            "JAname": "一度限りの取引",
-            "stype": "skill",
-            "maxlevel": 15,
-            "weaknessbreak": 30,
-            "energyregen": 30,
-            "levelmultiplier": [
-                {
-                    "1": 50,
-                    "2": 55,
-                    "3": 60,
-                    "4": 65,
-                    "5": 70,
-                    "6": 75,
-                    "7": 81.25,
-                    "8": 87.5,
-                    "9": 93.75,
-                    "10": 100,
-                    "11": 105,
-                    "12": 110,
-                    "13": 115,
-                    "14": 120,
-                    "15": 125
-                },
-                {
-                    "default": 20
-                }
-            ],
+            "characterid": "1009",
+            "id": "1009101",
+            "ENname": "Sparks",
+            "CNname": "火花",
+            "JAname": "火花",
+            "stype": "trace",
             "tags": [
-                "aoe",
-                "skillatk",
-                "iceatk"
+                "burn",
+                "dotatk",
+                "fireatk"
             ],
             "effect": [
                 {
-                    "iid": "2",
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 2,
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "burn",
+                    "multiplier": 80,
                     "tag": [
-                        "self",
-                        "alldmg"
+                        "singleenemy",
+                        "burn"
                     ]
                 }
             ]
         },
         {
-            "characterid": "1013",
-            "id": "101307",
-            "ENname": "It Can Still Be Optimized",
-            "CNname": "可以优化一下",
-            "JAname": "改善すべきだよ",
-            "stype": "technique",
-            "maxlevel": 0,
+            "characterid": "1009",
+            "id": "1009102",
+            "ENname": "Ignite",
+            "CNname": "点燃",
+            "JAname": "点火",
+            "stype": "trace",
+            "maxlevel": 15,
             "tags": [
                 "buff",
-                "self",
-                "atk"
+                "firedmg",
+                "allally"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 40,
+                    "addtarget": "firedmg",
+                    "multiplier": 18,
                     "tag": [
-                        "self",
-                        "atk"
+                        "allally",
+                        "firedmg"
                     ]
                 }
             ]
@@ -1635,51 +1394,6 @@
         },
         {
             "characterid": "1101",
-            "id": "110104",
-            "ENname": "Leading the Way",
-            "CNname": "先人一步",
-            "JAname": "先人一歩",
-            "stype": "talent",
-            "maxlevel": 15,
-            "levelmultiplier": [
-                {
-                    "1": 15,
-                    "2": 16.5,
-                    "3": 18,
-                    "4": 19.5,
-                    "5": 21,
-                    "6": 22.5,
-                    "7": 24.38,
-                    "8": 26.25,
-                    "9": 28.13,
-                    "10": 30,
-                    "11": 31.5,
-                    "12": 33,
-                    "13": 34.5,
-                    "14": 36,
-                    "15": 37.5
-                }
-            ],
-            "tags": [
-                "buff",
-                "actionf",
-                "self"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "actionf",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "actionf"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1101",
             "id": "110107",
             "ENname": "Banner of Command",
             "CNname": "在旗帜下",
@@ -1705,131 +1419,77 @@
             ]
         },
         {
-            "characterid": "1102",
-            "id": "110204",
-            "ENname": "Resurgence",
-            "CNname": "再现",
-            "JAname": "再現",
-            "stype": "talent",
+            "characterid": "1101",
+            "id": "1101102",
+            "ENname": "Battlefield",
+            "CNname": "阵地",
+            "JAname": "陣地",
+            "stype": "trace",
             "maxlevel": 15,
-            "levelmultiplier": [
-                {
-                    "1": 40,
-                    "2": 44,
-                    "3": 48,
-                    "4": 52,
-                    "5": 56,
-                    "6": 60,
-                    "7": 65,
-                    "8": 70,
-                    "9": 75,
-                    "10": 80,
-                    "11": 84,
-                    "12": 88,
-                    "13": 92,
-                    "14": 96,
-                    "15": 100
-                }
-            ],
             "tags": [
                 "buff",
-                "self",
-                "alldmg"
+                "def",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 20,
+                    "tag": [
+                        "allally",
+                        "def"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1101",
+            "id": "1101103",
+            "ENname": "Military Might",
+            "CNname": "军势",
+            "JAname": "軍勢",
+            "stype": "trace",
+            "tags": [
+                "buff",
+                "alldmg",
+                "allally"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "alldmg",
-                    "multiplier": 1,
+                    "multiplier": 10,
                     "tag": [
-                        "self",
+                        "allally",
                         "alldmg"
                     ]
                 }
             ]
         },
         {
-            "characterid": "1103",
-            "id": "110302",
-            "ENname": "Lightning Flash",
-            "CNname": "电光石火间",
-            "JAname": "スパーク",
-            "stype": "skill",
-            "maxlevel": 15,
-            "weaknessbreak": 60,
-            "energyregen": 30,
-            "levelmultiplier": [
-                {
-                    "1": 70,
-                    "2": 77,
-                    "3": 84,
-                    "4": 91,
-                    "5": 98,
-                    "6": 105,
-                    "7": 113.75,
-                    "8": 122.5,
-                    "9": 131.25,
-                    "10": 140,
-                    "11": 147,
-                    "12": 154,
-                    "13": 161,
-                    "14": 168,
-                    "15": 175
-                },
-                {
-                    "1": 30,
-                    "2": 33,
-                    "3": 36,
-                    "4": 39,
-                    "5": 42,
-                    "6": 45,
-                    "7": 48.75,
-                    "8": 52.5,
-                    "9": 56.25,
-                    "10": 60,
-                    "11": 63,
-                    "12": 66,
-                    "13": 69,
-                    "14": 72,
-                    "15": 75
-                },
-                {
-                    "default": 80
-                },
-                {
-                    "1": 40,
-                    "2": 44,
-                    "3": 48,
-                    "4": 52,
-                    "5": 56,
-                    "6": 62,
-                    "7": 70,
-                    "8": 80,
-                    "9": 92,
-                    "10": 104,
-                    "11": 109.2,
-                    "12": 114.4,
-                    "13": 119.6,
-                    "14": 124.8,
-                    "15": 130
-                }
-            ],
+            "characterid": "1101",
+            "id": "110102",
+            "ENname": "Quick March",
+            "CNname": "快速行军",
+            "JAname": "急行軍",
+            "stype": "eidolon",
             "tags": [
-                "singleatk",
-                "skillatk",
-                "lightningatk",
-                "shocked",
-                "dotatk"
+                "buff",
+                "speed",
+                "singleally"
             ],
             "effect": [
                 {
-                    "iid": "3",
-                    "type": "debuff",
-                    "multipliertarget": "shocked",
-                    "multiplier": 3,
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 30,
                     "tag": [
-                        "shocked"
+                        "singleally",
+                        "speed"
                     ]
                 }
             ]
@@ -1931,46 +1591,49 @@
             ]
         },
         {
-            "characterid": "1105",
-            "id": "110504",
-            "ENname": "Innervation",
-            "CNname": "生机焕发",
-            "JAname": "生命の輝き",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "1": 25,
-                    "2": 27.5,
-                    "3": 30,
-                    "4": 32.5,
-                    "5": 35,
-                    "6": 37.5,
-                    "7": 40.63,
-                    "8": 43.75,
-                    "9": 46.88,
-                    "10": 50,
-                    "11": 52.5,
-                    "12": 55,
-                    "13": 57.5,
-                    "14": 60,
-                    "15": 62.5
-                }
+            "characterid": "1104",
+            "id": "110402",
+            "ENname": "Lingering Cold",
+            "CNname": "余寒",
+            "JAname": "余寒",
+            "stype": "eidolon",
+            "tags": [
+                "debuff",
+                "singleenemy"
             ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "speed",
+                    "multiplier": 20,
+                    "tag": [
+                        "singleenemy"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1104",
+            "id": "110404",
+            "ENname": "Faith Moves Mountains",
+            "CNname": "精诚所至",
+            "JAname": "確固たる意志",
+            "stype": "eidolon",
             "tags": [
                 "buff",
-                "healingbonus"
+                "allally",
+                "effectres"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "healingbonus",
-                    "multiplier": 1,
+                    "addtarget": "effectres",
+                    "multiplier": 20,
                     "tag": [
-                        "healingbonus"
+                        "allally",
+                        "effectres"
                     ]
                 }
             ]
@@ -2082,50 +1745,6 @@
         },
         {
             "characterid": "1106",
-            "id": "110604",
-            "ENname": "Data Collecting",
-            "CNname": "数据采集",
-            "JAname": "データ採取",
-            "stype": "talent",
-            "maxlevel": 15,
-            "levelmultiplier": [
-                {
-                    "1": 5,
-                    "2": 5.5,
-                    "3": 6,
-                    "4": 6.5,
-                    "5": 7,
-                    "6": 7.5,
-                    "7": 8.1,
-                    "8": 8.8,
-                    "9": 9.4,
-                    "10": 10,
-                    "11": 10.5,
-                    "12": 11,
-                    "13": 11.5,
-                    "14": 12,
-                    "15": 12.5
-                }
-            ],
-            "tags": [
-                "self",
-                "energy"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "energy",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "energy"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1106",
             "id": "110607",
             "ENname": "Preemptive Strike",
             "CNname": "先发制人",
@@ -2153,330 +1772,52 @@
             ]
         },
         {
-            "characterid": "1107",
-            "id": "110703",
-            "ENname": "Promise, Not Command",
-            "CNname": "是约定不是命令",
-            "JAname": "命令じゃなくて約束",
-            "stype": "ult",
+            "characterid": "1106",
+            "id": "1106102",
+            "ENname": "The Secret Strategy",
+            "CNname": "秘策",
+            "JAname": "秘策",
+            "stype": "trace",
             "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "1": 15,
-                    "2": 16,
-                    "3": 17,
-                    "4": 18,
-                    "5": 19,
-                    "6": 20,
-                    "7": 21.25,
-                    "8": 22.5,
-                    "9": 23.75,
-                    "10": 25,
-                    "11": 26,
-                    "12": 27,
-                    "13": 28,
-                    "14": 29,
-                    "15": 30
-                },
-                {
-                    "default": 500
-                },
-                {
-                    "1": 96,
-                    "2": 102.4,
-                    "3": 108.8,
-                    "4": 115.2,
-                    "5": 121.6,
-                    "6": 128,
-                    "7": 136,
-                    "8": 144,
-                    "9": 152,
-                    "10": 160,
-                    "11": 166.4,
-                    "12": 172.8,
-                    "13": 179.2,
-                    "14": 185.6,
-                    "15": 192
-                },
-                {
-                    "default": 50
-                }
-            ],
-            "tags": [
-                "aoe",
-                "ultatk",
-                "dmgreduction",
-                "taunt",
-                "followupatk",
-                "physicalatk"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "dmgreduction",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "dmgreduction"
-                    ]
-                },
-                {
-                    "iid": "2",
-                    "type": "buff",
-                    "addtarget": "taunt",
-                    "multiplier": 2,
-                    "tag": [
-                        "self",
-                        "taunt"
-                    ]
-                },
-                {
-                    "iid": "3",
-                    "type": "buff",
-                    "referencetarget": "claratalent",
-                    "referencetargetEN": "Clara Talent Multiplier",
-                    "referencetargetCN": "克拉拉天赋倍率",
-                    "referencetargetJP": "クラーラ天賦倍率",
-                    "addtarget": "",
-                    "multiplier": 3,
-                    "tag": []
-                }
-            ]
-        },
-        {
-            "characterid": "1107",
-            "id": "110704",
-            "ENname": "Because We're Family",
-            "CNname": "因为我们是家人",
-            "JAname": "家族なんだから",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 30,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "default": 10
-                },
-                {
-                    "1": 80,
-                    "2": 88,
-                    "3": 96,
-                    "4": 104,
-                    "5": 112,
-                    "6": 120,
-                    "7": 130,
-                    "8": 140,
-                    "9": 150,
-                    "10": 160,
-                    "11": 168,
-                    "12": 176,
-                    "13": 184,
-                    "14": 192,
-                    "15": 200
-                }
-            ],
             "tags": [
                 "buff",
-                "dmgreduction",
-                "singleatk",
-                "followupatk",
-                "physicalatk"
+                "effecthit",
+                "allally"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "dmgreduction",
-                    "multiplier": 1,
+                    "addtarget": "effecthit",
+                    "multiplier": 10,
                     "tag": [
-                        "dmgreduction"
+                        "allally",
+                        "effecthit"
                     ]
                 }
             ]
         },
         {
-            "characterid": "1107",
-            "id": "110707",
-            "ENname": "A Small Price for Victory",
-            "CNname": "胜利的小小代价",
-            "JAname": "勝利の小さな対価",
-            "stype": "technique",
-            "maxlevel": 0,
-            "weaknessbreak": 60,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "default": 250
-                }
-            ],
-            "tags": [
-                "buff",
-                "taunt"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "taunt",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "taunt"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1108",
-            "id": "110803",
-            "ENname": "Surprise Present",
-            "CNname": "惊喜礼盒",
-            "JAname": "サプライズボックス",
-            "stype": "ult",
-            "maxlevel": 15,
-            "weaknessbreak": 60,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "1": 96,
-                    "2": 102.4,
-                    "3": 108.8,
-                    "4": 115.2,
-                    "5": 121.6,
-                    "6": 128,
-                    "7": 136,
-                    "8": 144,
-                    "9": 152,
-                    "10": 160,
-                    "11": 166.4,
-                    "12": 172.8,
-                    "13": 179.2,
-                    "14": 185.6,
-                    "15": 192
-                },
-                {
-                    "default": 100
-                },
-                {
-                    "1": 20,
-                    "2": 21,
-                    "3": 22,
-                    "4": 23,
-                    "5": 24,
-                    "6": 25,
-                    "7": 26.25,
-                    "8": 27.5,
-                    "9": 28.75,
-                    "10": 30,
-                    "11": 31,
-                    "12": 32,
-                    "13": 33,
-                    "14": 34,
-                    "15": 35
-                }
-            ],
-            "tags": [
-                "aoe",
-                "ultatk",
-                "buff",
-                "dotvulnerability"
-            ],
-            "effect": [
-                {
-                    "iid": "2",
-                    "type": "debuff",
-                    "multipliertarget": "dotvulnerability",
-                    "multiplier": 2,
-                    "tag": [
-                        "aoe",
-                        "dotvulnerability"
-                    ]
-                },
-                {
-                    "iid": "3",
-                    "type": "debuff",
-                    "addtarget": "dotdmgreceive",
-                    "multiplier": 3,
-                    "tag": [
-                        "dotdmgreceive"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1108",
-            "id": "110804",
-            "ENname": "Windtorn Dagger",
-            "CNname": "撕风的匕首",
-            "JAname": "風を切り裂く匕首",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "default": 65
-                },
-                {
-                    "1": 20,
-                    "2": 22,
-                    "3": 24,
-                    "4": 26,
-                    "5": 28,
-                    "6": 31,
-                    "7": 35,
-                    "8": 40,
-                    "9": 46,
-                    "10": 52,
-                    "11": 54.6,
-                    "12": 57.2,
-                    "13": 59.8,
-                    "14": 62.4,
-                    "15": 65
-                }
-            ],
-            "tags": [
-                "dotatk",
-                "windatk"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "debuff",
-                    "multipliertarget": "windshear",
-                    "multiplier": 1,
-                    "tag": [
-                        "windshear"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1108",
-            "id": "110807",
-            "ENname": "Shining Bright",
-            "CNname": "你最闪亮",
-            "JAname": "一番の輝きをあなたへ",
-            "stype": "technique",
-            "maxlevel": 0,
-            "weaknessbreak": 60,
-            "energyregen": 0,
+            "characterid": "1106",
+            "id": "110604",
+            "ENname": "Full Analysis",
+            "CNname": "完全剖析",
+            "JAname": "完全解析",
+            "stype": "eidolon",
             "tags": [
                 "debuff",
-                "action"
+                "iceres",
+                "singleenemy"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "debuff",
-                    "multipliertarget": "actiond",
-                    "multiplier": 25,
+                    "multipliertarget": "iceres",
+                    "multiplier": -12,
                     "tag": [
-                        "aoe",
-                        "actiond"
+                        "singleenemy",
+                        "iceres"
                     ]
                 }
             ]
@@ -2632,56 +1973,6 @@
         },
         {
             "characterid": "1109",
-            "id": "110904",
-            "ENname": "Ha! Oil to the Flames!",
-            "CNname": "哈！火上浇油",
-            "JAname": "はっ！火に油を注ぐ",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "1": 50,
-                    "2": 55,
-                    "3": 60,
-                    "4": 65,
-                    "5": 70,
-                    "6": 75,
-                    "7": 81.25,
-                    "8": 87.5,
-                    "9": 93.75,
-                    "10": 100,
-                    "11": 105,
-                    "12": 110,
-                    "13": 115,
-                    "14": 120,
-                    "15": 125
-                },
-                {
-                    "default": 5
-                }
-            ],
-            "tags": [
-                "additionalatk",
-                "fireatk",
-                "energy"
-            ],
-            "effect": [
-                {
-                    "iid": "2",
-                    "type": "buff",
-                    "addtarget": "energy",
-                    "multiplier": 2,
-                    "tag": [
-                        "self",
-                        "energy"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1109",
             "id": "110907",
             "ENname": "Ack! Look at This Mess!",
             "CNname": "哎！瞧这一团糟",
@@ -2714,120 +2005,6 @@
                     "tag": [
                         "singleenemy",
                         "burn"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1111",
-            "id": "111102",
-            "ENname": "Lacerating Fist",
-            "CNname": "裂伤拳",
-            "JAname": "裂創拳",
-            "stype": "skill",
-            "maxlevel": 15,
-            "weaknessbreak": 60,
-            "energyregen": 30,
-            "levelmultiplier": [
-                {
-                    "1": 60,
-                    "2": 66,
-                    "3": 72,
-                    "4": 78,
-                    "5": 84,
-                    "6": 90,
-                    "7": 97.5,
-                    "8": 105,
-                    "9": 112.5,
-                    "10": 120,
-                    "11": 126,
-                    "12": 132,
-                    "13": 138,
-                    "14": 144,
-                    "15": 150
-                },
-                {
-                    "1": 100,
-                    "2": 100,
-                    "3": 100,
-                    "4": 100,
-                    "5": 100,
-                    "6": 100,
-                    "7": 100,
-                    "8": 100,
-                    "9": 100,
-                    "10": 100,
-                    "11": 100,
-                    "12": 100,
-                    "13": 100,
-                    "14": 100,
-                    "15": 100
-                },
-                {
-                    "1": 24,
-                    "2": 24,
-                    "3": 24,
-                    "4": 24,
-                    "5": 24,
-                    "6": 24,
-                    "7": 24,
-                    "8": 24,
-                    "9": 24,
-                    "10": 24,
-                    "11": 24,
-                    "12": 24,
-                    "13": 24,
-                    "14": 24,
-                    "15": 24
-                },
-                {
-                    "1": 130,
-                    "2": 143,
-                    "3": 156,
-                    "4": 169,
-                    "5": 182,
-                    "6": 201.5,
-                    "7": 227.5,
-                    "8": 260,
-                    "9": 299,
-                    "10": 338,
-                    "11": 354.9,
-                    "12": 371.8,
-                    "13": 388.7,
-                    "14": 405.6,
-                    "15": 422.5
-                },
-                {
-                    "1": 3,
-                    "2": 3,
-                    "3": 3,
-                    "4": 3,
-                    "5": 3,
-                    "6": 3,
-                    "7": 3,
-                    "8": 3,
-                    "9": 3,
-                    "10": 3,
-                    "11": 3,
-                    "12": 3,
-                    "13": 3,
-                    "14": 3,
-                    "15": 3
-                }
-            ],
-            "tags": [
-                "singleatk",
-                "skillatk",
-                "physicalatk"
-            ],
-            "effect": [
-                {
-                    "iid": "2",
-                    "type": "debuff",
-                    "multipliertarget": "bleed",
-                    "multiplier": 2,
-                    "tag": [
-                        "bleed"
                     ]
                 }
             ]
@@ -2943,135 +2120,6 @@
                     "tag": [
                         "singleenemy",
                         "dmgreceive"
-                    ]
-                },
-                {
-                    "iid": "2",
-                    "type": "debuff",
-                    "multipliertarget": "dmgreceive",
-                    "multiplier": 3,
-                    "tag": [
-                        "singleatk"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1111",
-            "id": "111107",
-            "ENname": "Anticipator",
-            "CNname": "抢先者",
-            "JAname": "先を行く者",
-            "stype": "technique",
-            "maxlevel": 0,
-            "weaknessbreak": 60,
-            "energyregen": 0,
-            "tags": [
-                "singleatk",
-                "physicalatk",
-                "special"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "debuff",
-                    "multipliertarget": "bleed",
-                    "multiplier": 100,
-                    "tag": [
-                        "bleed"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1201",
-            "id": "120102",
-            "ENname": "A Scoop of Moon",
-            "CNname": "海底捞月",
-            "JAname": "海底撈月",
-            "stype": "skill",
-            "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "1": 14,
-                    "2": 15.4,
-                    "3": 16.8,
-                    "4": 18.2,
-                    "5": 19.6,
-                    "6": 21,
-                    "7": 22.75,
-                    "8": 24.5,
-                    "9": 26.25,
-                    "10": 28,
-                    "11": 29.4,
-                    "12": 30.8,
-                    "13": 32.2,
-                    "14": 33.6,
-                    "15": 35
-                }
-            ],
-            "tags": [
-                "buff",
-                "self"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "alldmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1201",
-            "id": "120104",
-            "ENname": "Celestial Jade",
-            "CNname": "帝垣琼玉",
-            "JAname": "帝垣美玉",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "1": 36,
-                    "2": 39.6,
-                    "3": 43.2,
-                    "4": 46.8,
-                    "5": 50.4,
-                    "6": 54,
-                    "7": 58.5,
-                    "8": 63,
-                    "9": 67.5,
-                    "10": 72,
-                    "11": 75.6,
-                    "12": 79.2,
-                    "13": 82.8,
-                    "14": 86.4,
-                    "15": 90
-                }
-            ],
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "atk"
                     ]
                 }
             ]
@@ -3220,399 +2268,147 @@
         },
         {
             "characterid": "1202",
-            "id": "120207",
-            "ENname": "Gentle Breeze",
-            "CNname": "惠风和畅",
-            "JAname": "恵風和暢",
-            "stype": "technique",
-            "maxlevel": 0,
+            "id": "120201",
+            "ENname": "Windfall of Lucky Springs",
+            "CNname": "春风得意，时运驰骋",
+            "JAname": "春風吹きて時運巡る",
+            "stype": "eidolon",
             "tags": [
                 "buff",
-                "energy",
-                "self"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "energy",
-                    "multiplier": 50,
-                    "tag": [
-                        "self",
-                        "energy"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1205",
-            "id": "120502",
-            "ENname": "Hellscape",
-            "CNname": "地狱变",
-            "JAname": "地獄変",
-            "stype": "skill",
-            "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "1": 30,
-                    "2": 30,
-                    "3": 30,
-                    "4": 30,
-                    "5": 30,
-                    "6": 30,
-                    "7": 30,
-                    "8": 30,
-                    "9": 30,
-                    "10": 30,
-                    "11": 30,
-                    "12": 30,
-                    "13": 30,
-                    "14": 30,
-                    "15": 30
-                },
-                {
-                    "1": 3,
-                    "2": 3,
-                    "3": 3,
-                    "4": 3,
-                    "5": 3,
-                    "6": 3,
-                    "7": 3,
-                    "8": 3,
-                    "9": 3,
-                    "10": 3,
-                    "11": 3,
-                    "12": 3,
-                    "13": 3,
-                    "14": 3,
-                    "15": 3
-                },
-                {
-                    "1": 1,
-                    "2": 1,
-                    "3": 1,
-                    "4": 1,
-                    "5": 1,
-                    "6": 1,
-                    "7": 1,
-                    "8": 1,
-                    "9": 1,
-                    "10": 1,
-                    "11": 1,
-                    "12": 1,
-                    "13": 1,
-                    "14": 1,
-                    "15": 1
-                },
-                {
-                    "1": 12,
-                    "2": 14.8,
-                    "3": 17.6,
-                    "4": 20.4,
-                    "5": 23.2,
-                    "6": 26,
-                    "7": 29.5,
-                    "8": 33,
-                    "9": 36.5,
-                    "10": 40,
-                    "11": 42.8,
-                    "12": 45.6,
-                    "13": 48.4,
-                    "14": 51.2,
-                    "15": 54
-                }
-            ],
-            "tags": [
-                "buff",
-                "self",
-                "alldmg"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 4,
-                    "tag": [
-                        "self",
-                        "alldmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1205",
-            "id": "120503",
-            "ENname": "Death Sentence",
-            "CNname": "大辟万死",
-            "JAname": "大辟万死",
-            "stype": "ult",
-            "maxlevel": 15,
-            "weaknessbreak": 60,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "1": 24,
-                    "2": 25.6,
-                    "3": 27.2,
-                    "4": 28.8,
-                    "5": 30.4,
-                    "6": 32,
-                    "7": 34,
-                    "8": 36,
-                    "9": 38,
-                    "10": 40,
-                    "11": 41.6,
-                    "12": 43.2,
-                    "13": 44.8,
-                    "14": 46.4,
-                    "15": 48
-                },
-                {
-                    "1": 60,
-                    "2": 64,
-                    "3": 68,
-                    "4": 72,
-                    "5": 76,
-                    "6": 80,
-                    "7": 85,
-                    "8": 90,
-                    "9": 95,
-                    "10": 100,
-                    "11": 104,
-                    "12": 108,
-                    "13": 112,
-                    "14": 116,
-                    "15": 120
-                },
-                {
-                    "1": 9.6,
-                    "2": 10.24,
-                    "3": 10.88,
-                    "4": 11.52,
-                    "5": 12.16,
-                    "6": 12.8,
-                    "7": 13.6,
-                    "8": 14.4,
-                    "9": 15.2,
-                    "10": 16,
-                    "11": 16.64,
-                    "12": 17.28,
-                    "13": 17.92,
-                    "14": 18.56,
-                    "15": 19.2
-                },
-                {
-                    "1": 24,
-                    "2": 25.6,
-                    "3": 27.2,
-                    "4": 28.8,
-                    "5": 30.4,
-                    "6": 32,
-                    "7": 34,
-                    "8": 36,
-                    "9": 38,
-                    "10": 40,
-                    "11": 41.6,
-                    "12": 43.2,
-                    "13": 44.8,
-                    "14": 46.4,
-                    "15": 48
-                },
-                {
-                    "1": 60,
-                    "2": 64,
-                    "3": 68,
-                    "4": 72,
-                    "5": 76,
-                    "6": 80,
-                    "7": 85,
-                    "8": 90,
-                    "9": 95,
-                    "10": 100,
-                    "11": 104,
-                    "12": 108,
-                    "13": 112,
-                    "14": 116,
-                    "15": 120
-                },
-                {
-                    "1": 24,
-                    "2": 25.6,
-                    "3": 27.2,
-                    "4": 28.8,
-                    "5": 30.4,
-                    "6": 32,
-                    "7": 34,
-                    "8": 36,
-                    "9": 38,
-                    "10": 40,
-                    "11": 41.6,
-                    "12": 43.2,
-                    "13": 44.8,
-                    "14": 46.4,
-                    "15": 48
-                },
-                {
-                    "1": 90,
-                    "2": 90,
-                    "3": 90,
-                    "4": 90,
-                    "5": 90,
-                    "6": 90,
-                    "7": 90,
-                    "8": 90,
-                    "9": 90,
-                    "10": 90,
-                    "11": 90,
-                    "12": 90,
-                    "13": 90,
-                    "14": 90,
-                    "15": 90
-                }
-            ],
-            "tags": [
-                "aoe",
-                "ultatk"
-            ],
-            "effect": [
-                {
-                    "iid": "7",
-                    "type": "buff",
-                    "addtarget": "losthp",
-                    "multipliertarget": "maxhp",
-                    "multiplier": 7,
-                    "multipliervalue": "1",
-                    "maxstack": 90,
-                    "tag": [
-                        "self",
-                        "losthp"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1206",
-            "id": "120603",
-            "ENname": "Shape of Taixu: Dawn Herald",
-            "CNname": "太虚形蕴 • 烛夜",
-            "JAname": "太虚形蘊・燭夜",
-            "stype": "ult",
-            "maxlevel": 15,
-            "weaknessbreak": 90,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "1": 192,
-                    "2": 204.8,
-                    "3": 217.6,
-                    "4": 230.4,
-                    "5": 243.2,
-                    "6": 256,
-                    "7": 272,
-                    "8": 288,
-                    "9": 304,
-                    "10": 320,
-                    "11": 332.8,
-                    "12": 345.6,
-                    "13": 358.4,
-                    "14": 371.2,
-                    "15": 384
-                },
-                {
-                    "1": 18,
-                    "2": 19.2,
-                    "3": 20.4,
-                    "4": 21.6,
-                    "5": 22.8,
-                    "6": 24,
-                    "7": 25.5,
-                    "8": 27,
-                    "9": 28.5,
-                    "10": 30,
-                    "11": 31.2,
-                    "12": 32.4,
-                    "13": 33.6,
-                    "14": 34.8,
-                    "15": 36
-                },
-                {
-                    "default": 100
-                }
-            ],
-            "tags": [
-                "singleatk",
-                "ultatk",
-                "physicalatk",
-                "actionf"
-            ],
-            "effect": [
-                {
-                    "iid": "2",
-                    "type": "buff",
-                    "addtarget": "actionf",
-                    "multiplier": 3,
-                    "tag": [
-                        "self",
-                        "actionf"
-                    ]
-                },
-                {
-                    "iid": "3",
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 2,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "atk"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1206",
-            "id": "120604",
-            "ENname": "Dancing Blade",
-            "CNname": "游刃若水",
-            "JAname": "游刃若水",
-            "stype": "talent",
-            "maxlevel": 15,
-            "levelmultiplier": [
-                {
-                    "1": 15,
-                    "2": 19.8,
-                    "3": 21.6,
-                    "4": 23.4,
-                    "5": 25.2,
-                    "6": 27,
-                    "7": 29.25,
-                    "8": 31.5,
-                    "9": 33.75,
-                    "10": 36,
-                    "11": 37.8,
-                    "12": 39.6,
-                    "13": 41.4,
-                    "14": 43.2,
-                    "15": 45
-                }
-            ],
-            "tags": [
-                "buff",
-                "self",
-                "speed"
+                "speed",
+                "singleally"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "speed",
-                    "multiplier": 1,
+                    "multiplier": 20,
                     "tag": [
-                        "self",
+                        "singleally",
                         "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1202",
+            "id": "120202",
+            "ENname": "Gainfully Gives, Givingly Gains",
+            "CNname": "君子惠渥，晏笑承之",
+            "JAname": "君子の恩恵 微笑みを以て承るべき",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "energy",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "singleally",
+                        "energy"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1203",
+            "id": "120301",
+            "ENname": "Ablution of the Quick",
+            "CNname": "濯洗生者",
+            "JAname": "生者の浄化",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "allally",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 20,
+                    "tag": [
+                        "allally",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1203",
+            "id": "120304",
+            "ENname": "Judgment via the King",
+            "CNname": "荆冠审判",
+            "JAname": "荊の審判",
+            "stype": "eidolon",
+            "tags": [
+                "debuff",
+                "weaken"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "weaken",
+                    "multiplier": 12,
+                    "tag": [
+                        "allenemy"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1203",
+            "id": "120306",
+            "ENname": "Reunion With the Dust",
+            "CNname": "皆归尘土",
+            "JAname": "皆灰燼に帰す",
+            "stype": "eidolon",
+            "tags": [
+                "debuff",
+                "allenemy",
+                "reduceallres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "allres",
+                    "multiplier": 20,
+                    "tag": [
+                        "allenemy",
+                        "allres"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1204",
+            "id": "120406",
+            "ENname": "Sweep, Souls Slain",
+            "CNname": "威灵有应破敌雠",
+            "JAname": "百戦経て捨てし躯<br />生死軽んず",
+            "stype": "eidolon",
+            "tags": [
+                "debuff",
+                "vulnerability"
+            ],
+            "effect": [
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": 12,
+                    "tag": [
+                        "allenemy",
+                        "dmgreceive"
                     ]
                 }
             ]
@@ -3760,127 +2556,50 @@
         },
         {
             "characterid": "1207",
-            "id": "120704",
-            "ENname": "Seven Layers, One Arrow",
-            "CNname": "箭彻七札",
-            "JAname": "徹札矢",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "1": 40,
-                    "2": 44,
-                    "3": 48,
-                    "4": 52,
-                    "5": 56,
-                    "6": 60,
-                    "7": 65,
-                    "8": 70,
-                    "9": 75,
-                    "10": 80,
-                    "11": 84,
-                    "12": 88,
-                    "13": 92,
-                    "14": 96,
-                    "15": 100
-                },
-                {
-                    "default": 100
-                }
-            ],
+            "id": "1207102",
+            "ENname": "Bowmaster",
+            "CNname": "迟彝",
+            "JAname": "遅彝",
+            "stype": "trace",
             "tags": [
-                "singleenemy",
-                "additionalatk",
-                "imaginaryatk"
+                "buff",
+                "allally",
+                "imaginarydmg"
             ],
             "effect": [
                 {
-                    "iid": "2",
+                    "iid": "1",
                     "type": "buff",
-                    "addtarget": "toughnessreducingdmg",
-                    "multiplier": 2,
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 12,
                     "tag": [
-                        "singleenemy",
-                        "normalatk"
+                        "allally",
+                        "imaginarydmg"
                     ]
                 }
             ]
         },
         {
-            "characterid": "1209",
-            "id": "120903",
-            "ENname": "Butterfly Flurry",
-            "CNname": "快雨燕相逐",
-            "JAname": "快雨に戯れる燕",
-            "stype": "ult",
-            "maxlevel": 15,
-            "weaknessbreak": 90,
-            "energyregen": 5,
-            "levelmultiplier": [
-                {
-                    "1": 30,
-                    "2": 32,
-                    "3": 34,
-                    "4": 36,
-                    "5": 38,
-                    "6": 40,
-                    "7": 42.5,
-                    "8": 45,
-                    "9": 47.5,
-                    "10": 50,
-                    "11": 52,
-                    "12": 54,
-                    "13": 56,
-                    "14": 58,
-                    "15": 60
-                },
-                {
-                    "1": 210,
-                    "2": 224,
-                    "3": 238,
-                    "4": 252,
-                    "5": 266,
-                    "6": 280,
-                    "7": 297.5,
-                    "8": 315,
-                    "9": 332.5,
-                    "10": 350,
-                    "11": 364,
-                    "12": 378,
-                    "13": 392,
-                    "14": 406,
-                    "15": 420
-                },
-                {
-                    "default": 60
-                }
-            ],
+            "characterid": "1207",
+            "id": "120701",
+            "ENname": "Aerial Marshal",
+            "CNname": "天舶飞将，枕弧待战",
+            "JAname": "天舟の飛将 弓枕き戦を待つ",
+            "stype": "eidolon",
             "tags": [
-                "singleatk",
-                "ultatk",
-                "iceatk"
+                "buff",
+                "allally",
+                "speed"
             ],
             "effect": [
                 {
-                    "iid": "2",
+                    "iid": "1",
                     "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 3,
+                    "addtarget": "speed",
+                    "multiplier": 10,
                     "tag": [
-                        "buff",
-                        "self"
-                    ]
-                },
-                {
-                    "iid": "3",
-                    "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 1,
-                    "tag": [
-                        "buff",
-                        "self"
+                        "allally",
+                        "speed"
                     ]
                 }
             ]
@@ -3980,243 +2699,12 @@
             ],
             "effect": [
                 {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "taunt",
-                    "multiplier": 6,
-                    "tag": [
-                        "self",
-                        "taunt"
-                    ]
-                },
-                {
-                    "iid": "2",
-                    "type": "buff",
-                    "addtarget": "critrate",
-                    "multiplier": 1,
-                    "tag": [
-                        "buff",
-                        "self"
-                    ]
-                },
-                {
-                    "iid": "3",
-                    "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 2,
-                    "tag": [
-                        "buff",
-                        "self"
-                    ]
-                },
-                {
                     "iid": "5",
                     "type": "debuff",
                     "multipliertarget": "frozen",
                     "multiplier": 5,
                     "tag": [
                         "singleenemy"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1209",
-            "id": "120907",
-            "ENname": "The One True Sword",
-            "CNname": "御剑真诀",
-            "JAname": "御剣真訣",
-            "stype": "technique",
-            "maxlevel": 0,
-            "tags": [
-                "buff",
-                "self",
-                "special"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 30,
-                    "tag": [
-                        "self",
-                        "alldmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1213",
-            "id": "121302",
-            "ENname": "Dracore Libre",
-            "CNname": "龙力自在",
-            "JAname": "龍力自在",
-            "stype": "skill",
-            "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "1": 6,
-                    "2": 6.6,
-                    "3": 7.2,
-                    "4": 7.8,
-                    "5": 8.4,
-                    "6": 9,
-                    "7": 9.75,
-                    "8": 10.5,
-                    "9": 11.25,
-                    "10": 12,
-                    "11": 12.6,
-                    "12": 13.2,
-                    "13": 13.8,
-                    "14": 14.4,
-                    "15": 15
-                },
-                {
-                    "1": 4,
-                    "2": 4,
-                    "3": 4,
-                    "4": 4,
-                    "5": 4,
-                    "6": 4,
-                    "7": 4,
-                    "8": 4,
-                    "9": 4,
-                    "10": 4,
-                    "11": 4,
-                    "12": 4,
-                    "13": 4,
-                    "14": 4,
-                    "15": 4
-                }
-            ],
-            "tags": [
-                "buff",
-                "self",
-                "critdmg"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "critdmg",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "critdmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "1213",
-            "id": "121304",
-            "ENname": "Righteous Heart",
-            "CNname": "亢心",
-            "JAname": "亢心",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 0,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "1": 5,
-                    "2": 5.5,
-                    "3": 6,
-                    "4": 6.5,
-                    "5": 7,
-                    "6": 7.5,
-                    "7": 8.12,
-                    "8": 8.75,
-                    "9": 9.38,
-                    "10": 10,
-                    "11": 10.5,
-                    "12": 11,
-                    "13": 11.5,
-                    "14": 12,
-                    "15": 12.5
-                },
-                {
-                    "1": 6,
-                    "2": 6,
-                    "3": 6,
-                    "4": 6,
-                    "5": 6,
-                    "6": 6,
-                    "7": 6,
-                    "8": 6,
-                    "9": 6,
-                    "10": 6,
-                    "11": 6,
-                    "12": 6,
-                    "13": 6,
-                    "14": 6,
-                    "15": 6
-                }
-            ],
-            "tags": [
-                "buff",
-                "self",
-                "alldmg"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multiplier": 1,
-                    "maxstack": 6,
-                    "tag": [
-                        "self",
-                        "alldmg"
-                    ]
-                }
-            ]
-        },
-        {
-            "characterid": "8002",
-            "id": "800204",
-            "ENname": "Perfect Pickoff",
-            "CNname": "牵制盗垒",
-            "JAname": "盗塁牽制",
-            "stype": "talent",
-            "maxlevel": 15,
-            "weaknessbreak": 15,
-            "energyregen": 0,
-            "levelmultiplier": [
-                {
-                    "1": 10,
-                    "2": 11,
-                    "3": 12,
-                    "4": 13,
-                    "5": 14,
-                    "6": 15,
-                    "7": 16.25,
-                    "8": 17.5,
-                    "9": 18.75,
-                    "10": 20,
-                    "11": 21,
-                    "12": 22,
-                    "13": 23,
-                    "14": 24,
-                    "15": 25
-                }
-            ],
-            "tags": [
-                "buff",
-                "atk"
-            ],
-            "effect": [
-                {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "atk",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "atk"
                     ]
                 }
             ]
@@ -4260,16 +2748,6 @@
             ],
             "effect": [
                 {
-                    "iid": "1",
-                    "type": "buff",
-                    "addtarget": "dmgreceive",
-                    "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "dmgreceive"
-                    ]
-                },
-                {
                     "iid": "2",
                     "type": "debuff",
                     "multipliertarget": "tauntdebuff",
@@ -4277,6 +2755,31 @@
                     "tag": [
                         "allenemy",
                         "tauntdebuff"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "8004",
+            "id": "8004101",
+            "ENname": "The Strong Defend the Weak",
+            "CNname": "强援弱",
+            "JAname": "弱きを助け",
+            "stype": "trace",
+            "tags": [
+                "buff",
+                "dmgreceive",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": -15,
+                    "tag": [
+                        "allally",
+                        "dmgreceive"
                     ]
                 }
             ]
