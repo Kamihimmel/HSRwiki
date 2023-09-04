@@ -301,6 +301,7 @@
                     "type": "shield",
                     "multipliertarget": "def",
                     "multiplier": 1,
+                    "group": "1",
                     "tag": [
                         "shield",
                         "allally"
@@ -311,6 +312,7 @@
                     "type": "shield",
                     "multipliertarget": "",
                     "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "shield",
                         "allally"
