@@ -508,7 +508,7 @@
                 {
                     "iid": "2",
                     "type": "debuff",
-                    "addtarget": "atk",
+                    "addtarget": "reduceatk",
                     "multiplier": 1,
                     "tag": [
                         "singleenemy",
@@ -528,7 +528,7 @@
                 {
                     "iid": "4",
                     "type": "debuff",
-                    "addtarget": "def",
+                    "addtarget": "reducedef",
                     "multiplier": 2,
                     "tag": [
                         "singleenemy",
@@ -548,7 +548,7 @@
                 {
                     "iid": "6",
                     "type": "debuff",
-                    "addtarget": "speed",
+                    "addtarget": "reducespeed",
                     "multiplier": 3,
                     "tag": [
                         "singleenemy",
