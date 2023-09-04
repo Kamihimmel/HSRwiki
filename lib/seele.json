@@ -907,11 +907,11 @@
                     "15": 76.5
                 }
             ],
+            "referencelevel": "110203",
             "effect": [
                 {
                     "iid": "1",
                     "type": "dmg",
-                    "referencelevel": "110203",
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
