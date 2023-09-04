@@ -195,6 +195,16 @@
                         "skillatk",
                         "quantumatk"
                     ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 25,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
                 }
             ]
         },
@@ -777,6 +787,18 @@
                 "buff",
                 "special",
                 "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 25,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
             ]
         },
         {
