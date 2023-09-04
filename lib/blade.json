@@ -585,7 +585,6 @@
                     "iid": "7",
                     "type": "buff",
                     "addtarget": "losthp",
-                    "multipliertarget": "maxhp",
                     "multiplier": 7,
                     "multipliervalue": "1",
                     "maxstack": 90,
