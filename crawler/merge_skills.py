@@ -4,8 +4,18 @@ import json
 import os
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+skill_fields = ['skilldata', 'tracedata', 'eidolon']
 fields = ['id', 'ENname', 'CNname', 'JAname', 'stype', 'maxlevel', 'weaknessbreak', 'energyregen', 'levelmultiplier',
           'tags']
+
+def valid_ally_buff(e):
+    if 'type' not in e or 'iid' not in e or 'tag' not in e:
+        return False
+    if e['type'] == 'buff':
+        return 'allally' in e['tag'] or 'singleally' in e['tag']
+    elif e['type'] == 'debuff':
+        return 'allenemy' in e['tag'] or 'singleenemy' in e['tag']
+    return False
 
 skills = []
 with open(base_dir + '/lib/characterlist.json', 'r', encoding='utf-8') as f:
@@ -13,20 +23,20 @@ with open(base_dir + '/lib/characterlist.json', 'r', encoding='utf-8') as f:
 for d in data:
     with open(base_dir + '/' + d['infourl'], 'r', encoding='utf-8') as j:
         data = json.load(j)
-        if 'skilldata' in data and data['skilldata'] is not None:
-            for s in data['skilldata']:
-                if 'tags' not in s or 'effect' not in s:
-                    continue
-                effect_list = list(
-                    filter(lambda e: 'type' in e and 'iid' in e and (e['type'] == 'buff' or e['type'] == 'debuff'), s['effect']))
-                if len(effect_list) == 0:
-                    continue
-                d = {'characterid': data['id']}
-                for field in fields:
-                    if field in s:
-                        d[field] = s[field]
-                d['effect'] = effect_list
-                skills.append(d)
+        for s_field in skill_fields:
+            if s_field in data and data[s_field] is not None:
+                for s in data[s_field]:
+                    if 'tags' not in s or 'effect' not in s:
+                        continue
+                    effect_list = list(filter(valid_ally_buff, s['effect']))
+                    if len(effect_list) == 0:
+                        continue
+                    d = {'characterid': data['id']}
+                    for field in fields:
+                        if field in s:
+                            d[field] = s[field]
+                    d['effect'] = effect_list
+                    skills.append(d)
 skills.sort(key=lambda sk: sk['characterid'])
 result = {'data': skills}
 with open(base_dir + '/lib/skilllist.json', 'w', encoding='utf-8') as f:
