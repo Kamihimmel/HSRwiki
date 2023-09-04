@@ -196,7 +196,7 @@
                     "15": 80
                 },
                 {
-                    "default": -10
+                    "default": 10
                 }
             ],
             "tags": [
@@ -235,16 +235,17 @@
                     "multipliertarget": "reducespeed",
                     "multiplier": 2,
                     "tag": [
+                        "singleenemy"
                         "reducespeed"
                     ]
                 },
                 {
                     "iid": "4",
                     "type": "debuff",
-                    "addtarget": "speed",
+                    "addtarget": "reducespeed",
                     "multiplier": 3,
                     "tag": [
-                        "bounce",
+                        "singleenemy",
                         "speed"
                     ]
                 }
@@ -302,7 +303,7 @@
                     "15": 44
                 },
                 {
-                    "default": -10
+                    "default": 10
                 },
                 {
                     "default": 100
