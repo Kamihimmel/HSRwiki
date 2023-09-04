@@ -248,10 +248,22 @@
                     "referencetargetEN": "all DoTs currently",
                     "referencetargetCN": "当前承受的所有持续伤害",
                     "referencetargetJP": "付与された全持続ダメージ",
-                    "multipliertarget": "dmg",
+                    "multipliertarget": "alldotdmg",
                     "multiplier": 2,
                     "tag": [
                         "dotatk"
+                    ]
+                },
+                {
+                    "iid": "4",
+                    "type": "buff",
+                    "addtarget": "alldotdmg",
+                    "multipliertarget": "alldotdmg",
+                    "multiplier": 2,
+                    "multipliervalue": "1",
+                    "tag": [
+                        "self",
+                        "alldotdmg"
                     ]
                 }
             ]
@@ -393,7 +405,7 @@
                     "referencetargetEN": "DoT Shocked",
                     "referencetargetCN": "触电持续伤害",
                     "referencetargetJP": "感電持続ダメージ",
-                    "multipliertarget": "dmg",
+                    "multipliertarget": "dotdmg",
                     "multiplier": 5,
                     "tag": [
                         "aoe",
@@ -410,6 +422,18 @@
                         "aoe",
                         "dotatk",
                         "lightningatk"
+                    ]
+                },
+                {
+                    "iid": "5",
+                    "type": "buff",
+                    "addtarget": "shockdotdmg",
+                    "multipliertarget": "shockdotdmg",
+                    "multiplier": 5,
+                    "multipliervalue": "1",
+                    "tag": [
+                        "self",
+                        "shockdotdmg"
                     ]
                 }
             ]
