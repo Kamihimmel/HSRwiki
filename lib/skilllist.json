@@ -302,6 +302,85 @@
         },
         {
             "characterid": "1004",
+            "id": "100402",
+            "ENname": "Edge of the Void",
+            "CNname": "虚空断界",
+            "JAname": "虚空断界",
+            "stype": "skill",
+            "maxlevel": 15,
+            "weaknessbreak": 30,
+            "energyregen": 10,
+            "levelmultiplier": [
+                {
+                    "1": 36,
+                    "2": 39.6,
+                    "3": 43.2,
+                    "4": 46.8,
+                    "5": 50.4,
+                    "6": 54,
+                    "7": 58.5,
+                    "8": 63,
+                    "9": 67.5,
+                    "10": 72,
+                    "11": 75.6,
+                    "12": 79.2,
+                    "13": 82.8,
+                    "14": 86.4,
+                    "15": 90
+                },
+                {
+                    "1": 65,
+                    "2": 66,
+                    "3": 67,
+                    "4": 68,
+                    "5": 69,
+                    "6": 70,
+                    "7": 71.25,
+                    "8": 72.5,
+                    "9": 73.75,
+                    "10": 75,
+                    "11": 76,
+                    "12": 77,
+                    "13": 78,
+                    "14": 79,
+                    "15": 80
+                },
+                {
+                    "default": 10
+                }
+            ],
+            "tags": [
+                "bounce",
+                "skillatk",
+                "imaginaryatk",
+                "debuff",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "multipliertarget": "reducespeed",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "reducespeed"
+                    ]
+                },
+                {
+                    "iid": "4",
+                    "type": "debuff",
+                    "addtarget": "reducespeed",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleenemy",
+                        "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1004",
             "id": "100403",
             "ENname": "Synthetic Black Hole",
             "CNname": "拟似黑洞",
@@ -346,7 +425,7 @@
                     "15": 44
                 },
                 {
-                    "default": -10
+                    "default": 10
                 },
                 {
                     "default": 100
@@ -1176,6 +1255,7 @@
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 1,
+                    "maxstack": 5,
                     "tag": [
                         "allally",
                         "atk"
