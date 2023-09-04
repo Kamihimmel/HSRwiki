@@ -383,7 +383,7 @@
                 {
                     "iid": "4",
                     "type": "debuff",
-                    "addtarget": "speed",
+                    "addtarget": "reducespeed",
                     "multiplier": 3,
                     "tag": [
                         "allenemy",
@@ -432,8 +432,8 @@
                 {
                     "iid": "3",
                     "type": "debuff",
-                    "addtarget": "speed",
-                    "multiplier": -10,
+                    "addtarget": "reducespeed",
+                    "multiplier": 10,
                     "tag": [
                         "allenemy",
                         "speed"
