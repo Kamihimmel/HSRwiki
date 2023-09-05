@@ -428,8 +428,7 @@
                     "iid": "3",
                     "type": "buff",
                     "addtarget": "losthpratio",
-                    "multiplier": 1,
-                    "multipliervalue": 1,
+                    "multipliervalue": "1",
                     "maxstack": 120,
                     "tag": [
                         "self",

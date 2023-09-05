@@ -585,13 +585,13 @@
                     "iid": "7",
                     "type": "buff",
                     "addtarget": "losthpratio",
-                    "multiplier": 7,
                     "multipliervalue": "1",
                     "maxstack": 90,
                     "tag": [
                         "self",
                         "losthp"
-                    ]
+                    ],
+                    "hide": true
                 }
             ]
         },

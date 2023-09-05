@@ -251,7 +251,8 @@
                     "multipliertarget": "alldotdmg",
                     "multiplier": 2,
                     "tag": [
-                        "dotatk"
+                        "dotatk",
+                        "lightningatk"
                     ]
                 },
                 {
@@ -259,7 +260,6 @@
                     "type": "buff",
                     "addtarget": "alldotdmg",
                     "multipliertarget": "alldotdmg",
-                    "multiplier": 2,
                     "multipliervalue": "1",
                     "tag": [
                         "self",
@@ -430,7 +430,6 @@
                     "type": "buff",
                     "addtarget": "shockeddotdmg",
                     "multipliertarget": "shockeddotdmg",
-                    "multiplier": 5,
                     "multipliervalue": "1",
                     "tag": [
                         "self",
