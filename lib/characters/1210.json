@@ -608,7 +608,7 @@
         {
             "id": "121001",
             "eidolonnum": 1,
-            "ENname": "Eating Noodles Upside-down",
+            "ENname": "Slurping Noodles During Handstand",
             "CNname": "倒立吃面条",
             "JAname": "逆立ち麺食い",
             "imageurl": "images/skills/1210-e1.png",
@@ -622,7 +622,7 @@
         {
             "id": "121002",
             "eidolonnum": 2,
-            "ENname": "Whistling While Brushing Teeth",
+            "ENname": "Brushing Teeth While Whistling",
             "CNname": "刷牙吹口哨",
             "JAname": "歯を磨きながら口笛を吹く",
             "imageurl": "images/skills/1210-e2.png",
@@ -636,7 +636,7 @@
         {
             "id": "121003",
             "eidolonnum": 3,
-            "ENname": "Smashing Boulder On Chest",
+            "ENname": "Smashing Boulders on Chest",
             "CNname": "胸口碎大石",
             "JAname": "胸元で岩砕き",
             "imageurl": "images/skills/1210-e3.png",
@@ -650,7 +650,7 @@
         {
             "id": "121004",
             "eidolonnum": 4,
-            "ENname": "Impervious to Sharp Objects",
+            "ENname": "Blocking Pike with Neck",
             "CNname": "金枪锁咽喉",
             "JAname": "喉元で槍受け止め",
             "imageurl": "images/skills/1210-e4.png",
@@ -664,7 +664,7 @@
         {
             "id": "121005",
             "eidolonnum": 5,
-            "ENname": "Sword-Swallowing To the Hilt",
+            "ENname": "Swallowing Sword to Stomach",
             "CNname": "吞剑通脊背",
             "JAname": "剣呑み",
             "imageurl": "images/skills/1210-e5.png",
@@ -678,7 +678,7 @@
         {
             "id": "121006",
             "eidolonnum": 6,
-            "ENname": "Bullet-Catching",
+            "ENname": "Catching Bullet with Hands",
             "CNname": "徒手接子弹",
             "JAname": "徒手で銃弾受け止め",
             "imageurl": "images/skills/1210-e6.png",

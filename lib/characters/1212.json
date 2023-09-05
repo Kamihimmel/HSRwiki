@@ -102,7 +102,7 @@
             "id": "121201",
             "ENname": "Lucent Moonglow",
             "CNname": "流影方晖",
-            "JAname": "流光の残照",
+            "JAname": "流影穿",
             "imageurl": "images/skills/1212-121201.png",
             "DescriptionEN": "Deals Ice DMG equal to [1]% of Jingliu's ATK to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于镜流[1]%攻击力的冰属性伤害。",
@@ -250,7 +250,7 @@
         },
         {
             "id": "121203",
-            "ENname": "Precipitous Blossoms, Fleeting as Stellar Dreams",
+            "ENname": "Florephemeral Dreamflux",
             "CNname": "昙华生灭，天河泻梦",
             "JAname": "曇華生滅、天河瀉夢",
             "imageurl": "images/skills/1212-121203.png",
@@ -386,21 +386,21 @@
                     "15": 6
                 },
                 {
-                    "1": 250,
-                    "2": 250,
-                    "3": 250,
-                    "4": 250,
-                    "5": 250,
-                    "6": 250,
-                    "7": 250,
-                    "8": 250,
-                    "9": 250,
-                    "10": 250,
-                    "11": 250,
-                    "12": 250,
-                    "13": 250,
-                    "14": 250,
-                    "15": 250
+                    "1": 275,
+                    "2": 275,
+                    "3": 275,
+                    "4": 275,
+                    "5": 275,
+                    "6": 275,
+                    "7": 275,
+                    "8": 275,
+                    "9": 275,
+                    "10": 275,
+                    "11": 275,
+                    "12": 275,
+                    "13": 275,
+                    "14": 275,
+                    "15": 275
                 },
                 {
                     "1": 60,
@@ -440,7 +440,7 @@
         },
         {
             "id": "121207",
-            "ENname": "Innermost Nature",
+            "ENname": "Shine of Truth",
             "CNname": "古镜照神",
             "JAname": "古鏡照神",
             "imageurl": "images/skills/1212-121207.png",
@@ -643,7 +643,7 @@
         {
             "id": "121201",
             "eidolonnum": 1,
-            "ENname": "Lunar Assault Upon Tianguan Gates",
+            "ENname": "Moon Crashes Tianguan Gate",
             "CNname": "月犯天关",
             "JAname": "月犯無関",
             "imageurl": "images/skills/1212-e1.png",
@@ -657,7 +657,7 @@
         {
             "id": "121202",
             "eidolonnum": 2,
-            "ENname": "New Moon's Dark Overshadows Qixing Dipper",
+            "ENname": "Crescent Shadows Qixing Dipper",
             "CNname": "朔晕七星",
             "JAname": "朔暈七星",
             "imageurl": "images/skills/1212-e2.png",
@@ -671,7 +671,7 @@
         {
             "id": "121203",
             "eidolonnum": 3,
-            "ENname": "Waxing Half Gazing in Earnest",
+            "ENname": "Halfmoon Gapes Mercurial Haze",
             "CNname": "半璧迫望",
             "JAname": "半璧の迫望",
             "imageurl": "images/skills/1212-e3.png",
@@ -685,7 +685,7 @@
         {
             "id": "121204",
             "eidolonnum": 4,
-            "ENname": "Moonlight Shaft Held Aloft",
+            "ENname": "Lunarlance Shines Skyward Dome",
             "CNname": "持秉玄烛",
             "JAname": "月を掲げる",
             "imageurl": "images/skills/1212-e4.png",
@@ -699,7 +699,7 @@
         {
             "id": "121205",
             "eidolonnum": 5,
-            "ENname": "Darkness Encroaches On the Celestial Bear",
+            "ENname": "Night Shades Astral Radiance",
             "CNname": "晦入三台",
             "JAname": "晦入三台",
             "imageurl": "images/skills/1212-e5.png",
@@ -713,7 +713,7 @@
         {
             "id": "121206",
             "eidolonnum": 6,
-            "ENname": "Eclipse Transforms Into Hollow Emptiness",
+            "ENname": "Eclipse Hollows Corporeal Husk",
             "CNname": "蚀变于娄",
             "JAname": "虚弱蝕変",
             "imageurl": "images/skills/1212-e6.png",
