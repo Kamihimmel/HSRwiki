@@ -1685,10 +1685,11 @@
                 {
                     "iid": "1",
                     "type": "debuff",
-                    "multipliertarget": "speed",
+                    "addtarget": "reducespeed",
                     "multiplier": 20,
                     "tag": [
-                        "singleenemy"
+                        "singleenemy",
+                        "reducespeed"
                     ]
                 }
             ]
@@ -2806,6 +2807,83 @@
                     "tag": [
                         "allally",
                         "critrate"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1208",
+            "id": "120804",
+            "ENname": "Bleak Breeds Bliss",
+            "CNname": "乾清坤夷，否极泰来",
+            "JAname": "乾坤清夷、一陽来復",
+            "stype": "talent",
+            "maxlevel": 15,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 10,
+                    "2": 10.8,
+                    "3": 11.6,
+                    "4": 12.4,
+                    "5": 13.2,
+                    "6": 14,
+                    "7": 15,
+                    "8": 16,
+                    "9": 17,
+                    "10": 18,
+                    "11": 18.8,
+                    "12": 19.6,
+                    "13": 20.4,
+                    "14": 21.2,
+                    "15": 22
+                },
+                {
+                    "1": 50,
+                    "2": 50,
+                    "3": 50,
+                    "4": 50,
+                    "5": 50,
+                    "6": 50,
+                    "7": 50,
+                    "8": 50,
+                    "9": 50,
+                    "10": 50,
+                    "11": 50,
+                    "12": 50,
+                    "13": 50,
+                    "14": 50,
+                    "15": 50
+                },
+                {
+                    "1": 80,
+                    "2": 81,
+                    "3": 82,
+                    "4": 83,
+                    "5": 84,
+                    "6": 85,
+                    "7": 86.25,
+                    "8": 87.5,
+                    "9": 88.75,
+                    "10": 90,
+                    "11": 91,
+                    "12": 92,
+                    "13": 93,
+                    "14": 94,
+                    "15": 95
+                }
+            ],
+            "tags": [],
+            "effect": [
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": 1,
+                    "tag": [
+                        "dmgreceive",
+                        "allally"
                     ]
                 }
             ]

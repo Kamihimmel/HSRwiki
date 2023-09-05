@@ -847,18 +847,18 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "dmgreceive",
+                "dmgreduction",
                 "self"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "dmgreceive",
-                    "multiplier": -20,
+                    "addtarget": "dmgreduction",
+                    "multiplier": 20,
                     "tag": [
                         "self",
-                        "dmgreceive"
+                        "dmgreduction"
                     ]
                 }
             ]

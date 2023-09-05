@@ -26,10 +26,10 @@
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "dmgreceive",
-                    "multiplier": -8,
+                    "addtarget": "dmgreduction",
+                    "multiplier": 8,
                     "tag": [
-                        "dmgreceive",
+                        "dmgreduction",
                         "self"
                     ]
                 }

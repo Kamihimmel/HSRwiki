@@ -397,6 +397,31 @@
                     "14": 94,
                     "15": 95
                 }
+            ],
+            "tags": [
+
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "multipliertarget": "losthp",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "dmgreduction",
+                    "multiplier": 1,
+                    "tag": [
+                        "dmgreduction",
+                        "allally"
+                    ]
+                }
             ]
         },
         {

@@ -207,6 +207,7 @@
                     "type": "heal",
                     "multipliertarget": "maxhp",
                     "multiplier": 1,
+                    "group": "1",
                     "tag": [
                         "singleally",
                         "heal"
@@ -217,6 +218,7 @@
                     "type": "heal",
                     "multipliertarget": "",
                     "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "singleally",
                         "heal"
@@ -285,6 +287,7 @@
                     "type": "heal",
                     "multipliertarget": "maxhp",
                     "multiplier": 1,
+                    "group": "1",
                     "tag": [
                         "allally",
                         "heal"
@@ -295,6 +298,7 @@
                     "type": "heal",
                     "multipliertarget": "",
                     "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "allally",
                         "heal"
@@ -398,6 +402,7 @@
                     "type": "heal",
                     "multipliertarget": "maxhp",
                     "multiplier": 1,
+                    "group": "1",
                     "tag": [
                         "singleally",
                         "heal"
@@ -408,6 +413,7 @@
                     "type": "heal",
                     "multipliertarget": "",
                     "multiplier": 2,
+                    "group": "1",
                     "tag": [
                         "singleally",
                         "heal"
@@ -418,6 +424,7 @@
                     "type": "revive",
                     "multipliertarget": "maxhp",
                     "multiplier": 3,
+                    "group": "2",
                     "tag": [
                         "singleally",
                         "revive"
@@ -428,6 +435,7 @@
                     "type": "revive",
                     "multipliertarget": "",
                     "multiplier": 4,
+                    "group": "2",
                     "tag": [
                         "singleally",
                         "revive"

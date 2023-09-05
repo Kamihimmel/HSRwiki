@@ -314,7 +314,8 @@
                     "addtarget": "dotdmgreceive",
                     "multiplier": 3,
                     "tag": [
-                        "dotdmgreceive"
+                        "dotdmgreceive",
+                        "allenemy"
                     ]
                 }
             ]

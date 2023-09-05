@@ -140,6 +140,54 @@
                     "4": 2,
                     "5": 2
                 }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "hp",
+                "energyregenrate"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "energyregenrate",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "energyregenrate"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "allally",
+                        "alldmg"
+                    ]
+                },
+                {
+                    "iid": "4",
+                    "type": "heal",
+                    "multipliertarget": "losthp",
+                    "multiplier": 3,
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                }
             ]
         }
     ]

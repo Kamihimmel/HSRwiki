@@ -221,21 +221,21 @@
             "energyregen": 30,
             "levelmultiplier": [
                 {
-                    "1": -40,
-                    "2": -41,
-                    "3": -42,
-                    "4": -43,
-                    "5": -44,
-                    "6": -45,
-                    "7": -46.25,
-                    "8": -47.5,
-                    "9": -48.75,
-                    "10": -50,
-                    "11": -51,
-                    "12": -52,
-                    "13": -53,
-                    "14": -54,
-                    "15": -55
+                    "1": 40,
+                    "2": 41,
+                    "3": 42,
+                    "4": 43,
+                    "5": 44,
+                    "6": 45,
+                    "7": 46.25,
+                    "8": 47.5,
+                    "9": 48.75,
+                    "10": 50,
+                    "11": 51,
+                    "12": 52,
+                    "13": 53,
+                    "14": 54,
+                    "15": 55
                 },
                 {
                     "default": 100
@@ -243,18 +243,18 @@
             ],
             "tags": [
                 "buff",
-                "dmgreceive",
+                "dmgreduction",
                 "tauntdebuff"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "dmgreceive",
+                    "addtarget": "dmgreduction",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "dmgreceive"
+                        "dmgreduction"
                     ]
                 },
                 {
@@ -523,18 +523,18 @@
             "teamskill": true,
             "tags": [
                 "buff",
-                "dmgreceive",
+                "dmgreduction",
                 "allally"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "dmgreceive",
-                    "multiplier": -15,
+                    "addtarget": "dmgreduction",
+                    "multiplier": 15,
                     "tag": [
                         "allally",
-                        "dmgreceive"
+                        "dmgreduction"
                     ]
                 }
             ]

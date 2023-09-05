@@ -398,6 +398,7 @@
                     "type": "shield",
                     "multipliertarget": "def",
                     "multiplier": 24,
+                    "group": "1",
                     "tag": [
                         "allally"
                     ]
@@ -407,6 +408,7 @@
                     "type": "shield",
                     "multipliertarget": "",
                     "multiplier": 150,
+                    "group": "1",
                     "tag": [
                         "allally"
                     ]
@@ -833,10 +835,11 @@
                 {
                     "iid": "1",
                     "type": "debuff",
-                    "multipliertarget": "speed",
+                    "addtarget": "reducespeed",
                     "multiplier": 20,
                     "tag": [
-                        "singleenemy"
+                        "singleenemy",
+                        "reducespeed"
                     ]
                 }
             ]
