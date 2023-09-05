@@ -51,7 +51,8 @@
 
 ### 字段表示的语义逻辑
 
-基于`multipliertarget`对应的属性，加成`multiplier`或`multipliervalue`的值，加成的目标属性为`addtarget`
+* 无`multipliertarget`时：对目标属性`addtarget`，加成`multiplier`或`multipliervalue`的值
+* 存在`multipliertarget`时：基于`multipliertarget`对应的属性，加成`multiplier`或`multipliervalue`百分比的值，加成的目标属性为`addtarget`
 
 ### 无选项的buff示例
 
