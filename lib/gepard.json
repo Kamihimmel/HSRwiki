@@ -785,7 +785,7 @@
     ],
     "eidolon": [
         {
-            "id": "110401",
+            "id": "110401-1",
             "eidolonnum": 1,
             "ENname": "Due Diligence",
             "CNname": "恪尽职守",
@@ -815,7 +815,7 @@
             ]
         },
         {
-            "id": "110402",
+            "id": "110402-2",
             "eidolonnum": 2,
             "ENname": "Lingering Cold",
             "CNname": "余寒",
@@ -845,7 +845,7 @@
             ]
         },
         {
-            "id": "110403",
+            "id": "110403-3",
             "eidolonnum": 3,
             "ENname": "Never Surrender",
             "CNname": "永不陷落",
@@ -864,7 +864,7 @@
             ]
         },
         {
-            "id": "110404",
+            "id": "110404-4",
             "eidolonnum": 4,
             "ENname": "Faith Moves Mountains",
             "CNname": "精诚所至",
@@ -895,7 +895,7 @@
             ]
         },
         {
-            "id": "110405",
+            "id": "110405-5",
             "eidolonnum": 5,
             "ENname": "Cold Iron Fist",
             "CNname": "拳似寒铁",
@@ -914,7 +914,7 @@
             ]
         },
         {
-            "id": "110406",
+            "id": "110406-6",
             "eidolonnum": 6,
             "ENname": "Unyielding Resolve",
             "CNname": "不屈的决意",

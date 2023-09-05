@@ -812,7 +812,7 @@
     ],
     "eidolon": [
         {
-            "id": "100301",
+            "id": "100301-1",
             "eidolonnum": 1,
             "ENname": "Childhood",
             "CNname": "童年",
@@ -842,7 +842,7 @@
             ]
         },
         {
-            "id": "100302",
+            "id": "100302-2",
             "eidolonnum": 2,
             "ENname": "Convergence",
             "CNname": "邂逅",
@@ -872,7 +872,7 @@
             ]
         },
         {
-            "id": "100303",
+            "id": "100303-3",
             "eidolonnum": 3,
             "ENname": "Poised",
             "CNname": "自我",
@@ -891,7 +891,7 @@
             ]
         },
         {
-            "id": "100304",
+            "id": "100304-4",
             "eidolonnum": 4,
             "ENname": "Dedication",
             "CNname": "投入",
@@ -909,7 +909,7 @@
             ]
         },
         {
-            "id": "100305",
+            "id": "100305-5",
             "eidolonnum": 5,
             "ENname": "Aspiration",
             "CNname": "梦想",
@@ -928,7 +928,7 @@
             ]
         },
         {
-            "id": "100306",
+            "id": "100306-6",
             "eidolonnum": 6,
             "ENname": "Trailblaze!",
             "CNname": "开拓！",

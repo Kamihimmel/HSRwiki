@@ -785,7 +785,7 @@
     ],
     "eidolon": [
         {
-            "id": "120101",
+            "id": "120101-1",
             "eidolonnum": 1,
             "ENname": "Rise Through the Tiles",
             "CNname": "散勇化骁摸幺鱼",
@@ -816,7 +816,7 @@
             ]
         },
         {
-            "id": "120102",
+            "id": "120102-2",
             "eidolonnum": 2,
             "ENname": "Sleep on the Tiles",
             "CNname": "棋枰作枕好入眠",
@@ -834,7 +834,7 @@
             ]
         },
         {
-            "id": "120103",
+            "id": "120103-3",
             "eidolonnum": 3,
             "ENname": "Strike, Suns Subdued",
             "CNname": "观琼视茕门前清",
@@ -853,7 +853,7 @@
             ]
         },
         {
-            "id": "120104",
+            "id": "120104-4",
             "eidolonnum": 4,
             "ENname": "Right on the Tiles",
             "CNname": "帝垣翔鳞和绝张",
@@ -884,7 +884,7 @@
             ]
         },
         {
-            "id": "120105",
+            "id": "120105-5",
             "eidolonnum": 5,
             "ENname": "Gambit for the Tiles",
             "CNname": "七星流离全不靠",
@@ -903,7 +903,7 @@
             ]
         },
         {
-            "id": "120106",
+            "id": "120106-6",
             "eidolonnum": 6,
             "ENname": "Prevail Beyond the Tiles",
             "CNname": "虚心平意候枭卢",

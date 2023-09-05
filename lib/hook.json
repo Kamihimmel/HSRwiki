@@ -958,7 +958,7 @@
     ],
     "eidolon": [
         {
-            "id": "110901",
+            "id": "110901-1",
             "eidolonnum": 1,
             "ENname": "Early to Bed, Early to Rise",
             "CNname": "早睡早起很健康",
@@ -988,7 +988,7 @@
             ]
         },
         {
-            "id": "110902",
+            "id": "110902-2",
             "eidolonnum": 2,
             "ENname": "Happy Tummy, Happy Body",
             "CNname": "吃好喝好长身体",
@@ -1006,7 +1006,7 @@
             ]
         },
         {
-            "id": "110903",
+            "id": "110903-3",
             "eidolonnum": 3,
             "ENname": "Don't Be Picky, Nothing's Icky",
             "CNname": "不挑不选全都要",
@@ -1025,7 +1025,7 @@
             ]
         },
         {
-            "id": "110904",
+            "id": "110904-4",
             "eidolonnum": 4,
             "ENname": "It's Okay to Not Know",
             "CNname": "稀里糊涂没关系",
@@ -1056,7 +1056,7 @@
             ]
         },
         {
-            "id": "110905",
+            "id": "110905-5",
             "eidolonnum": 5,
             "ENname": "Let the Moles' Deeds Be Known",
             "CNname": "好事留名鼹鼠党",
@@ -1075,7 +1075,7 @@
             ]
         },
         {
-            "id": "110906",
+            "id": "110906-6",
             "eidolonnum": 6,
             "ENname": "Always Ready to Punch and Kick",
             "CNname": "随时准备打坏人",

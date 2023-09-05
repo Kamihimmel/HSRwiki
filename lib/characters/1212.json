@@ -641,7 +641,7 @@
     ],
     "eidolon": [
         {
-            "id": "121201",
+            "id": "121201-1",
             "eidolonnum": 1,
             "ENname": "Moon Crashes Tianguan Gate",
             "CNname": "月犯天关",
@@ -655,7 +655,7 @@
             "teamskill": false
         },
         {
-            "id": "121202",
+            "id": "121202-2",
             "eidolonnum": 2,
             "ENname": "Crescent Shadows Qixing Dipper",
             "CNname": "朔晕七星",
@@ -669,7 +669,7 @@
             "teamskill": false
         },
         {
-            "id": "121203",
+            "id": "121203-3",
             "eidolonnum": 3,
             "ENname": "Halfmoon Gapes Mercurial Haze",
             "CNname": "半璧迫望",
@@ -683,7 +683,7 @@
             "teamskill": false
         },
         {
-            "id": "121204",
+            "id": "121204-4",
             "eidolonnum": 4,
             "ENname": "Lunarlance Shines Skyward Dome",
             "CNname": "持秉玄烛",
@@ -697,7 +697,7 @@
             "teamskill": false
         },
         {
-            "id": "121205",
+            "id": "121205-5",
             "eidolonnum": 5,
             "ENname": "Night Shades Astral Radiance",
             "CNname": "晦入三台",
@@ -711,7 +711,7 @@
             "teamskill": false
         },
         {
-            "id": "121206",
+            "id": "121206-6",
             "eidolonnum": 6,
             "ENname": "Eclipse Hollows Corporeal Husk",
             "CNname": "蚀变于娄",

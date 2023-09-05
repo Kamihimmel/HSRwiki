@@ -779,7 +779,7 @@
     ],
     "eidolon": [
         {
-            "id": "100901",
+            "id": "100901-1",
             "eidolonnum": 1,
             "ENname": "Star Sings Sans Verses or Vocals",
             "CNname": "星有无言之歌",
@@ -798,7 +798,7 @@
             ]
         },
         {
-            "id": "100902",
+            "id": "100902-2",
             "eidolonnum": 2,
             "ENname": "Moon Speaks in Wax and Wane",
             "CNname": "月见圆缺之意",
@@ -817,7 +817,7 @@
             ]
         },
         {
-            "id": "100903",
+            "id": "100903-3",
             "eidolonnum": 3,
             "ENname": "Meteor Showers for Wish and Want",
             "CNname": "黄道陨石之变",
@@ -836,7 +836,7 @@
             ]
         },
         {
-            "id": "100904",
+            "id": "100904-4",
             "eidolonnum": 4,
             "ENname": "Aurora Basks in Beauty and Bliss",
             "CNname": "极光显现之时",
@@ -866,7 +866,7 @@
             ]
         },
         {
-            "id": "100905",
+            "id": "100905-5",
             "eidolonnum": 5,
             "ENname": "Nebula Secludes in Cold Cosmos",
             "CNname": "深空天体之谜",
@@ -885,7 +885,7 @@
             ]
         },
         {
-            "id": "100906",
+            "id": "100906-6",
             "eidolonnum": 6,
             "ENname": "Galaxy Dreams in Calm and Comfort",
             "CNname": "眠于银河之下",

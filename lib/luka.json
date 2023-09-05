@@ -995,7 +995,7 @@
     ],
     "eidolon": [
         {
-            "id": "111101",
+            "id": "111101-1",
             "eidolonnum": 1,
             "ENname": "Fighting Endlessly",
             "CNname": "争斗不休",
@@ -1026,7 +1026,7 @@
             ]
         },
         {
-            "id": "111102",
+            "id": "111102-2",
             "eidolonnum": 2,
             "ENname": "The Enemy is Weak, I am Strong",
             "CNname": "敌弱，我强",
@@ -1044,7 +1044,7 @@
             ]
         },
         {
-            "id": "111103",
+            "id": "111103-3",
             "eidolonnum": 3,
             "ENname": "Born for the Ring",
             "CNname": "为擂台而生",
@@ -1063,7 +1063,7 @@
             ]
         },
         {
-            "id": "111104",
+            "id": "111104-4",
             "eidolonnum": 4,
             "ENname": "Never Turning Back",
             "CNname": "百折不回",
@@ -1094,7 +1094,7 @@
             ]
         },
         {
-            "id": "111105",
+            "id": "111105-5",
             "eidolonnum": 5,
             "ENname": "The Spirit of Wildfire",
             "CNname": "地火之魂",
@@ -1113,7 +1113,7 @@
             ]
         },
         {
-            "id": "111106",
+            "id": "111106-6",
             "eidolonnum": 6,
             "ENname": "A Champion's Applause",
             "CNname": "冠军应得的喝彩",

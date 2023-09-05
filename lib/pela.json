@@ -792,7 +792,7 @@
     ],
     "eidolon": [
         {
-            "id": "110601",
+            "id": "110601-1",
             "eidolonnum": 1,
             "ENname": "Victory Report",
             "CNname": "胜利反馈",
@@ -823,7 +823,7 @@
             ]
         },
         {
-            "id": "110602",
+            "id": "110602-2",
             "eidolonnum": 2,
             "ENname": "Adamant Charge",
             "CNname": "疾进不止",
@@ -854,7 +854,7 @@
             ]
         },
         {
-            "id": "110603",
+            "id": "110603-3",
             "eidolonnum": 3,
             "ENname": "Suppressive Force",
             "CNname": "压制升级",
@@ -873,7 +873,7 @@
             ]
         },
         {
-            "id": "110604",
+            "id": "110604-4",
             "eidolonnum": 4,
             "ENname": "Full Analysis",
             "CNname": "完全剖析",
@@ -904,7 +904,7 @@
             ]
         },
         {
-            "id": "110605",
+            "id": "110605-5",
             "eidolonnum": 5,
             "ENname": "Absolute Jeopardy",
             "CNname": "零度妨害",
@@ -923,7 +923,7 @@
             ]
         },
         {
-            "id": "110606",
+            "id": "110606-6",
             "eidolonnum": 6,
             "ENname": "Feeble Pursuit",
             "CNname": "疲弱追击",

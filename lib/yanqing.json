@@ -892,7 +892,7 @@
     ],
     "eidolon": [
         {
-            "id": "120901",
+            "id": "120901-1",
             "eidolonnum": 1,
             "ENname": "Svelte Saber",
             "CNname": "素刃",
@@ -922,7 +922,7 @@
             ]
         },
         {
-            "id": "120902",
+            "id": "120902-2",
             "eidolonnum": 2,
             "ENname": "Supine Serenade",
             "CNname": "空明",
@@ -953,7 +953,7 @@
             ]
         },
         {
-            "id": "120903",
+            "id": "120903-3",
             "eidolonnum": 3,
             "ENname": "Sword Savant",
             "CNname": "剑胎",
@@ -972,7 +972,7 @@
             ]
         },
         {
-            "id": "120904",
+            "id": "120904-4",
             "eidolonnum": 4,
             "ENname": "Searing Sting",
             "CNname": "霜厉",
@@ -1003,7 +1003,7 @@
             ]
         },
         {
-            "id": "120905",
+            "id": "120905-5",
             "eidolonnum": 5,
             "ENname": "Surging Strife",
             "CNname": "武骨",
@@ -1022,7 +1022,7 @@
             ]
         },
         {
-            "id": "120906",
+            "id": "120906-6",
             "eidolonnum": 6,
             "ENname": "Swift Swoop",
             "CNname": "自在",

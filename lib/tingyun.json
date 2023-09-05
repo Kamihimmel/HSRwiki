@@ -232,14 +232,12 @@
                 {
                     "iid": "2",
                     "type": "dmg",
-                    "referencetarget": "singleally",
-                    "referencetargetEN": "Single Ally",
-                    "referencetargetCN": "我方单体",
-                    "referencetargetJP": "味方単体",
                     "multipliertarget": "atk",
                     "multiplier": 3,
                     "tag": [
-                        "additionalatk"
+                        "additionalatk",
+                        "singleenemy",
+                        "lightningdmg"
                     ]
                 }
             ]
@@ -359,7 +357,8 @@
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "additionalatk"
+                        "additionalatk",
+                        "lightningatk"
                     ]
                 }
             ]
@@ -805,7 +804,7 @@
     ],
     "eidolon": [
         {
-            "id": "120201",
+            "id": "120201-1",
             "eidolonnum": 1,
             "ENname": "Windfall of Lucky Springs",
             "CNname": "春风得意，时运驰骋",
@@ -836,7 +835,7 @@
             ]
         },
         {
-            "id": "120202",
+            "id": "120202-2",
             "eidolonnum": 2,
             "ENname": "Gainfully Gives, Givingly Gains",
             "CNname": "君子惠渥，晏笑承之",
@@ -867,7 +866,7 @@
             ]
         },
         {
-            "id": "120203",
+            "id": "120203-3",
             "eidolonnum": 3,
             "ENname": "Halcyon Bequest",
             "CNname": "青丘遗泽",
@@ -886,7 +885,7 @@
             ]
         },
         {
-            "id": "120204",
+            "id": "120204-4",
             "eidolonnum": 4,
             "ENname": "Jovial Versatility",
             "CNname": "鸣火机变，度时察势",
@@ -904,7 +903,7 @@
             ]
         },
         {
-            "id": "120205",
+            "id": "120205-5",
             "eidolonnum": 5,
             "ENname": "Sauntering Coquette",
             "CNname": "绥绥狐魅",
@@ -923,7 +922,7 @@
             ]
         },
         {
-            "id": "120206",
+            "id": "120206-6",
             "eidolonnum": 6,
             "ENname": "Peace Brings Wealth to All",
             "CNname": "和气生财，泽盈四方",

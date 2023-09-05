@@ -833,7 +833,7 @@
     ],
     "eidolon": [
         {
-            "id": "110301",
+            "id": "110301-1",
             "eidolonnum": 1,
             "ENname": "Echo Chamber",
             "CNname": "余音绕梁",
@@ -863,7 +863,7 @@
             ]
         },
         {
-            "id": "110302",
+            "id": "110302-2",
             "eidolonnum": 2,
             "ENname": "Encore!",
             "CNname": "安可！",
@@ -893,7 +893,7 @@
             ]
         },
         {
-            "id": "110303",
+            "id": "110303-3",
             "eidolonnum": 3,
             "ENname": "Listen, the Heartbeat of the Gears",
             "CNname": "听，齿轮的心跳",
@@ -912,7 +912,7 @@
             ]
         },
         {
-            "id": "110304",
+            "id": "110304-4",
             "eidolonnum": 4,
             "ENname": "Make Some Noise!",
             "CNname": "制造噪音吧！",
@@ -943,7 +943,7 @@
             ]
         },
         {
-            "id": "110305",
+            "id": "110305-5",
             "eidolonnum": 5,
             "ENname": "Belobog's Loudest Roar!",
             "CNname": "贝洛伯格最强音！",
@@ -962,7 +962,7 @@
             ]
         },
         {
-            "id": "110306",
+            "id": "110306-6",
             "eidolonnum": 6,
             "ENname": "This Song Rocks to Heaven!",
             "CNname": "这一曲，贯穿天穹！",

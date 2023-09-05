@@ -1170,7 +1170,7 @@
     ],
     "eidolon": [
         {
-            "id": "120501",
+            "id": "120501-1",
             "eidolonnum": 1,
             "ENname": "Blade Cuts the Deepest in Hell",
             "CNname": "剑录大限，地狱变相",
@@ -1200,7 +1200,7 @@
             ]
         },
         {
-            "id": "120502",
+            "id": "120502-2",
             "eidolonnum": 2,
             "ENname": "Ten Thousand Sorrows From One Broken Dream",
             "CNname": "支离旧梦，万端遗恨",
@@ -1230,7 +1230,7 @@
             ]
         },
         {
-            "id": "120503",
+            "id": "120503-3",
             "eidolonnum": 3,
             "ENname": "Hardened Blade Bleeds Coldest Shade",
             "CNname": "冶炼玄钢，铣淬寒芒",
@@ -1249,7 +1249,7 @@
             ]
         },
         {
-            "id": "120504",
+            "id": "120504-4",
             "eidolonnum": 4,
             "ENname": "Rejected by Death, Infected With Life",
             "CNname": "泉台歧路，百骸回春",
@@ -1281,7 +1281,7 @@
             ]
         },
         {
-            "id": "120505",
+            "id": "120505-5",
             "eidolonnum": 5,
             "ENname": "Death By Ten Lords' Gaze",
             "CNname": "十王判死，业镜悬照",
@@ -1300,7 +1300,7 @@
             ]
         },
         {
-            "id": "120506",
+            "id": "120506-6",
             "eidolonnum": 6,
             "ENname": "Reborn Into an Empty Husk",
             "CNname": "命留魂销，复返此身",

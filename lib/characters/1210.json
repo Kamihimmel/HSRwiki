@@ -606,7 +606,7 @@
     ],
     "eidolon": [
         {
-            "id": "121001",
+            "id": "121001-1",
             "eidolonnum": 1,
             "ENname": "Slurping Noodles During Handstand",
             "CNname": "倒立吃面条",
@@ -620,7 +620,7 @@
             "teamskill": false
         },
         {
-            "id": "121002",
+            "id": "121002-2",
             "eidolonnum": 2,
             "ENname": "Brushing Teeth While Whistling",
             "CNname": "刷牙吹口哨",
@@ -634,7 +634,7 @@
             "teamskill": false
         },
         {
-            "id": "121003",
+            "id": "121003-3",
             "eidolonnum": 3,
             "ENname": "Smashing Boulders on Chest",
             "CNname": "胸口碎大石",
@@ -648,7 +648,7 @@
             "teamskill": false
         },
         {
-            "id": "121004",
+            "id": "121004-4",
             "eidolonnum": 4,
             "ENname": "Blocking Pike with Neck",
             "CNname": "金枪锁咽喉",
@@ -662,7 +662,7 @@
             "teamskill": false
         },
         {
-            "id": "121005",
+            "id": "121005-5",
             "eidolonnum": 5,
             "ENname": "Swallowing Sword to Stomach",
             "CNname": "吞剑通脊背",
@@ -676,7 +676,7 @@
             "teamskill": false
         },
         {
-            "id": "121006",
+            "id": "121006-6",
             "eidolonnum": 6,
             "ENname": "Catching Bullet with Hands",
             "CNname": "徒手接子弹",

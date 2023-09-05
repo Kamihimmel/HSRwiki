@@ -781,7 +781,7 @@
     ],
     "eidolon": [
         {
-            "id": "100201",
+            "id": "100201-1",
             "eidolonnum": 1,
             "ENname": "The Higher You Fly, the Harder You Fall",
             "CNname": "穷高极天，亢盈难久",
@@ -812,7 +812,7 @@
             ]
         },
         {
-            "id": "100202",
+            "id": "100202-2",
             "eidolonnum": 2,
             "ENname": "Quell the Venom Octet, Quench the Vice O'Flame",
             "CNname": "威制八毒，灭却炎烟",
@@ -831,7 +831,7 @@
             ]
         },
         {
-            "id": "100203",
+            "id": "100203-3",
             "eidolonnum": 3,
             "ENname": "Seen and Unseen",
             "CNname": "幽明变化，自在蟠跃",
@@ -850,7 +850,7 @@
             ]
         },
         {
-            "id": "100204",
+            "id": "100204-4",
             "eidolonnum": 4,
             "ENname": "Roaring Dragon and Soaring Sun",
             "CNname": "奋迅三昧，如日空居",
@@ -881,7 +881,7 @@
             ]
         },
         {
-            "id": "100205",
+            "id": "100205-5",
             "eidolonnum": 5,
             "ENname": "A Drop of Rain Feeds a Torrent",
             "CNname": "一渧天水，六虚洪流",
@@ -900,7 +900,7 @@
             ]
         },
         {
-            "id": "100206",
+            "id": "100206-6",
             "eidolonnum": 6,
             "ENname": "The Troubled Soul Lies in Wait",
             "CNname": "须绳缚身，沉潜勿用",

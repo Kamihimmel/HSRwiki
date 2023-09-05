@@ -22,16 +22,16 @@ with open(base_dir + '/lib/characterlist.json', 'r', encoding='utf-8') as f:
     data = json.load(f)['data']
 for d in data:
     with open(base_dir + '/' + d['infourl'], 'r', encoding='utf-8') as j:
-        data = json.load(j)
+        c_data = json.load(j)
         for s_field in skill_fields:
-            if s_field in data and data[s_field] is not None:
-                for s in data[s_field]:
+            if s_field in c_data and c_data[s_field] is not None:
+                for s in c_data[s_field]:
                     if 'tags' not in s or 'effect' not in s:
                         continue
                     effect_list = list(filter(valid_ally_buff, s['effect']))
                     if len(effect_list) == 0:
                         continue
-                    d = {'characterid': data['id']}
+                    d = {'characterid': c_data['id']}
                     for field in fields:
                         if field in s:
                             d[field] = s[field]

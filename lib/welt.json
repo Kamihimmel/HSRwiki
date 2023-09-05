@@ -884,7 +884,7 @@
     ],
     "eidolon": [
         {
-            "id": "100401",
+            "id": "100401-1",
             "eidolonnum": 1,
             "ENname": "Legacy of Honor",
             "CNname": "名的传承",
@@ -961,7 +961,7 @@
             ]
         },
         {
-            "id": "100402",
+            "id": "100402-2",
             "eidolonnum": 2,
             "ENname": "Conflux of Stars",
             "CNname": "星的凝聚",
@@ -992,7 +992,7 @@
             ]
         },
         {
-            "id": "100403",
+            "id": "100403-3",
             "eidolonnum": 3,
             "ENname": "Prayer of Peace",
             "CNname": "和平的祈愿",
@@ -1011,7 +1011,7 @@
             ]
         },
         {
-            "id": "100404",
+            "id": "100404-4",
             "eidolonnum": 4,
             "ENname": "Appellation of Justice",
             "CNname": "义的名号",
@@ -1030,7 +1030,7 @@
             ]
         },
         {
-            "id": "100405",
+            "id": "100405-5",
             "eidolonnum": 5,
             "ENname": "Power of Kindness",
             "CNname": "善的力量",
@@ -1049,7 +1049,7 @@
             ]
         },
         {
-            "id": "100406",
+            "id": "100406-6",
             "eidolonnum": 6,
             "ENname": "Prospect of Glory",
             "CNname": "光明的未来",

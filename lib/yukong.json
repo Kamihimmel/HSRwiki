@@ -789,7 +789,7 @@
     ],
     "eidolon": [
         {
-            "id": "120701",
+            "id": "120701-1",
             "eidolonnum": 1,
             "ENname": "Aerial Marshal",
             "CNname": "天舶飞将，枕弧待战",
@@ -820,7 +820,7 @@
             ]
         },
         {
-            "id": "120702",
+            "id": "120702-2",
             "eidolonnum": 2,
             "ENname": "Skyward Command",
             "CNname": "青霄驰骋，驱驭苍穹",
@@ -850,7 +850,7 @@
             ]
         },
         {
-            "id": "120703",
+            "id": "120703-3",
             "eidolonnum": 3,
             "ENname": "Torrential Fusillade",
             "CNname": "危弓未辍，执射不宁",
@@ -869,7 +869,7 @@
             ]
         },
         {
-            "id": "120704",
+            "id": "120704-4",
             "eidolonnum": 4,
             "ENname": "Zephyrean Echoes",
             "CNname": "百里闻风，九曲响镝",
@@ -900,7 +900,7 @@
             ]
         },
         {
-            "id": "120705",
+            "id": "120705-5",
             "eidolonnum": 5,
             "ENname": "August Deadshot",
             "CNname": "井仪贯侯，疾羽参连",
@@ -919,7 +919,7 @@
             ]
         },
         {
-            "id": "120706",
+            "id": "120706-6",
             "eidolonnum": 6,
             "ENname": "Bowstring Thunderclap",
             "CNname": "弦栝如雷，铣珧激荡",

@@ -814,7 +814,7 @@
     ],
     "eidolon": [
         {
-            "id": "120601",
+            "id": "120601-1",
             "eidolonnum": 1,
             "ENname": "Cut With Ease",
             "CNname": "游刃有余",
@@ -833,7 +833,7 @@
             ]
         },
         {
-            "id": "120602",
+            "id": "120602-2",
             "eidolonnum": 2,
             "ENname": "Refine in Toil",
             "CNname": "其身百炼",
@@ -864,7 +864,7 @@
             ]
         },
         {
-            "id": "120603",
+            "id": "120603-3",
             "eidolonnum": 3,
             "ENname": "Rise From Fame",
             "CNname": "传古剑流",
@@ -883,7 +883,7 @@
             ]
         },
         {
-            "id": "120604",
+            "id": "120604-4",
             "eidolonnum": 4,
             "ENname": "Cleave With Heart",
             "CNname": "其心百辟",
@@ -914,7 +914,7 @@
             ]
         },
         {
-            "id": "120605",
+            "id": "120605-5",
             "eidolonnum": 5,
             "ENname": "Prevail via Taixu",
             "CNname": "太虚神意",
@@ -933,7 +933,7 @@
             ]
         },
         {
-            "id": "120606",
+            "id": "120606-6",
             "eidolonnum": 6,
             "ENname": "Dwell Like Water",
             "CNname": "上善若水",

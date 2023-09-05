@@ -377,7 +377,7 @@ def append_eidolon(character_id, data_dict, exist_dict):
     exist_eidolons = exist_dict['eidolon'] if 'eidolon' in exist_dict else {}
     eidolon_cnt = len(list(eidolon_dict['EN']))
     for i in range(0, eidolon_cnt):
-        cur_eidolon = {'id': str(eidolon_dict['EN'][i]['id']), 'eidolonnum': eidolon_dict['EN'][i]['rank']}
+        cur_eidolon = {'id': '%s-%s' % (eidolon_dict['EN'][i]['id'], eidolon_dict['EN'][i]['rank']), 'eidolonnum': eidolon_dict['EN'][i]['rank']}
         append_eidolon_name(cur_eidolon, eidolon_dict, i)
         append_eidolon_image(character_id, cur_eidolon, eidolon_dict, i)
         append_eidolon_attr(cur_eidolon, eidolon_dict, i)

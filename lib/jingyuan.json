@@ -750,7 +750,7 @@
     ],
     "eidolon": [
         {
-            "id": "120401",
+            "id": "120401-1",
             "eidolonnum": 1,
             "ENname": "Slash, Seas Split",
             "CNname": "星流霆击碎昆冈",
@@ -769,7 +769,7 @@
             ]
         },
         {
-            "id": "120402",
+            "id": "120402-2",
             "eidolonnum": 2,
             "ENname": "Swing, Skies Squashed",
             "CNname": "戎戈动地开天阵",
@@ -819,7 +819,7 @@
             ]
         },
         {
-            "id": "120403",
+            "id": "120403-3",
             "eidolonnum": 3,
             "ENname": "Strike, Suns Subdued",
             "CNname": "移锋惊电冲霄汉",
@@ -838,7 +838,7 @@
             ]
         },
         {
-            "id": "120404",
+            "id": "120404-4",
             "eidolonnum": 4,
             "ENname": "Spin, Stars Sieged",
             "CNname": "刃卷横云落玉沙",
@@ -857,7 +857,7 @@
             ]
         },
         {
-            "id": "120405",
+            "id": "120405-5",
             "eidolonnum": 5,
             "ENname": "Stride, Spoils Seized",
             "CNname": "百战弃躯轻死生",
@@ -876,7 +876,7 @@
             ]
         },
         {
-            "id": "120406",
+            "id": "120406-6",
             "eidolonnum": 6,
             "ENname": "Sweep, Souls Slain",
             "CNname": "威灵有应破敌雠",

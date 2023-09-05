@@ -743,7 +743,7 @@
     ],
     "eidolon": [
         {
-            "id": "110201",
+            "id": "110201-1",
             "eidolonnum": 1,
             "ENname": "Extirpating Slash",
             "CNname": "斩尽",
@@ -774,7 +774,7 @@
             ]
         },
         {
-            "id": "110202",
+            "id": "110202-2",
             "eidolonnum": 2,
             "ENname": "Dancing Butterfly",
             "CNname": "蝶舞",
@@ -805,7 +805,7 @@
             ]
         },
         {
-            "id": "110203",
+            "id": "110203-3",
             "eidolonnum": 3,
             "ENname": "Dazzling Tumult",
             "CNname": "缭乱",
@@ -824,7 +824,7 @@
             ]
         },
         {
-            "id": "110204",
+            "id": "110204-4",
             "eidolonnum": 4,
             "ENname": "Flitting Phantasm",
             "CNname": "缭乱",
@@ -855,7 +855,7 @@
             ]
         },
         {
-            "id": "110205",
+            "id": "110205-5",
             "eidolonnum": 5,
             "ENname": "Piercing Shards",
             "CNname": "锋锐",
@@ -874,7 +874,7 @@
             ]
         },
         {
-            "id": "110206",
+            "id": "110206-6",
             "eidolonnum": 6,
             "ENname": "Shattering Shambles",
             "CNname": "离析",

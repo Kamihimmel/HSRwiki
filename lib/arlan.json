@@ -769,7 +769,7 @@
     ],
     "eidolon": [
         {
-            "id": "100801",
+            "id": "100801-1",
             "eidolonnum": 1,
             "ENname": "To the Bitter End",
             "CNname": "万死不辞",
@@ -800,7 +800,7 @@
             ]
         },
         {
-            "id": "100802",
+            "id": "100802-2",
             "eidolonnum": 2,
             "ENname": "Breaking Free",
             "CNname": "除制去缚",
@@ -818,7 +818,7 @@
             ]
         },
         {
-            "id": "100803",
+            "id": "100803-3",
             "eidolonnum": 3,
             "ENname": "Power Through",
             "CNname": "重剑强攻",
@@ -837,7 +837,7 @@
             ]
         },
         {
-            "id": "100804",
+            "id": "100804-4",
             "eidolonnum": 4,
             "ENname": "Turn the Tables",
             "CNname": "绝处反击",
@@ -867,7 +867,7 @@
             ]
         },
         {
-            "id": "100805",
+            "id": "100805-5",
             "eidolonnum": 5,
             "ENname": "Hammer and Tongs",
             "CNname": "全力倾注",
@@ -886,7 +886,7 @@
             ]
         },
         {
-            "id": "100806",
+            "id": "100806-6",
             "eidolonnum": 6,
             "ENname": "Self-Sacrifice",
             "CNname": "以身作引",

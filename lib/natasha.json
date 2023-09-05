@@ -826,7 +826,7 @@
     ],
     "eidolon": [
         {
-            "id": "110501",
+            "id": "110501-1",
             "eidolonnum": 1,
             "ENname": "Pharmacology Expertise",
             "CNname": "遍识药理",
@@ -864,7 +864,7 @@
             ]
         },
         {
-            "id": "110502",
+            "id": "110502-2",
             "eidolonnum": 2,
             "ENname": "Clinical Research",
             "CNname": "临床研学",
@@ -902,7 +902,7 @@
             ]
         },
         {
-            "id": "110503",
+            "id": "110503-3",
             "eidolonnum": 3,
             "ENname": "The Right Cure",
             "CNname": "对症下药",
@@ -921,7 +921,7 @@
             ]
         },
         {
-            "id": "110504",
+            "id": "110504-4",
             "eidolonnum": 4,
             "ENname": "Miracle Cure",
             "CNname": "妙手回春",
@@ -952,7 +952,7 @@
             ]
         },
         {
-            "id": "110505",
+            "id": "110505-5",
             "eidolonnum": 5,
             "ENname": "Preventive Treatment",
             "CNname": "医治未病",
@@ -971,7 +971,7 @@
             ]
         },
         {
-            "id": "110506",
+            "id": "110506-6",
             "eidolonnum": 6,
             "ENname": "Doctor's Grace",
             "CNname": "医者仁心",

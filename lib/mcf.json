@@ -883,7 +883,7 @@
     ],
     "eidolon": [
         {
-            "id": "800401",
+            "id": "800401-1",
             "eidolonnum": 1,
             "ENname": "Earth-Shaking Resonance",
             "CNname": "大地芯髓的鸣动",
@@ -903,7 +903,7 @@
             "effect": []
         },
         {
-            "id": "800402",
+            "id": "800402-2",
             "eidolonnum": 2,
             "ENname": "Time-Defying Tenacity",
             "CNname": "古老寒铁的坚守",
@@ -940,7 +940,7 @@
             ]
         },
         {
-            "id": "800403",
+            "id": "800403-3",
             "eidolonnum": 3,
             "ENname": "Trail-Blazing Blueprint",
             "CNname": "砌造未来的蓝图",
@@ -959,7 +959,7 @@
             ]
         },
         {
-            "id": "800404",
+            "id": "800404-4",
             "eidolonnum": 4,
             "ENname": "Nation-Building Oath",
             "CNname": "驻留文明的誓言",
@@ -979,7 +979,7 @@
             "effect": []
         },
         {
-            "id": "800405",
+            "id": "800405-5",
             "eidolonnum": 5,
             "ENname": "Spirit-Warming Flame",
             "CNname": "点燃光焰的勇气",
@@ -998,7 +998,7 @@
             ]
         },
         {
-            "id": "800406",
+            "id": "800406-6",
             "eidolonnum": 6,
             "ENname": "City-Forging Bulwarks",
             "CNname": "永屹城垣的壁垒",

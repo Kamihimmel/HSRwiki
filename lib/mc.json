@@ -813,7 +813,7 @@
     ],
     "eidolon": [
         {
-            "id": "800201",
+            "id": "800201-1",
             "eidolonnum": 1,
             "ENname": "A Falling Star",
             "CNname": "坠临万界的星芒",
@@ -844,7 +844,7 @@
             ]
         },
         {
-            "id": "800202",
+            "id": "800202-2",
             "eidolonnum": 2,
             "ENname": "An Unwilling Host",
             "CNname": "因缘假合的人身",
@@ -874,7 +874,7 @@
             ]
         },
         {
-            "id": "800203",
+            "id": "800203-3",
             "eidolonnum": 3,
             "ENname": "A Leading Whisper",
             "CNname": "揭示前路的言灵",
@@ -893,7 +893,7 @@
             ]
         },
         {
-            "id": "800204",
+            "id": "800204-4",
             "eidolonnum": 4,
             "ENname": "A Destructing Glance",
             "CNname": "凝眸毁灭的瞬间",
@@ -924,7 +924,7 @@
             ]
         },
         {
-            "id": "800205",
+            "id": "800205-5",
             "eidolonnum": 5,
             "ENname": "A Surviving Hope",
             "CNname": "劫余重生的希望",
@@ -943,7 +943,7 @@
             ]
         },
         {
-            "id": "800206",
+            "id": "800206-6",
             "eidolonnum": 6,
             "ENname": "A Trailblazing Will",
             "CNname": "拓宇行天的意志",

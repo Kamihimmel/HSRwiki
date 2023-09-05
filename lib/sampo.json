@@ -809,7 +809,7 @@
     ],
     "eidolon": [
         {
-            "id": "110801",
+            "id": "110801-1",
             "eidolonnum": 1,
             "ENname": "Rising Love",
             "CNname": "加码的爱",
@@ -827,7 +827,7 @@
             ]
         },
         {
-            "id": "110802",
+            "id": "110802-2",
             "eidolonnum": 2,
             "ENname": "Infectious Enthusiasm",
             "CNname": "热情会传染",
@@ -845,7 +845,7 @@
             ]
         },
         {
-            "id": "110803",
+            "id": "110803-3",
             "eidolonnum": 3,
             "ENname": "Big Money!",
             "CNname": "大数字！",
@@ -864,7 +864,7 @@
             ]
         },
         {
-            "id": "110804",
+            "id": "110804-4",
             "eidolonnum": 4,
             "ENname": "The Deeper the Love, the Stronger the Hate",
             "CNname": "爱之深，恨之切",
@@ -895,7 +895,7 @@
             ]
         },
         {
-            "id": "110805",
+            "id": "110805-5",
             "eidolonnum": 5,
             "ENname": "Huuuuge Money!",
             "CNname": "超大数字！",
@@ -914,7 +914,7 @@
             ]
         },
         {
-            "id": "110806",
+            "id": "110806-6",
             "eidolonnum": 6,
             "ENname": "Increased Spending",
             "CNname": "消费升级",

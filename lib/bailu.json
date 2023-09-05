@@ -853,7 +853,7 @@
     ],
     "eidolon": [
         {
-            "id": "121101",
+            "id": "121101-1",
             "eidolonnum": 1,
             "ENname": "Ambrosial Aqua",
             "CNname": "百脉甘津宁神久",
@@ -882,7 +882,7 @@
             ]
         },
         {
-            "id": "121102",
+            "id": "121102-2",
             "eidolonnum": 2,
             "ENname": "Sylphic Slumber",
             "CNname": "壶中洞天云螭眠",
@@ -913,7 +913,7 @@
             ]
         },
         {
-            "id": "121103",
+            "id": "121103-3",
             "eidolonnum": 3,
             "ENname": "Omniscient Opulence",
             "CNname": "掌间乾坤便通玄",
@@ -932,7 +932,7 @@
             ]
         },
         {
-            "id": "121104",
+            "id": "121104-4",
             "eidolonnum": 4,
             "ENname": "Evil Excision",
             "CNname": "肘后备急除外障",
@@ -962,7 +962,7 @@
             ]
         },
         {
-            "id": "121105",
+            "id": "121105-5",
             "eidolonnum": 5,
             "ENname": "Waning Worries",
             "CNname": "方定一倾浣俗尘",
@@ -981,7 +981,7 @@
             ]
         },
         {
-            "id": "121106",
+            "id": "121106-6",
             "eidolonnum": 6,
             "ENname": "Drooling Drop of Draconic Divinity",
             "CNname": "龙漦吐哺胜金丹",

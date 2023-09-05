@@ -798,7 +798,7 @@
     ],
     "eidolon": [
         {
-            "id": "100101",
+            "id": "100101-1",
             "eidolonnum": 1,
             "ENname": "Memory of You",
             "CNname": "记忆中的你",
@@ -829,7 +829,7 @@
             ]
         },
         {
-            "id": "100102",
+            "id": "100102-2",
             "eidolonnum": 2,
             "ENname": "Memory of It",
             "CNname": "记忆中的它",
@@ -867,7 +867,7 @@
             ]
         },
         {
-            "id": "100103",
+            "id": "100103-3",
             "eidolonnum": 3,
             "ENname": "Memory of Everything",
             "CNname": "记忆中的一切",
@@ -886,7 +886,7 @@
             ]
         },
         {
-            "id": "100104",
+            "id": "100104-4",
             "eidolonnum": 4,
             "ENname": "Never Forfeit Again",
             "CNname": "不愿再失去",
@@ -918,7 +918,7 @@
             ]
         },
         {
-            "id": "100105",
+            "id": "100105-5",
             "eidolonnum": 5,
             "ENname": "Never Forget Again",
             "CNname": "不想再忘却",
@@ -937,7 +937,7 @@
             ]
         },
         {
-            "id": "100106",
+            "id": "100106-6",
             "eidolonnum": 6,
             "ENname": "Just Like This, Always...",
             "CNname": "就这样，一直…",

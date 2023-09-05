@@ -745,7 +745,7 @@
     ],
     "eidolon": [
         {
-            "id": "101301",
+            "id": "101301-1",
             "eidolonnum": 1,
             "ENname": "Kick You When You're Down",
             "CNname": "落井当下石",
@@ -777,7 +777,7 @@
             ]
         },
         {
-            "id": "101302",
+            "id": "101302-2",
             "eidolonnum": 2,
             "ENname": "Keep the Ball Rolling",
             "CNname": "得胜必追击",
@@ -807,7 +807,7 @@
             ]
         },
         {
-            "id": "101303",
+            "id": "101303-3",
             "eidolonnum": 3,
             "ENname": "That's the Kind of Girl I Am",
             "CNname": "我就是这样女子",
@@ -826,7 +826,7 @@
             ]
         },
         {
-            "id": "101304",
+            "id": "101304-4",
             "eidolonnum": 4,
             "ENname": "Hit Where It Hurts",
             "CNname": "打人要打脸",
@@ -857,7 +857,7 @@
             ]
         },
         {
-            "id": "101305",
+            "id": "101305-5",
             "eidolonnum": 5,
             "ENname": "Stride, Spoils Seized",
             "CNname": "骂人不留口",
@@ -876,7 +876,7 @@
             ]
         },
         {
-            "id": "101306",
+            "id": "101306-6",
             "eidolonnum": 6,
             "ENname": "No One Can Betray Me",
             "CNname": "世上没人能负我",

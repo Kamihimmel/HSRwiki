@@ -218,7 +218,7 @@
         },
         {
             "characterid": "1002",
-            "id": "100206",
+            "id": "100206-6",
             "ENname": "The Troubled Soul Lies in Wait",
             "CNname": "须绳缚身，沉潜勿用",
             "JAname": "今生縄縛\n解く時急く勿れ",
@@ -700,7 +700,7 @@
         },
         {
             "characterid": "1005",
-            "id": "100501",
+            "id": "100501-1",
             "ENname": "Da Capo",
             "CNname": "无穷动！无穷",
             "JAname": "無窮に動く！無窮に",
@@ -725,7 +725,7 @@
         },
         {
             "characterid": "1005",
-            "id": "100502",
+            "id": "100502-2",
             "ENname": "Fortississimo",
             "CNname": "狂想者，呜咽",
             "JAname": "狂想者の嗚咽",
@@ -1147,7 +1147,7 @@
         },
         {
             "characterid": "1006",
-            "id": "100602",
+            "id": "100602-2",
             "ENname": "Zombie Network",
             "CNname": "僵尸网络",
             "JAname": "ボットネット",
@@ -1551,7 +1551,7 @@
         },
         {
             "characterid": "1101",
-            "id": "110102",
+            "id": "110102-2",
             "ENname": "Quick March",
             "CNname": "快速行军",
             "JAname": "急行軍",
@@ -1672,7 +1672,7 @@
         },
         {
             "characterid": "1104",
-            "id": "110402",
+            "id": "110402-2",
             "ENname": "Lingering Cold",
             "CNname": "余寒",
             "JAname": "余寒",
@@ -1696,7 +1696,7 @@
         },
         {
             "characterid": "1104",
-            "id": "110404",
+            "id": "110404-4",
             "ENname": "Faith Moves Mountains",
             "CNname": "精诚所至",
             "JAname": "確固たる意志",
@@ -1880,7 +1880,7 @@
         },
         {
             "characterid": "1106",
-            "id": "110604",
+            "id": "110604-4",
             "ENname": "Full Analysis",
             "CNname": "完全剖析",
             "JAname": "完全解析",
@@ -2417,7 +2417,7 @@
         },
         {
             "characterid": "1202",
-            "id": "120201",
+            "id": "120201-1",
             "ENname": "Windfall of Lucky Springs",
             "CNname": "春风得意，时运驰骋",
             "JAname": "春風吹きて時運巡る",
@@ -2442,7 +2442,7 @@
         },
         {
             "characterid": "1202",
-            "id": "120202",
+            "id": "120202-2",
             "ENname": "Gainfully Gives, Givingly Gains",
             "CNname": "君子惠渥，晏笑承之",
             "JAname": "君子の恩恵 微笑みを以て承るべき",
@@ -2467,7 +2467,7 @@
         },
         {
             "characterid": "1203",
-            "id": "120301",
+            "id": "120301-1",
             "ENname": "Ablution of the Quick",
             "CNname": "濯洗生者",
             "JAname": "生者の浄化",
@@ -2492,7 +2492,7 @@
         },
         {
             "characterid": "1203",
-            "id": "120304",
+            "id": "120304-4",
             "ENname": "Judgment via the King",
             "CNname": "荆冠审判",
             "JAname": "荊の審判",
@@ -2515,7 +2515,7 @@
         },
         {
             "characterid": "1203",
-            "id": "120306",
+            "id": "120306-6",
             "ENname": "Reunion With the Dust",
             "CNname": "皆归尘土",
             "JAname": "皆灰燼に帰す",
@@ -2540,7 +2540,7 @@
         },
         {
             "characterid": "1204",
-            "id": "120406",
+            "id": "120406-6",
             "ENname": "Sweep, Souls Slain",
             "CNname": "威灵有应破敌雠",
             "JAname": "百戦経て捨てし躯<br />生死軽んず",
@@ -2730,7 +2730,7 @@
         },
         {
             "characterid": "1207",
-            "id": "120701",
+            "id": "120701-1",
             "ENname": "Aerial Marshal",
             "CNname": "天舶飞将，枕弧待战",
             "JAname": "天舟の飛将 弓枕き戦を待つ",
@@ -2942,7 +2942,11 @@
                     "15": 95
                 }
             ],
-            "tags": [],
+            "tags": [
+                "heal",
+                "buff",
+                "dmgreduction"
+            ],
             "effect": [
                 {
                     "iid": "2",
@@ -2952,6 +2956,31 @@
                     "tag": [
                         "dmgreduction",
                         "allally"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1208",
+            "id": "120801-1",
+            "ENname": "Dominus Pacis",
+            "CNname": "司危",
+            "JAname": "司危",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "allally",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 30,
+                    "tag": [
+                        "allally",
+                        "critdmg"
                     ]
                 }
             ]

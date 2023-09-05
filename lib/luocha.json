@@ -794,7 +794,7 @@
     ],
     "eidolon": [
         {
-            "id": "120301",
+            "id": "120301-1",
             "eidolonnum": 1,
             "ENname": "Ablution of the Quick",
             "CNname": "濯洗生者",
@@ -825,7 +825,7 @@
             ]
         },
         {
-            "id": "120302",
+            "id": "120302-2",
             "eidolonnum": 2,
             "ENname": "Bestowal From the Pure",
             "CNname": "净庭赐礼",
@@ -863,7 +863,7 @@
             ]
         },
         {
-            "id": "120303",
+            "id": "120303-3",
             "eidolonnum": 3,
             "ENname": "Surveyal by the Fool",
             "CNname": "愚人试探",
@@ -882,7 +882,7 @@
             ]
         },
         {
-            "id": "120304",
+            "id": "120304-4",
             "eidolonnum": 4,
             "ENname": "Judgment via the King",
             "CNname": "荆冠审判",
@@ -911,7 +911,7 @@
             ]
         },
         {
-            "id": "120305",
+            "id": "120305-5",
             "eidolonnum": 5,
             "ENname": "Cicatrix 'Neath the Pain",
             "CNname": "受难之痕",
@@ -930,7 +930,7 @@
             ]
         },
         {
-            "id": "120306",
+            "id": "120306-6",
             "eidolonnum": 6,
             "ENname": "Reunion With the Dust",
             "CNname": "皆归尘土",

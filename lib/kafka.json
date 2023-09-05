@@ -963,7 +963,7 @@
     ],
     "eidolon": [
         {
-            "id": "100501",
+            "id": "100501-1",
             "eidolonnum": 1,
             "ENname": "Da Capo",
             "CNname": "无穷动！无穷",
@@ -994,7 +994,7 @@
             ]
         },
         {
-            "id": "100502",
+            "id": "100502-2",
             "eidolonnum": 2,
             "ENname": "Fortississimo",
             "CNname": "狂想者，呜咽",
@@ -1024,7 +1024,7 @@
             ]
         },
         {
-            "id": "100503",
+            "id": "100503-3",
             "eidolonnum": 3,
             "ENname": "Capriccio",
             "CNname": "我赞美，即兴",
@@ -1043,7 +1043,7 @@
             ]
         },
         {
-            "id": "100504",
+            "id": "100504-4",
             "eidolonnum": 4,
             "ENname": "Recitativo",
             "CNname": "把宣叙呈献给",
@@ -1074,7 +1074,7 @@
             ]
         },
         {
-            "id": "100505",
+            "id": "100505-5",
             "eidolonnum": 5,
             "ENname": "Doloroso",
             "CNname": "只有今晚奏鸣",
@@ -1093,7 +1093,7 @@
             ]
         },
         {
-            "id": "100506",
+            "id": "100506-6",
             "eidolonnum": 6,
             "ENname": "Leggiero",
             "CNname": "回旋，悄悄地",

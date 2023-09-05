@@ -623,7 +623,7 @@
     ],
     "eidolon": [
         {
-            "id": "111001",
+            "id": "111001-1",
             "eidolonnum": 1,
             "ENname": "Morning of Snow Hike",
             "CNname": "远行雪杖的清晨",
@@ -637,7 +637,7 @@
             "teamskill": false
         },
         {
-            "id": "111002",
+            "id": "111002-2",
             "eidolonnum": 2,
             "ENname": "Noon of Portable Furnace",
             "CNname": "便携炉具的正午",
@@ -651,7 +651,7 @@
             "teamskill": false
         },
         {
-            "id": "111003",
+            "id": "111003-3",
             "eidolonnum": 3,
             "ENname": "Afternoon of Avalanche Beacon",
             "CNname": "雪崩信标的午后",
@@ -665,7 +665,7 @@
             "teamskill": false
         },
         {
-            "id": "111004",
+            "id": "111004-4",
             "eidolonnum": 4,
             "ENname": "Dusk of Warm Campfire",
             "CNname": "露营篝火的薄暮",
@@ -679,7 +679,7 @@
             "teamskill": false
         },
         {
-            "id": "111005",
+            "id": "111005-5",
             "eidolonnum": 5,
             "ENname": "Night of Aurora Tea",
             "CNname": "极光红茶的新夜",
@@ -693,7 +693,7 @@
             "teamskill": false
         },
         {
-            "id": "111006",
+            "id": "111006-6",
             "eidolonnum": 6,
             "ENname": "Dawn of Explorers' Chart",
             "CNname": "测绘图纸的黎明",

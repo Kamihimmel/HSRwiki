@@ -837,7 +837,7 @@
     ],
     "eidolon": [
         {
-            "id": "110701",
+            "id": "110701-1",
             "eidolonnum": 1,
             "ENname": "A Tall Figure",
             "CNname": "高大的背影",
@@ -855,7 +855,7 @@
             ]
         },
         {
-            "id": "110702",
+            "id": "110702-2",
             "eidolonnum": 2,
             "ENname": "A Tight Embrace",
             "CNname": "紧紧的拥抱",
@@ -884,7 +884,7 @@
             ]
         },
         {
-            "id": "110703",
+            "id": "110703-3",
             "eidolonnum": 3,
             "ENname": "Cold Steel Armor",
             "CNname": "冰冷的钢甲",
@@ -903,7 +903,7 @@
             ]
         },
         {
-            "id": "110704",
+            "id": "110704-4",
             "eidolonnum": 4,
             "ENname": "Family's Warmth",
             "CNname": "家人的温暖",
@@ -934,7 +934,7 @@
             ]
         },
         {
-            "id": "110705",
+            "id": "110705-5",
             "eidolonnum": 5,
             "ENname": "A Small Promise",
             "CNname": "小小的承诺",
@@ -953,7 +953,7 @@
             ]
         },
         {
-            "id": "110706",
+            "id": "110706-6",
             "eidolonnum": 6,
             "ENname": "Long Company",
             "CNname": "长久的陪伴",

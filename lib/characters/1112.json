@@ -538,7 +538,7 @@
     ],
     "eidolon": [
         {
-            "id": "111201",
+            "id": "111201-1",
             "eidolonnum": 1,
             "ENname": "Future Market",
             "CNname": "未来市场",
@@ -552,7 +552,7 @@
             "teamskill": false
         },
         {
-            "id": "111202",
+            "id": "111202-2",
             "eidolonnum": 2,
             "ENname": "Bona Fide Acquisition",
             "CNname": "善意收购",
@@ -566,7 +566,7 @@
             "teamskill": false
         },
         {
-            "id": "111203",
+            "id": "111203-3",
             "eidolonnum": 3,
             "ENname": "Seize the Big and Free the Small",
             "CNname": "抓大放小",
@@ -580,7 +580,7 @@
             "teamskill": false
         },
         {
-            "id": "111204",
+            "id": "111204-4",
             "eidolonnum": 4,
             "ENname": "Agile Operation",
             "CNname": "敏捷处理",
@@ -594,7 +594,7 @@
             "teamskill": false
         },
         {
-            "id": "111205",
+            "id": "111205-5",
             "eidolonnum": 5,
             "ENname": "Inflationary Demand",
             "CNname": "需求膨胀",
@@ -608,7 +608,7 @@
             "teamskill": false
         },
         {
-            "id": "111206",
+            "id": "111206-6",
             "eidolonnum": 6,
             "ENname": "Incentive Mechanism",
             "CNname": "激励机制",

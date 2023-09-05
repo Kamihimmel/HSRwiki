@@ -970,7 +970,7 @@
     ],
     "eidolon": [
         {
-            "id": "100601",
+            "id": "100601-1",
             "eidolonnum": 1,
             "ENname": "Social Engineering",
             "CNname": "社会工程",
@@ -1001,7 +1001,7 @@
             ]
         },
         {
-            "id": "100602",
+            "id": "100602-2",
             "eidolonnum": 2,
             "ENname": "Zombie Network",
             "CNname": "僵尸网络",
@@ -1032,7 +1032,7 @@
             ]
         },
         {
-            "id": "100603",
+            "id": "100603-3",
             "eidolonnum": 3,
             "ENname": "Payload",
             "CNname": "攻击载荷",
@@ -1051,7 +1051,7 @@
             ]
         },
         {
-            "id": "100604",
+            "id": "100604-4",
             "eidolonnum": 4,
             "ENname": "Bounce Attack",
             "CNname": "反弹端口",
@@ -1081,7 +1081,7 @@
             ]
         },
         {
-            "id": "100605",
+            "id": "100605-5",
             "eidolonnum": 5,
             "ENname": "Brute Force Attack",
             "CNname": "暴力破解",
@@ -1100,7 +1100,7 @@
             ]
         },
         {
-            "id": "100606",
+            "id": "100606-6",
             "eidolonnum": 6,
             "ENname": "Overlay Network",
             "CNname": "重叠网络",

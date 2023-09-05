@@ -399,7 +399,9 @@
                 }
             ],
             "tags": [
-
+                "heal",
+                "buff",
+                "dmgreduction"
             ],
             "effect": [
                 {
@@ -421,6 +423,19 @@
                         "dmgreduction",
                         "allally"
                     ]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "losthp",
+                    "multiplier": 1,
+                    "multipliervalue": 1,
+                    "maxstack": 120,
+                    "tag": [
+                        "self",
+                        "losthp"
+                    ],
+                    "hide": true
                 }
             ]
         },
@@ -468,7 +483,35 @@
             "imageurl": "images/skills/1208-1208102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "heal",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 5,
+                    "group": "1",
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 133,
+                    "group": "1",
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208103",
@@ -496,7 +539,24 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208202",
@@ -510,7 +570,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208203",
@@ -524,7 +601,24 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208204",
@@ -538,7 +632,24 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208205",
@@ -552,7 +663,24 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208206",
@@ -566,7 +694,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208207",
@@ -580,7 +725,24 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208208",
@@ -594,7 +756,24 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208209",
@@ -608,7 +787,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1208210",
@@ -622,12 +818,29 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                }
+            ]
         }
     ],
     "eidolon": [
         {
-            "id": "120801",
+            "id": "120801-1",
             "eidolonnum": 1,
             "ENname": "Dominus Pacis",
             "CNname": "司危",
@@ -638,10 +851,27 @@
             "DescriptionJP": "「鑑知」状態の味方の会心ダメージ+30%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "allally",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 30,
+                    "tag": [
+                        "allally",
+                        "critdmg"
+                    ]
+                }
+            ]
         },
         {
-            "id": "120802",
+            "id": "120802-2",
             "eidolonnum": 2,
             "ENname": "Optimus Felix",
             "CNname": "柔兆",
@@ -652,10 +882,26 @@
             "DescriptionJP": "「窮観の陣」が起動している時、味方がHPが0になるダメージを受けても、今回の行動でHPが0になるダメージを受けたすべての味方は戦闘不能状態にならず、自身の最大HP70%分のHPを回復する。この効果は一度の戦闘で1回まで発動できる。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "heal",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 70,
+                    "tag": [
+                        "heal",
+                        "singleally"
+                    ]
+                }
+            ]
         },
         {
-            "id": "120803",
+            "id": "120803-3",
             "eidolonnum": 3,
             "ENname": "Apex Nexus",
             "CNname": "直符",
@@ -669,7 +915,7 @@
             "teamskill": false
         },
         {
-            "id": "120804",
+            "id": "120804-4",
             "eidolonnum": 4,
             "ENname": "Fortuna Stellaris",
             "CNname": "格泽",
@@ -683,7 +929,7 @@
             "teamskill": false
         },
         {
-            "id": "120805",
+            "id": "120805-5",
             "eidolonnum": 5,
             "ENname": "Arbiter Primus",
             "CNname": "计神",
@@ -697,7 +943,7 @@
             "teamskill": false
         },
         {
-            "id": "120806",
+            "id": "120806-6",
             "eidolonnum": 6,
             "ENname": "Omnia Vita",
             "CNname": "种陵",
@@ -708,7 +954,24 @@
             "DescriptionJP": "「窮観の陣」が起動している時、味方全体が戦闘中失った累計HPをカウントする。符玄の必殺技の与ダメージが、戦闘中失った累計HP200%分アップする。 戦闘中失った累計HPのカウントは、符玄の最大HPの120%を超えず、必殺技を発動した後にリセットされる。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "self",
+                "losthp",
+                "ultatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "losthp",
+                    "multiplier": 200,
+                    "tag": [
+                        "self",
+                        "ultatk"
+                    ]
+                }
+            ]
         }
     ]
 }
