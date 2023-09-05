@@ -315,6 +315,14 @@
 * `windsheardotdmg`：风化持续伤害
 * `bleeddotdmg`：裂伤持续伤害
 
+#### 属性展示
+
+在`debug`模式中，会在其他面板展示这些属性的值，如下：
+
+![image](https://github.com/Kamihimmel/HSRwiki/assets/2188512/179555ad-4ce1-4cbf-85e0-21cd254292a9)
+
+![image](https://github.com/Kamihimmel/HSRwiki/assets/2188512/1dd4c082-56ff-4581-a97d-443d774109c3)
+
 ## 属性对应表
 
 |属性key|含义|其他说明|
