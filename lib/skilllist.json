@@ -1904,6 +1904,74 @@
             ]
         },
         {
+            "characterid": "1108",
+            "id": "110803",
+            "ENname": "Surprise Present",
+            "CNname": "惊喜礼盒",
+            "JAname": "サプライズボックス",
+            "stype": "ult",
+            "maxlevel": 15,
+            "weaknessbreak": 60,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 96,
+                    "2": 102.4,
+                    "3": 108.8,
+                    "4": 115.2,
+                    "5": 121.6,
+                    "6": 128,
+                    "7": 136,
+                    "8": 144,
+                    "9": 152,
+                    "10": 160,
+                    "11": 166.4,
+                    "12": 172.8,
+                    "13": 179.2,
+                    "14": 185.6,
+                    "15": 192
+                },
+                {
+                    "default": 100
+                },
+                {
+                    "1": 20,
+                    "2": 21,
+                    "3": 22,
+                    "4": 23,
+                    "5": 24,
+                    "6": 25,
+                    "7": 26.25,
+                    "8": 27.5,
+                    "9": 28.75,
+                    "10": 30,
+                    "11": 31,
+                    "12": 32,
+                    "13": 33,
+                    "14": 34,
+                    "15": 35
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "buff",
+                "dotvulnerability"
+            ],
+            "effect": [
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "addtarget": "dotdmgreceive",
+                    "multiplier": 3,
+                    "tag": [
+                        "dotdmgreceive",
+                        "allenemy"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "1109",
             "id": "110902",
             "ENname": "Hey! Remember Hook?",
@@ -2879,10 +2947,10 @@
                 {
                     "iid": "2",
                     "type": "buff",
-                    "addtarget": "dmgreceive",
+                    "addtarget": "dmgreduction",
                     "multiplier": 1,
                     "tag": [
-                        "dmgreceive",
+                        "dmgreduction",
                         "allally"
                     ]
                 }
@@ -3005,21 +3073,21 @@
             "energyregen": 30,
             "levelmultiplier": [
                 {
-                    "1": -40,
-                    "2": -41,
-                    "3": -42,
-                    "4": -43,
-                    "5": -44,
-                    "6": -45,
-                    "7": -46.25,
-                    "8": -47.5,
-                    "9": -48.75,
-                    "10": -50,
-                    "11": -51,
-                    "12": -52,
-                    "13": -53,
-                    "14": -54,
-                    "15": -55
+                    "1": 40,
+                    "2": 41,
+                    "3": 42,
+                    "4": 43,
+                    "5": 44,
+                    "6": 45,
+                    "7": 46.25,
+                    "8": 47.5,
+                    "9": 48.75,
+                    "10": 50,
+                    "11": 51,
+                    "12": 52,
+                    "13": 53,
+                    "14": 54,
+                    "15": 55
                 },
                 {
                     "default": 100
@@ -3027,7 +3095,7 @@
             ],
             "tags": [
                 "buff",
-                "dmgreceive",
+                "dmgreduction",
                 "tauntdebuff"
             ],
             "effect": [
@@ -3052,18 +3120,18 @@
             "stype": "trace",
             "tags": [
                 "buff",
-                "dmgreceive",
+                "dmgreduction",
                 "allally"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "dmgreceive",
-                    "multiplier": -15,
+                    "addtarget": "dmgreduction",
+                    "multiplier": 15,
                     "tag": [
                         "allally",
-                        "dmgreceive"
+                        "dmgreduction"
                     ]
                 }
             ]
