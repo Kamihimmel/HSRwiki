@@ -427,7 +427,7 @@
                 {
                     "iid": "3",
                     "type": "buff",
-                    "addtarget": "losthp",
+                    "addtarget": "losthpratio",
                     "multiplier": 1,
                     "multipliervalue": 1,
                     "maxstack": 120,
