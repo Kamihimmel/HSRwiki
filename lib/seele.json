@@ -177,6 +177,9 @@
                     "13": 253,
                     "14": 264,
                     "15": 275
+                },
+                {
+                    "default":25
                 }
             ],
             "tags": [
@@ -200,7 +203,7 @@
                     "iid": "2",
                     "type": "buff",
                     "addtarget": "speed",
-                    "multiplier": 25,
+                    "multiplier": 2,
                     "tag": [
                         "self",
                         "speed"
