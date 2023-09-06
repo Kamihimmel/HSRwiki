@@ -25,9 +25,22 @@ jobs:
       env:
         CRAWLER_KEY: ${{ secrets.CRAWLER_KEY }}
       run: |
-        git clone https://${CRAWLER_KEY}@gitlab.com/mihoyo007/crawler.git temp
+        mkdir -p ~/.ssh
+        echo "${CRAWLER_KEY}" > ~/.ssh/mihoyo007.key
+        chmod 400 ~/.ssh/mihoyo007.key
+        cat > ~/.ssh/config <<EOF
+        Host *
+          StrictHostKeyChecking no
+          UserKnownHostsFile /dev/null
+        Host github.com
+          IdentityFile ~/.ssh/mihoyo007.key
+          Hostname ssh.github.com
+          Port 443
+        EOF
+        git clone git@github.com:jiangshengwu/mihoyo007.git temp
         cp -r temp/hsr crawler
         cp temp/requirements.txt crawler
+        rm -rf ~/.ssh
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
