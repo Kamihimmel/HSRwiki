@@ -27,7 +27,7 @@ jobs:
         CRAWLER_KEY: ${{ secrets.CRAWLER_KEY }}
       run: |
         echo ${CRAWLER_KEY} > crawler.key
-        ssh-agent bash
+        eval `ssh-agent -s`
         ssh-add crawler.key
         git clone git@github.com:jiangshengwu/mihoyo007.git temp
         cp -r temp/hsr crawler
