@@ -21,6 +21,12 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: "3.11"
+    - name: Prepare
+      env:
+        CRAWLER_KEY: ${{ secrets.CRAWLER_KEY }}
+      run: |
+        git clone https://${CRAWLER_KEY}@gitlab.com/mihoyo007/crawler.git temp
+        cp -r temp/hsr crawler
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
