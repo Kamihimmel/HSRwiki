@@ -21,6 +21,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -44,6 +56,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -67,6 +91,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -90,6 +126,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -114,6 +162,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -138,6 +198,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -162,6 +234,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 50,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 50
             }
         },
         {
@@ -185,6 +269,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -208,6 +304,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -232,6 +340,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -256,6 +376,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -280,6 +412,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -304,6 +448,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -328,6 +484,18 @@
                 "wind": 40,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 100,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -352,6 +520,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -376,6 +556,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -400,6 +592,18 @@
                 "wind": 40,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 100,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 100,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -423,6 +627,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -446,6 +662,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -470,6 +698,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -494,6 +734,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -518,6 +770,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -542,6 +806,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -566,6 +842,18 @@
                 "wind": 40,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -590,6 +878,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -613,6 +913,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -636,6 +948,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -660,6 +984,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -684,6 +1020,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 40
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -708,6 +1056,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 50,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 50,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 50
             }
         },
         {
@@ -732,6 +1092,18 @@
                 "wind": 40,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 50,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 50,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -756,6 +1128,18 @@
                 "wind": 40,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -780,6 +1164,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -808,6 +1204,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -832,6 +1240,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -856,6 +1276,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -880,6 +1312,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 100,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -904,6 +1348,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 100,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -928,6 +1384,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 100,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -952,6 +1420,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 100,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -975,6 +1455,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 100,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -998,6 +1490,18 @@
                 "wind": 40,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 100,
+                "entanglement": 0
             }
         },
         {
@@ -1021,6 +1525,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 100,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1044,6 +1560,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 100,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1072,6 +1600,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1096,6 +1636,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 100,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1124,6 +1676,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1148,6 +1712,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1172,6 +1748,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1196,6 +1784,18 @@
                 "wind": 40,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1220,6 +1820,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1244,6 +1856,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 50,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1268,6 +1892,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1291,6 +1927,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 100,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1314,6 +1962,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 100,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1338,6 +1998,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1362,6 +2034,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 100,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1386,6 +2070,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1409,6 +2105,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1432,6 +2140,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1456,6 +2176,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1484,6 +2216,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1508,6 +2252,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1532,6 +2288,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1556,6 +2324,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1579,6 +2359,18 @@
                 "wind": 0,
                 "quantum": 20,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1603,6 +2395,18 @@
                 "wind": 20,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 50,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1623,6 +2427,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1648,6 +2464,18 @@
                 "wind": 0,
                 "quantum": 0,
                 "imaginary": 0
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1671,6 +2499,18 @@
                 "wind": 20,
                 "quantum": 20,
                 "imaginary": 40
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1694,6 +2534,18 @@
                 "wind": 0,
                 "quantum": 40,
                 "imaginary": 40
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         },
         {
@@ -1717,6 +2569,18 @@
                 "wind": 0,
                 "quantum": 40,
                 "imaginary": 20
+            },
+            "effectres": {
+                "burn": 0,
+                "imprisonment": 0,
+                "def-reduction": 0,
+                "shock": 0,
+                "frozen": 0,
+                "bleed": 0,
+                "speed-reduction": 0,
+                "all-type-res-reduction": 0,
+                "wind-shear": 0,
+                "entanglement": 0
             }
         }
     ]
