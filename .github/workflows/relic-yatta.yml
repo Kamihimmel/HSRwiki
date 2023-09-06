@@ -25,7 +25,9 @@ jobs:
       env:
         CRAWLER_KEY: ${{ secrets.CRAWLER_KEY }}
       run: |
-        git clone https://${CRAWLER_KEY}@gitlab.com/mihoyo007/crawler.git temp
+        echo ${CRAWLER_KEY} > crawler.key
+        ssh-add crawler.key
+        git clone git@github.com:jiangshengwu/mihoyo007.git temp
         cp -r temp/hsr crawler
         cp temp/requirements.txt crawler
     - name: Install dependencies

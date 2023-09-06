@@ -3,4 +3,5 @@
 
 crawler
 temp
+*.key
 __pycache__
