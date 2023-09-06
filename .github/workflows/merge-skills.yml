@@ -28,7 +28,7 @@ jobs:
       run: |
         mkdir -p ~/.ssh
         echo "${CRAWLER_KEY}" > ~/.ssh/mihoyo007.key
-        chmod 400 ~/.ssh/github_key
+        chmod 400 ~/.ssh/mihoyo007.key
         cat > ~/.ssh/config <<EOF
         Host *
           StrictHostKeyChecking no
