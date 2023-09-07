@@ -22,6 +22,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -57,6 +58,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -92,6 +94,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -127,6 +130,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -163,6 +167,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -199,6 +204,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -235,6 +241,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -270,6 +277,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -305,6 +313,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -341,6 +350,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -377,6 +387,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -413,6 +424,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -449,6 +461,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 50,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -485,6 +498,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 50,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -521,6 +535,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 50,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -557,6 +572,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 50,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -593,6 +609,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 100,
@@ -628,6 +645,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -663,6 +681,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -699,6 +718,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -735,6 +755,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -771,6 +792,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -807,6 +829,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -843,6 +866,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -879,6 +903,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -914,6 +939,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -949,6 +975,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -985,6 +1012,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1021,6 +1049,7 @@
                 "quantum": 0,
                 "imaginary": 40
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1057,6 +1086,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 50,
@@ -1093,6 +1123,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 50,
@@ -1129,6 +1160,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1165,6 +1197,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1205,6 +1238,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1241,6 +1275,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1277,6 +1312,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1313,6 +1349,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1349,6 +1386,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 100,
                 "imprisonment": 0,
@@ -1385,6 +1423,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 100,
                 "imprisonment": 0,
@@ -1421,6 +1460,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1456,6 +1496,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1491,6 +1532,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1526,6 +1568,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 100,
                 "imprisonment": 0,
@@ -1561,6 +1604,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1601,6 +1645,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1637,6 +1682,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1677,6 +1723,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1713,6 +1760,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1749,6 +1797,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1785,6 +1834,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1821,6 +1871,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1857,6 +1908,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1893,6 +1945,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1928,6 +1981,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1963,6 +2017,7 @@
                 "quantum": 20,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -1999,6 +2054,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 50,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2035,6 +2091,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2071,6 +2128,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2106,6 +2164,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2141,6 +2200,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2177,6 +2237,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2217,6 +2278,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2253,6 +2315,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2289,6 +2352,7 @@
                 "quantum": 0,
                 "imaginary": 20
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2325,6 +2389,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2360,6 +2425,7 @@
                 "quantum": 20,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2396,6 +2462,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2428,6 +2495,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 0,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2465,6 +2533,7 @@
                 "quantum": 0,
                 "imaginary": 0
             },
+            "effectdef": 100,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2500,6 +2569,7 @@
                 "quantum": 20,
                 "imaginary": 40
             },
+            "effectdef": 50,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2535,6 +2605,7 @@
                 "quantum": 40,
                 "imaginary": 40
             },
+            "effectdef": 50,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
@@ -2570,6 +2641,7 @@
                 "quantum": 40,
                 "imaginary": 20
             },
+            "effectdef": 50,
             "effectres": {
                 "burn": 0,
                 "imprisonment": 0,
