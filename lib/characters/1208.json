@@ -135,7 +135,7 @@
                 {
                     "iid": "1",
                     "type": "dmg",
-                    "multipliertarget": "atk",
+                    "multipliertarget": "maxhp",
                     "multiplier": 1,
                     "tag": [
                         "singleatk",
