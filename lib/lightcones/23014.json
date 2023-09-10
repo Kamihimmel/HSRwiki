@@ -11,86 +11,86 @@
         {
             "level": "1",
             "hp": 52.8,
-            "atk": 28.8,
-            "def": 15
+            "atk": 26.4,
+            "def": 18
         },
         {
             "level": "20",
             "hp": 203.28,
-            "atk": 110.88,
-            "def": 57.75
+            "atk": 101.64,
+            "def": 69.3
         },
         {
             "level": "20+",
             "hp": 266.64,
-            "atk": 145.44,
-            "def": 75.75
+            "atk": 133.32,
+            "def": 90.9
         },
         {
             "level": "30",
             "hp": 345.84,
-            "atk": 188.64,
-            "def": 98.25
+            "atk": 172.92,
+            "def": 117.9
         },
         {
             "level": "30+",
             "hp": 430.32,
-            "atk": 234.72,
-            "def": 122.25
+            "atk": 215.16,
+            "def": 146.7
         },
         {
             "level": "40",
             "hp": 509.52,
-            "atk": 277.92,
-            "def": 144.75
+            "atk": 254.76,
+            "def": 173.7
         },
         {
             "level": "40+",
             "hp": 594.0,
-            "atk": 324.0,
-            "def": 168.75
+            "atk": 297.0,
+            "def": 202.5
         },
         {
             "level": "50",
             "hp": 673.2,
-            "atk": 367.2,
-            "def": 191.25
+            "atk": 336.6,
+            "def": 229.5
         },
         {
             "level": "50+",
             "hp": 757.68,
-            "atk": 413.28,
-            "def": 215.25
+            "atk": 378.84,
+            "def": 258.3
         },
         {
             "level": "60",
             "hp": 836.88,
-            "atk": 456.48,
-            "def": 237.75
+            "atk": 418.44,
+            "def": 285.3
         },
         {
             "level": "60+",
             "hp": 921.36,
-            "atk": 502.56,
-            "def": 261.75
+            "atk": 460.68,
+            "def": 314.1
         },
         {
             "level": "70",
             "hp": 1000.56,
-            "atk": 545.76,
-            "def": 284.25
+            "atk": 500.28,
+            "def": 341.1
         },
         {
             "level": "70+",
             "hp": 1085.04,
-            "atk": 591.84,
-            "def": 308.25
+            "atk": 542.52,
+            "def": 369.9
         },
         {
             "level": "80",
             "hp": 1164.24,
-            "atk": 635.04,
-            "def": 330.75
+            "atk": 582.12,
+            "def": 396.9
         }
     ],
     "skilldata": [
@@ -98,19 +98,33 @@
             "ENname": "With This Evening Jade",
             "CNname": "执此宵玉",
             "JAname": "この宵玉を執り",
-            "DescriptionEN": "Increases the wearer's Skill DMG by [1]%. When using their Ultimate, immediately regenerates [2] Energy and increases the wearer's CRIT DMG by [3]% for [4] turn(s).",
-            "DescriptionCN": "使装备者战技造成的伤害提高[1]%。施放终结技时，立即恢复[2]点能量，并使装备者的暴击伤害提高[3]%，持续[4]回合。",
+            "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. When ally gets attacked or loses HP, wearer gains 1 stack of Eclipse, up to a max of [2] stack(s). Each stack of Eclipse will increase the DMG of the wearer's next attack by [3]%. When [2] stack(s) are maxed out, an additional attack will be delivered that ignores [4]% of the enemy's DEF. This effect will be dispeled after the wearer delivers their attack.",
+            "DescriptionCN": "使装备者的暴击伤害提高[1]%。当队友受到攻击或消耗生命值后，装备者获得1层【月蚀】，最多叠加[2]层。每层【月蚀】使装备者下一次攻击造成的伤害提高[3]%。叠满[2]层时，额外使该次攻击无视目标[4]%的防御力。该效果在装备者施放攻击后解除。",
             "DescriptionJP": "装備キャラの戦闘スキルの与ダメージ+[1]%。必殺技を発動した時、EPを[2]回復し、装備キャラの会心ダメージ+[3]%、[4]ターン継続。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 30,
-                    "2": 35,
-                    "3": 40,
-                    "4": 45,
-                    "5": 50
+                    "1": 20,
+                    "2": 23,
+                    "3": 26,
+                    "4": 29,
+                    "5": 32
+                },
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3
+                },
+                {
+                    "1": 14,
+                    "2": 16.5,
+                    "3": 19,
+                    "4": 21.5,
+                    "5": 24
                 },
                 {
                     "1": 12,
@@ -118,20 +132,6 @@
                     "3": 16,
                     "4": 18,
                     "5": 20
-                },
-                {
-                    "1": 36,
-                    "2": 42,
-                    "3": 48,
-                    "4": 54,
-                    "5": 60
-                },
-                {
-                    "1": 2,
-                    "2": 2,
-                    "3": 2,
-                    "4": 2,
-                    "5": 2
                 }
             ]
         }
