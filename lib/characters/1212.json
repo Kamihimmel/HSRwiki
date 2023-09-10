@@ -1117,6 +1117,9 @@
                     "13": 134.4,
                     "14": 139.2,
                     "15": 144
+                },
+                {
+                    "default": 24
                 }
             ],
             "tags": [
@@ -1130,7 +1133,7 @@
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "critdmg",
-                    "multiplier": 24,
+                    "multiplier": 3,
                     "tag": [
                         "self",
                         "critdmg"
