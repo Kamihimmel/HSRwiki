@@ -1154,7 +1154,7 @@
                     ]
                 },
                 {
-                    "iid": "3",
+                    "iid": "2",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
@@ -1165,7 +1165,7 @@
                     ]
                 },
                 {
-                    "iid": "2",
+                    "iid": "3",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 2,
