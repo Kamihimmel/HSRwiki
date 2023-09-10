@@ -3091,6 +3091,36 @@
             ]
         },
         {
+            "characterid": "1212",
+            "id": "121207",
+            "ENname": "Shine of Truth",
+            "CNname": "古镜照神",
+            "JAname": "神識照らす月影",
+            "stype": "technique",
+            "maxlevel": 0,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "tags": [
+                "iceatk",
+                "frozen",
+                "additionalatk",
+                "aoe",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "frozen",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy",
+                        "frozen"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "8004",
             "id": "800402",
             "ENname": "Ever-Burning Amber",
