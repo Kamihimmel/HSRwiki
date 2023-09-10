@@ -378,7 +378,7 @@
             "DescriptionCN": "增幅状态下希儿的量子抗性穿透提高20%。",
             "DescriptionJP": "増幅状態の時、ゼーレの量子属性耐性貫通+20%。",
             "stype": "trace",
-            "maxlevel": 15,
+            "maxlevel": 0,
             "buffskill": true,
             "teamskill": false,
             "tags": [
