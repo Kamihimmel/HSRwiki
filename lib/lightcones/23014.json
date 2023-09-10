@@ -133,6 +133,45 @@
                     "4": 18,
                     "5": 20
                 }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "critdmg",
+                "ignoredef"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 3,
+                    "maxstack": 3,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "ignoredef"
+                    ]
+                }
             ]
         }
     ]

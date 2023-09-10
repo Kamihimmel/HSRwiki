@@ -125,6 +125,24 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "iceatk"
+                    ]
+                }
             ]
         },
         {
@@ -176,6 +194,24 @@
                     "13": 1,
                     "14": 1,
                     "15": 1
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "skillatk",
+                "iceatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "iceatk"
+                    ]
                 }
             ]
         },
@@ -245,6 +281,36 @@
                     "13": 143.75,
                     "14": 150,
                     "15": 156.25
+                }
+            ],
+            "referencelevel": "121202",
+            "tags": [
+                "skillatk",
+                "iceatk",
+                "aoe"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "iceatk"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "aoe",
+                        "skillatk",
+                        "iceatk"
+                    ]
                 }
             ]
         },
@@ -332,6 +398,35 @@
                     "13": 1,
                     "14": 1,
                     "15": 1
+                }
+            ],
+            "tags": [
+                "ultatk",
+                "iceatk",
+                "aoe"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "iceatk"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": [
+                        "aoe",
+                        "ultatk",
+                        "iceatk"
+                    ]
                 }
             ]
         },
@@ -470,6 +565,45 @@
                     "14": 54,
                     "15": 55
                 }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "critrate",
+                "atk",
+                "actionf"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 7,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "atk"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                }
             ]
         },
         {
@@ -486,7 +620,47 @@
             "buffskill": false,
             "teamskill": true,
             "weaknessbreak": 0,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": [
+                "iceatk",
+                "frozen",
+                "additionalatk",
+                "aoe",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "frozen",
+                    "multiplier": 100,
+                    "tag": [
+                        "allenemy",
+                        "frozen"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 80,
+                    "tag": [
+                        "allenemy",
+                        "additionalatk",
+                        "iceatk"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -502,7 +676,24 @@
             "imageurl": "images/skills/1212-1212101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 35,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212102",
@@ -516,7 +707,24 @@
             "imageurl": "images/skills/1212-1212102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "actionf"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212103",
@@ -530,7 +738,24 @@
             "imageurl": "images/skills/1212-1212103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "ultatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "ultatk"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212201",
@@ -544,7 +769,24 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212202",
@@ -558,7 +800,24 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "speedpt"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "speedpt"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212203",
@@ -572,7 +831,24 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212204",
@@ -586,7 +862,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212205",
@@ -600,7 +893,24 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212206",
@@ -614,7 +924,24 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "speedpt"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "speedpt"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212207",
@@ -628,7 +955,24 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212208",
@@ -642,7 +986,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212209",
@@ -656,7 +1017,24 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "speedpt"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "speedpt"
+                    ]
+                }
+            ]
         },
         {
             "id": "1212210",
@@ -670,7 +1048,24 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 10.7,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -684,9 +1079,86 @@
             "DescriptionEN": "When using her Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by 24% for 1 turn(s). If only one enemy target is attacked, the DMG originally intended for adjacent targets will also be calculated against the current target, dealing Ice DMG equal to 80% of the DMG the adjacent targets would have received.",
             "DescriptionCN": "施放终结技或强化战技时，镜流的暴击伤害提高24%，持续1回合。若只攻击了1个敌方目标，则原本对相邻目标造成的伤害也会在本次受击目标上进行结算，造成等同于原本相邻目标应受伤害80%的冰属性伤害。",
             "DescriptionJP": "",
+            "maxlevel": 15,
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 55,
+                    "3": 60,
+                    "4": 65,
+                    "5": 70,
+                    "6": 75,
+                    "7": 81.248,
+                    "8": 87.504,
+                    "9": 93.752,
+                    "10": 100,
+                    "11": 105,
+                    "12": 110,
+                    "13": 115,
+                    "14": 120,
+                    "15": 125
+                },
+                {
+                    "1": 72,
+                    "2": 76.8,
+                    "3": 81.6,
+                    "4": 86.4,
+                    "5": 91.2,
+                    "6": 96,
+                    "7": 102,
+                    "8": 108,
+                    "9": 114,
+                    "10": 120,
+                    "11": 124.8,
+                    "12": 129.6,
+                    "13": 134.4,
+                    "14": 139.2,
+                    "15": 144
+                }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "critdmg",
+                "singleatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 24,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "iceatk"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "iceatk"
+                    ]
+                }
+            ]
         },
         {
             "id": "121202-2",
@@ -700,7 +1172,24 @@
             "DescriptionJP": "",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "skillatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "skillatk",
+                    "multiplier": 80,
+                    "tag": [
+                        "self",
+                        "skillatk"
+                    ]
+                }
+            ]
         },
         {
             "id": "121203-3",
@@ -756,7 +1245,24 @@
             "DescriptionJP": "",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 50,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]
         }
     ]
 }
