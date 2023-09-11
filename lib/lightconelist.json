@@ -898,7 +898,7 @@
             "wtype": "preservation",
             "rarity": "5",
             "infourl": "lib/lightcones/23011.json",
-            "spoiler": false
+            "spoiler": true
         },
         {
             "id": "23014",
@@ -934,7 +934,7 @@
             "wtype": "nihility",
             "rarity": "5",
             "infourl": "lib/lightcones/24003.json",
-            "spoiler": false
+            "spoiler": true
         }
     ]
 }
