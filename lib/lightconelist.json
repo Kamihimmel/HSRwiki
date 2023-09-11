@@ -877,18 +877,6 @@
             "spoiler": false
         },
         {
-            "id": "23011",
-            "ENname": "She Already Shut Her Eyes(WIP)",
-            "CNname": "她已闭上双眼(施工中)",
-            "JAname": "閉ざした瞳(建設中)",
-            "imageurl": "images/lightcones/23011.png",
-            "imagelargeurl": "images/lightcones/23011l.png",
-            "wtype": "preservation",
-            "rarity": "5",
-            "infourl": "lib/lightcones/23011.json",
-            "spoiler": true
-        },
-        {
             "id": "23015",
             "ENname": "Brighter Than the Sun",
             "CNname": "比阳光更明亮的",
@@ -901,16 +889,16 @@
             "spoiler": false
         },
         {
-            "id": "24003",
-            "ENname": "Solitary Healing(WIP)",
-            "CNname": "孤独的疗愈(施工中)",
-            "JAname": "孤独の癒し(建設中)",
-            "imageurl": "images/lightcones/24003.png",
-            "imagelargeurl": "images/lightcones/24003l.png",
-            "wtype": "nihility",
+            "id": "23011",
+            "ENname": "She Already Shut Her Eyes",
+            "CNname": "她已闭上双眼",
+            "JAname": "閉ざした瞳",
+            "imageurl": "images/lightcones/23011.png",
+            "imagelargeurl": "images/lightcones/23011l.png",
+            "wtype": "preservation",
             "rarity": "5",
-            "infourl": "lib/lightcones/24003.json",
-            "spoiler": true
+            "infourl": "lib/lightcones/23011.json",
+            "spoiler": false
         },
         {
             "id": "23014",
@@ -935,6 +923,18 @@
             "rarity": "5",
             "infourl": "lib/lightcones/23016.json",
             "spoiler": true
+        },
+        {
+            "id": "24003",
+            "ENname": "Solitary Healing",
+            "CNname": "孤独的疗愈",
+            "JAname": "孤独の癒やし",
+            "imageurl": "images/lightcones/24003.png",
+            "imagelargeurl": "images/lightcones/24003l.png",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/lightcones/24003.json",
+            "spoiler": false
         }
     ]
 }
