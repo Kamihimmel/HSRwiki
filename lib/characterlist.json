@@ -393,32 +393,6 @@
             "spoiler": false
         },
         {
-            "id": "1110",
-            "ENname": "Lynx(WIP)",
-            "CNname": "玲可(施工中)",
-            "JAname": "リンクス(建設中)",
-            "imageurl": "images/characters/1110.png",
-            "imagelargeurl": "images/characters/1110-large.png",
-            "etype": "quantum",
-            "wtype": "abundance",
-            "rarity": "4",
-            "infourl": "lib/characters/1110.json",
-            "spoiler": true
-        },
-        {
-            "id": "1208",
-            "ENname": "Fu Xuan(WIP)",
-            "CNname": "符玄(施工中)",
-            "JAname": "符玄(建設中)",
-            "imageurl": "images/characters/1208.png",
-            "imagelargeurl": "images/characters/1208-large.png",
-            "etype": "quantum",
-            "wtype": "preservation",
-            "rarity": "5",
-            "infourl": "lib/characters/1208.json",
-            "spoiler": true
-        },
-        {
             "id": "1213",
             "ENname": "Dan Heng • Imbibitor Lunae",
             "CNname": "丹恒•饮月",
@@ -432,6 +406,19 @@
             "spoiler": false
         },
         {
+            "id": "1110",
+            "ENname": "Lynx(WIP)",
+            "CNname": "玲可(施工中)",
+            "JAname": "リンクス(建設中)",
+            "imageurl": "images/characters/1110.png",
+            "imagelargeurl": "images/characters/1110-large.png",
+            "etype": "quantum",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "lib/characters/1110.json",
+            "spoiler": true
+        },
+        {
             "id": "1112",
             "ENname": "Topaz and Numby(WIP)",
             "CNname": "托帕&账账(施工中)",
@@ -442,6 +429,19 @@
             "wtype": "thehunt",
             "rarity": "5",
             "infourl": "lib/characters/1112.json",
+            "spoiler": true
+        },
+        {
+            "id": "1208",
+            "ENname": "Fu Xuan(WIP)",
+            "CNname": "符玄(施工中)",
+            "JAname": "符玄(建設中)",
+            "imageurl": "images/characters/1208.png",
+            "imagelargeurl": "images/characters/1208-large.png",
+            "etype": "quantum",
+            "wtype": "preservation",
+            "rarity": "5",
+            "infourl": "lib/characters/1208.json",
             "spoiler": true
         },
         {
