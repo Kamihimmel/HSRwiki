@@ -283,7 +283,6 @@
                     "15": 156.25
                 }
             ],
-            "referencelevel": "121202",
             "tags": [
                 "skillatk",
                 "iceatk",
@@ -1079,63 +1078,9 @@
             "DescriptionEN": "When using her Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by 24% for 1 turn(s). If only one enemy target is attacked, the DMG originally intended for adjacent targets will also be calculated against the current target, dealing Ice DMG equal to 80% of the DMG the adjacent targets would have received.",
             "DescriptionCN": "施放终结技或强化战技时，镜流的暴击伤害提高24%，持续1回合。若只攻击了1个敌方目标，则原本对相邻目标造成的伤害也会在本次受击目标上进行结算，造成等同于原本相邻目标应受伤害80%的冰属性伤害。",
             "DescriptionJP": "",
-            "maxlevel": 15,
             "stype": "eidolon",
             "buffskill": true,
             "teamskill": false,
-            "levelmultiplier": [
-                {
-                    "1": 50,
-                    "2": 55,
-                    "3": 60,
-                    "4": 65,
-                    "5": 70,
-                    "6": 75,
-                    "7": 81.248,
-                    "8": 87.504,
-                    "9": 93.752,
-                    "10": 100,
-                    "11": 105,
-                    "12": 110,
-                    "13": 115,
-                    "14": 120,
-                    "15": 125
-                },
-                {
-                    "1": 72,
-                    "2": 76.8,
-                    "3": 81.6,
-                    "4": 86.4,
-                    "5": 91.2,
-                    "6": 96,
-                    "7": 102,
-                    "8": 108,
-                    "9": 114,
-                    "10": 120,
-                    "11": 124.8,
-                    "12": 129.6,
-                    "13": 134.4,
-                    "14": 139.2,
-                    "15": 144
-                },
-                {
-                    "1": 24,
-                    "2": 24,
-                    "3": 24,
-                    "4": 24,
-                    "5": 24,
-                    "6": 24,
-                    "7": 24,
-                    "8": 24,
-                    "9": 24,
-                    "10": 24,
-                    "11": 24,
-                    "12": 24,
-                    "13": 24,
-                    "14": 24,
-                    "15": 24
-                }
-            ],
             "tags": [
                 "buff",
                 "self",
