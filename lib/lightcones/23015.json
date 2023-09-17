@@ -164,6 +164,7 @@
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 4,
+                    "maxstack": 2,
                     "tag": [
                         "self",
                         "atk"
@@ -174,6 +175,7 @@
                     "type": "buff",
                     "addtarget": "energyregenrate",
                     "multiplier": 5,
+                    "maxstack": 2,
                     "tag": [
                         "self",
                         "energyregenrate"
