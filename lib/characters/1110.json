@@ -1,8 +1,8 @@
 {
     "id": "1110",
-    "ENname": "Lynx(WIP)",
-    "CNname": "玲可(施工中)",
-    "JAname": "リンクス(建設中)",
+    "ENname": "Lynx",
+    "CNname": "玲可",
+    "JAname": "リンクス",
     "imageurl": "images/characters/1110.png",
     "imagelargeurl": "images/characters/1110-large.png",
     "etype": "quantum",
@@ -125,6 +125,24 @@
                     "8": 60,
                     "9": 65
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "quantumatk"
+                    ]
+                }
             ]
         },
         {
@@ -245,6 +263,34 @@
                     "14": 5,
                     "15": 5
                 }
+            ],
+            "tags": [
+                "heal",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 4,
+                    "group": "1",
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 5,
+                    "group": "1",
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                }
             ]
         },
         {
@@ -314,6 +360,34 @@
                     "13": 420.75,
                     "14": 441,
                     "15": 461.25
+                }
+            ],
+            "tags": [
+                "heal",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 2,
+                    "group": "1",
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 3,
+                    "group": "1",
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
                 }
             ]
         },
@@ -418,6 +492,56 @@
                     "14": 147,
                     "15": 153.75
                 }
+            ],
+            "tags": [
+                "heal",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 2,
+                    "group": "1",
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 3,
+                    "group": "1",
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 4,
+                    "group": "2",
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "4",
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 5,
+                    "group": "2",
+                    "tag": [
+                        "allally",
+                        "heal"
+                    ]
+                }
             ]
         },
         {
@@ -450,7 +574,24 @@
             "imageurl": "images/skills/1110-1110101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110102",
@@ -464,7 +605,24 @@
             "imageurl": "images/skills/1110-1110102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "controlresist",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "controlresist",
+                    "multiplier": 35,
+                    "tag": [
+                        "self",
+                        "controlresist"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110103",
@@ -492,7 +650,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110202",
@@ -506,7 +681,24 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110203",
@@ -520,7 +712,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110204",
@@ -534,7 +743,24 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110205",
@@ -548,7 +774,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110206",
@@ -562,7 +805,24 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110207",
@@ -576,7 +836,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110208",
@@ -590,7 +867,24 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110209",
@@ -604,7 +898,24 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "def"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
         },
         {
             "id": "1110210",
@@ -618,7 +929,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -634,7 +962,23 @@
             "DescriptionJP": "残りHPが50%以下の味方に治癒を行う時、リンクスの治癒量+20%。この効果は持続治癒効果にも有効。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "healingbonus",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "healingbonus",
+                    "multiplier": 20,
+                    "tag": [
+                        "healingbonus",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "111002-2",
@@ -704,7 +1048,24 @@
             "DescriptionJP": "「サバイバル反応」の最大HPアップ効果が、さらにリンクスの最大HPの6%分アップする。「サバイバル反応」を持つ味方の効果抵抗+30%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "singleally",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 30,
+                    "tag": [
+                        "singleally",
+                        "effectres"
+                    ]
+                }
+            ]
         }
     ]
 }

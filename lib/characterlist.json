@@ -407,16 +407,16 @@
         },
         {
             "id": "1110",
-            "ENname": "Lynx(WIP)",
-            "CNname": "玲可(施工中)",
-            "JAname": "リンクス(建設中)",
+            "ENname": "Lynx",
+            "CNname": "玲可",
+            "JAname": "リンクス",
             "imageurl": "images/characters/1110.png",
             "imagelargeurl": "images/characters/1110-large.png",
             "etype": "quantum",
             "wtype": "abundance",
             "rarity": "4",
             "infourl": "lib/characters/1110.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1112",
@@ -433,16 +433,16 @@
         },
         {
             "id": "1208",
-            "ENname": "Fu Xuan(WIP)",
-            "CNname": "符玄(施工中)",
-            "JAname": "符玄(建設中)",
+            "ENname": "Fu Xuan",
+            "CNname": "符玄",
+            "JAname": "符玄",
             "imageurl": "images/characters/1208.png",
             "imagelargeurl": "images/characters/1208-large.png",
             "etype": "quantum",
             "wtype": "preservation",
             "rarity": "5",
             "infourl": "lib/characters/1208.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1210",

@@ -1,8 +1,8 @@
 {
     "id": "24003",
-    "ENname": "Solitary Healing(WIP)",
-    "CNname": "孤独的疗愈(施工中)",
-    "JAname": "孤独の癒やし(建設中)",
+    "ENname": "Solitary Healing",
+    "CNname": "孤独的疗愈",
+    "JAname": "孤独の癒やし",
     "imageurl": "images/lightcones/24003.png",
     "imagelargeurl": "images/lightcones/24003l.png",
     "wtype": "nihility",
@@ -132,6 +132,42 @@
                     "3": 6,
                     "4": 7,
                     "5": 8
+                }
+            ],
+            "tags": [
+                "self",
+                "breakeffect"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 1,
+                    "tag": [
+                        "breakeffect",
+                        "self"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "dotatk",
+                    "multiplier": 2,
+                    "tag": [
+                        "dotatk",
+                        "self"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 4,
+                    "tag": [
+                        "energy",
+                        "self"
+                    ]
                 }
             ]
         }
