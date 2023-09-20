@@ -53,6 +53,7 @@
                     "type": "buff",
                     "addtarget": "critrate",
                     "multiplier": 8,
+                    "maxstack": 2,
                     "tag": [
                         "self",
                         "critrate"
