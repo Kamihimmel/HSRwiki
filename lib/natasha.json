@@ -392,16 +392,16 @@
             ],
             "tags": [
                 "buff",
-                "healingbonus"
+                "healrate"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "healingbonus",
+                    "addtarget": "healrate",
                     "multiplier": 1,
                     "tag": [
-                        "healingbonus"
+                        "healrate"
                     ]
                 }
             ]
@@ -484,16 +484,16 @@
             "teamskill": true,
             "tags": [
                 "buff",
-                "healingbonus"
+                "healrate"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "healingbonus",
+                    "addtarget": "healrate",
                     "multiplier": 10,
                     "tag": [
-                        "healingbonus"
+                        "healrate"
                     ]
                 }
             ]

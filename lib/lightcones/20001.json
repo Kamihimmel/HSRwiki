@@ -103,18 +103,18 @@
             ],
             "tags": [
                 "buff",
-                "healingbonus",
+                "healrate",
                 "speed"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "healingbonus",
+                    "addtarget": "healrate",
                     "multiplier": 1,
                     "tag": [
                         "self",
-                        "healingbonus"
+                        "healrate"
                     ]
                 }
             ]

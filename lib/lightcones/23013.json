@@ -119,7 +119,7 @@
                 "buff",
                 "self",
                 "hp",
-                "healingbonus",
+                "healrate",
                 "additionalatk"
             ],
             "effect": [
@@ -136,11 +136,11 @@
                 {
                     "iid": "2",
                     "type": "buff",
-                    "addtarget": "healingbonus",
+                    "addtarget": "healrate",
                     "multiplier": 2,
                     "tag": [
                         "self",
-                        "healingbonus"
+                        "healrate"
                     ]
                 },
                 {

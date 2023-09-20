@@ -897,17 +897,17 @@
             "tags": [
                 "buff",
                 "self",
-                "healingbonus"
+                "healrate"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "healingbonus",
+                    "addtarget": "healrate",
                     "multiplier": 15,
                     "tag": [
                         "self",
-                        "healingbonus"
+                        "healrate"
                     ]
                 }
             ]
