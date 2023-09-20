@@ -969,17 +969,17 @@
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "healrate",
+                "healingbonus",
                 "self"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "healrate",
+                    "addtarget": "healingbonus",
                     "multiplier": 20,
                     "tag": [
-                        "healrate",
+                        "healingbonus",
                         "self"
                     ]
                 }
