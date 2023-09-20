@@ -2159,6 +2159,31 @@
             ]
         },
         {
+            "characterid": "1110",
+            "id": "111006-6",
+            "ENname": "Dawn of Explorers' Chart",
+            "CNname": "测绘图纸的黎明",
+            "JAname": "設計図製作中に迎える黎明",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "singleally",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 30,
+                    "tag": [
+                        "singleally",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "1111",
             "id": "111103",
             "ENname": "Coup de Grâce",
