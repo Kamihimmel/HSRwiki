@@ -495,7 +495,8 @@
             ],
             "tags": [
                 "heal",
-                "allally"
+                "allally",
+                "singleally"
             ],
             "effect": [
                 {
@@ -506,6 +507,7 @@
                     "group": "1",
                     "tag": [
                         "allally",
+                        "singleally",
                         "heal"
                     ]
                 },
@@ -517,6 +519,7 @@
                     "group": "1",
                     "tag": [
                         "allally",
+                        "singleally",
                         "heal"
                     ]
                 },
@@ -528,6 +531,7 @@
                     "group": "2",
                     "tag": [
                         "allally",
+                        "singleally",
                         "heal"
                     ]
                 },
@@ -539,6 +543,7 @@
                     "group": "2",
                     "tag": [
                         "allally",
+                        "singleally",
                         "heal"
                     ]
                 }
@@ -964,17 +969,17 @@
             "buffskill": true,
             "teamskill": false,
             "tags": [
-                "healingbonus",
+                "healrate",
                 "self"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "healingbonus",
+                    "addtarget": "healrate",
                     "multiplier": 20,
                     "tag": [
-                        "healingbonus",
+                        "healrate",
                         "self"
                     ]
                 }
