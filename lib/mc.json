@@ -368,6 +368,7 @@
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 1,
+                    "maxstack": 2,
                     "tag": [
                         "self",
                         "atk"

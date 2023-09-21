@@ -164,6 +164,7 @@
                     "type": "buff",
                     "addtarget": "speed",
                     "multiplier": 3,
+                    "maxstack": 3,
                     "tag": [
                         "self",
                         "speed"

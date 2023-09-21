@@ -954,8 +954,10 @@
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 10,
+                    "maxstack": 3,
                     "tag": [
                         "self",
+                        "singleally",
                         "alldmg"
                     ]
                 }
