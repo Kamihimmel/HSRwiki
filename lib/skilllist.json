@@ -2580,6 +2580,7 @@
                     "type": "debuff",
                     "addtarget": "dmgreceive",
                     "multiplier": 12,
+                    "maxstack": 3,
                     "tag": [
                         "allenemy",
                         "dmgreceive"
@@ -3111,6 +3112,32 @@
                     "multiplier": 5,
                     "tag": [
                         "singleenemy"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1211",
+            "id": "121104-4",
+            "ENname": "Evil Excision",
+            "CNname": "肘后备急除外障",
+            "JAname": "外傷癒す肘後の備急",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
+                    "maxstack": 3,
+                    "tag": [
+                        "self",
+                        "singleally",
+                        "alldmg"
                     ]
                 }
             ]
