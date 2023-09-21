@@ -394,6 +394,7 @@
 |additionaldmgreceive|受到附加攻击伤害增加|敌方debuff|
 |reducedef|降低防御力|敌方debuff|
 |reducespeed|减速|敌方debuff|
+|effectresreduce|降低效果抵抗|敌方debuff|
 |losthp|已损失生命值|人为构造属性|
 |losthpratio|已损失生命值百分比|人为构造属性|
 |alldotdmg|全部持续伤害|人为构造属性|
