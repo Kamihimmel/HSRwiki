@@ -1016,7 +1016,7 @@
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "dotatk",
-                    "multiplier": 20,
+                    "multiplier": 25,
                     "tag": [
                         "allally",
                         "dotatk"
