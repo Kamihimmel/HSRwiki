@@ -110,14 +110,14 @@
                     "2": 30,
                     "3": 36,
                     "4": 42,
-                    "5": 28
+                    "5": 48
                 },
                 {
                     "1": 24,
                     "2": 30,
                     "3": 36,
                     "4": 42,
-                    "5": 28
+                    "5": 48
                 }
             ],
             "tags": [
@@ -131,16 +131,7 @@
                     "type": "buff",
                     "addtarget": "followupatk",
                     "multiplier": 1,
-                    "tag": [
-                        "self",
-                        "followupatk"
-                    ]
-                },
-                {
-                    "iid": "2",
-                    "type": "buff",
-                    "addtarget": "followupatk",
-                    "multiplier": 2,
+                    "maxstack": 2,
                     "tag": [
                         "self",
                         "followupatk"
