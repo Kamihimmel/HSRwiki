@@ -934,7 +934,7 @@
             "wtype": "nihility",
             "rarity": "5",
             "infourl": "lib/lightcones/24003.json",
-            "spoiler": true
+            "spoiler": false
         }
     ]
 }
