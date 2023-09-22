@@ -2887,11 +2887,12 @@
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "hp",
+                    "addtarget": "hppt",
+                    "multipliertarget": "maxhp",
                     "multiplier": 4,
                     "tag": [
                         "allally",
-                        "hp"
+                        "maxhp"
                     ]
                 },
                 {
