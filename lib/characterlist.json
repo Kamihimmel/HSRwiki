@@ -419,19 +419,6 @@
             "spoiler": false
         },
         {
-            "id": "1112",
-            "ENname": "Topaz and Numby(WIP)",
-            "CNname": "托帕&账账(施工中)",
-            "JAname": "トパーズ&カブ(建設中)",
-            "imageurl": "images/characters/1112.png",
-            "imagelargeurl": "images/characters/1112-large.png",
-            "etype": "fire",
-            "wtype": "thehunt",
-            "rarity": "5",
-            "infourl": "lib/characters/1112.json",
-            "spoiler": true
-        },
-        {
             "id": "1208",
             "ENname": "Fu Xuan",
             "CNname": "符玄",
@@ -443,6 +430,19 @@
             "rarity": "5",
             "infourl": "lib/characters/1208.json",
             "spoiler": false
+        },
+        {
+            "id": "1112",
+            "ENname": "Topaz and Numby(WIP)",
+            "CNname": "托帕&账账(施工中)",
+            "JAname": "トパーズ&カブ(建設中)",
+            "imageurl": "images/characters/1112.png",
+            "imagelargeurl": "images/characters/1112-large.png",
+            "etype": "fire",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "lib/characters/1112.json",
+            "spoiler": true
         },
         {
             "id": "1210",
