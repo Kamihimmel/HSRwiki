@@ -2875,6 +2875,23 @@
                     "13": 13.8,
                     "14": 14.4,
                     "15": 15
+                },
+                {
+                    "1": 0.03,
+                    "2": 0.033,
+                    "3": 0.036,
+                    "4": 0.039,
+                    "5": 0.042,
+                    "6": 0.045,
+                    "7": 0.0488,
+                    "8": 0.0525,
+                    "9": 0.0562,
+                    "10": 0.06,
+                    "11": 0.063,
+                    "12": 0.066,
+                    "13": 0.069,
+                    "14": 0.072,
+                    "15": 0.075
                 }
             ],
             "tags": [
@@ -2885,15 +2902,26 @@
             ],
             "effect": [
                 {
-                    "iid": "1",
+                    "iid": "",
                     "type": "buff",
-                    "addtarget": "hppt",
-                    "multipliertarget": "maxhp",
+                    "addtarget": "hp",
                     "multiplier": 4,
                     "tag": [
                         "allally",
                         "maxhp"
                     ]
+                },
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hppt",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 6,
+                    "tag": [
+                        "allally",
+                        "maxhp"
+                    ],
+                    "hide": true
                 },
                 {
                     "iid": "2",
