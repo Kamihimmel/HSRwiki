@@ -1895,8 +1895,8 @@
                 {
                     "iid": "1",
                     "type": "debuff",
-                    "multipliertarget": "iceres",
-                    "multiplier": -12,
+                    "addtarget": "iceres",
+                    "multiplier": 12,
                     "tag": [
                         "singleenemy",
                         "iceres"
