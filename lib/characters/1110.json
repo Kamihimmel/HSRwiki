@@ -495,7 +495,6 @@
             ],
             "tags": [
                 "heal",
-                "allally",
                 "singleally"
             ],
             "effect": [
@@ -506,7 +505,6 @@
                     "multiplier": 2,
                     "group": "1",
                     "tag": [
-                        "allally",
                         "singleally",
                         "heal"
                     ]
@@ -518,7 +516,6 @@
                     "multiplier": 3,
                     "group": "1",
                     "tag": [
-                        "allally",
                         "singleally",
                         "heal"
                     ]
@@ -530,7 +527,6 @@
                     "multiplier": 4,
                     "group": "2",
                     "tag": [
-                        "allally",
                         "singleally",
                         "heal"
                     ]
@@ -542,7 +538,6 @@
                     "multiplier": 5,
                     "group": "2",
                     "tag": [
-                        "allally",
                         "singleally",
                         "heal"
                     ]
