@@ -297,7 +297,6 @@
                     "iid": "3",
                     "type": "buff",
                     "addtarget": "hp",
-                    "multipliertarget": "maxhp",
                     "multiplier": 1,
                     "group": "2",
                     "tag": [
@@ -309,6 +308,7 @@
                     "iid": "4",
                     "type": "buff",
                     "addtarget": "hp",
+                    "multipliertarget": "",
                     "multiplier": 2,
                     "group": "2",
                     "tag": [
@@ -320,7 +320,7 @@
                     "iid": "5",
                     "type": "buff",
                     "addtarget": "taunt",
-                    "multiplier": 7,
+                    "multiplier": 6,
                     "tag": [
                         "singleally",
                         "taunt"
