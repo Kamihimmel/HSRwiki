@@ -2294,7 +2294,6 @@
                 {
                     "iid": "4",
                     "type": "buff",
-                    "addtarget": "hp",
                     "multipliertarget": "",
                     "multiplier": 2,
                     "group": "2",
