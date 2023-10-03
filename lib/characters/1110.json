@@ -307,6 +307,7 @@
                 {
                     "iid": "4",
                     "type": "buff",
+                    "addtarget": "hppt",
                     "multipliertarget": "",
                     "multiplier": 2,
                     "group": "2",
