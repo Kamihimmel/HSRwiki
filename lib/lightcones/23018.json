@@ -1,11 +1,11 @@
 {
-    "id": "23016",
-    "ENname": "Worrisome, Blissful(WIP)",
-    "CNname": "烦恼着，幸福着(施工中)",
-    "JAname": "悩んで笑って(建設中)",
-    "imageurl": "images/lightcones/23016.png",
-    "imagelargeurl": "images/lightcones/23016l.png",
-    "wtype": "thehunt",
+    "id": "23018",
+    "ENname": "An Instance Before A Gaze(WIP)",
+    "CNname": "片刻，留在眼底(施工中)",
+    "JAname": "その一刻、目に焼き付けて(建設中)",
+    "imageurl": "images/lightcones/23018.png",
+    "imagelargeurl": "images/lightcones/23018l.png",
+    "wtype": "erudition",
     "rarity": "5",
     "leveldata": [
         {
@@ -95,43 +95,36 @@
     ],
     "skilldata": [
         {
-            "ENname": "One At A Time",
-            "CNname": "一个一个来",
-            "JAname": "順番にね！",
-            "DescriptionEN": "Increase the wearer's CRIT Rate by [1]% and their follow-up attacks' DMG by [2]%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to [4] stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by [3]%.",
-            "DescriptionCN": "使装备者暴击率提高[1]%，追加攻击造成的伤害提高[2]%。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加[4]层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高[3]%。",
-            "DescriptionJP": "装備キャラの会心率+[1]%、追加攻撃の与ダメージ+[2]%。装備キャラが追加攻撃を行った後、敵を「従順」状態にする。この効果は最大で[4]層累積できる。味方の攻撃が「従順」状態の敵に命中した時、「従順」1層につき与える会心ダメージ+[3]%。",
+            "ENname": "A Knight's Pilgrimage",
+            "CNname": "骑士巡礼",
+            "JAname": "騎士の巡礼",
+            "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. When the wearer unleashes their Ultimate, increases the wearer's DMG based on their Max Energy. DMG increases by [2]% per point of Energy, up to [3] Energy.",
+            "DescriptionCN": "使装备者的暴击伤害提高[1]%。当装备者施放终结技时，根据装备者的能量上限，提高装备者终结技造成的伤害：每点能量提高[2]%，最多计入[3]点。",
+            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。装備キャラが必殺技を発動した時、装備キャラの最大EPに応じて装備キャラの与ダメージをアップする。1EPにつき+[2]%、最大で[3]までカウントされる。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
-                    "1": 18,
-                    "2": 21,
-                    "3": 24,
-                    "4": 27,
-                    "5": 30
+                    "1": 36,
+                    "2": 42,
+                    "3": 48,
+                    "4": 54,
+                    "5": 60
                 },
                 {
-                    "1": 30,
-                    "2": 35,
-                    "3": 40,
-                    "4": 45,
-                    "5": 50
+                    "1": 0.36,
+                    "2": 0.42,
+                    "3": 0.48,
+                    "4": 0.54,
+                    "5": 0.6
                 },
                 {
-                    "1": 12,
-                    "2": 14,
-                    "3": 16,
-                    "4": 18,
-                    "5": 20
-                },
-                {
-                    "1": 2,
-                    "2": 2,
-                    "3": 2,
-                    "4": 2,
-                    "5": 2
+                    "1": 180,
+                    "2": 180,
+                    "3": 180,
+                    "4": 180,
+                    "5": 180
                 }
             ]
         }

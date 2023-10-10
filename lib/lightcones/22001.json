@@ -1,0 +1,132 @@
+{
+    "id": "22001",
+    "ENname": "Hey, Over Here(WIP)",
+    "CNname": "嘿，我在这儿(施工中)",
+    "JAname": "よぉ、ここにいるぜ(建設中)",
+    "imageurl": "images/lightcones/22001.png",
+    "imagelargeurl": "images/lightcones/22001l.png",
+    "wtype": "abundance",
+    "rarity": "4",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43.2,
+            "atk": 19.2,
+            "def": 18
+        },
+        {
+            "level": "20",
+            "hp": 166.32,
+            "atk": 73.92,
+            "def": 69.3
+        },
+        {
+            "level": "20+",
+            "hp": 218.16,
+            "atk": 96.96,
+            "def": 90.9
+        },
+        {
+            "level": "30",
+            "hp": 282.96,
+            "atk": 125.76,
+            "def": 117.9
+        },
+        {
+            "level": "30+",
+            "hp": 352.08,
+            "atk": 156.48,
+            "def": 146.7
+        },
+        {
+            "level": "40",
+            "hp": 416.88,
+            "atk": 185.28,
+            "def": 173.7
+        },
+        {
+            "level": "40+",
+            "hp": 486.0,
+            "atk": 216.0,
+            "def": 202.5
+        },
+        {
+            "level": "50",
+            "hp": 550.8,
+            "atk": 244.8,
+            "def": 229.5
+        },
+        {
+            "level": "50+",
+            "hp": 619.92,
+            "atk": 275.52,
+            "def": 258.3
+        },
+        {
+            "level": "60",
+            "hp": 684.72,
+            "atk": 304.32,
+            "def": 285.3
+        },
+        {
+            "level": "60+",
+            "hp": 753.84,
+            "atk": 335.04,
+            "def": 314.1
+        },
+        {
+            "level": "70",
+            "hp": 818.64,
+            "atk": 363.84,
+            "def": 341.1
+        },
+        {
+            "level": "70+",
+            "hp": 887.76,
+            "atk": 394.56,
+            "def": 369.9
+        },
+        {
+            "level": "80",
+            "hp": 952.56,
+            "atk": 423.36,
+            "def": 396.9
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "I'm Not Afraid!",
+            "CNname": "不怕不怕啦",
+            "JAname": "怖くない…怖くない！",
+            "DescriptionEN": "Increases the wearer's Effect RES by [1]%. Increases Outgoing Healing when the wearer uses their Skill by [2]%. This effect lasts until the start of the wearer's next turn.",
+            "DescriptionCN": "使装备者的生命上限提高[1]%。当装备者施放战技时，治疗量提高[2]%，持续[3]回合。",
+            "DescriptionJP": "装備キャラの効果抵抗+[1]%。装備キャラが戦闘スキルを発動した時、治癒量+[2]%、この効果は装備キャラの次のターンが開始する時まで継続する。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 8,
+                    "2": 9,
+                    "3": 10,
+                    "4": 11,
+                    "5": 12
+                },
+                {
+                    "1": 16,
+                    "2": 19,
+                    "3": 22,
+                    "4": 25,
+                    "5": 28
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                }
+            ]
+        }
+    ]
+}
