@@ -247,26 +247,28 @@
                     "15": 410
                 },
                 {
-                    "1": 5,
-                    "2": 5,
-                    "3": 5,
-                    "4": 5,
-                    "5": 5,
-                    "6": 5,
-                    "7": 5,
-                    "8": 5,
-                    "9": 5,
-                    "10": 5,
-                    "11": 5,
-                    "12": 5,
-                    "13": 5,
-                    "14": 5,
-                    "15": 5
+                    "1": 500,
+                    "2": 500,
+                    "3": 500,
+                    "4": 500,
+                    "5": 500,
+                    "6": 500,
+                    "7": 500,
+                    "8": 500,
+                    "9": 500,
+                    "10": 500,
+                    "11": 500,
+                    "12": 500,
+                    "13": 500,
+                    "14": 500,
+                    "15": 500
                 }
             ],
             "tags": [
                 "heal",
-                "singleally"
+                "singleally",
+                "taunt",
+                "buff"
             ],
             "effect": [
                 {
@@ -290,7 +292,40 @@
                         "singleally",
                         "heal"
                     ]
-                }
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 1,
+                    "group": "2",
+                    "tag": [
+                        "singleally",
+                        "maxhp"
+                    ]
+                },
+                {
+                    "iid": "4",
+                    "type": "buff",
+                    "addtarget": "hppt",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "group": "2",
+                    "tag": [
+                        "singleally",
+                        "maxhp"
+                    ]
+                },                             
+                {
+                    "iid": "5",
+                    "type": "buff",
+                    "addtarget": "taunt",
+                    "multiplier": 6,
+                    "tag": [
+                        "singleally",
+                        "taunt"
+                    ]
+                }                
             ]
         },
         {
@@ -495,7 +530,6 @@
             ],
             "tags": [
                 "heal",
-                "allally",
                 "singleally"
             ],
             "effect": [
@@ -506,7 +540,6 @@
                     "multiplier": 2,
                     "group": "1",
                     "tag": [
-                        "allally",
                         "singleally",
                         "heal"
                     ]
@@ -518,7 +551,6 @@
                     "multiplier": 3,
                     "group": "1",
                     "tag": [
-                        "allally",
                         "singleally",
                         "heal"
                     ]
@@ -530,7 +562,6 @@
                     "multiplier": 4,
                     "group": "2",
                     "tag": [
-                        "allally",
                         "singleally",
                         "heal"
                     ]
@@ -542,7 +573,6 @@
                     "multiplier": 5,
                     "group": "2",
                     "tag": [
-                        "allally",
                         "singleally",
                         "heal"
                     ]

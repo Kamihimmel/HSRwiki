@@ -47,7 +47,7 @@
             "tags": [
                 "buff",
                 "speed",
-                "atk",
+                "normalatk",
                 "self"
             ],
             "effect": [
@@ -64,10 +64,10 @@
                 {
                     "iid": "2",
                     "type": "buff",
-                    "addtarget": "atk",
+                    "addtarget": "normalatk",
                     "multiplier": 10,
                     "tag": [
-                        "atk",
+                        "normalatk",
                         "self"
                     ]
                 }

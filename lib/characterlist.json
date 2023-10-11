@@ -419,19 +419,6 @@
             "spoiler": false
         },
         {
-            "id": "1112",
-            "ENname": "Topaz and Numby(WIP)",
-            "CNname": "托帕&账账(施工中)",
-            "JAname": "トパーズ&カブ(建設中)",
-            "imageurl": "images/characters/1112.png",
-            "imagelargeurl": "images/characters/1112-large.png",
-            "etype": "fire",
-            "wtype": "thehunt",
-            "rarity": "5",
-            "infourl": "lib/characters/1112.json",
-            "spoiler": true
-        },
-        {
             "id": "1208",
             "ENname": "Fu Xuan",
             "CNname": "符玄",
@@ -443,6 +430,19 @@
             "rarity": "5",
             "infourl": "lib/characters/1208.json",
             "spoiler": false
+        },
+        {
+            "id": "1112",
+            "ENname": "Topaz and Numby(WIP)",
+            "CNname": "托帕&账账(施工中)",
+            "JAname": "トパーズ&カブ(建設中)",
+            "imageurl": "images/characters/1112.png",
+            "imagelargeurl": "images/characters/1112-large.png",
+            "etype": "fire",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "lib/characters/1112.json",
+            "spoiler": true
         },
         {
             "id": "1210",
@@ -469,6 +469,45 @@
             "rarity": "5",
             "infourl": "lib/characters/1212.json",
             "spoiler": false
+        },
+        {
+            "id": "1215",
+            "ENname": "Hanya(WIP)",
+            "CNname": "寒鸦(施工中)",
+            "JAname": "寒鴉(建設中)",
+            "imageurl": "images/characters/1215.png",
+            "imagelargeurl": "images/characters/1215-large.png",
+            "etype": "physical",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "lib/characters/1215.json",
+            "spoiler": true
+        },
+        {
+            "id": "1217",
+            "ENname": "Huohuo(WIP)",
+            "CNname": "藿藿(施工中)",
+            "JAname": "フォフォ(建設中)",
+            "imageurl": "images/characters/1217.png",
+            "imagelargeurl": "images/characters/1217-large.png",
+            "etype": "wind",
+            "wtype": "abundance",
+            "rarity": "5",
+            "infourl": "lib/characters/1217.json",
+            "spoiler": true
+        },
+        {
+            "id": "1302",
+            "ENname": "Argenti(WIP)",
+            "CNname": "银枝(施工中)",
+            "JAname": "アルジェンティ(建設中)",
+            "imageurl": "images/characters/1302.png",
+            "imagelargeurl": "images/characters/1302-large.png",
+            "etype": "physical",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "lib/characters/1302.json",
+            "spoiler": true
         }
     ]
 }

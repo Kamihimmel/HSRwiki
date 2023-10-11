@@ -901,6 +901,30 @@
             "spoiler": false
         },
         {
+            "id": "24003",
+            "ENname": "Solitary Healing",
+            "CNname": "孤独的疗愈",
+            "JAname": "孤独の癒やし",
+            "imageurl": "images/lightcones/24003.png",
+            "imagelargeurl": "images/lightcones/24003l.png",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/lightcones/24003.json",
+            "spoiler": false
+        },
+        {
+            "id": "22001",
+            "ENname": "Hey, Over Here(WIP)",
+            "CNname": "嘿，我在这儿(施工中)",
+            "JAname": "よぉ、ここにいるぜ(建設中)",
+            "imageurl": "images/lightcones/22001.png",
+            "imagelargeurl": "images/lightcones/22001l.png",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "lib/lightcones/22001.json",
+            "spoiler": true
+        },
+        {
             "id": "23014",
             "ENname": "I Shall Be My Own Sword",
             "CNname": "此身为剑",
@@ -925,15 +949,27 @@
             "spoiler": true
         },
         {
-            "id": "24003",
-            "ENname": "Solitary Healing",
-            "CNname": "孤独的疗愈",
-            "JAname": "孤独の癒やし",
-            "imageurl": "images/lightcones/24003.png",
-            "imagelargeurl": "images/lightcones/24003l.png",
-            "wtype": "nihility",
+            "id": "23017",
+            "ENname": "Night of Fright(WIP)",
+            "CNname": "惊魂夜(施工中)",
+            "JAname": "驚魂の夜(建設中)",
+            "imageurl": "images/lightcones/23017.png",
+            "imagelargeurl": "images/lightcones/23017l.png",
+            "wtype": "abundance",
             "rarity": "5",
-            "infourl": "lib/lightcones/24003.json",
+            "infourl": "lib/lightcones/23017.json",
+            "spoiler": true
+        },
+        {
+            "id": "23018",
+            "ENname": "An Instance Before A Gaze(WIP)",
+            "CNname": "片刻，留在眼底(施工中)",
+            "JAname": "その一刻、目に焼き付けて(建設中)",
+            "imageurl": "images/lightcones/23018.png",
+            "imagelargeurl": "images/lightcones/23018l.png",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23018.json",
             "spoiler": true
         }
     ]

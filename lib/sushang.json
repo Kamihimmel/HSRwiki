@@ -463,6 +463,7 @@
                     "type": "buff",
                     "addtarget": "additionalatk",
                     "multiplier": 2.5,
+                    "maxstack": 10,
                     "tag": [
                         "self",
                         "additionalatk"
@@ -943,12 +944,45 @@
             "DescriptionCN": "天赋的加速效果可以叠加，最多叠加2层，且进入战斗后素裳立即获得1层天赋的加速效果。",
             "DescriptionJP": "天賦の加速効果が累積できるようになる、最大で2層累積できる。戦闘に入った後、素裳は天賦の加速効果を1層獲得する。",
             "stype": "eidolon",
+            "maxlevel": 15,
             "buffskill": false,
             "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 15,
+                    "2": 19.8,
+                    "3": 21.6,
+                    "4": 23.4,
+                    "5": 25.2,
+                    "6": 27,
+                    "7": 29.25,
+                    "8": 31.5,
+                    "9": 33.75,
+                    "10": 36,
+                    "11": 37.8,
+                    "12": 39.6,
+                    "13": 41.4,
+                    "14": 43.2,
+                    "15": 45
+                }
+            ],
+            "referencelevel": "120604",
             "tags": [
                 "buff",
-                "special",
-                "self"
+                "self",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
             ]
         }
     ]

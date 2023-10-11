@@ -184,6 +184,7 @@
                     "9": 130
                 }
             ],
+            "referencelevel": "120101",
             "tags": [
                 "blastatk",
                 "normalatk",
@@ -258,6 +259,7 @@
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 1,
+                    "maxstack": 4,
                     "tag": [
                         "self",
                         "alldmg"
@@ -434,6 +436,7 @@
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 10,
+                    "maxstack": 4,
                     "tag": [
                         "self",
                         "alldmg"
@@ -863,8 +866,34 @@
             "DescriptionCN": "施放战技后，有24%的固定概率获得【不求人】状态，持续至本回合结束。【不求人】状态下，施放普攻或施放强化普攻后立即进行1次追加攻击，对该目标造成等同于普攻或强化普攻伤害100%的量子属性伤害。",
             "DescriptionJP": "戦闘スキルを発動した後、24%の固定確率で「門前ツモ」状態に入る、このターンが終了するまで継続。「門前ツモ」状態では、通常攻撃または強化通常攻撃を行った後に追加攻撃を1回行い、敵にその通常攻撃または強化通常攻撃のダメージ100%分の量子属性ダメージを与える。",
             "stype": "eidolon",
+            "maxlevel": 9,
             "buffskill": true,
             "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 50,
+                    "2": 60,
+                    "3": 70,
+                    "4": 80,
+                    "5": 90,
+                    "6": 100,
+                    "7": 110,
+                    "8": 120,
+                    "9": 130
+                },
+                {
+                    "1": 120,
+                    "2": 144,
+                    "3": 168,
+                    "4": 192,
+                    "5": 216,
+                    "6": 240,
+                    "7": 264,
+                    "8": 288,
+                    "9": 312
+                }
+            ],
+            "referencelevel": "120101",
             "tags": [
                 "singleenemy",
                 "followupatk",
@@ -874,8 +903,18 @@
                 {
                     "iid": "1",
                     "type": "dmg",
-                    "multipliertarget": "normalatk",
-                    "multiplier": 100,
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "followupatk",
+                        "quantumatk"
+                    ]
+                },
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
                     "tag": [
                         "followupatk",
                         "quantumatk"

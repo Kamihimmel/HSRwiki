@@ -33,6 +33,7 @@ request = RefreshObjectCachesRequest.RefreshObjectCachesRequest()
 request.set_accept_format('json')
 # request.set_ObjectPath(f"https://{os.getenv('CDN_DOMAIN')}/")
 request.set_ObjectPath('https://hsrwikidata.kchlu.com/')
+request.set_ObjectType('Directory')
 response = client.do_action_with_exception(request)
 
 print(str(response, encoding='utf-8'))

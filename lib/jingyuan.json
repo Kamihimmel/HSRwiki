@@ -907,6 +907,7 @@
                     "type": "debuff",
                     "addtarget": "dmgreceive",
                     "multiplier": 12,
+                    "maxstack": 3,
                     "tag": [
                         "allenemy",
                         "dmgreceive"

@@ -1,0 +1,132 @@
+{
+    "id": "23018",
+    "ENname": "An Instance Before A Gaze(WIP)",
+    "CNname": "片刻，留在眼底(施工中)",
+    "JAname": "その一刻、目に焼き付けて(建設中)",
+    "imageurl": "images/lightcones/23018.png",
+    "imagelargeurl": "images/lightcones/23018l.png",
+    "wtype": "erudition",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 26.4,
+            "def": 21
+        },
+        {
+            "level": "20",
+            "hp": 184.8,
+            "atk": 101.64,
+            "def": 80.85
+        },
+        {
+            "level": "20+",
+            "hp": 242.4,
+            "atk": 133.32,
+            "def": 106.05
+        },
+        {
+            "level": "30",
+            "hp": 314.4,
+            "atk": 172.92,
+            "def": 137.55
+        },
+        {
+            "level": "30+",
+            "hp": 391.2,
+            "atk": 215.16,
+            "def": 171.15
+        },
+        {
+            "level": "40",
+            "hp": 463.2,
+            "atk": 254.76,
+            "def": 202.65
+        },
+        {
+            "level": "40+",
+            "hp": 540.0,
+            "atk": 297.0,
+            "def": 236.25
+        },
+        {
+            "level": "50",
+            "hp": 612.0,
+            "atk": 336.6,
+            "def": 267.75
+        },
+        {
+            "level": "50+",
+            "hp": 688.8,
+            "atk": 378.84,
+            "def": 301.35
+        },
+        {
+            "level": "60",
+            "hp": 760.8,
+            "atk": 418.44,
+            "def": 332.85
+        },
+        {
+            "level": "60+",
+            "hp": 837.6,
+            "atk": 460.68,
+            "def": 366.45
+        },
+        {
+            "level": "70",
+            "hp": 909.6,
+            "atk": 500.28,
+            "def": 397.95
+        },
+        {
+            "level": "70+",
+            "hp": 986.4,
+            "atk": 542.52,
+            "def": 431.55
+        },
+        {
+            "level": "80",
+            "hp": 1058.4,
+            "atk": 582.12,
+            "def": 463.05
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "A Knight's Pilgrimage",
+            "CNname": "骑士巡礼",
+            "JAname": "騎士の巡礼",
+            "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. When the wearer unleashes their Ultimate, increases the wearer's DMG based on their Max Energy. DMG increases by [2]% per point of Energy, up to [3] Energy.",
+            "DescriptionCN": "使装备者的暴击伤害提高[1]%。当装备者施放终结技时，根据装备者的能量上限，提高装备者终结技造成的伤害：每点能量提高[2]%，最多计入[3]点。",
+            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。装備キャラが必殺技を発動した時、装備キャラの最大EPに応じて装備キャラの与ダメージをアップする。1EPにつき+[2]%、最大で[3]までカウントされる。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 36,
+                    "2": 42,
+                    "3": 48,
+                    "4": 54,
+                    "5": 60
+                },
+                {
+                    "1": 0.36,
+                    "2": 0.42,
+                    "3": 0.48,
+                    "4": 0.54,
+                    "5": 0.6
+                },
+                {
+                    "1": 180,
+                    "2": 180,
+                    "3": 180,
+                    "4": 180,
+                    "5": 180
+                }
+            ]
+        }
+    ]
+}
