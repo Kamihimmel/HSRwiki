@@ -902,15 +902,15 @@
         },
         {
             "id": "23014",
-            "ENname": "I Shall Be My Own Sword(WIP)",
-            "CNname": "此身为剑(施工中)",
-            "JAname": "この身は剣なり(建設中)",
+            "ENname": "I Shall Be My Own Sword",
+            "CNname": "此身为剑",
+            "JAname": "この身は剣なり",
             "imageurl": "images/lightcones/23014.png",
             "imagelargeurl": "images/lightcones/23014l.png",
             "wtype": "destruction",
             "rarity": "5",
             "infourl": "lib/lightcones/23014.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "23016",

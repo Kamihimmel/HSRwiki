@@ -125,6 +125,24 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "fireatk"
+                    ]
+                }
             ]
         },
         {
@@ -228,6 +246,67 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": [
+                "atk",
+                "skillatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "skillatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "skillatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "multipliertarget": "burn",
+                    "multiplier": 100,
+                    "tag": [
+                        "singleenemy",
+                        "burn"
+                    ]
+                },
+                {
+                    "iid": "4",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "dotatk",
+                        "fireatk"
+                    ]
+                }
             ]
         },
         {
@@ -280,6 +359,24 @@
                     "13": 98,
                     "14": 100,
                     "15": 102
+                }
+            ],
+            "tags": [
+                "aoe",
+                "ultatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "aoe",
+                        "ultatk",
+                        "fireatk"
+                    ]
                 }
             ]
         },
@@ -433,7 +530,19 @@
             "imageurl": "images/skills/1210-1210101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "burn",
+                    "multiplier": 80,
+                    "tag": [
+                        "singleenemy",
+                        "burn"
+                    ]
+                }
+            ]
         },
         {
             "id": "1210102",
