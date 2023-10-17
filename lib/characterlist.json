@@ -432,6 +432,19 @@
             "spoiler": false
         },
         {
+            "id": "1212",
+            "ENname": "Jingliu",
+            "CNname": "镜流",
+            "JAname": "鏡流",
+            "imageurl": "images/characters/1212.png",
+            "imagelargeurl": "images/characters/1212-large.png",
+            "etype": "ice",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/characters/1212.json",
+            "spoiler": false
+        },
+        {
             "id": "1112",
             "ENname": "Topaz and Numby(WIP)",
             "CNname": "托帕&账账(施工中)",
@@ -456,19 +469,6 @@
             "rarity": "4",
             "infourl": "lib/characters/1210.json",
             "spoiler": true
-        },
-        {
-            "id": "1212",
-            "ENname": "Jingliu",
-            "CNname": "镜流",
-            "JAname": "鏡流",
-            "imageurl": "images/characters/1212.png",
-            "imagelargeurl": "images/characters/1212-large.png",
-            "etype": "ice",
-            "wtype": "destruction",
-            "rarity": "5",
-            "infourl": "lib/characters/1212.json",
-            "spoiler": false
         },
         {
             "id": "1215",
