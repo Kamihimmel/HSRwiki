@@ -276,17 +276,6 @@
                     ]
                 },
                 {
-                    "iid": "2",
-                    "type": "dmg",
-                    "multipliertarget": "atk",
-                    "multiplier": 2,
-                    "tag": [
-                        "blastatk",
-                        "skillatk",
-                        "fireatk"
-                    ]
-                },
-                {
                     "iid": "3",
                     "type": "debuff",
                     "multipliertarget": "burn",
