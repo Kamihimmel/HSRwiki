@@ -1,0 +1,34 @@
+{
+    "id": "115",
+    "ENname": "Grand Duke Incinerated to Ashes(WIP)",
+    "CNname": "毁烬焚骨的大公(施工中)",
+    "JAname": "灰燼を燃やし尽くす大公(建設中)",
+    "imageurl": "images/relics/71024.png",
+    "set": "4",
+    "head": "images/relics/IconRelic_115_1.png",
+    "hands": "images/relics/IconRelic_115_2.png",
+    "body": "images/relics/IconRelic_115_3.png",
+    "feet": "images/relics/IconRelic_115_4.png",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increase follow-up attack DMG dealt by 16%.",
+            "DescriptionCN": "追加攻击造成的伤害提高16%。",
+            "DescriptionJP": "追加攻撃の与ダメージ+16%。",
+            "buffskill": true,
+            "teamskill": false
+        },
+        {
+            "ENname": "4 Set Effect",
+            "CNname": "4件套装效果",
+            "JAname": "4セット効果",
+            "DescriptionEN": "When the wearer deals DMG to enemy targets with a follow-up attack, follow-up attack DMG for this attack increases by 8%. This effect can stack up to 8 time(s).",
+            "DescriptionCN": "装备者对敌方目标造成追加攻击伤害时，本次攻击内的追加攻击伤害提高8%，最多叠加8次。",
+            "DescriptionJP": "装備キャラが敵に追加ダメージを与える時、その回の攻撃の追加攻撃の与ダメージ+8%、最大で8回累積できる。",
+            "buffskill": true,
+            "teamskill": false
+        }
+    ]
+}
