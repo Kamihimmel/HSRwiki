@@ -306,7 +306,7 @@
                 {
                     "iid": "1",
                     "type": "dmg",
-                    "addtarget": "atk",
+                    "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
                         "aoe",
