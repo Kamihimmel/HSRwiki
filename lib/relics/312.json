@@ -1,0 +1,22 @@
+{
+    "id": "312",
+    "ENname": "Penacony Land of the Dreams(WIP)",
+    "CNname": "梦想之地匹诺康尼(施工中)",
+    "JAname": "夢の地ピノコニー(建設中)",
+    "imageurl": "images/relics/71027.png",
+    "set": "2",
+    "sphere": "images/relics/IconRelic_312_5.png",
+    "rope": "images/relics/IconRelic_312_6.png",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG for all other allies with the same damage Type as the wearer by 10%.",
+            "DescriptionCN": "使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。",
+            "DescriptionJP": "装備キャラのEP回復効率+5%。パーティ中の装備キャラと同じ属性の味方の与ダメージ+10%。",
+            "buffskill": true,
+            "teamskill": false
+        }
+    ]
+}
