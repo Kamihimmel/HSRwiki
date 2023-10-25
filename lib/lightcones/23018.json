@@ -100,7 +100,7 @@
             "JAname": "騎士の巡礼",
             "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. When the wearer unleashes their Ultimate, increases the wearer's Ultimate DMG based on their Max Energy. DMG increases by [2]% per point of Energy, up to [3] Energy.",
             "DescriptionCN": "使装备者的暴击伤害提高[1]%。当装备者施放终结技时，根据装备者的能量上限，提高装备者终结技造成的伤害：每点能量提高[2]%，最多计入[3]点。",
-            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。装備キャラが必殺技を発動した時、装備キャラの最大EPに応じて装備キャラの必殺技の与ダメージをアップする。1EPにつき+[2]%、最大で[3]までカウントされる。",
+            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。装備キャラが必殺技を発動した時、装備キャラの最大EPに応じて装備キャラの必殺技の与ダメージをアップする、1EPにつき+[2]%、最大で[3]までカウントされる。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
