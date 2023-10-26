@@ -353,7 +353,8 @@
             "tags": [
                 "aoe",
                 "ultatk",
-                "fireatk"
+                "fireatk",
+                "additionalatk"
             ],
             "effect": [
                 {
@@ -366,7 +367,17 @@
                         "ultatk",
                         "fireatk"
                     ]
-                }
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "additionalatk",
+                        "fireatk"
+                    ]
+                }                
             ]
         },
         {
