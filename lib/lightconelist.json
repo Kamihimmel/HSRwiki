@@ -938,15 +938,15 @@
         },
         {
             "id": "23016",
-            "ENname": "Worrisome, Blissful(WIP)",
-            "CNname": "烦恼着，幸福着(施工中)",
-            "JAname": "悩んで笑って(建設中)",
+            "ENname": "Worrisome, Blissful",
+            "CNname": "烦恼着，幸福着",
+            "JAname": "悩んで笑って",
             "imageurl": "images/lightcones/23016.png",
             "imagelargeurl": "images/lightcones/23016l.png",
             "wtype": "thehunt",
             "rarity": "5",
             "infourl": "lib/lightcones/23016.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "23017",

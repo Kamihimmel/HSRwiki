@@ -125,6 +125,24 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "fireatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "fireatk"
+                    ]
+                }
             ]
         },
         {
