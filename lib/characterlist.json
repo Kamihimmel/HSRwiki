@@ -442,20 +442,20 @@
             "wtype": "thehunt",
             "rarity": "5",
             "infourl": "lib/characters/1112.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1210",
-            "ENname": "Guinaifen(WIP)",
-            "CNname": "桂乃芬(施工中)",
-            "JAname": "桂乃芬(建設中)",
+            "ENname": "Guinaifen",
+            "CNname": "桂乃芬",
+            "JAname": "桂乃芬",
             "imageurl": "images/characters/1210.png",
             "imagelargeurl": "images/characters/1210-large.png",
             "etype": "fire",
             "wtype": "nihility",
             "rarity": "4",
             "infourl": "lib/characters/1210.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1212",
