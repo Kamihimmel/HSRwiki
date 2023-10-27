@@ -129,7 +129,8 @@
             "tags": [
                 "singleatk",
                 "normalatk",
-                "fireatk"
+                "fireatk",
+                "followupatk"
             ],
             "effect": [
                 {
@@ -140,7 +141,8 @@
                     "tag": [
                         "singleatk",
                         "normalatk",
-                        "fireatk"
+                        "fireatk",
+                        "followupatk"
                     ]
                 }
             ]
@@ -195,6 +197,36 @@
                     "14": 60,
                     "15": 62.5
                 }
+            ],
+            "tags": [
+                "skillatk",
+                "fireatk",
+                "debuff",
+                "followupatk",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "followupatk",
+                        "fireatk"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "followupatk",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "followupatk"
+                    ]
+                }             
             ]
         },
         {
@@ -282,7 +314,45 @@
                     "14": 2,
                     "15": 2
                 }
-            ]
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "actionf"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "referencetarget": "topaztalent",
+                    "referencetargetEN": "Topaz Talent Multiplier",
+                    "referencetargetCN": "托帕天赋倍率",
+                    "referencetargetJP": "トパーズ天賦倍率",
+                    "addtarget": "",
+                    "multiplier": 1,
+                    "tag": []
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
+            ]            
         },
         {
             "id": "111204",
@@ -351,7 +421,35 @@
                     "14": 50,
                     "15": 50
                 }
-            ]
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "actionf"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                },
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleatk",
+                        "followupatk",
+                        "fireatk"
+                    ]
+                }
+            ] 
         },
         {
             "id": "111207",
@@ -367,7 +465,25 @@
             "buffskill": false,
             "teamskill": false,
             "weaknessbreak": 0,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": [
+                "buff",
+                "energy",
+                "self",
+                "special"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 60,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]      
         }
     ],
     "tracedata": [
@@ -383,7 +499,7 @@
             "imageurl": "images/skills/1112-1112101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false          
         },
         {
             "id": "1112102",
@@ -397,7 +513,20 @@
             "imageurl": "images/skills/1112-1112102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 15,
+                    "tag": [
+                        "self",
+                        "buff"
+                    ]
+                }
+            ]                
+            
         },
         {
             "id": "1112103",
@@ -411,7 +540,24 @@
             "imageurl": "images/skills/1112-1112103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]               
         },
         {
             "id": "1112201",
@@ -425,7 +571,24 @@
             "ttype": "firedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1112202",
@@ -439,7 +602,22 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [            
+            {
+                "iid": "1",
+                "type": "buff",
+                "addtarget": "critrate",
+                "multiplier": 2.7,
+                "tag": [
+                    "critrate"
+                ]
+            }] 
         },
         {
             "id": "1112203",
@@ -453,7 +631,24 @@
             "ttype": "firedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1112204",
@@ -467,7 +662,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1112205",
@@ -481,7 +693,24 @@
             "ttype": "firedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1112206",
@@ -495,7 +724,22 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [            
+            {
+                "iid": "1",
+                "type": "buff",
+                "addtarget": "critrate",
+                "multiplier": 4,
+                "tag": [
+                    "critrate"
+                ]
+            }]            
         },
         {
             "id": "1112207",
@@ -509,7 +753,24 @@
             "ttype": "firedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1112208",
@@ -523,7 +784,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1112209",
@@ -537,7 +815,22 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "critrate"
+            ],
+            "effect": [            
+            {
+                "iid": "1",
+                "type": "buff",
+                "addtarget": "critrate",
+                "multiplier": 5.3,
+                "tag": [
+                    "critrate"
+                ]
+            }]            
         },
         {
             "id": "1112210",
@@ -551,7 +844,24 @@
             "ttype": "firedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "firedmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "firedmg",
+                    "multiplier": 6.4,
+                    "tag": [
+                        "self",
+                        "firedmg"
+                    ]
+                }
+            ]            
         }
     ],
     "eidolon": [
@@ -567,7 +877,21 @@
             "DescriptionJP": "「負債証明」状態の敵が追加攻撃を受けた時、「強制執行」状態を付与される。この効果は1回の攻撃で1回まで付与できる。 「強制執行」状態の敵が受ける追加攻撃の会心ダメージ+25%、最大で2層累積できる。「負債証明」が解除された時、「強制執行」も解除される。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critdmg"
+            ],
+            "effect": [            
+            {
+                "iid": "1",
+                "type": "buff",
+                "addtarget": "critdmg",
+                "multiplier": 25,
+                "tag": [
+                    "critdmg"
+                ]
+            }]             
         },
         {
             "id": "111202-2",
@@ -581,7 +905,24 @@
             "DescriptionJP": "カブ自身が行動し、攻撃を行った後、トパーズのEPを5回復する。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]              
         },
         {
             "id": "111203-3",
@@ -609,7 +950,24 @@
             "DescriptionJP": "カブ自身のターンが回ってきた時、トパーズの行動順が20%早まる。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "actionf"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 20,
+                    "tag": [
+                        "self",
+                        "actionf"
+                    ]
+                }
+            ]
         },
         {
             "id": "111205-5",
@@ -637,7 +995,25 @@
             "DescriptionJP": "「心躍る上昇幅！」状態のカブの攻撃回数+1、攻撃時の炎属性耐性貫通+10%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "firepen",
+                "self",
+                "special"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "firepen",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "firepen"
+                    ]
+                }
+            ]            
         }
     ]
 }
