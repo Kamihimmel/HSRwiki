@@ -157,7 +157,6 @@
                     "type": "buff",
                     "addtarget": "followupatk",
                     "multiplier": 2,
-                    "maxstack": 6,
                     "tag": [
                         "self",
                         "followupatk"
@@ -168,7 +167,7 @@
                     "type": "buff",
                     "addtarget": "critdmg",
                     "multiplier": 3,
-                    "maxstack": 6,
+                    "maxstack": 2,
                     "tag": [
                         "self",
                         "critdmg"
