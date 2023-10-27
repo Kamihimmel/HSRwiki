@@ -133,6 +133,47 @@
                     "4": 2,
                     "5": 2
                 }
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "critrate",
+                "followupatk",
+                "critdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "critrate"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "followupatk",
+                    "multiplier": 2,
+                    "maxstack": 6,
+                    "tag": [
+                        "self",
+                        "followupatk"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 3,
+                    "maxstack": 6,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                }
             ]
         }
     ]
