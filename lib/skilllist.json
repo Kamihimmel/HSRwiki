@@ -2456,6 +2456,72 @@
             ]
         },
         {
+            "characterid": "1112",
+            "id": "111202",
+            "ENname": "Difficulty Paying?",
+            "CNname": "支付困难？",
+            "JAname": "支払困難？",
+            "stype": "skill",
+            "maxlevel": 15,
+            "weaknessbreak": 60,
+            "energyregen": 30,
+            "levelmultiplier": [
+                {
+                    "1": 75,
+                    "2": 82.5,
+                    "3": 90,
+                    "4": 97.5,
+                    "5": 105,
+                    "6": 112.5,
+                    "7": 121.88,
+                    "8": 131.25,
+                    "9": 140.62,
+                    "10": 150,
+                    "11": 157.5,
+                    "12": 165,
+                    "13": 172.5,
+                    "14": 180,
+                    "15": 187.5
+                },
+                {
+                    "1": 25,
+                    "2": 27.5,
+                    "3": 30,
+                    "4": 32.5,
+                    "5": 35,
+                    "6": 37.5,
+                    "7": 40.62,
+                    "8": 43.75,
+                    "9": 46.88,
+                    "10": 50,
+                    "11": 52.5,
+                    "12": 55,
+                    "13": 57.5,
+                    "14": 60,
+                    "15": 62.5
+                }
+            ],
+            "tags": [
+                "skillatk",
+                "fireatk",
+                "debuff",
+                "followupatk",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "followupatk",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "followupatk"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "1202",
             "id": "120202",
             "ENname": "Soothing Melody",
