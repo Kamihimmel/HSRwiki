@@ -916,7 +916,7 @@
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "energy",
-                    "multiplier": 6,
+                    "multiplier": 5,
                     "tag": [
                         "self",
                         "energy"
