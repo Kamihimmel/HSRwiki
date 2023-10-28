@@ -433,9 +433,9 @@
         },
         {
             "id": "1112",
-            "ENname": "Topaz and Numby(WIP)",
-            "CNname": "托帕&账账(施工中)",
-            "JAname": "トパーズ&カブ(建設中)",
+            "ENname": "Topaz and Numby",
+            "CNname": "托帕&账账",
+            "JAname": "トパーズ&カブ",
             "imageurl": "images/characters/1112.png",
             "imagelargeurl": "images/characters/1112-large.png",
             "etype": "fire",
