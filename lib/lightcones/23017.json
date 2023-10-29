@@ -98,9 +98,9 @@
             "ENname": "Deep, Deep Breaths",
             "CNname": "深度深呼吸",
             "JAname": "全力深呼吸",
-            "DescriptionEN": "Increases the wearer's Energy Regeneration Rate by [1]%. When any ally uses their Ultimate, restores HP to them equal to [2]% of their Max HP. When the wearer provides healing for allies, increases the healed ally's ATK by [3]%. This effect can stack up to [4] times and lasts for [5] turns.",
-            "DescriptionCN": "使装备者的能量恢复效率提高[1]%。我方目标施放终结技时，为其回复等同于其[2]%生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高[3]%，该效果最多叠加[4]层，持续[5]回合。",
-            "DescriptionJP": "装備キャラのEP回復効率+[1]%。味方が必殺技を発動した時、その味方の最大HP[2]%分のHPを回復させる。装備キャラが味方に治癒を行った時、ターゲットの攻撃力+[3]%、この効果は最大で[4]層累積できる、[5]ターン継続。",
+            "DescriptionEN": "Increases the wearer's Energy Regeneration Rate by [1]%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to [2]% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by [3]%. This effect can stack up to [4] times and lasts for [5] turn(s).",
+            "DescriptionCN": "使装备者的能量恢复效率提高[1]%。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其[2]%生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高[3]%，该效果最多叠加[4]层，持续[5]回合。",
+            "DescriptionJP": "装備キャラのEP回復効率+[1]%。味方が必殺技を発動した時、装備キャラは残りHP割合が最も低いキャラのHPを自身の最大HPの[2]%分回復させる。装備キャラが味方に治癒を行った時、ターゲットの攻撃力+[3]%、この効果は最大で[4]層累積できる、[5]ターン継続。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
@@ -113,11 +113,11 @@
                     "5": 20
                 },
                 {
-                    "1": 18,
-                    "2": 21,
-                    "3": 24,
-                    "4": 27,
-                    "5": 30
+                    "1": 10,
+                    "2": 11,
+                    "3": 12,
+                    "4": 13,
+                    "5": 14
                 },
                 {
                     "1": 2.4,
