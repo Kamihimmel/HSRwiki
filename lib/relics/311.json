@@ -1,0 +1,22 @@
+{
+    "id": "311",
+    "ENname": "Firmament Frontline Glamoth(WIP)",
+    "CNname": "苍穹战线格拉默(施工中)",
+    "JAname": "蒼穹戦線グラモス(建設中)",
+    "imageurl": "images/relics/71026.png",
+    "set": "2",
+    "sphere": "images/relics/IconRelic_311_5.png",
+    "rope": "images/relics/IconRelic_311_6.png",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG.",
+            "DescriptionCN": "使装备者的攻击力提高12%。当装备者的速度大于等于135/160时，使装备者造成的伤害提高12%/18%。",
+            "DescriptionJP": "装備キャラの攻撃力+12%。装備キャラの速度が135/160以上の時、装備キャラの与ダメージ+12%/18%。",
+            "buffskill": true,
+            "teamskill": false
+        }
+    ]
+}
