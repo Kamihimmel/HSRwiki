@@ -207,11 +207,11 @@
                 {
                     "iid": "2",
                     "type": "debuff",
-                    "multipliertarget": "speed",
+                    "addtarget": "reducespeed",
                     "multiplier": 2,
                     "tag": [
                         "singleenemy",
-                        "speed"
+                        "reducespeed"
                     ]
                 }
             ]
@@ -225,16 +225,16 @@
             "stype": "eidolon",
             "tags": [
                 "debuff",
-                "speed"
+                "reducespeed"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "debuff",
-                    "multipliertarget": "speed",
+                    "addtarget": "reducespeed",
                     "multiplier": 8,
                     "tag": [
-                        "speed",
+                        "reducespeed",
                         "singleenemy"
                     ]
                 }
@@ -360,12 +360,13 @@
                 {
                     "iid": "3",
                     "type": "debuff",
-                    "multipliertarget": "reducespeed",
+                    "addtarget": "reducespeed",
                     "multiplier": 2,
                     "tag": [
                         "singleenemy",
                         "reducespeed"
-                    ]
+                    ],
+                    "hide": true
                 },
                 {
                     "iid": "4",
@@ -374,7 +375,7 @@
                     "multiplier": 3,
                     "tag": [
                         "singleenemy",
-                        "speed"
+                        "reducespeed"
                     ]
                 }
             ]
