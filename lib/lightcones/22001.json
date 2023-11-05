@@ -98,7 +98,7 @@
             "ENname": "I'm Not Afraid!",
             "CNname": "不怕不怕啦",
             "JAname": "怖くない…怖くない！",
-            "DescriptionEN": "Increases the wearer's Max HP by [1]%. Increases Outgoing Healing when the wearer uses their Skill by [2]%, lasting for [3] turn(s).",
+            "DescriptionEN": "Increases the wearer's Max HP by [1]%. When the wearer uses Skill, increases Outgoing Healing  by [2]%, lasting for [3] turn(s).",
             "DescriptionCN": "使装备者的生命上限提高[1]%。当装备者施放战技时，治疗量提高[2]%，持续[3]回合。",
             "DescriptionJP": "装備キャラの最大HP+[1]%。装備キャラが戦闘スキルを発動した時、治癒量+[2]%、[3]ターン継続。",
             "maxlevel": 5,
