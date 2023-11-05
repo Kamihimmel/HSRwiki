@@ -223,6 +223,7 @@
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 1,
+                    "maxstack": 2,
                     "tag": [
                         "bounce",
                         "skillatk",
@@ -232,12 +233,13 @@
                 {
                     "iid": "3",
                     "type": "debuff",
-                    "multipliertarget": "reducespeed",
+                    "addtarget": "reducespeed",
                     "multiplier": 2,
                     "tag": [
                         "singleenemy",
                         "reducespeed"
-                    ]
+                    ],
+                    "hide": true
                 },
                 {
                     "iid": "4",
@@ -246,7 +248,7 @@
                     "multiplier": 3,
                     "tag": [
                         "singleenemy",
-                        "speed"
+                        "reducespeed"
                     ]
                 }
             ]

@@ -202,11 +202,11 @@
                 {
                     "iid": "2",
                     "type": "debuff",
-                    "multipliertarget": "speed",
+                    "addtarget": "reducespeed",
                     "multiplier": 2,
                     "tag": [
                         "singleenemy",
-                        "speed"
+                        "reducespeed"
                     ]
                 }
             ]
@@ -914,16 +914,16 @@
             "teamskill": false,
             "tags": [
                 "debuff",
-                "speed"
+                "reducespeed"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "debuff",
-                    "multipliertarget": "speed",
+                    "addtarget": "reducespeed",
                     "multiplier": 8,
                     "tag": [
-                        "speed",
+                        "reducespeed",
                         "singleenemy"
                     ]
                 }
