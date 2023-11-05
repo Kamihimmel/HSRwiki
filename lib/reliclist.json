@@ -315,6 +315,58 @@
             "rope": "images/relics/IconRelic_310_6.png",
             "infourl": "lib/relics/310.json",
             "spoiler": false
+        },
+        {
+            "id": "115",
+            "ENname": "The Ashblazing Grand Duke(WIP)",
+            "CNname": "毁烬焚骨的大公(施工中)",
+            "JAname": "灰燼を燃やし尽くす大公(建設中)",
+            "imageurl": "images/relics/115.png",
+            "set": "4",
+            "head": "images/relics/IconRelic_115_1.png",
+            "hands": "images/relics/IconRelic_115_2.png",
+            "body": "images/relics/IconRelic_115_3.png",
+            "feet": "images/relics/IconRelic_115_4.png",
+            "infourl": "lib/relics/115.json",
+            "spoiler": true
+        },
+        {
+            "id": "116",
+            "ENname": "Prisoner in Deep Confinement(WIP)",
+            "CNname": "幽锁深牢的系囚(施工中)",
+            "JAname": "深い牢獄の囚人(建設中)",
+            "imageurl": "images/relics/116.png",
+            "set": "4",
+            "head": "images/relics/IconRelic_116_1.png",
+            "hands": "images/relics/IconRelic_116_2.png",
+            "body": "images/relics/IconRelic_116_3.png",
+            "feet": "images/relics/IconRelic_116_4.png",
+            "infourl": "lib/relics/116.json",
+            "spoiler": true
+        },
+        {
+            "id": "311",
+            "ENname": "Firmament Frontline Glamoth(WIP)",
+            "CNname": "苍穹战线格拉默(施工中)",
+            "JAname": "蒼穹戦線グラモス(建設中)",
+            "imageurl": "images/relics/311.png",
+            "set": "2",
+            "sphere": "images/relics/IconRelic_311_5.png",
+            "rope": "images/relics/IconRelic_311_6.png",
+            "infourl": "lib/relics/311.json",
+            "spoiler": true
+        },
+        {
+            "id": "312",
+            "ENname": "Penacony Land of the Dreams(WIP)",
+            "CNname": "梦想之地匹诺康尼(施工中)",
+            "JAname": "夢の地ピノコニー(建設中)",
+            "imageurl": "images/relics/312.png",
+            "set": "2",
+            "sphere": "images/relics/IconRelic_312_5.png",
+            "rope": "images/relics/IconRelic_312_6.png",
+            "infourl": "lib/relics/312.json",
+            "spoiler": true
         }
     ]
 }
