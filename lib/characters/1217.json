@@ -1,8 +1,8 @@
 {
     "id": "1217",
-    "ENname": "Huohuo(WIP)",
-    "CNname": "藿藿(施工中)",
-    "JAname": "フォフォ(建設中)",
+    "ENname": "Huohuo",
+    "CNname": "藿藿",
+    "JAname": "フォフォ",
     "imageurl": "images/characters/1217.png",
     "imagelargeurl": "images/characters/1217-large.png",
     "etype": "wind",
@@ -125,7 +125,25 @@
                     "8": 60,
                     "9": 65
                 }
-            ]
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "windatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "windatk"
+                    ]
+                }
+            ]            
         },
         {
             "id": "121702",
@@ -228,7 +246,59 @@
                     "14": 1,
                     "15": 1
                 }
-            ]
+            ],
+            "tags": [
+                "singleally",
+                "removedebuff",
+                "heal"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 1,
+                    "group": "1",
+                    "tag": [
+                        "singleally",
+                        "removedebuff",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "group": "1",
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 3,
+                    "group": "2",
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                },
+                {
+                    "iid": "4",
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 4,
+                    "group": "2",
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                }                
+            ]            
         },
         {
             "id": "121703",
@@ -297,6 +367,34 @@
                     "13": 2,
                     "14": 2,
                     "15": 2
+                }
+            ],
+            "tags": [
+                "buff",
+                "energy",
+                "atk",
+                "otherally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 1,
+                    "tag": [
+                        "otherally",
+                        "energy"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "atk",
+                        "otherally"                        
+                    ]
                 }
             ]
         },
@@ -435,7 +533,36 @@
                     "14": 6,
                     "15": 6
                 }
-            ]
+            ],
+            "tags": [
+                "heal",
+                "removedebuff"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 3,
+                    "group": "1",
+                    "tag": [
+                        "singleally",
+                        "heal",
+                        "removedebuff"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "heal",
+                    "multipliertarget": "",
+                    "multiplier": 5,
+                    "group": "1",
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                }                
+            ]            
         },
         {
             "id": "121707",
@@ -451,7 +578,24 @@
             "buffskill": false,
             "teamskill": false,
             "weaknessbreak": 0,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": [
+                "debuff",
+                "reduceatk",
+                "special"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "reduceatk",
+                    "multiplier": 25,
+                    "tag": [
+                        "allenemy",
+                        "reduceatk"
+                    ]
+                }
+            ]            
         }
     ],
     "tracedata": [
@@ -467,7 +611,11 @@
             "imageurl": "images/skills/1217-1217101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special"
+            ]         
         },
         {
             "id": "1217102",
@@ -481,7 +629,24 @@
             "imageurl": "images/skills/1217-1217102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "controlresist",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "controlresist",
+                    "multiplier": 35,
+                    "tag": [
+                        "self",
+                        "controlresist"
+                    ]
+                }
+            ]       
         },
         {
             "id": "1217103",
@@ -495,7 +660,23 @@
             "imageurl": "images/skills/1217-1217103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "self",
+                "buff",
+                "energy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 1,
+                    "tag": [
+                        "energy"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1217201",
@@ -509,7 +690,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]     
         },
         {
             "id": "1217202",
@@ -523,7 +721,24 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1217203",
@@ -537,7 +752,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]         
         },
         {
             "id": "1217204",
@@ -551,7 +783,24 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
+            ]             
         },
         {
             "id": "1217205",
@@ -565,7 +814,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]
         },
         {
             "id": "1217206",
@@ -579,7 +845,24 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]              
         },
         {
             "id": "1217207",
@@ -593,7 +876,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1217208",
@@ -607,7 +907,24 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "speed"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1217209",
@@ -621,7 +938,24 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]            
         },
         {
             "id": "1217210",
@@ -635,7 +969,24 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "hp"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "hp"
+                    ]
+                }
+            ]            
         }
     ],
     "eidolon": [
@@ -651,7 +1002,25 @@
             "DescriptionJP": "天賦による「厄払い」の継続時間+1ターン。フォフォに「厄払い」がある時、味方全体の速度+12%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": true,
+            "tags": [
+                "buff",
+                "allally",
+                "speed",
+                "special"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 12,
+                    "tag": [
+                        "speed",
+                        "allally"
+                    ]
+                }
+            ]            
         },
         {
             "id": "121702-2",
@@ -665,7 +1034,23 @@
             "DescriptionJP": "フォフォに「厄払い」がある時、味方はHPが0になるダメージを受けても戦闘不能状態にならず、自身の最大HP50%分のHPを回復する。この効果を発動した後、「厄払い」の継続時間-1ターン。この効果は一度の戦闘で2回まで発動できる。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "revive",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "revive",
+                    "multipliertarget": "maxhp",
+                    "multiplier": 50,
+                    "tag": [
+                        "revive",
+                        "singleally"
+                    ]
+                }
+            ]            
         },
         {
             "id": "121703-3",
@@ -679,7 +1064,12 @@
             "DescriptionJP": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]            
         },
         {
             "id": "121704-4",
@@ -693,7 +1083,22 @@
             "DescriptionJP": "戦闘スキルまたは天賦を発動し、味方に治癒を行った時、その味方の残りHPが少ないほど治癒量がアップする、最大でフォフォの治癒量+80%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "healrate"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "healrate",
+                    "multiplier": 80,
+                    "tag": [
+                        "healrate"
+                    ]
+                }
+            ]
         },
         {
             "id": "121705-5",
@@ -707,7 +1112,12 @@
             "DescriptionJP": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "special",
+                "self"
+            ]            
         },
         {
             "id": "121706-6",
@@ -721,7 +1131,23 @@
             "DescriptionJP": "味方に治癒を行った時、その味方の与ダメージ+50%、2ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 50,
+                    "tag": [
+                        "singleally",
+                        "alldmg"
+                    ]
+                }
+            ]            
         }
     ]
 }

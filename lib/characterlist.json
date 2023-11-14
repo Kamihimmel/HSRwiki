@@ -485,9 +485,9 @@
         },
         {
             "id": "1217",
-            "ENname": "Huohuo(WIP)",
-            "CNname": "藿藿(施工中)",
-            "JAname": "フォフォ(建設中)",
+            "ENname": "Huohuo",
+            "CNname": "藿藿",
+            "JAname": "フォフォ",
             "imageurl": "images/characters/1217.png",
             "imagelargeurl": "images/characters/1217-large.png",
             "etype": "wind",
