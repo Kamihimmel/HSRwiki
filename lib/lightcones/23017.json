@@ -1,8 +1,8 @@
 {
     "id": "23017",
-    "ENname": "Night of Fright(WIP)",
-    "CNname": "惊魂夜(施工中)",
-    "JAname": "驚魂の夜(建設中)",
+    "ENname": "Night of Fright",
+    "CNname": "惊魂夜",
+    "JAname": "驚魂の夜",
     "imageurl": "images/lightcones/23017.png",
     "imagelargeurl": "images/lightcones/23017l.png",
     "wtype": "abundance",
@@ -140,7 +140,44 @@
                     "4": 2,
                     "5": 2
                 }
-            ]
+            ],
+            "tags": [
+                "buff",
+                "self",
+                "atk",
+                "energyregenrate"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 3,
+                    "maxstack": 5,
+                    "tag": [
+                        "atk"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "energyregenrate",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "energyregenrate"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "heal",
+                    "multipliertarget": "losthp",
+                    "multiplier": 2,
+                    "tag": [
+                        "heal"
+                    ]
+                }
+            ]            
         }
     ]
 }
