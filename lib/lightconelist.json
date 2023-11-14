@@ -938,15 +938,15 @@
         },
         {
             "id": "22001",
-            "ENname": "Hey, Over Here(WIP)",
-            "CNname": "嘿，我在这儿(施工中)",
-            "JAname": "よぉ、ここにいるぜ(建設中)",
+            "ENname": "Hey, Over Here",
+            "CNname": "嘿，我在这儿",
+            "JAname": "よぉ、ここにいるぜ",
             "imageurl": "images/lightcones/22001.png",
             "imagelargeurl": "images/lightcones/22001l.png",
             "wtype": "abundance",
             "rarity": "4",
             "infourl": "lib/lightcones/22001.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "23017",
