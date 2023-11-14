@@ -3541,6 +3541,84 @@
             ]
         },
         {
+            "characterid": "1217",
+            "id": "121707",
+            "ENname": "Fiend: Impeachment of Evil",
+            "CNname": "凶煞•劾压鬼物",
+            "JAname": "凶相・鬼物圧伏",
+            "stype": "technique",
+            "maxlevel": 0,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "tags": [
+                "debuff",
+                "reduceatk",
+                "special"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "reduceatk",
+                    "multiplier": 25,
+                    "tag": [
+                        "allenemy",
+                        "reduceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1217",
+            "id": "121701-1",
+            "ENname": "Anchored to Vessel, Specters Nestled",
+            "CNname": "岁阳寄体，妖邪依凭",
+            "JAname": "歳陽の拠り所",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "allally",
+                "speed",
+                "special"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 12,
+                    "tag": [
+                        "speed",
+                        "allally"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1217",
+            "id": "121706-6",
+            "ENname": "Woven Together, Cohere Forever",
+            "CNname": "同休共戚，相须而行",
+            "JAname": "苦楽を共にする仲間",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 50,
+                    "tag": [
+                        "singleally",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "8004",
             "id": "800402",
             "ENname": "Ever-Burning Amber",
