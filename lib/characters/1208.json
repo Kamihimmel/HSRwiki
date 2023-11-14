@@ -913,17 +913,17 @@
             "buffskill": false,
             "teamskill": false,
             "tags": [
-                "heal",
+                "revive",
                 "singleally"
             ],
             "effect": [
                 {
                     "iid": "1",
-                    "type": "heal",
+                    "type": "revive",
                     "multipliertarget": "maxhp",
                     "multiplier": 70,
                     "tag": [
-                        "heal",
+                        "revive",
                         "singleally"
                     ]
                 }

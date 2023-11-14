@@ -129,7 +129,7 @@
             "tags": [
                 "singleatk",
                 "normalatk",
-                "physicalatk"
+                "lightningatk"
             ],
             "effect": [
                 {
@@ -140,7 +140,7 @@
                     "tag": [
                         "singleatk",
                         "normalatk",
-                        "physicalatk"
+                        "lightningatk"
                     ]
                 }
             ]
