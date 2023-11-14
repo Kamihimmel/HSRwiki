@@ -787,17 +787,17 @@
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "speedpt"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "speedpt",
                     "multiplier": 2,
                     "tag": [
                         "self",
-                        "speed"
+                        "speedpt"
                     ]
                 }
             ]             
@@ -911,17 +911,17 @@
             "tags": [
                 "buff",
                 "self",
-                "speed"
+                "speedpt"
             ],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
-                    "addtarget": "speed",
+                    "addtarget": "speedpt",
                     "multiplier": 3,
                     "tag": [
                         "self",
-                        "speed"
+                        "speedpt"
                     ]
                 }
             ]            

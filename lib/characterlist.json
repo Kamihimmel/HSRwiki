@@ -494,7 +494,7 @@
             "wtype": "abundance",
             "rarity": "5",
             "infourl": "lib/characters/1217.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1302",
