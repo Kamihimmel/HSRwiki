@@ -1,0 +1,153 @@
+{
+    "id": "23020",
+    "ENname": "Baptism of Pure Thought(WIP)",
+    "CNname": "纯粹思维的洗礼(施工中)",
+    "JAname": "純粋な思惟の洗礼(建設中)",
+    "imageurl": "images/lightcones/23020.png",
+    "imagelargeurl": "images/lightcones/23020l.png",
+    "wtype": "thehunt",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43.2,
+            "atk": 26.4,
+            "def": 24
+        },
+        {
+            "level": "20",
+            "hp": 166.32,
+            "atk": 101.64,
+            "def": 92.4
+        },
+        {
+            "level": "20+",
+            "hp": 218.16,
+            "atk": 133.32,
+            "def": 121.2
+        },
+        {
+            "level": "30",
+            "hp": 282.96,
+            "atk": 172.92,
+            "def": 157.2
+        },
+        {
+            "level": "30+",
+            "hp": 352.08,
+            "atk": 215.16,
+            "def": 195.6
+        },
+        {
+            "level": "40",
+            "hp": 416.88,
+            "atk": 254.76,
+            "def": 231.6
+        },
+        {
+            "level": "40+",
+            "hp": 486.0,
+            "atk": 297.0,
+            "def": 270.0
+        },
+        {
+            "level": "50",
+            "hp": 550.8,
+            "atk": 336.6,
+            "def": 306.0
+        },
+        {
+            "level": "50+",
+            "hp": 619.92,
+            "atk": 378.84,
+            "def": 344.4
+        },
+        {
+            "level": "60",
+            "hp": 684.72,
+            "atk": 418.44,
+            "def": 380.4
+        },
+        {
+            "level": "60+",
+            "hp": 753.84,
+            "atk": 460.68,
+            "def": 418.8
+        },
+        {
+            "level": "70",
+            "hp": 818.64,
+            "atk": 500.28,
+            "def": 454.8
+        },
+        {
+            "level": "70+",
+            "hp": 887.76,
+            "atk": 542.52,
+            "def": 493.2
+        },
+        {
+            "level": "80",
+            "hp": 952.56,
+            "atk": 582.12,
+            "def": 529.2
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Mental Training",
+            "CNname": "思想训练",
+            "JAname": "思想訓練",
+            "DescriptionEN": "Increases CRIT DMG for the wearer by [1]%. Deals an additional [2]% CRIT DMG to the enemy target for each debuff sustained, up to a maximum of [3] stacks. Grants Debate effect when attacking the target with an Ultimate, increasing DMG dealt by [4]% while follow-up attacks ignore [5]% of the target's DEF. This effect lasts for [6] turns.",
+            "DescriptionCN": "使装备者的暴击伤害提高[1]%。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高[2]%，最多叠加[3]层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高[4]%，追加攻击无视目标[5]%的防御力，该效果持续[6]回合。",
+            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。敵にあるデバフ1つにつき、さらにその敵に対する装備キャラの会心ダメージ+[2]%、最大で[3]層累積できる。必殺技で敵を攻撃する時、装備キャラは「論弁」効果を獲得し、与ダメージ+[4]%、追加攻撃が敵の防御力を[5]%無視する、この効果は[6]ターン継続する。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 20,
+                    "2": 23,
+                    "3": 26,
+                    "4": 29,
+                    "5": 32
+                },
+                {
+                    "1": 6,
+                    "2": 7,
+                    "3": 8,
+                    "4": 9,
+                    "5": 10
+                },
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3
+                },
+                {
+                    "1": 36,
+                    "2": 42,
+                    "3": 48,
+                    "4": 54,
+                    "5": 60
+                },
+                {
+                    "1": 16,
+                    "2": 18,
+                    "3": 20,
+                    "4": 22,
+                    "5": 24
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                }
+            ]
+        }
+    ]
+}
