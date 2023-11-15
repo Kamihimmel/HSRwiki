@@ -1,0 +1,139 @@
+{
+    "id": "23019",
+    "ENname": "Past Self in Mirror(WIP)",
+    "CNname": "镜中故我(施工中)",
+    "JAname": "鏡の中の私(建設中)",
+    "imageurl": "images/lightcones/23019.png",
+    "imagelargeurl": "images/lightcones/23019l.png",
+    "wtype": "harmony",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 24,
+            "def": 24
+        },
+        {
+            "level": "20",
+            "hp": 184.8,
+            "atk": 92.4,
+            "def": 92.4
+        },
+        {
+            "level": "20+",
+            "hp": 242.4,
+            "atk": 121.2,
+            "def": 121.2
+        },
+        {
+            "level": "30",
+            "hp": 314.4,
+            "atk": 157.2,
+            "def": 157.2
+        },
+        {
+            "level": "30+",
+            "hp": 391.2,
+            "atk": 195.6,
+            "def": 195.6
+        },
+        {
+            "level": "40",
+            "hp": 463.2,
+            "atk": 231.6,
+            "def": 231.6
+        },
+        {
+            "level": "40+",
+            "hp": 540.0,
+            "atk": 270.0,
+            "def": 270.0
+        },
+        {
+            "level": "50",
+            "hp": 612.0,
+            "atk": 306.0,
+            "def": 306.0
+        },
+        {
+            "level": "50+",
+            "hp": 688.8,
+            "atk": 344.4,
+            "def": 344.4
+        },
+        {
+            "level": "60",
+            "hp": 760.8,
+            "atk": 380.4,
+            "def": 380.4
+        },
+        {
+            "level": "60+",
+            "hp": 837.6,
+            "atk": 418.8,
+            "def": 418.8
+        },
+        {
+            "level": "70",
+            "hp": 909.6,
+            "atk": 454.8,
+            "def": 454.8
+        },
+        {
+            "level": "70+",
+            "hp": 986.4,
+            "atk": 493.2,
+            "def": 493.2
+        },
+        {
+            "level": "80",
+            "hp": 1058.4,
+            "atk": 529.2,
+            "def": 529.2
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "The Plum Fragrance In My Bones",
+            "CNname": "彻骨梅香",
+            "JAname": "徹骨梅香",
+            "DescriptionEN": "Instantly regenerates [1] Energy for the wearer at the start of each wave. Increases DMG dealt for all allies by [2]% after the wearer uses a skill, increasing All-Type PEN for all SPD Boosted allies by [3]%. Lasts for [4] turns.",
+            "DescriptionCN": "每个波次开始时，装备者立即恢复[1]点能量。当装备者施放战技后，使我方全体造成的伤害提高[2]%，使处于加速状态的我方目标的全属性穿透提高[3]%，持续[4]回合。",
+            "DescriptionJP": "各ラウンド開始時、装備キャラのEPを[1]回復する。装備キャラが戦闘スキルを発動した後、味方全体の与ダメージ+[2]%、加速状態の味方の全耐性貫通+[3]%、[4]ターン継続。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 10,
+                    "2": 12.5,
+                    "3": 15,
+                    "4": 17.5,
+                    "5": 20
+                },
+                {
+                    "1": 15,
+                    "2": 17.5,
+                    "3": 20,
+                    "4": 22.5,
+                    "5": 25
+                },
+                {
+                    "1": 6,
+                    "2": 7,
+                    "3": 8,
+                    "4": 9,
+                    "5": 10
+                },
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3
+                }
+            ]
+        }
+    ]
+}
