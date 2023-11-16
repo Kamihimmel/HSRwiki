@@ -123,7 +123,8 @@
             "tags": [
                 "buff",
                 "dmgreduction",
-                "heal"
+                "heal",
+                "allally"
             ],
             "effect": [
                 {
@@ -139,10 +140,9 @@
                 {
                     "iid": "2",
                     "type": "heal",
-                    "multipliertarget": "hp",
+                    "multipliertarget": "losthp",
                     "multiplier": 2,
                     "tag": [
-                        "self",
                         "heal",
                         "allally"
                     ]

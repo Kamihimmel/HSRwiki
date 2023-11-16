@@ -123,7 +123,7 @@
             "tags": [
                 "buff",
                 "energy",
-                "heal"
+                "healrate"
             ],
             "effect": [
                 {
@@ -139,10 +139,10 @@
                 {
                     "iid": "2",
                     "type": "buff",
-                    "addtarget": "heal",
+                    "addtarget": "healrate",
                     "multiplier": 2,
                     "tag": [
-                        "heal"
+                        "healrate"
                     ]
                 }
             ]
