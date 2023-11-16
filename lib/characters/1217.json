@@ -373,7 +373,7 @@
                 "buff",
                 "energy",
                 "atk",
-                "otherally"
+                "allally"
             ],
             "effect": [
                 {
@@ -382,7 +382,7 @@
                     "addtarget": "energy",
                     "multiplier": 1,
                     "tag": [
-                        "otherally",
+                        "allally",
                         "energy"
                     ]
                 },
@@ -393,7 +393,7 @@
                     "multiplier": 2,
                     "tag": [
                         "atk",
-                        "otherally"                        
+                        "allally"                        
                     ]
                 }
             ]
