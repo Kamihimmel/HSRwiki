@@ -547,19 +547,6 @@
             "rarity": "5",
             "infourl": "lib/characters/1305.json",
             "spoiler": true
-        },
-        {
-            "id": "1311",
-            "ENname": "Screwllum(WIP)",
-            "CNname": "螺丝咕姆(施工中)",
-            "JAname": "スクリューガム(建設中)",
-            "imageurl": "images/characters/1311.png",
-            "imagelargeurl": "images/characters/1311-large.png",
-            "etype": "imaginary",
-            "wtype": "erudition",
-            "rarity": "5",
-            "infourl": "lib/characters/1311.json",
-            "spoiler": true
         }
     ]
 }
