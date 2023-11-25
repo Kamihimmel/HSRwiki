@@ -99,7 +99,7 @@
             "CNname": "彻骨梅香",
             "JAname": "徹骨梅香",
             "DescriptionEN": "Instantly regenerates [1] Energy for the wearer at the start of each wave. Increases DMG dealt for all allies by [2]% after the wearer uses a skill, increasing All-Type PEN for all SPD Boosted allies by [3]%. Lasts for [4] turns.",
-            "DescriptionCN": "每个波次开始时，装备者立即恢复[1]点能量。当装备者施放战技后，使我方全体造成的伤害提高[2]%，使处于加速状态的我方目标的全属性穿透提高[3]%，持续[4]回合。",
+            "DescriptionCN": "每个波次开始时，装备者立即恢复[1]点能量。当装备者施放战技后，使我方全体造成的伤害提高[2]%，使处于加速状态的我方目标的全属性抗性穿透提高[3]%，持续[4]回合。",
             "DescriptionJP": "各ラウンド開始時、装備キャラのEPを[1]回復する。装備キャラが戦闘スキルを発動した後、味方全体の与ダメージ+[2]%、加速状態の味方の全耐性貫通+[3]%、[4]ターン継続。",
             "maxlevel": 5,
             "buffskill": true,
