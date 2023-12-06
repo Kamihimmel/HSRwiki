@@ -98,9 +98,9 @@
             "ENname": "Mental Training",
             "CNname": "思想训练",
             "JAname": "思想訓練",
-            "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against them increases by [2]%, up to a maximum of [3] stacks. When the wearer attacks the target with their Ultimate, the wearer receives the Disputation effect, increasing DMG dealt by [4]% and their follow-up attacks ignore [5]% of the target's DEF. This effect lasts for [6] turns.",
+            "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target increases by [2]%, stacking up to [3] time(s). When using Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by [4]% and enables their follow-up attacks to ignore [5]% of the target's DEF. This effect lasts for [6] turns.",
             "DescriptionCN": "使装备者的暴击伤害提高[1]%。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高[2]%，最多叠加[3]层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高[4]%，追加攻击无视目标[5]%的防御力，该效果持续[6]回合。",
-            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。敵にあるデバフ1つにつき、さらにその敵に対する装備キャラの会心ダメージ+[2]%、最大で[3]層累積できる。必殺技で敵を攻撃する時、装備キャラは「論弁」効果を獲得し、与ダメージ+[4]%、追加攻撃が敵の防御力を[5]%無視する、この効果は[6]ターン継続する。",
+            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。敵にあるデバフ1つにつき、装備キャラがその敵に与える会心ダメージ+[2]%、最大で[3]層累積できる。必殺技で敵を攻撃する時、装備キャラは「論弁」効果を獲得し、与ダメージ+[4]%、追加攻撃が敵の防御力を[5]%無視する、この効果は[6]ターン継続する。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
@@ -113,11 +113,11 @@
                     "5": 32
                 },
                 {
-                    "1": 6,
-                    "2": 7,
-                    "3": 8,
-                    "4": 9,
-                    "5": 10
+                    "1": 8,
+                    "2": 9,
+                    "3": 10,
+                    "4": 11,
+                    "5": 12
                 },
                 {
                     "1": 3,
@@ -134,11 +134,11 @@
                     "5": 60
                 },
                 {
-                    "1": 20,
-                    "2": 23,
-                    "3": 26,
-                    "4": 29,
-                    "5": 32
+                    "1": 24,
+                    "2": 28,
+                    "3": 32,
+                    "4": 36,
+                    "5": 40
                 },
                 {
                     "1": 2,
