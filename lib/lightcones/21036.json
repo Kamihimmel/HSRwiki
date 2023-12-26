@@ -1,0 +1,118 @@
+{
+    "id": "21036",
+    "ENname": "Dreamville Adventure(WIP)",
+    "CNname": "美梦小镇大冒险(施工中)",
+    "JAname": "ドリームタウンの大冒険(建設中)",
+    "imageurl": "images/lightcones/21036.png",
+    "imagelargeurl": "images/lightcones/21036l.png",
+    "wtype": "harmony",
+    "rarity": "4",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43.2,
+            "atk": 19.2,
+            "def": 18
+        },
+        {
+            "level": "20",
+            "hp": 166.32,
+            "atk": 73.92,
+            "def": 69.3
+        },
+        {
+            "level": "20+",
+            "hp": 218.16,
+            "atk": 96.96,
+            "def": 90.9
+        },
+        {
+            "level": "30",
+            "hp": 282.96,
+            "atk": 125.76,
+            "def": 117.9
+        },
+        {
+            "level": "30+",
+            "hp": 352.08,
+            "atk": 156.48,
+            "def": 146.7
+        },
+        {
+            "level": "40",
+            "hp": 416.88,
+            "atk": 185.28,
+            "def": 173.7
+        },
+        {
+            "level": "40+",
+            "hp": 486.0,
+            "atk": 216.0,
+            "def": 202.5
+        },
+        {
+            "level": "50",
+            "hp": 550.8,
+            "atk": 244.8,
+            "def": 229.5
+        },
+        {
+            "level": "50+",
+            "hp": 619.92,
+            "atk": 275.52,
+            "def": 258.3
+        },
+        {
+            "level": "60",
+            "hp": 684.72,
+            "atk": 304.32,
+            "def": 285.3
+        },
+        {
+            "level": "60+",
+            "hp": 753.84,
+            "atk": 335.04,
+            "def": 314.1
+        },
+        {
+            "level": "70",
+            "hp": 818.64,
+            "atk": 363.84,
+            "def": 341.1
+        },
+        {
+            "level": "70+",
+            "hp": 887.76,
+            "atk": 394.56,
+            "def": 369.9
+        },
+        {
+            "level": "80",
+            "hp": 952.56,
+            "atk": 423.36,
+            "def": 396.9
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Solidarity",
+            "CNname": "团结",
+            "JAname": "団結",
+            "DescriptionEN": "After the wearer uses a Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases the DMG dealt by their Basic ATK, Skill, or Ultimate by [1]%. Childishness only takes effect with the most recent ability used by the wearer and cannot be stacked.",
+            "DescriptionCN": "装备者施放普攻/战技/终结技后，为我方全体附加【童心】，【童心】使普攻/战技/终结技造成的伤害提高[1]%。【童心】仅对装备者最新使用的技能类型生效，且不可叠加。",
+            "DescriptionJP": "装備キャラが通常攻撃、戦闘スキル、または必殺技を発動した後、味方全体に「童心」を付与する。「童心」がある味方の通常攻撃、戦闘スキル、または必殺技の与ダメージ+[1]%。「童心」は装備キャラが最後に発動したタイプのスキルにのみ効果を発揮する。この効果は累積できない。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                }
+            ]
+        }
+    ]
+}

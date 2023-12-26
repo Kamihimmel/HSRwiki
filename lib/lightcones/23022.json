@@ -1,0 +1,139 @@
+{
+    "id": "23022",
+    "ENname": "Reforged Remembrance(WIP)",
+    "CNname": "重塑时光之忆(施工中)",
+    "JAname": "{RUBY_B#とき}時間{RUBY_E#}の{RUBY_B#きおく}記憶{RUBY_E#}を{RUBY_B#さいこうちく}再構築{RUBY_E#}して(建設中)",
+    "imageurl": "images/lightcones/23022.png",
+    "imagelargeurl": "images/lightcones/23022l.png",
+    "wtype": "nihility",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 26.4,
+            "def": 21
+        },
+        {
+            "level": "20",
+            "hp": 184.8,
+            "atk": 101.64,
+            "def": 80.85
+        },
+        {
+            "level": "20+",
+            "hp": 242.4,
+            "atk": 133.32,
+            "def": 106.05
+        },
+        {
+            "level": "30",
+            "hp": 314.4,
+            "atk": 172.92,
+            "def": 137.55
+        },
+        {
+            "level": "30+",
+            "hp": 391.2,
+            "atk": 215.16,
+            "def": 171.15
+        },
+        {
+            "level": "40",
+            "hp": 463.2,
+            "atk": 254.76,
+            "def": 202.65
+        },
+        {
+            "level": "40+",
+            "hp": 540.0,
+            "atk": 297.0,
+            "def": 236.25
+        },
+        {
+            "level": "50",
+            "hp": 612.0,
+            "atk": 336.6,
+            "def": 267.75
+        },
+        {
+            "level": "50+",
+            "hp": 688.8,
+            "atk": 378.84,
+            "def": 301.35
+        },
+        {
+            "level": "60",
+            "hp": 760.8,
+            "atk": 418.44,
+            "def": 332.85
+        },
+        {
+            "level": "60+",
+            "hp": 837.6,
+            "atk": 460.68,
+            "def": 366.45
+        },
+        {
+            "level": "70",
+            "hp": 909.6,
+            "atk": 500.28,
+            "def": 397.95
+        },
+        {
+            "level": "70+",
+            "hp": 986.4,
+            "atk": 542.52,
+            "def": 431.55
+        },
+        {
+            "level": "80",
+            "hp": 1058.4,
+            "atk": 582.12,
+            "def": 463.05
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Crystallize",
+            "CNname": "结晶",
+            "JAname": "結晶",
+            "DescriptionEN": "Increases wearer's Effect Hit Rate by [1]%. When wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, they will individually gain 1 stack of Prohecy. This effect can stack up to [4] times. In a single battle, each type of DoT can only generate 1 stack of Prophecy. Every stack of Prophecy increases wearer's ATK by [2]% and the DoT dealt will ignore [3]% of the target's DEF.",
+            "DescriptionCN": "使装备者的效果命中提高[1]%。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加[4]层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高[2]%，造成的持续伤害无视目标[3]%的防御力。",
+            "DescriptionJP": "装備キャラの効果命中+[1]%。装備キャラが風化、燃焼、感電、または裂創状態の敵にダメージを与える時、それぞれ「先知」を1層獲得する、最大で[4]層累積できる。一度の戦闘で、持続ダメージ状態1種類につき、「先知」を1回まで累積できる。「先知」1層につき、装備キャラの攻撃力+[2]%、与える持続ダメージが敵の防御力を[3]%無視する。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 40,
+                    "2": 45,
+                    "3": 50,
+                    "4": 55,
+                    "5": 60
+                },
+                {
+                    "1": 5,
+                    "2": 6,
+                    "3": 7,
+                    "4": 8,
+                    "5": 9
+                },
+                {
+                    "1": 7.2,
+                    "2": 7.9,
+                    "3": 8.6,
+                    "4": 9.3,
+                    "5": 10
+                },
+                {
+                    "1": 4,
+                    "2": 4,
+                    "3": 4,
+                    "4": 4,
+                    "5": 4
+                }
+            ]
+        }
+    ]
+}

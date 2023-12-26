@@ -1,0 +1,146 @@
+{
+    "id": "23021",
+    "ENname": "Earthly Escapade(WIP)",
+    "CNname": "游戏尘寰(施工中)",
+    "JAname": "{RUBY_B#じんせい}人生{RUBY_E#}は{RUBY_B#あそ}遊{RUBY_E#}び(建設中)",
+    "imageurl": "images/lightcones/23021.png",
+    "imagelargeurl": "images/lightcones/23021l.png",
+    "wtype": "harmony",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 52.8,
+            "atk": 24,
+            "def": 21
+        },
+        {
+            "level": "20",
+            "hp": 203.28,
+            "atk": 92.4,
+            "def": 80.85
+        },
+        {
+            "level": "20+",
+            "hp": 266.64,
+            "atk": 121.2,
+            "def": 106.05
+        },
+        {
+            "level": "30",
+            "hp": 345.84,
+            "atk": 157.2,
+            "def": 137.55
+        },
+        {
+            "level": "30+",
+            "hp": 430.32,
+            "atk": 195.6,
+            "def": 171.15
+        },
+        {
+            "level": "40",
+            "hp": 509.52,
+            "atk": 231.6,
+            "def": 202.65
+        },
+        {
+            "level": "40+",
+            "hp": 594.0,
+            "atk": 270.0,
+            "def": 236.25
+        },
+        {
+            "level": "50",
+            "hp": 673.2,
+            "atk": 306.0,
+            "def": 267.75
+        },
+        {
+            "level": "50+",
+            "hp": 757.68,
+            "atk": 344.4,
+            "def": 301.35
+        },
+        {
+            "level": "60",
+            "hp": 836.88,
+            "atk": 380.4,
+            "def": 332.85
+        },
+        {
+            "level": "60+",
+            "hp": 921.36,
+            "atk": 418.8,
+            "def": 366.45
+        },
+        {
+            "level": "70",
+            "hp": 1000.56,
+            "atk": 454.8,
+            "def": 397.95
+        },
+        {
+            "level": "70+",
+            "hp": 1085.04,
+            "atk": 493.2,
+            "def": 431.55
+        },
+        {
+            "level": "80",
+            "hp": 1164.24,
+            "atk": 529.2,
+            "def": 463.05
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Capriciousness",
+            "CNname": "善变",
+            "JAname": "気まぐれ",
+            "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. The wearer gains Mask at the beginning of battle. While the wearer has Mask, the wearer's allies have their CRIT Rate increased by [5]% and CRIT DMG increased by [2]% for [3] turn(s). Whenever the wearer recovers a Skill Point (including Skill Points exceeding the limit), they gain a stack of Fireworks, and when the wearer has [4] Fireworks stacks, removes all the stacks and gains Mask.",
+            "DescriptionCN": "使装备者的暴击伤害提高[1]%。战斗开始时，使装备者获得【假面】。当装备者持有【假面】时，装备者的队友暴击率提高[5]%，暴击伤害提高[2]%，持续[3]回合。装备者每恢复1个战技点，获得1层【彩焰】，恢复时溢出的战技点也会被计算在内。当【彩焰】达到[4]层后，移除所有【彩焰】并获得【假面】。",
+            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。戦闘開始時、装備キャラが「仮面」を獲得する。装備キャラに「仮面」がある時、装備キャラ以外の味方の会心率+[5]%、会心ダメージ+[2]%、[3]ターン継続。装備キャラがSPを1回復するたびに、「虹色の炎」を1層獲得する（SPを回復する際、上限を超えた分もカウントされる）。「虹色の炎」が[4]層に達した後、すべての「虹色の炎」を解除し、「仮面」を獲得する。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 40,
+                    "2": 45,
+                    "3": 50,
+                    "4": 55,
+                    "5": 60
+                },
+                {
+                    "1": 24,
+                    "2": 30,
+                    "3": 36,
+                    "4": 42,
+                    "5": 48
+                },
+                {
+                    "1": 4,
+                    "2": 4,
+                    "3": 4,
+                    "4": 4,
+                    "5": 4
+                },
+                {
+                    "1": 4,
+                    "2": 4,
+                    "3": 4,
+                    "4": 4,
+                    "5": 4
+                },
+                {
+                    "1": 10,
+                    "2": 11,
+                    "3": 12,
+                    "4": 13,
+                    "5": 14
+                }
+            ]
+        }
+    ]
+}

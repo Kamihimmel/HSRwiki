@@ -961,6 +961,102 @@
             "spoiler": false
         },
         {
+            "id": "21035",
+            "ENname": "What Is Real?(WIP)",
+            "CNname": "何物为真(施工中)",
+            "JAname": "何が真か(建設中)",
+            "imageurl": "images/lightcones/21035.png",
+            "imagelargeurl": "images/lightcones/21035l.png",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21035.json",
+            "spoiler": true
+        },
+        {
+            "id": "21036",
+            "ENname": "Dreamville Adventure(WIP)",
+            "CNname": "美梦小镇大冒险(施工中)",
+            "JAname": "ドリームタウンの大冒険(建設中)",
+            "imageurl": "images/lightcones/21036.png",
+            "imagelargeurl": "images/lightcones/21036l.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21036.json",
+            "spoiler": true
+        },
+        {
+            "id": "21037",
+            "ENname": "Final Victor(WIP)",
+            "CNname": "最后的赢家(施工中)",
+            "JAname": "最後の勝者(建設中)",
+            "imageurl": "images/lightcones/21037.png",
+            "imagelargeurl": "images/lightcones/21037l.png",
+            "wtype": "thehunt",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21037.json",
+            "spoiler": true
+        },
+        {
+            "id": "21038",
+            "ENname": "Flames Afar(WIP)",
+            "CNname": "在火的远处(施工中)",
+            "JAname": "遠い炎の場所で(建設中)",
+            "imageurl": "images/lightcones/21038.png",
+            "imagelargeurl": "images/lightcones/21038l.png",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21038.json",
+            "spoiler": true
+        },
+        {
+            "id": "21039",
+            "ENname": "Destiny's Threads Forewoven(WIP)",
+            "CNname": "织造命运之线(施工中)",
+            "JAname": "運命を紡ぐ糸(建設中)",
+            "imageurl": "images/lightcones/21039.png",
+            "imagelargeurl": "images/lightcones/21039l.png",
+            "wtype": "preservation",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21039.json",
+            "spoiler": true
+        },
+        {
+            "id": "21040",
+            "ENname": "The Day The Cosmos Fell(WIP)",
+            "CNname": "银河沦陷日(施工中)",
+            "JAname": "銀河が陥落した日(建設中)",
+            "imageurl": "images/lightcones/21040.png",
+            "imagelargeurl": "images/lightcones/21040l.png",
+            "wtype": "erudition",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21040.json",
+            "spoiler": true
+        },
+        {
+            "id": "21041",
+            "ENname": "It's Showtime(WIP)",
+            "CNname": "好戏开演(施工中)",
+            "JAname": "ショーの始まり(建設中)",
+            "imageurl": "images/lightcones/21041.png",
+            "imagelargeurl": "images/lightcones/21041l.png",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21041.json",
+            "spoiler": true
+        },
+        {
+            "id": "21042",
+            "ENname": "Indelible Promise(WIP)",
+            "CNname": "铭记于心的约定(施工中)",
+            "JAname": "心に刻まれた約束(建設中)",
+            "imageurl": "images/lightcones/21042.png",
+            "imagelargeurl": "images/lightcones/21042l.png",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21042.json",
+            "spoiler": true
+        },
+        {
             "id": "23018",
             "ENname": "An Instant Before A Gaze(WIP)",
             "CNname": "片刻，留在眼底(施工中)",
@@ -994,6 +1090,30 @@
             "wtype": "thehunt",
             "rarity": "5",
             "infourl": "lib/lightcones/23020.json",
+            "spoiler": true
+        },
+        {
+            "id": "23021",
+            "ENname": "Earthly Escapade(WIP)",
+            "CNname": "游戏尘寰(施工中)",
+            "JAname": "{RUBY_B#じんせい}人生{RUBY_E#}は{RUBY_B#あそ}遊{RUBY_E#}び(建設中)",
+            "imageurl": "images/lightcones/23021.png",
+            "imagelargeurl": "images/lightcones/23021l.png",
+            "wtype": "harmony",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23021.json",
+            "spoiler": true
+        },
+        {
+            "id": "23022",
+            "ENname": "Reforged Remembrance(WIP)",
+            "CNname": "重塑时光之忆(施工中)",
+            "JAname": "{RUBY_B#とき}時間{RUBY_E#}の{RUBY_B#きおく}記憶{RUBY_E#}を{RUBY_B#さいこうちく}再構築{RUBY_E#}して(建設中)",
+            "imageurl": "images/lightcones/23022.png",
+            "imagelargeurl": "images/lightcones/23022l.png",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23022.json",
             "spoiler": true
         }
     ]

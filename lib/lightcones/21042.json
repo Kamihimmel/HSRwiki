@@ -1,0 +1,132 @@
+{
+    "id": "21042",
+    "ENname": "Indelible Promise(WIP)",
+    "CNname": "铭记于心的约定(施工中)",
+    "JAname": "心に刻まれた約束(建設中)",
+    "imageurl": "images/lightcones/21042.png",
+    "imagelargeurl": "images/lightcones/21042l.png",
+    "wtype": "destruction",
+    "rarity": "4",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43.2,
+            "atk": 21.6,
+            "def": 15
+        },
+        {
+            "level": "20",
+            "hp": 166.32,
+            "atk": 83.16,
+            "def": 57.75
+        },
+        {
+            "level": "20+",
+            "hp": 218.16,
+            "atk": 109.08,
+            "def": 75.75
+        },
+        {
+            "level": "30",
+            "hp": 282.96,
+            "atk": 141.48,
+            "def": 98.25
+        },
+        {
+            "level": "30+",
+            "hp": 352.08,
+            "atk": 176.04,
+            "def": 122.25
+        },
+        {
+            "level": "40",
+            "hp": 416.88,
+            "atk": 208.44,
+            "def": 144.75
+        },
+        {
+            "level": "40+",
+            "hp": 486.0,
+            "atk": 243.0,
+            "def": 168.75
+        },
+        {
+            "level": "50",
+            "hp": 550.8,
+            "atk": 275.4,
+            "def": 191.25
+        },
+        {
+            "level": "50+",
+            "hp": 619.92,
+            "atk": 309.96,
+            "def": 215.25
+        },
+        {
+            "level": "60",
+            "hp": 684.72,
+            "atk": 342.36,
+            "def": 237.75
+        },
+        {
+            "level": "60+",
+            "hp": 753.84,
+            "atk": 376.92,
+            "def": 261.75
+        },
+        {
+            "level": "70",
+            "hp": 818.64,
+            "atk": 409.32,
+            "def": 284.25
+        },
+        {
+            "level": "70+",
+            "hp": 887.76,
+            "atk": 443.88,
+            "def": 308.25
+        },
+        {
+            "level": "80",
+            "hp": 952.56,
+            "atk": 476.28,
+            "def": 330.75
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Inheritance",
+            "CNname": "传承",
+            "JAname": "伝承",
+            "DescriptionEN": "Increases the wearer's Break Effect by [1]%. When the wearer uses their Ultimate, increases CRIT Rate by [2]%, lasting for [3] turn(s).",
+            "DescriptionCN": "使装备者的击破特攻提高[1]%。当装备者释放终结技时，暴击率提高[2]%，持续[3]回合。",
+            "DescriptionJP": "装備キャラの撃破特攻+[1]%。装備キャラが必殺技を発動する時、会心率+[2]%、[3]ターン継続。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 28,
+                    "2": 35,
+                    "3": 42,
+                    "4": 49,
+                    "5": 56
+                },
+                {
+                    "1": 15,
+                    "2": 18.75,
+                    "3": 22.5,
+                    "4": 26.25,
+                    "5": 30
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                }
+            ]
+        }
+    ]
+}
