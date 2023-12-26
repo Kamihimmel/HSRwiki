@@ -511,9 +511,9 @@
         },
         {
             "id": "1302",
-            "ENname": "Argenti(WIP)",
-            "CNname": "银枝(施工中)",
-            "JAname": "アルジェンティ(建設中)",
+            "ENname": "Argenti",
+            "CNname": "银枝",
+            "JAname": "アルジェンティ",
             "imageurl": "images/characters/1302.png",
             "imagelargeurl": "images/characters/1302-large.png",
             "etype": "physical",

@@ -1058,9 +1058,9 @@
         },
         {
             "id": "23018",
-            "ENname": "An Instant Before A Gaze(WIP)",
-            "CNname": "片刻，留在眼底(施工中)",
-            "JAname": "その一刻、目に焼き付けて(建設中)",
+            "ENname": "An Instant Before A Gaze",
+            "CNname": "片刻，留在眼底",
+            "JAname": "その一刻、目に焼き付けて",
             "imageurl": "images/lightcones/23018.png",
             "imagelargeurl": "images/lightcones/23018l.png",
             "wtype": "erudition",
