@@ -520,7 +520,7 @@
             "wtype": "erudition",
             "rarity": "5",
             "infourl": "lib/characters/1302.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1303",

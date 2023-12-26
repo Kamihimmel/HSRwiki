@@ -1066,7 +1066,7 @@
             "wtype": "erudition",
             "rarity": "5",
             "infourl": "lib/lightcones/23018.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "23019",
