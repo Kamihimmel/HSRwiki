@@ -1,0 +1,139 @@
+{
+    "id": "21039",
+    "ENname": "Destiny's Threads Forewoven(WIP)",
+    "CNname": "织造命运之线(施工中)",
+    "JAname": "運命を紡ぐ糸(建設中)",
+    "imageurl": "images/lightcones/21039.png",
+    "imagelargeurl": "images/lightcones/21039l.png",
+    "wtype": "preservation",
+    "rarity": "4",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43.2,
+            "atk": 16.8,
+            "def": 21
+        },
+        {
+            "level": "20",
+            "hp": 166.32,
+            "atk": 64.68,
+            "def": 80.85
+        },
+        {
+            "level": "20+",
+            "hp": 218.16,
+            "atk": 84.84,
+            "def": 106.05
+        },
+        {
+            "level": "30",
+            "hp": 282.96,
+            "atk": 110.04,
+            "def": 137.55
+        },
+        {
+            "level": "30+",
+            "hp": 352.08,
+            "atk": 136.92,
+            "def": 171.15
+        },
+        {
+            "level": "40",
+            "hp": 416.88,
+            "atk": 162.12,
+            "def": 202.65
+        },
+        {
+            "level": "40+",
+            "hp": 486.0,
+            "atk": 189.0,
+            "def": 236.25
+        },
+        {
+            "level": "50",
+            "hp": 550.8,
+            "atk": 214.2,
+            "def": 267.75
+        },
+        {
+            "level": "50+",
+            "hp": 619.92,
+            "atk": 241.08,
+            "def": 301.35
+        },
+        {
+            "level": "60",
+            "hp": 684.72,
+            "atk": 266.28,
+            "def": 332.85
+        },
+        {
+            "level": "60+",
+            "hp": 753.84,
+            "atk": 293.16,
+            "def": 366.45
+        },
+        {
+            "level": "70",
+            "hp": 818.64,
+            "atk": 318.36,
+            "def": 397.95
+        },
+        {
+            "level": "70+",
+            "hp": 887.76,
+            "atk": 345.24,
+            "def": 431.55
+        },
+        {
+            "level": "80",
+            "hp": 952.56,
+            "atk": 370.44,
+            "def": 463.05
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Insight",
+            "CNname": "洞见",
+            "JAname": "洞察",
+            "DescriptionEN": "Increases the wearer's Effect RES by [1]%. For every [2] of DEF the wearer has, increases the DMG dealt by [3]% to a max increase of [4]%.",
+            "DescriptionCN": "使装备者的效果抵抗提高[1]%。装备者每有[2]点防御力，使装备者造成的伤害提高[3]%，最多使造成的伤害提高[4]%。",
+            "DescriptionJP": "装備キャラの効果抵抗+[1]%。装備キャラの防御力[2]につき、与ダメージ[3]%、最大で与ダメージ+[4]%。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                },
+                {
+                    "1": 100,
+                    "2": 100,
+                    "3": 100,
+                    "4": 100,
+                    "5": 100
+                },
+                {
+                    "1": 0.8,
+                    "2": 0.9,
+                    "3": 1,
+                    "4": 1.1,
+                    "5": 1.2
+                },
+                {
+                    "1": 32,
+                    "2": 36,
+                    "3": 40,
+                    "4": 44,
+                    "5": 48
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "id": "21037",
+    "ENname": "Final Victor(WIP)",
+    "CNname": "最后的赢家(施工中)",
+    "JAname": "最後の勝者(建設中)",
+    "imageurl": "images/lightcones/21037.png",
+    "imagelargeurl": "images/lightcones/21037l.png",
+    "wtype": "thehunt",
+    "rarity": "4",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43.2,
+            "atk": 21.6,
+            "def": 15
+        },
+        {
+            "level": "20",
+            "hp": 166.32,
+            "atk": 83.16,
+            "def": 57.75
+        },
+        {
+            "level": "20+",
+            "hp": 218.16,
+            "atk": 109.08,
+            "def": 75.75
+        },
+        {
+            "level": "30",
+            "hp": 282.96,
+            "atk": 141.48,
+            "def": 98.25
+        },
+        {
+            "level": "30+",
+            "hp": 352.08,
+            "atk": 176.04,
+            "def": 122.25
+        },
+        {
+            "level": "40",
+            "hp": 416.88,
+            "atk": 208.44,
+            "def": 144.75
+        },
+        {
+            "level": "40+",
+            "hp": 486.0,
+            "atk": 243.0,
+            "def": 168.75
+        },
+        {
+            "level": "50",
+            "hp": 550.8,
+            "atk": 275.4,
+            "def": 191.25
+        },
+        {
+            "level": "50+",
+            "hp": 619.92,
+            "atk": 309.96,
+            "def": 215.25
+        },
+        {
+            "level": "60",
+            "hp": 684.72,
+            "atk": 342.36,
+            "def": 237.75
+        },
+        {
+            "level": "60+",
+            "hp": 753.84,
+            "atk": 376.92,
+            "def": 261.75
+        },
+        {
+            "level": "70",
+            "hp": 818.64,
+            "atk": 409.32,
+            "def": 284.25
+        },
+        {
+            "level": "70+",
+            "hp": 887.76,
+            "atk": 443.88,
+            "def": 308.25
+        },
+        {
+            "level": "80",
+            "hp": 952.56,
+            "atk": 476.28,
+            "def": 330.75
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "All In",
+            "CNname": "下注",
+            "JAname": "ベット",
+            "DescriptionEN": "Increases the wearer's ATK by [1]%. When the wearer inflicts a CRIT on an enemy, they will gain a stack of Fortune. This effect can be stacked [3] time(s). Every stack of Fortune the wearer has will increase their CRIT DMG by [2]%. Fortune will be removed at the end of the turn.",
+            "DescriptionCN": "使装备者的攻击力提高[1]%。当装备者对敌方目标造成暴击后获得一层【好运】，最多叠加[3]层。每层【好运】使装备者的暴击伤害提高[2]%,【好运】在回合结束时移除。",
+            "DescriptionJP": "装備キャラの攻撃力+[1]%。装備キャラが敵に攻撃を行い、会心が発生した後、「好運」を1層獲得する、最大で[3]層累積できる。「好運」1層につき、装備キャラの会心ダメージ+[2]%。「好運」はターン終了時に解除される。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 12,
+                    "2": 14,
+                    "3": 16,
+                    "4": 18,
+                    "5": 20
+                },
+                {
+                    "1": 8,
+                    "2": 9,
+                    "3": 10,
+                    "4": 11,
+                    "5": 12
+                },
+                {
+                    "1": 4,
+                    "2": 4,
+                    "3": 4,
+                    "4": 4,
+                    "5": 4
+                }
+            ]
+        }
+    ]
+}

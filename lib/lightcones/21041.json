@@ -1,0 +1,146 @@
+{
+    "id": "21041",
+    "ENname": "It's Showtime(WIP)",
+    "CNname": "好戏开演(施工中)",
+    "JAname": "ショーの始まり(建設中)",
+    "imageurl": "images/lightcones/21041.png",
+    "imagelargeurl": "images/lightcones/21041l.png",
+    "wtype": "nihility",
+    "rarity": "4",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 21.6,
+            "def": 12
+        },
+        {
+            "level": "20",
+            "hp": 184.8,
+            "atk": 83.16,
+            "def": 46.2
+        },
+        {
+            "level": "20+",
+            "hp": 242.4,
+            "atk": 109.08,
+            "def": 60.6
+        },
+        {
+            "level": "30",
+            "hp": 314.4,
+            "atk": 141.48,
+            "def": 78.6
+        },
+        {
+            "level": "30+",
+            "hp": 391.2,
+            "atk": 176.04,
+            "def": 97.8
+        },
+        {
+            "level": "40",
+            "hp": 463.2,
+            "atk": 208.44,
+            "def": 115.8
+        },
+        {
+            "level": "40+",
+            "hp": 540.0,
+            "atk": 243.0,
+            "def": 135.0
+        },
+        {
+            "level": "50",
+            "hp": 612.0,
+            "atk": 275.4,
+            "def": 153.0
+        },
+        {
+            "level": "50+",
+            "hp": 688.8,
+            "atk": 309.96,
+            "def": 172.2
+        },
+        {
+            "level": "60",
+            "hp": 760.8,
+            "atk": 342.36,
+            "def": 190.2
+        },
+        {
+            "level": "60+",
+            "hp": 837.6,
+            "atk": 376.92,
+            "def": 209.4
+        },
+        {
+            "level": "70",
+            "hp": 909.6,
+            "atk": 409.32,
+            "def": 227.4
+        },
+        {
+            "level": "70+",
+            "hp": 986.4,
+            "atk": 443.88,
+            "def": 246.6
+        },
+        {
+            "level": "80",
+            "hp": 1058.4,
+            "atk": 476.28,
+            "def": 264.6
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Self-Amusement",
+            "CNname": "自娱自乐",
+            "JAname": "独りの娯楽",
+            "DescriptionEN": "When the wearer inflicts a debuff on an enemy, they gain a stack of Trick. Every stack of Trick increases the wearer's DMG dealt by [1]% for a max of [2] stack(s). This effect lasts for [3] turn(s). When the wearer's Effect Hit Rate is greater or equal to [4]%, increases ATK by [5]%.",
+            "DescriptionCN": "装备者对敌方目标施加负面状态后，获得一层【戏法】，每层【戏法】使装备者造成的伤害提高[1]%，最多叠加[2]层，持续[3]回合。当装备者的效果命中大于等于[4]%时，攻击力提高[5]%。",
+            "DescriptionJP": "装備キャラが敵にデバフを付与した後、「トリック」を1層獲得する。「トリック」1層につき、装備キャラの与ダメージ+[1]%、[3]ターン継続、最大で[2]層累積できる。装備キャラの効果命中が[4]%以上の時、攻撃力+[5]%。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 6,
+                    "2": 7,
+                    "3": 8,
+                    "4": 9,
+                    "5": 10
+                },
+                {
+                    "1": 3,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 3
+                },
+                {
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 1,
+                    "5": 1
+                },
+                {
+                    "1": 80,
+                    "2": 80,
+                    "3": 80,
+                    "4": 80,
+                    "5": 80
+                },
+                {
+                    "1": 20,
+                    "2": 24,
+                    "3": 28,
+                    "4": 32,
+                    "5": 36
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "id": "21035",
+    "ENname": "What Is Real?(WIP)",
+    "CNname": "何物为真(施工中)",
+    "JAname": "何が真か(建設中)",
+    "imageurl": "images/lightcones/21035.png",
+    "imagelargeurl": "images/lightcones/21035l.png",
+    "wtype": "abundance",
+    "rarity": "4",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 19.2,
+            "def": 15
+        },
+        {
+            "level": "20",
+            "hp": 184.8,
+            "atk": 73.92,
+            "def": 57.75
+        },
+        {
+            "level": "20+",
+            "hp": 242.4,
+            "atk": 96.96,
+            "def": 75.75
+        },
+        {
+            "level": "30",
+            "hp": 314.4,
+            "atk": 125.76,
+            "def": 98.25
+        },
+        {
+            "level": "30+",
+            "hp": 391.2,
+            "atk": 156.48,
+            "def": 122.25
+        },
+        {
+            "level": "40",
+            "hp": 463.2,
+            "atk": 185.28,
+            "def": 144.75
+        },
+        {
+            "level": "40+",
+            "hp": 540.0,
+            "atk": 216.0,
+            "def": 168.75
+        },
+        {
+            "level": "50",
+            "hp": 612.0,
+            "atk": 244.8,
+            "def": 191.25
+        },
+        {
+            "level": "50+",
+            "hp": 688.8,
+            "atk": 275.52,
+            "def": 215.25
+        },
+        {
+            "level": "60",
+            "hp": 760.8,
+            "atk": 304.32,
+            "def": 237.75
+        },
+        {
+            "level": "60+",
+            "hp": 837.6,
+            "atk": 335.04,
+            "def": 261.75
+        },
+        {
+            "level": "70",
+            "hp": 909.6,
+            "atk": 363.84,
+            "def": 284.25
+        },
+        {
+            "level": "70+",
+            "hp": 986.4,
+            "atk": 394.56,
+            "def": 308.25
+        },
+        {
+            "level": "80",
+            "hp": 1058.4,
+            "atk": 423.36,
+            "def": 330.75
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Hypothesis",
+            "CNname": "假设",
+            "JAname": "仮説",
+            "DescriptionEN": "Increases the wearer's Break Effect by [1]%. Wearer's basic attacks restore ([2]% of Max HP +[3]) HP for themselves.",
+            "DescriptionCN": "使装备者的击破特攻提高[1]%。施放普攻后，装备者回复等同于[2]%生命上限+[3]点的生命值。",
+            "DescriptionJP": "装備キャラの撃破特効+[1]%。通常攻撃を行った後、装備キャラのHPを最大HP[2]%+[3]回復する。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 24,
+                    "2": 30,
+                    "3": 36,
+                    "4": 42,
+                    "5": 48
+                },
+                {
+                    "1": 2,
+                    "2": 2.5,
+                    "3": 3,
+                    "4": 3.5,
+                    "5": 4
+                },
+                {
+                    "1": 800,
+                    "2": 800,
+                    "3": 800,
+                    "4": 800,
+                    "5": 800
+                }
+            ]
+        }
+    ]
+}

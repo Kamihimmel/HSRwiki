@@ -1,0 +1,132 @@
+{
+    "id": "21040",
+    "ENname": "The Day The Cosmos Fell(WIP)",
+    "CNname": "银河沦陷日(施工中)",
+    "JAname": "銀河が陥落した日(建設中)",
+    "imageurl": "images/lightcones/21040.png",
+    "imagelargeurl": "images/lightcones/21040l.png",
+    "wtype": "erudition",
+    "rarity": "4",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43.2,
+            "atk": 21.6,
+            "def": 15
+        },
+        {
+            "level": "20",
+            "hp": 166.32,
+            "atk": 83.16,
+            "def": 57.75
+        },
+        {
+            "level": "20+",
+            "hp": 218.16,
+            "atk": 109.08,
+            "def": 75.75
+        },
+        {
+            "level": "30",
+            "hp": 282.96,
+            "atk": 141.48,
+            "def": 98.25
+        },
+        {
+            "level": "30+",
+            "hp": 352.08,
+            "atk": 176.04,
+            "def": 122.25
+        },
+        {
+            "level": "40",
+            "hp": 416.88,
+            "atk": 208.44,
+            "def": 144.75
+        },
+        {
+            "level": "40+",
+            "hp": 486.0,
+            "atk": 243.0,
+            "def": 168.75
+        },
+        {
+            "level": "50",
+            "hp": 550.8,
+            "atk": 275.4,
+            "def": 191.25
+        },
+        {
+            "level": "50+",
+            "hp": 619.92,
+            "atk": 309.96,
+            "def": 215.25
+        },
+        {
+            "level": "60",
+            "hp": 684.72,
+            "atk": 342.36,
+            "def": 237.75
+        },
+        {
+            "level": "60+",
+            "hp": 753.84,
+            "atk": 376.92,
+            "def": 261.75
+        },
+        {
+            "level": "70",
+            "hp": 818.64,
+            "atk": 409.32,
+            "def": 284.25
+        },
+        {
+            "level": "70+",
+            "hp": 887.76,
+            "atk": 443.88,
+            "def": 308.25
+        },
+        {
+            "level": "80",
+            "hp": 952.56,
+            "atk": 476.28,
+            "def": 330.75
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Stratagem",
+            "CNname": "攻略",
+            "JAname": "攻略",
+            "DescriptionEN": "Increases the wearer's ATK by [1]%. When the wearer uses an attack and affects no fewer than 2 attacked enemies with a corresponding Weakness, the wearer's CRIT DMG increases by [2]% for [3] turn(s).",
+            "DescriptionCN": "使装备者的攻击力提高[1]%。装备者施放攻击后，若有不少于2个被攻击的敌方目标具有对应属性弱点，装备者的暴击伤害提高[2]%，持续[3]回合。",
+            "DescriptionJP": "装備キャラの攻撃力+[1]%。装備キャラが攻撃を行った後、攻撃を受けた敵の内、2体以上に対応する弱点属性がある場合、装備キャラの会心ダメージ+[2]%、[3]ターン継続。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 16,
+                    "2": 18,
+                    "3": 20,
+                    "4": 22,
+                    "5": 24
+                },
+                {
+                    "1": 20,
+                    "2": 25,
+                    "3": 30,
+                    "4": 35,
+                    "5": 40
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                }
+            ]
+        }
+    ]
+}
