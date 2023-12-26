@@ -7,6 +7,7 @@
     "imagelargeurl": "images/lightcones/23018l.png",
     "wtype": "erudition",
     "rarity": "5",
+    "infourl": "lib/lightcones/23018.json",
     "leveldata": [
         {
             "level": "1",
@@ -125,6 +126,34 @@
                     "3": 180,
                     "4": 180,
                     "5": 180
+                }
+            ],
+            "tags": [
+                "buff",
+                "critdmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "critdmg"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 2,
+                    "maxstack": 180,
+                    "tag": [
+                        "self",
+                        "alldmg"
+                    ]
                 }
             ]
         }
