@@ -345,6 +345,34 @@
             "spoiler": true
         },
         {
+            "id": "117",
+            "ENname": "Pioneer Diver of Dead Waters(WIP)",
+            "CNname": "死水深潜的先驱(施工中)",
+            "JAname": "死水を潜る先駆者(建設中)",
+            "imageurl": "images/relics/117.png",
+            "set": "4",
+            "head": "images/relics/IconRelic_117_1.png",
+            "hands": "images/relics/IconRelic_117_2.png",
+            "body": "images/relics/IconRelic_117_3.png",
+            "feet": "images/relics/IconRelic_117_4.png",
+            "infourl": "lib/relics/117.json",
+            "spoiler": true
+        },
+        {
+            "id": "118",
+            "ENname": "Watchmaker, Master of Dream Machinations(WIP)",
+            "CNname": "机心戏梦的钟表匠(施工中)",
+            "JAname": "機械の心で夢を戯れる時計屋(建設中)",
+            "imageurl": "images/relics/118.png",
+            "set": "4",
+            "head": "images/relics/IconRelic_118_1.png",
+            "hands": "images/relics/IconRelic_118_2.png",
+            "body": "images/relics/IconRelic_118_3.png",
+            "feet": "images/relics/IconRelic_118_4.png",
+            "infourl": "lib/relics/118.json",
+            "spoiler": true
+        },
+        {
             "id": "311",
             "ENname": "Firmament Frontline: Glamoth(WIP)",
             "CNname": "苍穹战线格拉默(施工中)",
