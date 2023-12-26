@@ -594,7 +594,6 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "special",
                 "self"
             ],
             "effect": [

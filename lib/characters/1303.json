@@ -125,6 +125,24 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "basicattack"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "basicattack"
+                    ]
+                }
             ]
         },
         {
@@ -193,6 +211,32 @@
                     "13": 3,
                     "14": 3,
                     "15": 3
+                }
+            ],
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "allally",
+                        "alldmg"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "weaknessbreakefficiency",
+                    "multiplier": 50,
+                    "tag": [
+                        "allally",
+                        "weaknessbreakefficiency"
+                    ]
                 }
             ]
         },
@@ -297,6 +341,33 @@
                     "13": 56,
                     "14": 58,
                     "15": 60
+                }
+            ],
+            "tags": [
+                "buff",
+                "allally",
+                "dmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "allpen",
+                    "multiplier": 1,
+                    "tag": [
+                        "allally",
+                        "allpen"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "weaknessbreakefficiency",
+                    "multiplier": 50,
+                    "tag": [
+                        "allally",
+                        "dmg"
+                    ]
                 }
             ]
         },
