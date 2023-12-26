@@ -133,7 +133,7 @@
             "CNname": "生灭系缚",
             "JAname": "生滅捕縛",
             "imageurl": "images/skills/1215-121502.png",
-            "DescriptionEN": "Deals Physical DMG equal to [1]% of Hanya's ATK to a single enemy, then applies Burden to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies will immediately recover 1 Skill Point. Burden is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered [2] times.",
+            "DescriptionEN": "Deals Physical DMG equal to [1]% of Hanya's ATK to a single target enemy, then applies Burden to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies will immediately recover 1 Skill Point. Burden is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered [2] times.",
             "DescriptionCN": "对指定敌方单体造成等同于寒鸦[1]%攻击力的物理属性伤害，并使其陷入【承负】状态。 每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，立即为我方恢复1个战技点。【承负】仅对最新被施加的目标生效，并会在触发[2]次战技点恢复效果后自动解除。",
             "DescriptionJP": "敵単体に「承負」状態を付与して、寒鴉の攻撃力[1]%分の物理ダメージを与える。 味方が「承負」状態の敵に通常攻撃、戦闘スキル、または必殺技のうち任意のスキルを合わせて2回発動するたびに、SPを1回復する。「承負」は最後に付与されたターゲットにのみ効果を発揮し、SP回復効果が[2]回発動した後に自動で解除される。",
             "stype": "skill",
