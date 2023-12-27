@@ -1,12 +1,13 @@
 {
     "id": "23019",
-    "ENname": "Past Self in Mirror(WIP)",
-    "CNname": "镜中故我(施工中)",
-    "JAname": "鏡の中の私(建設中)",
+    "ENname": "Past Self in Mirror",
+    "CNname": "镜中故我",
+    "JAname": "鏡の中の私",
     "imageurl": "images/lightcones/23019.png",
     "imagelargeurl": "images/lightcones/23019l.png",
     "wtype": "harmony",
     "rarity": "5",
+    "infourl": "lib/lightcones/23019.json",
     "leveldata": [
         {
             "level": "1",
@@ -139,6 +140,42 @@
                     "3": 15,
                     "4": 17.5,
                     "5": 20
+                }
+            ],
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 1,
+                    "tag": [
+                        "self",
+                        "breakeffect"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "allally",
+                        "alldmg"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "allally",
+                        "energy"
+                    ]
                 }
             ]
         }

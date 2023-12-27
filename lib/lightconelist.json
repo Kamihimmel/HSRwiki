@@ -1070,15 +1070,15 @@
         },
         {
             "id": "23019",
-            "ENname": "Past Self in Mirror(WIP)",
-            "CNname": "镜中故我(施工中)",
-            "JAname": "鏡の中の私(建設中)",
+            "ENname": "Past Self in Mirror",
+            "CNname": "镜中故我",
+            "JAname": "鏡の中の私",
             "imageurl": "images/lightcones/23019.png",
             "imagelargeurl": "images/lightcones/23019l.png",
             "wtype": "harmony",
             "rarity": "5",
             "infourl": "lib/lightcones/23019.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "23020",

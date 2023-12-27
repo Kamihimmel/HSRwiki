@@ -524,16 +524,16 @@
         },
         {
             "id": "1303",
-            "ENname": "Ruan Mei(WIP)",
-            "CNname": "阮•梅(施工中)",
-            "JAname": "ルアン・メェイ(建設中)",
+            "ENname": "Ruan Mei",
+            "CNname": "阮•梅",
+            "JAname": "ルアン・メェイ",
             "imageurl": "images/characters/1303.png",
             "imagelargeurl": "images/characters/1303-large.png",
             "etype": "ice",
             "wtype": "harmony",
             "rarity": "5",
             "infourl": "lib/characters/1303.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1305",

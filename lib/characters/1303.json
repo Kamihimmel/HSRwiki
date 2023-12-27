@@ -1,8 +1,8 @@
 {
     "id": "1303",
-    "ENname": "Ruan Mei(WIP)",
-    "CNname": "阮•梅(施工中)",
-    "JAname": "ルアン・メェイ(建設中)",
+    "ENname": "Ruan Mei",
+    "CNname": "阮•梅",
+    "JAname": "ルアン・メェイ",
     "imageurl": "images/characters/1303.png",
     "imagelargeurl": "images/characters/1303-large.png",
     "etype": "ice",
@@ -11,6 +11,7 @@
     "dtaunt": 100,
     "dspeed": 104,
     "maxenergy": 130,
+    "infourl": "lib/characters/1303.json",
     "leveldata": [
         {
             "level": "1",
@@ -362,11 +363,10 @@
                 {
                     "iid": "2",
                     "type": "buff",
-                    "addtarget": "weaknessbreakefficiency",
-                    "multiplier": 50,
+                    "addtarget": "breakdmg",
+                    "multiplier": 5,
                     "tag": [
-                        "allally",
-                        "dmg"
+                        "breakdmg"
                     ]
                 }
             ]
@@ -421,6 +421,32 @@
                     "14": 144,
                     "15": 150
                 }
+            ],
+            "tags": [
+                "buff",
+                "allally",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 1,
+                    "tag": [
+                        "allally",
+                        "speed"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "breakdmg",
+                    "multiplier": 2,
+                    "tag": [
+                        "breakdmg"
+                    ]
+                }
             ]
         },
         {
@@ -453,7 +479,23 @@
             "imageurl": "images/skills/1303-1303101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 20,
+                    "tag": [
+                        "allally",
+                        "breakeffect"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303102",
@@ -467,7 +509,23 @@
             "imageurl": "images/skills/1303-1303102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": [
+                        "self",
+                        "energy"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303103",
@@ -481,7 +539,23 @@
             "imageurl": "images/skills/1303-1303103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 36,
+                    "tag": [
+                        "allally",
+                        "alldmg"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303201",
@@ -495,7 +569,23 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "breakeffect"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303202",
@@ -509,7 +599,23 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303203",
@@ -523,7 +629,23 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "self",
+                        "breakeffect"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303204",
@@ -537,7 +659,23 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 2,
+                    "tag": [
+                        "self",
+                        "speedpt"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303205",
@@ -551,7 +689,23 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "breakeffect"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303206",
@@ -565,7 +719,23 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303207",
@@ -579,7 +749,23 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": [
+                        "self",
+                        "breakeffect"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303208",
@@ -593,7 +779,23 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": [
+                        "self",
+                        "speedpt"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303209",
@@ -607,7 +809,23 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 10,
+                    "tag": [
+                        "self",
+                        "def"
+                    ]
+                }
+            ]
         },
         {
             "id": "1303210",
@@ -621,7 +839,23 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 10.7,
+                    "tag": [
+                        "self",
+                        "breakeffect"
+                    ]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -637,7 +871,23 @@
             "DescriptionJP": "結界が発動している間、味方全体がダメージを与えた時、敵の防御力を20%無視する。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 20,
+                    "tag": [
+                        "allally",
+                        "ignoredef"
+                    ]
+                }
+            ]
         },
         {
             "id": "130302-2",
@@ -651,7 +901,23 @@
             "DescriptionJP": "ルアン・メェイがフィールド上にいる場合、弱点撃破状態の敵に対する味方全体の攻撃力+40%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 40,
+                    "tag": [
+                        "allally",
+                        "atk"
+                    ]
+                }
+            ]
         },
         {
             "id": "130303-3",
@@ -679,7 +945,23 @@
             "DescriptionJP": "敵が弱点撃破された時、ルアン・メェイの撃破特効+100%、3ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 100,
+                    "tag": [
+                        "self",
+                        "breakeffect"
+                    ]
+                }
+            ]
         },
         {
             "id": "130305-5",
@@ -707,7 +989,23 @@
             "DescriptionJP": "必殺技を発動して展開する結界の継続時間+1ターン。天賦による弱点撃破ダメージ倍率+200%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakdmg",
+                    "multiplier": 200,
+                    "tag": [
+                        "self",
+                        "breakdmg"
+                    ]
+                }
+            ]
         }
     ]
 }
