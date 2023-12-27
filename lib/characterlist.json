@@ -484,6 +484,19 @@
             "spoiler": false
         },
         {
+            "id": "1302",
+            "ENname": "Argenti",
+            "CNname": "银枝",
+            "JAname": "アルジェンティ",
+            "imageurl": "images/characters/1302.png",
+            "imagelargeurl": "images/characters/1302-large.png",
+            "etype": "physical",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "lib/characters/1302.json",
+            "spoiler": false
+        },
+        {
             "id": "1214",
             "ENname": "Xueyi(WIP)",
             "CNname": "雪衣(施工中)",
@@ -508,19 +521,6 @@
             "rarity": "4",
             "infourl": "lib/characters/1215.json",
             "spoiler": true
-        },
-        {
-            "id": "1302",
-            "ENname": "Argenti",
-            "CNname": "银枝",
-            "JAname": "アルジェンティ",
-            "imageurl": "images/characters/1302.png",
-            "imagelargeurl": "images/characters/1302-large.png",
-            "etype": "physical",
-            "wtype": "erudition",
-            "rarity": "5",
-            "infourl": "lib/characters/1302.json",
-            "spoiler": false
         },
         {
             "id": "1303",
