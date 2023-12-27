@@ -3912,15 +3912,165 @@
                         "allally",
                         "allpen"
                     ]
+                }
+            ]
+        },
+        {
+            "characterid": "1303",
+            "id": "130304",
+            "ENname": "Somatotypical Helix",
+            "CNname": "分型的螺旋",
+            "JAname": "フラクタルの螺旋",
+            "stype": "talent",
+            "maxlevel": 15,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 8,
+                    "2": 8.2,
+                    "3": 8.4,
+                    "4": 8.6,
+                    "5": 8.8,
+                    "6": 9,
+                    "7": 9.25,
+                    "8": 9.5,
+                    "9": 9.75,
+                    "10": 10,
+                    "11": 10.2,
+                    "12": 10.4,
+                    "13": 10.6,
+                    "14": 10.8,
+                    "15": 11
                 },
                 {
-                    "iid": "2",
+                    "1": 60,
+                    "2": 66,
+                    "3": 72,
+                    "4": 78,
+                    "5": 84,
+                    "6": 90,
+                    "7": 97.5,
+                    "8": 105,
+                    "9": 112.5,
+                    "10": 120,
+                    "11": 126,
+                    "12": 132,
+                    "13": 138,
+                    "14": 144,
+                    "15": 150
+                }
+            ],
+            "tags": [
+                "buff",
+                "allally",
+                "speed"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
                     "type": "buff",
-                    "addtarget": "weaknessbreakefficiency",
-                    "multiplier": 50,
+                    "addtarget": "speed",
+                    "multiplier": 1,
                     "tag": [
                         "allally",
-                        "dmg"
+                        "speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1303",
+            "id": "1303101",
+            "ENname": "Inert Respiration",
+            "CNname": "物体呼吸中",
+            "JAname": "呼吸の中",
+            "stype": "trace",
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 20,
+                    "tag": [
+                        "allally",
+                        "breakeffect"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1303",
+            "id": "1303103",
+            "ENname": "Candle Lights on Still Waters",
+            "CNname": "落烛照水燃",
+            "JAname": "水面を照らす燭火",
+            "stype": "trace",
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 36,
+                    "tag": [
+                        "allally",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1303",
+            "id": "130301-1",
+            "ENname": "Neuronic Embroidery",
+            "CNname": "神经仿绣图",
+            "JAname": "神経刺繍図",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 20,
+                    "tag": [
+                        "allally",
+                        "ignoredef"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1303",
+            "id": "130302-2",
+            "ENname": "Reedside Promenade",
+            "CNname": "芦前漫步",
+            "JAname": "通りし芒の道",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 40,
+                    "tag": [
+                        "allally",
+                        "atk"
                     ]
                 }
             ]
