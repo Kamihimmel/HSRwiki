@@ -362,8 +362,8 @@
                 },
                 {
                     "iid": "2",
-                    "type": "buff",
-                    "addtarget": "breakdmg",
+                    "type": "dmg",
+                    "multipliertarget": "breakdmg",
                     "multiplier": 5,
                     "tag": [
                         "breakdmg"
@@ -440,8 +440,8 @@
                 },
                 {
                     "iid": "2",
-                    "type": "buff",
-                    "addtarget": "breakdmg",
+                    "type": "dmg",
+                    "multipliertarget": "breakdmg",
                     "multiplier": 2,
                     "tag": [
                         "breakdmg"
