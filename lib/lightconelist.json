@@ -973,6 +973,18 @@
             "spoiler": false
         },
         {
+            "id": "23019",
+            "ENname": "Past Self in Mirror",
+            "CNname": "镜中故我",
+            "JAname": "鏡の中の私",
+            "imageurl": "images/lightcones/23019.png",
+            "imagelargeurl": "images/lightcones/23019l.png",
+            "wtype": "harmony",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23019.json",
+            "spoiler": false
+        },
+        {
             "id": "21035",
             "ENname": "What Is Real?(WIP)",
             "CNname": "何物为真(施工中)",
@@ -1067,18 +1079,6 @@
             "rarity": "4",
             "infourl": "lib/lightcones/21042.json",
             "spoiler": true
-        },
-        {
-            "id": "23019",
-            "ENname": "Past Self in Mirror",
-            "CNname": "镜中故我",
-            "JAname": "鏡の中の私",
-            "imageurl": "images/lightcones/23019.png",
-            "imagelargeurl": "images/lightcones/23019l.png",
-            "wtype": "harmony",
-            "rarity": "5",
-            "infourl": "lib/lightcones/23019.json",
-            "spoiler": false
         },
         {
             "id": "23020",
