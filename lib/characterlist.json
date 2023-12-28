@@ -497,6 +497,19 @@
             "spoiler": false
         },
         {
+            "id": "1303",
+            "ENname": "Ruan Mei",
+            "CNname": "阮•梅",
+            "JAname": "ルアン・メェイ",
+            "imageurl": "images/characters/1303.png",
+            "imagelargeurl": "images/characters/1303-large.png",
+            "etype": "ice",
+            "wtype": "harmony",
+            "rarity": "5",
+            "infourl": "lib/characters/1303.json",
+            "spoiler": false
+        },
+        {
             "id": "1214",
             "ENname": "Xueyi(WIP)",
             "CNname": "雪衣(施工中)",
@@ -521,19 +534,6 @@
             "rarity": "4",
             "infourl": "lib/characters/1215.json",
             "spoiler": true
-        },
-        {
-            "id": "1303",
-            "ENname": "Ruan Mei",
-            "CNname": "阮•梅",
-            "JAname": "ルアン・メェイ",
-            "imageurl": "images/characters/1303.png",
-            "imagelargeurl": "images/characters/1303-large.png",
-            "etype": "ice",
-            "wtype": "harmony",
-            "rarity": "5",
-            "infourl": "lib/characters/1303.json",
-            "spoiler": false
         },
         {
             "id": "1305",
