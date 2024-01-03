@@ -2,7 +2,7 @@
     "id": "21036",
     "ENname": "Dreamville Adventure(WIP)",
     "CNname": "美梦小镇大冒险(施工中)",
-    "JAname": "ドリームタウンの大冒険(建設中)",
+    "JAname": "ドリームタウンの{RUBY_B#だいぼうけん}大冒険{RUBY_E#}(建設中)",
     "imageurl": "images/lightcones/21036.png",
     "imagelargeurl": "images/lightcones/21036l.png",
     "wtype": "harmony",
@@ -97,7 +97,7 @@
         {
             "ENname": "Solidarity",
             "CNname": "团结",
-            "JAname": "団結",
+            "JAname": "{RUBY_B#だんけつ}団結{RUBY_E#}",
             "DescriptionEN": "After the wearer uses a Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases the DMG dealt by their Basic ATK, Skill, or Ultimate by [1]%. Childishness only takes effect with the most recent ability used by the wearer and cannot be stacked.",
             "DescriptionCN": "装备者施放普攻/战技/终结技后，为我方全体附加【童心】，【童心】使普攻/战技/终结技造成的伤害提高[1]%。【童心】仅对装备者最新使用的技能类型生效，且不可叠加。",
             "DescriptionJP": "装備キャラが通常攻撃、戦闘スキル、または必殺技を発動した後、味方全体に「童心」を付与する。「童心」がある味方の通常攻撃、戦闘スキル、または必殺技の与ダメージ+[1]%。「童心」は装備キャラが最後に発動したタイプのスキルにのみ効果を発揮する。この効果は累積できない。",

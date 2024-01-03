@@ -2,7 +2,7 @@
     "id": "21042",
     "ENname": "Indelible Promise(WIP)",
     "CNname": "铭记于心的约定(施工中)",
-    "JAname": "心に刻まれた約束(建設中)",
+    "JAname": "{RUBY_B#こころ}心{RUBY_E#}に{RUBY_B#きざ}刻{RUBY_E#}まれた{RUBY_B#やくそく}約束{RUBY_E#}(建設中)",
     "imageurl": "images/lightcones/21042.png",
     "imagelargeurl": "images/lightcones/21042l.png",
     "wtype": "destruction",
@@ -97,7 +97,7 @@
         {
             "ENname": "Inheritance",
             "CNname": "传承",
-            "JAname": "伝承",
+            "JAname": "{RUBY_B#でんしょう}伝承{RUBY_E#}",
             "DescriptionEN": "Increases the wearer's Break Effect by [1]%. When the wearer uses their Ultimate, increases CRIT Rate by [2]%, lasting for [3] turn(s).",
             "DescriptionCN": "使装备者的击破特攻提高[1]%。当装备者释放终结技时，暴击率提高[2]%，持续[3]回合。",
             "DescriptionJP": "装備キャラの撃破特攻+[1]%。装備キャラが必殺技を発動する時、会心率+[2]%、[3]ターン継続。",
