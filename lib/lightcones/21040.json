@@ -2,7 +2,7 @@
     "id": "21040",
     "ENname": "The Day The Cosmos Fell(WIP)",
     "CNname": "银河沦陷日(施工中)",
-    "JAname": "銀河が陥落した日(建設中)",
+    "JAname": "{RUBY_B#ぎんが}銀河{RUBY_E#}が{RUBY_B#かんらく}陥落{RUBY_E#}した{RUBY_B#ひ}日{RUBY_E#}(建設中)",
     "imageurl": "images/lightcones/21040.png",
     "imagelargeurl": "images/lightcones/21040l.png",
     "wtype": "erudition",
@@ -97,7 +97,7 @@
         {
             "ENname": "Stratagem",
             "CNname": "攻略",
-            "JAname": "攻略",
+            "JAname": "{RUBY_B#攻略}攻略{RUBY_E#}",
             "DescriptionEN": "Increases the wearer's ATK by [1]%. When the wearer uses an attack and affects no fewer than 2 attacked enemies with a corresponding Weakness, the wearer's CRIT DMG increases by [2]% for [3] turn(s).",
             "DescriptionCN": "使装备者的攻击力提高[1]%。装备者施放攻击后，若有不少于2个被攻击的敌方目标具有对应属性弱点，装备者的暴击伤害提高[2]%，持续[3]回合。",
             "DescriptionJP": "装備キャラの攻撃力+[1]%。装備キャラが攻撃を行った後、攻撃を受けた敵の内、2体以上に対応する弱点属性がある場合、装備キャラの会心ダメージ+[2]%、[3]ターン継続。",

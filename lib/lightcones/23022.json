@@ -97,8 +97,8 @@
         {
             "ENname": "Crystallize",
             "CNname": "结晶",
-            "JAname": "結晶",
-            "DescriptionEN": "Increases wearer's Effect Hit Rate by [1]%. When wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, they will individually gain 1 stack of Prohecy. This effect can stack up to [4] times. In a single battle, each type of DoT can only generate 1 stack of Prophecy. Every stack of Prophecy increases wearer's ATK by [2]% and the DoT dealt will ignore [3]% of the target's DEF.",
+            "JAname": "{RUBY_B#けっしょう}結晶{RUBY_E#}",
+            "DescriptionEN": "Increases wearer's Effect Hit Rate by [1]%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, they will individually gain 1 stack of Prophet. This effect can stack up to [4] times. In a single battle, each type of DoT can only generate 1 stack of Prophet. Every stack of Prophet increases wearer's ATK by [2]% and the DoT dealt will ignore [3]% of the target's DEF.",
             "DescriptionCN": "使装备者的效果命中提高[1]%。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加[4]层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高[2]%，造成的持续伤害无视目标[3]%的防御力。",
             "DescriptionJP": "装備キャラの効果命中+[1]%。装備キャラが風化、燃焼、感電、または裂創状態の敵にダメージを与える時、それぞれ「先知」を1層獲得する、最大で[4]層累積できる。一度の戦闘で、持続ダメージ状態1種類につき、「先知」を1回まで累積できる。「先知」1層につき、装備キャラの攻撃力+[2]%、与える持続ダメージが敵の防御力を[3]%無視する。",
             "maxlevel": 5,

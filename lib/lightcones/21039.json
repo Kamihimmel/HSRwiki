@@ -2,7 +2,7 @@
     "id": "21039",
     "ENname": "Destiny's Threads Forewoven(WIP)",
     "CNname": "织造命运之线(施工中)",
-    "JAname": "運命を紡ぐ糸(建設中)",
+    "JAname": "{RUBY_B#うんめい}運命{RUBY_E#}を{RUBY_B#つむ}紡{RUBY_E#}ぐ{RUBY_B#いと}糸{RUBY_E#}(建設中)",
     "imageurl": "images/lightcones/21039.png",
     "imagelargeurl": "images/lightcones/21039l.png",
     "wtype": "preservation",
@@ -97,7 +97,7 @@
         {
             "ENname": "Insight",
             "CNname": "洞见",
-            "JAname": "洞察",
+            "JAname": "{RUBY_B#どうさつ}洞察{RUBY_E#}",
             "DescriptionEN": "Increases the wearer's Effect RES by [1]%. For every [2] of DEF the wearer has, increases the DMG dealt by [3]% to a max increase of [4]%.",
             "DescriptionCN": "使装备者的效果抵抗提高[1]%。装备者每有[2]点防御力，使装备者造成的伤害提高[3]%，最多使造成的伤害提高[4]%。",
             "DescriptionJP": "装備キャラの効果抵抗+[1]%。装備キャラの防御力[2]につき、与ダメージ[3]%、最大で与ダメージ+[4]%。",
