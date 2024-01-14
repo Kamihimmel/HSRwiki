@@ -1012,7 +1012,7 @@
             "id": "21037",
             "ENname": "Final Victor(WIP)",
             "CNname": "最后的赢家(施工中)",
-            "JAname": "最後の勝者(建設中)",
+            "JAname": "{RUBY_B#さいご}最後{RUBY_E#}の{RUBY_B#しょうしゃ}勝者{RUBY_E#}(建設中)",
             "imageurl": "images/lightcones/21037.png",
             "imagelargeurl": "images/lightcones/21037l.png",
             "wtype": "thehunt",
