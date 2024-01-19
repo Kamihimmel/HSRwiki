@@ -100,7 +100,7 @@
             "JAname": "{RUBY_B#どうさつ}洞察{RUBY_E#}",
             "DescriptionEN": "Increases the wearer's Effect RES by [1]%. For every [2] of DEF the wearer has, increases the DMG dealt by [3]% to a max increase of [4]%.",
             "DescriptionCN": "使装备者的效果抵抗提高[1]%。装备者每有[2]点防御力，使装备者造成的伤害提高[3]%，最多使造成的伤害提高[4]%。",
-            "DescriptionJP": "装備キャラの効果抵抗+[1]%。装備キャラの防御力[2]につき、与ダメージ[3]%、最大で与ダメージ+[4]%。",
+            "DescriptionJP": "装備キャラの効果抵抗+[1]%。装備キャラの防御力[2]につき、与ダメージ+[3]%、最大で与ダメージ+[4]%。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
