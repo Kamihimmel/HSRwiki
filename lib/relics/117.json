@@ -2,7 +2,7 @@
     "id": "117",
     "ENname": "Pioneer Diver of Dead Waters(WIP)",
     "CNname": "死水深潜的先驱(施工中)",
-    "JAname": "{RUBY_B#しにみず}死水{RUBY_E#}に{RUBY_B#もぐ}潜{RUBY_E#}る{RUBY_B#せんくしゃ}先駆者{RUBY_E#}(建設中)",
+    "JAname": "{RUBY_B#しすい}死水{RUBY_E#}に{RUBY_B#もぐ}潜{RUBY_E#}る{RUBY_B#せんくしゃ}先駆者{RUBY_E#}(建設中)",
     "imageurl": "images/relics/71028.png",
     "set": "4",
     "head": "images/relics/IconRelic_117_1.png",
@@ -24,9 +24,9 @@
             "ENname": "4 Set Effect",
             "CNname": "4件套装效果",
             "JAname": "4セット効果",
-            "DescriptionEN": "Increases CRIT Rate by 4%. The wearer's attacks against enemies with at least 2/4 debuffs deal 8%/12% CRIT DMG. Upon inflicting a debuff on an enemy, this skill's CRIT Rate and CRIT DMG bonuses are doubled for 1 turn(s).",
-            "DescriptionCN": "暴击率提高4%，装备者对陷入不少于2/4个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，该技能的暴击率与暴击伤害提高效果额外提高100%，持续1回合。",
-            "DescriptionJP": "会心率+4%。デバフを2/4つ以上付与されている敵に対する、装備キャラの会心ダメージ+8%/12%。装備キャラが敵にデバフを付与した後、このスキルの会心率、会心ダメージアップ効果がさらに+100%、1ターン継続。",
+            "DescriptionEN": "Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn(s).",
+            "DescriptionCN": "暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。",
+            "DescriptionJP": "会心率+4%。デバフを2/3つ以上付与されている敵に対する、装備キャラの会心ダメージ+8%/12%。装備キャラが敵にデバフを付与した後、上記の効果がさらに+100%、1ターン継続。",
             "buffskill": true,
             "teamskill": false
         }
