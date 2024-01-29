@@ -4076,6 +4076,32 @@
             ]
         },
         {
+            "characterid": "1305",
+            "id": "1305102",
+            "ENname": "Inference",
+            "CNname": "演绎",
+            "JAname": "演繹",
+            "stype": "trace",
+            "tags": [
+                "debuff",
+                "effectresreduce",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "effectres",
+                    "multiplier": -10,
+                    "duration": 2,
+                    "tag": [
+                        "effectresreduce",
+                        "singleenemy"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "8004",
             "id": "800402",
             "ENname": "Ever-Burning Amber",
