@@ -1,8 +1,8 @@
 {
     "id": "1305",
-    "ENname": "Dr. Ratio(WIP)",
-    "CNname": "真理医生(施工中)",
-    "JAname": "Dr.レイシオ(建設中)",
+    "ENname": "Dr. Ratio",
+    "CNname": "真理医生",
+    "JAname": "Dr.レイシオ",
     "imageurl": "images/characters/1305.png",
     "imagelargeurl": "images/characters/1305-large.png",
     "etype": "imaginary",
@@ -125,6 +125,24 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "imaginaryatk"
+                    ]
+                }
             ]
         },
         {
@@ -159,6 +177,24 @@
                     "13": 172.5,
                     "14": 180,
                     "15": 187.5
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "skillatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "imaginaryatk"
+                    ]
                 }
             ]
         },
@@ -212,6 +248,24 @@
                     "13": 2,
                     "14": 2,
                     "15": 2
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "ultatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "imaginaryatk"
+                    ]
                 }
             ]
         },
@@ -282,7 +336,26 @@
                     "14": 20,
                     "15": 20
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "followupatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "followupatk",
+                        "imaginaryatk"
+                    ]
+                }
             ]
+
         },
         {
             "id": "130507",
@@ -298,7 +371,24 @@
             "buffskill": false,
             "teamskill": false,
             "weaknessbreak": 0,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": [
+                "taunt",
+                "debuff"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "speed",
+                    "multiplier": -15,
+                    "duration": 2,
+                    "tag": [
+                        "taunt",
+                        "debuff"
+                    ]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -314,7 +404,35 @@
             "imageurl": "images/skills/1305-1305101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "critdmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 15,
+                    "tag": [
+                        "critrate",
+                        "self"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 30,
+                    "tag": [
+                        "critdmg",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305102",
@@ -328,7 +446,25 @@
             "imageurl": "images/skills/1305-1305102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "effectresreduce",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "effectres",
+                    "multiplier": -10,
+                    "duration": 2,
+                    "tag": [
+                        "effectresreduce",
+                        "singleenemy"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305103",
@@ -342,7 +478,25 @@
             "imageurl": "images/skills/1305-1305103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
+                    "maxstack": 5,
+                    "tag": [
+                        "alldmg",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305201",
@@ -356,7 +510,24 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305202",
@@ -370,7 +541,24 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
+                    "tag": [
+                        "critrate",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305203",
@@ -384,7 +572,24 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305204",
@@ -398,7 +603,24 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "def",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": [
+                        "def",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305205",
@@ -412,7 +634,24 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305206",
@@ -426,7 +665,24 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 4,
+                    "tag": [
+                        "critrate",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305207",
@@ -440,7 +696,24 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305208",
@@ -454,7 +727,24 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "def",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": [
+                        "def",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305209",
@@ -468,7 +758,24 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "critrate",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1305210",
@@ -482,7 +789,24 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "atk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "atk",
+                        "self"
+                    ]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -498,7 +822,37 @@
             "DescriptionJP": "軌跡「帰納」の累積可能層数+4。戦闘開始時、「帰納」を4層獲得する。先に軌跡「帰納」を覚醒する必要あり。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "critrate",
+                "critdmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.5,
+                    "maxstack": 4,
+                    "tag": [
+                        "critrate",
+                        "self"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 5,
+                    "maxstack": 4,
+                    "tag": [
+                        "critdmg",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "130502-2",
@@ -512,7 +866,23 @@
             "DescriptionJP": "天賦の追加攻撃が命中した時、敵にあるデバフ1つにつき、さらにDr.レイシオの攻撃力20%の虚数属性付加ダメージを与える。この効果は1回の追加攻撃で4回まで発動できる。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "additionalatk",
+                "followupatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 80,
+                    "tag": [
+                        "additionalatk",
+                        "followupatk"
+                    ]
+                }
+            ]
         },
         {
             "id": "130503-3",
@@ -540,7 +910,23 @@
             "DescriptionJP": "天賦を発動する時、さらにDr.レイシオのEPを15回復する。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "energy",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 15,
+                    "tag": [
+                        "energy",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "130505-5",
@@ -568,7 +954,24 @@
             "DescriptionJP": "「智者の短慮」の効果の発動可能回数+1。天賦の追加攻撃の与ダメージ+50%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "followupatk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "followupatk",
+                    "multiplier": 50,
+                    "tag": [
+                        "followupatk",
+                        "self"
+                    ]
+                }
+            ]
         }
     ]
 }

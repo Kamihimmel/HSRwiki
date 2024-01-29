@@ -537,16 +537,16 @@
         },
         {
             "id": "1305",
-            "ENname": "Dr. Ratio(WIP)",
-            "CNname": "真理医生(施工中)",
-            "JAname": "Dr.レイシオ(建設中)",
+            "ENname": "Dr. Ratio",
+            "CNname": "真理医生",
+            "JAname": "Dr.レイシオ",
             "imageurl": "images/characters/1305.png",
             "imagelargeurl": "images/characters/1305-large.png",
             "etype": "imaginary",
             "wtype": "thehunt",
             "rarity": "5",
             "infourl": "lib/characters/1305.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1306",
