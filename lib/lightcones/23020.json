@@ -1,8 +1,8 @@
 {
     "id": "23020",
-    "ENname": "Baptism of Pure Thought(WIP)",
-    "CNname": "纯粹思维的洗礼(施工中)",
-    "JAname": "純粋なる思惟の洗礼(建設中)",
+    "ENname": "Baptism of Pure Thought",
+    "CNname": "纯粹思维的洗礼",
+    "JAname": "純粋なる思惟の洗礼",
     "imageurl": "images/lightcones/23020.png",
     "imagelargeurl": "images/lightcones/23020l.png",
     "wtype": "thehunt",
@@ -146,6 +146,55 @@
                     "3": 2,
                     "4": 2,
                     "5": 2
+                }
+            ],
+            "tags": [
+                "buff",
+                "critdmg",
+                "debuffstack",
+                "ultatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "critdmg",
+                        "self"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 2,
+                    "maxstack": 3,
+                    "tag": [
+                        "critdmg",
+                        "self"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 4,
+                    "tag": [
+                        "alldmg",
+                        "self"
+                    ]
+                },
+                {
+                    "iid": "4",
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 5,
+                    "tag": [
+                        "ignoredef",
+                        "self"
+                    ]
                 }
             ]
         }
