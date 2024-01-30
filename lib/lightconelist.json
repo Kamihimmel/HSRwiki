@@ -1082,15 +1082,15 @@
         },
         {
             "id": "23020",
-            "ENname": "Baptism of Pure Thought(WIP)",
-            "CNname": "纯粹思维的洗礼(施工中)",
-            "JAname": "純粋なる思惟の洗礼(建設中)",
+            "ENname": "Baptism of Pure Thought",
+            "CNname": "纯粹思维的洗礼",
+            "JAname": "純粋なる思惟の洗礼",
             "imageurl": "images/lightcones/23020.png",
             "imagelargeurl": "images/lightcones/23020l.png",
             "wtype": "thehunt",
             "rarity": "5",
             "infourl": "lib/lightcones/23020.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "23021",
