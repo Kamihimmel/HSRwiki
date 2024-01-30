@@ -510,6 +510,19 @@
             "spoiler": false
         },
         {
+            "id": "1305",
+            "ENname": "Dr. Ratio",
+            "CNname": "真理医生",
+            "JAname": "Dr.レイシオ",
+            "imageurl": "images/characters/1305.png",
+            "imagelargeurl": "images/characters/1305-large.png",
+            "etype": "imaginary",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "lib/characters/1305.json",
+            "spoiler": false
+        },
+        {
             "id": "1214",
             "ENname": "Xueyi(WIP)",
             "CNname": "雪衣(施工中)",
@@ -534,19 +547,6 @@
             "rarity": "4",
             "infourl": "lib/characters/1215.json",
             "spoiler": true
-        },
-        {
-            "id": "1305",
-            "ENname": "Dr. Ratio",
-            "CNname": "真理医生",
-            "JAname": "Dr.レイシオ",
-            "imageurl": "images/characters/1305.png",
-            "imagelargeurl": "images/characters/1305-large.png",
-            "etype": "imaginary",
-            "wtype": "thehunt",
-            "rarity": "5",
-            "infourl": "lib/characters/1305.json",
-            "spoiler": false
         },
         {
             "id": "1306",
