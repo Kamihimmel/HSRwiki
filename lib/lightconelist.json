@@ -985,6 +985,18 @@
             "spoiler": false
         },
         {
+            "id": "23020",
+            "ENname": "Baptism of Pure Thought",
+            "CNname": "纯粹思维的洗礼",
+            "JAname": "純粋なる思惟の洗礼",
+            "imageurl": "images/lightcones/23020.png",
+            "imagelargeurl": "images/lightcones/23020l.png",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23020.json",
+            "spoiler": false
+        },
+        {
             "id": "21035",
             "ENname": "What Is Real?(WIP)",
             "CNname": "何物为真(施工中)",
@@ -1079,18 +1091,6 @@
             "rarity": "4",
             "infourl": "lib/lightcones/21042.json",
             "spoiler": true
-        },
-        {
-            "id": "23020",
-            "ENname": "Baptism of Pure Thought",
-            "CNname": "纯粹思维的洗礼",
-            "JAname": "純粋なる思惟の洗礼",
-            "imageurl": "images/lightcones/23020.png",
-            "imagelargeurl": "images/lightcones/23020l.png",
-            "wtype": "thehunt",
-            "rarity": "5",
-            "infourl": "lib/lightcones/23020.json",
-            "spoiler": false
         },
         {
             "id": "23021",
