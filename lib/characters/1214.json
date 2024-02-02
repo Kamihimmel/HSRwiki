@@ -1,8 +1,8 @@
 {
     "id": "1214",
-    "ENname": "Xueyi(WIP)",
-    "CNname": "雪衣(施工中)",
-    "JAname": "雪衣(建設中)",
+    "ENname": "Xueyi",
+    "CNname": "雪衣",
+    "JAname": "雪衣",
     "imageurl": "images/characters/1214.png",
     "imagelargeurl": "images/characters/1214-large.png",
     "etype": "quantum",
@@ -125,6 +125,24 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "normalatk",
+                        "quantumatk"
+                    ]
+                }
             ]
         },
         {
@@ -177,7 +195,37 @@
                     "14": 84,
                     "15": 87.5
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "blastatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "skillatk",
+                        "quantumatk"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": [
+                        "blastatk",
+                        "skillatk",
+                        "quantumatk"
+                    ]
+                }
             ]
+
         },
         {
             "id": "121403",
@@ -246,6 +294,34 @@
                     "13": 67.2,
                     "14": 69.6,
                     "15": 72
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "ultatk",
+                "quantumatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleatk",
+                        "ultatk",
+                        "quantumatk"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 3,
+                    "tag": [
+                        "buff",
+                        "self"
+                    ]
                 }
             ]
         },
@@ -316,6 +392,25 @@
                     "14": 1,
                     "15": 1
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "followupatk",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "maxstack": 3,
+                    "tag": [
+                        "singleatk",
+                        "followupatk",
+                        "quantumdmg"
+                    ]
+                }
             ]
         },
         {
@@ -332,7 +427,24 @@
             "buffskill": false,
             "teamskill": true,
             "weaknessbreak": 60,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": [
+                "imaginaryatk",
+                "allenemy",
+                "skillpointre"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 80,
+                    "tag": [
+                        "allenemy",
+                        "imaginaryatk"
+                    ]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -348,7 +460,25 @@
             "imageurl": "images/skills/1214-1214101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "alldmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 240,
+                    "tag": [
+                        "alldmg",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214102",
@@ -362,7 +492,25 @@
             "imageurl": "images/skills/1214-1214102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "ultatk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 10,
+                    "condition": "Enemy Toughness >= 50% Max Toughness",
+                    "tag": [
+                        "ultatk",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "1214103",
@@ -390,7 +538,25 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "breakeffect",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "breakeffect",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214202",
@@ -404,7 +570,25 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "maxhp",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 4,
+                    "tag": [
+                        "maxhp",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214203",
@@ -418,7 +602,25 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "breakeffect",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": [
+                        "breakeffect",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214204",
@@ -432,7 +634,25 @@
             "ttype": "quantumdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "quantumdmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "quantumdmg",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214205",
@@ -446,7 +666,25 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "breakeffect",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": [
+                        "breakeffect",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214206",
@@ -460,7 +698,25 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "maxhp",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 6,
+                    "tag": [
+                        "maxhp",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214207",
@@ -474,7 +730,25 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "breakeffect",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": [
+                        "breakeffect",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214208",
@@ -488,7 +762,25 @@
             "ttype": "quantumdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "quantumdmg",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "quantumdmg",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214209",
@@ -502,7 +794,25 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "maxhp",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 8,
+                    "tag": [
+                        "maxhp",
+                        "self"
+                    ]
+                }
+            ]
+
         },
         {
             "id": "1214210",
@@ -516,7 +826,25 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "breakeffect",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 10.7,
+                    "tag": [
+                        "breakeffect",
+                        "self"
+                    ]
+                }
+            ]
+
         }
     ],
     "eidolon": [
@@ -532,7 +860,24 @@
             "DescriptionJP": "天賦の追加攻撃の与ダメージ+40%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "followupatk",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "followupatk",
+                    "multiplier": 40,
+                    "tag": [
+                        "followupatk",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "121402-2",
@@ -546,7 +891,25 @@
             "DescriptionJP": "天賦の追加攻撃は敵の弱点属性を無視して靭性を削り、自身の最大HP5%分のHPを回復する。敵を弱点撃破した時、量子属性の弱点撃破効果を発動する。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "quantumbreak",
+                "self",
+                "heal"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "maxhp",
+                    "multiplier": 5,
+                    "tag": [
+                        "heal",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "121403-3",
@@ -574,7 +937,25 @@
             "DescriptionJP": "必殺技を発動した時、撃破特効+40%、2ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "breakeffect",
+                "self"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 40,
+                    "duration": 2,
+                    "tag": [
+                        "breakeffect",
+                        "self"
+                    ]
+                }
+            ]
         },
         {
             "id": "121405-5",
