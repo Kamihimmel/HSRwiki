@@ -98,7 +98,7 @@
             "ENname": "All In",
             "CNname": "下注",
             "JAname": "ベット",
-            "DescriptionEN": "Increases the wearer's ATK by [1]%. When the wearer lands a CRIT hit on enemies, they will gain a stack of Good Fortune. This effect can be stacked [3] time(s). Every stack of Good Fortune the wearer has will increase their CRIT DMG by [2]%. Good Fortune will be removed at the end of the wearer's turn.",
+            "DescriptionEN": "Increases the wearer's ATK by [1]%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to [3] time(s). Every stack of Good Fortune the wearer has will increase their CRIT DMG by [2]%. Good Fortune will be removed at the end of the wearer's turn.",
             "DescriptionCN": "使装备者的攻击力提高[1]%。当装备者对敌方目标造成暴击后获得一层【好运】，最多叠加[3]层。每层【好运】使装备者的暴击伤害提高[2]%，【好运】在装备者的回合结束时移除。",
             "DescriptionJP": "装備キャラの攻撃力+[1]%。装備キャラが敵に攻撃を行い、会心が発生した後、「好運」を1層獲得する、最大で[3]層累積できる。「好運」1層につき、装備キャラの会心ダメージ+[2]%。「好運」は装備キャラのターン終了時に解除される。",
             "maxlevel": 5,
