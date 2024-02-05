@@ -1,8 +1,8 @@
 {
     "id": "1214",
-    "ENname": "Xueyi",
-    "CNname": "雪衣",
-    "JAname": "雪衣",
+    "ENname": "Xueyi(WIP)",
+    "CNname": "雪衣(施工中)",
+    "JAname": "{RUBY_B#セツイ}雪衣{RUBY_E#}(建設中)",
     "imageurl": "images/characters/1214.png",
     "imagelargeurl": "images/characters/1214-large.png",
     "etype": "quantum",
@@ -102,7 +102,7 @@
             "id": "121401",
             "ENname": "Mara-Sunder Awl",
             "CNname": "破魔锥",
-            "JAname": "破魔錐",
+            "JAname": "{RUBY_B#はますい}破魔錐{RUBY_E#}",
             "imageurl": "images/skills/1214-121401.png",
             "DescriptionEN": "Deals [1]% of Xueyi's ATK as Quantum DMG to a single target enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于雪衣[1]%攻击力的量子属性伤害。",
@@ -149,7 +149,7 @@
             "id": "121402",
             "ENname": "Iniquity Obliteration",
             "CNname": "摄伏诸恶",
-            "JAname": "諸悪摂伏",
+            "JAname": "{RUBY_B#しょあくしょうふく}諸悪摂伏{RUBY_E#}",
             "imageurl": "images/skills/1214-121402.png",
             "DescriptionEN": "Deals Quantum DMG equal to [1]% of Xueyi's ATK to a single enemy, and Quantum DMG equal to [2]% of Xueyi's ATK to any adjacent enemies.",
             "DescriptionCN": "对指定敌方单体造成等同于雪衣[1]%攻击力的量子属性伤害，同时对其相邻目标造成等同于雪衣[2]%攻击力的量子属性伤害。",
@@ -225,13 +225,12 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "121403",
             "ENname": "Divine Castigation",
             "CNname": "天罚贯身",
-            "JAname": "身を貫く天罰",
+            "JAname": "{RUBY_B#み}身{RUBY_E#}を{RUBY_B#つらぬ}貫{RUBY_E#}く{RUBY_B#てんばつ}天罰{RUBY_E#}",
             "imageurl": "images/skills/1214-121403.png",
             "DescriptionEN": "Deals Quantum DMG equal to [1]% of Xueyi's ATK to a single target enemy. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered. In this attack, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of [3]% increase.",
             "DescriptionCN": "对指定敌方单体造成等同于雪衣[1]%攻击力的量子属性伤害，本次攻击无视弱点属性削减敌方单体的韧性。击破弱点时，触发量子属性的弱点击破效果。 在本次攻击中，削减的韧性越多，造成的伤害越高，最多提高[3]%。",
@@ -329,9 +328,9 @@
             "id": "121404",
             "ENname": "Karmic Perpetuation",
             "CNname": "十王圣断，业报恒常",
-            "JAname": "十王の聖裁、業報は常に在り",
+            "JAname": "{RUBY_B#じゅうおう}十王{RUBY_E#}の{RUBY_B#せいさい}聖裁{RUBY_E#}、{RUBY_B#ごうほう}業報{RUBY_E#}は{RUBY_B#つね}常{RUBY_E#}に{RUBY_B#あ}在{RUBY_E#}り",
             "imageurl": "images/skills/1214-121404.png",
-            "DescriptionEN": "When Xueyi reduces enemy Toughness with attacks, Karma will be stacked. The more Toughness is reduced, the more stacks of Karma are added, up to [1] stacks. When Xueyi's allies reduce enemy Toughness with attacks, Xueyi gains [3] stacks of Karma. When Karma reaches the max number of stacks, consumes all current Karma stacks and immediately launches a follow-up attack against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to [2]% of Xueyi's ATK to a single random enemy. This follow-up attack will not add Karma stacks.",
+            "DescriptionEN": "When Xueyi reduces enemy Toughness with attacks, Karma will be stacked. The more Toughness is reduced, the more stacks of Karma are added, up to [1] stacks. When Xueyi's allies reduce enemy Toughness with attacks, Xueyi gains [3] stack(s) of Karma. When Karma reaches the max number of stacks, consumes all current Karma stacks and immediately launches a follow-up attack against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to [2]% of Xueyi's ATK to a single random enemy. This follow-up attack will not add Karma stacks.",
             "DescriptionCN": "雪衣施放攻击削减敌方韧性时，会叠加【恶报】层数，削减的韧性越多叠加【恶报】层数越多，可以叠加[1]层。 当雪衣的队友施放攻击削减敌方韧性后，雪衣叠加[3]层【恶报】。 当【恶报】叠加至上限时消耗当前所有【恶报】，立即对敌方目标发动追加攻击，造成3次伤害，每次伤害对敌方随机单体造成等同于雪衣[2]%攻击力的量子属性伤害。本次追加攻击无法叠加【恶报】。",
             "DescriptionJP": "雪衣が攻撃を行って敵の靭性を削った時、「悪業」を獲得する。削った靭性が多いほど、獲得する「悪業」層数がアップする、最大で[1]層獲得できる。 雪衣以外の味方が攻撃を行って敵の靭性を削った後、雪衣は「悪業」を[3]層獲得する。 「悪業」が上限に達した時、すべての「悪業」を消費して敵に追加攻撃を行い、3ヒットする。1ヒットごとにランダムな敵単体に雪衣の攻撃力[2]%分の量子属性ダメージを与える。この追加攻撃で「悪業」を獲得することはできない。",
             "stype": "talent",
@@ -417,7 +416,7 @@
             "id": "121407",
             "ENname": "Summary Execution",
             "CNname": "斩立决",
-            "JAname": "斬、即決",
+            "JAname": "{RUBY_B#ざん}斬{RUBY_E#}、{RUBY_B#そっけつ}即決{RUBY_E#}",
             "imageurl": "images/skills/1214-121407.png",
             "DescriptionEN": "Immediately attacks the enemy. After entering combat, deals 80% of Xueyi's ATK as Quantum DMG to all enemies.",
             "DescriptionCN": "立即攻击敌人，进入战斗后对敌方全体造成等同于雪衣80%攻击力的量子属性伤害。",
@@ -453,7 +452,7 @@
             "tiny": false,
             "ENname": "Clairvoyant Loom",
             "CNname": "预兆机杼",
-            "JAname": "予兆の絡繰り",
+            "JAname": "{RUBY_B#よちょう}予兆{RUBY_E#}の{RUBY_B#からく}絡繰{RUBY_E#}り",
             "DescriptionEN": "Increases DMG dealt by this unit by an amount equal to 100% of Break Effect, up to a maximum DMG increase of 240%.",
             "DescriptionCN": "使自身造成的伤害提高，提高数值等同于击破特攻的100%，最多使造成的伤害提高240%。",
             "DescriptionJP": "自身の与ダメージを、撃破特効の100%分アップする、最大で与ダメージ+240%。",
@@ -478,14 +477,13 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214102",
             "tiny": false,
             "ENname": "Intrepid Rollerbearings",
             "CNname": "摧锋轴承",
-            "JAname": "砕鋒の軸受",
+            "JAname": "{RUBY_B#さいほう}砕鋒{RUBY_E#}の{RUBY_B#じくうけ}軸受{RUBY_E#}",
             "DescriptionEN": "If the enemy target's Toughness is equal to or higher than 50% of their Max Toughness, deals 10% more DMG when using Ultimate.",
             "DescriptionCN": "如果敌方目标当前韧性大于等于其自身韧性上限的50%，施放终结技时造成的伤害提高10%。",
             "DescriptionJP": "必殺技を発動した時、残り靭性が最大靭性50%以上の敵への与ダメージ+10%。",
@@ -517,7 +515,7 @@
             "tiny": false,
             "ENname": "Perspicacious Mainframe",
             "CNname": "伺观中枢",
-            "JAname": "機会を伺う中枢",
+            "JAname": "{RUBY_B#きかい}機会{RUBY_E#}を{RUBY_B#うかが}伺{RUBY_E#}う{RUBY_B#ちゅうすう}中枢{RUBY_E#}",
             "DescriptionEN": "Xueyi will keep a tally of the number of Karma stacks that exceed the max stack limit, up to 6 stacks in the tally. After Xueyi's Talent is triggered, she will gain a corresponding number of tallied Karma stacks.",
             "DescriptionCN": "雪衣会累计溢出的【恶报】层数，最多累计6层。雪衣触发天赋后，获得相应溢出层数的【恶报】。",
             "DescriptionJP": "雪衣は累積上限を超えた「悪業」層数をカウントする、最大で6層カウントできる。雪衣が天賦を発動した後、超過分の「悪業」層数を獲得する。",
@@ -531,7 +529,7 @@
             "tiny": true,
             "ENname": "Break Effect increases by 5.3%",
             "CNname": "击破特攻提高5.3%",
-            "JAname": "撃破特効+5.3%。",
+            "JAname": "撃破特効+5.3%",
             "DescriptionEN": "LV1",
             "DescriptionCN": "LV1",
             "DescriptionJP": "LV1",
@@ -556,7 +554,6 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214202",
@@ -588,14 +585,13 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214203",
             "tiny": true,
             "ENname": "Break Effect increases by 5.3%",
             "CNname": "击破特攻提高5.3%",
-            "JAname": "撃破特効+5.3%。",
+            "JAname": "撃破特効+5.3%",
             "DescriptionEN": "A3",
             "DescriptionCN": "A3",
             "DescriptionJP": "A3",
@@ -620,7 +616,6 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214204",
@@ -652,14 +647,13 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214205",
             "tiny": true,
             "ENname": "Break Effect increases by 8%",
             "CNname": "击破特攻提高8%",
-            "JAname": "撃破特効+8%。",
+            "JAname": "撃破特効+8%",
             "DescriptionEN": "A4",
             "DescriptionCN": "A4",
             "DescriptionJP": "A4",
@@ -684,7 +678,6 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214206",
@@ -716,14 +709,13 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214207",
             "tiny": true,
             "ENname": "Break Effect increases by 8%",
             "CNname": "击破特攻提高8%",
-            "JAname": "撃破特効+8%。",
+            "JAname": "撃破特効+8%",
             "DescriptionEN": "A5",
             "DescriptionCN": "A5",
             "DescriptionJP": "A5",
@@ -748,7 +740,6 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214208",
@@ -780,7 +771,6 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214209",
@@ -812,14 +802,13 @@
                     ]
                 }
             ]
-
         },
         {
             "id": "1214210",
             "tiny": true,
             "ENname": "Break Effect increases by 10.7%",
             "CNname": "击破特攻提高10.7%",
-            "JAname": "撃破特効+10.7%。",
+            "JAname": "撃破特効+10.7%",
             "DescriptionEN": "LV80",
             "DescriptionCN": "LV80",
             "DescriptionJP": "LV80",
@@ -844,7 +833,6 @@
                     ]
                 }
             ]
-
         }
     ],
     "eidolon": [
@@ -853,7 +841,7 @@
             "eidolonnum": 1,
             "ENname": "Dvesha, Inhibited",
             "CNname": "缚心魔",
-            "JAname": "心魔縛り",
+            "JAname": "{RUBY_B#しんましば}心魔縛{RUBY_E#}り",
             "imageurl": "images/skills/1214-e1.png",
             "DescriptionEN": "Increases the DMG dealt by the Talent's follow-up attack by 40%.",
             "DescriptionCN": "天赋的追加攻击造成的伤害提高40%。",
@@ -884,7 +872,7 @@
             "eidolonnum": 2,
             "ENname": "Klesha, Breached",
             "CNname": "破五尘",
-            "JAname": "五塵破り",
+            "JAname": "{RUBY_B#ごじんやぶ}五塵破{RUBY_E#}り",
             "imageurl": "images/skills/1214-e2.png",
             "DescriptionEN": "Talent's follow-up attack reduces enemy Toughness regardless of Weakness types. At the same time, restores Xueyi's HP by an amount equal to 5% of her Max HP. When breaking Weakness, triggers the Quantum Break Effect.",
             "DescriptionCN": "天赋的追加攻击无视弱点属性削减敌方的韧性，同时为自身恢复等同于雪衣5%生命上限的生命值。击破弱点时，触发量子属性的弱点击破效果。",
@@ -916,7 +904,7 @@
             "eidolonnum": 3,
             "ENname": "Duḥkha, Ceased",
             "CNname": "止苦谛",
-            "JAname": "苦諦止め",
+            "JAname": "{RUBY_B#くたい}苦諦{RUBY_E#}{RUBY_B#とど}止{RUBY_E#}め",
             "imageurl": "images/skills/1214-e3.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
@@ -930,7 +918,7 @@
             "eidolonnum": 4,
             "ENname": "Karma, Severed",
             "CNname": "断业根",
-            "JAname": "業根断ち",
+            "JAname": "{RUBY_B#ごうこんた}業根断{RUBY_E#}ち",
             "imageurl": "images/skills/1214-e4.png",
             "DescriptionEN": "When using Ultimate, increases Break Effect by 40% for 2 turn(s).",
             "DescriptionCN": "施放终结技时，击破特攻提高40%，持续2回合。",
@@ -962,7 +950,7 @@
             "eidolonnum": 5,
             "ENname": "Deva, Enthralled",
             "CNname": "勾灵神",
-            "JAname": "霊神囚え",
+            "JAname": "{RUBY_B#れいじんとら}霊神囚{RUBY_E#}え",
             "imageurl": "images/skills/1214-e5.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
@@ -976,7 +964,7 @@
             "eidolonnum": 6,
             "ENname": "Saṃsāra, Mastered",
             "CNname": "司死生",
-            "JAname": "生死司る",
+            "JAname": "{RUBY_B#せいしつかさど}生死司{RUBY_E#}る",
             "imageurl": "images/skills/1214-e6.png",
             "DescriptionEN": "The max stack limit for Karma decreases to 6.",
             "DescriptionCN": "【恶报】的层数上限降低至6层。",
