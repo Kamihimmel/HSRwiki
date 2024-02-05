@@ -306,7 +306,7 @@
             "CNname": "擒纵机构",
             "JAname": "{RUBY_B#だっしんき}脱進機{RUBY_E#}",
             "imageurl": "images/skills/1312-131204.png",
-            "DescriptionEN": "Whenever any ally consumes 1 Skill Point, Misha's next Ultimate delivers [2] more Hits Per Action and Misha regenerates [1] Energy.",
+            "DescriptionEN": "Whenever any ally consumes 1 Skill Point, Misha's next Ultimate delivers [2] more Hit(s) Per Action and Misha regenerates [1] Energy.",
             "DescriptionCN": "我方全体每消耗1个战技点，增加[2]段米沙下一次终结技的攻击段数，同时米沙恢复[1]点能量。",
             "DescriptionJP": "味方がSPを1消費するたびに、ミーシャの次の必殺技の攻撃段数+[2]、ミーシャのEPを[1]回復する。",
             "stype": "talent",
