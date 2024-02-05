@@ -98,7 +98,7 @@
             "ENname": "Hypothesis",
             "CNname": "假设",
             "JAname": "{RUBY_B#かせつ}仮説{RUBY_E#}",
-            "DescriptionEN": "Increases the wearer's Break Effect by [1]%. Wearer's Basic ATKs restore an amount equal to [2]% of Max HP plus [3] for themselves.",
+            "DescriptionEN": "Increases the wearer's Break Effect by [1]%. After using Basic ATK, restores HP for the wearer by an amount equal to [2]% of Max HP plus [3].",
             "DescriptionCN": "使装备者的击破特攻提高[1]%。施放普攻后，装备者回复等同于[2]%生命上限+[3]点的生命值。",
             "DescriptionJP": "装備キャラの撃破特効+[1]%。通常攻撃を行った後、装備キャラのHPを最大HP[2]%+[3]回復する。",
             "maxlevel": 5,

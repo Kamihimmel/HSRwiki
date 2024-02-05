@@ -98,11 +98,11 @@
             "ENname": "Deflagration",
             "CNname": "爆燃",
             "JAname": "{RUBY_B#ばくねん}爆燃{RUBY_E#}",
-            "DescriptionEN": "When the HP lost by the wearer during a single attack exceeds [1]% of their Max HP, or if the HP they consume is greater than [1]% of their Max HP, then immediately heals them for [3]% of their Max HP while also increasing the DMG they deal by [2]% for [4] turn(s). This effect can only be triggered once every [5] turn(s).",
+            "DescriptionEN": "When the cumulative HP loss of the wearer during a single attack exceeds [1]% of their Max HP, or if the amount of their own HP they consume at one time is greater than [1]% of their Max HP, immediately heals the wearer for [3]% of their Max HP, and at the same time, increases the DMG they deal by [2]% for [4] turn(s). This effect can only be triggered once every [5] turn(s).",
             "DescriptionCN": "当装备者在单次受到攻击中累计损失的生命值超过最大生命值的[1]%，或单次消耗自身生命值超过最大生命值的[1]%，则立即回复等同于装备者生命上限[3]%的生命值，同时使装备者造成的伤害提高[2]%，持续[4]回合。该效果每[5]回合只能触发1次。",
             "DescriptionJP": "装備キャラが1回の攻撃で最大HP[1]%分を超えるHPを失う、または1回で最大HP[1]%分を超えるHPを消費した後、装備キャラの最大HP[3]%分のHPを回復し、与ダメージ+[2]%、[4]ターン継続。この効果は[5]ターンごとに1回発動できる。",
             "maxlevel": 5,
-            "buffskill": false,
+            "buffskill": true,
             "teamskill": false,
             "levelmultiplier": [
                 {
