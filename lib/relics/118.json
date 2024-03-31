@@ -24,7 +24,7 @@
             "ENname": "4 Set Effect",
             "CNname": "4件套装效果",
             "JAname": "4セット効果",
-            "DescriptionEN": "When the wearer uses their Ultimate on an ally, Break Effect for all allies increases by 30% for 2 turn(s). This effect cannot be stacked.",
+            "DescriptionEN": "When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turn(s). This effect cannot be stacked.",
             "DescriptionCN": "当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。",
             "DescriptionJP": "装備キャラが味方に対して必殺技を発動する時、味方全体の撃破特効+30%、2ターン継続。この効果は累積できない。",
             "buffskill": true,
