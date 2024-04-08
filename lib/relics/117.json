@@ -14,7 +14,7 @@
             "ENname": "2 Set Effect",
             "CNname": "2件套装效果",
             "JAname": "2セット効果",
-            "DescriptionEN": "Increases DMG dealt to enemies with debuff by 12%.",
+            "DescriptionEN": "Increases DMG dealt to enemies with debuffs by 12%.",
             "DescriptionCN": "对受负面状态影响的敌人造成的伤害提高12%。",
             "DescriptionJP": "デバフの影響を受けている敵への与ダメージ+12%。",
             "buffskill": true,
@@ -26,7 +26,7 @@
             "JAname": "4セット効果",
             "DescriptionEN": "Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn(s).",
             "DescriptionCN": "暴击率提高4%，装备者对陷入不少于2/3个负面效果的敌方目标造成的暴击伤害提高8%/12%。装备者对敌方目标施加负面效果后，上述效果提高100%，持续1回合。",
-            "DescriptionJP": "会心率+4%。デバフを2/3つ以上付与されている敵に対する、装備キャラの会心ダメージ+8%/12%。装備キャラが敵にデバフを付与した後、上記の効果がさらに+100%、1ターン継続。",
+            "DescriptionJP": "会心率+4%。デバフを2/3つ以上付与されている敵に対する、装備キャラの会心ダメージ+8%/12%。装備キャラが敵にデバフを付与した後、上記の効果が2倍になる、1ターン継続。",
             "buffskill": true,
             "teamskill": false
         }
