@@ -576,16 +576,16 @@
         },
         {
             "id": "1306",
-            "ENname": "Sparkle(WIP)",
-            "CNname": "花火(施工中)",
-            "JAname": "{RUBY_B#はなび}花火{RUBY_E#}(建設中)",
+            "ENname": "Sparkle",
+            "CNname": "花火",
+            "JAname": "花火",
             "imageurl": "images/characters/1306.png",
             "imagelargeurl": "images/characters/1306-large.png",
             "etype": "quantum",
             "wtype": "harmony",
             "rarity": "5",
-            "infourl": "lib/characters/1306.json",
-            "spoiler": true
+            "infourl": "lib/sparkle.json",
+            "spoiler": false
         },
         {
             "id": "1307",
