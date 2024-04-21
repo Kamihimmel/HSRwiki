@@ -4198,7 +4198,7 @@
                     "addtarget": "critdmg",
                     "multipliertarget": "critdmg",
                     "multiplier": 1,
-                    "group": "1",
+                    "group": "1306-1",
                     "tag": [
                         "singleally",
                         "critdmg"
@@ -4209,7 +4209,7 @@
                     "type": "buff",
                     "addtarget": "critdmg",
                     "multiplier": 2,
-                    "group": "1",
+                    "group": "1306-1",
                     "tag": [
                         "singleally",
                         "critdmg"
@@ -4431,7 +4431,7 @@
                     "type": "buff",
                     "addtarget": "atk",
                     "multipliervalue": "15",
-                    "group": "1",
+                    "group": "1306-2",
                     "tag": [
                         "allally",
                         "atk"
@@ -4443,7 +4443,7 @@
                     "addtarget": "atk",
                     "multipliervalue": "5",
                     "maxStack": 3,
-                    "group": "1",
+                    "group": "1306-2",
                     "tag": [
                         "allally",
                         "atk"

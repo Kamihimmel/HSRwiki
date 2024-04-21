@@ -23,7 +23,7 @@
 	"multipliervalue": "1", // 效果的固定值，如果填写则会忽略multiplier对应的值，注意是字符串，便于后续扩展支持计算公式，multiplier和multipliervalue至少填写一个
 	"multipliermax": "100", // 暂未使用，可不填写
 	"maxStack": 6, // 选填，此效果可堆叠的层数，如果>1，则会在界面展示选项可选择层数，<5时展示组件为ChoiceChip，>=5时展示组件为DropdownMenu，值会乘到此效果计算的结果上
-	"group": "1", // 选填，用于聚合形如10%生命+20%攻击力这类组合倍率，同一个skill内需要组合的多个effect填写相同的group即可，跨skill目前不支持聚合，具体内容不限，可参考刃的终结技
+	"group": "1", // 选填，用于聚合形如10%生命+20%攻击力这类组合倍率，同一个skill内需要组合的多个effect填写相同的group即可，跨skill目前不支持聚合，具体内容不限，可参考刃的终结技。被聚合的effect所用的group值尽量全局唯一，如 "1234-1"，避免因Bug导致同效果buff被意外聚合到一起
 	"tag": [ // 后面说明
 		"self",
 		"ultatk"
