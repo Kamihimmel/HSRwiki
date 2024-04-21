@@ -125,6 +125,16 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "quantumdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "quantumdmg"]
+                }
             ]
         },
         {
@@ -210,6 +220,30 @@
                     "13": 50,
                     "14": 50,
                     "15": 50
+                }
+            ],
+            "tags": ["buff", "critdmg", "singleally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "referencetarget": "sparkle",
+                    "referencetargetEN": "Sparkle",
+                    "referencetargetCN": "花火",
+                    "referencetargetJP": "花火",
+                    "addtarget": "critdmg",
+                    "multipliertarget": "critdmg",
+                    "multiplier": 1,
+                    "group": "1",
+                    "tag": ["singleally", "critdmg"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 2,
+                    "group": "1",
+                    "tag": ["singleally", "critdmg"]
                 }
             ]
         },
@@ -298,6 +332,16 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": ["buff", "allally", "alldmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 3,
+                    "tag": ["allally", "alldmg"]
+                }
             ]
         },
         {
@@ -384,6 +428,16 @@
                     "14": 3,
                     "15": 3
                 }
+            ],
+            "tags": ["buff", "allally", "alldmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 2,
+                    "tag": ["allally", "alldmg"]
+                }
             ]
         },
         {
@@ -416,7 +470,17 @@
             "imageurl": "images/skills/1306-1306101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "energy", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 10,
+                    "tag": ["self", "energy"]
+                }
+            ]
         },
         {
             "id": "1306102",
@@ -444,7 +508,28 @@
             "imageurl": "images/skills/1306-1306103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multipliervalue": "15",
+                    "group": "1",
+                    "tag": ["allally", "atk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multipliervalue": "5",
+                    "maxStack": 3,
+                    "group": "1",
+                    "tag": ["allally", "atk"],
+                    "hide": true
+                }
+            ]
         },
         {
             "id": "1306201",
@@ -458,7 +543,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1306202",
@@ -472,7 +567,17 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 5.3,
+                    "tag": ["self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1306203",
@@ -486,7 +591,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1306204",
@@ -500,7 +615,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1306205",
@@ -514,7 +639,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1306206",
@@ -528,7 +663,17 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 8,
+                    "tag": ["self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1306207",
@@ -542,7 +687,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1306208",
@@ -556,7 +711,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1306209",
@@ -570,7 +735,17 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 10.7,
+                    "tag": ["self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1306210",
@@ -584,7 +759,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": ["self", "hp"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -600,7 +785,17 @@
             "DescriptionJP": "必殺技が付与する「奇怪な謎」の継続時間+1ターン。「奇怪な謎」を持つ味方の攻撃力+40%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 40,
+                    "tag": ["allally", "atk"]
+                }
+            ]
         },
         {
             "id": "130602-2",
@@ -614,7 +809,18 @@
             "DescriptionJP": "天賦の効果1層につき、味方がダメージを与える時、さらに敵の防御力を8%無視する。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "ignoredef"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 8,
+                    "maxStack": 3,
+                    "tag": ["allally", "ignoredef"]
+                }
+            ]
         },
         {
             "id": "130603-3",
@@ -670,8 +876,18 @@
             "DescriptionJP": "戦闘スキルの会心ダメージアップ効果が、さらに花火の会心ダメージ30%分アップする。花火が戦闘スキルを発動する時、戦闘スキルの会心ダメージアップ効果が、「奇怪な謎」を持つすべての味方に対して有効になる。花火が必殺技を発動する時、花火の戦闘スキルによる会心ダメージアップ効果を持つ味方が存在する場合、「奇怪な謎」を持つ味方にその効果を拡散する。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "critdmg", "singleally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multipliertarget": "critdmg",
+                    "multiplier": 30,
+                    "tag": ["singleally", "critdmg"]
+                }
+            ]
         }
     ]
 }
- No newline at end of file
