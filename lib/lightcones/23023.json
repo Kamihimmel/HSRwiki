@@ -1,0 +1,153 @@
+{
+    "id": "23023",
+    "ENname": "Inherently Unjust Destiny(WIP)",
+    "CNname": "命运从未公平(施工中)",
+    "JAname": "{RUBY_B#うんめい}運命{RUBY_E#}は{RUBY_B#つね}常{RUBY_E#}に{RUBY_B#ふこうへい}不公平{RUBY_E#}(建設中)",
+    "imageurl": "images/lightcones/23023.png",
+    "imagelargeurl": "images/lightcones/23023l.png",
+    "wtype": "preservation",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 19.2,
+            "def": 30
+        },
+        {
+            "level": "20",
+            "hp": 184.8,
+            "atk": 73.92,
+            "def": 115.5
+        },
+        {
+            "level": "20+",
+            "hp": 242.4,
+            "atk": 96.96,
+            "def": 151.5
+        },
+        {
+            "level": "30",
+            "hp": 314.4,
+            "atk": 125.76,
+            "def": 196.5
+        },
+        {
+            "level": "30+",
+            "hp": 391.2,
+            "atk": 156.48,
+            "def": 244.5
+        },
+        {
+            "level": "40",
+            "hp": 463.2,
+            "atk": 185.28,
+            "def": 289.5
+        },
+        {
+            "level": "40+",
+            "hp": 540.0,
+            "atk": 216.0,
+            "def": 337.5
+        },
+        {
+            "level": "50",
+            "hp": 612.0,
+            "atk": 244.8,
+            "def": 382.5
+        },
+        {
+            "level": "50+",
+            "hp": 688.8,
+            "atk": 275.52,
+            "def": 430.5
+        },
+        {
+            "level": "60",
+            "hp": 760.8,
+            "atk": 304.32,
+            "def": 475.5
+        },
+        {
+            "level": "60+",
+            "hp": 837.6,
+            "atk": 335.04,
+            "def": 523.5
+        },
+        {
+            "level": "70",
+            "hp": 909.6,
+            "atk": 363.84,
+            "def": 568.5
+        },
+        {
+            "level": "70+",
+            "hp": 986.4,
+            "atk": 394.56,
+            "def": 616.5
+        },
+        {
+            "level": "80",
+            "hp": 1058.4,
+            "atk": 423.36,
+            "def": 661.5
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "All-In",
+            "CNname": "全下",
+            "JAname": "オールイン",
+            "DescriptionEN": "Increases the wearer's DEF by [1]%. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by [2]%, lasting for [3] turn(s). When the wearer's follow-up attack hits an enemy target, there is a [4]% base chance to increase the DMG taken by the attacked enemy target by [5]%, lasting for [6] turn(s).",
+            "DescriptionCN": "使装备者的防御力提高[1]%，当装备者为我方目标提供护盾时，使装备者的暴击伤害提高[2]%，持续[3]回合。当装备者发动追加攻击击中敌方目标时，有[4]%的基础概率使受到攻击的敌方目标受到的伤害提高[5]%，持续[6]回合。",
+            "DescriptionJP": "装備キャラの防御力+[1]%。装備キャラが味方にバリアを付与する時、装備キャラの会心ダメージ+[2]%、[3]ターン継続。装備キャラの追加攻撃が敵に命中する時、[4]%の基礎確率で攻撃を受ける敵の被ダメージを[5]%アップさせる、[6]ターン継続。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 40,
+                    "2": 46,
+                    "3": 52,
+                    "4": 58,
+                    "5": 64
+                },
+                {
+                    "1": 40,
+                    "2": 46,
+                    "3": 52,
+                    "4": 58,
+                    "5": 64
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                },
+                {
+                    "1": 100,
+                    "2": 115,
+                    "3": 130,
+                    "4": 145,
+                    "5": 160
+                },
+                {
+                    "1": 10,
+                    "2": 11.5,
+                    "3": 13,
+                    "4": 14.5,
+                    "5": 16
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2
+                }
+            ]
+        }
+    ]
+}
