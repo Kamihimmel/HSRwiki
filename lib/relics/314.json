@@ -1,0 +1,22 @@
+{
+    "id": "314",
+    "ENname": "Izumo Gensei and Takama Divine Realm(WIP)",
+    "CNname": "出云显世与高天神国(施工中)",
+    "JAname": "{RUBY_B#けんせ}顕世{RUBY_E#}の{RUBY_B#いずも}出雲{RUBY_E#}と{RUBY_B#たかま}高天{RUBY_E#}の{RUBY_B#しんこく}神国{RUBY_E#}(建設中)",
+    "imageurl": "images/relics/71031.png",
+    "set": "2",
+    "sphere": "images/relics/IconRelic_314_5.png",
+    "rope": "images/relics/IconRelic_314_6.png",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's ATK by 12%. When entering battle, if at least one other ally follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12%.",
+            "DescriptionCN": "使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。",
+            "DescriptionJP": "装備キャラの攻撃力+12%。戦闘に入る時、装備キャラと同じ運命のキャラが他に存在する場合、装備キャラの会心率+12%。",
+            "buffskill": true,
+            "teamskill": false
+        }
+    ]
+}

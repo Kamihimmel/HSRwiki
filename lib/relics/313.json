@@ -1,0 +1,22 @@
+{
+    "id": "313",
+    "ENname": "Sigonia, the Unclaimed Desolation(WIP)",
+    "CNname": "无主荒星茨冈尼亚(施工中)",
+    "JAname": "{RUBY_B#こうりょう}荒涼{RUBY_E#}の{RUBY_B#わくせい}惑星{RUBY_E#}ツガンニヤ(建設中)",
+    "imageurl": "images/relics/71030.png",
+    "set": "2",
+    "sphere": "images/relics/IconRelic_313_5.png",
+    "rope": "images/relics/IconRelic_313_6.png",
+    "skilldata": [
+        {
+            "ENname": "2 Set Effect",
+            "CNname": "2件套装效果",
+            "JAname": "2セット効果",
+            "DescriptionEN": "Increases the wearer's CRIT Rate by 4%. When an enemy target gets defeated, the wearer's CRIT DMG increases by 4%, stacking up to 10 time(s).",
+            "DescriptionCN": "使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。",
+            "DescriptionJP": "装備キャラの会心率+4%。敵が倒された時、装備キャラの会心ダメージ+4%、最大で10回累積できる。",
+            "buffskill": true,
+            "teamskill": false
+        }
+    ]
+}
