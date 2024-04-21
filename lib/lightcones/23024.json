@@ -1,0 +1,132 @@
+{
+    "id": "23024",
+    "ENname": "Along the Passing Shore(WIP)",
+    "CNname": "行于流逝的岸(施工中)",
+    "JAname": "{RUBY_B#なが}流{RUBY_E#}れ{RUBY_B#ゆ}逝{RUBY_E#}く{RUBY_B#きし}岸{RUBY_E#}を{RUBY_B#ある}歩{RUBY_E#}いて(建設中)",
+    "imageurl": "images/lightcones/23024.png",
+    "imagelargeurl": "images/lightcones/23024l.png",
+    "wtype": "nihility",
+    "rarity": "5",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 48,
+            "atk": 28.8,
+            "def": 18
+        },
+        {
+            "level": "20",
+            "hp": 184.8,
+            "atk": 110.88,
+            "def": 69.3
+        },
+        {
+            "level": "20+",
+            "hp": 242.4,
+            "atk": 145.44,
+            "def": 90.9
+        },
+        {
+            "level": "30",
+            "hp": 314.4,
+            "atk": 188.64,
+            "def": 117.9
+        },
+        {
+            "level": "30+",
+            "hp": 391.2,
+            "atk": 234.72,
+            "def": 146.7
+        },
+        {
+            "level": "40",
+            "hp": 463.2,
+            "atk": 277.92,
+            "def": 173.7
+        },
+        {
+            "level": "40+",
+            "hp": 540.0,
+            "atk": 324.0,
+            "def": 202.5
+        },
+        {
+            "level": "50",
+            "hp": 612.0,
+            "atk": 367.2,
+            "def": 229.5
+        },
+        {
+            "level": "50+",
+            "hp": 688.8,
+            "atk": 413.28,
+            "def": 258.3
+        },
+        {
+            "level": "60",
+            "hp": 760.8,
+            "atk": 456.48,
+            "def": 285.3
+        },
+        {
+            "level": "60+",
+            "hp": 837.6,
+            "atk": 502.56,
+            "def": 314.1
+        },
+        {
+            "level": "70",
+            "hp": 909.6,
+            "atk": 545.76,
+            "def": 341.1
+        },
+        {
+            "level": "70+",
+            "hp": 986.4,
+            "atk": 591.84,
+            "def": 369.9
+        },
+        {
+            "level": "80",
+            "hp": 1058.4,
+            "atk": 635.04,
+            "def": 396.9
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Steerer",
+            "CNname": "司渡",
+            "JAname": "{RUBY_B#わた}渡{RUBY_E#}し{RUBY_B#もり}守{RUBY_E#}",
+            "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals [2]% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer's Ultimate additionally increases by [3]%.",
+            "DescriptionCN": "使装备者的暴击伤害提高[1]%。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高[2]%，终结技造成的伤害额外提高[3]%。",
+            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。装備キャラの攻撃が敵に命中する時、敵を「泡影」状態にする、1ターン継続。この効果は装備キャラが攻撃を行うたびに、敵それぞれに1回まで発動できる。「泡影」状態の敵に対する装備キャラの与ダメージ+[2]%、さらに必殺技の与ダメージ+[3]%。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 36,
+                    "2": 42,
+                    "3": 48,
+                    "4": 54,
+                    "5": 60
+                },
+                {
+                    "1": 24,
+                    "2": 28,
+                    "3": 32,
+                    "4": 36,
+                    "5": 40
+                },
+                {
+                    "1": 24,
+                    "2": 28,
+                    "3": 32,
+                    "4": 36,
+                    "5": 40
+                }
+            ]
+        }
+    ]
+}
