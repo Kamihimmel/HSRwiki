@@ -1,8 +1,8 @@
 {
     "id": "1306",
-    "ENname": "Sparkle(WIP)",
-    "CNname": "花火(施工中)",
-    "JAname": "{RUBY_B#はなび}花火{RUBY_E#}(建設中)",
+    "ENname": "Sparkle",
+    "CNname": "花火",
+    "JAname": "花火",
     "imageurl": "images/characters/1306.png",
     "imagelargeurl": "images/characters/1306-large.png",
     "etype": "quantum",
@@ -102,7 +102,7 @@
             "id": "130601",
             "ENname": "Monodrama",
             "CNname": "独角戏",
-            "JAname": "{RUBY_B#ひと}独{RUBY_E#}り{RUBY_B#しばい}芝居{RUBY_E#}",
+            "JAname": "独り芝居",
             "imageurl": "images/skills/1306-130601.png",
             "DescriptionEN": "Deals Quantum DMG equal to [1]% of Sparkle's ATK to a single target enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于花火[1]%攻击力的量子属性伤害。",
@@ -125,13 +125,23 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "quantumdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "quantumdmg"]
+                }
             ]
         },
         {
             "id": "130602",
             "ENname": "Dreamdiver",
             "CNname": "梦游鱼",
-            "JAname": "{RUBY_B#ゆめ}夢{RUBY_E#}を{RUBY_B#およ}泳{RUBY_E#}ぐ{RUBY_B#さかな}魚{RUBY_E#}",
+            "JAname": "夢を泳ぐ魚",
             "imageurl": "images/skills/1306-130602.png",
             "DescriptionEN": "Increases the CRIT DMG of a single target ally by [1]% of Sparkle's CRIT DMG plus [2]%, lasting for [3] turn(s). And at the same time, Advances Forward this ally's action by [4]%. When Sparkle uses this ability on herself, the Action Advance effect will not trigger.",
             "DescriptionCN": "使指定我方单体的暴击伤害提高，提高数值等同于花火[1]%暴击伤害+[2]%，持续[3]回合，并使该目标行动提前[4]%。 当花火对自身施放该技能时，无法触发行动提前效果。",
@@ -211,13 +221,37 @@
                     "14": 50,
                     "15": 50
                 }
+            ],
+            "tags": ["buff", "critdmg", "singleally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "referencetarget": "sparkle",
+                    "referencetargetEN": "Sparkle",
+                    "referencetargetCN": "花火",
+                    "referencetargetJP": "花火",
+                    "addtarget": "critdmg",
+                    "multipliertarget": "critdmg",
+                    "multiplier": 1,
+                    "group": "1",
+                    "tag": ["singleally", "critdmg"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 2,
+                    "group": "1",
+                    "tag": ["singleally", "critdmg"]
+                }
             ]
         },
         {
             "id": "130603",
             "ENname": "The Hero with a Thousand Faces",
             "CNname": "一人千役",
-            "JAname": "{RUBY_B#ひとりせんやく}一人千役{RUBY_E#}",
+            "JAname": "一人千役",
             "imageurl": "images/skills/1306-130603.png",
             "DescriptionEN": "Recovers [2] Skill Points for the team and grants all allies Cipher. For allies with Cipher, each stack of the DMG Boost effect provided by Sparkle's Talent additionally increases by [3]%, lasting for [4] turns.",
             "DescriptionCN": "为我方恢复[2]个战技点，并使我方全体获得【谜诡】。持有【谜诡】的我方目标触发花火天赋造成的伤害提高效果每层额外提高[3]%，持续[4]回合。",
@@ -298,13 +332,23 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": ["buff", "allally", "alldmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 3,
+                    "tag": ["allally", "alldmg"]
+                }
             ]
         },
         {
             "id": "130604",
             "ENname": "Red Herring",
             "CNname": "叙述性诡计",
-            "JAname": "{RUBY_B#じょじゅつ}叙述{RUBY_E#}トリック",
+            "JAname": "叙述トリック",
             "imageurl": "images/skills/1306-130604.png",
             "DescriptionEN": "While Sparkle is on the battlefield, additionally increases the max number of Skill Points by [3]. Whenever an ally consumes 1 Skill Point, all allies' DMG dealt increases by [2]%. This effect lasts for [1] turn(s) and can stack up to [4] time(s).",
             "DescriptionCN": "花火在场时，战技点上限额外增加[3]点。当我方目标每消耗1点战技点，则使我方全体造成的伤害提高[2]%，该效果持续[1]回合，最多可叠加[4]层。",
@@ -384,13 +428,23 @@
                     "14": 3,
                     "15": 3
                 }
+            ],
+            "tags": ["buff", "allally", "alldmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 2,
+                    "tag": ["allally", "alldmg"]
+                }
             ]
         },
         {
             "id": "130607",
             "ENname": "Unreliable Narrator",
             "CNname": "不可靠叙事者",
-            "JAname": "{RUBY_B#しんよう}信用{RUBY_E#}できない{RUBY_B#かた}語{RUBY_E#}り{RUBY_B#て}手{RUBY_E#}",
+            "JAname": "信用できない語り手",
             "imageurl": "images/skills/1306-130607.png",
             "DescriptionEN": "Using the Technique grants all allies Misdirect for 20 seconds. Characters with Misdirect will not be detected by enemies, and entering battle in the Misdirect state recovers 3 Skill Point(s) for the team.",
             "DescriptionCN": "使用秘技后，我方全体进入持续20秒的【迷误】状态。【迷误】状态下不会被敌人发现。【迷误】状态期间进入战斗时为我方恢复3个战技点。",
@@ -409,21 +463,31 @@
             "tiny": false,
             "ENname": "Almanac",
             "CNname": "岁时记",
-            "JAname": "{RUBY_B#さいじき}歳時記{RUBY_E#}",
+            "JAname": "歳時記",
             "DescriptionEN": "When using Basic ATK, additionally regenerates 10 Energy.",
             "DescriptionCN": "施放普攻时额外恢复10点能量。",
             "DescriptionJP": "通常攻撃を行う時、EPを10回復する。",
             "imageurl": "images/skills/1306-1306101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "energy", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 10,
+                    "tag": ["self", "energy"]
+                }
+            ]
         },
         {
             "id": "1306102",
             "tiny": false,
             "ENname": "Artificial Flower",
             "CNname": "人造花",
-            "JAname": "{RUBY_B#じんぞう}人造{RUBY_E#}の{RUBY_B#はな}花{RUBY_E#}",
+            "JAname": "人造の花",
             "DescriptionEN": "The CRIT DMG Boost effect provided by the Skill will be extended until the start of the target's next turn.",
             "DescriptionCN": "战技提供的暴击伤害提高效果会延长到目标下一个回合开始。",
             "DescriptionJP": "戦闘スキルの会心ダメージアップ効果の継続時間が、ターゲットの次のターンが回ってくるまで延長される。",
@@ -437,14 +501,35 @@
             "tiny": false,
             "ENname": "Nocturne",
             "CNname": "夜想曲",
-            "JAname": "{RUBY_B#やそうきょく}夜想曲{RUBY_E#}",
+            "JAname": "夜想曲",
             "DescriptionEN": "Increases all allies' ATK by 15%. When there are 1/2/3 Quantum-Type allies in the team, additionally increases Quantum-Type allies' ATK by 5%/15%/30%.",
             "DescriptionCN": "我方全体的攻击力提高15%。当我方队伍中存在1名/2名/3名量子属性的角色时，我方量子属性的角色的攻击力额外提高5%/15%/30%。",
             "DescriptionJP": "味方全体の攻撃力+15%。パーティに量子属性キャラが1名/2名/3名いる時、さらに味方量子属性キャラの攻撃力+5%/15%/30%。",
             "imageurl": "images/skills/1306-1306103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multipliervalue": "15",
+                    "group": "1",
+                    "tag": ["allally", "atk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multipliervalue": "5",
+                    "maxStack": 3,
+                    "group": "1",
+                    "tag": ["allally", "atk"],
+                    "hide": true
+                }
+            ]
         },
         {
             "id": "1306201",
@@ -458,7 +543,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1306202",
@@ -472,7 +567,17 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 5.3,
+                    "tag": ["self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1306203",
@@ -486,7 +591,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1306204",
@@ -500,7 +615,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1306205",
@@ -514,7 +639,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1306206",
@@ -528,7 +663,17 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 8,
+                    "tag": ["self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1306207",
@@ -542,7 +687,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1306208",
@@ -556,7 +711,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1306209",
@@ -570,7 +735,17 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 10.7,
+                    "tag": ["self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1306210",
@@ -584,7 +759,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": ["self", "hp"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -593,35 +778,56 @@
             "eidolonnum": 1,
             "ENname": "Suspension of Disbelief",
             "CNname": "悬置怀疑",
-            "JAname": "{RUBY_B#す}捨{RUBY_E#}て{RUBY_B#お}置{RUBY_E#}かれた{RUBY_B#ぎねん}疑念{RUBY_E#}",
+            "JAname": "捨て置かれた疑念",
             "imageurl": "images/skills/1306-e1.png",
             "DescriptionEN": "The Cipher effect granted by the Ultimate lasts for 1 extra turn. All allies with Cipher have their ATK increased by 40%.",
             "DescriptionCN": "终结技施加的【谜诡】的持续时间额外增加1回合，持有【谜诡】的我方目标攻击力提高40%。",
             "DescriptionJP": "必殺技が付与する「奇怪な謎」の継続時間+1ターン。「奇怪な謎」を持つ味方の攻撃力+40%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 40,
+                    "tag": ["allally", "atk"]
+                }
+            ]
         },
         {
             "id": "130602-2",
             "eidolonnum": 2,
             "ENname": "Purely Fictitious",
             "CNname": "虚构无端",
-            "JAname": "{RUBY_B#いわ}謂{RUBY_E#}れなき{RUBY_B#きょこう}虚構{RUBY_E#}",
+            "JAname": "謂れなき虚構",
             "imageurl": "images/skills/1306-e2.png",
             "DescriptionEN": "Every stack of the Talent's effect allows allies to additionally ignore 8% of the target's DEF when dealing DMG.",
             "DescriptionCN": "天赋每层效果额外使我方目标造成伤害时无视目标8%的防御力。",
             "DescriptionJP": "天賦の効果1層につき、味方がダメージを与える時、さらに敵の防御力を8%無視する。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "ignoredef"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 8,
+                    "maxStack": 3,
+                    "tag": ["allally", "ignoredef"]
+                }
+            ]
         },
         {
             "id": "130603-3",
             "eidolonnum": 3,
             "ENname": "Pipedream",
             "CNname": "梦幻泡影",
-            "JAname": "{RUBY_B#むげんほうよう}夢幻泡影{RUBY_E#}",
+            "JAname": "夢幻泡影",
             "imageurl": "images/skills/1306-e3.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
@@ -635,7 +841,7 @@
             "eidolonnum": 4,
             "ENname": "Life Is a Gamble",
             "CNname": "游戏人间",
-            "JAname": "{RUBY_B#ぞくせゆうきょう}俗世遊興{RUBY_E#}",
+            "JAname": "俗世遊興",
             "imageurl": "images/skills/1306-e4.png",
             "DescriptionEN": "The Ultimate recovers 1 more Skill Point. The Talent additionally increases the Max Skill Points by 1.",
             "DescriptionCN": "终结技可以额外恢复1点战技点，天赋的战技点上限增加效果额外增加1点。",
@@ -649,7 +855,7 @@
             "eidolonnum": 5,
             "ENname": "Parallax Truth",
             "CNname": "双面真相",
-            "JAname": "{RUBY_B#うらおもて}裏表{RUBY_E#}の{RUBY_B#しんそう}真相{RUBY_E#}",
+            "JAname": "裏表の真相",
             "imageurl": "images/skills/1306-e5.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
@@ -663,14 +869,25 @@
             "eidolonnum": 6,
             "ENname": "Narrative Polysemy",
             "CNname": "多重解答",
-            "JAname": "{RUBY_B#かさ}重{RUBY_E#}なる{RUBY_B#かいとう}解答{RUBY_E#}",
+            "JAname": "重なる解答",
             "imageurl": "images/skills/1306-e6.png",
             "DescriptionEN": "The CRIT DMG Boost effect provided by the Skill additionally increases by an amount equal to 30% of Sparkle's CRIT DMG. When Sparkle uses Skill, her Skill's CRIT DMG Boost effect will apply to all allies with Cipher. When Sparkle uses her Ultimate, any single ally who benefits from her Skill's CRIT DMG Boost will spread that effect to allies with Cipher.",
             "DescriptionCN": "战技的暴击伤害提高效果额外提高，提高数值等同于花火暴击伤害的30%，花火施放战技时，使战技的暴击伤害提高效果对持有【谜诡】的队友都会生效，花火施放终结技时，若我方单体中有目标持有战技的暴击伤害提高效果，使该效果扩散至持有【谜诡】的队友。",
             "DescriptionJP": "戦闘スキルの会心ダメージアップ効果が、さらに花火の会心ダメージ30%分アップする。花火が戦闘スキルを発動する時、戦闘スキルの会心ダメージアップ効果が、「奇怪な謎」を持つすべての味方に対して有効になる。花火が必殺技を発動する時、花火の戦闘スキルによる会心ダメージアップ効果を持つ味方が存在する場合、「奇怪な謎」を持つ味方にその効果を拡散する。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "critdmg", "singleally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multipliertarget": "critdmg",
+                    "multiplier": 30,
+                    "tag": ["singleally", "critdmg"]
+                }
+            ]
         }
     ]
 }

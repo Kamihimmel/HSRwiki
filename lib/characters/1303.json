@@ -874,7 +874,8 @@
             "teamskill": false,
             "tags": [
                 "buff",
-                "allally"
+                "allally",
+                "ignoredef"
             ],
             "effect": [
                 {
