@@ -523,32 +523,6 @@
             "spoiler": false
         },
         {
-            "id": "1301",
-            "ENname": "Gallagher",
-            "CNname": "加拉赫",
-            "JAname": "ギャラガー",
-            "imageurl": "images/characters/1301.png",
-            "imagelargeurl": "images/characters/1301-large.png",
-            "etype": "fire",
-            "wtype": "abundance",
-            "rarity": "4",
-            "infourl": "lib/characters/1301.json",
-            "spoiler": false
-        },
-        {
-            "id": "1308",
-            "ENname": "Acheron",
-            "CNname": "黄泉",
-            "JAname": "{RUBY_B#よみ}黄泉{RUBY_E#}",
-            "imageurl": "images/characters/1308.png",
-            "imagelargeurl": "images/characters/1308-large.png",
-            "etype": "thunder",
-            "wtype": "nihility",
-            "rarity": "5",
-            "infourl": "lib/characters/1308.json",
-            "spoiler": false
-        },
-        {
             "id": "1214",
             "ENname": "Xueyi(WIP)",
             "CNname": "雪衣(施工中)",
@@ -572,6 +546,19 @@
             "wtype": "harmony",
             "rarity": "4",
             "infourl": "lib/characters/1215.json",
+            "spoiler": true
+        },
+        {
+            "id": "1301",
+            "ENname": "Gallagher(WIP)",
+            "CNname": "加拉赫(施工中)",
+            "JAname": "ギャラガー(建設中)",
+            "imageurl": "images/characters/1301.png",
+            "imagelargeurl": "images/characters/1301-large.png",
+            "etype": "fire",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "lib/characters/1301.json",
             "spoiler": true
         },
         {
@@ -611,6 +598,19 @@
             "wtype": "nihility",
             "rarity": "5",
             "infourl": "lib/characters/1307.json",
+            "spoiler": true
+        },
+        {
+            "id": "1308",
+            "ENname": "Acheron(WIP)",
+            "CNname": "黄泉(施工中)",
+            "JAname": "{RUBY_B#よみ}黄泉{RUBY_E#}(建設中)",
+            "imageurl": "images/characters/1308.png",
+            "imagelargeurl": "images/characters/1308-large.png",
+            "etype": "thunder",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/characters/1308.json",
             "spoiler": true
         },
         {

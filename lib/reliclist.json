@@ -317,30 +317,6 @@
             "spoiler": false
         },
         {
-            "id": "313",
-            "ENname": "Sigonia, the Unclaimed Desolation",
-            "CNname": "无主荒星茨冈尼亚",
-            "JAname": "{RUBY_B#こうりょう}荒涼{RUBY_E#}の{RUBY_B#わくせい}惑星{RUBY_E#}ツガンニヤ",
-            "imageurl": "images/relics/313.png",
-            "set": "2",
-            "sphere": "images/relics/IconRelic_313_5.png",
-            "rope": "images/relics/IconRelic_313_6.png",
-            "infourl": "lib/relics/313.json",
-            "spoiler": false
-        },
-        {
-            "id": "314",
-            "ENname": "Izumo Gensei and Takama Divine Realm",
-            "CNname": "出云显世与高天神国",
-            "JAname": "{RUBY_B#けんせ}顕世{RUBY_E#}の{RUBY_B#いずも}出雲{RUBY_E#}と{RUBY_B#たかま}高天{RUBY_E#}の{RUBY_B#しんこく}神国{RUBY_E#}",
-            "imageurl": "images/relics/314.png",
-            "set": "2",
-            "sphere": "images/relics/IconRelic_314_5.png",
-            "rope": "images/relics/IconRelic_314_6.png",
-            "infourl": "lib/relics/314.json",
-            "spoiler": false
-        },
-        {
             "id": "115",
             "ENname": "The Ashblazing Grand Duke(WIP)",
             "CNname": "毁烬焚骨的大公(施工中)",
@@ -418,6 +394,30 @@
             "sphere": "images/relics/IconRelic_312_5.png",
             "rope": "images/relics/IconRelic_312_6.png",
             "infourl": "lib/relics/312.json",
+            "spoiler": true
+        },
+        {
+            "id": "313",
+            "ENname": "Sigonia, the Unclaimed Desolation(WIP)",
+            "CNname": "无主荒星茨冈尼亚(施工中)",
+            "JAname": "{RUBY_B#こうりょう}荒涼{RUBY_E#}の{RUBY_B#わくせい}惑星{RUBY_E#}ツガンニヤ(建設中)",
+            "imageurl": "images/relics/313.png",
+            "set": "2",
+            "sphere": "images/relics/IconRelic_313_5.png",
+            "rope": "images/relics/IconRelic_313_6.png",
+            "infourl": "lib/relics/313.json",
+            "spoiler": true
+        },
+        {
+            "id": "314",
+            "ENname": "Izumo Gensei and Takama Divine Realm(WIP)",
+            "CNname": "出云显世与高天神国(施工中)",
+            "JAname": "{RUBY_B#けんせ}顕世{RUBY_E#}の{RUBY_B#いずも}出雲{RUBY_E#}と{RUBY_B#たかま}高天{RUBY_E#}の{RUBY_B#しんこく}神国{RUBY_E#}(建設中)",
+            "imageurl": "images/relics/314.png",
+            "set": "2",
+            "sphere": "images/relics/IconRelic_314_5.png",
+            "rope": "images/relics/IconRelic_314_6.png",
+            "infourl": "lib/relics/314.json",
             "spoiler": true
         }
     ]
