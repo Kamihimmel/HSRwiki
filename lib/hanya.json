@@ -1,8 +1,8 @@
 {
     "id": "1215",
-    "ENname": "Hanya(WIP)",
-    "CNname": "寒鸦(施工中)",
-    "JAname": "{RUBY_B#カンア}寒鴉{RUBY_E#}(建設中)",
+    "ENname": "Hanya",
+    "CNname": "寒鸦",
+    "JAname": "寒鴉",
     "imageurl": "images/characters/1215.png",
     "imagelargeurl": "images/characters/1215-large.png",
     "etype": "physical",
@@ -102,7 +102,7 @@
             "id": "121501",
             "ENname": "Oracle Brush",
             "CNname": "冥谶天笔",
-            "JAname": "{RUBY_B#めいちょうてんひつ}冥兆天筆{RUBY_E#}",
+            "JAname": "冥兆天筆",
             "imageurl": "images/skills/1215-121501.png",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of Hanya's ATK to a single enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于寒鸦[1]%攻击力的物理属性伤害。",
@@ -125,13 +125,23 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "physicalatk"]
+                }
             ]
         },
         {
             "id": "121502",
             "ENname": "Samsara, Locked",
             "CNname": "生灭系缚",
-            "JAname": "{RUBY_B#しょうめつほばく}生滅捕縛{RUBY_E#}",
+            "JAname": "生滅捕縛",
             "imageurl": "images/skills/1215-121502.png",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of Hanya's ATK to a single target enemy, then applies Burden to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies will immediately recover 1 Skill Point. Burden is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered [2] times.",
             "DescriptionCN": "对指定敌方单体造成等同于寒鸦[1]%攻击力的物理属性伤害，并使其陷入【承负】状态。 每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，立即为我方恢复1个战技点。【承负】仅对最新被施加的目标生效，并会在触发[2]次战技点恢复效果后自动解除。",
@@ -177,13 +187,23 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": ["singleatk", "skillatk", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "skillatk", "physicalatk"]
+                }
             ]
         },
         {
             "id": "121503",
             "ENname": "Ten-Lords' Decree, All Shall Obey",
             "CNname": "十王敕令，遍土遵行",
-            "JAname": "{RUBY_B#じゅうおう}十王{RUBY_E#}の{RUBY_B#ちょくれい}勅令{RUBY_E#}、{RUBY_B#あまね}遍{RUBY_E#}く{RUBY_B#じゅんこう}遵行{RUBY_E#}せよ",
+            "JAname": "十王の勅令、遍く遵行せよ",
             "imageurl": "images/skills/1215-121503.png",
             "DescriptionEN": "Increases the SPD of a target ally by [3]% of Hanya's SPD and increases the same target ally's ATK by [1]%, lasting for [2] turn(s).",
             "DescriptionCN": "使指定我方单体速度提高，提高数值等同于寒鸦速度的[3]%，并使该目标攻击力提高[1]%，持续[2]回合。",
@@ -247,13 +267,31 @@
                     "14": 22,
                     "15": 22.5
                 }
+            ],
+            "tags": ["buff", "speed", "speedpt", "singleally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multipliertarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": ["singleally", "speed"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleally", "atk"]
+                }
             ]
         },
         {
             "id": "121504",
             "ENname": "Sanction",
             "CNname": "罚恶",
-            "JAname": "{RUBY_B#ちょうあく}懲悪{RUBY_E#}",
+            "JAname": "懲悪",
             "imageurl": "images/skills/1215-121504.png",
             "DescriptionEN": "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by [1]%, lasting for [2] turn(s).",
             "DescriptionCN": "我方目标对陷入【承负】状态下的敌方目标施放普攻、战技、终结技时，造成的伤害提高[1]%，持续[2]回合。",
@@ -299,13 +337,23 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": ["buff", "allally", "alldmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": ["allally", "alldmg"]
+                }
             ]
         },
         {
             "id": "121507",
             "ENname": "Netherworld Judgment",
             "CNname": "判冥",
-            "JAname": "{RUBY_B#はんめい}判冥{RUBY_E#}",
+            "JAname": "判冥",
             "imageurl": "images/skills/1215-121507.png",
             "DescriptionEN": "Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.",
             "DescriptionCN": "立即攻击敌人，进入战斗后对敌方随机单体附上等同于战技效果的【承负】。",
@@ -324,21 +372,31 @@
             "tiny": false,
             "ENname": "Scrivener",
             "CNname": "录事",
-            "JAname": "録事{RUBY_B#ろくじ}録事{RUBY_E#}",
+            "JAname": "録事録事",
             "DescriptionEN": "Allies triggering Burden's Skill Point recovery effect have their ATK increased by 10% for 1 turn(s).",
             "DescriptionCN": "触发【承负】战技点回复效果的我方单位攻击力提高10%，持续1回合。",
             "DescriptionJP": "「承負」によるSP回復効果を発動させた味方の攻撃力+10%、1ターン継続。",
             "imageurl": "images/skills/1215-1215101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "singleally", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 10,
+                    "tag": ["singleally", "atk"]
+                }
+            ]
         },
         {
             "id": "1215102",
             "tiny": false,
             "ENname": "Netherworld",
             "CNname": "幽府",
-            "JAname": "{RUBY_B#ゆうふ}幽府{RUBY_E#}",
+            "JAname": "幽府",
             "DescriptionEN": "If the trigger count for the Burden's Skill Point recovery effect is 1 or lower when an enemy with Burden is defeated, then additionally recovers 1 Skill Point(s).",
             "DescriptionCN": "持有【承负】的敌方目标被消灭时，如果【承负】为全队回复战技点的触发次数小于等于1，则额外回复1点战技点。",
             "DescriptionJP": "「承負」を持つ敵が倒された時、その敵が持つ「承負」によるSP回復効果の発動回数が1回以下の場合、さらにSPを1回復する。",
@@ -352,14 +410,24 @@
             "tiny": false,
             "ENname": "Reanimated",
             "CNname": "还阳",
-            "JAname": "{RUBY_B#かんよう}還陽{RUBY_E#}",
+            "JAname": "還陽",
             "DescriptionEN": "When Burden's Skill Point recovery effect is triggered, this character regenerates 2 Energy.",
             "DescriptionCN": "当【承负】战技点恢复效果被触发时，自身恢复2点能量。",
             "DescriptionJP": "「承負」によるSP回復効果が発動された時、自身のEPを2回復する。",
             "imageurl": "images/skills/1215-1215103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 2,
+                    "tag": ["self", "energy"]
+                }
+            ]
         },
         {
             "id": "1215201",
@@ -373,7 +441,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["self", "atk"]
+                }
+            ]
         },
         {
             "id": "1215202",
@@ -387,7 +465,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 2,
+                    "tag": ["self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1215203",
@@ -401,7 +489,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["self", "atk"]
+                }
+            ]
         },
         {
             "id": "1215204",
@@ -415,7 +513,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1215205",
@@ -429,7 +537,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["self", "atk"]
+                }
+            ]
         },
         {
             "id": "1215206",
@@ -443,7 +561,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": ["self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1215207",
@@ -457,7 +585,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["self", "atk"]
+                }
+            ]
         },
         {
             "id": "1215208",
@@ -471,7 +609,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1215209",
@@ -485,7 +633,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 4,
+                    "tag": ["self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1215210",
@@ -499,7 +657,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": ["self", "atk"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -508,35 +676,55 @@
             "eidolonnum": 1,
             "ENname": "One Heart",
             "CNname": "一心",
-            "JAname": "{RUBY_B#いっしん}一心{RUBY_E#}",
+            "JAname": "一心",
             "imageurl": "images/skills/1215-e1.png",
             "DescriptionEN": "When an ally with Hanya's Ultimate's effect defeats an enemy, Hanya's action is Advanced Forward by 15%. This effect can only be triggered 1 time(s) per turn.",
             "DescriptionCN": "持有终结技效果的我方目标消灭敌方目标时，寒鸦行动提前15%，该效果每回合只能触发1次。",
             "DescriptionJP": "寒鴉の必殺技のバフを持つ味方が敵を倒した時、寒鴉の行動順が15%早まる。この効果はターンが回ってくるたびに1回まで発動できる。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "actionf"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 15,
+                    "tag": ["self", "actionf"]
+                }
+            ]
         },
         {
             "id": "121502-2",
             "eidolonnum": 2,
             "ENname": "Two Views",
             "CNname": "二观",
-            "JAname": "{RUBY_B#にかん}二観{RUBY_E#}",
+            "JAname": "二観",
             "imageurl": "images/skills/1215-e2.png",
             "DescriptionEN": "After using the Skill, this character's SPD increases by 20% for 1 turn(s).",
             "DescriptionCN": "施放战技后，速度提高20%，持续1回合。",
             "DescriptionJP": "戦闘スキルを発動した後、速度+20%、1ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 20,
+                    "tag": ["self", "speed"]
+                }
+            ]
         },
         {
             "id": "121503-3",
             "eidolonnum": 3,
             "ENname": "Three Temptations",
             "CNname": "三尘",
-            "JAname": "{RUBY_B#さんじん}三塵{RUBY_E#}",
+            "JAname": "三塵",
             "imageurl": "images/skills/1215-e3.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
@@ -550,7 +738,7 @@
             "eidolonnum": 4,
             "ENname": "Four Truths",
             "CNname": "四谛",
-            "JAname": "{RUBY_B#したい}四諦{RUBY_E#}",
+            "JAname": "四諦",
             "imageurl": "images/skills/1215-e4.png",
             "DescriptionEN": "The Ultimate's duration is additionally extended for 1 turn(s).",
             "DescriptionCN": "终结技的持续时间额外增加1回合。",
@@ -564,7 +752,7 @@
             "eidolonnum": 5,
             "ENname": "Five Skandhas",
             "CNname": "五阴",
-            "JAname": "{RUBY_B#ごおん}五陰{RUBY_E#}",
+            "JAname": "五陰",
             "imageurl": "images/skills/1215-e5.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
@@ -578,14 +766,24 @@
             "eidolonnum": 6,
             "ENname": "Six Reverences",
             "CNname": "六正",
-            "JAname": "{RUBY_B#ろくしょう}六正{RUBY_E#}",
+            "JAname": "六正",
             "imageurl": "images/skills/1215-e6.png",
             "DescriptionEN": "Increase the DMG Boost effect of the Talent by an additional 10%.",
             "DescriptionCN": "天赋的伤害提高效果额外提高10%。",
             "DescriptionJP": "天賦のダメージアップ効果がさらに10%アップ。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "alldmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
+                    "tag": ["allally", "alldmg"]
+                }
+            ]
         }
     ]
 }
