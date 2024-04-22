@@ -524,15 +524,15 @@
         },
         {
             "id": "1214",
-            "ENname": "Xueyi(WIP)",
-            "CNname": "雪衣(施工中)",
-            "JAname": "{RUBY_B#セツイ}雪衣{RUBY_E#}(建設中)",
+            "ENname": "Xueyi",
+            "CNname": "雪衣",
+            "JAname": "雪衣",
             "imageurl": "images/characters/1214.png",
             "imagelargeurl": "images/characters/1214-large.png",
             "etype": "quantum",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "lib/characters/1214.json",
+            "infourl": "lib/xueyi.json",
             "spoiler": true
         },
         {
