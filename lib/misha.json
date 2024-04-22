@@ -1,8 +1,8 @@
 {
     "id": "1312",
-    "ENname": "Misha(WIP)",
-    "CNname": "米沙(施工中)",
-    "JAname": "ミーシャ(建設中)",
+    "ENname": "Misha",
+    "CNname": "米沙",
+    "JAname": "ミーシャ",
     "imageurl": "images/characters/1312.png",
     "imagelargeurl": "images/characters/1312-large.png",
     "etype": "ice",
@@ -102,7 +102,7 @@
             "id": "131201",
             "ENname": "E—Excuse Me, Please!",
             "CNname": "请…请让一下！",
-            "JAname": "ど…{RUBY_B#ど}退{RUBY_E#}いてくださーい！",
+            "JAname": "ど…退いてくださーい！",
             "imageurl": "images/skills/1312-131201.png",
             "DescriptionEN": "Deals Ice DMG equal to [1]% of Misha's ATK to a single target enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于米沙[1]%攻击力的冰属性伤害。",
@@ -124,6 +124,16 @@
                     "7": 110,
                     "8": 120,
                     "9": 130
+                }
+            ],
+            "tags": ["singleatk", "normalatk", "iceatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "iceatk"]
                 }
             ]
         },
@@ -194,13 +204,30 @@
                     "14": 1,
                     "15": 1
                 }
+            ],
+            "tags": ["blastatk", "skillatk", "iceatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "skillatk", "iceatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": ["blastatk", "skillatk", "iceatk"]
+                }
             ]
         },
         {
             "id": "131203",
             "ENname": "G—Gonna Be Late!",
             "CNname": "要…要迟到了！",
-            "JAname": "ち…{RUBY_B#ちこく}遅刻{RUBY_E#}する！",
+            "JAname": "ち…遅刻する！",
             "imageurl": "images/skills/1312-131203.png",
             "DescriptionEN": "Has [1] Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to [2]% of Misha's ATK to a single target enemy. Then, the rest of the hits each deals Ice DMG equal to [2]% of Misha's ATK to a single random enemy. Just before each hit lands, there is a [3]% base chance to Freeze the target, lasting for 1 turn. While Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive Additional Ice DMG equal to [4]% of Misha's ATK. This Ultimate can possess up to [5] Hits Per Action. After the Ultimate is used, its Hits Per Action will be reset to the default level.",
             "DescriptionCN": "初始拥有[1]段攻击段数。首先施放1段攻击对指定敌方单体造成等同于米沙[2]%攻击力的冰属性伤害，其余每段攻击对敌方随机单体造成等同于米沙[2]%攻击力的冰属性伤害。每段攻击前有[3]%的基础概率使目标陷入冻结状态，持续1回合。 冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于米沙[4]%攻击力的冰属性附加伤害。 终结技最多累计[5]段攻击段数，施放终结技后攻击段数恢复至初始状态。",
@@ -298,13 +325,45 @@
                     "14": 10,
                     "15": 10
                 }
+            ],
+            "tags": ["ultatk", "iceatk", "frozen", "additionalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": ["ultatk", "iceatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "maxstack": 10,
+                    "tag": ["ultatk", "iceatk"]
+                },
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "multipliertarget": "frozen",
+                    "multiplier": 3,
+                    "tag": ["singleenemy"]
+                },
+                {
+                    "iid": "4",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["additionalatk", "iceatk"]
+                }
             ]
         },
         {
             "id": "131204",
             "ENname": "Horological Escapement",
             "CNname": "擒纵机构",
-            "JAname": "{RUBY_B#だっしんき}脱進機{RUBY_E#}",
+            "JAname": "脱進機",
             "imageurl": "images/skills/1312-131204.png",
             "DescriptionEN": "For every 1 Skill Point allies consume, Misha's next Ultimate delivers [2] more Hit(s) Per Action, and Misha regenerates [1] Energy.",
             "DescriptionCN": "我方全体每消耗1个战技点，增加[2]段米沙下一次终结技的攻击段数，同时米沙恢复[1]点能量。",
@@ -350,13 +409,23 @@
                     "14": 1,
                     "15": 1
                 }
+            ],
+            "tags": ["buff", "energy"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 1,
+                    "tag": ["self", "energy"]
+                }
             ]
         },
         {
             "id": "131207",
             "ENname": "Wait, You Are So Beautiful!",
             "CNname": "停一停吧，你真美丽！",
-            "JAname": "{RUBY_B#とき}時{RUBY_E#}よ{RUBY_B#と}止{RUBY_E#}まれ、アナタは{RUBY_B#うつく}美{RUBY_E#}しい",
+            "JAname": "時よ止まれ、アナタは美しい",
             "imageurl": "images/skills/1312-131207.png",
             "DescriptionEN": "After using the Technique, creates a dimension that lasts for 15 seconds. Enemies caught in the dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by 2 hit(s). Only 1 dimension created by allies can exist at the same time.",
             "DescriptionCN": "使用秘技后，制造1片持续15秒的特殊领域。处于特殊领域内的敌人陷入【梦境监牢】状态。【梦境监牢】状态下的敌人会停止所有行动。与处于【梦境监牢】状态下的敌人进入战斗后，增加2段米沙下一次终结技的攻击段数。我方制造的领域效果最多存在1个。",
@@ -382,7 +451,17 @@
             "imageurl": "images/skills/1312-1312101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "frozen"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "frozen",
+                    "multiplier": 80,
+                    "tag": ["singleenemy", "frozen"]
+                }
+            ]
         },
         {
             "id": "1312102",
@@ -396,7 +475,17 @@
             "imageurl": "images/skills/1312-1312102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "effecthit", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 60,
+                    "tag": ["self", "effecthit"]
+                }
+            ]
         },
         {
             "id": "1312103",
@@ -410,7 +499,17 @@
             "imageurl": "images/skills/1312-1312103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "critdmg", "self"],
+            "effect": [
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 30,
+                    "tag": ["self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1312201",
@@ -424,7 +523,17 @@
             "ttype": "icedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "icedmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
+                    "tag": ["self", "icedmg"]
+                }
+            ]
         },
         {
             "id": "1312202",
@@ -438,7 +547,17 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "def"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": ["self", "def"]
+                }
+            ]
         },
         {
             "id": "1312203",
@@ -452,7 +571,17 @@
             "ttype": "icedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "icedmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 3.2,
+                    "tag": ["self", "icedmg"]
+                }
+            ]
         },
         {
             "id": "1312204",
@@ -466,7 +595,17 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critrate"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 2.7,
+                    "tag": ["self", "critrate"]
+                }
+            ]
         },
         {
             "id": "1312205",
@@ -480,7 +619,17 @@
             "ttype": "icedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "icedmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
+                    "tag": ["self", "icedmg"]
+                }
+            ]
         },
         {
             "id": "1312206",
@@ -494,7 +643,17 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "def"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": ["self", "def"]
+                }
+            ]
         },
         {
             "id": "1312207",
@@ -508,7 +667,17 @@
             "ttype": "icedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "icedmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 4.8,
+                    "tag": ["self", "icedmg"]
+                }
+            ]
         },
         {
             "id": "1312208",
@@ -522,7 +691,17 @@
             "ttype": "critrate",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critrate"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 4,
+                    "tag": ["self", "critrate"]
+                }
+            ]
         },
         {
             "id": "1312209",
@@ -536,7 +715,17 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "def"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 10,
+                    "tag": ["self", "def"]
+                }
+            ]
         },
         {
             "id": "1312210",
@@ -550,7 +739,17 @@
             "ttype": "icedmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "icedmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "icedmg",
+                    "multiplier": 6.4,
+                    "tag": ["self", "icedmg"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -559,7 +758,7 @@
             "eidolonnum": 1,
             "ENname": "Whimsicality of Fancy",
             "CNname": "飘忽的幻影",
-            "JAname": "{RUBY_B#ゆ}揺{RUBY_E#}らめく{RUBY_B#げんえい}幻影{RUBY_E#}",
+            "JAname": "揺らめく幻影",
             "imageurl": "images/skills/1312-e1.png",
             "DescriptionEN": "When using the Ultimate, for every enemy on the field, additionally increases the Hits Per Action for the current Ultimate by 1 hit(s), up to a maximum increase of 5 hit(s).",
             "DescriptionCN": "施放终结技时，场上每有1个敌方目标，本次终结技的攻击段数额外增加1段，最多额外增加5段。",
@@ -573,21 +772,31 @@
             "eidolonnum": 2,
             "ENname": "Yearning of Youth",
             "CNname": "青春的怅望",
-            "JAname": "{RUBY_B#せいしゅん}青春{RUBY_E#}の{RUBY_B#かな}悲{RUBY_E#}しい{RUBY_B#ちょうぼう}眺望{RUBY_E#}",
+            "JAname": "青春の悲しい眺望",
             "imageurl": "images/skills/1312-e2.png",
             "DescriptionEN": "Before each hit of the Ultimate lands, there is a 24% base chance of reducing the target's DEF by 16% for 3 turn(s).",
             "DescriptionCN": "终结技每段攻击前，有24%的基础概率使目标防御力降低16%，持续3回合。",
             "DescriptionJP": "必殺技の各段攻撃の前に、24%の基礎確率で敵の防御力-16%、3ターン継続。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["singleenemy", "iceatk", "reducedef"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "def",
+                    "multiplier": 16,
+                    "tag": ["singleenemy", "reducedef"]
+                }
+            ]
         },
         {
             "id": "131203-3",
             "eidolonnum": 3,
             "ENname": "Vestige of Happiness",
             "CNname": "欢乐年光的影子",
-            "JAname": "{RUBY_B#わす}忘{RUBY_E#}れられない{RUBY_B#じだい}時代{RUBY_E#}の{RUBY_B#なごり}名残{RUBY_E#}",
+            "JAname": "忘れられない時代の名残",
             "imageurl": "images/skills/1312-e3.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
@@ -601,21 +810,32 @@
             "eidolonnum": 4,
             "ENname": "Visage of Kinship",
             "CNname": "亲挚的音容",
-            "JAname": "よく{RUBY_B#し}知{RUBY_E#}る{RUBY_B#おもかげ}面影{RUBY_E#}",
+            "JAname": "よく知る面影",
             "imageurl": "images/skills/1312-e4.png",
             "DescriptionEN": "Increases the DMG multiplier for each hit of the Ultimate by 6%.",
             "DescriptionCN": "终结技每段攻击的伤害倍率提高6%。",
             "DescriptionJP": "必殺技の各段攻撃のダメージ倍率+6%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "ultatk", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 6,
+                    "maxstack": 15,
+                    "tag": ["self", "ultatk"]
+                }
+            ]
         },
         {
             "id": "131205-5",
             "eidolonnum": 5,
             "ENname": "Genesis of First Love",
             "CNname": "最初的爱与友谊",
-            "JAname": "{RUBY_B#はじ}初{RUBY_E#}めての{RUBY_B#あいじょう}愛情{RUBY_E#}と{RUBY_B#ゆうじょう}友情{RUBY_E#}",
+            "JAname": "初めての愛情と友情",
             "imageurl": "images/skills/1312-e5.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
@@ -629,14 +849,24 @@
             "eidolonnum": 6,
             "ENname": "Estrangement of Dream",
             "CNname": "久已生疏的憧憬",
-            "JAname": "{RUBY_B#ひさ}久{RUBY_E#}しく{RUBY_B#わす}忘{RUBY_E#}れていた{RUBY_B#あこが}憧{RUBY_E#}れ",
+            "JAname": "久しく忘れていた憧れ",
             "imageurl": "images/skills/1312-e6.png",
             "DescriptionEN": "When using the Ultimate, increases own DMG by 30%, lasting until the end of the turn. In addition, the next time the Skill is used, recovers 1 Skill Point(s) for the team.",
             "DescriptionCN": "施放终结技时，使自身造成的伤害提高30%，持续至自身回合结束，且下一次施放战技后为我方恢复1个战技点。",
             "DescriptionJP": "必殺技を発動する時、自身の与ダメージ+30%、自身の次のターンが終了するまで継続。次の戦闘スキルを発動した後、SPを1回復する。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "alldmg", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 30,
+                    "tag": ["self", "alldmg"]
+                }
+            ]
         }
     ]
 }
