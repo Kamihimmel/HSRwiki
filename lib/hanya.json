@@ -125,6 +125,16 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "physicalatk"]
+                }
             ]
         },
         {
@@ -176,6 +186,16 @@
                     "13": 2,
                     "14": 2,
                     "15": 2
+                }
+            ],
+            "tags": ["singleatk", "skillatk", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "skillatk", "physicalatk"]
                 }
             ]
         },
@@ -247,6 +267,24 @@
                     "14": 22,
                     "15": 22.5
                 }
+            ],
+            "tags": ["buff", "speed", "speedpt", "singleally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multipliertarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": ["singleally", "speed"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleally", "atk"]
+                }
             ]
         },
         {
@@ -299,6 +337,16 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": ["buff", "allally", "alldmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": ["allally", "alldmg"]
+                }
             ]
         },
         {
@@ -331,7 +379,17 @@
             "imageurl": "images/skills/1215-1215101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "singleally", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 10,
+                    "tag": ["singleally", "atk"]
+                }
+            ]
         },
         {
             "id": "1215102",
@@ -359,7 +417,17 @@
             "imageurl": "images/skills/1215-1215103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 2,
+                    "tag": ["self", "energy"]
+                }
+            ]
         },
         {
             "id": "1215201",
@@ -373,7 +441,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["self", "atk"]
+                }
+            ]
         },
         {
             "id": "1215202",
@@ -387,7 +465,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 2,
+                    "tag": ["self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1215203",
@@ -401,7 +489,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["self", "atk"]
+                }
+            ]
         },
         {
             "id": "1215204",
@@ -415,7 +513,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1215205",
@@ -429,7 +537,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["self", "atk"]
+                }
+            ]
         },
         {
             "id": "1215206",
@@ -443,7 +561,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": ["self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1215207",
@@ -457,7 +585,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["self", "atk"]
+                }
+            ]
         },
         {
             "id": "1215208",
@@ -471,7 +609,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1215209",
@@ -485,7 +633,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 4,
+                    "tag": ["self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1215210",
@@ -499,7 +657,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": ["self", "atk"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -515,7 +683,17 @@
             "DescriptionJP": "寒鴉の必殺技のバフを持つ味方が敵を倒した時、寒鴉の行動順が15%早まる。この効果はターンが回ってくるたびに1回まで発動できる。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "actionf"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 15,
+                    "tag": ["self", "actionf"]
+                }
+            ]
         },
         {
             "id": "121502-2",
@@ -529,7 +707,17 @@
             "DescriptionJP": "戦闘スキルを発動した後、速度+20%、1ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 20,
+                    "tag": ["self", "speed"]
+                }
+            ]
         },
         {
             "id": "121503-3",
@@ -585,7 +773,17 @@
             "DescriptionJP": "天賦のダメージアップ効果がさらに10%アップ。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "alldmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
+                    "tag": ["allally", "alldmg"]
+                }
+            ]
         }
     ]
 }
