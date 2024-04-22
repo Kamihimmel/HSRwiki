@@ -533,7 +533,7 @@
             "wtype": "destruction",
             "rarity": "4",
             "infourl": "lib/xueyi.json",
-            "spoiler": true
+            "spoiler": false
         },
         {
             "id": "1215",

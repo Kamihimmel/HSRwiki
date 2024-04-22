@@ -388,14 +388,14 @@
             "teamskill": true,
             "weaknessbreak": 60,
             "energyregen": 0,
-            "tags": ["imaginaryatk", "allenemy", "skillpointre"],
+            "tags": ["quantumatk", "allenemy", "skillpointre"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "dmg",
                     "multipliertarget": "atk",
                     "multiplier": 80,
-                    "tag": ["allenemy", "imaginaryatk"]
+                    "tag": ["allenemy", "quantumatk"]
                 }
             ]
         }
@@ -421,6 +421,14 @@
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 240,
+                    "tag": ["alldmg", "self"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multipliertarget": "breakeffect",
+                    "multiplier": 100,
                     "tag": ["alldmg", "self"]
                 }
             ]
