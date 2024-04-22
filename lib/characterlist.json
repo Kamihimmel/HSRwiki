@@ -615,9 +615,9 @@
         },
         {
             "id": "1312",
-            "ENname": "Misha(WIP)",
-            "CNname": "米沙(施工中)",
-            "JAname": "ミーシャ(建設中)",
+            "ENname": "Misha",
+            "CNname": "米沙",
+            "JAname": "ミーシャ",
             "imageurl": "images/characters/1312.png",
             "imagelargeurl": "images/characters/1312-large.png",
             "etype": "ice",
