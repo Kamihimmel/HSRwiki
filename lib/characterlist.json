@@ -537,16 +537,16 @@
         },
         {
             "id": "1215",
-            "ENname": "Hanya(WIP)",
-            "CNname": "寒鸦(施工中)",
-            "JAname": "{RUBY_B#カンア}寒鴉{RUBY_E#}(建設中)",
+            "ENname": "Hanya",
+            "CNname": "寒鸦",
+            "JAname": "寒鴉",
             "imageurl": "images/characters/1215.png",
             "imagelargeurl": "images/characters/1215-large.png",
             "etype": "physical",
             "wtype": "harmony",
             "rarity": "4",
-            "infourl": "lib/characters/1215.json",
-            "spoiler": true
+            "infourl": "lib/hanya.json",
+            "spoiler": false
         },
         {
             "id": "1301",
@@ -624,7 +624,7 @@
             "wtype": "destruction",
             "rarity": "4",
             "infourl": "lib/misha.json",
-            "spoiler": true
+            "spoiler": false
         }
     ]
 }
