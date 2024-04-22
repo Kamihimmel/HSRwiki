@@ -3542,6 +3542,213 @@
             ]
         },
         {
+            "characterid": "1215",
+            "id": "121503",
+            "ENname": "Ten-Lords' Decree, All Shall Obey",
+            "CNname": "十王敕令，遍土遵行",
+            "JAname": "十王の勅令、遍く遵行せよ",
+            "stype": "ult",
+            "maxlevel": 15,
+            "weaknessbreak": 0,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 36,
+                    "2": 38.4,
+                    "3": 40.8,
+                    "4": 43.2,
+                    "5": 45.6,
+                    "6": 48,
+                    "7": 51,
+                    "8": 54,
+                    "9": 57,
+                    "10": 60,
+                    "11": 62.4,
+                    "12": 64.8,
+                    "13": 67.2,
+                    "14": 69.6,
+                    "15": 72
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2,
+                    "6": 2,
+                    "7": 2,
+                    "8": 2,
+                    "9": 2,
+                    "10": 2,
+                    "11": 2,
+                    "12": 2,
+                    "13": 2,
+                    "14": 2,
+                    "15": 2
+                },
+                {
+                    "1": 15,
+                    "2": 15.5,
+                    "3": 16,
+                    "4": 16.5,
+                    "5": 17,
+                    "6": 17.5,
+                    "7": 18.12,
+                    "8": 18.75,
+                    "9": 19.38,
+                    "10": 20,
+                    "11": 20.5,
+                    "12": 21,
+                    "13": 21.5,
+                    "14": 22,
+                    "15": 22.5
+                }
+            ],
+            "tags": [
+                "buff",
+                "speed",
+                "speedpt",
+                "singleally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multipliertarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": [
+                        "singleally",
+                        "speed"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "tag": [
+                        "singleally",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1215",
+            "id": "121504",
+            "ENname": "Sanction",
+            "CNname": "罚恶",
+            "JAname": "懲悪",
+            "stype": "talent",
+            "maxlevel": 15,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 15,
+                    "2": 16.5,
+                    "3": 18,
+                    "4": 19.5,
+                    "5": 21,
+                    "6": 22.5,
+                    "7": 24.38,
+                    "8": 26.25,
+                    "9": 28.12,
+                    "10": 30,
+                    "11": 31.5,
+                    "12": 33,
+                    "13": 34.5,
+                    "14": 36,
+                    "15": 37.5
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2,
+                    "6": 2,
+                    "7": 2,
+                    "8": 2,
+                    "9": 2,
+                    "10": 2,
+                    "11": 2,
+                    "12": 2,
+                    "13": 2,
+                    "14": 2,
+                    "15": 2
+                }
+            ],
+            "tags": [
+                "buff",
+                "allally",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "allally",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1215",
+            "id": "1215101",
+            "ENname": "Scrivener",
+            "CNname": "录事",
+            "JAname": "録事録事",
+            "stype": "trace",
+            "tags": [
+                "buff",
+                "singleally",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 10,
+                    "tag": [
+                        "singleally",
+                        "atk"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1215",
+            "id": "121506-6",
+            "ENname": "Six Reverences",
+            "CNname": "六正",
+            "JAname": "六正",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "allally",
+                "alldmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 10,
+                    "tag": [
+                        "allally",
+                        "alldmg"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "1217",
             "id": "121703",
             "ENname": "Tail: Spiritual Domination",
