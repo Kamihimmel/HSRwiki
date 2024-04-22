@@ -357,6 +357,7 @@
             "energyregen": 0,
             "tags": [
                 "singleenemy",
+                "allenemy",
                 "iceatk",
                 "defred"
             ],
@@ -374,7 +375,7 @@
                 {
                     "iid": "2",
                     "type": "debuff",
-                    "multipliertarget": "def",
+                    "addtarget": "def",
                     "multiplier": -20,
                     "tag": [
                         "allenemy",
