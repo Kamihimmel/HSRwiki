@@ -523,6 +523,19 @@
             "spoiler": false
         },
         {
+            "id": "1306",
+            "ENname": "Sparkle",
+            "CNname": "花火",
+            "JAname": "花火",
+            "imageurl": "images/characters/1306.png",
+            "imagelargeurl": "images/characters/1306-large.png",
+            "etype": "quantum",
+            "wtype": "harmony",
+            "rarity": "5",
+            "infourl": "lib/sparkle.json",
+            "spoiler": false
+        },
+        {
             "id": "1214",
             "ENname": "Xueyi(WIP)",
             "CNname": "雪衣(施工中)",
@@ -575,19 +588,6 @@
             "spoiler": true
         },
         {
-            "id": "1306",
-            "ENname": "Sparkle",
-            "CNname": "花火",
-            "JAname": "花火",
-            "imageurl": "images/characters/1306.png",
-            "imagelargeurl": "images/characters/1306-large.png",
-            "etype": "quantum",
-            "wtype": "harmony",
-            "rarity": "5",
-            "infourl": "lib/sparkle.json",
-            "spoiler": false
-        },
-        {
             "id": "1307",
             "ENname": "Black Swan(WIP)",
             "CNname": "黑天鹅(施工中)",
@@ -615,15 +615,15 @@
         },
         {
             "id": "1312",
-            "ENname": "Misha",
-            "CNname": "米沙",
-            "JAname": "ミーシャ",
+            "ENname": "Misha(WIP)",
+            "CNname": "米沙(施工中)",
+            "JAname": "ミーシャ(建設中)",
             "imageurl": "images/characters/1312.png",
             "imagelargeurl": "images/characters/1312-large.png",
             "etype": "ice",
             "wtype": "destruction",
             "rarity": "4",
-            "infourl": "lib/misha.json",
+            "infourl": "lib/characters/1312.json",
             "spoiler": true
         }
     ]
