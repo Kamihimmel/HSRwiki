@@ -1,8 +1,8 @@
 {
     "id": "1301",
-    "ENname": "Gallagher(WIP)",
-    "CNname": "加拉赫(施工中)",
-    "JAname": "ギャラガー(建設中)",
+    "ENname": "Gallagher",
+    "CNname": "加拉赫",
+    "JAname": "ギャラガー",
     "imageurl": "images/characters/1301.png",
     "imagelargeurl": "images/characters/1301-large.png",
     "etype": "fire",
@@ -102,7 +102,7 @@
             "id": "130101",
             "ENname": "Corkage Fee",
             "CNname": "开瓶费",
-            "JAname": "{RUBY_B#も}持{RUBY_E#}ち{RUBY_B#こ}込{RUBY_E#}み{RUBY_B#りょう}料{RUBY_E#}",
+            "JAname": "持ち込み料",
             "imageurl": "images/skills/1301-130101.png",
             "DescriptionEN": "Deals Fire DMG equal to [1]% of Gallagher's ATK to a single target enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于加拉赫[1]%攻击力的火属性伤害。",
@@ -125,13 +125,23 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "fireatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "fireatk"]
+                }
             ]
         },
         {
             "id": "130108",
             "ENname": "Nectar Blitz",
             "CNname": "酒花奔涌",
-            "JAname": "{RUBY_B#ごくじょう}極上{RUBY_E#}の{RUBY_B#あわだ}泡立{RUBY_E#}ち",
+            "JAname": "極上の泡立ち",
             "imageurl": "images/skills/1301-130108.png",
             "DescriptionEN": "Deals Fire DMG equal to [1]% of Gallagher's ATK to a single target enemy. Reduces the target's ATK by [2]%, lasting for [3] turn(s).",
             "DescriptionCN": "对指定敌方单体造成等同于加拉赫[1]%攻击力的火属性伤害。并使目标攻击力降低[2]%，持续[3]回合。",
@@ -176,13 +186,37 @@
                     "8": 2,
                     "9": 2
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "fireatk",
+                "debuff",
+                "singleenemy",
+                "reduceatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "fireatk", "singleenemy"]
+                },
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "reduceatk",
+                    "multiplier": 2,
+                    "tag": ["singleenemy", "reduceatk"]
+                }
             ]
         },
         {
             "id": "130102",
             "ENname": "Special Brew",
             "CNname": "罐装特调",
-            "JAname": "{RUBY_B#とくせい}特製{RUBY_E#}ドリンク",
+            "JAname": "特製ドリンク",
             "imageurl": "images/skills/1301-130102.png",
             "DescriptionEN": "Immediately heals a target ally for [1] HP.",
             "DescriptionCN": "立即为指定我方单体回复[1]点生命值。",
@@ -210,6 +244,16 @@
                     "13": 1852,
                     "14": 1936,
                     "15": 2020
+                }
+            ],
+            "tags": ["buff", "singleally", "heal"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "addtarget": "hppt",
+                    "multiplier": 1,
+                    "tag": ["singleally", "heal"]
                 }
             ]
         },
@@ -264,13 +308,23 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": ["ultatk", "allenemy", "fireatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["allenemy", "fireatk"]
+                }
             ]
         },
         {
             "id": "130104",
             "ENname": "Tipsy Tussle",
             "CNname": "鏖战正酣",
-            "JAname": "{RUBY_B#の}飲{RUBY_E#}み{RUBY_B#くら}比{RUBY_E#}べ",
+            "JAname": "飲み比べ",
             "imageurl": "images/skills/1301-130104.png",
             "DescriptionEN": "The Besotted state makes targets receive [1]% more Break DMG. Every time a Besotted target gets attacked by an ally, the attacking ally's HP is restored by [2].",
             "DescriptionCN": "【酩酊】使目标受到的击破伤害提高[1]%。陷入【酩酊】状态的目标每次受到我方角色攻击后，会回复攻击者[2]点生命值。",
@@ -316,13 +370,30 @@
                     "14": 774.4,
                     "15": 808
                 }
+            ],
+            "tags": ["buff", "allally", "breakdmg", "singleally", "heal"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakdmg",
+                    "multiplier": 1,
+                    "tag": ["allally", "breakdmg"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "hppt",
+                    "multiplier": 2,
+                    "tag": ["singleally", "heal"]
+                }
             ]
         },
         {
             "id": "130107",
             "ENname": "Artisan Elixir",
             "CNname": "亲启佳酿",
-            "JAname": "ヴィンテージ{RUBY_B#かいふう}開封{RUBY_E#}",
+            "JAname": "ヴィンテージ開封",
             "imageurl": "images/skills/1301-130107.png",
             "DescriptionEN": "Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for 2 turn(s). And deals Fire DMG equal to 50% of Gallagher's ATK to all enemies.",
             "DescriptionCN": "立即攻击敌人，进入战斗后使敌方全体陷入【酩酊】状态，持续2回合，并对敌方全体造成等同于加拉赫50%攻击力的火属性伤害。",
@@ -332,7 +403,17 @@
             "buffskill": false,
             "teamskill": true,
             "weaknessbreak": 60,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": ["fireatk", "allenemy"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 50,
+                    "tag": ["allenemy", "fireatk"]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -341,35 +422,55 @@
             "tiny": false,
             "ENname": "Novel Concoction",
             "CNname": "崭新配方",
-            "JAname": "{RUBY_B#しん}新{RUBY_E#}レシピ",
+            "JAname": "新レシピ",
             "DescriptionEN": "Increases this unit's Outgoing Healing by an amount equal to 50% of Break Effect, up to a maximum Outgoing Healing increase of 75%.",
             "DescriptionCN": "使自身提供的治疗量提高，提高数值等同于击破特攻的50%，最多使提供的治疗量提高75%。",
             "DescriptionJP": "自身の治癒量が、撃破特効50%分アップする。最大で治癒量+75%。",
             "imageurl": "images/skills/1301-1301101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "healrate"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "healrate",
+                    "multiplier": 75,
+                    "tag": ["self", "healrate"]
+                }
+            ]
         },
         {
             "id": "1301102",
             "tiny": false,
             "ENname": "Organic Yeast",
             "CNname": "天然酵母",
-            "JAname": "{RUBY_B#てんねんこうぼ}天然酵母{RUBY_E#}",
+            "JAname": "天然酵母",
             "DescriptionEN": "After using the Ultimate, immediately Advances Forward this unit's Action by 100%.",
             "DescriptionCN": "施放终结技后，立刻使自己行动提前100%。",
             "DescriptionJP": "必殺技を発動した後、自身の行動順を100%早める。",
             "imageurl": "images/skills/1301-1301102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "actionf", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 100,
+                    "tag": ["self", "actionf"]
+                }
+            ]
         },
         {
             "id": "1301103",
             "tiny": false,
             "ENname": "Bottoms Up",
             "CNname": "敬请干杯",
-            "JAname": "{RUBY_B#かんぱい}乾杯{RUBY_E#}！",
+            "JAname": "乾杯！",
             "DescriptionEN": "When Gallagher uses Nectar Blitz to attack Besotted enemies, the HP Restore effect of his Talent will also apply to other allies for this time.",
             "DescriptionCN": "加拉赫施放【酒花奔涌】攻击陷入【酩酊】状态的目标时，使此次天赋提供的生命回复效果对我方队友也会生效。",
             "DescriptionJP": "ギャラガーが「極上の泡立ち」で「酩酊」状態の敵を攻撃する時、その回の天賦によるHP回復効果は自身以外の味方にも有効になる。",
@@ -390,7 +491,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301202",
@@ -404,7 +515,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "breakeffect", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": ["breakeffect", "self"]
+                }
+            ]
         },
         {
             "id": "1301203",
@@ -418,7 +539,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301204",
@@ -432,7 +563,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1301205",
@@ -446,7 +587,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301206",
@@ -460,7 +611,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "breakeffect", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": ["breakeffect", "self"]
+                }
+            ]
         },
         {
             "id": "1301207",
@@ -474,7 +635,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301208",
@@ -488,7 +659,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1301209",
@@ -502,7 +683,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 8,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301210",
@@ -516,7 +707,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": ["self", "hp"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -532,7 +733,24 @@
             "DescriptionJP": "戦闘に入った後、ギャラガーはEPを20回復する。同時にギャラガーの効果抵抗+50%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "energy", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 20,
+                    "tag": ["self", "energy"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 50,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "130102-2",
@@ -546,7 +764,17 @@
             "DescriptionJP": "戦闘スキルを発動した時、指定した味方単体のデバフを1つ解除し、その味方の効果抵抗+30%、2ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "singleally", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 30,
+                    "tag": ["singleally", "effectres"]
+                }
+            ]
         },
         {
             "id": "130103-3",
@@ -602,7 +830,24 @@
             "DescriptionJP": "ギャラガーの撃破特効+20%、弱点撃破効率+20%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "breakeffect", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 20,
+                    "tag": ["breakeffect", "self"]
+                },
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "weaknessbreakefficiency",
+                    "multiplier": 20,
+                    "tag": ["weaknessbreakefficiency", "self"]
+                }
+            ]
         }
     ]
 }

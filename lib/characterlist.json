@@ -550,16 +550,16 @@
         },
         {
             "id": "1301",
-            "ENname": "Gallagher(WIP)",
-            "CNname": "加拉赫(施工中)",
-            "JAname": "ギャラガー(建設中)",
+            "ENname": "Gallagher",
+            "CNname": "加拉赫",
+            "JAname": "ギャラガー",
             "imageurl": "images/characters/1301.png",
             "imagelargeurl": "images/characters/1301-large.png",
             "etype": "fire",
             "wtype": "abundance",
             "rarity": "4",
-            "infourl": "lib/characters/1301.json",
-            "spoiler": true
+            "infourl": "lib/gallagher.json",
+            "spoiler": false
         },
         {
             "id": "1304",

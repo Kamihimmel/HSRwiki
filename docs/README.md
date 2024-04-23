@@ -356,6 +356,7 @@
 |ultcritdmg|终结技暴击伤害||
 |followupcritdmg|追加攻击暴击伤害||
 |breakeffect|击破特攻||
+|weaknessbreakefficiency|弱点击破效率||
 |alldmg|伤害加成||
 |physicaldmg|物理属性伤害加成||
 |firedmg|火属性伤害加成||

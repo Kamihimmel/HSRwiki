@@ -422,14 +422,6 @@
                     "addtarget": "alldmg",
                     "multiplier": 240,
                     "tag": ["alldmg", "self"]
-                },
-                {
-                    "iid": "2",
-                    "type": "buff",
-                    "addtarget": "alldmg",
-                    "multipliertarget": "breakeffect",
-                    "multiplier": 100,
-                    "tag": ["alldmg", "self"]
                 }
             ]
         },
