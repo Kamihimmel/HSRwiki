@@ -125,6 +125,16 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "fireatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "fireatk"]
+                }
             ]
         },
         {
@@ -176,6 +186,30 @@
                     "8": 2,
                     "9": 2
                 }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "fireatk",
+                "debuff",
+                "singleenemy",
+                "reduceatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "fireatk", "singleenemy"]
+                },
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "reduceatk",
+                    "multiplier": 2,
+                    "tag": ["singleenemy", "reduceatk"]
+                }
             ]
         },
         {
@@ -210,6 +244,16 @@
                     "13": 1852,
                     "14": 1936,
                     "15": 2020
+                }
+            ],
+            "tags": ["buff", "singleally", "heal"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "heal",
+                    "addtarget": "hppt",
+                    "multiplier": 1,
+                    "tag": ["singleally", "heal"]
                 }
             ]
         },
@@ -264,6 +308,16 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": ["ultatk", "allenemy", "fireatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["allenemy", "fireatk"]
+                }
             ]
         },
         {
@@ -316,6 +370,23 @@
                     "14": 774.4,
                     "15": 808
                 }
+            ],
+            "tags": ["buff", "allally", "breakdmg", "singleally", "heal"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakdmg",
+                    "multiplier": 1,
+                    "tag": ["allally", "breakdmg"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "hppt",
+                    "multiplier": 2,
+                    "tag": ["singleally", "heal"]
+                }
             ]
         },
         {
@@ -332,7 +403,17 @@
             "buffskill": false,
             "teamskill": true,
             "weaknessbreak": 60,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": ["fireatk", "allenemy"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 50,
+                    "tag": ["allenemy", "fireatk"]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -348,7 +429,17 @@
             "imageurl": "images/skills/1301-1301101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "healrate"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "healrate",
+                    "multiplier": 75,
+                    "tag": ["self", "healrate"]
+                }
+            ]
         },
         {
             "id": "1301102",
@@ -362,7 +453,17 @@
             "imageurl": "images/skills/1301-1301102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "actionf", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 100,
+                    "tag": ["self", "actionf"]
+                }
+            ]
         },
         {
             "id": "1301103",
@@ -390,7 +491,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301202",
@@ -404,7 +515,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "breakeffect", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": ["breakeffect", "self"]
+                }
+            ]
         },
         {
             "id": "1301203",
@@ -418,7 +539,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301204",
@@ -432,7 +563,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1301205",
@@ -446,7 +587,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301206",
@@ -460,7 +611,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "breakeffect", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": ["breakeffect", "self"]
+                }
+            ]
         },
         {
             "id": "1301207",
@@ -474,7 +635,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301208",
@@ -488,7 +659,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["self", "hp"]
+                }
+            ]
         },
         {
             "id": "1301209",
@@ -502,7 +683,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 8,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1301210",
@@ -516,7 +707,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": ["self", "hp"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -532,7 +733,24 @@
             "DescriptionJP": "戦闘に入った後、ギャラガーはEPを20回復する。同時にギャラガーの効果抵抗+50%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "energy", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 20,
+                    "tag": ["self", "energy"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 50,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "130102-2",
@@ -546,7 +764,17 @@
             "DescriptionJP": "戦闘スキルを発動した時、指定した味方単体のデバフを1つ解除し、その味方の効果抵抗+30%、2ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "singleally", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 30,
+                    "tag": ["singleally", "effectres"]
+                }
+            ]
         },
         {
             "id": "130103-3",
@@ -602,7 +830,24 @@
             "DescriptionJP": "ギャラガーの撃破特効+20%、弱点撃破効率+20%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "breakeffect", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 20,
+                    "tag": ["breakeffect", "self"]
+                },
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "weaknessbreakefficiency",
+                    "multiplier": 20,
+                    "tag": ["weaknessbreakefficiency", "self"]
+                }
+            ]
         }
     ]
 }
