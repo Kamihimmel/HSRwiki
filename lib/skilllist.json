@@ -3919,6 +3919,173 @@
             ]
         },
         {
+            "characterid": "1301",
+            "id": "130108",
+            "ENname": "Nectar Blitz",
+            "CNname": "酒花奔涌",
+            "JAname": "極上の泡立ち",
+            "stype": "basicattack",
+            "maxlevel": 9,
+            "weaknessbreak": 90,
+            "energyregen": 20,
+            "levelmultiplier": [
+                {
+                    "1": 125,
+                    "2": 150,
+                    "3": 175,
+                    "4": 200,
+                    "5": 225,
+                    "6": 250,
+                    "7": 275,
+                    "8": 300,
+                    "9": 325
+                },
+                {
+                    "1": 10,
+                    "2": 11,
+                    "3": 12,
+                    "4": 13,
+                    "5": 14,
+                    "6": 15,
+                    "7": 16,
+                    "8": 17,
+                    "9": 18
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2,
+                    "6": 2,
+                    "7": 2,
+                    "8": 2,
+                    "9": 2
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "normalatk",
+                "fireatk",
+                "debuff",
+                "singleenemy",
+                "reduceatk"
+            ],
+            "effect": [
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "reduceatk",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "reduceatk"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1301",
+            "id": "130104",
+            "ENname": "Tipsy Tussle",
+            "CNname": "鏖战正酣",
+            "JAname": "飲み比べ",
+            "stype": "talent",
+            "maxlevel": 15,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 6,
+                    "2": 6.6,
+                    "3": 7.2,
+                    "4": 7.8,
+                    "5": 8.4,
+                    "6": 9,
+                    "7": 9.75,
+                    "8": 10.5,
+                    "9": 11.25,
+                    "10": 12,
+                    "11": 12.6,
+                    "12": 13.2,
+                    "13": 13.8,
+                    "14": 14.4,
+                    "15": 15
+                },
+                {
+                    "1": 80,
+                    "2": 136,
+                    "3": 192,
+                    "4": 270.4,
+                    "5": 332,
+                    "6": 393.6,
+                    "7": 455.2,
+                    "8": 516.8,
+                    "9": 578.4,
+                    "10": 640,
+                    "11": 673.6,
+                    "12": 707.2,
+                    "13": 740.8,
+                    "14": 774.4,
+                    "15": 808
+                }
+            ],
+            "tags": [
+                "buff",
+                "allally",
+                "breakdmg",
+                "singleally",
+                "heal"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakdmg",
+                    "multiplier": 1,
+                    "tag": [
+                        "allally",
+                        "breakdmg"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "hppt",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleally",
+                        "heal"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1301",
+            "id": "130102-2",
+            "ENname": "Lion's Tail",
+            "CNname": "狮子之尾",
+            "JAname": "レオ・ザ・ライオン",
+            "stype": "eidolon",
+            "tags": [
+                "buff",
+                "singleally",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 30,
+                    "tag": [
+                        "singleally",
+                        "effectres"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "1303",
             "id": "130302",
             "ENname": "String Sings Slow Swirls",
