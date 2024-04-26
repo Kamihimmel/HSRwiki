@@ -562,19 +562,6 @@
             "spoiler": false
         },
         {
-            "id": "1304",
-            "ENname": "Aventurine(WIP)",
-            "CNname": "砂金(施工中)",
-            "JAname": "アベンチュリン(建設中)",
-            "imageurl": "images/characters/1304.png",
-            "imagelargeurl": "images/characters/1304-large.png",
-            "etype": "imaginary",
-            "wtype": "preservation",
-            "rarity": "5",
-            "infourl": "lib/characters/1304.json",
-            "spoiler": true
-        },
-        {
             "id": "1306",
             "ENname": "Sparkle",
             "CNname": "花火",
@@ -586,6 +573,32 @@
             "rarity": "5",
             "infourl": "lib/sparkle.json",
             "spoiler": false
+        },
+        {
+            "id": "1312",
+            "ENname": "Misha",
+            "CNname": "米沙",
+            "JAname": "ミーシャ",
+            "imageurl": "images/characters/1312.png",
+            "imagelargeurl": "images/characters/1312-large.png",
+            "etype": "ice",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "lib/misha.json",
+            "spoiler": false
+        },
+        {
+            "id": "1304",
+            "ENname": "Aventurine(WIP)",
+            "CNname": "砂金(施工中)",
+            "JAname": "アベンチュリン(建設中)",
+            "imageurl": "images/characters/1304.png",
+            "imagelargeurl": "images/characters/1304-large.png",
+            "etype": "imaginary",
+            "wtype": "preservation",
+            "rarity": "5",
+            "infourl": "lib/characters/1304.json",
+            "spoiler": true
         },
         {
             "id": "1307",
@@ -612,19 +625,6 @@
             "rarity": "5",
             "infourl": "lib/characters/1308.json",
             "spoiler": true
-        },
-        {
-            "id": "1312",
-            "ENname": "Misha",
-            "CNname": "米沙",
-            "JAname": "ミーシャ",
-            "imageurl": "images/characters/1312.png",
-            "imagelargeurl": "images/characters/1312-large.png",
-            "etype": "ice",
-            "wtype": "destruction",
-            "rarity": "4",
-            "infourl": "lib/misha.json",
-            "spoiler": false
         }
     ]
 }
