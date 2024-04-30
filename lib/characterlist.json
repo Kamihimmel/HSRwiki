@@ -563,16 +563,16 @@
         },
         {
             "id": "1304",
-            "ENname": "Aventurine(WIP)",
-            "CNname": "砂金(施工中)",
-            "JAname": "アベンチュリン(建設中)",
+            "ENname": "Aventurine",
+            "CNname": "砂金",
+            "JAname": "アベンチュリン",
             "imageurl": "images/characters/1304.png",
             "imagelargeurl": "images/characters/1304-large.png",
             "etype": "imaginary",
             "wtype": "preservation",
             "rarity": "5",
-            "infourl": "lib/characters/1304.json",
-            "spoiler": true
+            "infourl": "lib/aventurine.json",
+            "spoiler": false
         },
         {
             "id": "1306",
