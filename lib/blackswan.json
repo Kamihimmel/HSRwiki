@@ -147,6 +147,16 @@
                     "8": 71,
                     "9": 74
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "windatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "windatk"]
+                }
             ]
         },
         {
@@ -250,6 +260,30 @@
                     "14": 3,
                     "15": 3
                 }
+            ],
+            "tags": ["singleatk", "blastatk", "skillatk", "windatk", "aoe"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "skillatk", "windatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["blastatk", "skillatk", "windatk"]
+                },
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "addtarget": "reducedef",
+                    "multiplier": 4,
+                    "tag": ["aoe", "reducedef"]
+                }
             ]
         },
         {
@@ -336,6 +370,23 @@
                     "13": 1,
                     "14": 1,
                     "15": 1
+                }
+            ],
+            "tags": ["debuff", "ultatk", "windatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": 3,
+                    "tag": ["allenemy", "dmgreceive"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["aoe", "ultatk", "windatk"]
                 }
             ]
         },
@@ -491,6 +542,23 @@
                     "14": 50,
                     "15": 50
                 }
+            ],
+            "tags": ["dotatk", "blastatk", "windsheardotdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["dotatk", "windsheardotdmg"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 5,
+                    "tag": ["blastatk", "dotatk", "windsheardotdmg"]
+                }
             ]
         },
         {
@@ -551,7 +619,17 @@
             "imageurl": "images/skills/1307-1307103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "alldmg", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 72,
+                    "tag": ["self", "alldmg"]
+                }
+            ]
         },
         {
             "id": "1307201",
