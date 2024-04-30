@@ -627,7 +627,7 @@
                     "type": "buff",
                     "addtarget": "alldmg",
                     "multiplier": 72,
-                    "tag": ["self", "alldmg"]
+                    "tag": ["buff", "self", "alldmg"]
                 }
             ]
         },
@@ -643,7 +643,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1307202",
@@ -657,7 +667,17 @@
             "ttype": "winddmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "winddmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 3.2,
+                    "tag": ["buff", "self", "winddmg"]
+                }
+            ]
         },
         {
             "id": "1307203",
@@ -671,7 +691,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1307204",
@@ -685,7 +715,17 @@
             "ttype": "effecthit",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effecthit"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "effecthit"]
+                }
+            ]
         },
         {
             "id": "1307205",
@@ -699,7 +739,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1307206",
@@ -713,7 +763,17 @@
             "ttype": "winddmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "winddmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 4.8,
+                    "tag": ["buff", "self", "winddmg"]
+                }
+            ]
         },
         {
             "id": "1307207",
@@ -727,7 +787,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1307208",
@@ -741,7 +811,17 @@
             "ttype": "effecthit",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effecthit"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "effecthit"]
+                }
+            ]
         },
         {
             "id": "1307209",
@@ -755,7 +835,17 @@
             "ttype": "winddmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "winddmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 6.4,
+                    "tag": ["buff", "self", "winddmg"]
+                }
+            ]
         },
         {
             "id": "1307210",
@@ -769,7 +859,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -785,7 +885,45 @@
             "DescriptionJP": "ブラックスワンが戦闘可能状態の時、風化、裂創、燃焼、感電状態の敵の対応する風、物理、炎、雷属性の耐性がそれぞれ25%ダウンする。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "windres",
+                "physicalres",
+                "fireres",
+                "lightningres",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "windres",
+                    "multiplier": 25,
+                    "tag": ["debuff", "singleenemy", "windres"]
+                },
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "fireres",
+                    "multiplier": 25,
+                    "tag": ["debuff", "singleenemy", "fireres"]
+                },
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "addtarget": "lightningres",
+                    "multiplier": 25,
+                    "tag": ["debuff", "singleenemy", "lightningres"]
+                },
+                {
+                    "iid": "4",
+                    "type": "debuff",
+                    "addtarget": "physicalres",
+                    "multiplier": 25,
+                    "tag": ["debuff", "singleenemy", "physicalres"]
+                }
+            ]
         },
         {
             "id": "130702-2",
@@ -827,7 +965,25 @@
             "DescriptionJP": "「開示」状態の敵の効果抵抗-10%。「開示」状態の敵のターンが回ってきた時、または倒された時、ブラックスワンのEPを8回復する。EP回復効果は「開示」状態の継続時間内に1回まで発動できる。再度「開示」状態を付与すると、発動可能回数がリセットされる。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["debuff", "effectresreduce", "singleenemy"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "effectres",
+                    "multiplier": -10,
+                    "duration": 2,
+                    "tag": ["debuff", "effectresreduce", "singleenemy"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "energy"]
+                }
+            ]
         },
         {
             "id": "130705-5",
