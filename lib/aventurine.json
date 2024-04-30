@@ -125,6 +125,16 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "imaginaryatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "def",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "imaginaryatk"]
+                }
             ]
         },
         {
@@ -210,6 +220,25 @@
                     "13": 200,
                     "14": 200,
                     "15": 200
+                }
+            ],
+            "tags": ["shield", "allally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "shield",
+                    "multipliertarget": "def",
+                    "multiplier": 1,
+                    "group": "aventurine-1",
+                    "tag": ["shield", "allally"]
+                },
+                {
+                    "iid": "2",
+                    "type": "shield",
+                    "multipliertarget": "",
+                    "multiplier": 2,
+                    "group": "aventurine-1",
+                    "tag": ["shield", "allally"]
                 }
             ]
         },
@@ -297,6 +326,30 @@
                     "13": 3,
                     "14": 3,
                     "15": 3
+                }
+            ],
+            "tags": [
+                "singleatk",
+                "ultatk",
+                "imaginaryatk",
+                "critdmg",
+                "buff",
+                "allally"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "def",
+                    "multiplier": 2,
+                    "tag": ["singleatk", "ultatk", "imaginaryatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 3,
+                    "tag": ["buff", "allally", "critdmg"]
                 }
             ]
         },
@@ -401,6 +454,31 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": [
+                "buff",
+                "effectres",
+                "singleally",
+                "singleenemy",
+                "followupatk",
+                "imaginaryatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["buff", "singleally", "effectres"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "def",
+                    "multiplier": 3,
+                    "maxstack": 7,
+                    "tag": ["singleenemy", "followupatk", "imaginaryatk"]
+                }
             ]
         },
         {
@@ -417,7 +495,17 @@
             "buffskill": true,
             "teamskill": false,
             "weaknessbreak": 0,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": ["buff", "def", "allally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 60,
+                    "tag": ["allally", "def"]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -433,7 +521,17 @@
             "imageurl": "images/skills/1304-1304101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critrate"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 48,
+                    "tag": ["self", "critrate"]
+                }
+            ]
         },
         {
             "id": "1304102",
@@ -461,7 +559,25 @@
             "imageurl": "images/skills/1304-1304103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["shield", "allally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "shield",
+                    "multipliertarget": "def",
+                    "multiplier": 7.2,
+                    "group": "aventurine-2",
+                    "tag": ["shield", "allally"]
+                },
+                {
+                    "iid": "2",
+                    "type": "shield",
+                    "multiplier": 96,
+                    "group": "aventurine-2",
+                    "tag": ["shield", "allally"]
+                }
+            ]
         },
         {
             "id": "1304201",
@@ -717,7 +833,17 @@
             "DescriptionJP": "「堅固なチップ」を持つ味方の会心ダメージ+20%。必殺技を発動した後、味方全体に「堅固なチップ」バリアを付与する、3ターン継続。バリア耐久値は戦闘スキルで付与できるバリア耐久値の100%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "singleally", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 20,
+                    "tag": ["singleally", "critdmg"]
+                }
+            ]
         },
         {
             "id": "130402-2",
@@ -731,7 +857,17 @@
             "DescriptionJP": "通常攻撃を行う時、ターゲットの全耐性-12%、3ターン継続。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["debuff", "singleenemy", "allres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "allres",
+                    "multiplier": 12,
+                    "tag": ["singleenemy", "allres"]
+                }
+            ]
         },
         {
             "id": "130403-3",
@@ -759,7 +895,17 @@
             "DescriptionJP": "天賦の追加攻撃を発動する前にアベンチュリンの防御力+40%、2ターン継続。さらに天賦の追加攻撃の攻撃段数+3。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "def", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 40,
+                    "tag": ["allally", "def"]
+                }
+            ]
         },
         {
             "id": "130405-5",
@@ -787,7 +933,17 @@
             "DescriptionJP": "バリアを持つ自身以外の味方1名につき、アベンチュリンの与ダメージ+50%、最大で+150%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "alldmg", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 150,
+                    "tag": ["buff", "self", "alldmg"]
+                }
+            ]
         }
     ]
 }
