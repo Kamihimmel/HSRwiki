@@ -4905,6 +4905,193 @@
             ]
         },
         {
+            "characterid": "1307",
+            "id": "130703",
+            "ENname": "Bliss of Otherworld's Embrace",
+            "CNname": "沉醉于彼界的臂湾",
+            "JAname": "彼方の抱擁に酔いしれて",
+            "stype": "ult",
+            "maxlevel": 15,
+            "weaknessbreak": 60,
+            "energyregen": 5,
+            "levelmultiplier": [
+                {
+                    "1": 72,
+                    "2": 76.8,
+                    "3": 81.6,
+                    "4": 86.4,
+                    "5": 91.2,
+                    "6": 96,
+                    "7": 102,
+                    "8": 108,
+                    "9": 114,
+                    "10": 120,
+                    "11": 124.8,
+                    "12": 129.6,
+                    "13": 134.4,
+                    "14": 139.2,
+                    "15": 144
+                },
+                {
+                    "1": 2,
+                    "2": 2,
+                    "3": 2,
+                    "4": 2,
+                    "5": 2,
+                    "6": 2,
+                    "7": 2,
+                    "8": 2,
+                    "9": 2,
+                    "10": 2,
+                    "11": 2,
+                    "12": 2,
+                    "13": 2,
+                    "14": 2,
+                    "15": 2
+                },
+                {
+                    "1": 15,
+                    "2": 16,
+                    "3": 17,
+                    "4": 18,
+                    "5": 19,
+                    "6": 20,
+                    "7": 21.25,
+                    "8": 22.5,
+                    "9": 23.75,
+                    "10": 25,
+                    "11": 26,
+                    "12": 27,
+                    "13": 28,
+                    "14": 29,
+                    "15": 30
+                },
+                {
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 1,
+                    "5": 1,
+                    "6": 1,
+                    "7": 1,
+                    "8": 1,
+                    "9": 1,
+                    "10": 1,
+                    "11": 1,
+                    "12": 1,
+                    "13": 1,
+                    "14": 1,
+                    "15": 1
+                }
+            ],
+            "tags": [
+                "debuff",
+                "ultatk",
+                "windatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": 3,
+                    "tag": [
+                        "allenemy",
+                        "dmgreceive"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1307",
+            "id": "130701-1",
+            "ENname": "Seven Pillars of Wisdom",
+            "CNname": "三磅石，七阶柱",
+            "JAname": "知恵の七柱",
+            "stype": "eidolon",
+            "tags": [
+                "debuff",
+                "windres",
+                "physicalres",
+                "fireres",
+                "lightningres",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "windres",
+                    "multiplier": 25,
+                    "tag": [
+                        "debuff",
+                        "singleenemy",
+                        "windres"
+                    ]
+                },
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "fireres",
+                    "multiplier": 25,
+                    "tag": [
+                        "debuff",
+                        "singleenemy",
+                        "fireres"
+                    ]
+                },
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "addtarget": "lightningres",
+                    "multiplier": 25,
+                    "tag": [
+                        "debuff",
+                        "singleenemy",
+                        "lightningres"
+                    ]
+                },
+                {
+                    "iid": "4",
+                    "type": "debuff",
+                    "addtarget": "physicalres",
+                    "multiplier": 25,
+                    "tag": [
+                        "debuff",
+                        "singleenemy",
+                        "physicalres"
+                    ]
+                }
+            ]
+        },
+        {
+            "characterid": "1307",
+            "id": "130704-4",
+            "ENname": "In Tears We Gift",
+            "CNname": "泪水，亦是礼物",
+            "JAname": "涙もまた贈り物",
+            "stype": "eidolon",
+            "tags": [
+                "debuff",
+                "effectresreduce",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "effectres",
+                    "multiplier": -10,
+                    "duration": 2,
+                    "tag": [
+                        "debuff",
+                        "effectresreduce",
+                        "singleenemy"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "1312",
             "id": "131203",
             "ENname": "G—Gonna Be Late!",
