@@ -1,8 +1,8 @@
 {
     "id": "1307",
-    "ENname": "Black Swan(WIP)",
-    "CNname": "黑天鹅(施工中)",
-    "JAname": "ブラックスワン(建設中)",
+    "ENname": "Black Swan",
+    "CNname": "黑天鹅",
+    "JAname": "ブラックスワン",
     "imageurl": "images/characters/1307.png",
     "imagelargeurl": "images/characters/1307-large.png",
     "etype": "wind",
@@ -102,7 +102,7 @@
             "id": "130701",
             "ENname": "Percipience, Silent Dawn",
             "CNname": "洞见，缄默的黎明",
-            "JAname": "{RUBY_B#どうさつ}洞察{RUBY_E#}、{RUBY_B#かんもく}緘黙{RUBY_E#}の{RUBY_B#れいめい}黎明{RUBY_E#}",
+            "JAname": "洞察、緘黙の黎明",
             "imageurl": "images/skills/1307-130701.png",
             "DescriptionEN": "Deals Wind DMG equal to [1]% of Black Swan's ATK to a single target enemy, with a [2]% base chance of inflicting 1 stack of Arcana on the target. Additionally, when attacking a target that suffers Wind Shear, Bleed, Burn, or Shock, there is respectively a [3]% base chance of inflicting 1 extra stack of Arcana on the target.",
             "DescriptionCN": "对指定敌方单体造成等同于黑天鹅[1]%攻击力的风属性伤害，有[2]%的基础概率使目标陷入1层【奥迹】，且攻击陷入风化、裂伤、灼烧、触电状态的目标后，分别各有[3]%的基础概率额外使目标陷入1层【奥迹】。",
@@ -147,13 +147,23 @@
                     "8": 71,
                     "9": 74
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "windatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "windatk"]
+                }
             ]
         },
         {
             "id": "130702",
             "ENname": "Decadence, False Twilight",
             "CNname": "失坠，伪神的黄昏",
-            "JAname": "{RUBY_B#しっつい}失墜{RUBY_E#}、{RUBY_B#ぎしん}偽神{RUBY_E#}の{RUBY_B#たそがれ}黄昏{RUBY_E#}",
+            "JAname": "失墜、偽神の黄昏",
             "imageurl": "images/skills/1307-130702.png",
             "DescriptionEN": "Deals Wind DMG equal to [1]% of Black Swan's ATK to a single target enemy and any adjacent targets. At the same time, there is a [2]% base chance of inflicting 1 stack of Arcana on the target enemy and the adjacent targets. Additionally, there is a [3]% base chance of reducing the DEF of the target enemy and the adjacent targets by [4]%, lasting for [5] turn(s).",
             "DescriptionCN": "对指定敌方单体及其相邻目标造成等同于黑天鹅[1]%攻击力的风属性伤害，同时有[2]%的基础概率使目标与相邻目标陷入1层【奥迹】，此外有[3]%的基础概率使目标与相邻目标防御力降低[4]%，持续[5]回合。",
@@ -250,13 +260,37 @@
                     "14": 3,
                     "15": 3
                 }
+            ],
+            "tags": ["singleatk", "blastatk", "skillatk", "windatk", "aoe"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "skillatk", "windatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["blastatk", "skillatk", "windatk"]
+                },
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "addtarget": "reducedef",
+                    "multiplier": 4,
+                    "tag": ["aoe", "reducedef"]
+                }
             ]
         },
         {
             "id": "130703",
             "ENname": "Bliss of Otherworld's Embrace",
             "CNname": "沉醉于彼界的臂湾",
-            "JAname": "{RUBY_B#かなた}彼方{RUBY_E#}の{RUBY_B#ほうよう}抱擁{RUBY_E#}に{RUBY_B#よ}酔{RUBY_E#}いしれて",
+            "JAname": "彼方の抱擁に酔いしれて",
             "imageurl": "images/skills/1307-130703.png",
             "DescriptionEN": "Inflicts Epiphany on all enemies for [2] turn(s). While afflicted with Epiphany, enemies take [3]% increased DMG in their turn. Additionally, if enemies are also inflicted with Arcana, they are considered to be simultaneously afflicted with Wind Shear, Bleed, Burn, and Shock. After Arcana causes DMG at the start of each turn, its stacks are not reset. This non-reset effect of Arcana stacks can be triggered up to [4] time(s) for the duration of Epiphany. And the trigger count resets when Epiphany is applied again. Deals Wind DMG equal to [1]% of Black Swan's ATK to all enemies.",
             "DescriptionCN": "使敌方全体陷入【揭露】状态，持续[2]回合。 【揭露】状态下，敌方目标自身回合内受到的伤害提高[3]%，且当敌方目标处于【奥迹】状态时，也会被视为同时陷入了风化、裂伤、灼烧、触电状态，并且【奥迹】每回合开始造成伤害后不会重置层数。【奥迹】不会重置层数的效果在【揭露】状态持续时间内最多触发[4]次，再次陷入【揭露】状态会刷新触发次数。 对敌方全体造成等同于黑天鹅[1]%攻击力的风属性伤害。",
@@ -337,13 +371,30 @@
                     "14": 1,
                     "15": 1
                 }
+            ],
+            "tags": ["debuff", "ultatk", "windatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": 3,
+                    "tag": ["allenemy", "dmgreceive"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["aoe", "ultatk", "windatk"]
+                }
             ]
         },
         {
             "id": "130704",
             "ENname": "Loom of Fate's Caprice",
             "CNname": "无端命运的机杼",
-            "JAname": "{RUBY_B#は}果{RUBY_E#}てなき{RUBY_B#さだめ}運命{RUBY_E#}の{RUBY_B#はたお}機織{RUBY_E#}り",
+            "JAname": "果てなき運命の機織り",
             "imageurl": "images/skills/1307-130704.png",
             "DescriptionEN": "Every time an enemy target receives DoT at the start of each turn, there is a [2]% base chance for it to be inflicted with 1 stack of Arcana. While afflicted with Arcana, enemy targets receive Wind DoT equal to [1]% of Black Swan's ATK at the start of each turn. Each stack of Arcana increases this DMG multiplier by [3]%. Then Arcana resets to 1 stack. Arcana can stack up to [8] times. Only when Arcana causes DMG at the start of an enemy target's turn, Black Swan triggers additional effects based on the number of Arcana stacks inflicted on the target: When there are [4] or more Arcana stacks, deals Wind DoT equal to [5]% of Black Swan's ATK to adjacent targets, with a [2]% base chance of inflicting 1 stack of Arcana on adjacent targets. When there are [6] or more Arcana stacks, enables the current DoT dealt this time to ignore [7]% of the target's and adjacent targets' DEF.",
             "DescriptionCN": "敌方目标每回合开始时每受到1次持续伤害，有[2]%的基础概率陷入1层【奥迹】。 【奥迹】状态下，敌方目标每回合开始时受到等同于黑天鹅[1]%攻击力的风属性持续伤害，每层【奥迹】使此伤害倍率提高[3]%，随后重置为1层。【奥迹】最多叠加[8]层。 仅在敌方目标回合开始【奥迹】造成伤害时，黑天鹅根据目标陷入的【奥迹】层数触发额外效果： 大于等于[4]层：对相邻目标造成等同于黑天鹅[5]%攻击力的风属性持续伤害，并且有[2]%的基础概率使相邻目标陷入1层【奥迹】。 大于等于[6]层：使本次造成的持续伤害无视该目标及其相邻目标[7]%的防御力。",
@@ -491,13 +542,30 @@
                     "14": 50,
                     "15": 50
                 }
+            ],
+            "tags": ["dotatk", "blastatk", "windsheardotdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["dotatk", "windsheardotdmg"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 5,
+                    "tag": ["blastatk", "dotatk", "windsheardotdmg"]
+                }
             ]
         },
         {
             "id": "130707",
             "ENname": "From Façade to Vérité",
             "CNname": "取此真相，弃舍表征",
-            "JAname": "{RUBY_B#しんそう}真相{RUBY_E#}を{RUBY_B#と}取{RUBY_E#}り、{RUBY_B#ひょうしょう}表象{RUBY_E#}を{RUBY_B#す}捨{RUBY_E#}てる",
+            "JAname": "真相を取り、表象を捨てる",
             "imageurl": "images/skills/1307-130707.png",
             "DescriptionEN": "After this Technique is used, there is a 150% base chance for each enemy to be inflicted with 1 stack of Arcana at the start of the next battle. For each successful application of Arcana on a target, inflicts another stack of Arcana on the same target. This process repeats until Arcana fails to be inflicted on this target. For each successive application of Arcana on a target, its base chance of success is equal to 50% of the base chance of the previous successful infliction of Arcana on that target.",
             "DescriptionCN": "使用秘技后，下一次战斗开始时有150%的基础概率使敌方每个单体目标陷入1层【奥迹】。使其中每个成功陷入【奥迹】的目标再次陷入1层【奥迹】，重复此效果直到未能成功使该目标陷入【奥迹】。每次使目标陷入【奥迹】的基础概率等同于上一次成功使该目标陷入【奥迹】时的基础概率的50%。",
@@ -516,7 +584,7 @@
             "tiny": false,
             "ENname": "Viscera's Disquiet",
             "CNname": "脏中躁动",
-            "JAname": "{RUBY_B#うごめ}蠢{RUBY_E#}く{RUBY_B#ないぞう}内臓{RUBY_E#}",
+            "JAname": "蠢く内臓",
             "DescriptionEN": "After using the Skill to attack a single target enemy that has Wind Shear, Bleed, Burn, or Shock, each of these debuffs respectively has a 65% base chance of inflicting 1 extra stack of Arcana.",
             "DescriptionCN": "施放战技攻击陷入风化、裂伤、灼烧、触电状态的指定敌方单体后，分别各有65%的基础概率额外使目标陷入1层【奥迹】。",
             "DescriptionJP": "風化、裂創、燃焼、または感電状態の敵単体に戦闘スキルを発動した後、それぞれ65%の基礎確率でさらに「アルカナ」を1層付与する。",
@@ -530,7 +598,7 @@
             "tiny": false,
             "ENname": "Goblet's Dredges",
             "CNname": "杯底端倪",
-            "JAname": "チャリスの{RUBY_B#そこ}底{RUBY_E#}の{RUBY_B#てんまつ}顛末{RUBY_E#}",
+            "JAname": "チャリスの底の顛末",
             "DescriptionEN": "When an enemy target enters battle, there is a 65% base chance for it to be inflicted with 1 stack of Arcana. Every time an enemy target receives DoT during a single attack by an ally, there is a 65% base chance for the target to be inflicted with 1 stack of Arcana. The maximum number of stacks that can be inflicted during 1 single attack is 3.",
             "DescriptionCN": "在敌方目标进入战斗时，有65%的基础概率陷入1层【奥迹】。 敌方目标在我方单次攻击内每受到1次持续伤害，有65%的基础概率陷入1层【奥迹】，单次攻击内最多陷入3层。",
             "DescriptionJP": "戦闘に入る時、65%の基礎確率で敵に「アルカナ」を1層付与する。 敵が味方単体の攻撃中に持続ダメージを1回受けるたびに、65%の基礎確率で「アルカナ」が1層付与される。1回の攻撃で最大で3層付与される。",
@@ -544,14 +612,24 @@
             "tiny": false,
             "ENname": "Candleflame's Portent",
             "CNname": "烛影朕兆",
-            "JAname": "ロウソクの{RUBY_B#かげ}影{RUBY_E#}が{RUBY_B#しめ}示{RUBY_E#}す{RUBY_B#よちょう}予兆{RUBY_E#}",
+            "JAname": "ロウソクの影が示す予兆",
             "DescriptionEN": "Increases this unit's DMG by an amount equal to 60% of Effect Hit Rate, up to a maximum DMG increase of 72%.",
             "DescriptionCN": "使自身造成的伤害提高，提高数值等同于效果命中的60%，最多使造成的伤害提高72%。",
             "DescriptionJP": "自身の与ダメージが、効果命中の60%分アップする。最大で与ダメージ+72%。",
             "imageurl": "images/skills/1307-1307103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "alldmg", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 72,
+                    "tag": ["buff", "self", "alldmg"]
+                }
+            ]
         },
         {
             "id": "1307201",
@@ -565,7 +643,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1307202",
@@ -579,7 +667,17 @@
             "ttype": "winddmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "winddmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 3.2,
+                    "tag": ["buff", "self", "winddmg"]
+                }
+            ]
         },
         {
             "id": "1307203",
@@ -593,7 +691,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1307204",
@@ -607,7 +715,17 @@
             "ttype": "effecthit",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effecthit"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "effecthit"]
+                }
+            ]
         },
         {
             "id": "1307205",
@@ -621,7 +739,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1307206",
@@ -635,7 +763,17 @@
             "ttype": "winddmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "winddmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 4.8,
+                    "tag": ["buff", "self", "winddmg"]
+                }
+            ]
         },
         {
             "id": "1307207",
@@ -649,7 +787,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1307208",
@@ -663,7 +811,17 @@
             "ttype": "effecthit",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effecthit"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effecthit",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "effecthit"]
+                }
+            ]
         },
         {
             "id": "1307209",
@@ -677,7 +835,17 @@
             "ttype": "winddmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "winddmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "winddmg",
+                    "multiplier": 6.4,
+                    "tag": ["buff", "self", "winddmg"]
+                }
+            ]
         },
         {
             "id": "1307210",
@@ -691,7 +859,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -700,21 +878,59 @@
             "eidolonnum": 1,
             "ENname": "Seven Pillars of Wisdom",
             "CNname": "三磅石，七阶柱",
-            "JAname": "{RUBY_B#ちえ}知恵{RUBY_E#}の{RUBY_B#ななはしら}七柱{RUBY_E#}",
+            "JAname": "知恵の七柱",
             "imageurl": "images/skills/1307-e1.png",
             "DescriptionEN": "While Black Swan is active in battle, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by 25%.",
             "DescriptionCN": "当黑天鹅处于可战斗状态时，处于风化、裂伤、灼烧、触电状态下的敌方目标对应的风、物理、火、雷属性抗性分别降低25%。",
             "DescriptionJP": "ブラックスワンが戦闘可能状態の時、風化、裂創、燃焼、感電状態の敵の対応する風、物理、炎、雷属性の耐性がそれぞれ25%ダウンする。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "debuff",
+                "windres",
+                "physicalres",
+                "fireres",
+                "lightningres",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "windres",
+                    "multiplier": 25,
+                    "tag": ["debuff", "singleenemy", "windres"]
+                },
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "addtarget": "fireres",
+                    "multiplier": 25,
+                    "tag": ["debuff", "singleenemy", "fireres"]
+                },
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "addtarget": "lightningres",
+                    "multiplier": 25,
+                    "tag": ["debuff", "singleenemy", "lightningres"]
+                },
+                {
+                    "iid": "4",
+                    "type": "debuff",
+                    "addtarget": "physicalres",
+                    "multiplier": 25,
+                    "tag": ["debuff", "singleenemy", "physicalres"]
+                }
+            ]
         },
         {
             "id": "130702-2",
             "eidolonnum": 2,
             "ENname": "Weep Not For Me, My Lamb",
             "CNname": "羔羊，请勿为我恸哭",
-            "JAname": "{RUBY_B#こひつじ}子羊{RUBY_E#}よ、 {RUBY_B#わたし}私{RUBY_E#}のために{RUBY_B#な}泣{RUBY_E#}くなかれ",
+            "JAname": "子羊よ、 私のために泣くなかれ",
             "imageurl": "images/skills/1307-e2.png",
             "DescriptionEN": "When an enemy target afflicted with Arcana is defeated, there is a 100% base chance of inflicting 6 stack(s) of Arcana on adjacent targets.",
             "DescriptionCN": "【奥迹】状态下的敌方目标被消灭时，有100%的基础概率使相邻目标陷入6层【奥迹】。",
@@ -728,7 +944,7 @@
             "eidolonnum": 3,
             "ENname": "As Above, So Below",
             "CNname": "上界如此，下界亦然",
-            "JAname": "{RUBY_B#げかい}下界{RUBY_E#}は{RUBY_B#じょうかい}上界{RUBY_E#}に{RUBY_B#なら}倣{RUBY_E#}う",
+            "JAname": "下界は上界に倣う",
             "imageurl": "images/skills/1307-e3.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
@@ -742,21 +958,39 @@
             "eidolonnum": 4,
             "ENname": "In Tears We Gift",
             "CNname": "泪水，亦是礼物",
-            "JAname": "{RUBY_B#なみだ}涙{RUBY_E#}もまた{RUBY_B#おく}贈{RUBY_E#}り{RUBY_B#もの}物{RUBY_E#}",
+            "JAname": "涙もまた贈り物",
             "imageurl": "images/skills/1307-e4.png",
             "DescriptionEN": "While in the Epiphany state, enemy targets have their Effect RES reduced by 10% and Black Swan regenerates 8 Energy at the start of these targets' turns or when they are defeated. This Energy Regeneration effect can only trigger up to 1 time while Epiphany lasts. The trigger count is reset when Epiphany is applied again.",
             "DescriptionCN": "【揭露】状态下，敌方目标效果抵抗降低10%，且每回合开始时或被消灭时使黑天鹅恢复8点能量。能量恢复效果在【揭露】状态持续时间内最多触发1次，再次陷入【揭露】状态会刷新触发次数。",
             "DescriptionJP": "「開示」状態の敵の効果抵抗-10%。「開示」状態の敵のターンが回ってきた時、または倒された時、ブラックスワンのEPを8回復する。EP回復効果は「開示」状態の継続時間内に1回まで発動できる。再度「開示」状態を付与すると、発動可能回数がリセットされる。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["debuff", "effectresreduce", "singleenemy"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "effectres",
+                    "multiplier": -10,
+                    "duration": 2,
+                    "tag": ["debuff", "effectresreduce", "singleenemy"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "energy"]
+                }
+            ]
         },
         {
             "id": "130705-5",
             "eidolonnum": 5,
             "ENname": "Linnutee Flyway",
             "CNname": "候鸟之路",
-            "JAname": "{RUBY_B#わた}渡{RUBY_E#}り{RUBY_B#どり}鳥{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}",
+            "JAname": "渡り鳥の道",
             "imageurl": "images/skills/1307-e5.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
@@ -770,7 +1004,7 @@
             "eidolonnum": 6,
             "ENname": "Pantheon Merciful, Masses Pitiful",
             "CNname": "万神皆善，苦役者未知",
-            "JAname": "{RUBY_B#かみ}神{RUBY_E#}は{RUBY_B#ぜん}善{RUBY_E#}、 {RUBY_B#くえきしゃ}苦役者{RUBY_E#}は{RUBY_B#いま}未{RUBY_E#}だ{RUBY_B#し}知{RUBY_E#}らず",
+            "JAname": "神は善、 苦役者は未だ知らず",
             "imageurl": "images/skills/1307-e6.png",
             "DescriptionEN": "When an enemy target gets attacked by Black Swan's allies, Black Swan has a 65% base chance of inflicting 1 stack of Arcana on the target. Every time Black Swan inflicts Arcana on an enemy target, there is a 50% fixed chance to additionally increase the number of Arcana stacked this time by 1.",
             "DescriptionCN": "当敌方目标受到黑天鹅的队友的攻击时，黑天鹅有65%的基础概率使目标陷入1层【奥迹】。 每当黑天鹅使敌方目标陷入【奥迹】时，有50%的固定概率使本次叠加的【奥迹】层数额外提高1层。",

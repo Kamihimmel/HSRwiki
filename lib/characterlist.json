@@ -589,16 +589,16 @@
         },
         {
             "id": "1307",
-            "ENname": "Black Swan(WIP)",
-            "CNname": "黑天鹅(施工中)",
-            "JAname": "ブラックスワン(建設中)",
+            "ENname": "Black Swan",
+            "CNname": "黑天鹅",
+            "JAname": "ブラックスワン",
             "imageurl": "images/characters/1307.png",
             "imagelargeurl": "images/characters/1307-large.png",
             "etype": "wind",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "lib/characters/1307.json",
-            "spoiler": true
+            "infourl": "lib/blackswan.json",
+            "spoiler": false
         },
         {
             "id": "1308",
