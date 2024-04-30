@@ -475,7 +475,17 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "def"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": ["buff", "self", "def"]
+                }
+            ]
         },
         {
             "id": "1304202",
@@ -489,7 +499,17 @@
             "ttype": "imaginarydmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "imaginarydmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 3.2,
+                    "tag": ["buff", "self", "imaginarydmg"]
+                }
+            ]
         },
         {
             "id": "1304203",
@@ -503,7 +523,17 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "def"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 5,
+                    "tag": ["buff", "self", "def"]
+                }
+            ]
         },
         {
             "id": "1304204",
@@ -517,7 +547,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1304205",
@@ -531,7 +571,17 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "def"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": ["buff", "self", "def"]
+                }
+            ]
         },
         {
             "id": "1304206",
@@ -545,7 +595,17 @@
             "ttype": "imaginarydmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "imaginarydmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 4.8,
+                    "tag": ["buff", "self", "imaginarydmg"]
+                }
+            ]
         },
         {
             "id": "1304207",
@@ -559,7 +619,17 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "def"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 7.5,
+                    "tag": ["buff", "self", "def"]
+                }
+            ]
         },
         {
             "id": "1304208",
@@ -573,7 +643,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1304209",
@@ -587,7 +667,17 @@
             "ttype": "imaginarydmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "imaginarydmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "imaginarydmg",
+                    "multiplier": 6.4,
+                    "tag": ["buff", "self", "imaginarydmg"]
+                }
+            ]
         },
         {
             "id": "1304210",
@@ -601,7 +691,17 @@
             "ttype": "def",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "def"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "def",
+                    "multiplier": 10,
+                    "tag": ["buff", "self", "def"]
+                }
+            ]
         }
     ],
     "eidolon": [

@@ -71,7 +71,7 @@ merger = Merger(schema)
 # 
 # read the character tracedata and auto append the tags and effect
 
-file_path = './lib/blackswan.json'
+file_path = './lib/aventurine.json'
 
 # load the JSON data
 with open(file_path) as f:
@@ -90,8 +90,8 @@ if 'tracedata' in data and isinstance(data['tracedata'], list):
         if effect_nodes is None:
             continue
         # merge nodes
-        item['tags'] = merger.merge(item['tags'], effect_nodes['tags'])
-        item['effect'] = merger.merge(item['effect'], effect_nodes['effect'])
+        item['tags'] = merger.merge(item.get('tags', {}), effect_nodes['tags'])
+        item['effect'] = merger.merge(item.get('effect', {}), effect_nodes['effect'])
 
 # Compare the original and the modified data
 if original_data == data:

@@ -571,8 +571,8 @@
             "etype": "imaginary",
             "wtype": "preservation",
             "rarity": "5",
-            "infourl": "lib/characters/aventurine.json",
-            "spoiler": true
+            "infourl": "lib/aventurine.json",
+            "spoiler": false
         },
         {
             "id": "1306",
