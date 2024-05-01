@@ -125,6 +125,16 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "lightningatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "lightningatk"]
+                }
             ]
         },
         {
@@ -193,6 +203,23 @@
                     "13": 1,
                     "14": 1,
                     "15": 1
+                }
+            ],
+            "tags": ["singleatk", "skillatk", "blastatk", "lightningatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "skillatk", "lightningatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": ["blastatk", "skillatk", "lightningatk"]
                 }
             ]
         },
@@ -331,6 +358,23 @@
                     "13": 336,
                     "14": 348,
                     "15": 360
+                }
+            ],
+            "tags": ["singleatk", "blastatk", "ultatk", "lightningatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["singleatk", "ultatk", "lightningatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 7,
+                    "tag": ["blastatk", "ultatk", "lightningatk"]
                 }
             ]
         },
@@ -626,6 +670,16 @@
                     "14": 24,
                     "15": 25
                 }
+            ],
+            "tags": ["debuff", "singleenemy", "allres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "allres",
+                    "multiplier": 2,
+                    "tag": ["singleenemy", "allres"]
+                }
             ]
         },
         {
@@ -642,7 +696,17 @@
             "buffskill": true,
             "teamskill": true,
             "weaknessbreak": 60,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": ["lightningatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 200,
+                    "tag": ["allenemy", "lightningatk"]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -672,7 +736,31 @@
             "imageurl": "images/skills/1308-1308102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["singleatk", "ultatk", "skillatk", "normalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "normalatk",
+                    "multiplier": 160,
+                    "tag": ["normalatk", "self"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "skillatk",
+                    "multiplier": 160,
+                    "tag": ["skillatk", "self"]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 160,
+                    "tag": ["ultatk", "self"]
+                }
+            ]
         },
         {
             "id": "1308103",
@@ -686,7 +774,26 @@
             "imageurl": "images/skills/1308-1308103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["singleatk", "ultatk", "lightningatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 30,
+                    "maxstack": 3,
+                    "tag": ["ultatk", "self"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 25,
+                    "maxstack": 6,
+                    "tag": ["ultatk", "self", "lightningatk"]
+                }
+            ]
         },
         {
             "id": "1308201",
@@ -942,7 +1049,17 @@
             "DescriptionJP": "デバフ状態の敵にダメージを与える時、会心率+18%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "critrate"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 18,
+                    "tag": ["self", "critrate"]
+                }
+            ]
         },
         {
             "id": "130802-2",
@@ -984,7 +1101,17 @@
             "DescriptionJP": "戦闘に入った敵は、必殺技被ダメージアップ状態になり、受ける必殺技のダメージ+8%。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["singleatk", "ultatk", "lightningatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ultatk",
+                    "multiplier": 8,
+                    "tag": ["ultatk", "self"]
+                }
+            ]
         },
         {
             "id": "130805-5",
@@ -1012,7 +1139,17 @@
             "DescriptionJP": "黄泉が与える必殺技ダメージの全耐性貫通+20%。通常攻撃ダメージ、戦闘スキルダメージが同時に必殺技ダメージと見なされ、弱点属性を無視して敵の靭性を削る。敵を弱点撃破した時、雷属性の弱点撃破効果を触発する。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "dmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "allpen",
+                    "multiplier": 20,
+                    "tag": ["self", "allpen"]
+                }
+            ]
         }
     ]
 }
