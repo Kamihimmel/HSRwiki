@@ -5416,6 +5416,70 @@
             ]
         },
         {
+            "characterid": "1308",
+            "id": "130804",
+            "ENname": "Atop Rainleaf Hangs Oneness",
+            "CNname": "红叶时雨，万倾一空",
+            "JAname": "紅葉に時雨、万里の空",
+            "stype": "talent",
+            "maxlevel": 15,
+            "weaknessbreak": 0,
+            "energyregen": 0,
+            "levelmultiplier": [
+                {
+                    "1": 9,
+                    "2": 9,
+                    "3": 9,
+                    "4": 9,
+                    "5": 9,
+                    "6": 9,
+                    "7": 9,
+                    "8": 9,
+                    "9": 9,
+                    "10": 9,
+                    "11": 9,
+                    "12": 9,
+                    "13": 9,
+                    "14": 9,
+                    "15": 9
+                },
+                {
+                    "1": 10,
+                    "2": 11,
+                    "3": 12,
+                    "4": 13,
+                    "5": 14,
+                    "6": 15,
+                    "7": 16.25,
+                    "8": 17.5,
+                    "9": 18.75,
+                    "10": 20,
+                    "11": 21,
+                    "12": 22,
+                    "13": 23,
+                    "14": 24,
+                    "15": 25
+                }
+            ],
+            "tags": [
+                "debuff",
+                "singleenemy",
+                "allres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "allres",
+                    "multiplier": 2,
+                    "tag": [
+                        "singleenemy",
+                        "allres"
+                    ]
+                }
+            ]
+        },
+        {
             "characterid": "1312",
             "id": "131203",
             "ENname": "G—Gonna Be Late!",
