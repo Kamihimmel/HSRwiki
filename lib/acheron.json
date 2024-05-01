@@ -1,8 +1,8 @@
 {
     "id": "1308",
-    "ENname": "Acheron(WIP)",
-    "CNname": "黄泉(施工中)",
-    "JAname": "{RUBY_B#よみ}黄泉{RUBY_E#}(建設中)",
+    "ENname": "Acheron",
+    "CNname": "黄泉",
+    "JAname": "黄泉",
     "imageurl": "images/characters/1308.png",
     "imagelargeurl": "images/characters/1308-large.png",
     "etype": "lightning",
@@ -102,7 +102,7 @@
             "id": "130801",
             "ENname": "Trilateral Wiltcross",
             "CNname": "三途枯榷",
-            "JAname": "{RUBY_B#さんず}三途{RUBY_E#}の{RUBY_B#こぼく}枯木{RUBY_E#}",
+            "JAname": "三途の枯木",
             "imageurl": "images/skills/1308-130801.png",
             "DescriptionEN": "Deals Lightning DMG equal to [1]% of Acheron's ATK to a single target enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于黄泉[1]%攻击力的雷属性伤害。",
@@ -131,7 +131,7 @@
             "id": "130802",
             "ENname": "Octobolt Flash",
             "CNname": "八雷飞渡",
-            "JAname": "{RUBY_B#はちらい}八雷{RUBY_E#}{RUBY_B#わた}渡{RUBY_E#}り",
+            "JAname": "八雷渡り",
             "imageurl": "images/skills/1308-130802.png",
             "DescriptionEN": "Gains [3] point(s) of Slashed Dream. Inflicts [3] stack(s) of Crimson Knot on a single target enemy, dealing Lightning DMG equal to [1]% of Acheron's ATK to this target, as well as Lightning DMG equal to [2]% of Acheron's ATK to adjacent targets.",
             "DescriptionCN": "获得[3]点【残梦】，为指定敌方单体附上[3]层【集真赤】，对其造成等同于黄泉[1]%攻击力的雷属性伤害，同时对其相邻目标造成等同于黄泉[2]%攻击力的雷属性伤害。",
@@ -200,7 +200,7 @@
             "id": "130803",
             "ENname": "Slashed Dream Cries in Red",
             "CNname": "残梦尽染，一刀缭断",
-            "JAname": "{RUBY_B#ざんむ}残夢{RUBY_E#}{RUBY_B#そ}染{RUBY_E#}める{RUBY_B#りょうらん}繚乱{RUBY_E#}の{RUBY_B#ひとたち}一太刀{RUBY_E#}",
+            "JAname": "残夢染める繚乱の一太刀",
             "imageurl": "images/skills/1308-130803.png",
             "DescriptionEN": "Sequentially unleash Rainblade 3 times and Stygian Resurge 1 time, dealing Lightning DMG up to [6]% of Acheron's ATK to a single target enemy, as well as Lightning DMG up to [7]% of Acheron's ATK to other targets.  Rainblade: Deals Lightning DMG equal to [1]% of Acheron's ATK to a single target enemy and removes up to 3 stacks of Crimson Knot from the target. When Crimson Knot is removed, immediately deals Lightning DMG equal to [2]% of Acheron's ATK to all enemies. For every stack of Crimson Knot removed, this DMG Multiplier is additionally increased, up to a maximum of [5]%.  Stygian Resurge: Deals Lightning DMG equal to [3]% of Acheron's ATK to all enemies and remove all Crimson Knots.  Crimson Knot cannot be applied to enemies during the Ultimate.",
             "DescriptionCN": "依次发动3次【啼泽雨斩】和1次【黄泉返渡】，对指定敌方单体最多造成等同于黄泉[6]%攻击力的雷属性伤害，对其他目标最多造成等同于黄泉[7]%攻击力的雷属性伤害。 【啼泽雨斩】：对指定敌方单体造成等同于黄泉攻击力[1]%的雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，立即对敌方全体造成等同于黄泉[2]%攻击力的雷属性伤害，每消去1层【集真赤】本次伤害倍率额外提高，最多提高至[5]%。 【黄泉返渡】：对敌方全体造成等同于黄泉[3]%攻击力的雷属性伤害并移除所有【集真赤】。 终结技期间无法为敌方附上【集真赤】。",
@@ -580,7 +580,7 @@
             "id": "130804",
             "ENname": "Atop Rainleaf Hangs Oneness",
             "CNname": "红叶时雨，万倾一空",
-            "JAname": "{RUBY_B#もみじ}紅葉{RUBY_E#}に{RUBY_B#しぐれ}時雨{RUBY_E#}、{RUBY_B#ばんり}万里{RUBY_E#}の{RUBY_B#そら}空{RUBY_E#}",
+            "JAname": "紅葉に時雨、万里の空",
             "imageurl": "images/skills/1308-130804.png",
             "DescriptionEN": "When Slashed Dream reaches [1] point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by [2]%, lasting until the end of the Ultimate. When any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on a target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once for every ability use. After an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field.",
             "DescriptionCN": "【残梦】达到[1]点时可激活终结技。终结技期间可无视弱点属性削减敌方韧性，并使敌方全体全属性抗性降低[2]%，持续至终结技结束。 任意单位施放技能期间使敌方目标陷入负面效果，黄泉获得1点【残梦】并为目标附上1层【集真赤】，若使多个目标陷入负面效果，则为其中【集真赤】最多的敌方目标附上1层【集真赤】。该效果每次施放技能最多触发1次。 黄泉在场时，敌方目标离场或被任意单位消灭后，其持有的【集真赤】会转移至全场【集真赤】最多的敌方目标。",
@@ -632,7 +632,7 @@
             "id": "130807",
             "ENname": "Quadrivalent Ascendance",
             "CNname": "四相断我",
-            "JAname": "{RUBY_B#しそうだんが}四相断我{RUBY_E#}",
+            "JAname": "四相断我",
             "imageurl": "images/skills/1308-130807.png",
             "DescriptionEN": "Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to 200% of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect. Quadrivalent Ascendance: After using the Ultimate, Acheron gains 1 point(s) of Slashed Dream and inflicts 1 stack(s) of Crimson Knot on a single random enemy. If attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.",
             "DescriptionCN": "立即攻击敌人，每个波次开始时获得【四相断我】，对敌方全体造成等同于黄泉200%攻击力的雷属性伤害，且无视弱点属性削减敌方全体的韧性，击破弱点时，触发雷属性的弱点击破效果。 【四相断我】：施放终结技后黄泉获得1点【残梦】，并为敌方随机单体附上1层【集真赤】。 若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。",
@@ -651,7 +651,7 @@
             "tiny": false,
             "ENname": "Red Oni",
             "CNname": "赤鬼",
-            "JAname": "{RUBY_B#あかおに}赤鬼{RUBY_E#}",
+            "JAname": "赤鬼",
             "DescriptionEN": "When battle starts, immediately gains 5 point(s) of Slashed Dream and applies 5 stack(s) of Crimson Knot to a random enemy. When Slashed Dream reaches its upper limit, for every point of Slashed Dream that exceeds the limit, gains 1 stack of Quadrivalent Ascendance. Enables Quadrivalent Ascendance to stack up to 3 time(s).",
             "DescriptionCN": "战斗开始时，立即获得5点【残梦】，并为随机1名敌方附上5层【集真赤】。当【残梦】达到上限时，每溢出1点【残梦】获得1层【四相断我】，使【四相断我】最多可以叠加至3层。",
             "DescriptionJP": "戦闘開始時、「残夢」を5層獲得し、ランダムな敵1体に「集真赤」を5層付与する。「残夢」が上限値まで蓄積された後、「残夢」を1層獲得するごとに「四相断我」を1層獲得する。「四相断我」は3層まで蓄積できるようになる。",
@@ -665,7 +665,7 @@
             "tiny": false,
             "ENname": "The Abyss",
             "CNname": "奈落",
-            "JAname": "{RUBY_B#ならく}奈落{RUBY_E#}",
+            "JAname": "奈落",
             "DescriptionEN": "When there are 1 or 2 Nihility characters other than Acheron in the team, the DMG dealt by Acheron's Basic ATK, Skill, and Ultimate increases to 115% or 160% of the original DMG respectively.",
             "DescriptionCN": "我方队伍中存在1名/2名除黄泉之外的「虚无」命途角色时，使黄泉普攻、战技、终结技造成的伤害为原伤害的115%/160%。",
             "DescriptionJP": "パーティ内に黄泉以外の「虚無」の運命を歩むキャラクターが1名/2名存在する場合、黄泉の通常攻撃、戦闘スキル、必殺技の与ダメージが本来の115%/160%になる。",
@@ -679,7 +679,7 @@
             "tiny": false,
             "ENname": "Thunder Core",
             "CNname": "雷心",
-            "JAname": "{RUBY_B#らいしん}雷心{RUBY_E#}",
+            "JAname": "雷心",
             "DescriptionEN": "When the Rainblade from Acheron's Ultimate hits enemy targets with Crimson Knot, her DMG increases by 30%, stacking up to 3 time(s) and lasting for 3 turn(s). And when Stygian Resurge triggers, additionally deals DMG for 6 times. Each time deals Lightning DMG equal to 25% of Acheron's ATK to a single random enemy and is viewed as part of the Ultimate DMG.",
             "DescriptionCN": "终结技的【啼泽雨斩】击中持有【集真赤】的敌方目标时，使黄泉造成的伤害提高30%，该效果最多叠加3层，持续3回合，并在发动【黄泉返渡】时额外造成6次伤害，每次伤害对敌方随机单体造成等同于黄泉25%攻击力的雷属性伤害，该伤害视为终结技伤害。",
             "DescriptionJP": "必殺技の「啼沢斬り」が「集真赤」を持つ敵に命中する時、黄泉の与ダメージ+30%、この効果は最大で3層累積でき、3ターン継続。また、「黄泉返り」を発動した時、さらに6ヒットする。1ヒットごとにランダムな敵単体に黄泉の攻撃力25%分の雷属性ダメージを与える、このダメージは必殺技のダメージと見なされる。",
@@ -700,7 +700,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1308202",
@@ -714,7 +724,17 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 5.3,
+                    "tag": ["buff", "self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1308203",
@@ -728,7 +748,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1308204",
@@ -742,7 +772,17 @@
             "ttype": "lightningdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "lightningdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "lightningdmg",
+                    "multiplier": 3.2,
+                    "tag": ["buff", "self", "lightningdmg"]
+                }
+            ]
         },
         {
             "id": "1308205",
@@ -756,7 +796,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1308206",
@@ -770,7 +820,17 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1308207",
@@ -784,7 +844,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1308208",
@@ -798,7 +868,17 @@
             "ttype": "lightningdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "lightningdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "lightningdmg",
+                    "multiplier": 4.8,
+                    "tag": ["buff", "self", "lightningdmg"]
+                }
+            ]
         },
         {
             "id": "1308209",
@@ -812,7 +892,17 @@
             "ttype": "critdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 10.7,
+                    "tag": ["buff", "self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1308210",
@@ -826,7 +916,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -835,7 +935,7 @@
             "eidolonnum": 1,
             "ENname": "Silenced Sky Spake Sooth",
             "CNname": "高天寥落真言始",
-            "JAname": "{RUBY_B#こうてんりょうらく}高天寥落{RUBY_E#}、 {RUBY_B#しんごん}真言{RUBY_E#}{RUBY_B#はじ}始{RUBY_E#}まる",
+            "JAname": "高天寥落、 真言始まる",
             "imageurl": "images/skills/1308-e1.png",
             "DescriptionEN": "When dealing DMG to debuffed enemies, increases the CRIT Rate by 18%.",
             "DescriptionCN": "对处于负面效果的敌方目标造成伤害时暴击率提高18%。",
@@ -849,7 +949,7 @@
             "eidolonnum": 2,
             "ENname": "Mute Thunder in Still Tempest",
             "CNname": "霆鼓俱寂，瑟风亦止",
-            "JAname": "{RUBY_B#らいてい}雷霆{RUBY_E#}{RUBY_B#しず}静{RUBY_E#}まり、{RUBY_B#あきかぜ}秋風{RUBY_E#}{RUBY_B#や}止む{RUBY_E#}",
+            "JAname": "雷霆静まり、秋風止む",
             "imageurl": "images/skills/1308-e2.png",
             "DescriptionEN": "The number of Nihility characters required for the Trace \"The Abyss\" to achieve its highest possible effect is reduced by 1. When this unit's turn starts, gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the enemy with the most Crimson Knot stacks.",
             "DescriptionCN": "行迹【奈落】最高数值所需求「虚无」命途角色的数量减少1名，自身回合开始时获得1点【残梦】，同时为【集真赤】最多的敌方附上1层【集真赤】。",
@@ -863,7 +963,7 @@
             "eidolonnum": 3,
             "ENname": "Frost Bites in Death",
             "CNname": "寒肃惊永蛰",
-            "JAname": "{RUBY_B#えいちつ}永蟄{RUBY_E#}を{RUBY_B#おびや}脅{RUBY_E#}かす{RUBY_B#かんぷう}寒風{RUBY_E#}",
+            "JAname": "永蟄を脅かす寒風",
             "imageurl": "images/skills/1308-e3.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
@@ -877,7 +977,7 @@
             "eidolonnum": 4,
             "ENname": "Shrined Fire for Mirrored Soul",
             "CNname": "亘焰燎照镜中人",
-            "JAname": "{RUBY_B#きょうちゅう}鏡中{RUBY_E#}を{RUBY_B#て}照{RUBY_E#}らす{RUBY_B#えいえん}永焔{RUBY_E#}",
+            "JAname": "鏡中を照らす永焔",
             "imageurl": "images/skills/1308-e4.png",
             "DescriptionEN": "When enemy targets enter combat, inflicts them with the Ultimate DMG Vulnerability, increasing the amount of Ultimate DMG they take by 8%.",
             "DescriptionCN": "在敌方目标进入战斗时，使其陷入终结技伤害易伤状态，受到的终结技伤害提高8%。",
@@ -891,7 +991,7 @@
             "eidolonnum": 5,
             "ENname": "Strewn Souls on Erased Earths",
             "CNname": "崇岩支离，千身飘零",
-            "JAname": "{RUBY_B#ばんじゃくほうらく}盤石崩落{RUBY_E#}、{RUBY_B#せんしんひょうらく}千身漂落{RUBY_E#}",
+            "JAname": "盤石崩落、千身漂落",
             "imageurl": "images/skills/1308-e5.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
@@ -905,7 +1005,7 @@
             "eidolonnum": 6,
             "ENname": "Apocalypse, the Emancipator",
             "CNname": "灾咎解桎梏",
-            "JAname": "{RUBY_B#そくばく}束縛{RUBY_E#}を{RUBY_B#と}解{RUBY_E#}く{RUBY_B#わざわ}災{RUBY_E#}い",
+            "JAname": "束縛を解く災い",
             "imageurl": "images/skills/1308-e6.png",
             "DescriptionEN": "Increases the All-Type RES PEN for the Ultimate DMG dealt by Acheron by 20%. The DMG dealt by Basic ATK and Skill will also be considered as Ultimate DMG and can reduce enemy toughness regardless of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.",
             "DescriptionCN": "黄泉造成的终结技伤害全属性抗性穿透提高20%，施放普攻、战技造成的伤害同时视为终结技伤害，并无视弱点属性削减敌方韧性。击破弱点时，触发雷属性的弱点击破效果。",

@@ -602,16 +602,16 @@
         },
         {
             "id": "1308",
-            "ENname": "Acheron(WIP)",
-            "CNname": "黄泉(施工中)",
-            "JAname": "{RUBY_B#よみ}黄泉{RUBY_E#}(建設中)",
+            "ENname": "Acheron",
+            "CNname": "黄泉",
+            "JAname": "黄泉",
             "imageurl": "images/characters/1308.png",
             "imagelargeurl": "images/characters/1308-large.png",
-            "etype": "thunder",
+            "etype": "lightning",
             "wtype": "nihility",
             "rarity": "5",
-            "infourl": "lib/characters/1308.json",
-            "spoiler": true
+            "infourl": "lib/acheron.json",
+            "spoiler": false
         },
         {
             "id": "1312",

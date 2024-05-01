@@ -8,6 +8,8 @@ from pprint import pprint
 from deepdiff import DeepDiff
 from jsonmerge import Merger
 
+# update the path here
+file_path = './lib/acheron.json'
 
 # Declaration
 class TraceDataItem:
@@ -70,8 +72,6 @@ merger = Merger(schema)
 # Program
 # 
 # read the character tracedata and auto append the tags and effect
-
-file_path = './lib/aventurine.json'
 
 # load the JSON data
 with open(file_path) as f:
