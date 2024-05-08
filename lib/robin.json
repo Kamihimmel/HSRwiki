@@ -125,6 +125,16 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "physicalatk"]
+                }
             ]
         },
         {
@@ -176,6 +186,16 @@
                     "13": 3,
                     "14": 3,
                     "15": 3
+                }
+            ],
+            "tags": ["buff", "alldmg", "allally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "alldmg",
+                    "multiplier": 1,
+                    "tag": ["allally", "alldmg"]
                 }
             ]
         },
@@ -298,6 +318,40 @@
                     "14": 150,
                     "15": 150
                 }
+            ],
+            "tags": [
+                "buff",
+                "atk",
+                "critdmg",
+                "allally",
+                "physicalatk",
+                "singleenemy"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 1,
+                    "group": "robin-1",
+                    "tag": ["allally", "atk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "atkpt",
+                    "multiplier": 3,
+                    "group": "robin-1",
+                    "tag": ["allally", "critdmg"]
+                },
+                {
+                    "iid": "3",
+                    "type": "dmg",
+                    "addtarget": "additionalatk",
+                    "multipliertarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["singleenemy", "additionalatk"]
+                }
             ]
         },
         {
@@ -350,6 +404,23 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": ["buff", "allally", "critdmg", "energy", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 1,
+                    "tag": ["allally", "critdmg"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 2,
+                    "tag": ["self", "energy"]
+                }
             ]
         },
         {
@@ -366,7 +437,17 @@
             "buffskill": false,
             "teamskill": false,
             "weaknessbreak": 0,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": ["buff", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": ["self", "energy"]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -382,7 +463,17 @@
             "imageurl": "images/skills/1309-1309101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "actionf", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 25,
+                    "tag": ["self", "actionf"]
+                }
+            ]
         },
         {
             "id": "1309102",
@@ -396,7 +487,17 @@
             "imageurl": "images/skills/1309-1309102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "followupcritdmg", "allally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "followupcritdmg",
+                    "multiplier": 25,
+                    "tag": ["allally", "followupcritdmg"]
+                }
+            ]
         },
         {
             "id": "1309103",
@@ -410,7 +511,17 @@
             "imageurl": "images/skills/1309-1309103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "energy"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 5,
+                    "tag": ["self", "energy"]
+                }
+            ]
         },
         {
             "id": "1309201",
@@ -666,7 +777,17 @@
             "DescriptionJP": "「協奏」状態の時、味方全体の全耐性貫通+24%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "dmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "allpen",
+                    "multiplier": 24,
+                    "tag": ["allally", "allpen"]
+                }
+            ]
         },
         {
             "id": "130902-2",
@@ -680,7 +801,24 @@
             "DescriptionJP": "「協奏」状態の時、味方全体の速度+16%、天賦のEP回復効果がさらに1アップする。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "speed", "energy"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speed",
+                    "multiplier": 16,
+                    "tag": ["allally", "speed"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 1,
+                    "tag": ["self", "energy"]
+                }
+            ]
         },
         {
             "id": "130903-3",
@@ -708,7 +846,17 @@
             "DescriptionJP": "必殺技を発動する時、味方全体の行動制限系デバフを解除する。ロビンが「協奏」状態の時、味方全体の効果抵抗+50%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "effectres", "allally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 50,
+                    "tag": ["buff", "allally", "effectres"]
+                }
+            ]
         },
         {
             "id": "130905-5",
@@ -736,7 +884,17 @@
             "DescriptionJP": "「協奏」状態の時、必殺技による物理付加ダメージの会心ダメージ+450%。「月隠りの真夜中」の効果は8回まで発動できる。必殺技を発動すると、この効果の発動可能回数がリセットされる。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "followupcritdmg", "self", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "followupcritdmg",
+                    "multiplier": 450,
+                    "tag": ["self", "followupcritdmg", "physicalatk"]
+                }
+            ]
         }
     ]
 }
