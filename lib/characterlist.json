@@ -630,35 +630,35 @@
         },
         {
             "id": "1309",
-            "ENname": "Robin(WIP)",
-            "CNname": "知更鸟(施工中)",
-            "JAname": "ロビン(建設中)",
+            "ENname": "Robin",
+            "CNname": "知更鸟",
+            "JAname": "ロビン",
             "imageurl": "images/characters/1309.png",
             "imagelargeurl": "images/characters/1309-large.png",
             "etype": "physical",
             "wtype": "harmony",
             "rarity": "5",
-            "infourl": "lib/characters/1309.json",
-            "spoiler": true
+            "infourl": "lib/robin.json",
+            "spoiler": false
         },
         {
             "id": "1315",
-            "ENname": "Boothill(WIP)",
-            "CNname": "波提欧(施工中)",
-            "JAname": "ブートヒル(建設中)",
+            "ENname": "Boothill",
+            "CNname": "波提欧",
+            "JAname": "ブートヒル",
             "imageurl": "images/characters/1315.png",
             "imagelargeurl": "images/characters/1315-large.png",
             "etype": "physical",
             "wtype": "thehunt",
             "rarity": "5",
-            "infourl": "lib/characters/1315.json",
-            "spoiler": true
+            "infourl": "lib/boothill.json",
+            "spoiler": false
         },
         {
             "id": "8006",
-            "ENname": "Trailblazer(WIP)",
-            "CNname": "开拓者(施工中)",
-            "JAname": "開拓者(建設中)",
+            "ENname": "Trailblazer",
+            "CNname": "开拓者",
+            "JAname": "開拓者",
             "imageurl": "images/characters/8006.png",
             "imagelargeurl": "images/characters/8006-large.png",
             "imageurlalter": "images/characters/8005.png",
@@ -666,8 +666,8 @@
             "etype": "imaginary",
             "wtype": "harmony",
             "rarity": "5",
-            "infourl": "lib/characters/8006.json",
-            "spoiler": true
+            "infourl": "lib/mch.json",
+            "spoiler": false
         }
     ]
 }

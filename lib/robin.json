@@ -1,8 +1,8 @@
 {
     "id": "1309",
-    "ENname": "Robin(WIP)",
-    "CNname": "知更鸟(施工中)",
-    "JAname": "ロビン(建設中)",
+    "ENname": "Robin",
+    "CNname": "知更鸟",
+    "JAname": "ロビン",
     "imageurl": "images/characters/1309.png",
     "imagelargeurl": "images/characters/1309-large.png",
     "etype": "physical",
@@ -102,7 +102,7 @@
             "id": "130901",
             "ENname": "Wingflip White Noise",
             "CNname": "扑翼白声",
-            "JAname": "{RUBY_B#は}羽{RUBY_E#}ばたくホワイトノイズ",
+            "JAname": "羽ばたくホワイトノイズ",
             "imageurl": "images/skills/1309-130901.png",
             "DescriptionEN": "Deals Physical DMG equal to [1]% of Robin's ATK to a single target enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于知更鸟[1]%攻击力的物理属性伤害。",
@@ -131,7 +131,7 @@
             "id": "130902",
             "ENname": "Pinion's Aria",
             "CNname": "翎之咏叹调",
-            "JAname": "{RUBY_B#ひしょう}飛翔{RUBY_E#}のアリア",
+            "JAname": "飛翔のアリア",
             "imageurl": "images/skills/1309-130902.png",
             "DescriptionEN": "Increase DMG dealt by all allies by [1]%, lasting for [2] turn(s). This duration reduces by 1 at the start of Robin's every turn.",
             "DescriptionCN": "使我方全体造成的伤害提高[1]%，持续[2]回合，知更鸟每回合开始时持续回合数减1。",
@@ -183,7 +183,7 @@
             "id": "130903",
             "ENname": "Vox Harmonique, Opus Cosmique",
             "CNname": "千音迭奏，群星赋格",
-            "JAname": "{RUBY_B#せん}千{RUBY_E#}の{RUBY_B#おと}音{RUBY_E#}で、{RUBY_B#ぐんせい}群星{RUBY_E#}にフーガを",
+            "JAname": "千の音で、群星にフーガを",
             "imageurl": "images/skills/1309-130903.png",
             "DescriptionEN": "Robin enters the Concerto state and makes all other allies immediately take action. While in the Concerto state, increases all allies' ATK by [1]% of Robin's ATK plus [3]. Moreover, after every attack by allies, Robin deals Additional Physical DMG equal to [4]% of her ATK for 1 time, with a fixed CRIT Rate for this damage set at [5]% and fixed CRIT DMG set at [6]%. While in the Concerto state, Robin is immune to Crowd Control debuffs and cannot enter her turn or take action until the Concerto state ends. A Concerto countdown appears on the Action Order bar. When the countdown's turn begins, Robin exits the Concerto state and immediately takes action. The countdown has its own fixed SPD of [2].",
             "DescriptionCN": "知更鸟进入【协奏】状态，使除自身以外的队友立即行动。 处于【协奏】状态时，我方全体攻击力提高，提高数值等同于知更鸟攻击力的[1]%+[3]点，且我方目标每次施放攻击后，知更鸟会额外造成1次等同于其自身[4]%攻击力的物理属性附加伤害，该伤害暴击率固定为[5]%，暴击伤害固定为[6]%。 处于【协奏】状态时，知更鸟免疫控制类负面状态，【协奏】状态结束前不会进入自己的回合且无法行动。 行动序列上出现【协奏】倒计时，倒计时回合开始时知更鸟退出【协奏】状态并立即行动，倒计时固定拥有[2]点速度。",
@@ -304,7 +304,7 @@
             "id": "130904",
             "ENname": "Tonal Resonance",
             "CNname": "调性合颂",
-            "JAname": "{RUBY_B#ちょうわ}調和{RUBY_E#}の{RUBY_B#じゅんせいりつ}純正律{RUBY_E#}",
+            "JAname": "調和の純正律",
             "imageurl": "images/skills/1309-130904.png",
             "DescriptionEN": "Increase all allies' CRIT DMG by [1]%. Moreover, after allies attack enemy targets, Robin additionally regenerates [2] Energy for herself.",
             "DescriptionCN": "使我方全体暴击伤害提高[1]%，且我方目标攻击敌方目标后，知更鸟额外为自身恢复[2]点能量。",
@@ -356,7 +356,7 @@
             "id": "130907",
             "ENname": "Overture of Inebriation",
             "CNname": "酣醉序曲",
-            "JAname": "{RUBY_B#めいてい}酩酊{RUBY_E#}のオーバーチュア",
+            "JAname": "酩酊のオーバーチュア",
             "imageurl": "images/skills/1309-130907.png",
             "DescriptionEN": "After using Technique, creates a special dimension around the character that lasts for 15 seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates 5 Energy at the start of each wave. Only 1 dimension created by allies can exist at the same time.",
             "DescriptionCN": "施放秘技后，在自身周围展开持续15秒的特殊领域，处于领域内的敌人不会对知更鸟发动攻击，且在领域展开期间跟随知更鸟。领域展开期间进入战斗后，每个波次开始时知更鸟恢复5点能量。我方制造的领域效果最多存在1个。",
@@ -375,7 +375,7 @@
             "tiny": false,
             "ENname": "Coloratura Cadenza",
             "CNname": "华彩花腔",
-            "JAname": "{RUBY_B#かさい}華彩{RUBY_E#}のコロラトゥーラ",
+            "JAname": "華彩のコロラトゥーラ",
             "DescriptionEN": "When the battle begins, this character's action is Advanced Forward by 25%.",
             "DescriptionCN": "战斗开始时，自身行动提前25%。",
             "DescriptionJP": "戦闘開始時、自身の行動順が25%早まる。",
@@ -389,7 +389,7 @@
             "tiny": false,
             "ENname": "Impromptu Flourish",
             "CNname": "即兴装饰",
-            "JAname": "アドリブの{RUBY_B#そうしょくきょく}装飾曲{RUBY_E#}",
+            "JAname": "アドリブの装飾曲",
             "DescriptionEN": "While the Concerto state is active, the CRIT DMG dealt when all allies launch follow-up attacks increases by 25%.",
             "DescriptionCN": "处于【协奏】状态时，我方全体发动追加攻击造成的暴击伤害提高25%。",
             "DescriptionJP": "「協奏」状態の時、味方全体の追加攻撃が与える会心ダメージ+25%。",
@@ -403,7 +403,7 @@
             "tiny": false,
             "ENname": "Sequential Passage",
             "CNname": "模进乐段",
-            "JAname": "{RUBY_B#はんぷく}反復{RUBY_E#}するピリオド",
+            "JAname": "反復するピリオド",
             "DescriptionEN": "When using Skill, additionally regenerates 5 Energy.",
             "DescriptionCN": "施放战技时额外恢复5点能量。",
             "DescriptionJP": "戦闘スキルを発動する時、さらにEPを5回復する。",
@@ -424,7 +424,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1309202",
@@ -438,7 +448,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "hp"]
+                }
+            ]
         },
         {
             "id": "1309203",
@@ -452,7 +472,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1309204",
@@ -466,7 +496,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 2,
+                    "tag": ["buff", "self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1309205",
@@ -480,7 +520,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1309206",
@@ -494,7 +544,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "hp"]
+                }
+            ]
         },
         {
             "id": "1309207",
@@ -508,7 +568,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1309208",
@@ -522,7 +592,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": ["buff", "self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1309209",
@@ -536,7 +616,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "hp"]
+                }
+            ]
         },
         {
             "id": "1309210",
@@ -550,7 +640,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -559,7 +659,7 @@
             "eidolonnum": 1,
             "ENname": "Land of Smiles",
             "CNname": "微笑的国度",
-            "JAname": "{RUBY_B#ほほえ}微笑{RUBY_E#}みの{RUBY_B#くに}国{RUBY_E#}",
+            "JAname": "微笑みの国",
             "imageurl": "images/skills/1309-e1.png",
             "DescriptionEN": "While the Concerto state is active, all allies' All-Type RES PEN increases by 24%.",
             "DescriptionCN": "处于【协奏】状态时，我方全体全属性抗性穿透提高24%。",
@@ -573,7 +673,7 @@
             "eidolonnum": 2,
             "ENname": "Afternoon Tea For Two",
             "CNname": "两者的午茶",
-            "JAname": "{RUBY_B#ふたり}2人{RUBY_E#}のアフタヌーンティー",
+            "JAname": "2人のアフタヌーンティー",
             "imageurl": "images/skills/1309-e2.png",
             "DescriptionEN": "While the Concerto state is active, all allies' SPD increases by 16%. The Talent's Energy Regeneration effect additionally increases by 1.",
             "DescriptionCN": "处于【协奏】状态时，我方全体速度提高16%。天赋的能量恢复效果额外提高1点。",
@@ -587,7 +687,7 @@
             "eidolonnum": 3,
             "ENname": "Inverted Tuning",
             "CNname": "倒悬的弦宫",
-            "JAname": "{RUBY_B#さか}逆{RUBY_E#}さまの{RUBY_B#しゅおん}主音{RUBY_E#}",
+            "JAname": "逆さまの主音",
             "imageurl": "images/skills/1309-e3.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Ultimate Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级，终结技等级+2，最多不超过15级。",
@@ -601,7 +701,7 @@
             "eidolonnum": 4,
             "ENname": "Raindrop Key",
             "CNname": "雨滴的钥匙",
-            "JAname": "{RUBY_B#あまつぶ}雨粒{RUBY_E#}のカギ",
+            "JAname": "雨粒のカギ",
             "imageurl": "images/skills/1309-e4.png",
             "DescriptionEN": "When using the Ultimate, dispels Crowd Control debuffs from all allies. While Robin is in the Concerto state, increases the Effect RES of all allies by 50%.",
             "DescriptionCN": "施放终结技时，解除我方全体的控制类负面状态，使我方全体在知更鸟处于【协奏】状态期间的效果抵抗提高50%。",
@@ -615,7 +715,7 @@
             "eidolonnum": 5,
             "ENname": "Lonestar's Lament",
             "CNname": "孤星的眼泪",
-            "JAname": "{RUBY_B#こどく}孤独{RUBY_E#}な{RUBY_B#ほし}星{RUBY_E#}の{RUBY_B#なみだ}涙{RUBY_E#}",
+            "JAname": "孤独な星の涙",
             "imageurl": "images/skills/1309-e5.png",
             "DescriptionEN": "Basic ATK Lv. +1, up to a maximum of Lv. 10. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "普攻等级+1，最多不超过10级，天赋等级+2，最多不超过15级。",
@@ -629,7 +729,7 @@
             "eidolonnum": 6,
             "ENname": "Moonless Midnight",
             "CNname": "月隐的午夜",
-            "JAname": "{RUBY_B#つきごも}月隠{RUBY_E#}りの{RUBY_B#まよなか}真夜中{RUBY_E#}",
+            "JAname": "月隠りの真夜中",
             "imageurl": "images/skills/1309-e6.png",
             "DescriptionEN": "While the Concerto state is active, the CRIT DMG for the Additional Physical DMG caused by the Ultimate increases by 450%. The effect of Moonless Midnight can trigger up to 8 time(s). And the trigger count resets each time the Ultimate is used.",
             "DescriptionCN": "处于【协奏】状态时，终结技造成的物理属性附加伤害的暴击伤害额外提高450%。【月隐的午夜】效果最多触发8次，每次施放终结技时重置触发次数。",
