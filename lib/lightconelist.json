@@ -1105,6 +1105,30 @@
             "spoiler": true
         },
         {
+            "id": "21044",
+            "ENname": "Boundless Choreo",
+            "CNname": "无边曼舞",
+            "JAname": "{RUBY_B#お}終{RUBY_E#}わりなき{RUBY_B#ぶとう}舞踏{RUBY_E#}",
+            "imageurl": "images/lightcones/21044.png",
+            "imagelargeurl": "images/lightcones/21044l.png",
+            "wtype": "nihility",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21044.json",
+            "spoiler": false
+        },
+        {
+            "id": "22002",
+            "ENname": "For Tomorrow's Journey",
+            "CNname": "为了明日的旅途",
+            "JAname": "{RUBY_B#あす}明日{RUBY_E#}のための{RUBY_B#たび}旅{RUBY_E#}",
+            "imageurl": "images/lightcones/22002.png",
+            "imagelargeurl": "images/lightcones/22002l.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "lib/lightcones/22002.json",
+            "spoiler": false
+        },
+        {
             "id": "23021",
             "ENname": "Earthly Escapade(WIP)",
             "CNname": "游戏尘寰(施工中)",
@@ -1151,6 +1175,30 @@
             "rarity": "5",
             "infourl": "lib/lightcones/23024.json",
             "spoiler": true
+        },
+        {
+            "id": "23026",
+            "ENname": "Flowing Nightglow",
+            "CNname": "夜色流光溢彩",
+            "JAname": "{RUBY_B#ひかり}光{RUBY_E#}あふれる{RUBY_B#よる}夜{RUBY_E#}",
+            "imageurl": "images/lightcones/23026.png",
+            "imagelargeurl": "images/lightcones/23026l.png",
+            "wtype": "harmony",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23026.json",
+            "spoiler": false
+        },
+        {
+            "id": "23027",
+            "ENname": "Sailing Towards a Second Life",
+            "CNname": "驶向第二次生命",
+            "JAname": "{RUBY_B#にどめ}二度目{RUBY_E#}の{RUBY_B#せい}生{RUBY_E#}に{RUBY_B#む}向{RUBY_E#}かって",
+            "imageurl": "images/lightcones/23027.png",
+            "imagelargeurl": "images/lightcones/23027l.png",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23027.json",
+            "spoiler": false
         }
     ]
 }
