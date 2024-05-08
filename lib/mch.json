@@ -125,6 +125,16 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "imaginaryatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "imaginaryatk"]
+                }
             ]
         },
         {
@@ -176,6 +186,24 @@
                     "13": 2,
                     "14": 2,
                     "15": 2
+                }
+            ],
+            "tags": ["singleatk", "skillatk", "imaginaryatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "skillatk", "imaginaryatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "maxstack": 4,
+                    "tag": ["singleatk", "imaginaryatk"]
                 }
             ]
         },
@@ -247,6 +275,16 @@
                     "14": 36,
                     "15": 37.5
                 }
+            ],
+            "tags": ["buff", "breakeffect", "allally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 3,
+                    "tag": ["breakeffect", "allally"]
+                }
             ]
         },
         {
@@ -282,6 +320,16 @@
                     "14": 12,
                     "15": 12.5
                 }
+            ],
+            "tags": ["buff", "self", "energy"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 1,
+                    "tag": ["allally", "energy"]
+                }
             ]
         },
         {
@@ -298,7 +346,17 @@
             "buffskill": true,
             "teamskill": false,
             "weaknessbreak": 0,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": ["buff", "breakeffect", "allally"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 30,
+                    "tag": ["breakeffect", "allally"]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -342,7 +400,17 @@
             "imageurl": "images/skills/8006-8006103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["debuff", "action"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "actiond",
+                    "multiplier": 30,
+                    "tag": ["singleenemy", "actiond"]
+                }
+            ]
         },
         {
             "id": "8006201",
@@ -598,7 +666,8 @@
             "DescriptionJP": "初めて戦闘スキルを発動した後、SPを1回復する。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "skillpointre", "self"]
         },
         {
             "id": "800602-2",
@@ -612,7 +681,17 @@
             "DescriptionJP": "戦闘開始時、開拓者のEP回復効率+25%、3ターン継続。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["self", "energyregenrate"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energyregenrate",
+                    "multiplier": 25,
+                    "tag": ["self", "energyregenrate"]
+                }
+            ]
         },
         {
             "id": "800603-3",
@@ -640,7 +719,17 @@
             "DescriptionJP": "開拓者がフィールド上にいる時、自身以外の味方の撃破特効を、開拓者の撃破特効15%分アップする。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "singleally", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "multipliertarget": "breakeffect",
+                    "multiplier": 15,
+                    "tag": ["buff", "singleally", "breakeffect"]
+                }
+            ]
         },
         {
             "id": "800605-5",
