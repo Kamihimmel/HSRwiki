@@ -653,25 +653,13 @@
             "spoiler": true
         },
         {
-            "id": "8005",
-            "ENname": "Trailblazer(WIP)",
-            "CNname": "开拓者(施工中)",
-            "JAname": "開拓者(建設中)",
-            "imageurl": "images/characters/8005.png",
-            "imagelargeurl": "images/characters/8005-large.png",
-            "etype": "imaginary",
-            "wtype": "harmony",
-            "rarity": "5",
-            "infourl": "lib/characters/8005.json",
-            "spoiler": true
-        },
-        {
             "id": "8006",
             "ENname": "Trailblazer(WIP)",
             "CNname": "开拓者(施工中)",
             "JAname": "開拓者(建設中)",
-            "imageurl": "images/characters/8006.png",
-            "imagelargeurl": "images/characters/8006-large.png",
+            "imageurl": "images/characters/mcf.webp",
+            "imagelargeurl": "images/characters/mcflarge.webp",
+            "imageurlalter": "images/characters/mcmf.webp",
             "etype": "imaginary",
             "wtype": "harmony",
             "rarity": "5",
