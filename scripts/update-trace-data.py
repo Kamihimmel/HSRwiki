@@ -9,7 +9,7 @@ from deepdiff import DeepDiff
 from jsonmerge import Merger
 
 # update the path here
-file_path = './lib/acheron.json'
+file_path = './lib/boothill.json'
 
 # Declaration
 class TraceDataItem:

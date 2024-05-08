@@ -1,8 +1,8 @@
 {
     "id": "1315",
-    "ENname": "Boothill(WIP)",
-    "CNname": "波提欧(施工中)",
-    "JAname": "ブートヒル(建設中)",
+    "ENname": "Boothill",
+    "CNname": "波提欧",
+    "JAname": "ブートヒル",
     "imageurl": "images/characters/1315.png",
     "imagelargeurl": "images/characters/1315-large.png",
     "etype": "physical",
@@ -125,6 +125,16 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "physicalatk"]
+                }
             ]
         },
         {
@@ -154,13 +164,23 @@
                     "8": 264,
                     "9": 286
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "physicalatk"]
+                }
             ]
         },
         {
             "id": "131502",
             "ENname": "Sizzlin' Tango",
             "CNname": "炽砾舞者的探戈",
-            "JAname": "{RUBY_B#ねっさ}熱砂{RUBY_E#}のタンゴ",
+            "JAname": "熱砂のタンゴ",
             "imageurl": "images/skills/1315-131502.png",
             "DescriptionEN": "Forces Boothill and a single target enemy into the Standoff state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for [3] turn(s). This duration reduces by 1 at the start of Boothill's every turn. The enemy target in the Standoff becomes Taunted. When this enemy target/Boothill gets attacked by the other party in the Standoff, the DMG they receive increases by [1]%/[2]%. After this target is defeated or becomes Weakness Broken, Boothill gains 1 stack of Pocket Trickshot, then dispels the Standoff. This Skill cannot regenerate Energy. After using this Skill, the current turn does not end.",
             "DescriptionCN": "使指定敌方单体及自身进入【绝命对峙】状态，波提欧普攻获得强化且无法施放战技，持续[3]回合，波提欧每回合开始时持续回合数减1。 处于【绝命对峙】的敌方目标陷入嘲讽状态。该目标/波提欧受到对方攻击时，受到的伤害提高[1]%/[2]%。 该目标被消灭或弱点被击破后，波提欧均可获得1层【优势口袋】，随后解除【绝命对峙】。 该战技无法恢复能量。施放该战技后，本回合不会结束。",
@@ -222,6 +242,16 @@
                     "13": 2,
                     "14": 2,
                     "15": 2
+                }
+            ],
+            "tags": ["debuff", "skillatk", "singleenemy", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": 1,
+                    "tag": ["singleenemy", "dmgreceive"]
                 }
             ]
         },
@@ -293,13 +323,44 @@
                     "14": 2,
                     "15": 2
                 }
+            ],
+            "tags": [
+                "ultatk",
+                "physicalatk",
+                "debuff",
+                "singleenemy",
+                "addweakness",
+                "actiond"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "addweakness",
+                    "multiplier": 100,
+                    "tag": ["singleenemy", "addweakness"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleenemy", "ultatk", "physicalatk"]
+                },
+                {
+                    "iid": "3",
+                    "type": "debuff",
+                    "multipliertarget": "actiond",
+                    "multiplier": 2,
+                    "tag": ["singleenemy", "actiond"]
+                }
             ]
         },
         {
             "id": "131504",
             "ENname": "Five Peas in a Pod",
             "CNname": "轮中五豆",
-            "JAname": "{RUBY_B#ごはつ}5発{RUBY_E#}の{RUBY_B#じゅうだん}銃弾{RUBY_E#}",
+            "JAname": "5発の銃弾",
             "imageurl": "images/skills/1315-131504.png",
             "DescriptionEN": "Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by [4]%, stacking up to [5] time(s). If the target is Weakness Broken while the Enhanced Basic ATK is being used, based on the number of Pocket Trickshot stacks, deals Break DMG to this target equal to [1]%/[2]%/[3]% of Boothill's Physical Break DMG. The max Toughness taken into account for this DMG cannot exceed [6] times the base Toughness Reduction of the Basic Attack \"Skullcrush Spurs.\" After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
             "DescriptionCN": "每层【优势口袋】使强化普攻的削韧值提高[4]%，最多叠加[5]层。 施放强化普攻期间，若目标处于弱点击破状态，基于【优势口袋】层数，对目标造成等同于波提欧[1]%/[2]%/[3]%物理属性击破伤害的击破伤害，该伤害计入的韧性上限不超过普攻【蹄铁裂颅】基础削韧值的[6]倍。 战斗胜利后，波提欧能够将【优势口袋】保留至下一次战斗中。",
@@ -413,6 +474,30 @@
                     "14": 16,
                     "15": 16
                 }
+            ],
+            "tags": ["buff", "singleenemy", "breakdmg", "dmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "breakdmg",
+                    "multiplier": 1,
+                    "tag": ["breakdmg", "singleenemy"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "breakdmg",
+                    "multiplier": 2,
+                    "tag": ["breakdmg", "singleenemy"]
+                },
+                {
+                    "iid": "3",
+                    "type": "dmg",
+                    "multipliertarget": "breakdmg",
+                    "multiplier": 3,
+                    "tag": ["breakdmg", "singleenemy"]
+                }
             ]
         },
         {
@@ -429,7 +514,17 @@
             "buffskill": false,
             "teamskill": false,
             "weaknessbreak": 60,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": ["debuff", "addweakness"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "addweakness",
+                    "multiplier": 100,
+                    "tag": ["singleenemy", "addweakness"]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -445,21 +540,48 @@
             "imageurl": "images/skills/1315-1315101.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "critdmg"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 30,
+                    "tag": ["buff", "self", "critrate"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "critdmg",
+                    "multiplier": 150,
+                    "tag": ["buff", "self", "critdmg"]
+                }
+            ]
         },
         {
             "id": "1315102",
             "tiny": false,
             "ENname": "Above Snakes",
             "CNname": "蛇之上行",
-            "JAname": "{RUBY_B#しち}死地{RUBY_E#}からの{RUBY_B#だっしゅつ}脱出{RUBY_E#}",
+            "JAname": "死地からの脱出",
             "DescriptionEN": "While Boothill is in the Standoff, reduces the DMG he receives from targets that are not in the Standoff by 30%.",
             "DescriptionCN": "波提欧处于【绝命对峙】时，受到未处于【绝命对峙】目标的伤害降低30%。",
             "DescriptionJP": "ブートヒルが「九死の決闘」状態の場合、「九死の決闘」状態でない敵の攻撃を受ける時、被ダメージ-30%。",
             "imageurl": "images/skills/1315-1315102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "allally", "dmgreduction"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "dmgreduction",
+                    "multiplier": 30,
+                    "tag": ["dmgreduction"]
+                }
+            ]
         },
         {
             "id": "1315103",
@@ -473,7 +595,17 @@
             "imageurl": "images/skills/1315-1315103.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 10,
+                    "tag": ["self", "energy"]
+                }
+            ]
         },
         {
             "id": "1315201",
@@ -487,7 +619,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         },
         {
             "id": "1315202",
@@ -501,7 +643,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1315203",
@@ -515,7 +667,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         },
         {
             "id": "1315204",
@@ -529,7 +691,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "hp"]
+                }
+            ]
         },
         {
             "id": "1315205",
@@ -543,7 +715,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         },
         {
             "id": "1315206",
@@ -557,7 +739,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1315207",
@@ -571,7 +763,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         },
         {
             "id": "1315208",
@@ -585,7 +787,17 @@
             "ttype": "hp",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "hp"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "hp"]
+                }
+            ]
         },
         {
             "id": "1315209",
@@ -599,7 +811,17 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "atk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "atk"]
+                }
+            ]
         },
         {
             "id": "1315210",
@@ -613,7 +835,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 10.7,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -622,14 +854,24 @@
             "eidolonnum": 1,
             "ENname": "Dusty Trail's Lone Star",
             "CNname": "扬尘孤星",
-            "JAname": "{RUBY_B#さじん}砂塵{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}の{RUBY_B#いっとうせい}一等星{RUBY_E#}",
+            "JAname": "砂塵の中の一等星",
             "imageurl": "images/skills/1315-e1.png",
             "DescriptionEN": "When the battle starts, obtains 1 stack of Pocket Trickshot. When Boothill deals DMG, ignores 16% of the enemy target's DEF.",
             "DescriptionCN": "战斗开始时，获得1层【优势口袋】。波提欧造成伤害时无视敌方目标16%的防御力。",
             "DescriptionJP": "戦闘開始時、「ポケットアドバンテージ」を1層獲得する。ブートヒルがダメージを与える時、敵の防御力を16%無視する。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "ignoredef", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 16,
+                    "tag": ["ignoredef", "self"]
+                }
+            ]
         },
         {
             "id": "131502-2",
@@ -643,14 +885,24 @@
             "DescriptionJP": "「九死の決闘」状態で「ポケットアドバンテージ」を獲得する時、SPを1回復する。同時に撃破特効+30%、2ターン継続。この効果はターンが回ってくるたびに1回まで発動でき、獲得する「ポケットアドバンテージ」が上限を超える時にも触発される。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["skillpointrestore", "self", "buff", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 30,
+                    "tag": ["breakeffect", "self"]
+                }
+            ]
         },
         {
             "id": "131503-3",
             "eidolonnum": 3,
             "ENname": "Marble Orchard's Guard",
             "CNname": "大理石果园守卫",
-            "JAname": "{RUBY_B#はかもり}墓守{RUBY_E#}",
+            "JAname": "墓守",
             "imageurl": "images/skills/1315-e3.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
@@ -664,21 +916,31 @@
             "eidolonnum": 4,
             "ENname": "Cold Cuts Chef",
             "CNname": "冷肉名厨",
-            "JAname": "{RUBY_B#さ}冷{RUBY_E#}めた{RUBY_B#にく}肉{RUBY_E#}の{RUBY_B#りょうりにん}料理人{RUBY_E#}",
+            "JAname": "冷めた肉の料理人",
             "imageurl": "images/skills/1315-e4.png",
             "DescriptionEN": "When the enemy target in the Standoff is attacked by Boothill, the DMG they receive additionally increases by 12%. When Boothill is attacked by the enemy target in the Standoff, the effect of him receiving increased DMG is offset by 12%.",
             "DescriptionCN": "处于【绝命对峙】的敌方目标受到波提欧攻击时，受到的伤害额外提高12%。波提欧受到处于【绝命对峙】的敌方目标的攻击时，受到的伤害提高效果降低12%。",
             "DescriptionJP": "「九死の決闘」状態の敵がブートヒルの攻撃を受ける時、被ダメージアップ効果さらに+12%。ブートヒルが「九死の決闘」状態の敵の攻撃を受ける時、被ダメージアップ効果-12%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["singleatk", "ultatk", "physicalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "addtarget": "dmgreceive",
+                    "multiplier": 12,
+                    "tag": ["singleenemy", "dmgreceive"]
+                }
+            ]
         },
         {
             "id": "131505-5",
             "eidolonnum": 5,
             "ENname": "Stump Speech",
             "CNname": "树桩演说家",
-            "JAname": "{RUBY_B#き}切{RUBY_E#}り{RUBY_B#かぶ}株{RUBY_E#}の{RUBY_B#えんぜつか}演説家{RUBY_E#}",
+            "JAname": "切り株の演説家",
             "imageurl": "images/skills/1315-e5.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
@@ -692,14 +954,38 @@
             "eidolonnum": 6,
             "ENname": "Crowbar Hotel's Raccoon",
             "CNname": "撬棍旅馆的浣熊",
-            "JAname": "{RUBY_B#てつごうし}鉄格子{RUBY_E#}ホテルの{RUBY_B#じょうれん}常連{RUBY_E#}",
+            "JAname": "鉄格子ホテルの常連",
             "imageurl": "images/skills/1315-e6.png",
             "DescriptionEN": "When triggering the Talent's Break DMG, additionally deals Break DMG to the target equal to 40% of the original DMG multiplier and additionally deals Break DMG to adjacent targets equal to 70% of the original DMG multiplier.",
             "DescriptionCN": "触发天赋造成击破伤害时，对目标额外造成等同于原伤害倍率40%的击破伤害，对相邻目标额外造成等同于原伤害倍率70%的击破伤害。",
             "DescriptionJP": "天賦を触発して弱点撃破ダメージを与える時、ターゲットに対してさらに本来のダメージ倍率40%分の弱点撃破ダメージを与え、隣接する敵に本来のダメージ倍率70%分の弱点撃破ダメージを与える。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "breakdmg",
+                "singleally",
+                "singleenemy",
+                "blastatk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "breakdmg",
+                    "multiplier": 40,
+                    "tag": ["self", "singleenemy", "breakdmg"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "breakdmg",
+                    "multiplier": 70,
+                    "tag": ["self", "blastatk", "breakdmg"]
+                }
+            ]
         }
     ]
 }
