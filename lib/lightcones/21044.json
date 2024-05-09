@@ -1,0 +1,125 @@
+{
+    "id": "21044",
+    "ENname": "Boundless Choreo(WIP)",
+    "CNname": "无边曼舞(施工中)",
+    "JAname": "{RUBY_B#お}終{RUBY_E#}わりなき{RUBY_B#ぶとう}舞踏{RUBY_E#}(建設中)",
+    "imageurl": "images/lightcones/21044.png",
+    "imagelargeurl": "images/lightcones/21044l.png",
+    "wtype": "nihility",
+    "rarity": "4",
+    "leveldata": [
+        {
+            "level": "1",
+            "hp": 43.2,
+            "atk": 21.6,
+            "def": 15
+        },
+        {
+            "level": "20",
+            "hp": 166.32,
+            "atk": 83.16,
+            "def": 57.75
+        },
+        {
+            "level": "20+",
+            "hp": 218.16,
+            "atk": 109.08,
+            "def": 75.75
+        },
+        {
+            "level": "30",
+            "hp": 282.96,
+            "atk": 141.48,
+            "def": 98.25
+        },
+        {
+            "level": "30+",
+            "hp": 352.08,
+            "atk": 176.04,
+            "def": 122.25
+        },
+        {
+            "level": "40",
+            "hp": 416.88,
+            "atk": 208.44,
+            "def": 144.75
+        },
+        {
+            "level": "40+",
+            "hp": 486.0,
+            "atk": 243.0,
+            "def": 168.75
+        },
+        {
+            "level": "50",
+            "hp": 550.8,
+            "atk": 275.4,
+            "def": 191.25
+        },
+        {
+            "level": "50+",
+            "hp": 619.92,
+            "atk": 309.96,
+            "def": 215.25
+        },
+        {
+            "level": "60",
+            "hp": 684.72,
+            "atk": 342.36,
+            "def": 237.75
+        },
+        {
+            "level": "60+",
+            "hp": 753.84,
+            "atk": 376.92,
+            "def": 261.75
+        },
+        {
+            "level": "70",
+            "hp": 818.64,
+            "atk": 409.32,
+            "def": 284.25
+        },
+        {
+            "level": "70+",
+            "hp": 887.76,
+            "atk": 443.88,
+            "def": 308.25
+        },
+        {
+            "level": "80",
+            "hp": 952.56,
+            "atk": 476.28,
+            "def": 330.75
+        }
+    ],
+    "skilldata": [
+        {
+            "ENname": "Scrutinize",
+            "CNname": "试探",
+            "JAname": "{RUBY_B#さぐ}探{RUBY_E#}り{RUBY_B#あ}合{RUBY_E#}い",
+            "DescriptionEN": "Increase the wearer's CRIT Rate by [1]%. The wearer deals [2]% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
+            "DescriptionCN": "使装备者的暴击率提高[1]%。装备者对处于防御降低或减速状态下的敌人造成的暴击伤害提高[2]%。",
+            "DescriptionJP": "装備キャラの会心率+[1]%。防御力ダウン状態または減速状態の敵に対する、装備キャラの会心ダメージ+[2]%。",
+            "maxlevel": 5,
+            "buffskill": true,
+            "teamskill": false,
+            "levelmultiplier": [
+                {
+                    "1": 8,
+                    "2": 10,
+                    "3": 12,
+                    "4": 14,
+                    "5": 16
+                },
+                {
+                    "1": 24,
+                    "2": 30,
+                    "3": 36,
+                    "4": 42,
+                    "5": 48
+                }
+            ]
+        }
+    ]
+}
