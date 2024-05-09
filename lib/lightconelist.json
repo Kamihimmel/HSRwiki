@@ -1006,7 +1006,7 @@
             "wtype": "preservation",
             "rarity": "4",
             "infourl": "lib/lightcones/21043.json",
-            "spoiler": false
+            "spoiler": true
         },
         {
             "id": "21035",
@@ -1114,7 +1114,7 @@
             "wtype": "nihility",
             "rarity": "4",
             "infourl": "lib/lightcones/21044.json",
-            "spoiler": false
+            "spoiler": true
         },
         {
             "id": "22002",
@@ -1126,7 +1126,7 @@
             "wtype": "harmony",
             "rarity": "4",
             "infourl": "lib/lightcones/22002.json",
-            "spoiler": false
+            "spoiler": true
         },
         {
             "id": "23021",
@@ -1186,7 +1186,7 @@
             "wtype": "harmony",
             "rarity": "5",
             "infourl": "lib/lightcones/23026.json",
-            "spoiler": false
+            "spoiler": true
         },
         {
             "id": "23027",
@@ -1198,7 +1198,7 @@
             "wtype": "thehunt",
             "rarity": "5",
             "infourl": "lib/lightcones/23027.json",
-            "spoiler": false
+            "spoiler": true
         }
     ]
 }
