@@ -260,8 +260,7 @@
                     "type": "buff",
                     "addtarget": "alldotdmg",
                     "multipliertarget": "alldotdmg",
-                    "multiplier": 2,
-                    "multipliervalue": "1",
+                    "multipliervalue": "100",
                     "tag": [
                         "self",
                         "alldotdmg"
@@ -431,8 +430,7 @@
                     "type": "buff",
                     "addtarget": "shockeddotdmg",
                     "multipliertarget": "shockeddotdmg",
-                    "multiplier": 5,
-                    "multipliervalue": "1",
+                    "multipliervalue": "100",
                     "tag": [
                         "self",
                         "shockeddotdmg"
