@@ -100,7 +100,7 @@
             "JAname": "{RUBY_B#わた}渡{RUBY_E#}し{RUBY_B#もり}守{RUBY_E#}",
             "DescriptionEN": "Increases the wearer's CRIT DMG by [1]%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals [2]% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer's Ultimate additionally increases by [3]%.",
             "DescriptionCN": "使装备者的暴击伤害提高[1]%。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高[2]%，终结技造成的伤害额外提高[3]%。",
-            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。装備キャラの攻撃が敵に命中する時、敵を「泡影」状態にする、1ターン継続。この効果は装備キャラが攻撃を行うたびに、敵それぞれに1回まで発動できる。「泡影」状態の敵に対する装備キャラの与ダメージ+[2]%、さらに必殺技の与ダメージ+[3]%。",
+            "DescriptionJP": "装備キャラの会心ダメージ+[1]%。装備キャラの攻撃が敵に命中する時、敵を「泡影」状態にする、1ターン継続。この効果は装備キャラが攻撃を行うたびに、敵それぞれに1回まで発動できる。「泡影」状態の敵に対する装備キャラの与ダメージ+[2]%、さらに必殺技によるダメージ+[3]%。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,

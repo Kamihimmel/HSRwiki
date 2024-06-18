@@ -100,7 +100,7 @@
             "JAname": "オールイン",
             "DescriptionEN": "Increases the wearer's DEF by [1]%. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by [2]%, lasting for [3] turn(s). When the wearer's follow-up attack hits an enemy target, there is a [4]% base chance to increase the DMG taken by the attacked enemy target by [5]%, lasting for [6] turn(s).",
             "DescriptionCN": "使装备者的防御力提高[1]%，当装备者为我方目标提供护盾时，使装备者的暴击伤害提高[2]%，持续[3]回合。当装备者发动追加攻击击中敌方目标时，有[4]%的基础概率使受到攻击的敌方目标受到的伤害提高[5]%，持续[6]回合。",
-            "DescriptionJP": "装備キャラの防御力+[1]%。装備キャラが味方にバリアを付与する時、装備キャラの会心ダメージ+[2]%、[3]ターン継続。装備キャラの追加攻撃が敵に命中する時、[4]%の基礎確率で攻撃を受ける敵の被ダメージを[5]%アップさせる、[6]ターン継続。",
+            "DescriptionJP": "装備キャラの防御力+[1]%。装備キャラが味方にバリアを付与する時、装備キャラの会心ダメージ+[2]%、[3]ターン継続。装備キャラの追加攻撃が敵に命中する時、[4]%の基礎確率で攻撃を受ける敵の受けるダメージ+[5]%、[6]ターン継続。",
             "maxlevel": 5,
             "buffskill": true,
             "teamskill": false,
