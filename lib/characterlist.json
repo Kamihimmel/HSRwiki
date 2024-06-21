@@ -668,6 +668,32 @@
             "rarity": "5",
             "infourl": "lib/mch.json",
             "spoiler": false
+        },
+        {
+            "id": "1310",
+            "ENname": "Firefly",
+            "CNname": "流萤",
+            "JAname": "ホタル",
+            "imageurl": "images/characters/1310.png",
+            "imagelargeurl": "images/characters/1310-large.png",
+            "etype": "fire",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/characters/1310.json",
+            "spoiler": false
+        },
+        {
+            "id": "1314",
+            "ENname": "Jade(WIP)",
+            "CNname": "翡翠(施工中)",
+            "JAname": "ジェイド(建設中)",
+            "imageurl": "images/characters/1314.png",
+            "imagelargeurl": "images/characters/1314-large.png",
+            "etype": "quantum",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "lib/characters/1314.json",
+            "spoiler": true
         }
     ]
 }
