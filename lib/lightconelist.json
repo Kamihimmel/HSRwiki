@@ -997,6 +997,54 @@
             "spoiler": false
         },
         {
+            "id": "21045",
+            "ENname": "After the Charmony Fall",
+            "CNname": "谐乐静默之后",
+            "JAname": "{RUBY_B#ちょうわ}調和{RUBY_E#}が{RUBY_B#ちんもく}沈黙{RUBY_E#}した{RUBY_B#あと}後{RUBY_E#}",
+            "imageurl": "images/lightcones/21045.png",
+            "imagelargeurl": "images/lightcones/21045l.png",
+            "wtype": "erudition",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21045.json",
+            "spoiler": false
+        },
+        {
+            "id": "23025",
+            "ENname": "Whereabouts Should Dreams Rest",
+            "CNname": "梦应归于何处",
+            "JAname": "{RUBY_B#ゆめ}夢{RUBY_E#}が{RUBY_B#かえ}帰{RUBY_E#}り{RUBY_B#つ}着{RUBY_E#}く{RUBY_B#ばしょ}場所{RUBY_E#}",
+            "imageurl": "images/lightcones/23025.png",
+            "imagelargeurl": "images/lightcones/23025l.png",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23025.json",
+            "spoiler": false
+        },
+        {
+            "id": "23028",
+            "ENname": "Yet Hope Is Priceless",
+            "CNname": "偏偏希望无价",
+            "JAname": "されど{RUBY_B#きぼう}希望{RUBY_E#}の{RUBY_B#めい}銘{RUBY_E#}は{RUBY_B#むか}無価{RUBY_E#}",
+            "imageurl": "images/lightcones/23028.png",
+            "imagelargeurl": "images/lightcones/23028l.png",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23028.json",
+            "spoiler": false
+        },
+        {
+            "id": "24004",
+            "ENname": "Eternal Calculus",
+            "CNname": "不息的演算",
+            "JAname": "{RUBY_B#た}絶{RUBY_E#}え{RUBY_B#ま}間{RUBY_E#}ない{RUBY_B#えんざん}演算{RUBY_E#}",
+            "imageurl": "images/lightcones/24004.png",
+            "imagelargeurl": "images/lightcones/24004l.png",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "lib/lightcones/24004.json",
+            "spoiler": false
+        },
+        {
             "id": "21035",
             "ENname": "What Is Real?(WIP)",
             "CNname": "何物为真(施工中)",
@@ -1117,18 +1165,6 @@
             "spoiler": true
         },
         {
-            "id": "21045",
-            "ENname": "After the Charmony Fall",
-            "CNname": "谐乐静默之后",
-            "JAname": "{RUBY_B#ちょうわ}調和{RUBY_E#}が{RUBY_B#ちんもく}沈黙{RUBY_E#}した{RUBY_B#あと}後{RUBY_E#}",
-            "imageurl": "images/lightcones/21045.png",
-            "imagelargeurl": "images/lightcones/21045l.png",
-            "wtype": "erudition",
-            "rarity": "4",
-            "infourl": "lib/lightcones/21045.json",
-            "spoiler": false
-        },
-        {
             "id": "22002",
             "ENname": "For Tomorrow's Journey(WIP)",
             "CNname": "为了明日的旅途(施工中)",
@@ -1189,18 +1225,6 @@
             "spoiler": true
         },
         {
-            "id": "23025",
-            "ENname": "Whereabouts Should Dreams Rest",
-            "CNname": "梦应归于何处",
-            "JAname": "{RUBY_B#ゆめ}夢{RUBY_E#}が{RUBY_B#かえ}帰{RUBY_E#}り{RUBY_B#つ}着{RUBY_E#}く{RUBY_B#ばしょ}場所{RUBY_E#}",
-            "imageurl": "images/lightcones/23025.png",
-            "imagelargeurl": "images/lightcones/23025l.png",
-            "wtype": "destruction",
-            "rarity": "5",
-            "infourl": "lib/lightcones/23025.json",
-            "spoiler": false
-        },
-        {
             "id": "23026",
             "ENname": "Flowing Nightglow(WIP)",
             "CNname": "夜色流光溢彩(施工中)",
@@ -1223,30 +1247,6 @@
             "rarity": "5",
             "infourl": "lib/lightcones/23027.json",
             "spoiler": true
-        },
-        {
-            "id": "23028",
-            "ENname": "Yet Hope Is Priceless",
-            "CNname": "偏偏希望无价",
-            "JAname": "されど{RUBY_B#きぼう}希望{RUBY_E#}の{RUBY_B#めい}銘{RUBY_E#}は{RUBY_B#むか}無価{RUBY_E#}",
-            "imageurl": "images/lightcones/23028.png",
-            "imagelargeurl": "images/lightcones/23028l.png",
-            "wtype": "erudition",
-            "rarity": "5",
-            "infourl": "lib/lightcones/23028.json",
-            "spoiler": false
-        },
-        {
-            "id": "24004",
-            "ENname": "Eternal Calculus",
-            "CNname": "不息的演算",
-            "JAname": "{RUBY_B#た}絶{RUBY_E#}え{RUBY_B#ま}間{RUBY_E#}ない{RUBY_B#えんざん}演算{RUBY_E#}",
-            "imageurl": "images/lightcones/24004.png",
-            "imagelargeurl": "images/lightcones/24004l.png",
-            "wtype": "erudition",
-            "rarity": "5",
-            "infourl": "lib/lightcones/24004.json",
-            "spoiler": false
         }
     ]
 }
