@@ -317,6 +317,58 @@
             "spoiler": false
         },
         {
+            "id": "119",
+            "ENname": "Iron Cavalry Against the Scourge",
+            "CNname": "荡除蠹灾的铁骑",
+            "JAname": "{RUBY_B#こうがい}蝗害{RUBY_E#}を{RUBY_B#いっそう}一掃{RUBY_E#}せし{RUBY_B#てっき}鉄騎{RUBY_E#}",
+            "imageurl": "images/relics/119.png",
+            "set": "4",
+            "head": "images/relics/IconRelic_119_1.png",
+            "hands": "images/relics/IconRelic_119_2.png",
+            "body": "images/relics/IconRelic_119_3.png",
+            "feet": "images/relics/IconRelic_119_4.png",
+            "infourl": "lib/relics/119.json",
+            "spoiler": false
+        },
+        {
+            "id": "120",
+            "ENname": "The Wind-Soaring Valorous",
+            "CNname": "风举云飞的勇烈",
+            "JAname": "{RUBY_B#ふううん}風雲{RUBY_E#}を{RUBY_B#な}薙{RUBY_E#}ぎ{RUBY_B#はら}払{RUBY_E#}う{RUBY_B#ゆうれつ}勇烈{RUBY_E#}",
+            "imageurl": "images/relics/120.png",
+            "set": "4",
+            "head": "images/relics/IconRelic_120_1.png",
+            "hands": "images/relics/IconRelic_120_2.png",
+            "body": "images/relics/IconRelic_120_3.png",
+            "feet": "images/relics/IconRelic_120_4.png",
+            "infourl": "lib/relics/120.json",
+            "spoiler": false
+        },
+        {
+            "id": "315",
+            "ENname": "Duran, Dynasty of Running Wolves",
+            "CNname": "奔狼的都蓝王朝",
+            "JAname": "{RUBY_B#ほんろう}奔狼{RUBY_E#}の{RUBY_B#どぅーらんおうちょう}都藍王朝{RUBY_E#}",
+            "imageurl": "images/relics/315.png",
+            "set": "2",
+            "sphere": "images/relics/IconRelic_315_5.png",
+            "rope": "images/relics/IconRelic_315_6.png",
+            "infourl": "lib/relics/315.json",
+            "spoiler": false
+        },
+        {
+            "id": "316",
+            "ENname": "Forge of the Kalpagni Lantern",
+            "CNname": "劫火莲灯铸炼宫",
+            "JAname": "{RUBY_B#ごうか}劫火{RUBY_E#}と{RUBY_B#れんとう}蓮灯{RUBY_E#}の{RUBY_B#ちゅうれんぐう}鋳煉宮{RUBY_E#}",
+            "imageurl": "images/relics/316.png",
+            "set": "2",
+            "sphere": "images/relics/IconRelic_316_5.png",
+            "rope": "images/relics/IconRelic_316_6.png",
+            "infourl": "lib/relics/316.json",
+            "spoiler": false
+        },
+        {
             "id": "115",
             "ENname": "The Ashblazing Grand Duke(WIP)",
             "CNname": "毁烬焚骨的大公(施工中)",
@@ -373,34 +425,6 @@
             "spoiler": true
         },
         {
-            "id": "119",
-            "ENname": "Iron Cavalry Against the Scourge",
-            "CNname": "荡除蠹灾的铁骑",
-            "JAname": "{RUBY_B#こうがい}蝗害{RUBY_E#}を{RUBY_B#いっそう}一掃{RUBY_E#}せし{RUBY_B#てっき}鉄騎{RUBY_E#}",
-            "imageurl": "images/relics/119.png",
-            "set": "4",
-            "head": "images/relics/IconRelic_119_1.png",
-            "hands": "images/relics/IconRelic_119_2.png",
-            "body": "images/relics/IconRelic_119_3.png",
-            "feet": "images/relics/IconRelic_119_4.png",
-            "infourl": "lib/relics/119.json",
-            "spoiler": false
-        },
-        {
-            "id": "120",
-            "ENname": "The Wind-Soaring Valorous",
-            "CNname": "风举云飞的勇烈",
-            "JAname": "{RUBY_B#ふううん}風雲{RUBY_E#}を{RUBY_B#な}薙{RUBY_E#}ぎ{RUBY_B#はら}払{RUBY_E#}う{RUBY_B#ゆうれつ}勇烈{RUBY_E#}",
-            "imageurl": "images/relics/120.png",
-            "set": "4",
-            "head": "images/relics/IconRelic_120_1.png",
-            "hands": "images/relics/IconRelic_120_2.png",
-            "body": "images/relics/IconRelic_120_3.png",
-            "feet": "images/relics/IconRelic_120_4.png",
-            "infourl": "lib/relics/120.json",
-            "spoiler": false
-        },
-        {
             "id": "311",
             "ENname": "Firmament Frontline: Glamoth(WIP)",
             "CNname": "苍穹战线格拉默(施工中)",
@@ -447,30 +471,6 @@
             "rope": "images/relics/IconRelic_314_6.png",
             "infourl": "lib/relics/314.json",
             "spoiler": true
-        },
-        {
-            "id": "315",
-            "ENname": "Duran, Dynasty of Running Wolves",
-            "CNname": "奔狼的都蓝王朝",
-            "JAname": "{RUBY_B#ほんろう}奔狼{RUBY_E#}の{RUBY_B#どぅーらんおうちょう}都藍王朝{RUBY_E#}",
-            "imageurl": "images/relics/315.png",
-            "set": "2",
-            "sphere": "images/relics/IconRelic_315_5.png",
-            "rope": "images/relics/IconRelic_315_6.png",
-            "infourl": "lib/relics/315.json",
-            "spoiler": false
-        },
-        {
-            "id": "316",
-            "ENname": "Forge of the Kalpagni Lantern",
-            "CNname": "劫火莲灯铸炼宫",
-            "JAname": "{RUBY_B#ごうか}劫火{RUBY_E#}と{RUBY_B#れんとう}蓮灯{RUBY_E#}の{RUBY_B#ちゅうれんぐう}鋳煉宮{RUBY_E#}",
-            "imageurl": "images/relics/316.png",
-            "set": "2",
-            "sphere": "images/relics/IconRelic_316_5.png",
-            "rope": "images/relics/IconRelic_316_6.png",
-            "infourl": "lib/relics/316.json",
-            "spoiler": false
         }
     ]
 }
