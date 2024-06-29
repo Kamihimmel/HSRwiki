@@ -102,7 +102,7 @@
             "id": "131401",
             "ENname": "Lash of Riches",
             "CNname": "挞楚抽薪",
-            "JAname": "むしり{RUBY_B#と}取{RUBY_E#}る{RUBY_B#むちう}鞭打{RUBY_E#}ち",
+            "JAname": "むしり取る鞭打ち",
             "imageurl": "images/skills/1314-131401.png",
             "DescriptionEN": "Deals Quantum DMG equal to [1]% of Jade's ATK to a single target enemy, and Quantum DMG equal to [2]% of Jade's ATK to adjacent enemies.",
             "DescriptionCN": "对指定敌方单体造成等同于翡翠[1]%攻击力的量子属性伤害，同时对其相邻目标造成等同于翡翠[2]%攻击力的量子属性伤害。",
@@ -136,13 +136,30 @@
                     "8": 36,
                     "9": 39
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "quantumatk", "blastatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "quantumatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "tag": ["blastatk", "normalatk", "quantumatk"]
+                }
             ]
         },
         {
             "id": "131402",
             "ENname": "Acquisition Surety",
             "CNname": "恣肆吞併的担保",
-            "JAname": "ほしいままに{RUBY_B#の}呑{RUBY_E#}み{RUBY_B#こ}込{RUBY_E#}む{RUBY_B#ばいしゅう}買収{RUBY_E#}",
+            "JAname": "ほしいままに呑み込む買収",
             "imageurl": "images/skills/1314-131402.png",
             "DescriptionEN": "Makes a single target ally become the Debt Collector and increases their SPD by [1], lasting for [4] turn(s). After the Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to [3]% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to [2]% of their Max HP. If the current HP is insufficient, reduces HP to 1. If Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When the Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade's every turn, the Debt Collector's duration reduces by 1 turn.",
             "DescriptionCN": "指定我方单体成为【收债人】，使其速度提高[1]点，持续[4]回合。 【收债人】施放攻击后，对每个击中的敌方目标造成1次等同于翡翠[3]%攻击力的量子属性附加伤害，并消耗【收债人】生命上限[2]%的生命值，若当前生命值不足，当前生命值降至1点。 若翡翠成为【收债人】时，无法获得速度提高效果且攻击后不消耗生命值。 当场上存在【收债人】时，翡翠无法施放战技，翡翠每回合开始时【收债人】状态持续回合数减1。",
@@ -222,13 +239,23 @@
                     "14": 3,
                     "15": 3
                 }
+            ],
+            "tags": ["additionalatk", "quantumatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": ["additionalatk", "quantumatk"]
+                }
             ]
         },
         {
             "id": "131403",
             "ENname": "Vow of the Deep",
             "CNname": "堕此欲渊，立此狱契",
-            "JAname": "{RUBY_B#よくぼう}欲望{RUBY_E#}の{RUBY_B#ふち}淵{RUBY_E#}での{RUBY_B#じごく}地獄{RUBY_E#}の{RUBY_B#ちぎ}契{RUBY_E#}り",
+            "JAname": "欲望の淵での地獄の契り",
             "imageurl": "images/skills/1314-131403.png",
             "DescriptionEN": "Deals Quantum DMG equal to [3]% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's follow-up attack, increasing its DMG multiplier by [1]%. This enhancement can trigger [2] time(s).",
             "DescriptionCN": "对敌方全体造成等同于翡翠[3]%攻击力的量子属性伤害。同时使翡翠天赋的追加攻击获得强化，追加攻击造成的伤害倍率提高[1]%。强化效果可生效[2]次。",
@@ -292,13 +319,30 @@
                     "14": 288,
                     "15": 300
                 }
+            ],
+            "tags": ["aoe", "ultatk", "quantumatk", "additionalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 3,
+                    "tag": ["aoe", "ultatk", "quantumatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "additionalatk",
+                    "multiplier": 1,
+                    "tag": ["self", "additionalatk"]
+                }
             ]
         },
         {
             "id": "131404",
             "ENname": "Fang of Flare Flaying",
             "CNname": "剔烁之牙",
-            "JAname": "{RUBY_B#とみ}富{RUBY_E#}を{RUBY_B#そ}削{RUBY_E#}ぐ{RUBY_B#どくが}毒牙{RUBY_E#}",
+            "JAname": "富を削ぐ毒牙",
             "imageurl": "images/skills/1314-131404.png",
             "DescriptionEN": "After Jade or the Debt Collector unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching [3] points of Charge, consumes the [3] points to launch 1 instance of follow-up attack, dealing Quantum DMG equal to [5]% of Jade's ATK to all enemies. This follow-up attack does not generate Charge. When launching her Talent's follow-up attack, Jade immediately gains [4] stack(s) of Pawned Asset, with each stack increasing CRIT DMG by [1]%, stacking up to [2] times.",
             "DescriptionCN": "翡翠或成为【收债人】的目标施放攻击后，每击中1名敌方目标均可获得1点充能。当充能到达[3]点后，消耗[3]点充能，发动1次追加攻击，对敌方全体目标造成等同于翡翠[5]%攻击力的量子属性伤害，本次追加攻击无法获得充能。 翡翠发动天赋的追加攻击时立即获得[4]层【当品】，每层【当品】使暴击伤害提高[1]%，最多叠加[2]层。",
@@ -395,13 +439,23 @@
                     "14": 144,
                     "15": 150
                 }
+            ],
+            "tags": ["aoe", "quantumatk", "additionalatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 5,
+                    "tag": ["aoe", "additionalatk", "quantumatk"]
+                }
             ]
         },
         {
             "id": "131407",
             "ENname": "Visionary Predation",
             "CNname": "猎手的视界",
-            "JAname": "ハンターの{RUBY_B#しかい}視界{RUBY_E#}",
+            "JAname": "ハンターの視界",
             "imageurl": "images/skills/1314-131407.png",
             "DescriptionEN": "After using the Technique, inflicts enemies within a set area with Blind Fealty for 10 second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to 50% of Jade's ATK to all enemies, and immediately gains 15 stack(s) of Pawned Asset.",
             "DescriptionCN": "使用秘技后使一定区域内的敌人陷入10秒【盲从】。【盲从】状态下敌人不会主动攻击我方目标。主动攻击陷入【盲从】的敌人进入战斗时，使所有处于【盲从】状态的敌人同时进入战斗。进入战斗后对敌方全体造成等同于翡翠50%攻击力的量子属性伤害，立即获得15层【当品】。",
@@ -434,21 +488,31 @@
             "tiny": false,
             "ENname": "Collateral Ticket",
             "CNname": "折牙票",
-            "JAname": "{RUBY_B#しちふだ}質札{RUBY_E#}",
+            "JAname": "質札",
             "DescriptionEN": "When the battle starts, Jade's action is advanced forward by 50%.",
             "DescriptionCN": "战斗开始时，翡翠的行动提前50%。",
             "DescriptionJP": "戦闘開始時、ジェイドの行動順が50%早まる。",
             "imageurl": "images/skills/1314-1314102.png",
             "stype": "trace",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "actionf", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 50,
+                    "tag": ["self", "actionf"]
+                }
+            ]
         },
         {
             "id": "1314103",
             "tiny": false,
             "ENname": "Asset Forfeiture",
             "CNname": "绝当品",
-            "JAname": "{RUBY_B#なが}流{RUBY_E#}れ{RUBY_B#もの}物{RUBY_E#}",
+            "JAname": "流れ物",
             "DescriptionEN": "Each Pawned Asset stack from the Talent additionally increases Jade's ATK by 0.5%.",
             "DescriptionCN": "天赋中每层【当品】额外使翡翠的攻击力提高0.5%。",
             "DescriptionJP": "「質草」1層につき、ジェイドの攻撃力+0.5%。",
@@ -470,22 +534,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "quantumdmg"
-            ],
+            "tags": ["buff", "self", "quantumdmg"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "quantumdmg",
                     "multiplier": 3.2,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "quantumdmg"
-                    ]
+                    "tag": ["buff", "self", "quantumdmg"]
                 }
             ]
         },
@@ -502,22 +558,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
+            "tags": ["buff", "self", "atk"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 4,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "atk"
-                    ]
+                    "tag": ["buff", "self", "atk"]
                 }
             ]
         },
@@ -534,22 +582,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "quantumdmg"
-            ],
+            "tags": ["buff", "self", "quantumdmg"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "quantumdmg",
                     "multiplier": 3.2,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "quantumdmg"
-                    ]
+                    "tag": ["buff", "self", "quantumdmg"]
                 }
             ]
         },
@@ -566,22 +606,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "effectres"
-            ],
+            "tags": ["buff", "self", "effectres"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 4,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "effectres"
-                    ]
+                    "tag": ["buff", "self", "effectres"]
                 }
             ]
         },
@@ -598,22 +630,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "quantumdmg"
-            ],
+            "tags": ["buff", "self", "quantumdmg"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "quantumdmg",
                     "multiplier": 4.8,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "quantumdmg"
-                    ]
+                    "tag": ["buff", "self", "quantumdmg"]
                 }
             ]
         },
@@ -630,22 +654,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
+            "tags": ["buff", "self", "atk"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 6,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "atk"
-                    ]
+                    "tag": ["buff", "self", "atk"]
                 }
             ]
         },
@@ -662,22 +678,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "quantumdmg"
-            ],
+            "tags": ["buff", "self", "quantumdmg"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "quantumdmg",
                     "multiplier": 4.8,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "quantumdmg"
-                    ]
+                    "tag": ["buff", "self", "quantumdmg"]
                 }
             ]
         },
@@ -694,22 +702,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "effectres"
-            ],
+            "tags": ["buff", "self", "effectres"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "effectres",
                     "multiplier": 6,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "effectres"
-                    ]
+                    "tag": ["buff", "self", "effectres"]
                 }
             ]
         },
@@ -726,22 +726,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "atk"
-            ],
+            "tags": ["buff", "self", "atk"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "atk",
                     "multiplier": 8,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "atk"
-                    ]
+                    "tag": ["buff", "self", "atk"]
                 }
             ]
         },
@@ -758,22 +750,14 @@
             "stype": "trace",
             "buffskill": true,
             "teamskill": false,
-            "tags": [
-                "buff",
-                "self",
-                "quantumdmg"
-            ],
+            "tags": ["buff", "self", "quantumdmg"],
             "effect": [
                 {
                     "iid": "1",
                     "type": "buff",
                     "addtarget": "quantumdmg",
                     "multiplier": 6.4,
-                    "tag": [
-                        "buff",
-                        "self",
-                        "quantumdmg"
-                    ]
+                    "tag": ["buff", "self", "quantumdmg"]
                 }
             ]
         }
@@ -784,35 +768,55 @@
             "eidolonnum": 1,
             "ENname": "Altruism? Nevertheless Tradable",
             "CNname": "无私？亦可交割",
-            "JAname": "{RUBY_B#むし}無私{RUBY_E#}？ それは{RUBY_B#こうしょう}交渉次第{RUBY_E#}",
+            "JAname": "無私？ それは交渉次第",
             "imageurl": "images/skills/1314-e1.png",
             "DescriptionEN": "The follow-up attack DMG from Jade's Talent increases by 32%. After the Debt Collector character attacks and the number of the enemy target(s) hit is either 2 or 1, Jade additionally gains 1 or 2 point(s) of Charge respectively.",
             "DescriptionCN": "翡翠天赋的追加攻击伤害提高32%，持有【收债人】状态的角色施放攻击后击中敌方目标数量等于2/1名时，翡翠额外获得1/2点充能。",
             "DescriptionJP": "ジェイドの天賦による追加攻撃の与ダメージ+32%。「債権回収者」状態の味方キャラが攻撃を行い、命中した敵の数が2体/1体の時、ジェイドは1/2のチャージポイントを追加で獲得する。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["aoe", "ultatk", "quantumatk", "additionalatk"],
+            "effect": [
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "additionalatk",
+                    "multiplier": 32,
+                    "tag": ["self", "additionalatk"]
+                }
+            ]
         },
         {
             "id": "131402-2",
             "eidolonnum": 2,
             "ENname": "Morality? Herein Authenticated",
             "CNname": "道德？谨此核押",
-            "JAname": "{RUBY_B#どうとく}道徳{RUBY_E#}？ {RUBY_B#つつし}謹{RUBY_E#}んで{RUBY_B#なついん}捺印{RUBY_E#}",
+            "JAname": "道徳？ 謹んで捺印",
             "imageurl": "images/skills/1314-e2.png",
             "DescriptionEN": "When there are 15 stacks of Pawned Asset, Jade's CRIT Rate increases by 18%.",
             "DescriptionCN": "【当品】叠加至15层时，翡翠暴击率提高18%。",
             "DescriptionJP": "「質草」が15層以上の時、ジェイドの会心率+18%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "critrate"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "critrate",
+                    "multiplier": 18,
+                    "tag": ["self", "critrate"]
+                }
+            ]
         },
         {
             "id": "131403-3",
             "eidolonnum": 3,
             "ENname": "Honesty? Soon Mortgaged",
             "CNname": "坦率？只待典当",
-            "JAname": "{RUBY_B#そっちょく}率直{RUBY_E#}？ {RUBY_B#しちい}質入{RUBY_E#}れを{RUBY_B#ま}待{RUBY_E#}つのみ",
+            "JAname": "率直？ 質入れを待つのみ",
             "imageurl": "images/skills/1314-e3.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "战技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
@@ -826,21 +830,31 @@
             "eidolonnum": 4,
             "ENname": "Sincerity? Put Option Only",
             "CNname": "真诚？唯凭认沽",
-            "JAname": "{RUBY_B#せいじつ}誠実{RUBY_E#}？ {RUBY_B#けいやく}契約{RUBY_E#}に{RUBY_B#したが}従{RUBY_E#}っただけ",
+            "JAname": "誠実？ 契約に従っただけ",
             "imageurl": "images/skills/1314-e4.png",
             "DescriptionEN": "When using Ultimate, enables the DMG dealt by Jade to ignore 12% of enemy targets' DEF, lasting for 3 turn(s).",
             "DescriptionCN": "施放终结技时，使翡翠造成的伤害无视敌方目标12%的防御力，持续3回合。",
             "DescriptionJP": "必殺技を発動する時、ジェイドの与えるダメージが敵の防御力を12%無視する、3ターン継続。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "ignoredef", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 12,
+                    "tag": ["ignoredef", "self"]
+                }
+            ]
         },
         {
             "id": "131405-5",
             "eidolonnum": 5,
             "ENname": "Hope? Hitherto Forfeited",
             "CNname": "希冀？已然绝卖",
-            "JAname": "{RUBY_B#きぼう}希望{RUBY_E#}？ すでに{RUBY_B#う}売{RUBY_E#}り{RUBY_B#わた}渡{RUBY_E#}し{RUBY_B#ず}済{RUBY_E#}み",
+            "JAname": "希望？ すでに売り渡し済み",
             "imageurl": "images/skills/1314-e5.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "终结技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
@@ -854,14 +868,24 @@
             "eidolonnum": 6,
             "ENname": "Equity? Pending Sponsorship",
             "CNname": "公平？仍须保荐",
-            "JAname": "{RUBY_B#こうへい}公平{RUBY_E#}？ なおも{RUBY_B#たんぽ}担保{RUBY_E#}が{RUBY_B#ひっす}必須{RUBY_E#}",
+            "JAname": "公平？ なおも担保が必須",
             "imageurl": "images/skills/1314-e6.png",
             "DescriptionEN": "When the Debt Collector character exists on the field, Jade's Quantum RES PEN increases by 20%, and Jade gains the Debt Collector state.",
             "DescriptionCN": "场上有【收债人】状态的角色时，翡翠量子属性抗性穿透提高20%，同时翡翠获得【收债人】状态。",
             "DescriptionJP": "フィールド上に「債権回収者」状態のキャラがいる時、ジェイドの量子属性耐性貫通+20%。同時にジェイドも「債権回収者」状態を獲得する。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "quantumpen"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "quantumpen",
+                    "multiplier": 20,
+                    "tag": ["self", "quantumdpen"]
+                }
+            ]
         }
     ]
 }
