@@ -18,3 +18,10 @@ code ./scripts/update-trace-data.py
 pip install -r requirement.txt
 python ./scripts/update-trace-data.py
 ```
+
+### Local server
+
+```zsh
+pnpm install -g http-server
+http-server ./ -c-1   
+```

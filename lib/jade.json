@@ -1,8 +1,8 @@
 {
     "id": "1314",
-    "ENname": "Jade(WIP)",
-    "CNname": "翡翠(施工中)",
-    "JAname": "ジェイド(建設中)",
+    "ENname": "Jade",
+    "CNname": "翡翠",
+    "JAname": "ジェイド",
     "imageurl": "images/characters/1314.png",
     "imagelargeurl": "images/characters/1314-large.png",
     "etype": "quantum",
@@ -469,7 +469,25 @@
             "ttype": "quantumdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
         },
         {
             "id": "1314202",
@@ -483,7 +501,25 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 4,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
         },
         {
             "id": "1314203",
@@ -497,7 +533,25 @@
             "ttype": "quantumdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 3.2,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
         },
         {
             "id": "1314204",
@@ -511,7 +565,25 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
         },
         {
             "id": "1314205",
@@ -525,7 +597,25 @@
             "ttype": "quantumdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
         },
         {
             "id": "1314206",
@@ -539,7 +629,25 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 6,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
         },
         {
             "id": "1314207",
@@ -553,7 +661,25 @@
             "ttype": "quantumdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 4.8,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
         },
         {
             "id": "1314208",
@@ -567,7 +693,25 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "effectres"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "effectres"
+                    ]
+                }
+            ]
         },
         {
             "id": "1314209",
@@ -581,7 +725,25 @@
             "ttype": "atk",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "atk"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "atk",
+                    "multiplier": 8,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "atk"
+                    ]
+                }
+            ]
         },
         {
             "id": "1314210",
@@ -595,7 +757,25 @@
             "ttype": "quantumdmg",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "self",
+                "quantumdmg"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "quantumdmg",
+                    "multiplier": 6.4,
+                    "tag": [
+                        "buff",
+                        "self",
+                        "quantumdmg"
+                    ]
+                }
+            ]
         }
     ],
     "eidolon": [
