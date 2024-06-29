@@ -684,16 +684,16 @@
         },
         {
             "id": "1314",
-            "ENname": "Jade(WIP)",
-            "CNname": "翡翠(施工中)",
-            "JAname": "ジェイド(建設中)",
+            "ENname": "Jade",
+            "CNname": "翡翠",
+            "JAname": "ジェイド",
             "imageurl": "images/characters/1314.png",
             "imagelargeurl": "images/characters/1314-large.png",
             "etype": "quantum",
             "wtype": "erudition",
             "rarity": "5",
-            "infourl": "lib/characters/1314.json",
-            "spoiler": true
+            "infourl": "lib/jade.json",
+            "spoiler": false
         }
     ]
 }

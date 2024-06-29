@@ -9,7 +9,7 @@ from deepdiff import DeepDiff
 from jsonmerge import Merger
 
 # update the path here
-file_path = './lib/boothill.json'
+file_path = './lib/jade.json'
 
 # Declaration
 class TraceDataItem:
