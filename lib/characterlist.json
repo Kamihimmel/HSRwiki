@@ -680,7 +680,7 @@
             "wtype": "destruction",
             "rarity": "5",
             "infourl": "lib/characters/1310.json",
-            "spoiler": false
+            "spoiler": true
         },
         {
             "id": "1314",
@@ -693,7 +693,7 @@
             "wtype": "erudition",
             "rarity": "5",
             "infourl": "lib/jade.json",
-            "spoiler": false
+            "spoiler": true
         }
     ]
 }
