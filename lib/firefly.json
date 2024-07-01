@@ -1,8 +1,8 @@
 {
     "id": "1310",
-    "ENname": "Firefly(WIP)",
-    "CNname": "流萤(施工中)",
-    "JAname": "ホタル(建設中)",
+    "ENname": "Firefly",
+    "CNname": "流萤",
+    "JAname": "ホタル",
     "imageurl": "images/characters/1310.png",
     "imagelargeurl": "images/characters/1310-large.png",
     "etype": "fire",
@@ -102,7 +102,7 @@
             "id": "131001",
             "ENname": "Order: Flare Propulsion",
             "CNname": "指令-闪燃推进",
-            "JAname": "コマンド-フラッシュオーバー{RUBY_B#すいしん}推進{RUBY_E#}",
+            "JAname": "コマンド-フラッシュオーバー推進",
             "imageurl": "images/skills/1310-131001.png",
             "DescriptionEN": "Deals Fire DMG equal to [1]% of SAM's ATK to a single target enemy.",
             "DescriptionCN": "对指定敌方单体造成等同于装甲「萨姆」[1]%攻击力的火属性伤害。",
@@ -125,13 +125,23 @@
                     "8": 120,
                     "9": 130
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "fireatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "fireatk"]
+                }
             ]
         },
         {
             "id": "131008",
             "ENname": "Fyrefly Type-IV: Pyrogenic Decimation",
             "CNname": "火萤Ⅳ型-底火斩击",
-            "JAname": "ファイアフライ-IV-{RUBY_B#ていかざんげき}底火斬撃{RUBY_E#}",
+            "JAname": "ファイアフライ-IV-底火斬撃",
             "imageurl": "images/skills/1310-131008.png",
             "DescriptionEN": "Restores HP by an amount equal to [2]% of this unit's Max HP. Deals Fire DMG equal to [1]% of SAM's ATK to a single target enemy.",
             "DescriptionCN": "回复等同于自身[2]%生命上限的生命值。对指定敌方单体造成等同于装甲「萨姆」[1]%攻击力的火属性伤害。",
@@ -165,13 +175,30 @@
                     "8": 20,
                     "9": 20
                 }
+            ],
+            "tags": ["singleatk", "normalatk", "fireatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "normalatk", "fireatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "heal",
+                    "multipliertarget": "hp",
+                    "multiplier": 2,
+                    "tag": ["heal"]
+                }
             ]
         },
         {
             "id": "131002",
             "ENname": "Order: Aerial Bombardment",
             "CNname": "指令-天火轰击",
-            "JAname": "コマンド-{RUBY_B#てんかごうげき}天火轟撃{RUBY_E#}",
+            "JAname": "コマンド-天火轟撃",
             "imageurl": "images/skills/1310-131002.png",
             "DescriptionEN": "Consumes HP equal to [2]% of this unit's Max HP and regenerates a fixed amount of Energy equal to [3]% of this unit's Max Energy. Deals Fire DMG equal to [1]% of SAM's ATK to a single target enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by [4]%.",
             "DescriptionCN": "消耗等同于自身生命上限[2]%的生命值固定恢复等同于自身[3]%能量上限的能量，对指定敌方单体造成等同于装甲「萨姆」[1]%攻击力的火属性伤害。若当前生命值不足，施放战技时装甲「萨姆」的当前生命值降至1点。使自身下一次行动提前[4]%。",
@@ -251,13 +278,37 @@
                     "14": 25,
                     "15": 25
                 }
+            ],
+            "tags": ["singleatk", "skillatk", "fireatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "tag": ["singleatk", "skillatk", "fireatk"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "energy",
+                    "multiplier": 3,
+                    "tag": ["self", "energy"]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 25,
+                    "tag": ["self", "actionf"]
+                }
             ]
         },
         {
             "id": "131009",
             "ENname": "Fyrefly Type-IV: Deathstar Overload",
             "CNname": "火萤Ⅳ型-死星过载",
-            "JAname": "ファイアフライ-IV-{RUBY_B#しせい}死星{RUBY_E#}オーバーロード",
+            "JAname": "ファイアフライ-IV-死星オーバーロード",
             "imageurl": "images/skills/1310-131009.png",
             "DescriptionEN": "Restores HP by an amount equal to [3]% of this unit's Max HP. Applies Fire Weakness to a single target enemy, lasting for [4] turn(s). Deals Fire DMG equal to ([5] × Break Effect + [1]%) of SAM's ATK to this target. At the same time, deals Fire DMG equal to ([6] × Break Effect + [2]%) of SAM's ATK to adjacent targets. The Break Effect taken into the calculation is capped at [7]%.",
             "DescriptionCN": "回复等同于自身[3]%生命上限的生命值。为指定敌方单体添加火属性弱点，持续[4]回合。对该目标造成等同于装甲「萨姆」（[5]*击破特攻+[1]%）攻击力的火属性伤害。同时对其相邻目标造成等同于装甲「萨姆」（[6]*击破特攻+[2]%）攻击力的火属性伤害。最多计算[7]%击破特攻。",
@@ -388,13 +439,64 @@
                     "14": 360,
                     "15": 360
                 }
+            ],
+            "tags": ["singleenemy", "blastakt", "fireatk", "self", "heal"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "hp",
+                    "multiplier": 25,
+                    "tag": ["heal", "self"]
+                },
+                {
+                    "iid": "2",
+                    "type": "debuff",
+                    "multipliertarget": "addweakness",
+                    "multiplier": 100,
+                    "tag": ["singleenemy", "addweakness"]
+                },
+                {
+                    "iid": "3",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 1,
+                    "group": "firefly-skill-group-1",
+                    "tag": ["singleenemy", "skillatk", "fireatk"]
+                },
+                {
+                    "iid": "4",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 0.2,
+                    "maxstack": 360,
+                    "group": "firefly-skill-group-1",
+                    "tag": ["singleenemy", "skillatk", "fireatk"]
+                },
+                {
+                    "iid": "5",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 2,
+                    "group": "firefly-skill-group-1",
+                    "tag": ["blastatk", "skillatk", "fireatk"]
+                },
+                {
+                    "iid": "6",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 0.1,
+                    "maxstack": 360,
+                    "group": "firefly-skill-group-1",
+                    "tag": ["blastatk", "skillatk", "fireatk"]
+                }
             ]
         },
         {
             "id": "131003",
             "ENname": "Fyrefly Type-IV: Complete Combustion",
             "CNname": "火萤Ⅳ型-完全燃烧",
-            "JAname": "ファイアフライ-IV-{RUBY_B#かんぜんねんしょう}完全燃焼{RUBY_E#}",
+            "JAname": "ファイアフライ-IV-完全燃焼",
             "imageurl": "images/skills/1310-131003.png",
             "DescriptionEN": "Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by [3], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break efficiency by [2]% and the Break DMG dealt by SAM to the enemy targets by [1]%, lasting until this current attack ends. A countdown timer for the Complete Combustion state appears on the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of [4]. SAM cannot use Ultimate while in Complete Combustion.",
             "DescriptionCN": "进入「完全燃烧」状态，自身行动提前100%并获得强化普攻和强化战技。「完全燃烧」状态下速度提高[3]点，且施放强化普攻、强化战技时自身弱点击破效率提高[2]%、使敌方目标受到装甲「萨姆」造成的击破伤害提高[1]%，持续至本次攻击结束。 行动序列上出现「完全燃烧」倒计时，倒计时回合开始时装甲「萨姆」解除「完全燃烧」状态，倒计时固定拥有[4]速度。 「完全燃烧」状态下装甲「萨姆」无法施放终结技。",
@@ -475,13 +577,44 @@
                     "14": 70,
                     "15": 70
                 }
+            ],
+            "tags": ["buff", "actionf", "self"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "actionf",
+                    "multiplier": 100,
+                    "tag": ["self", "actionf"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": ["self", "speedpt"]
+                },
+                {
+                    "iid": "3",
+                    "type": "buff",
+                    "addtarget": "weaknessbreakefficiency",
+                    "multiplier": 2,
+                    "tag": ["weaknessbreakefficiency", "self"]
+                },
+                {
+                    "iid": "4",
+                    "type": "buff",
+                    "addtarget": "breakdmg",
+                    "multiplier": 1,
+                    "tag": ["self", "breakdmg"]
+                }
             ]
         },
         {
             "id": "131004",
             "ENname": "Chrysalid Pyronexus",
             "CNname": "茧式源火中枢",
-            "JAname": "ホタル{RUBY_B#しき}式{RUBY_E#}{RUBY_B#げんかちゅうすう}源火中枢{RUBY_E#}",
+            "JAname": "ホタル式源火中枢",
             "imageurl": "images/skills/1310-131004.png",
             "DescriptionEN": "The lower the HP, the less DMG received. When HP is [3]% or lower, the DMG Reduction reaches its maximum effect, reducing up to [1]%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by [4]%. If Energy is lower than [2]% when the battle starts, regenerates Energy to [2]%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
             "DescriptionCN": "生命值越低受到的伤害越低，生命值小于等于[3]%时减伤效果达到最大值，最多降低[1]%。「完全燃烧」状态下减伤效果维持最大值，效果抵抗提高[4]%。 战斗开始时若能量不足[2]%则使其恢复至[2]%。当能量恢复至上限时解除自身所有负面效果。",
@@ -561,13 +694,30 @@
                     "14": 38,
                     "15": 40
                 }
+            ],
+            "tags": ["buff", "self", "dmgreduction"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "dmgreduction",
+                    "multiplier": 1,
+                    "tag": ["buff", "dmgreduction", "self"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "effectres"]
+                }
             ]
         },
         {
             "id": "131007",
             "ENname": "Δ Order: Meteoric Incineration",
             "CNname": "Δ指令-焦土陨击",
-            "JAname": "Δコマンド-{RUBY_B#しょうどいんげき}焦土隕撃{RUBY_E#}",
+            "JAname": "Δコマンド-焦土隕撃",
             "imageurl": "images/skills/1310-131007.png",
             "DescriptionEN": "Leaps into the air and moves about freely for 5 seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for 2 turn(s). Then, deals Fire DMG equal to 200% of SAM's ATK to all enemies.",
             "DescriptionCN": "跳跃至空中并进行自由移动，持续5秒，此时施放下落攻击可以提前结束持续时间。持续时间结束后，下落并立即攻击一定范围内的所有敌人，每个波次开始时为敌方全体添加火属性弱点，持续2回合，此后对敌方全体造成等同于装甲「萨姆」200%攻击力的火属性伤害。",
@@ -577,7 +727,24 @@
             "buffskill": false,
             "teamskill": true,
             "weaknessbreak": 60,
-            "energyregen": 0
+            "energyregen": 0,
+            "tags": ["allenemy", "aoe", "fireatk"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "debuff",
+                    "multipliertarget": "addweakness",
+                    "multiplier": 100,
+                    "tag": ["allenemy", "addweakness"]
+                },
+                {
+                    "iid": "2",
+                    "type": "dmg",
+                    "multipliertarget": "atk",
+                    "multiplier": 200,
+                    "tag": ["aoe", "fireatk"]
+                }
+            ]
         }
     ],
     "tracedata": [
@@ -600,7 +767,7 @@
             "tiny": false,
             "ENname": "Module β: Autoreactive Armor",
             "CNname": "β模组-自限装甲",
-            "JAname": "βモジュール-{RUBY_B#じこせいげんそうこう}自己制限装甲{RUBY_E#}",
+            "JAname": "βモジュール-自己制限装甲",
             "DescriptionEN": "When SAM is in Complete Combustion with a Break Effect that is equal to or greater than 200%/360%, attacking a Weakness-Broken enemy target will convert the Toughness Reduction of this attack into 1 instance of 35%/50% Super Break DMG.",
             "DescriptionCN": "「完全燃烧」状态下，当装甲「萨姆」的击破特攻大于等于200%/360%时，攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次35%/50%的超击破伤害。",
             "DescriptionJP": "「完全燃焼」状態の時、装甲「サム」の撃破特効が200%/360%以上の場合、弱点撃破状態の敵に攻撃を行った後、その回の攻撃の削靭値を35%/50%分の超撃破ダメージに転換する。",
@@ -614,7 +781,7 @@
             "tiny": false,
             "ENname": "Module γ: Core Overload",
             "CNname": "γ模组-过载核心",
-            "JAname": "γモジュール-{RUBY_B#かふか}過負荷{RUBY_E#}コア",
+            "JAname": "γモジュール-過負荷コア",
             "DescriptionEN": "For every 10 point(s) of SAM's ATK that exceeds 1800, increases this unit's Break Effect by 0.8%.",
             "DescriptionCN": "若装甲「萨姆」的攻击力高于1800点，每超过10点攻击力可使自身击破特攻提高0.8%。",
             "DescriptionJP": "装甲「サム」の攻撃力が1800を超えた時、超過した攻撃力10につき、自身の撃破特効+0.8%。",
@@ -635,7 +802,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         },
         {
             "id": "1310202",
@@ -649,7 +826,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 4,
+                    "tag": ["buff", "self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1310203",
@@ -663,7 +850,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 5.3,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         },
         {
             "id": "1310204",
@@ -677,7 +874,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 2,
+                    "tag": ["buff", "self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1310205",
@@ -691,7 +898,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         },
         {
             "id": "1310206",
@@ -705,7 +922,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 6,
+                    "tag": ["buff", "self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1310207",
@@ -719,7 +946,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         },
         {
             "id": "1310208",
@@ -733,7 +970,17 @@
             "ttype": "spd",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "speedpt"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "speedpt",
+                    "multiplier": 3,
+                    "tag": ["buff", "self", "speedpt"]
+                }
+            ]
         },
         {
             "id": "1310209",
@@ -747,7 +994,17 @@
             "ttype": "effectres",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 8,
+                    "tag": ["buff", "self", "effectres"]
+                }
+            ]
         },
         {
             "id": "1310210",
@@ -761,7 +1018,17 @@
             "ttype": "breakeffect",
             "stype": "trace",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "breakeffect"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "breakeffect",
+                    "multiplier": 10.7,
+                    "tag": ["buff", "self", "breakeffect"]
+                }
+            ]
         }
     ],
     "eidolon": [
@@ -770,21 +1037,31 @@
             "eidolonnum": 1,
             "ENname": "In Reddened Chrysalis, I Once Rest",
             "CNname": "我曾安眠，赤染之茧",
-            "JAname": "かつて{RUBY_B#あんみん}安眠{RUBY_E#}せし{RUBY_B#あかぞめ}赤染{RUBY_E#}の{RUBY_B#まゆ}繭{RUBY_E#}",
+            "JAname": "かつて安眠せし赤染の繭",
             "imageurl": "images/skills/1310-e1.png",
             "DescriptionEN": "When using the Enhanced Skill, ignores 15% of the target's DEF. The Enhanced Skill does not consume Skill Points.",
             "DescriptionCN": "施放强化战技时无视目标15%的防御，且强化战技不消耗战技点。",
             "DescriptionJP": "強化戦闘スキル「ファイアフライ-IV-死星オーバーロード」を発動する時、ターゲットの防御力を15%無視し、SPを消費しない。",
             "stype": "eidolon",
             "buffskill": false,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "ignoredef"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "ignoredef",
+                    "multiplier": 15,
+                    "tag": ["self", "ignoredef"]
+                }
+            ]
         },
         {
             "id": "131002-2",
             "eidolonnum": 2,
             "ENname": "From Shattered Sky, I Free Fall",
             "CNname": "自破碎的天空坠落",
-            "JAname": "{RUBY_B#くだ}砕{RUBY_E#}かれし{RUBY_B#そら}空{RUBY_E#}からの{RUBY_B#ついらく}墜落{RUBY_E#}",
+            "JAname": "砕かれし空からの墜落",
             "imageurl": "images/skills/1310-e2.png",
             "DescriptionEN": "While in Complete Combustion, using the Enhanced Basic ATK or the Enhanced Skill to defeat an enemy target or to break their Weakness allows SAM to immediately gain 1 extra turn. This effect can trigger again after 1 turn(s).",
             "DescriptionCN": "「完全燃烧」状态下施放强化普攻、强化战技消灭敌方目标或使目标陷入弱点击破状态时，装甲「萨姆」立即获得1个额外回合。该效果在1回合后可再次触发。",
@@ -798,7 +1075,7 @@
             "eidolonnum": 3,
             "ENname": "Amidst Silenced Stars, I Deep Sleep",
             "CNname": "沉睡在静默的星河",
-            "JAname": "{RUBY_B#しず}静{RUBY_E#}かな{RUBY_B#ほし}星{RUBY_E#}の{RUBY_B#かわ}川{RUBY_E#}で{RUBY_B#ねむ}眠{RUBY_E#}る",
+            "JAname": "静かな星の川で眠る",
             "imageurl": "images/skills/1310-e3.png",
             "DescriptionEN": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
             "DescriptionCN": "战技等级+2，最多不超过15级，普攻等级+1，最多不超过10级。",
@@ -812,21 +1089,31 @@
             "eidolonnum": 4,
             "ENname": "Upon Lighted Fyrefly, I Soon Gaze",
             "CNname": "我会看见，飞萤之火",
-            "JAname": "いつか{RUBY_B#ほたるび}蛍火{RUBY_E#}を この{RUBY_B#め}目{RUBY_E#}に",
+            "JAname": "いつか蛍火を この目に",
             "imageurl": "images/skills/1310-e4.png",
             "DescriptionEN": "While in Complete Combustion, increases SAM's Effect RES by 50%.",
             "DescriptionCN": "「完全燃烧」状态下，装甲「萨姆」的效果抵抗提高50%。",
             "DescriptionJP": "「完全燃焼」状態の時、装甲「サム」の効果抵抗+50%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": ["buff", "self", "effectres"],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "effectres",
+                    "multiplier": 50,
+                    "tag": ["self", "effectres"]
+                }
+            ]
         },
         {
             "id": "131005-5",
             "eidolonnum": 5,
             "ENname": "From Undreamt Night, I Thence Shine",
             "CNname": "自无梦的长夜亮起",
-            "JAname": "{RUBY_B#ゆめ}夢{RUBY_E#}なき{RUBY_B#なが}長{RUBY_E#}い{RUBY_B#よる}夜{RUBY_E#}が {RUBY_B#あ}明{RUBY_E#}ける",
+            "JAname": "夢なき長い夜が 明ける",
             "imageurl": "images/skills/1310-e5.png",
             "DescriptionEN": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
             "DescriptionCN": "终结技等级+2，最多不超过15级，天赋等级+2，最多不超过15级。",
@@ -840,14 +1127,37 @@
             "eidolonnum": 6,
             "ENname": "In Finalized Morrow, I Full Bloom",
             "CNname": "绽放在终竟的明天",
-            "JAname": "{RUBY_B#お}終{RUBY_E#}わりの{RUBY_B#あす}明日{RUBY_E#}に{RUBY_B#さ}咲{RUBY_E#}き{RUBY_B#ほこ}誇{RUBY_E#}る",
+            "JAname": "終わりの明日に咲き誇る",
             "imageurl": "images/skills/1310-e6.png",
             "DescriptionEN": "While in Complete Combustion, increases SAM's Fire RES PEN by 20%. When using the Enhanced Basic ATK or Enhanced Skill, increases the Weakness Break efficiency by 50%.",
             "DescriptionCN": "「完全燃烧」状态下装甲「萨姆」的火属性抗性穿透提高20%。施放强化普攻、强化战技时弱点击破效率提高50%。",
             "DescriptionJP": "「完全燃焼」状態の時、装甲「サム」の炎属性耐性貫通+20%。強化通常攻撃「ファイアフライ-IV-底火斬撃」または強化戦闘スキル「ファイアフライ-IV-死星オーバーロード」を発動する時、弱点撃破効率+50%。",
             "stype": "eidolon",
             "buffskill": true,
-            "teamskill": false
+            "teamskill": false,
+            "tags": [
+                "buff",
+                "firepen",
+                "weaknessbreakefficiency",
+                "self",
+                "special"
+            ],
+            "effect": [
+                {
+                    "iid": "1",
+                    "type": "buff",
+                    "addtarget": "firepen",
+                    "multiplier": 20,
+                    "tag": ["self", "firepen"]
+                },
+                {
+                    "iid": "2",
+                    "type": "buff",
+                    "addtarget": "weaknessbreakefficiency",
+                    "multiplier": 50,
+                    "tag": ["self", "weaknessbreakefficiency"]
+                }
+            ]
         }
     ]
 }
