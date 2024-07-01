@@ -8,8 +8,8 @@ from pprint import pprint
 from deepdiff import DeepDiff
 from jsonmerge import Merger
 
-# update the path here
-file_path = './lib/jade.json'
+# ***update the path here***
+file_path = './lib/firefly.json'
 
 # Declaration
 class TraceDataItem:
@@ -43,15 +43,19 @@ class TraceDataItem:
         multiplier = self.parse_number_from_name()
         if multiplier is None:
             return None
+        buff_type = self.type;
+        # handle the special case of 'spd' type
+        if buff_type == 'spd':
+            buff_type = 'speedpt'
         nodes = {
-            'tags': ['buff', 'self', self.type],
+            'tags': ['buff', 'self', buff_type],
             'effect': [
                 {
                     'iid': "1",
                     'type': "buff",
-                    'addtarget': self.type,
+                    'addtarget': buff_type,
                     'multiplier': multiplier,
-                    'tag': ["buff", "self", self.type]
+                    'tag': ["buff", "self", buff_type]
                 }
             ]
         }

@@ -25,3 +25,11 @@ python ./scripts/update-trace-data.py
 pnpm install -g http-server
 http-server ./ -c-1   
 ```
+
+### Flutter Client
+
+```zsh
+# config the remote to localhost or 127.0.0.1
+# then run the web client
+flutter run -d chrome --web-browser-flag "--disable-web-security"
+```

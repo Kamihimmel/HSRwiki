@@ -207,7 +207,7 @@
                     "multipliertarget": "atk",
                     "multiplier": 1,
                     "tag": [
-                        "singleally",
+                        "singleenemy",
                         "fireatk"
                     ]
                 },
