@@ -1165,6 +1165,18 @@
             "spoiler": true
         },
         {
+            "id": "21046",
+            "ENname": "Poised to Bloom",
+            "CNname": "芳华待灼",
+            "JAname": "{RUBY_B#うつく}美{RUBY_E#}しき{RUBY_B#はな}華{RUBY_E#}よ{RUBY_B#いま}今{RUBY_E#}{RUBY_B#さ}咲{RUBY_E#}かん",
+            "imageurl": "images/lightcones/21046.png",
+            "imagelargeurl": "images/lightcones/21046l.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21046.json",
+            "spoiler": false
+        },
+        {
             "id": "22002",
             "ENname": "For Tomorrow's Journey(WIP)",
             "CNname": "为了明日的旅途(施工中)",
@@ -1247,6 +1259,30 @@
             "rarity": "5",
             "infourl": "lib/lightcones/23027.json",
             "spoiler": true
+        },
+        {
+            "id": "23029",
+            "ENname": "Those Many Springs",
+            "CNname": "那无数个春天",
+            "JAname": "{RUBY_B#いくどめ}幾度目{RUBY_E#}かの{RUBY_B#はる}春{RUBY_E#}",
+            "imageurl": "images/lightcones/23029.png",
+            "imagelargeurl": "images/lightcones/23029l.png",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23029.json",
+            "spoiler": false
+        },
+        {
+            "id": "23030",
+            "ENname": "Dance at Sunset",
+            "CNname": "落日时起舞",
+            "JAname": "{RUBY_B#ゆうひ}夕日{RUBY_E#}に{RUBY_B#ま}舞{RUBY_E#}う",
+            "imageurl": "images/lightcones/23030.png",
+            "imagelargeurl": "images/lightcones/23030l.png",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23030.json",
+            "spoiler": false
         }
     ]
 }
