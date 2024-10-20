@@ -471,6 +471,30 @@
             "rope": "images/relics/IconRelic_314_6.png",
             "infourl": "lib/relics/314.json",
             "spoiler": true
+        },
+        {
+            "id": "317",
+            "ENname": "Lushaka, the Sunken Seas",
+            "CNname": "沉陆海域露莎卡",
+            "JAname": "{RUBY_B#うみ}海{RUBY_E#}に{RUBY_B#しず}沈{RUBY_E#}んだルサカ",
+            "imageurl": "images/relics/317.png",
+            "set": "2",
+            "sphere": "images/relics/IconRelic_317_5.png",
+            "rope": "images/relics/IconRelic_317_6.png",
+            "infourl": "lib/relics/317.json",
+            "spoiler": false
+        },
+        {
+            "id": "318",
+            "ENname": "The Wondrous BananAmusement Park",
+            "CNname": "奇想蕉乐园",
+            "JAname": "{RUBY_B#きそうてんがい}奇想天外{RUBY_E#}のバナダイス",
+            "imageurl": "images/relics/318.png",
+            "set": "2",
+            "sphere": "images/relics/IconRelic_318_5.png",
+            "rope": "images/relics/IconRelic_318_6.png",
+            "infourl": "lib/relics/318.json",
+            "spoiler": false
         }
     ]
 }
