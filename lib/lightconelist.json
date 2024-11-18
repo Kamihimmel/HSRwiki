@@ -1165,6 +1165,42 @@
             "spoiler": true
         },
         {
+            "id": "21046",
+            "ENname": "Poised to Bloom",
+            "CNname": "芳华待灼",
+            "JAname": "{RUBY_B#うつく}美{RUBY_E#}しき{RUBY_B#はな}華{RUBY_E#}よ{RUBY_B#いま}今{RUBY_E#}{RUBY_B#さ}咲{RUBY_E#}かん",
+            "imageurl": "images/lightcones/21046.png",
+            "imagelargeurl": "images/lightcones/21046l.png",
+            "wtype": "harmony",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21046.json",
+            "spoiler": false
+        },
+        {
+            "id": "21047",
+            "ENname": "Shadowed by Night",
+            "CNname": "黑夜如影随行",
+            "JAname": "{RUBY_B#よる}夜{RUBY_E#}は{RUBY_B#かげ}影{RUBY_E#}のように{RUBY_B#つ}付{RUBY_E#}き{RUBY_B#まと}纏{RUBY_E#}う",
+            "imageurl": "images/lightcones/21047.png",
+            "imagelargeurl": "images/lightcones/21047l.png",
+            "wtype": "thehunt",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21047.json",
+            "spoiler": false
+        },
+        {
+            "id": "21048",
+            "ENname": "Dream's Montage",
+            "CNname": "梦的蒙太奇",
+            "JAname": "{RUBY_B#ゆめ}夢{RUBY_E#}のモンタージュ",
+            "imageurl": "images/lightcones/21048.png",
+            "imagelargeurl": "images/lightcones/21048l.png",
+            "wtype": "abundance",
+            "rarity": "4",
+            "infourl": "lib/lightcones/21048.json",
+            "spoiler": false
+        },
+        {
             "id": "22002",
             "ENname": "For Tomorrow's Journey(WIP)",
             "CNname": "为了明日的旅途(施工中)",
@@ -1175,6 +1211,18 @@
             "rarity": "4",
             "infourl": "lib/lightcones/22002.json",
             "spoiler": true
+        },
+        {
+            "id": "22003",
+            "ENname": "Ninja Record: Sound Hunt",
+            "CNname": "忍事录•音律狩猎",
+            "JAname": "{RUBY_B#にんじろく}忍事録{RUBY_E#}・{RUBY_B#おんりつしゅりょう}音律狩猟{RUBY_E#}",
+            "imageurl": "images/lightcones/22003.png",
+            "imagelargeurl": "images/lightcones/22003l.png",
+            "wtype": "destruction",
+            "rarity": "4",
+            "infourl": "lib/lightcones/22003.json",
+            "spoiler": false
         },
         {
             "id": "23021",
@@ -1247,6 +1295,66 @@
             "rarity": "5",
             "infourl": "lib/lightcones/23027.json",
             "spoiler": true
+        },
+        {
+            "id": "23029",
+            "ENname": "Those Many Springs",
+            "CNname": "那无数个春天",
+            "JAname": "{RUBY_B#いくどめ}幾度目{RUBY_E#}かの{RUBY_B#はる}春{RUBY_E#}",
+            "imageurl": "images/lightcones/23029.png",
+            "imagelargeurl": "images/lightcones/23029l.png",
+            "wtype": "nihility",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23029.json",
+            "spoiler": false
+        },
+        {
+            "id": "23030",
+            "ENname": "Dance at Sunset",
+            "CNname": "落日时起舞",
+            "JAname": "{RUBY_B#ゆうひ}夕日{RUBY_E#}に{RUBY_B#ま}舞{RUBY_E#}う",
+            "imageurl": "images/lightcones/23030.png",
+            "imagelargeurl": "images/lightcones/23030l.png",
+            "wtype": "destruction",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23030.json",
+            "spoiler": false
+        },
+        {
+            "id": "23031",
+            "ENname": "I Venture Forth to Hunt",
+            "CNname": "我将，巡征追猎",
+            "JAname": "{RUBY_B#われ}我{RUBY_E#}が{RUBY_B#ゆ}征{RUBY_E#}く{RUBY_B#じゅんしゅ}巡狩{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}",
+            "imageurl": "images/lightcones/23031.png",
+            "imagelargeurl": "images/lightcones/23031l.png",
+            "wtype": "thehunt",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23031.json",
+            "spoiler": false
+        },
+        {
+            "id": "23032",
+            "ENname": "Scent Alone Stays True",
+            "CNname": "唯有香如故",
+            "JAname": "{RUBY_B#せきじつ}昔日{RUBY_E#}の{RUBY_B#かお}香{RUBY_E#}りは{RUBY_B#いま}今{RUBY_E#}も{RUBY_B#なお}猶{RUBY_E#}",
+            "imageurl": "images/lightcones/23032.png",
+            "imagelargeurl": "images/lightcones/23032l.png",
+            "wtype": "abundance",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23032.json",
+            "spoiler": false
+        },
+        {
+            "id": "23033",
+            "ENname": "Ninjutsu Inscription: Dazzling Evilbreaker",
+            "CNname": "忍法帖•缭乱破魔",
+            "JAname": "{RUBY_B#にんぽうちょう}忍法帖{RUBY_E#}・{RUBY_B#りょうらんはま}繚乱破魔{RUBY_E#}",
+            "imageurl": "images/lightcones/23033.png",
+            "imagelargeurl": "images/lightcones/23033l.png",
+            "wtype": "erudition",
+            "rarity": "5",
+            "infourl": "lib/lightcones/23033.json",
+            "spoiler": false
         }
     ]
 }
